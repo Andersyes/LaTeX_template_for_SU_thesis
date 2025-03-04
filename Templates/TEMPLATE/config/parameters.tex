@@ -1,0 +1,257 @@
+% Encodage des caractères et langue du document
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[francais]{babel}
+\usepackage{textgreek}
+\usepackage{bbm}
+\usepackage{hyperref}
+\usepackage{ifthen}
+\usepackage[strict]{changepage}
+\usepackage{titletoc}
+\usepackage[para]{threeparttable}
+\usepackage{lscape}
+% \usepackage[latin1]{inputenc}
+\usepackage[cyr]{aeguill}
+\usepackage{xspace}
+\usepackage[version=4]{mhchem}
+
+\setcounter{tocdepth}{3} % Pour que les subsubsections n'apparaissent pas dans la TOC
+\setcounter{secnumdepth}{3} % Pour que les subsubsections ne soient pas numérotées
+\usepackage{fixltx2e}
+
+\usepackage[final]{pdfpages}
+
+%%%%%%%%%% Gestions des marges %%%%%%%%%% 
+\usepackage{geometry} % Si on a besoin d'une configuration plus précise des marges
+\geometry{a4paper,                % format de papier
+% Définition des marges :
+  left= 3cm,right = 2cm,  % marge intérieure extérieure à la page
+  top = 3cm,bottom = 3cm,
+% En-tête et pied de page :
+  headheight=6mm,         % espace réservé à l'en-tête dans la marge top
+  %headsep=3mm,            % espace entre le corps et l'en-tête
+  %footskip=9mm            % espace entre le corps et le pied de page
+  marginparwidth = 16mm
+}
+
+\raggedbottom
+\reversemarginpar
+% \usepackage{showframe} % pour afficher les traits des marges
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Gestion maths %%%%%%%%%% 
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{mathtools} % version modifiée de amsmath, ajoute des symboles, etc.
+\usepackage{mathrsfs}% pour rajouter un format de lettres façon calligraphie en math mode.
+\DeclareMathOperator{\sinc}{sinc}
+\DeclareMathOperator{\e}{e}
+
+\usepackage[locale = FR]{siunitx} % Pour gérer les unités
+\sisetup{inter-unit-product=\ensuremath{{}\cdot{}}} % pour mettre des points médians entre les unités quand il y en a plusieurs
+\sisetup{separate-uncertainty=true,multi-part-units=single} % pour faire des incertitudes en écrivant \SI{valeur(incertitude)}{unité}
+\DeclareSIUnit\vitesse{\meter\per\second}
+\usepackage{eurosym}
+\DeclareSIUnit{\octet}{o}
+
+\def\Oz{O\textsubscript{3}}
+\def\Ammo{NH\textsubscript{3}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%  Graphics / Table / List %%%%%%%%%%%
+\usepackage{graphicx,array,tikz,multirow,adjustbox}
+\usepackage{caption,subcaption} % permet de faire des subfigures (remplace le package subfig)
+\usepackage{svg,float}
+\usepackage{booktabs,paralist}
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+\usepackage[section]{placeins}
+\usepackage{hanging}
+\usepackage{sidecap}
+\sidecaptionvpos{figure}{t}
+
+% \captionsetup{font=small}
+\usepackage{supertabular}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Header / Foot %%%%%%%%%%% 
+\usepackage{fancyhdr,emptypage} % garantit que les pages blanches avant les débuts de chapitres soient vraiment blanches (pas d'en-tête ni de pied de page)
+\let\cleardoublepage\clearpage
+ 
+\fancypagestyle{plain}{ %% Page chapitre, toc ...
+    \fancyhead{}\fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+%%%%%%%%%%% Page normale
+\pagestyle{fancy}
+    \renewcommand{\chaptermark}[1]{\markboth{\color{curcolor}\thechapter.\ #1}{}}
+    %\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ #1}{}} % sert à personnaliser l'affichage de \leftmark (ici : le mot "Chapitre", le numéro, un point, et le titre du chapitre, sans écrire en majuscules)
+    % \renewcommand{\chaptermark}[1]{\markleft{\chaptername \ \thechapter.\ #1}{}}
+    % \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}} % sert à personnaliser l'affichage de \rightmark (ici : le numéro et le titre de la section en cours, sans écrire en majuscules)
+    \renewcommand{\sectionmark}[1]{\markright{\uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.\arabic{section}.\ #1}} % JULIE : pour mettre en haut à droite le numéro du chapitre puis la section
+    \fancyhf{} % assure que les entête et pieds de page sont vides au départ
+    \fancyhead[LE]{\selectfont\nouppercase{\leftmark}}
+    \fancyhead[RO]{\selectfont\uppercase{\rightmark}}
+    \fancyfoot[C]{\thepage}
+% Explications :
+% L = left, R = right, C = center, E = even pages, O = odd pages
+%\leftmark : adds name and number of the current top-level structure (for example, Chapter for reports and books classes; Section for articles ) in uppercase letters.
+%\rightmark : adds name and number of the current next to top-level structure (Section for reports and books; Subsection for articles) in uppercase letters.
+
+%%%%%%%%%%% Personnaliser les premières pages des chapitres
+
+\usepackage[Lenny]{fncychap}
+\ChNameVar{\fontsize{25}{25}\selectfont\textcolor{curcolor}}
+\ChRuleWidth{0pt}
+\ChNumVar{\fontsize{60}{62}\selectfont\textcolor{curcolor}}
+
+\makeatletter
+\ChTitleVar{\Huge\rm}
+\renewcommand{\DOCH}{%
+\setlength{\fboxrule}{\RW} % Let fbox lines be controlled by
+\fbox{\CNV\FmN{Chapter}\space \CNoV\thechapter}\par\nobreak
+\vskip 20\p@}
+\renewcommand{\DOTIS}[1]{%
+\CTV\bfseries\FmTi{#1}\par\nobreak
+\vskip 20\p@}
+\makeatother
+
+\usepackage[explicit]{titlesec}
+\usepackage{lmodern}
+\usepackage{lipsum}
+\usepackage{color}
+
+\newlength\chapnumb
+\setlength\chapnumb{3cm}
+ 
+\titleformat{\chapter}[block]{
+  \normalfont}{}{0pt} {
+    \parbox[b]{\chapnumb}{
+      \fontsize{100}{100}\selectfont\textcolor{curcolor}\thechapter}
+      \parbox[b]{\dimexpr\textwidth-\chapnumb\relax}{
+        \raggedleft
+        \hfill{\color{curcolor} \Huge \textbf{#1}}\\
+        \textcolor{curcolor}{\rule{\dimexpr\textwidth-\chapnumb\relax}{0.4pt}}
+  }
+}
+ 
+\titleformat{name=\chapter,numberless}[block]
+{\normalfont}{}{0pt}
+{\parbox[b]{\chapnumb}{%
+   \mbox{}}%
+  \parbox[b]{\dimexpr\textwidth-\chapnumb\relax}{%
+    \raggedleft%
+    \hfill{\LARGE#1}\\
+    \rule{\dimexpr\textwidth-\chapnumb\relax}{0.4pt}}}
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+\renewcommand{\thesection}{\arabic{section}}
+
+% Pour la table des matières
+% \usepackage{minitoc}	
+% \usepackage[french,nohints,tight]{minitoc}		% Mini table des matières, en français
+%\setcounter{minitocdepth}{6} % Mini-toc détaillées (sections/sous-sections)
+\setcounter{tocdepth}{6} % 
+%\setlength{\mtcindent}{-1em} % décalage des minitoc à gauche
+%\dominitoc
+
+\usepackage[nottoc]{tocbibind} % pour que la bibliographie apparaisse dans la table des matières (avec l'option pour que la table des matières elle-même n'apparaisse pas dans la table des matières).
+% \usepackage{tocloft}% pour pouvoir modifier les tailles d'espacement dans la table des matières
+\usepackage[titles]{tocloft}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Divers %%%%%%%%%%% 
+\usepackage{textcomp} % rajoute des symboles 
+\usepackage{xcolor} % pour ajouter de la couleur (si besoin)
+\usepackage{epigraph} % pour rajouter des citations en début de chapitre  \epigraph{Citation}}{Auteur}
+\usepackage{titling}
+\usepackage{lipsum} 
+\usepackage{csquotes} % added 07/09/21
+
+\usepackage{xspace}
+\usepackage{afterpage}
+\renewcommand{\baselinestretch}{1.2} % interligne
+
+\usepackage[textsize=footnotesize]{todonotes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Links ref  %%%%%%%%%%% 
+\usepackage{bookmark}
+\usepackage{acronym}
+\usepackage[nameinlink,english]{cleveref} % noabbrev
+\Crefname{figure}{Fig.}{Figs.} % traduction des références aux figures/tables/équations
+\crefname{figure}{fig.}{figs.}
+\Crefname{equation}{Eq.}{Eqs.}
+\crefname{equation}{eq.}{eqs.}
+\Crefname{table}{Table.}{Tables.}
+\crefname{table}{table.}{tables.}
+
+% Configuration de hyperref
+\definecolor{color_ref}{rgb}{0.18, 0.31, 0.31} % couleur cite
+\definecolor{color_link}{RGB}{36, 56, 141}
+\definecolor{curcolor}{RGB}{113,127,184} % couleur des liens (bleu clair)
+\definecolor{persoblue}{HTML}{BCD4E6}
+\definecolor{persolavender}{HTML}{967BB6}
+\definecolor{persogreen}{HTML}{6B8E23}
+\definecolor{persored}{HTML}{CD5C5C}
+\definecolor{persoorange}{HTML}{CA6F1E}
+\definecolor{persogrey}{HTML}{7EA9A5}
+\definecolor{persopink}{HTML}{B26A98}
+\definecolor{persobluedark}{HTML}{1B2892}
+
+
+\hypersetup{
+	colorlinks=true, % colore les liens au lieu de les encadrer
+	pdfstartview=FitV, % ouvre le PDF de façon à ce qu'il prenne la taille verticale de l'écran
+	urlcolor=color_link, % choix de la couleur des liens URL
+	linkcolor= color_link, % choix de la couleur des liens internes (table des matières, etc.)
+	citecolor=color_ref % choix de la couleur des liens de citations
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Bibliography ref  %%%%%%%%%%%
+
+\usepackage[hyperref=true,natbib=true,
+			backref=true,date=year,
+			backend=biber,
+			url=false,doi=true,isbn=false,%
+			minbibnames=1, % nb min authors in biblio
+			maxbibnames=6, % nb max authors in biblio
+			maxcitenames=1, % nb min authors as textual
+      mincitenames=1, % nb min authors as textual
+			% maxalphanames=1, %nb author ref
+			style=authoryear,%authoryear, numeric ,  alphabetic
+			sorting=nyt,uniquename=false,uniquelist=false]{biblatex}
+\renewcommand*{\bibfont}{\footnotesize}
+\setlength\bibitemsep{\itemsep}
+\renewbibmacro{in:}{} % remove In 
+
+% \DeclareUnicodeCharacter{2212}{-}
+
+%\renewcommand*{\labelalphaothers}{}
+\DeclareLabelalphaTemplate{
+  \labelelement{
+    \field[final]{shorthand}
+    \field{labelname}
+    \field{label}
+  }
+  \labelelement{\literal{,\addhighpenspace}}
+  \labelelement{\field{year}}
+}
+
+\AtEveryBibitem{%
+    \clearfield{note} % Remove note
+    \clearlist{language} % Remove doi
+}
+
+
+\usepackage{pdfpages}
+
+\usepackage{colortbl}
+
+

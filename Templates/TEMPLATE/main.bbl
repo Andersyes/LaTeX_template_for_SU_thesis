@@ -1,0 +1,729 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{akimotoHandbookAirQuality2023}{book}{}{}
+      \name{editor}{2}{}{%
+        {{hash=9481c3fc1ad4faa7633addccceb6b87b}{%
+           family={Akimoto},
+           familyi={A\bibinitperiod},
+           given={Hajime},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b731f0c4b79839e2a2126799dc786d51}{%
+           family={Tanimoto},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{96581d501da4c369677be32917ec528a}
+      \strng{fullhash}{5f93487b1948cd333a351810df6483d8}
+      \strng{fullhashraw}{5f93487b1948cd333a351810df6483d8}
+      \strng{bibnamehash}{5f93487b1948cd333a351810df6483d8}
+      \strng{editorbibnamehash}{5f93487b1948cd333a351810df6483d8}
+      \strng{editornamehash}{96581d501da4c369677be32917ec528a}
+      \strng{editorfullhash}{5f93487b1948cd333a351810df6483d8}
+      \strng{editorfullhashraw}{5f93487b1948cd333a351810df6483d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-981-15-2759-3 978-981-15-2760-9}
+      \field{langid}{english}
+      \field{title}{Handbook of {{Air Quality}} and {{Climate Change}}}
+      \field{urlday}{10}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-981-15-2760-9
+      \endverb
+    \endentry
+    \entry{archibaldDefiningPyromesGlobal2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b483cbce815889da9d9f8cbc72ddd0c9}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Sally},
+           giveni={S\bibinitperiod}}}%
+        {{hash=258d723c89e720510ed921f46b334d58}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Caroline\bibnamedelimb E.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c94ce744d2df47a031ac6b4bffd99cda}{%
+           family={{Gómez-Dans}},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ec77123b82e95a5fe95bb4494bde557c}{%
+           family={Bradstock},
+           familyi={B\bibinitperiod},
+           given={Ross\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{fullhash}{c5533c7d90074e6ead3df51711caf844}
+      \strng{fullhashraw}{c5533c7d90074e6ead3df51711caf844}
+      \strng{bibnamehash}{c5533c7d90074e6ead3df51711caf844}
+      \strng{authorbibnamehash}{c5533c7d90074e6ead3df51711caf844}
+      \strng{authornamehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{authorfullhash}{c5533c7d90074e6ead3df51711caf844}
+      \strng{authorfullhashraw}{c5533c7d90074e6ead3df51711caf844}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fire is a ubiquitous component of the Earth system that is poorly understood. To date, a global-scale understanding of fire is largely limited to the annual extent of burning as detected by satellites. This is problematic because fire is multidimensional, and focus on a single metric belies its complexity and importance within the Earth system. To address this, we identified five key characteristics of fire regimes---size, frequency, intensity, season, and extent---and combined new and existing global datasets to represent each. We assessed how these global fire regime characteristics are related to patterns of climate, vegetation (biomes), and human activity. Cross-correlations demonstrate that only certain combinations of fire characteristics are possible, reflecting fundamental constraints in the types of fire regimes that can exist. A Bayesian clustering algorithm identified five global syndromes of fire regimes, or pyromes. Four pyromes represent distinctions between crown, litter, and grass-fueled fires, and the relationship of these to biomes and climate are not deterministic. Pyromes were partially discriminated on the basis of available moisture and rainfall seasonality. Human impacts also affected pyromes and are globally apparent as the driver of a fifth and unique pyrome that represents human-engineered modifications to fire characteristics. Differing biomes and climates may be represented within the same pyrome, implying that pathways of change in future fire regimes in response to changes in climate and human activity may be difficult to predict.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{4}
+      \field{number}{16}
+      \field{title}{Defining Pyromes and Global Syndromes of Fire Regimes}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{6442\bibrangedash 6447}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1211466110
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/YN3IMUGC/Archibald et al. - 2013 - Defining pyromes and global syndromes of fire regimes.pdf
+      \endverb
+    \endentry
+    \entry{bondFireGlobalHerbivore2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d65f5ab6a7013e61d5e7070f05bbce64}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ca1460e7b0a6bf20b9b6242780de3e7b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3698d86a5cf2764e5857ade877a71e9c}
+      \strng{fullhash}{b556d58993afe4049cedfb7d5d58a3e5}
+      \strng{fullhashraw}{b556d58993afe4049cedfb7d5d58a3e5}
+      \strng{bibnamehash}{b556d58993afe4049cedfb7d5d58a3e5}
+      \strng{authorbibnamehash}{b556d58993afe4049cedfb7d5d58a3e5}
+      \strng{authornamehash}{3698d86a5cf2764e5857ade877a71e9c}
+      \strng{authorfullhash}{b556d58993afe4049cedfb7d5d58a3e5}
+      \strng{authorfullhashraw}{b556d58993afe4049cedfb7d5d58a3e5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shorttitle}{Fire as a Global `Herbivore'}
+      \field{title}{Fire as a Global `Herbivore': The Ecology and Evolution of Flammable Ecosystems}
+      \field{urlday}{23}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{387\bibrangedash 394}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tree.2005.04.025
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/FMJEIFVD/Bond and Keeley - 2005 - Fire as a global ‘herbivore’ the ecology and evolution of flammable ecosystems.pdf
+      \endverb
+    \endentry
+    \entry{bowmanFireEarthSystem2009}{article}{}{}
+      \name{author}{22}{}{%
+        {{hash=2622496871b64bbc2928122de35e0dad}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelimb M.\bibnamedelimi J.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b088190af1d73b4472712fa35f3d9f39}{%
+           family={Balch},
+           familyi={B\bibinitperiod},
+           given={Jennifer\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=30995f3d88c7cb1c802b76442ebc591d}{%
+           family={Artaxo},
+           familyi={A\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d65f5ab6a7013e61d5e7070f05bbce64}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2774f03c60a1ef74c619179de50e0ac4}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={Jean\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1c6ad55367809d69f85d866890e5a7a7}{%
+           family={Cochrane},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1f470f503aafcab4fe8a1b5a00df6968}{%
+           family={D'Antonio},
+           familyi={D\bibinitperiod},
+           given={Carla\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=973150ffa28f16777bb27bc9a9cd3b69}{%
+           family={DeFries},
+           familyi={D\bibinitperiod},
+           given={Ruth\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f150a0dd5d6db93c3910511b7a79e5e6}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2d8b568daee3ca6f2f789c173146865a}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Sandy\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d2e567395cd28a0cd054a2d858abaa81}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Fay\bibnamedelima H.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ca1460e7b0a6bf20b9b6242780de3e7b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=da84e2b61ad65434e6c8e526c68107c1}{%
+           family={Krawchuk},
+           familyi={K\bibinitperiod},
+           given={Meg\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=646e4a8d080884a08ff5b4c7da6791ff}{%
+           family={Kull},
+           familyi={K\bibinitperiod},
+           given={Christian\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=754cd8004dd986d828359494d3478308}{%
+           family={Marston},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Brad},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e0a0113d498d9399f8fa44e9ad83dbad}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Max\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1106379cbd54fef6c38861c6151dc187}{%
+           family={Prentice},
+           familyi={P\bibinitperiod},
+           given={I.\bibnamedelimi Colin},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=15143f82c0e6d3ed75c2563bdf742dca}{%
+           family={Roos},
+           familyi={R\bibinitperiod},
+           given={Christopher\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=b0479ffe08174851718aa36012366b7b}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ac95d72357412190830fc4a6609334a6}{%
+           family={Swetnam},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0a0a3207c1e56b53db2906da00685502}{%
+           family={{van der Werf}},
+           familyi={v\bibinitperiod},
+           given={Guido\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=10a9202c3f193811453aed6c0b676222}{%
+           family={Pyne},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{8964331b9bc89a9093a74a0bb2656bf8}
+      \strng{fullhash}{f55fa6c325d02df0772d2b679d2e2192}
+      \strng{fullhashraw}{f55fa6c325d02df0772d2b679d2e2192}
+      \strng{bibnamehash}{8964331b9bc89a9093a74a0bb2656bf8}
+      \strng{authorbibnamehash}{8964331b9bc89a9093a74a0bb2656bf8}
+      \strng{authornamehash}{8964331b9bc89a9093a74a0bb2656bf8}
+      \strng{authorfullhash}{f55fa6c325d02df0772d2b679d2e2192}
+      \strng{authorfullhashraw}{f55fa6c325d02df0772d2b679d2e2192}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fire is a worldwide phenomenon that appears in the geological record soon after the appearance of terrestrial plants. Fire influences global ecosystem patterns and processes, including vegetation distribution and structure, the carbon cycle, and climate. Although humans and fire have always coexisted, our capacity to manage fire remains imperfect and may become more difficult in the future as climate change alters fire regimes. This risk is difficult to assess, however, because fires are still poorly represented in global models. Here, we discuss some of the most important issues involved in developing a better understanding of the role of fire in the Earth system.}
+      \field{journaltitle}{Science}
+      \field{month}{4}
+      \field{number}{5926}
+      \field{title}{Fire in the {{Earth System}}}
+      \field{urlday}{22}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{324}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{481\bibrangedash 484}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1163886
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/2HUINIYG/Bowman et al. - 2009 - Fire in the Earth System.pdf
+      \endverb
+    \endentry
+    \entry{brasseurModelingAtmosphericChemistry2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=bb7f32cacf393d722336e84d00e38ecb}{%
+           family={Brasseur},
+           familyi={B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fd706fae928ed6e6080d50e69bf39a4b}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{f8f5bf063dfd7667faf4c66f856d398c}
+      \strng{fullhash}{aae703414962c99b8c234ce24a6192fb}
+      \strng{fullhashraw}{aae703414962c99b8c234ce24a6192fb}
+      \strng{bibnamehash}{aae703414962c99b8c234ce24a6192fb}
+      \strng{authorbibnamehash}{aae703414962c99b8c234ce24a6192fb}
+      \strng{authornamehash}{f8f5bf063dfd7667faf4c66f856d398c}
+      \strng{authorfullhash}{aae703414962c99b8c234ce24a6192fb}
+      \strng{authorfullhashraw}{aae703414962c99b8c234ce24a6192fb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-107-14696-9}
+      \field{langid}{english}
+      \field{title}{Modeling of Atmospheric Chemistry}
+      \field{year}{2017}
+    \endentry
+    \entry{delmasPhysiqueChimieLatmosphere2005}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=01c61419d1bca06ed4f26d82289e0679}{%
+           family={Delmas},
+           familyi={D\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6238385f0eb3f3086ce68052fa8cb32b}{%
+           family={Mégie},
+           familyi={M\bibinitperiod},
+           given={Gérard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e599a9385804a68bdb08e41a22ed6ef}{%
+           family={Peuch},
+           familyi={P\bibinitperiod},
+           given={Vincent-Henri},
+           giveni={V\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Belin}%
+      }
+      \strng{namehash}{e6996a174d2a21072fddf1c16af62235}
+      \strng{fullhash}{c68eb509df3366593e5fae75e08fc528}
+      \strng{fullhashraw}{c68eb509df3366593e5fae75e08fc528}
+      \strng{bibnamehash}{c68eb509df3366593e5fae75e08fc528}
+      \strng{authorbibnamehash}{c68eb509df3366593e5fae75e08fc528}
+      \strng{authornamehash}{e6996a174d2a21072fddf1c16af62235}
+      \strng{authorfullhash}{c68eb509df3366593e5fae75e08fc528}
+      \strng{authorfullhashraw}{c68eb509df3366593e5fae75e08fc528}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-2-7011-3700-1}
+      \field{langid}{fre}
+      \field{series}{{Collection échelles}}
+      \field{title}{{Physique et chimie de l'atmosphère}}
+      \field{year}{2005}
+    \endentry
+    \entry{faoIntegratedFireManagement2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4807e0aebe86c17f559853f35515b533}{%
+           family={FAO},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FAO}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhashraw}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhashraw}{4807e0aebe86c17f559853f35515b533}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-5-138916-4}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Integrated Fire Management Voluntary Guidelines}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.4060/cd1090en
+      \endverb
+    \endentry
+    \entry{jacobIntroductionAtmosphericChemistry1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9adb41f2a66506c7e816424b455ad5ff}{%
+           family={Jacob},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{fullhash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{fullhashraw}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{bibnamehash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{authorbibnamehash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{authornamehash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{authorfullhash}{9adb41f2a66506c7e816424b455ad5ff}
+      \strng{authorfullhashraw}{9adb41f2a66506c7e816424b455ad5ff}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Atmospheric chemistry is one of the fastest growing fields in the earth sciences. Until now, however, there has been no book designed to help students capture the essence of the subject in a brief course of study. Daniel Jacob, a leading researcher and teacher in the field, addresses that problem by presenting the first textbook on atmospheric chemistry for a one-semester course. Based on the approach he developed in his class at Harvard, Jacob introduces students in clear and concise chapters to the fundamentals as well as the latest ideas and findings in the field. Jacob's aim is to show students how to use basic principles of physics and chemistry to describe a complex system such as the atmosphere. He also seeks to give students an overview of the current state of research and the work that led to this point. Jacob begins with atmospheric structure, design of simple models, atmospheric transport, and the continuity equation, and continues with geochemical cycles, the greenhouse effect, aerosols, stratospheric ozone, the oxidizing power of the atmosphere, smog, and acid rain. Each chapter concludes with a problem set based on recent scientific literature. This is a novel approach to problem-set writing, and one that successfully introduces students to the prevailing issues. This is a major contribution to a growing area of study and will be welcomed enthusiastically by students and teachers alike.}
+      \field{isbn}{978-0-691-00185-2}
+      \field{langid}{english}
+      \field{title}{Introduction to {{Atmospheric Chemistry}}}
+      \field{year}{1999}
+      \keyw{Science / Earth Sciences / General,Science / Earth Sciences / Meteorology & Climatology}
+    \endentry
+    \entry{kelleyHowContemporaryBioclimatic2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=79787148854f732428a85cd9ea9d4e3b}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Douglas\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=10441fcf6709315023d4b854392be787}{%
+           family={Bistinas},
+           familyi={B\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d9462f0be851abdeacb1338b6885754b}{%
+           family={Whitley},
+           familyi={W\bibinitperiod},
+           given={Rhys},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fe67f066e787b07d30a27fb7a3ed8df3}{%
+           family={Burton},
+           familyi={B\bibinitperiod},
+           given={Chantelle},
+           giveni={C\bibinitperiod}}}%
+        {{hash=24084f8169807ae614db628ad3fe4b36}{%
+           family={Marthews},
+           familyi={M\bibinitperiod},
+           given={Toby\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5d4e37543d0a89c80560b2dbf014118e}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{c68ec31c734895b92528323fae7f0382}
+      \strng{fullhash}{58368259683ecd6acd943b69ec5e1d07}
+      \strng{fullhashraw}{58368259683ecd6acd943b69ec5e1d07}
+      \strng{bibnamehash}{58368259683ecd6acd943b69ec5e1d07}
+      \strng{authorbibnamehash}{58368259683ecd6acd943b69ec5e1d07}
+      \strng{authornamehash}{c68ec31c734895b92528323fae7f0382}
+      \strng{authorfullhash}{58368259683ecd6acd943b69ec5e1d07}
+      \strng{authorfullhashraw}{58368259683ecd6acd943b69ec5e1d07}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Anthropogenically driven declines in tropical savannah burnt area1,2 have recently received attention due to their effect on trends in global burnt area3,4. Large-scale trends in ecosystems where vegetation has adapted to infrequent fire, especially in cooler and wetter forested areas, are less well understood. Here, small changes in fire regimes can have a substantial impact on local biogeochemistry5. To investigate trends in fire across a wide range of ecosystems, we used Bayesian inference6 to quantify four primary controls on burnt area: fuel continuity, fuel moisture, ignitions and anthropogenic suppression. We found that fuel continuity and moisture are the dominant limiting factors of burnt area globally. Suppression is most important in cropland areas, whereas savannahs and boreal forests are most sensitive to ignitions. We quantify fire regime shifts in areas with more than one, and often counteracting, trends in these controls. Forests are of particular concern, where we show average shifts in controls of 2.3--2.6\% of their potential maximum per year, mainly driven by trends in fuel continuity and moisture. This study gives added importance to understanding long-term future changes in the controls on fire and the effect of fire trends on ecosystem function.}
+      \field{issn}{1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{How Contemporary Bioclimatic and Human Controls Change Global Fire Regimes}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{690\bibrangedash 696}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41558-019-0540-7
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/XJPTPNY6/Kelley et al. - 2019 - How contemporary bioclimatic and human controls change global fire regimes.pdf
+      \endverb
+      \keyw{Biogeochemistry,Climate change,Climate sciences,Climate-change impacts,Environmental impact}
+    \endentry
+    \entry{lelieveldGlobalTroposphericHydroxyl2016}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f8b5b8c728d030dc09eb13262c0f7d69}{%
+           family={Lelieveld},
+           familyi={L\bibinitperiod},
+           given={Jos},
+           giveni={J\bibinitperiod}}}%
+        {{hash=27ce56f83d2031ba375d94bf11c75bb9}{%
+           family={Gromov},
+           familyi={G\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dbb53ee45e597fa65019d111989d6a85}{%
+           family={Pozzer},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3db682563a47306e5d8e362f2561ae86}{%
+           family={Taraborrelli},
+           familyi={T\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus GmbH}%
+      }
+      \strng{namehash}{9b0378356bc0dc5eb56e44fdfc4d27bc}
+      \strng{fullhash}{ac0745a987cde8f18c4b385bb57b029c}
+      \strng{fullhashraw}{ac0745a987cde8f18c4b385bb57b029c}
+      \strng{bibnamehash}{ac0745a987cde8f18c4b385bb57b029c}
+      \strng{authorbibnamehash}{ac0745a987cde8f18c4b385bb57b029c}
+      \strng{authornamehash}{9b0378356bc0dc5eb56e44fdfc4d27bc}
+      \strng{authorfullhash}{ac0745a987cde8f18c4b385bb57b029c}
+      \strng{authorfullhashraw}{ac0745a987cde8f18c4b385bb57b029c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The self-cleaning or oxidation capacity of the atmosphere is principally controlled by hydroxyl (OH) radicals in the troposphere. Hydroxyl has primary (P) and secondary (S) sources, the former mainly through the photodissociation of ozone, the latter through OH recycling in radical reaction chains. We used the recent Mainz Organics Mechanism (MOM) to advance volatile organic carbon (VOC) chemistry in the general circulation model EMAC (ECHAM/MESSy Atmospheric Chemistry) and show that S is larger than previously assumed. By including emissions of a large number of primary VOC, and accounting for their complete breakdown and intermediate products, MOM is mass-conserving and calculates substantially higher OH reactivity from VOC oxidation compared to predecessor models. Whereas previously P and S were found to be of similar magnitude, the present work indicates that S may be twice as large, mostly due to OH recycling in the free troposphere. Further, we find that nighttime OH formation may be significant in the polluted subtropical boundary layer in summer. With a mean OH recycling probability of about 67 \%, global OH is buffered and not sensitive to perturbations by natural or anthropogenic emission changes. Complementary primary and secondary OH formation mechanisms in pristine and polluted environments in the continental and marine troposphere, connected through long-range transport of O3, can maintain stable global OH levels.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Global Tropospheric Hydroxyl Distribution, Budget and Reactivity}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{12477\bibrangedash 12493}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.5194/acp-16-12477-2016
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/V9YEDWYI/Lelieveld et al. - 2016 - Global tropospheric hydroxyl distribution, budget and reactivity.pdf
+      \endverb
+    \endentry
+    \entry{liTrendsDriversArcticboreal2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=59d3473e9c04650ae0d33dbbcb76570a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanxi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5e964be0af794377d3faa5576bfaf4bc}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=42f6181eb67b9a39e475722f47481a53}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fec6925bb90f37ff26022d0d81da05a6}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b18beb02480a3a1ef9fd63d5257de2a8}{%
+           family={Veraverbeke},
+           familyi={V\bibinitperiod},
+           given={Sander},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ea98445f870b04e4609ee5793848fb4}
+      \strng{fullhash}{f83c6829db05de05d3825c5c1da7356f}
+      \strng{fullhashraw}{f83c6829db05de05d3825c5c1da7356f}
+      \strng{bibnamehash}{f83c6829db05de05d3825c5c1da7356f}
+      \strng{authorbibnamehash}{f83c6829db05de05d3825c5c1da7356f}
+      \strng{authornamehash}{9ea98445f870b04e4609ee5793848fb4}
+      \strng{authorfullhash}{f83c6829db05de05d3825c5c1da7356f}
+      \strng{authorfullhashraw}{f83c6829db05de05d3825c5c1da7356f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change has disproportional effects on Arctic-boreal ecosystems, as the increase of air temperatures in these northern regions is several times higher than the global average. Ongoing warming and drying have resulted in recent record-breaking fire years in Arctic-boreal ecosystems, resulting in substantial carbon emissions that might accelerate climate change. While recent trends in Arctic-boreal burned area have been well documented, it is still unclear how fire intensity has changed. Fire intensity relates to the energy release from combustion and to a large extent drives the impact of a fire on the vegetation and soils, the emission of various gasses and the combustion completeness of different fuels. Here, we used the active fire product from the Moderate Resolution Imaging Spectroradiometer (MODIS) to examine trends in fire radiative power (FRP) over the entire Arctic-boreal region. We found a significant increase in annual median fire intensity between 2003 and 2022 in Eurasian boreal forests, for both daytime (increase of 0.392~MW/km2 per year, R2~=~0.56, p~{$<~$}0.001) and nighttime fires (increase of 0.175~MW/km2 per year, R2~=~0.47, p~{$<~$}0.001), while no general trend in FRP was observed in boreal North America. This increase in FRP in Eurasian boreal forests was strongly associated with simultaneous increases in air temperature, vapour pressure deficit, fire weather and fuel availability. We estimated that for Eurasia with each degree increase in air temperature, annual median daytime FRP increases with 1.58~MW/km2 in the tundra and 0.94~MW/km2 in the taiga. Climate change has thus resulted in a widespread and clear increase in fire intensity in central and eastern Eurasia while we could not discern clear trends in Arctic-boreal North America. Arctic-boreal fire intensity may further increase with climate change, with potentially major consequences for fire regimes, carbon emissions and society.}
+      \field{issn}{0048-9697}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{month}{5}
+      \field{title}{Trends and Drivers of {{Arctic-boreal}} Fire Intensity between 2003 and 2022}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{926}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{172020}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2024.172020
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/KJ7WD55X/S0048969724021636.html
+      \endverb
+      \keyw{Arctic-boreal,Climate change,Fire intensity,Fire weather,Fuel}
+    \endentry
+    \entry{wottonLengthFireSeason1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=82c39c39c07b5d96e615b4a3ae451be9}{%
+           family={Wotton},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=10cbbd142e4d3e8fe07d8c35e33fb7c6}{%
+           family={Flannigan},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Canadian Institute of Forestry}%
+      }
+      \strng{namehash}{0b4ddbefe652e2667f40fa7ad39b3933}
+      \strng{fullhash}{57de01a95bcb7f14eaff763e5cb26df6}
+      \strng{fullhashraw}{57de01a95bcb7f14eaff763e5cb26df6}
+      \strng{bibnamehash}{57de01a95bcb7f14eaff763e5cb26df6}
+      \strng{authorbibnamehash}{57de01a95bcb7f14eaff763e5cb26df6}
+      \strng{authornamehash}{0b4ddbefe652e2667f40fa7ad39b3933}
+      \strng{authorfullhash}{57de01a95bcb7f14eaff763e5cb26df6}
+      \strng{authorfullhashraw}{57de01a95bcb7f14eaff763e5cb26df6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Canadian Climate Centre's General Circulation Model provides two 10-year data sets of simulated daily weather for a large array of gridpoints across North America. A subset of this data, comprised of only those points within the forested part of Canada, was selected for study. Fire season length was calculated from data sets of both the 1{\enspace}{\texttimes}{\enspace}CO2 and 2{\enspace}{\texttimes}{\enspace}CO2 runs of the model as well as for the actual climate, using observed data from weather stations. A comparison made between the results of the 1{\enspace}{\texttimes}{\enspace}CO2 and 2{\enspace}{\texttimes}{\enspace}CO2 runs indicated a significantly longer fire season across the country under a doubling of atmospheric CO2 levels. Implications of this result, such as a fall fire season in Canada's east and greater strains on management agencies, are discussed.}
+      \field{issn}{0015-7546}
+      \field{journaltitle}{The Forestry Chronicle}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Length of the Fire Season in a Changing Climate}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{69}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{187\bibrangedash 192}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.5558/tfc69187-2
+      \endverb
+      \verb{file}
+      \verb /home/ehret/snap/zotero-snap/common/Zotero/storage/F8NMKWV3/Wotton and Flannigan - 1993 - Length of the fire season in a changing climate.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
