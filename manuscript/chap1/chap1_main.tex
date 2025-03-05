@@ -1,0 +1,143 @@
+\newcounter{counterboxspe}
+\setcounter{counterboxspe}{0}
+
+\newcounter{counterboxspetosave}
+\setcounter{counterboxspetosave}{0}
+\stepcounter{counterboxspetosave}
+\newcounter{paramFireRegime}
+\setcounter{paramFireRegime}{\thecounterboxspetosave{}}
+\stepcounter{counterboxspetosave}
+\newcounter{ExtremFires}
+\setcounter{ExtremFires}{\thecounterboxspetosave{}}
+\stepcounter{counterboxspetosave}
+\newcounter{pyroCb}
+\setcounter{pyroCb}{\thecounterboxspetosave{}}
+\stepcounter{counterboxspetosave}
+\newcounter{climatechange}
+\setcounter{climatechange}{\thecounterboxspetosave{}}
+\stepcounter{counterboxspetosave}
+\newcounter{scenarClim}
+\setcounter{scenarClim}{\thecounterboxspetosave{}}
+
+
+\makeatletter
+\newcounter{chemeqn}
+\newenvironment{chemequations}{\let\c@equation\c@chemeqn\def\theequation{R.\thechemeqn}}{}
+\makeatother
+
+\newcounter{counterchapter}
+\setcounter{counterchapter}{1}
+
+\chapter{Introduction}\label{chap1}
+\chaptermark{\color{curcolor} Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\vspace*{\fill}
+\begin{singlespace}
+\textbf{Contenu du chapitre}
+
+    
+    
+~
+
+\startcontents[chapters]
+\printcontents[chapters]{}{1}{}
+\end{singlespace} 
+\vspace*{\fill}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Les feux de biomasse: généralités}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{spacing}{1.0}
+~
+\end{spacing}
+
+\centerline{\begin{minipage}{0.85\textwidth}
+\setlength\parindent{12pt}
+\noindent
+\textit{Earth is an intrinsically flammable planet owing to its cover of carbon-rich vegetation, seasonally dry climates, atmospheric oxygen, and widespread lightning and volcano ignitions.}\footnote{\textit{La Terre est une planète intrinsèquement inflammable en raison de sa couverture végétale riche en carbone, de ses climats saisonniers secs, de l'oxygène atmosphérique et de l'importance des éclairs et des éruptions volcaniques.}} \citep{bowmanFireEarthSystem2009}
+\end{minipage}}
+
+\begin{spacing}{1.0}
+~
+\end{spacing}
+
+
+
+
+
+
+\begin{spacing}{1.5}
+    ~
+\end{spacing}
+
+\boxspe{\thecounterboxspe{}}{Quelques définitions}{
+\setlength\parindent{12pt}
+$\bullet$~~~\textit{Intensité des feux : } l'intensité des feux peut être obtenue par le biais de la puissance radiatif du feu (\textit{Fire Radiative Power}, FRP) \citep{liTrendsDriversArcticboreal2024}. La FRP représente l'énergie instantanée libérée par la ligne de feu (en MW.m\textsuperscript{-1}). Il est également possible de considérer l'intensité totale du feu par pixel de feu actif détecté par satellite (en MW.pixel\textsuperscript{-1}).
+
+\begin{spacing}{0.6}
+~
+\end{spacing}
+
+\noindent
+$\bullet$~~~\textit{Saison des feux : } d'après la définition de l'Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO), la saison des feux correspond à la "\textit{période de l'année durant laquelle les incendies sont susceptibles de se produire et d'affecter suffisamment les ressources pour justifier des activités organisées de gestion des incendies}" \citep{faoIntegratedFireManagement2024}.
+La définition de la saison des feux varie selon les études. Par exemple, \citet{wottonLengthFireSeason1993} considèrent que la saison des feux en Amérique du Nord commence lorsque la température maximale journalière est supérieure à 12\,\textdegree C pendant 3 jours consécutifs et finit lorsque la température maximale journalière est inférieure à 5\,\textdegree C pendant 3 jours consécutifs. \citet{archibaldDefiningPyromesGlobal2013} définissent la durée de la saison des feux comme le nombre de mois de l'année qui contiennent plus de 80\,\% de la surface brûlée annuelle moyenne totale.
+
+\begin{spacing}{0.6}
+~
+\end{spacing}
+
+\noindent
+$\bullet$~~~\textit{Régime de feux : } éléments caractéristiques décrivant le rôle des feux dans les écosystèmes et les paramètres impactant l'apparition des feux sur la base de plusieurs variables telles que la consommation de combustible et les schémas de propagation des incendies, l'intensité, la gravité, la fréquence, et la saisonnalité \citep{bondFireGlobalHerbivore2005}.
+
+\begin{spacing}{0.6}
+~
+\end{spacing}
+
+\label{box:paramFireRegime}
+}
+
+\begin{spacing}{1.5}
+    ~
+\end{spacing}
+
+
+Étant donné l'ensemble de ces constatations, quatre facteurs bioclimatiques et anthropiques impactant les régimes de feu sont identifiés par \citet{kelleyHowContemporaryBioclimatic2019}: 
+\begin{spacing}{1.0}
+~
+\end{spacing}
+
+\centerline{\begin{minipage}{0.85\textwidth}
+\setlength\parindent{12pt}
+\newline\noindent
+(1) la présence de combustible, déterminée par la couverture végétale, qui augmente la superficie brûlée; 
+\newline
+(2) l'humidité, qui diminue le risque d'incendie. Il s'agit également d'un indicateur sur la présence ou non de matière organique sèche et inflammable; 
+\newline
+(3) les départs de feu potentielles naturelles et anthropiques (ignition), qui augmentent le nombre d'incendies; 
+\newline
+(4) la suppression anthropique, qui diminue les surfaces brûlées et est déterminée par la gestion des incendies par l'être humain et la fragmentation de l'usage des terres.
+\end{minipage}}
+
+\begin{spacing}{1.0}
+~
+\end{spacing}
+
+
+}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\stopcontents[chapters]

@@ -1,0 +1,248 @@
+\newcommand{\sujet}[1]{\renewcommand{\sujet}{#1}}
+\newcommand{\auteur}[1]{\renewcommand{\auteur}{#1}}
+\newcommand{\encadrant}[1]{\renewcommand{\encadrant}{#1}}
+
+%\renewcommand{\thesection}{\uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.\arabic{section}}
+% \renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesection}{\uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.\arabic{section}} % pour mettre le numéro du chapitre devant les sections, sous-sections etc
+
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+%\renewcommand\cftchapfont{\normalfont}
+%\renewcommand\cftchappagefont{\normalfont}
+\renewcommand\cftsecfont{\normalfont}
+
+
+%{color}{HT si texte souhaité en haut}{texte du haut}{BT si texte souhaité en bas}{texte du bas}{TOC si à mettre dans table des matières}{texte}
+\newcommand{\boxcontour}[8]{%
+\vspace{.1cm}
+\begin{singlespace}
+\tikzstyle{titlebox}=[rectangle,inner sep=10pt,inner ysep=10pt,draw=#1,draw]%
+\tikzstyle{title}=[fill=white,anchor=west]%
+\tikzstyle{titlebis}=[fill=white,anchor=east]%
+\bigskip\noindent\begin{tikzpicture}
+\node[titlebox] (box){%
+    \begin{minipage}{0.955\textwidth}
+\ifthenelse{\equal{#6}{TOC}}{\addcontentsline{toc}{section}{#7}}{}
+\setlength\parindent{12pt}
+\noindent
+#8
+    \end{minipage}
+};
+\node[title] at (box.north west) {\color{#1}  #3};
+\ifthenelse{\equal{#2}{HT}}{\node[title] at (box.north west) {\color{#1}  #3};}{}
+\ifthenelse{\equal{#4}{BT}}{\node[titlebis] at (box.south east) {\color{#1}  #5};}{}
+\end{tikzpicture}\bigskip%
+\vspace{.1cm}
+\minitoc
+\end{singlespace}
+}
+
+
+
+
+
+
+
+\newcommand{\poetry}[2]{%
+\checkoddpage
+\ifoddpage {\itshape
+\vspace*{\stretch{2}}
+\hfill%
+\begin{minipage}{#1cm}
+#2
+\end{minipage}
+\vspace*{\stretch{6}}
+}
+\else {\itshape
+\vspace*{\stretch{2}}
+\begin{minipage}{#1cm}
+#2
+\end{minipage}
+\vspace*{\stretch{6}}
+}
+\fi
+}
+
+
+
+
+\newcommand{\poetryinv}[2]{%
+\checkoddpage
+\ifoddpage {\itshape
+\vspace*{\stretch{2}}
+\begin{minipage}{#1cm}
+#2
+\end{minipage}
+\vspace*{\stretch{6}}
+}
+\else {\itshape
+\vspace*{\stretch{2}}
+\hfill%
+\begin{minipage}{#1cm}
+#2
+\end{minipage}
+\vspace*{\stretch{6}}
+}
+\fi
+}
+
+
+
+
+
+
+
+
+
+
+%\newcommand{\initchap}[1]{%
+%\checkoddpage
+%\ifthenelse{\equal{#1}{G}}
+%{\ifoddpage {\newpage ~ \newpage} \else {} \fi}
+%{\ifoddpage {} \else {\newpage ~ \newpage} \fi}
+%}
+
+
+
+
+
+
+
+
+
+
+
+\newcommand{\boxspe}[3]{%
+\stepcounter{counterboxspe}
+\noindent
+\fcolorbox{white}{persoblue}{%
+\begin{minipage}{0.978\textwidth}
+\centerline{\begin{minipage}{0.97\textwidth}
+\setlength{\parskip}{0.1cm}
+\vspace{0.2cm}
+\textbf{Encadré \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 $\vert$ #2}
+\addcontentsline{toc}{subparagraph}{\scriptsize \textit{Box \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 - #2}}
+\vspace{0.2cm}
+\newline
+#3
+\vspace{0.2cm}
+\end{minipage}}
+\end{minipage}
+}}
+
+\newcommand{\boxspecontinued}[3]{%
+\noindent
+\fcolorbox{white}{persoblue}{%
+\begin{minipage}{0.978\textwidth}
+\centerline{\begin{minipage}{0.97\textwidth}
+\setlength{\parskip}{0.1cm}
+\vspace{0.2cm}
+\textbf{Box \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 $\vert$ #2} (\textit{suite})
+\vspace{0.2cm}
+\newline
+#3
+\vspace{0.2cm}
+\end{minipage}}
+\end{minipage}
+}}
+
+
+\newcommand{\boxspenoref}[3]{%
+\stepcounter{counterboxspe}
+\noindent
+\fcolorbox{white}{persoblue}{%
+\begin{minipage}{0.978\textwidth}
+\centerline{\begin{minipage}{0.97\textwidth}
+\setlength{\parskip}{0.1cm}
+\vspace{0.2cm}
+\textbf{Box \uppercase\expandafter{A\relax}.#1 $\vert$ #2}
+\vspace{0.2cm}
+\newline
+#3
+\vspace{0.2cm}
+\end{minipage}}
+\end{minipage}
+}}
+
+
+\newcommand{\boxspecontinuednoref}[3]{%
+\noindent
+\fcolorbox{white}{persoblue}{%
+\begin{minipage}{0.978\textwidth}
+\centerline{\begin{minipage}{0.97\textwidth}
+\setlength{\parskip}{0.1cm}
+\vspace{0.2cm}
+\textbf{Box \uppercase\expandafter{A\relax}.#1 $\vert$ #2} (\textit{continued})
+\vspace{0.2cm}
+\newline
+#3
+\vspace{0.2cm}
+\end{minipage}}
+\end{minipage}
+}}
+
+
+
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{} \vskip .5\baselineskip \par}
+
+\newcommand{\T}[1]{T\textsubscript{#1}}
+
+
+%%% Macro pour la mise en forme de la liste des publiations
+\newcommand{\Myprod}[3]{ % sans DOI
+\begin{singlespace}{#1}. "\textit{{#2}}". {#3}.
+\end{singlespace}}
+
+\newcommand{\MyprodwithDOI}[4]{ % avec DOI
+\begin{singlespace}{#1}. "\textit{{#2}}". {#3}.\newline
+{DOI: \href{https://doi.org/#4}{#4}}
+\end{singlespace}}
+
+% Chapitre sans mise en forme particulière (remerciements, conclusion
+\newcommand{\addchapnonumber}[1]{
+\phantomsection
+\addtocounter{chapter}{1}
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+\markboth{#1}{#1}
+\setcounter{section}{0}
+}
+
+%%% Macro pour mise en forme de l'abstract et résumé avec mots clés
+\newcommand{\AddResumeAbstract}{
+
+{\fontsize{10}{11}\selectfont
+\vspace*{\fill}
+{\noindent\Large\textbf{Abstract}}
+%\huge\textbf{Abstract}
+\bigskip
+\newline\theenabstract
+\vskip 2em \noindent\makebox[\linewidth]{\rule{.5\linewidth}{0.4pt}}
+\bigskip
+\newline \noindent\textbf{Keywords :}
+\theenkeywords
+\vspace*{\fill}}
+
+\newpage
+
+{\fontsize{10}{11}\selectfont
+\vspace*{\fill}
+{\noindent\Large\textbf{Résumé}}
+%\huge\textbf{Résumé}
+\bigskip
+\newline\thefrabstract
+\vskip 2em \noindent\makebox[\linewidth]{\rule{.5\linewidth}{0.4pt}}
+\bigskip
+\newline \noindent \textbf{Mots clés :}
+\thefrkeywords
+\vspace*{\fill}}
+}
+
+
+%%% POINT MEDIAN
+
+\newcommand{\pmedian}[0]{\kern-0.5pt\ensuremath\cdot\kern-0.5pt}
+
+
