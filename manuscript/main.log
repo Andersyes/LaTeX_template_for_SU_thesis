@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  4 MAR 2025 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  5 MAR 2025 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2221,7 +2221,77 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux (./others/avantpropos.aux) (./chap1/chap1_main.aux)
-(./annexes/annexe_chimieAtmo.aux))
+(./chap2/chap2_main.aux
+
+LaTeX Warning: Label `chap1' multiply defined.
+
+
+LaTeX Warning: Label `chap1@cref' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime@cref' multiply defined.
+
+) (./chap3/chap3_main.aux
+
+LaTeX Warning: Label `chap1' multiply defined.
+
+
+LaTeX Warning: Label `chap1@cref' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime@cref' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto@cref' multiply defined.
+
+) (./chap4/chap4_main.aux
+
+LaTeX Warning: Label `chap1' multiply defined.
+
+
+LaTeX Warning: Label `chap1@cref' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime@cref' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto@cref' multiply defined.
+
+) (./chap5/chap5_main.aux
+
+LaTeX Warning: Label `chap1' multiply defined.
+
+
+LaTeX Warning: Label `chap1@cref' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime' multiply defined.
+
+
+LaTeX Warning: Label `box:paramFireRegime@cref' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto' multiply defined.
+
+
+LaTeX Warning: Label `tab:table1p353Akimoto@cref' multiply defined.
+
+) (./annexes/annexe_chimieAtmo.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -2775,10 +2845,12 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 55.
  [6]
-
-LaTeX Warning: Citation 'bowmanFireEarthSystem2009' on page 7 undefined on inpu
-t line 71.
-
+! Undefined control sequence.
+<argument> ...indent {12pt} \noindent \loremipsum 
+                                                  [2] \end {minipage}
+l.71 \end{minipage}}
+                    
+? 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 110.
@@ -2828,19 +2900,16 @@ Type  H <return>  for immediate help.
 l.132 \end{minipage}}
                      
 ? 
-Package cleveref Info: loaded `english' language definitions on input line 137.
-
-[7]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 141.
 
 
-LaTeX Warning: Citation 'akimotoHandbookAirQuality2023' on page 8 undefined on 
+LaTeX Warning: Citation 'akimotoHandbookAirQuality2023' on page 7 undefined on 
 input line 142.
 
 
-LaTeX Warning: Citation 'akimotoHandbookAirQuality2023' on page 8 undefined on 
+LaTeX Warning: Citation 'akimotoHandbookAirQuality2023' on page 7 undefined on 
 input line 142.
 
 Package textcomp Info: Symbol \textmu not provided by
@@ -2852,19 +2921,19 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 
-LaTeX Warning: Hyper reference `chap2' on page 8 undefined on input line 205.
+LaTeX Warning: Hyper reference `chap2' on page 7 undefined on input line 205.
 
 
-LaTeX Warning: Hyper reference `chap3' on page 8 undefined on input line 205.
+LaTeX Warning: Hyper reference `chap3' on page 7 undefined on input line 205.
 
 
-LaTeX Warning: Hyper reference `chap4' on page 8 undefined on input line 205.
+LaTeX Warning: Hyper reference `chap4' on page 7 undefined on input line 205.
 
 
-LaTeX Warning: Hyper reference `chap5' on page 8 undefined on input line 205.
+LaTeX Warning: Hyper reference `chap5' on page 7 undefined on input line 205.
 
 
-LaTeX Warning: Hyper reference `chap6' on page 8 undefined on input line 205.
+LaTeX Warning: Hyper reference `chap6' on page 7 undefined on input line 205.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--205
@@ -2897,7 +2966,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--205
 l.205 }
        
 ? 
-)
+Package cleveref Info: loaded `english' language definitions on input line 205.
+
+[7])
 Package cleveref Info: loaded `english' language definitions on input line 43.
  [8]
 \openout2 = `chap3/chap3_main.aux'.
@@ -3798,7 +3869,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3810,46 +3881,34 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55031 strings out of 475189
- 1093385 string characters out of 5763838
- 1990557 words of memory out of 5000000
- 75215 multiletter control sequences out of 15000+600000
+ 55033 strings out of 475189
+ 1093435 string characters out of 5763838
+ 2002365 words of memory out of 5000000
+ 75213 multiletter control sequences out of 15000+600000
  675257 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,18n,120p,2304b,2281s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf
--dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/
-type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
-/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uh
-vr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.p
-fb>
-Output written on main.pdf (33 pages, 519318 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
+ic/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/he
+lvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
+.pfb>
+Output written on main.pdf (33 pages, 521004 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 57 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
