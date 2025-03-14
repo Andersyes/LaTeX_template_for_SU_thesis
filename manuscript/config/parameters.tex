@@ -1,12 +1,13 @@
 % Encodage des caractères et langue du document
 \usepackage{setspace}
-\usepackage[T1]{fontenc}
 % \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
+%\usepackage{lmodern} % latin modern font
+\usepackage{newtxtext,newtxmath} % Times font
+\usepackage{fourier} % Utopia font
 \usepackage[english]{babel}
+\usepackage[T1]{fontenc} % mandatory for hyphenation
 \usepackage{textgreek}
 \usepackage{bbm}
-\usepackage{hyperref}
 \usepackage{ifthen}
 \usepackage[strict]{changepage}
 \usepackage{titletoc}
@@ -20,6 +21,7 @@
 \setcounter{tocdepth}{3} % Pour que les subsubsections n'apparaissent pas dans la TOC
 \setcounter{secnumdepth}{3} % Pour que les subsubsections ne soient pas numérotées
 \usepackage{fixltx2e}
+\usepackage{hyperref}
 
 \usepackage[final]{pdfpages}
 
