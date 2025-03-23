@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  13 MAR 2025 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  23 MAR 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3230,24 +3230,38 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 17.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 16.
+(Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-1.
+3.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (4.56674pt too wide) in paragraph at lines 39--42
-\T1/ntxtlf/m/n/10.95 enna, Aus-tria, 24^^U28 Apr 2023, EGU23-6392, [][]$\T1/lmt
-t/m/n/10.95 https : / / doi . org / 10 . 5194 / egusphere-[]egu23-[]6392 ,[]
- []
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 48.
+ [7
 
-[7
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/lo
+cal/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 52.
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 57.
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 ! Undefined control sequence.
-l.47 ...ffective as reproducing Arctic INPs?, 3\up
+l.59 ...ffective as reproducing Arctic INPs?, 3\up
                                                   {rd} QUiESCENT Workshop, L...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3255,31 +3269,43 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 66.
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 70.
+Package cleveref Info: loaded `english' language definitions on input line 92.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 92.
+[8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{
+/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 ! Undefined control sequence.
-l.52     \texit
-               {How to trace the emission sources of Ice Nucleating Particle...
+<recently read> \texit 
+                       
+l.92             \item \texit
+                             {Projet modélisation Matlab} : encadrement de ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 63.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 63.
-Package cleveref Info: loaded `english' language definitions on input line 78.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 78.
- [8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+! Undefined control sequence.
+<recently read> \texit 
+                       
+l.93             \item \texit
+                             {Physique des millieux continus} : charge des T...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> 2\up 
                 {nde}
-l.93 ...in high school classes (\textit{2\up{nde}}
+l.120 ...n high school classes (\textit{2\up{nde}}
                                                   , \textit{1\up{ère}} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3290,7 +3316,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 1\up 
                 {ère}
-l.93 ...s (\textit{2\up{nde}}, \textit{1\up{ère}}
+l.120 ... (\textit{2\up{nde}}, \textit{1\up{ère}}
                                                    and \textit{terminales}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3298,23 +3324,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [9]
+[9])
+Package cleveref Info: loaded `english' language definitions on input line 37.
+ [10]
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
 \c@counterboxspe=\count538
-\c@chemeqn=\count539
-\c@counterchapter=\count540
+\c@counterchapter=\count539
 
 Chapter I.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 100.0pt on input line 31.
+(Font)              scaled to size 100.0pt on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 31.
+(Font)              scaled to size 24.88pt on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 31.
+(Font)              scaled to size 24.88pt on input line 28.
 
-Overfull \hbox (3.28485pt too wide) in paragraph at lines 31--31
+Overfull \hbox (3.28485pt too wide) in paragraph at lines 28--28
 | [] []
  []
 
@@ -3323,7 +3350,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \newpage
+l.33 \newpage
               [1
 
 
@@ -3331,87 +3358,75 @@ l.36 \newpage
 
 
 ]
-\c@ttl@toc@chapters=\count541
+\c@ttl@toc@chapters=\count540
  (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
-Package cleveref Info: loaded `english' language definitions on input line 50.
+Package cleveref Info: loaded `english' language definitions on input line 45.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \newpage
+l.45 \newpage
               [2]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.3pt on input line 66.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.3pt on input line 66.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.6pt on input line 66.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 7.6pt on input line 66.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 66.
+! Extra }, or forgotten \endgroup.
+\centerline  #1->\@@line {\hss #1\hss }
+                                       
+l.64 ... their apparent disinclination to do so.}}
+                                                   Douglas Adams
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Citation 'bowmanFireEarthSystem2009' on page 3 undefined on inpu
-t line 66.
+! Infinite glue shrinkage found in a paragraph.
+<argument> ...hskip:D \c_zero_dim \fi: \tex_par:D 
+                                                  \hook_use:n {para/after}\@...
+l.65 \end{minipage}
+                   }
+The paragraph just ended includes some glue that has
+infinite shrinkability, e.g., `\hskip 0pt minus 1fil'.
+Such glue doesn't belong there---it allows a paragraph
+of any length to fit on one line. But it's safe to proceed,
+since the offensive shrinkability has been made finite.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 105.
+(hyperref)                removing `\uppercase' on input line 104.
 
 
 LaTeX Warning: Citation 'liTrendsDriversArcticboreal2024' on page 3 undefined o
-n input line 105.
+n input line 104.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.3pt on input line 104.
 
 LaTeX Warning: Citation 'faoIntegratedFireManagement2024' on page 3 undefined o
-n input line 105.
+n input line 104.
 
 
 LaTeX Warning: Citation 'wottonLengthFireSeason1993' on page 3 undefined on inp
-ut line 105.
+ut line 104.
 
 
 LaTeX Warning: Citation 'archibaldDefiningPyromesGlobal2013' on page 3 undefine
-d on input line 105.
+d on input line 104.
 
 
 LaTeX Warning: Citation 'bondFireGlobalHerbivore2005' on page 3 undefined on in
-put line 105.
-
-
-LaTeX Warning: Citation 'kelleyHowContemporaryBioclimatic2019' on page 3 undefi
-ned on input line 112.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \end{minipage}}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Too many }'s.
-l.134 }
-       
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+put line 104.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 43.
  [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Package cleveref Info: loaded `english' language definitions on input line 43.
+
+[4]
 \openout2 = `chap2/chap2_main.aux'.
 
-
-(./chap2/chap2_main.tex
+ (./chap2/chap2_main.tex
 
 ! LaTeX Error: Command \c@counterboxspe already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -3426,40 +3441,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@counterboxspetosave=\count542
-\c@paramFireRegime=\count543
-\c@ExtremFires=\count544
-\c@pyroCb=\count545
-\c@climatechange=\count546
-\c@scenarClim=\count547
-
-! LaTeX Error: Command \c@chemeqn already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \newcounter{chemeqn}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \chemequations already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...@chemeqn\def\theequation{R.\thechemeqn}}{}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+\c@counterboxspetosave=\count541
+\c@paramFireRegime=\count542
+\c@ExtremFires=\count543
+\c@pyroCb=\count544
+\c@climatechange=\count545
+\c@scenarClim=\count546
+\c@chemeqn=\count547
 
 ! LaTeX Error: Command \c@counterchapter already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -3480,15 +3468,16 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 31--31
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 41.
-[4
+[5
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [5]
+)
+Package cleveref Info: loaded `english' language definitions on input line 55.
+ [6]
 ! Undefined control sequence.
 <argument> ...indent {12pt} \noindent \loremipsum 
                                                   [2] \end {minipage}
@@ -3517,7 +3506,7 @@ Such booboos are generally harmless, so keep going.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 44.
- [6] (./main.lof
+ [7] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lof=\write6
@@ -3534,7 +3523,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 62.
-[7
+[8
 
 
 
@@ -3566,10 +3555,7 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 77.
-[8
-
-] [9
-
+[9
 
 ]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 77--77
@@ -3589,7 +3575,10 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 77--77
 [][] 
  []
 
-[10] (./main.aux
+[10
+
+
+] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/avantpropos.aux) (./others/contrib_commu.aux)
 (./chap1/chap1_main.aux) (./chap2/chap2_main.aux))
@@ -3614,27 +3603,28 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57844 strings out of 475189
- 1127793 string characters out of 5763838
- 2004786 words of memory out of 5000000
- 78055 multiletter control sequences out of 15000+600000
- 723666 words of font info for 193 fonts, out of 8000000 for 9000
+ 57873 strings out of 475189
+ 1128094 string characters out of 5763838
+ 2004774 words of memory out of 5000000
+ 78070 multiletter control sequences out of 15000+600000
+ 713508 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,2304b,2275s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/
-fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/
-type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx
-/ztmri.pfb>
-Output written on main.pdf (21 pages, 595268 bytes).
+23/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
+tmri.pfb>
+Output written on main.pdf (22 pages, 606574 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 31 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
