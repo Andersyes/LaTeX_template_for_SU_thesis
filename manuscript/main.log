@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  23 MAR 2025 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  4 APR 2025 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2796,13 +2796,14 @@ LaTeX Warning: Label `box:paramFireRegime' multiply defined.
 
 LaTeX Warning: Label `box:paramFireRegime@cref' multiply defined.
 
-))
+) (./chap3/chap3_main.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 19.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  19.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 19.
@@ -3275,16 +3276,26 @@ Package textcomp Info: Symbol \textcurrency not provided by
 Package textcomp Info: Symbol \textcurrency not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 70.
-Package cleveref Info: loaded `english' language definitions on input line 92.
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 78.
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 84.
+Package cleveref Info: loaded `english' language definitions on input line 87.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 87.
 [8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{
 /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Package textcomp Info: Symbol \textcurrency not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 90.
+
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.92             \item \texit
-                             {Projet modélisation Matlab} : encadrement de ...
+l.112             \item \texit
+                              {Projet modélisation Matlab} : encadrement de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3294,18 +3305,19 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.93             \item \texit
-                             {Physique des millieux continus} : charge des T...
+l.113             \item \texit
+                              {Physique des millieux continus} : charge des ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[9]
 ! Undefined control sequence.
 <argument> 2\up 
                 {nde}
-l.120 ...n high school classes (\textit{2\up{nde}}
+l.143 ...n high school classes (\textit{2\up{nde}}
                                                   , \textit{1\up{ère}} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3316,7 +3328,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 1\up 
                 {ère}
-l.120 ... (\textit{2\up{nde}}, \textit{1\up{ère}}
+l.143 ... (\textit{2\up{nde}}, \textit{1\up{ère}}
                                                    and \textit{terminales}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3324,7 +3336,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9])
+)
 Package cleveref Info: loaded `english' language definitions on input line 37.
  [10]
 \openout2 = `chap1/chap1_main.aux'.
@@ -3335,13 +3347,13 @@ Package cleveref Info: loaded `english' language definitions on input line 37.
 
 Chapter I.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 100.0pt on input line 28.
+(Font)              scaled to size 100.0pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 28.
+(Font)              scaled to size 24.88pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 28.
+(Font)              scaled to size 24.88pt on input line 27.
 
-Overfull \hbox (3.28485pt too wide) in paragraph at lines 28--28
+Overfull \hbox (3.28485pt too wide) in paragraph at lines 27--27
 | [] []
  []
 
@@ -3350,7 +3362,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \newpage
+l.32 \newpage
               [1
 
 
@@ -3362,18 +3374,18 @@ l.33 \newpage
  (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
-Package cleveref Info: loaded `english' language definitions on input line 45.
+Package cleveref Info: loaded `english' language definitions on input line 44.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \newpage
+l.44 \newpage
               [2]
 ! Extra }, or forgotten \endgroup.
 \centerline  #1->\@@line {\hss #1\hss }
                                        
-l.64 ... their apparent disinclination to do so.}}
+l.63 ... their apparent disinclination to do so.}}
                                                    Douglas Adams
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3384,7 +3396,7 @@ deleted material, e.g., by typing `I$}'.
 ! Infinite glue shrinkage found in a paragraph.
 <argument> ...hskip:D \c_zero_dim \fi: \tex_par:D 
                                                   \hook_use:n {para/after}\@...
-l.65 \end{minipage}
+l.64 \end{minipage}
                    }
 The paragraph just ended includes some glue that has
 infinite shrinkability, e.g., `\hskip 0pt minus 1fil'.
@@ -3394,29 +3406,29 @@ since the offensive shrinkability has been made finite.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 104.
+(hyperref)                removing `\uppercase' on input line 103.
 
 
 LaTeX Warning: Citation 'liTrendsDriversArcticboreal2024' on page 3 undefined o
-n input line 104.
+n input line 103.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.3pt on input line 104.
+(Font)              scaled to size 8.3pt on input line 103.
 
 LaTeX Warning: Citation 'faoIntegratedFireManagement2024' on page 3 undefined o
-n input line 104.
+n input line 103.
 
 
 LaTeX Warning: Citation 'wottonLengthFireSeason1993' on page 3 undefined on inp
-ut line 104.
+ut line 103.
 
 
 LaTeX Warning: Citation 'archibaldDefiningPyromesGlobal2013' on page 3 undefine
-d on input line 104.
+d on input line 103.
 
 
 LaTeX Warning: Citation 'bondFireGlobalHerbivore2005' on page 3 undefined on in
-put line 104.
+put line 103.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 43.
@@ -3506,7 +3518,32 @@ Such booboos are generally harmless, so keep going.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 44.
- [7] (./main.lof
+ [7]
+\openout2 = `chap3/chap3_main.aux'.
+
+ (./chap3/chap3_main.tex
+Chapter III.
+
+Overfull \hbox (14.5418pt too wide) in paragraph at lines 4--4
+[][]\T1/ntxtlf/m/n/100 III[] 
+ []
+
+
+Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
+| [] []
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 14.
+[8
+
+
+
+
+] (./main.ptc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+) [9])
+Package cleveref Info: loaded `english' language definitions on input line 45.
+ [10] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lof=\write6
@@ -3523,7 +3560,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 62.
-[8
+[11
 
 
 
@@ -3555,7 +3592,10 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 77.
-[9
+[12
+
+] [13
+
 
 ]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 77--77
@@ -3575,13 +3615,10 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 77--77
 [][] 
  []
 
-[10
-
-
-] (./main.aux
+[14] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/avantpropos.aux) (./others/contrib_commu.aux)
-(./chap1/chap1_main.aux) (./chap2/chap2_main.aux))
+(./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -3603,10 +3640,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57873 strings out of 475189
- 1128094 string characters out of 5763838
- 2004774 words of memory out of 5000000
- 78070 multiletter control sequences out of 15000+600000
+ 57913 strings out of 475189
+ 1128992 string characters out of 5763838
+ 2007819 words of memory out of 5000000
+ 78094 multiletter control sequences out of 15000+600000
  713508 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,2304b,2275s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3621,10 +3658,10 @@ nts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
 tmri.pfb>
-Output written on main.pdf (22 pages, 606574 bytes).
+Output written on main.pdf (26 pages, 613881 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
