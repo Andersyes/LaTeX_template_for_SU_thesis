@@ -15,6 +15,7 @@
 \input{others/info.tex} % info de la thèse (titre, auteur, jury, résumé...)
 \addbibresource{mabiblio.bib} % ajout de la bibliographie
 
+
 %%%%%%%%%%%%%%%% DEBUT DU DOCUMENT %%%%%%%%%%%%%%%%%%
 \begin{document}
 \pslcover{} % création des couvertures, avec résumé/abstract
@@ -29,6 +30,8 @@
 % Utiliser \adjustmtc si un décalage apparaît dans les petites tables des matières
 \phantomsection \addcontentsline{toc}{chapter}{Table of contents}
 \tableofcontents\newpage
+\newpage
+
 % \printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
 %%{\printnoidxglossaries}\adjustmtc
 \end{singlespace}
@@ -43,8 +46,8 @@
 \include{chap1/chap1_main}
 \include{chap2/chap2_main}
 \include{chap3/chap3_main}
-%\include{chap4/chap4_main}
-%\include{chap5/chap5_main}
+\include{chap4/chap4_main}
+\include{chap5/chap5_main}
 
 
 %%%%%%%%%%%%%%%% AUTRES PAGES %%%%%%%%%%%%%%%%%%
