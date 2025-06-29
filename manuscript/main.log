@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  16 JUN 2025 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  28 JUN 2025 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2788,9 +2788,9 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux
-(./others/avantpropos.aux) (./others/contrib_commu.aux) (./chap1/chap1_main.aux
-) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux) (./chap4/chap4_main.aux)
-(./chap5/chap5_main.aux
+(./others/avantpropos.aux) (./others/remerciements.aux)
+(./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
+(./chap3/chap3_main.aux) (./chap4/chap4_main.aux) (./chap5/chap5_main.aux
 
 LaTeX Warning: Label `chap3' multiply defined.
 
@@ -3218,10 +3218,31 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
  [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntxsups_t1.enc}]
+\openout2 = `others/remerciements.aux'.
+
+
+(./others/remerciements.tex [7
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 37.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 37.
+)
+Package cleveref Info: loaded `english' language definitions on input line 40.
+ [8
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 \openout2 = `others/contrib_commu.aux'.
 
 
-(./others/contrib_commu.tex [7
+(./others/contrib_commu.tex [9
 
 
 
@@ -3230,39 +3251,20 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 17.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-5.
+0.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 50.
-Package cleveref Info: loaded `english' language definitions on input line 52.
- [8
+Package cleveref Info: loaded `english' language definitions on input line 47.
+ [10
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/lo
-cal/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 54.
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 59.
-
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 ! Undefined control sequence.
-l.61 ...ffective as reproducing Arctic INPs?, 3\up
+l.63 ...ffective as reproducing Arctic INPs?, 3\up
                                                   {rd} QUiESCENT Workshop, L...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3270,28 +3272,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 68.
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 72.
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 80.
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 86.
-[9{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]
-Package textcomp Info: Symbol \textcurrency not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 92.
-
+[11]
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.114             \item \texit
+l.116             \item \texit
                               {Matlab modelling project}: supervising of mod...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3302,7 +3287,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.115             \item \texit
+l.117             \item \texit
                               {Physique des millieux continus} : charge des ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3310,16 +3295,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 135.
+Package cleveref Info: loaded `english' language definitions on input line 132.
 
-[10]
+[12]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 144.
+(Font)              scaled to size 12.0pt on input line 146.
 
 ! Undefined control sequence.
 <argument> 2\up 
                 {nde}
-l.148 ...n high school classes (\textit{2\up{nde}}
+l.150 ...n high school classes (\textit{2\up{nde}}
                                                   , \textit{1\up{ère}} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3330,7 +3315,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 1\up 
                 {ère}
-l.148 ... (\textit{2\up{nde}}, \textit{1\up{ère}}
+l.150 ... (\textit{2\up{nde}}, \textit{1\up{ère}}
                                                    and \textit{terminales}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3338,7 +3323,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [11]
+) [13]
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
@@ -3381,12 +3366,21 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.45 \newpage
-              [2])
-Package cleveref Info: loaded `english' language definitions on input line 46.
- [3]
+              [2]
+
+LaTeX Warning: Citation 'cantrell_production_2005' on page 3 undefined on input
+ line 76.
+
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 77.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 47.
+ [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
 \openout2 = `chap2/chap2_main.aux'.
 
- (./chap2/chap2_main.tex
+
+(./chap2/chap2_main.tex
 
 ! LaTeX Error: Command \c@counterchapter already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -3416,7 +3410,7 @@ Package cleveref Info: loaded `english' language definitions on input line 16.
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 ) [5])
-Package cleveref Info: loaded `english' language definitions on input line 47.
+Package cleveref Info: loaded `english' language definitions on input line 48.
  [6]
 \openout2 = `chap3/chap3_main.aux'.
 
@@ -3442,7 +3436,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 29.
  [8])
-Package cleveref Info: loaded `english' language definitions on input line 48.
+Package cleveref Info: loaded `english' language definitions on input line 49.
  [9]
 \openout2 = `chap4/chap4_main.aux'.
 
@@ -3485,7 +3479,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-Package cleveref Info: loaded `english' language definitions on input line 49.
+Package cleveref Info: loaded `english' language definitions on input line 50.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -3513,9 +3507,18 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
-Package cleveref Info: loaded `english' language definitions on input line 26.
- [14])
-Package cleveref Info: loaded `english' language definitions on input line 50.
+Package cleveref Info: loaded `english' language definitions on input line 27.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.08223pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.08223pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
+
+[14])
+Package cleveref Info: loaded `english' language definitions on input line 51.
  [15] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
@@ -3524,7 +3527,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 
 
 ! Undefined control sequence.
-l.64 \phantomsection\listoffigures\adjustmtc
+l.65 \phantomsection\listoffigures\adjustmtc
                                              % Liste des figures
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3532,7 +3535,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 65.
+Package cleveref Info: loaded `english' language definitions on input line 66.
 [16
 
 
@@ -3545,7 +3548,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 
 
 ! Undefined control sequence.
-l.65 \phantomsection\listoftables\adjustmtc
+l.66 \phantomsection\listoftables\adjustmtc
                                              % Liste des tableaux \mtcaddcha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3554,7 +3557,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Empty bibliography on input line 75.
+LaTeX Warning: Empty bibliography on input line 76.
 
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
@@ -3564,24 +3567,24 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package cleveref Info: loaded `english' language definitions on input line 80.
+Package cleveref Info: loaded `english' language definitions on input line 81.
 [17
 
 ]
-Overfull \hbox (1.42416pt too wide) in paragraph at lines 80--80
+Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 81.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.1> on input line 80.
+(Font)              <6.1> on input line 81.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 80.
+(Font)              scaled to size 7.35999pt on input line 81.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.61198pt on input line 80.
+(Font)              scaled to size 5.61198pt on input line 81.
 
-Overfull \hbox (1.42416pt too wide) in paragraph at lines 80--80
+Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
@@ -3590,44 +3593,52 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 80--80
 
 ] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
- (./others/avantpropos.aux) (./others/contrib_commu.aux)
-(./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux)
-(./chap4/chap4_main.aux) (./chap5/chap5_main.aux))
+ (./others/avantpropos.aux) (./others/remerciements.aux)
+(./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
+(./chap3/chap3_main.aux) (./chap4/chap4_main.aux) (./chap5/chap5_main.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57841 strings out of 475189
- 1127622 string characters out of 5763838
- 2013494 words of memory out of 5000000
- 77968 multiletter control sequences out of 15000+600000
- 707875 words of font info for 189 fonts, out of 8000000 for 9000
+ 58040 strings out of 475189
+ 1131918 string characters out of 5763838
+ 2016374 words of memory out of 5000000
+ 78154 multiletter control sequences out of 15000+600000
+ 706765 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,2304b,3193s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dis
-t/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
-ype1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx
-/ztmri.pfb>
-Output written on main.pdf (31 pages, 654504 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
+023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/u
+rw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztm
+bi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (33 pages, 696561 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 492 compressed objects within 5 object streams
- 82 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 479 words of extra memory for PDF output out of 10000 (max. 10000000)
 
