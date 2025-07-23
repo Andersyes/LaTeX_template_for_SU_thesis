@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  28 JUN 2025 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  2 JUL 2025 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2365,7 +2365,7 @@ e 7836.
 Package cleveref Info: include cross-reference names in hyperlinks on input lin
 e 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 232.
+Package hyperref Info: Option `colorlinks' set `true' on input line 231.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
@@ -2788,14 +2788,21 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux
-(./others/avantpropos.aux) (./others/remerciements.aux)
-(./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
-(./chap3/chap3_main.aux) (./chap4/chap4_main.aux) (./chap5/chap5_main.aux
+(./others/avantpropos.aux) (./others/contrib_commu.aux) (./chap1/chap1_main.aux
+) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux) (./chap4/chap4_main.aux)
+(./chap5/chap5_main.aux
 
 LaTeX Warning: Label `chap3' multiply defined.
 
 
 LaTeX Warning: Label `chap3@cref' multiply defined.
+
+) (./conclusion/conclusion.aux
+
+LaTeX Warning: Label `chap1' multiply defined.
+
+
+LaTeX Warning: Label `chap1@cref' multiply defined.
 
 ))
 \openout1 = `main.aux'.
@@ -3185,7 +3192,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package cleveref Info: loaded `english' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 37.
+Package cleveref Info: loaded `english' language definitions on input line 53.
  [3
 
 ])
@@ -3218,31 +3225,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
  [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntxsups_t1.enc}]
-\openout2 = `others/remerciements.aux'.
-
-
-(./others/remerciements.tex [7
-
-
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 37.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 37.
-)
-Package cleveref Info: loaded `english' language definitions on input line 40.
- [8
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 \openout2 = `others/contrib_commu.aux'.
 
 
-(./others/contrib_commu.tex [9
+(./others/contrib_commu.tex [7
 
 
 
@@ -3251,6 +3237,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 17.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
@@ -3260,9 +3254,10 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package cleveref Info: loaded `english' language definitions on input line 47.
- [10
+ [8
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/lo
+cal/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 ! Undefined control sequence.
 l.63 ...ffective as reproducing Arctic INPs?, 3\up
                                                   {rd} QUiESCENT Workshop, L...
@@ -3272,7 +3267,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11]
+[9]
 ! Undefined control sequence.
 <recently read> \texit 
                        
@@ -3297,7 +3292,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 132.
 
-[12]
+[10]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 146.
 
@@ -3323,7 +3318,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [13]
+) [11]
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
@@ -3375,7 +3370,7 @@ LaTeX Warning: Citation 'cantrell_production_2005' on page 3 undefined on input
 LaTeX Warning: Citation '' on page 3 undefined on input line 77.
 
 )
-Package cleveref Info: loaded `english' language definitions on input line 47.
+Package cleveref Info: loaded `english' language definitions on input line 46.
  [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
 \openout2 = `chap2/chap2_main.aux'.
 
@@ -3410,7 +3405,7 @@ Package cleveref Info: loaded `english' language definitions on input line 16.
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 ) [5])
-Package cleveref Info: loaded `english' language definitions on input line 48.
+Package cleveref Info: loaded `english' language definitions on input line 47.
  [6]
 \openout2 = `chap3/chap3_main.aux'.
 
@@ -3435,9 +3430,1177 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 29.
- [8])
-Package cleveref Info: loaded `english' language definitions on input line 49.
- [9]
+ [8]
+
+LaTeX Warning: Citation 'rantanen_he_2022' on page 9 undefined on input line 43
+.
+
+
+LaTeX Warning: Citation 'bronselaer_change_2018' on page 9 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Citation 'serreze_processes_2011' on page 9 undefined on input l
+ine 44.
+
+
+Overfull \hbox (9.32986pt too wide) in paragraph at lines 43--46
+\T1/ntxtlf/m/n/10.95 com-mu-nity due to its pos-si-ble im-pacts on the at-mo-sp
+heric and ocean cir-cu-la-tions ([]).
+ []
+
+
+LaTeX Warning: Citation 'ipcc_sixth_2021' on page 9 undefined on input line 47.
+
+
+
+LaTeX Warning: Citation 'stuecker_polar_2018' on page 9 undefined on input line
+ 47.
+
+
+LaTeX Warning: Citation 'storelvmo_aerosol_2017' on page 9 undefined on input l
+ine 47.
+
+
+LaTeX Warning: Citation 'carslaw_large_2013' on page 9 undefined on input line 
+47.
+
+
+LaTeX Warning: Citation 'matus_role_2017' on page 9 undefined on input line 47.
+
+
+
+LaTeX Warning: Citation 'zhao_global_2024' on page 9 undefined on input line 50
+.
+
+
+LaTeX Warning: Citation 'morrison_confronting_2020' on page 9 undefined on inpu
+t line 51.
+
+
+LaTeX Warning: Citation 'murray_opinion_2021' on page 9 undefined on input line
+ 51.
+
+
+LaTeX Warning: Citation 'freitas_emission_2022' on page 9 undefined on input li
+ne 54.
+
+
+LaTeX Warning: Citation 'heutte_observations_2025' on page 9 undefined on input
+ line 54.
+
+
+LaTeX Warning: Citation 'parshintsev_methods_2015' on page 9 undefined on input
+ line 54.
+
+
+LaTeX Warning: Citation 'shao_review_2022' on page 9 undefined on input line 54
+.
+
+
+LaTeX Warning: Citation 'jiang_aerosol-co_2009' on page 9 undefined on input li
+ne 54.
+
+
+LaTeX Warning: Citation 'park_observational_2017' on page 9 undefined on input 
+line 54.
+
+
+Overfull \hbox (13.87802pt too wide) in paragraph at lines 54--56
+\T1/ntxtlf/m/n/10.95 de-tailed chem-i-cal com-po-si-tion and phys-i-cal prop-er
+-ties ([]; [];
+ []
+
+
+LaTeX Warning: Citation 'allen_evidence_2021' on page 9 undefined on input line
+ 59.
+
+
+LaTeX Warning: Citation 'hartmann_wintertime_2020' on page 9 undefined on input
+ line 59.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 9 undefined on inpu
+t line 59.
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 9 undefined on input line 
+59.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 9 undefined on input line 59.
+
+
+
+LaTeX Warning: Citation 'yun_ice_2022' on page 9 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 9 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 9 undefined on input l
+ine 59.
+
+Package cleveref Info: loaded `english' language definitions on input line 61.
+[9]
+
+LaTeX Warning: Citation 'stein_noaas_2015' on page 10 undefined on input line 6
+6.
+
+
+LaTeX Warning: Citation 'sprenger_lagranto_2015' on page 10 undefined on input 
+line 66.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 10 undefined on input l
+ine 66.
+
+
+LaTeX Warning: Citation 'jones_UK_2007' on page 10 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'wen_backward-time_2012' on page 10 undefined on input 
+line 66.
+
+
+LaTeX Warning: Citation 'stohl_analytical_2009' on page 10 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation 'manning_estimating_2011' on page 10 undefined on input
+ line 69.
+
+
+LaTeX Warning: Citation 'brunner_estimating_2012' on page 10 undefined on input
+ line 69.
+
+
+LaTeX Warning: Citation 'fang_multiannual_2015' on page 10 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation 'dubovik_retrieving_2008' on page 10 undefined on input
+ line 69.
+
+
+LaTeX Warning: Citation 'partridge_inverse_2011' on page 10 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation 'ashbaugh_residence_1985' on page 10 undefined on input
+ line 69.
+
+
+LaTeX Warning: Citation 'zeng_study_1989' on page 10 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation 'hsu_comparison_2003' on page 10 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation 'polissar_aerosol_1999' on page 10 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 10 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 10 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation 'ren_use_2021' on page 10 undefined on input line 69.
+
+
+LaTeX Warning: Citation 'fang_performance_2018' on page 10 undefined on input l
+ine 72.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 10 undefined on input lin
+e 75.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 10 undefined on input line 75.
+
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 10 undefined on input 
+line 75.
+
+Package cleveref Info: loaded `english' language definitions on input line 77.
+[10]
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 11 undefined on input line 82.
+
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 11 undefined on input 
+line 82.
+
+
+LaTeX Warning: Citation 'hirdman_transport_2009' on page 11 undefined on input 
+line 82.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 11 undefined on input lin
+e 82.
+
+! Undefined control sequence.
+l.93         \subsubsubsection
+                              {Model setup}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'skamarock_description_2022' on page 11 undefined on in
+put line 95.
+
+
+LaTeX Warning: Citation 'grell_fully_2005' on page 11 undefined on input line 9
+5.
+
+
+LaTeX Warning: Citation 'lapere_modeling_2024' on page 11 undefined on input li
+ne 96.
+
+
+LaTeX Warning: Citation 'marelle_improvements_2017' on page 11 undefined on inp
+ut line 96.
+
+
+Overfull \hbox (24.02463pt too wide) in paragraph at lines 95--97
+\T1/ntxtlf/m/n/10.95 mized for high lat-i-tudes and is pre-sented in de-tail in
+ [] and []. 
+ []
+
+
+Overfull \hbox (3.48431pt too wide) in paragraph at lines 98--102
+\T1/ntxtlf/m/n/10.95 Cen-ter for En-vi-ron-men-tal Pre-dic-tion, with 6h time s
+teps. The sim-u-la-tion is run on a $\OT1/lmr/m/n/10.95 10 000$$[]$$\OMS/lmsy/m
+/n/10.95 ^^B$$\OT1/lmr/m/n/10.95 10 000$$[]$
+ []
+
+! Undefined control sequence.
+l.103         \subsubsubsection
+                               {Tracer emissions}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'burrows_ice_2013' on page 11 undefined on input line 1
+09.
+
+
+LaTeX Warning: Citation 'gong_arctic_2023' on page 11 undefined on input line 1
+09.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 11 undefined on inp
+ut line 109.
+
+Package cleveref Info: loaded `english' language definitions on input line 111.
+
+[11{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Citation 'ohata_key_2016' on page 12 undefined on input line 113
+.
+
+
+LaTeX Warning: Citation 'farmer_dry_2021' on page 12 undefined on input line 11
+3.
+
+! Undefined control sequence.
+l.121                     \tophline
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.123                     \middlehline
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'monahan_model_1986' on page 12 undefined on input line
+ 124.
+
+
+LaTeX Warning: Citation 'monahan_model_1986' on page 12 undefined on input line
+ 125.
+
+
+LaTeX Warning: Citation 'ginoux_sources_2001' on page 12 undefined on input lin
+e 126.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.127                     \bottomhline
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.129                 \belowtable
+                                 {The parameterizations refer to the applica...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.133             \subsubsubsection
+                                   {Tracer interpolation at Arctic sites}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'pasquier_ny-alesund_2022' on page 12 undefined on inpu
+t line 138.
+
+
+LaTeX Warning: File `egusphere-2024-2839-f01.png' not found on input line 141.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f01.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 ...idth=17.5cm]{egusphere-2024-2839-f01.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 154.
+
+[12]
+
+LaTeX Warning: Citation 'cassiani_offline_2016' on page 13 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 13 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Citation 'stohl_replacement_2002' on page 13 undefined on input 
+line 165.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 13 undefined on input l
+ine 167.
+
+
+LaTeX Warning: Citation 'hirdman_transport_2009' on page 13 undefined on input 
+line 169.
+
+
+LaTeX Warning: Citation 'stohl_validation_1998' on page 13 undefined on input l
+ine 170.
+
+
+LaTeX Warning: Citation 'hegarty_evaluation_2013' on page 13 undefined on input
+ line 171.
+
+
+LaTeX Warning: Citation 'brioude_lagrangian_2013' on page 13 undefined on input
+ line 174.
+
+! Undefined control sequence.
+l.177         \subsubsubsection
+                               {Emission configuration in FLEXPART}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 187.
+
+[13]
+! Undefined control sequence.
+l.192                 \tophline
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.194                 \middlehline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Å in font lmsy10!
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.200                 \bottomhline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.202             \belowtable
+                             {$^*$~Deposition parameters can be set differen...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--204
+[][]
+ []
+
+
+LaTeX Warning: Citation 'ashbaugh_statistical_1983' on page 14 undefined on inp
+ut line 214.
+
+
+LaTeX Warning: Citation 'ashbaugh_residence_1985' on page 14 undefined on input
+ line 214.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 14 undefined on input lin
+e 216.
+
+
+Overfull \hbox (9.99281pt too wide) in paragraph at lines 213--217
+\T1/ntxtlf/m/n/10.95 (Sect. [][]III.2.1[][]). In the fol-low-ing, we will stick
+ to the PSCF method-ol-ogy in-tro-duced in []
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.3pt on input line 223.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 223.
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Missing character: There is no Å in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 233.
+
+[14{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 271.
+
+[15]
+Missing character: There is no Å in font lmsy10!
+! Undefined control sequence.
+l.286                 \tophline
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.288                 \middlehline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no É in font lmsy10!
+Missing character: There is no É in font lmsy10!
+Missing character: There is no Ç in font lmsy10!
+Missing character: There is no É in font lmsy10!
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.294                 \bottomhline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.299         \hack
+                   {\newpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 299.
+
+[16]
+
+LaTeX Warning: File `egusphere-2024-2839-f02.png' not found on input line 321.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f02.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 ...idth=17.5cm]{egusphere-2024-2839-f02.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 321--322
+[][] 
+ []
+
+
+LaTeX Warning: Citation 'schmale_pan-arctic_2022' on page 17 undefined on input
+ line 341.
+
+Package cleveref Info: loaded `english' language definitions on input line 345.
+
+[17]
+
+LaTeX Warning: Citation 'ruckstuhl_robust_2012' on page 18 undefined on input l
+ine 356.
+
+
+LaTeX Warning: Citation 'resovsky_algorithm_2021' on page 18 undefined on input
+ line 356.
+
+
+LaTeX Warning: Citation 'fang_performance_2018' on page 18 undefined on input l
+ine 359.
+
+
+LaTeX Warning: File `egusphere-2024-2839-f03.png' not found on input line 367.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f03.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...idth=17.5cm]{egusphere-2024-2839-f03.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 367--368
+[][] 
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 383.
+
+[18]
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+
+LaTeX Warning: File `egusphere-2024-2839-f04.png' not found on input line 408.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f04.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 ...idth=17.5cm]{egusphere-2024-2839-f04.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 408--409
+[][] 
+ []
+
+! Undefined control sequence.
+l.413         \hack
+                   {\newpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 413.
+
+[19]
+! Undefined control sequence.
+l.441                 \tophline
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.443                 \middlehline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.447                 \bottomhline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.449             \belowtable
+                             {The values are rounded to the first two digits.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 460.
+
+[20]
+
+LaTeX Warning: File `egusphere-2024-2839-f05.png' not found on input line 474.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f05.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.474 ...idth=17.5cm]{egusphere-2024-2839-f05.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 474--475
+[][] 
+ []
+
+
+LaTeX Warning: Citation 'mohler_portable_2021' on page 21 undefined on input li
+ne 488.
+
+Package cleveref Info: loaded `english' language definitions on input line 489.
+
+[21]
+
+LaTeX Warning: File `egusphere-2024-2839-f06.png' not found on input line 505.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f06.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 ...[width=15cm]{egusphere-2024-2839-f06.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 22 undefined on input line 520
+.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 22 undefined on input 
+line 520.
+
+Package cleveref Info: loaded `english' language definitions on input line 527.
+
+[22]
+Package cleveref Info: loaded `english' language definitions on input line 560.
+
+ [23]
+
+LaTeX Warning: File `egusphere-2024-2839-f07.png' not found on input line 562.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f07.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 ...[width=13cm]{egusphere-2024-2839-f07.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.567 \hack
+           {\newpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 567.
+
+[24]
+
+LaTeX Warning: Citation 'eleftheriadis_aerosol_2019' on page 25 undefined on in
+put line 580.
+
+
+LaTeX Warning: Citation 'bond_bounding_2013' on page 25 undefined on input line
+ 582.
+
+
+LaTeX Warning: Citation 'kirchstetter_evidence_2004' on page 25 undefined on in
+put line 582.
+
+
+LaTeX Warning: Citation 'bond_bounding_2013' on page 25 undefined on input line
+ 584.
+
+
+LaTeX Warning: File `egusphere-2024-2839-f08.png' not found on input line 587.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f08.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.587 ...[width=12cm]{egusphere-2024-2839-f08.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation 'winiger_sources_2016' on page 25 undefined on input li
+ne 597.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 25 undefined on input lin
+e 597.
+
+
+LaTeX Warning: Citation 'xu_source_2017' on page 25 undefined on input line 598
+.
+
+
+LaTeX Warning: Citation 'saltzman_methane_1983' on page 25 undefined on input l
+ine 603.
+
+
+LaTeX Warning: Citation 'hopkins_biogeochemistry_2023' on page 25 undefined on 
+input line 603.
+
+
+LaTeX Warning: Citation 'pasquier_ny-alesund_2022' on page 25 undefined on inpu
+t line 605.
+
+
+LaTeX Warning: Citation 'siegel_arctic_2023' on page 25 undefined on input line
+ 606.
+
+
+Overfull \hbox (9.69394pt too wide) in paragraph at lines 602--608
+\T1/ntxtlf/m/n/10.95 can be ox-i-dized into MSA in the at-mo-sphere ([]; []).
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 608.
+
+[25]
+
+LaTeX Warning: File `egusphere-2024-2839-f09.png' not found on input line 610.
+
+
+! Package pdftex.def Error: File `egusphere-2024-2839-f09.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.610 ...[width=10cm]{egusphere-2024-2839-f09.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation 'eker_phytoplankton_2005' on page 26 undefined on input
+ line 623.
+
+
+LaTeX Warning: Citation 'marelle_transport_2015' on page 26 undefined on input 
+line 624.
+
+
+LaTeX Warning: Citation 'mungall_heterogeneous_2018' on page 26 undefined on in
+put line 624.
+
+
+LaTeX Warning: Citation 'pernov_pan-arctic_2024' on page 26 undefined on input 
+line 641.
+
+
+LaTeX Warning: Citation 'nasa_ocean_biology_processing_group_aqua_2022' on page
+ 26 undefined on input line 642.
+
+Package cleveref Info: loaded `english' language definitions on input line 643.
+
+[26]
+! Undefined control sequence.
+l.645 \conclusions
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 27 undefined on input lin
+e 648.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 27 undefined on input line 659
+.
+
+Package cleveref Info: loaded `english' language definitions on input line 670.
+
+[27]
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 28 undefined on input lin
+e 692.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 28 undefined on input line 692
+.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 28 undefined on input 
+line 692.
+
+
+LaTeX Warning: Citation 'allen_evidence_2021' on page 28 undefined on input lin
+e 693.
+
+
+LaTeX Warning: Citation 'an_tracking_2014' on page 28 undefined on input line 6
+93.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 28 undefined on inp
+ut line 693.
+
+
+LaTeX Warning: Citation 'lu_novel_2012' on page 28 undefined on input line 693.
+
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 28 undefined on input line
+ 693.
+
+
+LaTeX Warning: Citation 'raut_cross-polar_2017' on page 28 undefined on input l
+ine 693.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 28 undefined on input line 69
+3.
+
+Package cleveref Info: loaded `english' language definitions on input line 696.
+
+[28]
+! Undefined control sequence.
+l.706 \hack
+           {\hsize\textwidth}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.710     \tophline
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.712     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'nakanishi_development_2009' on page 29 undefined on in
+put line 713.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.714     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'tewari_implementation_2004' on page 29 undefined on in
+put line 715.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.716     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'morrison_impact_2009' on page 29 undefined on input li
+ne 717.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.718     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'iacono_radiative_2008' on page 29 undefined on input l
+ine 719.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.720     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'grell_generalized_2002' on page 29 undefined on input 
+line 721.
+
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.722     \hhline
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'commerce_ncep_2000' on page 29 undefined on input line
+ 723.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.724     \bottomhline
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (52.01463pt too wide) in paragraph at lines 709--726
+[][] 
+ []
+
+! Undefined control sequence.
+l.728 \hack
+           {\clearpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+[29]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [30]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [31]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [32]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [33]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [34]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [35]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [36]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [37]
+Package cleveref Info: loaded `english' language definitions on input line 728.
+
+ [38]
+! Undefined control sequence.
+l.732         \hack
+                   {\hsize\textwidth}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.736                 \tophline
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.739                 \middlehline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.745                 \bottomhline
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 48.
+ [39
+
+]
 \openout2 = `chap4/chap4_main.aux'.
 
  (./chap4/chap4_main.tex
@@ -3461,14 +4624,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[10
+[40
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [11]
+) [41]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -3479,7 +4642,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-Package cleveref Info: loaded `english' language definitions on input line 50.
+Package cleveref Info: loaded `english' language definitions on input line 49.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -3489,7 +4652,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[12]
+[42]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -3499,7 +4662,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[13
+[43
 
 
 
@@ -3517,11 +4680,53 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[14])
-Package cleveref Info: loaded `english' language definitions on input line 51.
- [15] (./main.lof
+[44])
+Package cleveref Info: loaded `english' language definitions on input line 50.
+ [45]
+\openout2 = `conclusion/conclusion.aux'.
+
+ (./conclusion/conclusion.tex
+
+! LaTeX Error: Command \c@counterchapter already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \newcounter{counterchapter}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Chapter VI.
+
+Overfull \hbox (20.14177pt too wide) in paragraph at lines 5--5
+[][]\T1/ntxtlf/m/n/100 VI[] 
+ []
+
+
+Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
+| [] []
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 11.
+[46
+
+
+
+
+] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
+) [47]) (./main.lof
+Package cleveref Info: loaded `english' language definitions on input line 1.
+Package cleveref Info: loaded `english' language definitions on input line 15.
+ [48
+
+
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -3536,11 +4741,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 66.
-[16
-
-
-
-] (./main.lot
+[49] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -3568,7 +4769,10 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 81.
-[17
+[50
+
+] [51
+
 
 ]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
@@ -3588,14 +4792,12 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
-[18
-
-
-] (./main.aux
+[52] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
- (./others/avantpropos.aux) (./others/remerciements.aux)
-(./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
-(./chap3/chap3_main.aux) (./chap4/chap4_main.aux) (./chap5/chap5_main.aux))
+ (./others/avantpropos.aux) (./others/contrib_commu.aux)
+(./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux)
+(./chap4/chap4_main.aux) (./chap5/chap5_main.aux) (./conclusion/conclusion.aux)
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -3617,28 +4819,33 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58040 strings out of 475189
- 1131918 string characters out of 5763838
- 2016374 words of memory out of 5000000
- 78154 multiletter control sequences out of 15000+600000
- 706765 words of font info for 187 fonts, out of 8000000 for 9000
+ 58484 strings out of 475189
+ 1144967 string characters out of 5763838
+ 2030611 words of memory out of 5000000
+ 78516 multiletter control sequences out of 15000+600000
+ 729738 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,120p,2304b,3193s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-
-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/u
-rw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztm
-bi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (33 pages, 696561 bytes).
+ 100i,15n,120p,2304b,3206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf
+-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
+ic/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt1
+0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regu
+lar.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/newtx/ztmri.pfb>
+Output written on main.pdf (65 pages, 832441 bytes).
 PDF statistics:
- 622 PDF objects out of 1000 (max. 8388607)
- 539 compressed objects within 6 object streams
- 90 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 983 PDF objects out of 1000 (max. 8388607)
+ 852 compressed objects within 9 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 455 words of extra memory for PDF output out of 10000 (max. 10000000)
 
