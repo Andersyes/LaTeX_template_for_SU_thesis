@@ -4,12 +4,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {III.1}{\ignorespaces Tracer parameters in WRF-Chem.}}{12}{table.caption.4}%
-\contentsline {table}{\numberline {III.2}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{14}{table.caption.6}%
-\contentsline {table}{\numberline {III.3}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{16}{table.caption.7}%
-\contentsline {table}{\numberline {III.4}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{21}{table.caption.11}%
-\contentsline {table}{\numberline {III.5}{\ignorespaces WRF model setup.}}{29}{table.caption.17}%
-\contentsline {table}{\numberline {III.6}{\ignorespaces Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{39}{table.caption.18}%
+\contentsline {table}{\numberline {III.1}{\ignorespaces Tracer parameters in WRF-Chem.}}{13}{table.caption.4}%
+\contentsline {table}{\numberline {III.2}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{15}{table.caption.6}%
+\contentsline {table}{\numberline {III.3}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{17}{table.caption.7}%
+\contentsline {table}{\numberline {III.4}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{22}{table.caption.11}%
+\contentsline {table}{\numberline {III.5}{\ignorespaces WRF model setup.}}{30}{table.caption.17}%
+\contentsline {table}{\numberline {III.6}{\ignorespaces Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{40}{table.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

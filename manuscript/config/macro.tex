@@ -40,10 +40,20 @@
 }
 
 
-% quote command
+% ---- quote commands
+% chap quote
 \newcommand{\chapquote}[2]{%
 \vspace{3cm}
 \begin{quotation}\textit{#1}\end{quotation} 
+\begin{flushright} \--- #2\end{flushright}
+}
+% In text quote
+\newcommand{\tquote}[2]{%
+\begin{quotation}
+    \begin{centering}
+        \textit{"#1"}
+    \end{centering}
+\end{quotation} 
 \begin{flushright} \--- #2\end{flushright}
 }
 
