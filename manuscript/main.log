@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  25 JUL 2025 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  2 AUG 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1539,7 +1539,8 @@ Type  H <return>  for immediate help.
                                                   
 l.261 ...ol{\Bbbk}           {\mathord}{AMSb}{"7C}
                                                   
-? 
+? R
+OK, entering \nonstopmode...
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
@@ -1564,8 +1565,10 @@ Type  H <return>  for immediate help.
                                                   
 l.426   \vrule\hfil}}
                      
-? R
-OK, entering \nonstopmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Info: Redefining \textsquare on input line 427.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
@@ -2787,14 +2790,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux
 (./others/avantpropos.aux) (./others/contrib_commu.aux) (./chap1/chap1_main.aux
 ) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux) (./chap4/chap4_main.aux)
-(./chap5/chap5_main.aux
-
-LaTeX Warning: Label `chap3' multiply defined.
-
-
-LaTeX Warning: Label `chap3@cref' multiply defined.
-
-) (./conclusion/conclusion.aux
+(./chap5/chap5_main.aux) (./conclusion/conclusion.aux
 
 LaTeX Warning: Label `chap1' multiply defined.
 
@@ -3269,10 +3265,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [9]
+
+LaTeX Warning: Citation 'da_silva_backward_2025' on page 10 undefined on input 
+line 100.
+
+
+LaTeX Warning: Citation 'da_silva_plotting_2025' on page 10 undefined on input 
+line 100.
+
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.116             \item \texit
+l.121             \item \texit
                               {Matlab modelling project}: supervising of mod...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3283,7 +3287,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \texit 
                        
-l.117             \item \texit
+l.122             \item \texit
                               {Physique des millieux continus} : charge des ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3291,16 +3295,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 132.
+Package cleveref Info: loaded `english' language definitions on input line 134.
 
 [10]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 146.
+(Font)              scaled to size 12.0pt on input line 151.
 
 ! Undefined control sequence.
 <argument> 2\up 
                 {nde}
-l.151 ...n high school classes (\textit{2\up{nde}}
+l.156 ...n high school classes (\textit{2\up{nde}}
                                                   , \textit{1\up{√®re}} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3311,7 +3315,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 1\up 
                 {√®re}
-l.151 ... (\textit{2\up{nde}}, \textit{1\up{√®re}}
+l.156 ... (\textit{2\up{nde}}, \textit{1\up{√®re}}
                                                    and \textit{terminales}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3319,7 +3323,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [11]
+[11])
+Package cleveref Info: loaded `english' language definitions on input line 40.
+ [12]
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
@@ -3363,18 +3369,50 @@ been already used, duplicate ignored
                    \relax 
 l.45 \newpage
               [2]
+! Undefined control sequence.
+<argument> ...gnorespaces Tycho Brahe was a 16\up 
+                                                  {th} century Danish astron...
+l.75 ...h their were performed with the bare eye.}
+                                                  , the knowledge about her ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation '' on page 3 undefined on input line 102.
+Package cleveref Info: loaded `english' language definitions on input line 81.
+[3]
 
-Package cleveref Info: loaded `english' language definitions on input line 119.
+LaTeX Warning: Reference `sec:global_warming' on page 4 undefined on input line
+ 89.
 
-[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}])
+! Undefined control sequence.
+l.99 ...he fact it remarkably suits the late 18\up
+                                                  {th} century French politi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 101.
+
+[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+Package cleveref Info: loaded `english' language definitions on input line 141.
+
+ [5]
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 150.
+
+)
 Package cleveref Info: loaded `english' language definitions on input line 46.
- [4]
+ [6]
+Package cleveref Info: loaded `english' language definitions on input line 46.
+ [7]
 \openout2 = `chap2/chap2_main.aux'.
 
-
-(./chap2/chap2_main.tex
+ (./chap2/chap2_main.tex
 
 ! LaTeX Error: Command \c@counterchapter already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -3395,18 +3433,17 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 6--6
 | [] []
  []
 
-[5
+Package cleveref Info: loaded `english' language definitions on input line 16.
+[8
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 30.
- [6])
+) [9])
 Package cleveref Info: loaded `english' language definitions on input line 47.
- [7]
+ [10]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -3421,26 +3458,27 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 15.
-[8
+[11
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [9]
+)
+Package cleveref Info: loaded `english' language definitions on input line 29.
+ [12]
 
-LaTeX Warning: Citation 'rantanen_he_2022' on page 10 undefined on input line 4
+LaTeX Warning: Citation 'rantanen_he_2022' on page 13 undefined on input line 4
 5.
 
 Package cleveref Info: loaded `english' language definitions on input line 63.
-[10]
+[13]
 
-LaTeX Warning: Citation 'jones_uk_2007' on page 11 undefined on input line 68.
+LaTeX Warning: Citation 'jones_uk_2007' on page 14 undefined on input line 68.
 
 Package cleveref Info: loaded `english' language definitions on input line 79.
-[11]
+[14]
 ! Undefined control sequence.
 l.95         \subsubsubsection
                               {Model setup}
@@ -3468,7 +3506,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 114.
 
-[12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[15{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 ! Undefined control sequence.
 l.123                     \tophline
                                    
@@ -3546,7 +3584,7 @@ Overfull \hbox (42.67911pt too wide) in paragraph at lines 143--144
 
 Package cleveref Info: loaded `english' language definitions on input line 161.
 
-[13]
+[16]
 ! Undefined control sequence.
 l.179         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -3604,7 +3642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--206
 
 Package cleveref Info: loaded `english' language definitions on input line 206.
 
-[14]
+[17]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.3pt on input line 225.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -3628,7 +3666,7 @@ Missing character: There is no Õ in font lmex10!
 Missing character: There is no Å in font lmsy8!
 Package cleveref Info: loaded `english' language definitions on input line 238.
 
-[15{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+[18]
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
@@ -3638,7 +3676,7 @@ Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 282.
 
-[16]
+[19]
 ! Undefined control sequence.
 l.288                 \tophline
                                
@@ -3685,7 +3723,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 301.
 
-[17]
+[20]
 
 LaTeX Warning: File `egusphere-2024-2839-f02.png' not found on input line 323.
 
@@ -3709,7 +3747,7 @@ Overfull \hbox (42.67911pt too wide) in paragraph at lines 323--324
 
 Package cleveref Info: loaded `english' language definitions on input line 347.
 
-[18]
+[21]
 
 LaTeX Warning: File `egusphere-2024-2839-f03.png' not found on input line 369.
 
@@ -3733,7 +3771,7 @@ Overfull \hbox (42.67911pt too wide) in paragraph at lines 369--370
 
 Package cleveref Info: loaded `english' language definitions on input line 385.
 
-[19]
+[22]
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
@@ -3769,7 +3807,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 415.
 
-[20]
+[23]
 ! Undefined control sequence.
 l.443                 \tophline
                                
@@ -3812,7 +3850,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 462.
 
-[21]
+[24]
 
 LaTeX Warning: File `egusphere-2024-2839-f05.png' not found on input line 476.
 
@@ -3836,7 +3874,7 @@ Overfull \hbox (42.67911pt too wide) in paragraph at lines 476--477
 
 Package cleveref Info: loaded `english' language definitions on input line 491.
 
-[22]
+[25]
 
 LaTeX Warning: File `egusphere-2024-2839-f06.png' not found on input line 507.
 
@@ -3855,10 +3893,10 @@ If that doesn't work, type  X <return>  to quit.
 
 Package cleveref Info: loaded `english' language definitions on input line 529.
 
-[23]
+[26]
 Package cleveref Info: loaded `english' language definitions on input line 562.
 
- [24]
+ [27]
 
 LaTeX Warning: File `egusphere-2024-2839-f07.png' not found on input line 564.
 
@@ -3886,7 +3924,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 569.
 
-[25]
+[28]
 
 LaTeX Warning: File `egusphere-2024-2839-f08.png' not found on input line 589.
 
@@ -3905,7 +3943,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package cleveref Info: loaded `english' language definitions on input line 610.
 
-[26]
+[29]
 
 LaTeX Warning: File `egusphere-2024-2839-f09.png' not found on input line 612.
 
@@ -3924,7 +3962,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package cleveref Info: loaded `english' language definitions on input line 645.
 
-[27]
+[30]
 ! Undefined control sequence.
 l.647 \conclusions
                   
@@ -3936,10 +3974,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 673.
 
-[28]
+[31]
 Package cleveref Info: loaded `english' language definitions on input line 698.
 
- [29]
+ [32]
 ! Undefined control sequence.
 l.708 \hack
            {\hsize\textwidth}
@@ -4051,16 +4089,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 730.
 
-[30]
-Package cleveref Info: loaded `english' language definitions on input line 730.
-
- [31]
-Package cleveref Info: loaded `english' language definitions on input line 730.
-
- [32]
-Package cleveref Info: loaded `english' language definitions on input line 730.
-
- [33]
+[33]
 Package cleveref Info: loaded `english' language definitions on input line 730.
 
  [34]
@@ -4079,6 +4108,15 @@ Package cleveref Info: loaded `english' language definitions on input line 730.
 Package cleveref Info: loaded `english' language definitions on input line 730.
 
  [39]
+Package cleveref Info: loaded `english' language definitions on input line 730.
+
+ [40]
+Package cleveref Info: loaded `english' language definitions on input line 730.
+
+ [41]
+Package cleveref Info: loaded `english' language definitions on input line 730.
+
+ [42]
 ! Undefined control sequence.
 l.734         \hack
                    {\hsize\textwidth}
@@ -4121,7 +4159,7 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 48.
- [40
+ [43
 
 ]
 \openout2 = `chap4/chap4_main.aux'.
@@ -4138,16 +4176,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[41
-
-
-
-
-] (./main.ptc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 25.
-
+Package cleveref Info: loaded `english' language definitions on input line 13.
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 25.11508pt, for example:
@@ -4156,7 +4185,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[42]
+[44
+
+
+
+
+] (./main.ptc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+) [45]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -4168,7 +4204,16 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 49.
- [43]
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[46]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -4178,24 +4223,15 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 15.
-
-Package fancyhdr Warning: \headheight is too small (17.07164pt): 
-(fancyhdr)                Make it at least 25.08223pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.08223pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
-
-[44
+[47
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [45])
-Package cleveref Info: loaded `english' language definitions on input line 50.
+)
+Package cleveref Info: loaded `english' language definitions on input line 27.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -4205,7 +4241,9 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[46]
+[48])
+Package cleveref Info: loaded `english' language definitions on input line 50.
+ [49]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -4234,19 +4272,18 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[47
+Package cleveref Info: loaded `english' language definitions on input line 11.
+[50
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 23.
- [48]) (./main.lof
+) [51]) (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 Package cleveref Info: loaded `english' language definitions on input line 15.
- [49
+ [52
 
 
 
@@ -4265,7 +4302,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 66.
-[50] (./main.lot
+[53] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -4282,7 +4319,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[51
+[54
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
@@ -4290,17 +4327,17 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [52
+ [55
 
 ]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [53]
+ [56]
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [54]
+ [57]
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [55]
+ [58]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
@@ -4311,10 +4348,7 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 81.
-[56] [57
-
-
-]
+[59]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
@@ -4332,7 +4366,10 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
-[58] (./main.aux
+[60
+
+
+] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/avantpropos.aux) (./others/contrib_commu.aux)
 (./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux)
@@ -4359,10 +4396,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59263 strings out of 475189
- 1169143 string characters out of 5763838
- 2115607 words of memory out of 5000000
- 79195 multiletter control sequences out of 15000+600000
+ 59271 strings out of 475189
+ 1169226 string characters out of 5763838
+ 2115819 words of memory out of 5000000
+ 79198 multiletter control sequences out of 15000+600000
  744737 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,4167b,3206s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4383,10 +4420,10 @@ fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
 tmri.pfb>
-Output written on main.pdf (71 pages, 910143 bytes).
+Output written on main.pdf (74 pages, 922087 bytes).
 PDF statistics:
- 1487 PDF objects out of 1728 (max. 8388607)
- 1343 compressed objects within 14 object streams
- 264 named destinations out of 1000 (max. 500000)
+ 1506 PDF objects out of 1728 (max. 8388607)
+ 1359 compressed objects within 14 object streams
+ 269 named destinations out of 1000 (max. 500000)
  519 words of extra memory for PDF output out of 10000 (max. 10000000)
 
