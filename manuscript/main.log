@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  3 AUG 2025 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  5 AUG 2025 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex fg
+**main.tex
 (./main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -3189,10 +3189,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package cleveref Info: loaded `english' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 41.
+Package cleveref Info: loaded `english' language definitions on input line 39.
  [3
 
-])
+]
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 4 undefined on input line 4
+2.
+
+)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -3204,17 +3209,17 @@ Package cleveref Info: loaded `english' language definitions on input line 32.
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+ntxsups on input lin
-e 10.
+e 11.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.95pt on input line 10.
+(Font)              scaled to size 10.95pt on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 10.
+(Font)              scaled to size 9.0pt on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 9.0pt on input line 10.
+(Font)              scaled to size 9.0pt on input line 11.
 )
 Package cleveref Info: loaded `english' language definitions on input line 39.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
@@ -3466,13 +3471,168 @@ Package cleveref Info: loaded `english' language definitions on input line 124.
 
 [5]
 
-LaTeX Warning: Citation '' on page 6 undefined on input line 164.
+LaTeX Warning: Citation 'hay_variations_1976' on page 6 undefined on input line
+ 156.
 
-Package cleveref Info: loaded `english' language definitions on input line 182.
+Package cleveref Info: loaded `english' language definitions on input line 163.
 
-[6])
+[6]
+
+LaTeX Warning: Reference `fig:keeling_curve' on page 7 undefined on input line 
+170.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.3pt on input line 170.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 170.
+! Undefined control sequence.
+l.170 ...curve remained still until the late 18\up
+                                                  {th}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./chap1/images/co2_2k_ce.pdf, id=324, 667.66628pt x 338.09306pt>
+File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
+<use ./chap1/images/co2_2k_ce.pdf>
+Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 175.
+(pdftex.def)             Requested size: 455.24411pt x 230.52446pt.
+! Undefined control sequence.
+<argument> ...ease that started in the late 18\up 
+                                                  {th} century. Data can be ...
+l.176 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 7 undefined on input
+ line 176.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 7 undefined on input line
+ 176.
+
+! Undefined control sequence.
+<argument> ...ease that started in the late 18\up 
+                                                  {th} century. Data can be ...
+l.176 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 7 undefined on input
+ line 176.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 7 undefined on input line
+ 176.
+
+! Undefined control sequence.
+<argument> ...ease that started in the late 18\up 
+                                                  {th} century. Data can be ...
+l.176 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./chap1/images/world_energy_consumption.png, id=327, 3770.085pt x 1067.99pt>
+File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
+<use ./chap1/images/world_energy_consumption.png>
+Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
+nput line 186.
+(pdftex.def)             Requested size: 455.24411pt x 128.95178pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 200.
+
+[7]
+Package cleveref Info: loaded `english' language definitions on input line 204.
+
+ [8 <./chap1/images/co2_2k_ce.pdf>]
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=371, 1973.3725pt x 1060.96375pt
+>
+File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
+<use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
+Package pdftex.def Info: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png  used on in
+put line 208.
+(pdftex.def)             Requested size: 455.24411pt x 244.74503pt.
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 9 undefined on input line 209.
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 9 undefined on input line 209.
+
+
+LaTeX Warning: Reference `fig:scenario' on page 9 undefined on input line 213.
+
+Package cleveref Info: loaded `english' language definitions on input line 218.
+
+[9 <./chap1/images/world_energy_consumption.png> <./chap1/images/IPCC_AR6_SYR_F
+igure_2_5.png>]
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=380, 2134.97626pt x 2247.39626
+pt>
+File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
+<use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
+Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png  used on i
+nput line 220.
+(pdftex.def)             Requested size: 455.24411pt x 479.20285pt.
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 10 undefined on input line 221.
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 10 undefined on input line 221.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'fressoz_revoltes_2020' on page 10 undefined on input l
+ine 239.
+
+
+LaTeX Warning: Citation 'auzanneau_or_2015' on page 10 undefined on input line 
+240.
+
+Package cleveref Info: loaded `english' language definitions on input line 242.
+
+[10]
+Package cleveref Info: loaded `english' language definitions on input line 250.
+
+ [11]
+Package cleveref Info: loaded `english' language definitions on input line 250.
+
+ [12 <./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png (PNG copy)>]
+Package cleveref Info: loaded `english' language definitions on input line 367.
+
+
+[13
+
+])
 Package cleveref Info: loaded `english' language definitions on input line 46.
- [7]
+ [14]
 \openout2 = `chap2/chap2_main.aux'.
 
  (./chap2/chap2_main.tex
@@ -3496,17 +3656,18 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 6--6
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 16.
-[8
+[15
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [9])
+)
+Package cleveref Info: loaded `english' language definitions on input line 30.
+ [16])
 Package cleveref Info: loaded `english' language definitions on input line 47.
- [10]
+ [17]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -3521,29 +3682,57 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[11
+Package cleveref Info: loaded `english' language definitions on input line 15.
+[18
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 29.
- [12]
 
-LaTeX Warning: Citation 'rantanen_he_2022' on page 13 undefined on input line 4
-5.
 
-Package cleveref Info: loaded `english' language definitions on input line 63.
-[13]
+LaTeX Warning: Citation 'da_silva_how_2025' on page 19 undefined on input line 
+49.
 
-LaTeX Warning: Citation 'jones_uk_2007' on page 14 undefined on input line 68.
+) [19]
 
-Package cleveref Info: loaded `english' language definitions on input line 79.
-[14]
+LaTeX Warning: Citation 'da_silva_how_2025' on page 20 undefined on input line 
+40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\citep' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 40.
+
+
+LaTeX Warning: Citation 'rantanen_he_2022' on page 20 undefined on input line 4
+6.
+
+Package cleveref Info: loaded `english' language definitions on input line 64.
+[20]
+
+LaTeX Warning: Citation 'jones_uk_2007' on page 21 undefined on input line 69.
+
+Package cleveref Info: loaded `english' language definitions on input line 80.
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 21 undefined on input line 
+80.
+
+[21]
 ! Undefined control sequence.
-l.95         \subsubsubsection
+l.96         \subsubsubsection
                               {Model setup}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3552,14 +3741,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.48431pt too wide) in paragraph at lines 100--104
+LaTeX Warning: Reference `P1appb' on page 22 undefined on input line 104.
+
+
+Overfull \hbox (3.48431pt too wide) in paragraph at lines 101--105
 \T1/ntxtlf/m/n/10.95 Cen-ter for En-vi-ron-men-tal Pre-dic-tion, with 6h time s
 teps. The sim-u-la-tion is run on a $\OT1/lmr/m/n/10.95 10 000$$[]$$\OMS/lmsy/m
 /n/10.95 ^^B$$\OT1/lmr/m/n/10.95 10 000$$[]$
  []
 
 ! Undefined control sequence.
-l.106             \hack
+l.107             \hack
                        {\hsize\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3568,7 +3760,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.110                 \tophline
+l.111                 \tophline
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3579,7 +3771,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.112                 \hhline
+l.113                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3590,7 +3782,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.114                 \hhline
+l.115                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3601,7 +3793,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.116                 \hhline
+l.117                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3612,7 +3804,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.118                 \hhline
+l.119                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3623,7 +3815,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.120                 \hhline
+l.121                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3634,7 +3826,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \hhline 
                         
-l.122                 \hhline
+l.123                 \hhline
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3645,7 +3837,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.124                 \bottomhline
+l.125                 \bottomhline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3654,12 +3846,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (52.01463pt too wide) in paragraph at lines 109--126
+Overfull \hbox (52.01463pt too wide) in paragraph at lines 110--127
 [][] 
  []
 
 ! Undefined control sequence.
-l.128         \subsubsubsection
+l.129         \subsubsubsection
                                {Tracer emissions}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3667,11 +3859,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 136.
+Package cleveref Info: loaded `english' language definitions on input line 137.
 
-[15{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[22{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 ! Undefined control sequence.
-l.146                     \tophline
+l.147                     \tophline
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3682,7 +3874,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \middlehline 
                              
-l.148                     \middlehline
+l.149                     \middlehline
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3693,7 +3885,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.152                     \bottomhline
+l.153                     \bottomhline
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3702,7 +3894,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.154                 \belowtable
+l.155                 \belowtable
                                  {The parameterizations refer to the applica...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3711,12 +3903,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 145--156
+Underfull \hbox (badness 3428) in paragraph at lines 146--157
 [][] \T1/ntxtlf/m/n/10.95 The pa-
  []
 
 ! Undefined control sequence.
-l.158             \subsubsubsection
+l.159             \subsubsubsection
                                    {Tracer interpolation at Arctic sites}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3724,22 +3916,26 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap3/images/f01.png, id=501, 1038.7608pt x 715.473pt>
+<./chap3/images/f01.png, id=604, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
-Package pdftex.def Info: ./chap3/images/f01.png  used on input line 166.
+Package pdftex.def Info: ./chap3/images/f01.png  used on input line 167.
 (pdftex.def)             Requested size: 455.24411pt x 313.55362pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 177.
+Package cleveref Info: loaded `english' language definitions on input line 178.
 
-[16]
-Package cleveref Info: loaded `english' language definitions on input line 191.
 
- [17 <./chap3/images/f01.png>]
+LaTeX Warning: Citation 'da_silva_how_2025' on page 23 undefined on input line 
+178.
+
+[23]
+Package cleveref Info: loaded `english' language definitions on input line 192.
+
+ [24 <./chap3/images/f01.png>]
 ! Undefined control sequence.
-l.202         \subsubsubsection
+l.203         \subsubsubsection
                                {Emission configuration in FLEXPART}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3748,7 +3944,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.217                 \tophline
+l.218                 \tophline
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3759,7 +3955,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \middlehline 
                              
-l.219                 \middlehline
+l.220                 \middlehline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3771,7 +3967,7 @@ Missing character: There is no Å in font lmsy10!
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.225                 \bottomhline
+l.226                 \bottomhline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3780,7 +3976,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.227             \belowtable
+l.228             \belowtable
                              {$^*$~Deposition parameters can be set differen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3789,52 +3985,55 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--229
+Underfull \hbox (badness 10000) in paragraph at lines 217--230
 [][]
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 242.
+Package cleveref Info: loaded `english' language definitions on input line 243.
 
-[18]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.3pt on input line 248.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 248.
 
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no Å in font lmsy8!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no Å in font lmsy8!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no Å in font lmsy8!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no Å in font lmsy8!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no Å in font lmsy8!
-Package cleveref Info: loaded `english' language definitions on input line 266.
+LaTeX Warning: Citation 'da_silva_how_2025' on page 25 undefined on input line 
+243.
 
-[19]
+[25]
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
 Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
 Missing character: There is no Å in font lmsy10!
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
 Missing character: There is no Å in font lmsy10!
-Missing character: There is no Å in font lmsy10!
-Missing character: There is no Å in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 305.
+Missing character: There is no Õ in font lmex10!
+Missing character: There is no Å in font lmsy8!
+Package cleveref Info: loaded `english' language definitions on input line 267.
 
-[20]
+[26]
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Missing character: There is no Å in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 306.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 27 undefined on input line 
+306.
+
+[27]
 ! Undefined control sequence.
-l.311                 \tophline
+l.312                 \tophline
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3845,7 +4044,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \middlehline 
                              
-l.313                 \middlehline
+l.314                 \middlehline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3860,7 +4059,7 @@ Missing character: There is no É in font lmsy10!
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.319                 \bottomhline
+l.320                 \bottomhline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3868,37 +4067,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.324         \hack
-                   {\newpage}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package cleveref Info: loaded `english' language definitions on input line 324.
-
-[21]
-<./chap3/images/f02.png, id=589, 742.6947pt x 457.71pt>
+<./chap3/images/f02.png, id=685, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
-Package pdftex.def Info: ./chap3/images/f02.png  used on input line 346.
+Package pdftex.def Info: ./chap3/images/f02.png  used on input line 345.
 (pdftex.def)             Requested size: 455.24411pt x 280.5576pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 370.
+Package cleveref Info: loaded `english' language definitions on input line 369.
 
-[22]
-Package cleveref Info: loaded `english' language definitions on input line 382.
+[28]
+Package cleveref Info: loaded `english' language definitions on input line 369.
 
- [23 <./chap3/images/f02.png>]
-<./chap3/images/f03.png, id=619, 1038.7608pt x 715.473pt>
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 29 undefined on input line 
+369.
+
+[29 <./chap3/images/f02.png>]
+<./chap3/images/f03.png, id=715, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
-Package pdftex.def Info: ./chap3/images/f03.png  used on input line 392.
+Package pdftex.def Info: ./chap3/images/f03.png  used on input line 391.
 (pdftex.def)             Requested size: 455.24411pt x 313.55362pt.
 
 
@@ -3906,21 +4097,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no Å in font lmsy10!
 Missing character: There is no Å in font lmsy10!
-Missing character: There is no Å in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 423.
+Package cleveref Info: loaded `english' language definitions on input line 413.
 
-[24]
-<./chap3/images/f04.png, id=637, 1115.6079pt x 832.0686pt>
+[30]
+Missing character: There is no Å in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 424.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 31 undefined on input line 
+424.
+
+[31 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=740, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
-Package pdftex.def Info: ./chap3/images/f04.png  used on input line 433.
+Package pdftex.def Info: ./chap3/images/f04.png  used on input line 432.
 (pdftex.def)             Requested size: 455.24411pt x 339.5379pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ! Undefined control sequence.
-l.439         \hack
+l.438         \hack
                    {\hsize\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3929,7 +4124,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.443                 \tophline
+l.442                 \tophline
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3940,7 +4135,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \middlehline 
                              
-l.446                 \middlehline
+l.445                 \middlehline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3951,7 +4146,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.452                 \bottomhline
+l.451                 \bottomhline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3960,7 +4155,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.456         \hack
+l.455         \hack
                    {\newpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3968,14 +4163,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 456.
+Package cleveref Info: loaded `english' language definitions on input line 455.
 
-[25 <./chap3/images/f03.png>]
-Package cleveref Info: loaded `english' language definitions on input line 474.
+[32 <./chap3/images/f04.png>]
+Package cleveref Info: loaded `english' language definitions on input line 478.
 
- [26 <./chap3/images/f04.png>]
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 33 undefined on input line 
+478.
+
+[33]
 ! Undefined control sequence.
-l.484                 \tophline
+l.483                 \tophline
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3986,7 +4186,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \middlehline 
                              
-l.486                 \middlehline
+l.485                 \middlehline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3997,7 +4197,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bottomhline 
                              
-l.490                 \bottomhline
+l.489                 \bottomhline
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4006,7 +4206,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.492             \belowtable
+l.491             \belowtable
                              {The values are rounded to the first two digits.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4014,9 +4214,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 503.
-
-[27]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -4024,21 +4221,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.516         \begin{figure*}[n]
+l.515         \begin{figure*}[n]
                                 
 Option `n' ignored and `p' used.
 
-<./chap3/images/f05.png, id=667, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=764, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
-Package pdftex.def Info: ./chap3/images/f05.png  used on input line 517.
+Package pdftex.def Info: ./chap3/images/f05.png  used on input line 516.
 (pdftex.def)             Requested size: 455.24411pt x 346.01105pt.
-Package cleveref Info: loaded `english' language definitions on input line 546.
+Package cleveref Info: loaded `english' language definitions on input line 527.
 
-[28]
-Package cleveref Info: loaded `english' language definitions on input line 546.
+[34]
+Package cleveref Info: loaded `english' language definitions on input line 527.
 
- [29 <./chap3/images/f05.png>]
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 35 undefined on input line 
+527.
+
+[35 <./chap3/images/f05.png>]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -4046,32 +4248,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547     \begin{figure*}[n]
+l.546     \begin{figure*}[n]
                             
 Option `n' ignored and `p' used.
 
-<./chap3/images/f06.png, id=694, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=789, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
-Package pdftex.def Info: ./chap3/images/f06.png  used on input line 548.
+Package pdftex.def Info: ./chap3/images/f06.png  used on input line 547.
 (pdftex.def)             Requested size: 455.24411pt x 277.05858pt.
-Package cleveref Info: loaded `english' language definitions on input line 578.
+Package cleveref Info: loaded `english' language definitions on input line 569.
 
-[30]
-Package cleveref Info: loaded `english' language definitions on input line 578.
+[36]
+Package cleveref Info: loaded `english' language definitions on input line 569.
 
- [31 <./chap3/images/f06.png>]
-<./chap3/images/f07.png, id=717, 722.7pt x 505.89pt>
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 37 undefined on input line 
+569.
+
+[37 <./chap3/images/f06.png>]
+Package cleveref Info: loaded `english' language definitions on input line 602.
+
+ [38]
+<./chap3/images/f07.png, id=818, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
-Package pdftex.def Info: ./chap3/images/f07.png  used on input line 606.
+Package pdftex.def Info: ./chap3/images/f07.png  used on input line 605.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ! Undefined control sequence.
-l.611 \hack
+l.610 \hack
            {\newpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4079,40 +4286,50 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 611.
+Package cleveref Info: loaded `english' language definitions on input line 610.
 
-[32]
-<./chap3/images/f08.png, id=730, 734.2632pt x 477.9456pt>
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 39 undefined on input line 
+610.
+
+[39 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=831, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
-Package pdftex.def Info: ./chap3/images/f08.png  used on input line 632.
+Package pdftex.def Info: ./chap3/images/f08.png  used on input line 631.
 (pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
-Package cleveref Info: loaded `english' language definitions on input line 635.
+Package cleveref Info: loaded `english' language definitions on input line 643.
 
- [33 <./chap3/images/f07.png>]
-Package cleveref Info: loaded `english' language definitions on input line 653.
-
- [34 <./chap3/images/f08.png>]
-<./chap3/images/f09.png, id=764, 377.7312pt x 720.7728pt>
+ [40 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=853, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
-Package pdftex.def Info: ./chap3/images/f09.png  used on input line 656.
+Package pdftex.def Info: ./chap3/images/f09.png  used on input line 655.
 (pdftex.def)             Requested size: 284.52756pt x 542.93185pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 689.
+Package cleveref Info: loaded `english' language definitions on input line 676.
 
-[35]
-Package cleveref Info: loaded `english' language definitions on input line 715.
 
- [36]
-Package cleveref Info: loaded `english' language definitions on input line 741.
+LaTeX Warning: Citation 'da_silva_how_2025' on page 41 undefined on input line 
+676.
 
- [37]
+[41]
+Package cleveref Info: loaded `english' language definitions on input line 705.
+
+ [42]
+Package cleveref Info: loaded `english' language definitions on input line 729.
+
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 43 undefined on input line 
+729.
+
+[43]
 ! Undefined control sequence.
-l.746 \hack
+l.745 \hack
            {\clearpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4120,14 +4337,44 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 746.
+Package cleveref Info: loaded `english' language definitions on input line 745.
 
-[38]
-Package cleveref Info: loaded `english' language definitions on input line 746.
+[44]
+Package cleveref Info: loaded `english' language definitions on input line 745.
 
- [39 <./chap3/images/f09.png>])
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 45 undefined on input line 
+745.
+
+[45 <./chap3/images/f09.png>]
+
+Package hyperref Warning: Suppressing empty link on input line 787.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \c@ttl@toc@chaptersi 
+l.798 \stopcontents[chaptersi]
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
 Package cleveref Info: loaded `english' language definitions on input line 48.
- [40
+ [46
+
+
+! Undefined control sequence.
+<write> ...toptoc{chaptersi@0\c@ttl@toc@chaptersi 
+                                                  }}
+l.48 \include{chap3/chap3_main}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ]
 \openout2 = `chap4/chap4_main.aux'.
@@ -4144,7 +4391,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[41
+[47
 
 
 
@@ -4162,7 +4409,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[42]
+[48]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -4174,7 +4421,7 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 49.
- [43]
+ [49]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -4193,14 +4440,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[44
+[50
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [45])
+) [51])
 Package cleveref Info: loaded `english' language definitions on input line 50.
 
 
@@ -4211,7 +4458,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[46]
+[52]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -4240,7 +4487,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[47
+[53
 
 
 
@@ -4249,10 +4496,32 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 23.
- [48]) (./main.lof
+ [54]) (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
-Package cleveref Info: loaded `english' language definitions on input line 15.
- [49
+
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 55 undefined on inpu
+t line 5.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 55 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 55 undefined on input line 6.
+
+
+Overfull \hbox (44.50916pt too wide) in paragraph at lines 6--6
+ \T1/ntxtlf/m/n/10.95 mate change im-pacts. Graph-ics from [][][] []  
+ []
+
+
+LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
+3' on page 55 undefined on input line 7.
+
+Package cleveref Info: loaded `english' language definitions on input line 14.
+[55
 
 
 
@@ -4271,7 +4540,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 66.
-[50] (./main.lot
+[56] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -4288,7 +4557,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[51
+[57
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
@@ -4296,17 +4565,17 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [52
+ [58
 
 ]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [53]
+ [59]
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [54]
+ [60]
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [55]
+ [61]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
@@ -4317,7 +4586,7 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 81.
-[56] [57
+[62] [63
 
 
 ]
@@ -4338,7 +4607,7 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
-[58] (./main.aux
+[64] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/avantpropos.aux) (./others/contrib_commu.aux)
 (./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux)
@@ -4365,48 +4634,40 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59073 strings out of 475189
- 1161166 string characters out of 5763838
- 2115821 words of memory out of 5000000
- 78992 multiletter control sequences out of 15000+600000
+ 59147 strings out of 475189
+ 1163230 string characters out of 5763838
+ 2121231 words of memory out of 5000000
+ 79049 multiletter control sequences out of 15000+600000
  744737 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,120p,4170b,3206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,15n,120p,4167b,3385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{table.caption.17} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
  exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.15} has been referenced but does not 
+exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
  exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{table.caption.18} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.10} has been referenced but does not 
 exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{table.caption.11} has been referenced but does not 
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
 exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
+pdfTeX warning (dest): name{table.caption.7} has been referenced but does not e
 xist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.2.5.3} has been referenced but does
- not exist, replaced by a fixed one
+pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
+, replaced by a fixed one
 
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2
@@ -4425,10 +4686,10 @@ nts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
 /public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
 newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztm
 ri.pfb>
-Output written on main.pdf (72 pages, 21155743 bytes).
+Output written on main.pdf (78 pages, 22162934 bytes).
 PDF statistics:
- 1532 PDF objects out of 1728 (max. 8388607)
- 1369 compressed objects within 14 object streams
- 277 named destinations out of 1000 (max. 500000)
- 572 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1674 PDF objects out of 1728 (max. 8388607)
+ 1486 compressed objects within 15 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 648 words of extra memory for PDF output out of 10000 (max. 10000000)
 
