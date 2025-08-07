@@ -27,7 +27,7 @@
 \chapter{Introduction to the Arctic aerosol and cloud physics}\label{chap1}     %  !!!! nom à revoir !!!!
 \chaptermark{\color{chapcolor} Introduction to the Arctic aerosol and cloud physics}
 
-\chapquote{From this distant vantage point, the Earth might not seem of any particular interest. But for us, it's different. Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar", every "supreme leader", every saint and sinner in the history of our species lived there – on a mote of dust suspended in a sunbeam.}{Carl Sagan} 
+\epigraph{From this distant vantage point, the Earth might not seem of any particular interest. But for us, it's different. Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar", every "supreme leader", every saint and sinner in the history of our species lived there – on a mote of dust suspended in a sunbeam.}{Carl Sagan} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
@@ -145,6 +145,19 @@ In that way, this PhD work can be seen as the study of the interrelations of tho
 %-----------------------------------------------
 \subsection{Evidences of the Global Warming}
     % Introduction of IPCC
+The Intergovernmental Panel on Climate Change (IPCC), is a scientific body established to provide comprehensive assessments of the scientific, technical, and socio-economic information relevant to understanding human-induced climate change and its impacts. By critically evaluate the existing literature and synthesize findings to inform climate action by various stakeholders, including governments and international organizations, the IPCC serves as a critical platform for synthesizing climate science, fostering collaboration across disciplines, and providing evidence-based insights to guide global climate action. Its rigorous assessment process and commitment to transparency and inclusivity are fundamental to its role in addressing the challenges posed by climate change.
+The IPCC is organized into three main working groups, each focusing on different aspects of climate change:
+\begin{itemize}
+    \item Working Group I (WG1): Concentrates on the physical science basis of climate change, assessing the scientific literature related to climate systems and their changes.
+    \item Working Group II (WG2): Focuses on impacts, adaptation, and vulnerability, evaluating how climate change affects ecosystems and human systems.
+    \item Working Group III (WG3): Deals with mitigation strategies, analysing options for reducing greenhouse gas emissions and enhancing carbon sinks.
+\end{itemize}
+
+In order to understand what is global warming and what are its causes and consequences, we will rely on the work of WG1. More specifically, we will use the outputs of the sixth Assessment Report (AR6), released in 2021 for WG1, and the final report in 2023. It is the most recent AR, the next one being expected for 2028-2030.
+
+Figure \ref{fig:warming_proofs} presents a selection of graphics from different sources that illustrates the recent evolution of Earth's surface temperature.
+......
+
 
     % the IPCC modelling figure, the ten warmest years are the last ten years, the climate stripes
         \begin{figure}[h]
@@ -285,21 +298,66 @@ There is no scientifically demonstrated reasons for this to change in the future
 \subsection{The silent collapse}
 We did not mention it yet because it is not related to climate, but its importance is so immense that I cannot avoid dedicating a small section to it.
 Apart the influence of human activities in disturbing the planetary climate, the first and most striking consequence of modern global capitalism is the organised destruction of ecosystems.
-The numbers are astonishing: 
+The numbers are astonishing: \citep{cowie_sixth_2022} 
+% le développement humain se fait au détriment de tout ce qui n'est pas humain, soit 99,99 % de la vie que cette planète abrite. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Clouds and microphysics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In the short film of Pier Paolo Pasolini \textit{Che cosa sono le nuvolo?}\footnote{\textit{What are clouds?}}, two theatre puppets that have had their day, end up in a rubbish tip. Thrown on their back, they can just stare at the sky, and are found to be enthralled by what they see. 
+What are those? asks one of the two puppets. Those are clouds, answers the other. What are clouds? \---- Who knows? \---- How beautiful they are! How beautiful they are!
+\vspace{\baselineskip}
+
+This question shelters many dimensions and can be explored in a multitude of manner. In this section, we will explore the physical nature of clouds through their meteorological definitions, their formation and evolution dynamics, and by depicting the processes that intervene in the science presented in the next chapters. 
 
 %-----------------------------------------------
-    \subsection{What is a cloud}
+    \subsection{What are clouds}
     \label{sec:what_is_a_cloud}
-    The Earth's atmosphere contains at any moment, not less than $~10^{25}$ hydrometeors. The majority are liquid water droplets, and the rest is ice crystals \citep{cantrell_production_2005}.
-    This number is to be put into perspective with the overall cloud coverage on the planet, which tends to be of $70 \%$ REFERENCE.
-    Among
+    (% The guy who filmed clouds and Pasolini)
 
-        % --> photo of a nice cloud, or maybe several
+    The Earth's atmosphere contains at any moment, not less than $~10^{25}$ hydrometeors, or water based particles in suspension. The majority are liquid water droplets, and the rest is ice crystals \citep{cantrell_production_2005}.
+    In parallel, the overall cloud cover on the planet tends to be of 60-70 \%.
+    In one hand, these numbers quantitatively describe the whole ensemble of clouds, but do not help to picture a single cloud.
+    In the other hand, it is fairly easy to point out a cloud just by looking at the sky, although this approach is purely qualitative.
+    Luke Howard (1772-1864), sometime considered as the \texit{"Godfather of clouds"} for his work on the classification of clouds, took inspiration in the artwork of cloud representation, and more precisely among the romantic painters such as William Turner, John Constable, and Caspar David Friedrich \citep{howard_LXIV_1803}.
+    Although this approach might be the more natural to the human observer, it most likely misses the majority of physical properties that make a cloud, a \textit{cloud}.
+
+    The World Meteorological Organization (WMO) and the American Meteorological Society (AMS), do not agree on the definition of clouds.
+    The first defines a cloud as:
+    \begin{displayquote}
+        An aggregate of very small water droplets, ice crystals, or a mixture of both, with its base above the Earth’s surface, which is \textit{perceivable} from the observation location.
+    \end{displayquote}
+
+    The second gives a broader definition that includes non water clouds:
+    \begin{displayquote}
+        \begin{itemize}
+            \item A visible aggregate of minute water droplets and/or ice particles in the atmosphere above the Earth’s surface.            
+            \item Any collection of particulate matter in the atmosphere dense enough to be perceptible to the eye, as a dust cloud or smoke cloud \citep{worl_international_2018}.
+        \end{itemize}
+    \end{displayquote}
+
+    The main distinction is the inclusion of non water particles aggregate in the definition of AMS, while WMO only consider water particles (droplets and ice crystals). It overlaps with the definition of aerosol particles (see Sect. \ref{sec:aerosol_definition}) which is rather uncomfortable.
+    The second, and more subtile distinction, is about the cloud detection.
+    AMS highlight the necessity of cloud to be visible to the eye. Conversely, WMO does not mention the naked eye detection, but rather speaks of \textit{perceivable} aggregates. 
+    This includes instrumental observations, that are sometimes the only way to detect clouds. Indeed, the development of instrumental techniques for cloud observation has led to the discovery of perfectly invisible but stable aggregates of hydrometeors that follows cloud dynamics and radiative properties \citep{lesigne_extensive_2024}. 
+    Looking at clouds through instruments implies the use of sharp thresholds on physical variables. The set of parameters will then defer from a discipline to another. In radiation, the optical thickness will rule, while in cloud microphysics, the cloud particles characteristics (number and radius) and the liquid and solid water contents will be essential.
+
+    In \citet{spankuch_what_2022}\----where the cloud definition is extensively discussed\----the authors try to define the modelled cloud like the following:
+    \begin{displayquote}
+        From a modelling point of view a cloud could be tentatively defined as follows: a cloud is a hydrothermodynamic nonequilibrium system of the coexisting macrophases of water in a turbulent humid air atmosphere including (i) the metastable states of water (supersaturated vapour, undercooled water), (ii) the different hydrometeoric forms of water condensates, and (iii) primarily emitted and secondarily formed atmospheric soles (aerosol, hydrosol) and plasmosols, which are involved in the phase transitions of atmospheric water by triggering the removal of metastable states of water into stable ones by heterogeneous nucleation.
+    \end{displayquote}
+
+    For the purpose of this thesis and the work that will follow in the next chapters, we will stick the study of the parameters above mentioned. Despite the great interest that represent cloud classification, dynamics, and the astounding beauty born of the mixing of both, our modelling perspective will prevent us to consider cloud by other means than liquid water content (LWC), ice water content (IWC), optical depth, particle number concentration and cloud fraction.
+    \vspace{\baselineskip}
+
+    Before getting into it, the reader is encouraged now\----and at any moment\----, to put aside its reading, and reach the nearest window in order to take a look at the clouds. With some patience and attention, one might have the chance to spot and recognise one of the particular cloud phenomena illustrated on Fig. \ref{fig:cloud_pic}.
+        % --> photo of a nice cloud, or maybe several, with a conclusion phrase
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/}
+            \caption{}
+            \label{fig:cloud_pic}
+        \end{figure}
 
 
 %-----------------------------------------------
@@ -326,13 +384,6 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
      
      % what about it
 
-
-%-----------------------------------------------
-    \subsection{Arctic clouds}
-    % what are their specificities
-        % the precipitations are driven by the ice phase (see ref. from Jennifer Kay)
-
-
 %-----------------------------------------------
     \subsection{Ice nucleation}
     Citation from Bernard Brunhes, \textit{La dégradation de l'énergie}, page ???.
@@ -340,8 +391,10 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
         % --> formation of ice particles in clouds
         % it could be homogeneous or heterogeneous
 
+    
     % how it works
-    see chapter 8 and 9 of K and Curry. And chapter 8 of Lhomann for simplicity
+    % --> energy barrier
+    see chapter 8 and 9 of K and Curry. And chapter 8 of Lhomann for simplicity (p. 226)
 
     % how is it modelled
 
@@ -357,15 +410,24 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
     
 
 %-----------------------------------------------
+    % Definition
     \subsection{Liquid and solid particles in suspension}
+    \label{sec:aerosol_definition}
 
+        \subsubsection{Physical characteristics}
 
 %-----------------------------------------------
     \subsection{Natural or anthropogenic? The diversity of aerosols particles}
+    see Lohmann P.129
+        \subsubsection{Aerosol sources}
+
+        \subsubsection{Emission mechanisms}
 
 
 %-----------------------------------------------
-    \subsection{Emission mechanisms}
+    \subsection{Ice nucleating particles}
+    see P.230 Lhomann
+
 
 
 %-----------------------------------------------
@@ -410,6 +472,12 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
 
  Part of the uncertainty is due to insufficient knowledge on climate feedbacks of cold clouds (Ceppi et al., 2016; Zelinka et al., 2020; Murray et al., 2021).
  One of the main challenges of modelling is not to condition the model to output what the modeller expects. 
+
+%-----------------------------------------------
+    \subsection{Arctic clouds}
+    % what are their specificities
+        % the precipitations are driven by the ice phase (see ref. from Jennifer Kay)
+
 
     %  --> question d'ouverture : comment améliorer la modélisation du climat arctique ?
 
