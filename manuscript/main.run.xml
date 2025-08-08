@@ -80,7 +80,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>../../Biblio/biblio_202507.bib</file>
+      <file>../../Biblio/biblio_202508.bib</file>
     </requires>
   </external>
 </requests>
