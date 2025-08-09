@@ -167,19 +167,19 @@ In green is the simulated global temperature in a climate with only natural forc
 In light brown, the temperature curve is from a climate simulation that takes into account the anthropogenic factors (c.f. Sect. \ref{sec:causes_of_GW}). Although it does not match perfectly with the observation curve, this second simulation is much more efficient to reproduce the actual temperature evolution.
 At the bottom of the graph are represented the \textit{climate stripes}, that depict in a different way the temperature evolution on that period.
 
-Panel C is the ranking of the ten warmest years since the beginning of measurements, until 2023. The latter stands at the first place, by almost 0.2°C above 2016.
-Which is remarkable with this ranking, is that the ten warmest years are also the last ten. In other words, even though every year does not beat the record, it is most likely that it will be overtaken soon enough. 
-
-Finally, panel D is the seasonal cycle of global temperature for the three years of my PhD: 2023, 2024, and 2025 until I write these lines. Along with those three years, is highlighted the year 1992 when happened the third Earth summit. At that occasion, the United Nations Framework Convention on Climate Change (UNFCCC) as been established, along with the Convention on Biological Diversity (CBD). These enter into the commitment of the United Nations took that year, to protect future generations by preserving the living conditions on Earth.
-The curves show that, since then, the global warming that takes place since 1850, has more than doubled.
-But was it even stoppable? 
-
     % the IPCC modelling figure, the ten warmest years are the last ten years, the climate stripes
         \begin{figure}[h]
             \includegraphics[width=1\textwidth]{./chap1/images/warming_evidences.png}
             \caption{Elements of proof for a global warming. Panel A shows the change in global surface temperature relative to the average of 1850-1900, as reconstructed (1-2000) and observation data (1850-2020). Panel B is a zoom of panel A with observed and simulated data, using human \& natural and only natural factors \citep{masson-delmotte_summary_2021}. Panel C present the top ten of the warmer years in global average (source: \url{https://www.climatecentral.org/}). Panel D is the global air surface temperature yearly evolution of the three years of my PhD, compared to 1992, the year of the third Earth summit when the United Nations committed to protect the future generations (data from C3S/ECMWF, ERA5, Copernicus: \url{https://pulse.climate.copernicus.eu/}).}
             \label{fig:warming_proofs}
         \end{figure}
+
+Panel C is the ranking of the ten warmest years since the beginning of measurements, until 2023. The latter stands at the first place, by almost 0.2°C above 2016.
+Which is remarkable with this ranking, is that the ten warmest years are also the last ten. In other words, even though every year does not beat the record, it is most likely that it will be overtaken soon enough. 
+
+Finally, panel D is the seasonal cycle of global temperature for the three years of my PhD: 2023, 2024, and 2025 until I write these lines. Along with those three years, is highlighted the year 1992 when happened the third Earth summit. At that occasion, the United Nations Framework Convention on Climate Change (UNFCCC) as been established, along with the Convention on Biological Diversity (CBD). These enter into the commitment of the United Nations took that year, to protect future generations by preserving the living conditions on Earth.
+The curves show that, since then, the global warming that takes place since 1850, has more than doubled.
+But was it even stoppable? 
 
 %-----------------------------------------------
 \subsection{Root causes or, of natural climate evolution timescales}
@@ -315,7 +315,7 @@ By 2050, under the mid-range ECS, the least ambitious trajectories place us at w
 
 %-----------------------------------------------
 \subsection{Implication for scientific research}
-By the time current PhD student are the age of their experienced supervisors, the climate would have evolved most likely as depicted on Fig. \ref{fig:climate_projections}. The geopolitical responses and evolutions of such a rapid change of living conditions can be expected to be of unprecedented magnitude.
+By the time current PhD students  are the age of their experienced supervisors, the climate would have evolved most likely as depicted on Fig. \ref{fig:climate_projections}. The geopolitical responses and evolutions of such a rapid change of living conditions can be expected to be of unprecedented magnitude.
 Even though social sciences rarely link political events to climate conditions at first sight, historical reviews enlighten by climate sciences reveal a strong influence of climate changes on human societies. The French historian Jean-Baptiste Fressoz gives evidences that climate was a key actor in every major historical event \citep{fressoz_revoltes_2020}.
 Similarly, the history since the industrial revolutions has been driven by fossil fuels. In his book \textit{Or noir} \citep{auzanneau_or_2015}, Matthieu Auzanneau demonstrates the central role of petrol on human recent history, from the social organisation and economical management of natural and human resources, to the outcome of World Wars (WWs).
 There is no scientifically demonstrated reasons for this to change in the future. The recent geopolitical news show it.
@@ -421,14 +421,159 @@ This question shelters many dimensions and can be explored in a multitude of man
         \end{itemize}
     \end{itemize}
 
+    % ---> schematics of CRE and factors
 
-
-    % radiation budget
-    % CRE
 
 %-----------------------------------------------
     \subsection{Cloud formation and evolution}
     \label{sec:cloud_formation}
+    Clouds are among those physical systems that involve a wide range of disciplines. Cloud physics is a subtle combination of thermodynamics, fluid mechanics, radiative physics, and molecular physics.
+    In this section, we will explore some of the main mechanisms that allow the existence of clouds in the Earth's atmosphere.
+
+    \subsubsection{Notions of stability}
+    In order to meet the favorable conditions of cloud formation, an air parcel has to be subject to some dynamical movement.
+
+    The atmosphere\----or more precisely, a portion or layer of it\----can be classified into three different stability states. These characterize whether the considered atmospheric layer is convective, stable, or neutral.
+    
+    The stability of an air parcel depends on the vertical balance between its weight and the buoyancy force:
+
+    \begin{equation}
+        m_p \vec{a} = \vec{\Pi} + \vec{P_p}
+    \end{equation}
+
+    where $ m_p $ is the mass of the air parcel, \( \vec{a} \) its acceleration, \( \vec{\Pi} \) the buoyancy force, and \( \vec{P_p} \) the weight of the parcel. The buoyancy \(\Pi\) depends on the density \(\rho_e\) of the surrounding air and the density of the parcel \(\rho_p\).
+    
+    The equation of state for air, considered as an ideal gas, is
+
+    \begin{equation}
+        P = \rho R_a T
+    \end{equation}
+
+    where \( R_a \) is the gas constant for dry air, equal to 287 \unit{m²\,s⁻²\,K⁻¹}.
+    Thus, 
+    \begin{equation}
+        \rho = \frac{P}{R_a T}.
+    \end{equation}
+
+    Since the pressure of the parcel and its surroundings are identical, it is the temperature difference between \(T_p\) and \(T_e\) that determines the ratio \(\rho_p / \rho_e\) and, therefore, the stability state of the atmosphere.
+    
+    Consider an atmosphere initially in hydrostatic equilibrium (balance between pressure gradient force and gravity):
+
+    \begin{equation}
+        -\frac{1}{\rho_e} \frac{\partial P}{\partial z} = g
+        \label{eq:hydrostatic}
+    \end{equation}
+
+    A change in density from \(\rho_e \to \rho_p\) induces a vertical acceleration \(a\) of the air parcel (now with density \(\rho_p\) different from the environment):
+    \begin{equation}
+        -\frac{1}{\rho_p} \frac{\partial P}{\partial z} = g + a
+    \end{equation}
+
+    Substituting Eq.~\eqref{eq:hydrostatic} into this expression, and using the equation of state, yields:
+
+    \begin{equation}
+    a = -g \frac{T_e - T_p}{T_e}
+    \label{eq:acceleration}
+    \end{equation}
+    
+    Equation~\eqref{eq:acceleration} can be rewritten as a differential equation by assuming linear temperature profiles of the form
+
+    \begin{equation}
+    T_i = T_0 + z\,\Gamma_i \quad (i = e, p)
+    \end{equation}
+
+    and introducing the vertical derivative of potential temperature:
+
+    \begin{equation}
+    \frac{d^2 z}{dt^2} = - \frac{g}{T_0} \frac{d\theta}{dz} z
+    \end{equation}
+
+    The term
+
+    \begin{equation*}
+    \frac{g}{T_0} \frac{d\theta}{dz}
+    \end{equation*}
+
+    is the squared Brunt–Väisälä frequency\footnote{Actually, $N$ has the dimension of a pulsation.}:
+   
+   \begin{equation}
+    N^2 = \frac{g}{T_0} \frac{d\theta}{dz}
+    \end{equation}
+    
+    The Brunt–Väisälä frequency characterizes the oscillations of a fluid parcel that has been displaced, by any perturbation, from its hydrostatic equilibrium position. When the balance between weight and buoyancy is disturbed, these forces act to restore the parcel to equilibrium. Like a spring given an impulse, the parcel will oscillate at frequency \(N\) around its equilibrium position, provided the oscillations are maintained. Such oscillations occur both in the atmosphere and in the ocean, where they are known as \emph{gravity waves}.
+    
+    In practice, the stability of an atmospheric layer can be determined by examining the vertical profile of potential temperature \(\theta\):
+    \begin{itemize}
+    \item The atmosphere is \textbf{stable} when \( N^2 > 0 \), corresponding to a positive vertical gradient of potential temperature.
+    \item It is \textbf{unstable} when \( N^2 < 0 \), corresponding to a negative gradient of potential temperature.
+    \end{itemize}
+
+    
+    %\subsubsection*{Qualitative interpretation}
+    It is often convenient to visualize stability as follows:
+    
+    \paragraph{Stable case:}  
+    When the vertical temperature gradient of the parcel is steeper (i.e., more negative) than that of the environment (\(\nabla_z T_p < \nabla_z T_e\), with \(\nabla_z T_e = -g / c_p\)), the atmosphere is stable. If the parcel is given an upward motion (e.g., by wind advection), buoyancy acts as a restoring force, returning it to its equilibrium altitude. This situation is analogous to a mechanical potential well associated with stable equilibrium.
+    
+    \paragraph{Unstable case:}  
+    When the vertical temperature gradient of the parcel is weaker (less negative) than that of the environment (\(\nabla_z T_p > \nabla_z T_e\)), the atmosphere is unstable. In this case, if the parcel is given kinetic energy that displaces it from equilibrium, buoyancy amplifies its upward motion. This is analogous to a mechanical potential peak associated with unstable equilibrium.
+    
+    \paragraph{Neutral case:}  
+    When the gradients are equal (\(\nabla_z T_p = \nabla_z T_e\)), the atmosphere is neutral. Once the parcel’s kinetic energy is dissipated, buoyancy and gravity balance, keeping the parcel at its new altitude.
+
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/stability.png}
+            \caption{Atmospheric stability by temperature gradient (B), and associated mechanical analogy (A).}
+            \label{fig:stability}
+        \end{figure}
+
+    For cloud formation, the air parcel has to be unstable. This situation allows the air to be lifted; the phenomenon is called \textit{free convection}. Conversely, \textit{forced convection} refers to upward air displacement caused by pressure gradient of topography.
+    With the troposphere temperature gradient, the lifted parcel might meet thermodynamically favorable conditions for its vapour to condensate. 
+    For low tropospheric clouds like cumulus (see Fig. \ref{fig:cloud_pic} XX), the sine qua none condition for droplet forming is often on temperature. When the isotherm that allows the cloud to form is reached, the vapour condensates and the cloud form. That explains why those kind of clouds have very flat and homogeneous bases.
+    The air parcel can eventually reach an altitude where $N^2 > 0$, and thus stop its ascension. 
+    If the parcel is in a stable case, the cloud can be the witness of gravity waves (see Fig. \ref{fig:cloud_pic}).
+     
+    However, when the droplets form, the latent heat associated to their initial evaporation is released, which warms the surrounding air. This tends to fuel the air parcel lifting. If the total latent heat of the parcel is sufficiently important, and the negative potential temperature gradient is strong enough, the lifting can enter in a positive feedback loop that causes it to self sustain until all the vapour has condensed. We talk of \textit{deep convection}.
+    In such situations, the cloud can extend up to the tropopause where the tropospheric temperature gradient gets cancelled, and so do the buoyancy of the air parcel. 
+    This mechanism is at the origin of cumulonimbus formation.
+
+
+    \subsubsection{Cloud phase}
+    \label{sec:cloud_phase}
+    On Earth, tropospheric clouds are composed of water, which is present under its three phases in the atmosphere: liquid, solid, and gaseous.
+    Clouds can be classified as liquid-phase clouds, solid-phase clouds, or mixed-phase clouds, in which supercooled water droplets and ice crystals coexist. 
+    
+    When the formation of one or the other of these phases occurs without the intervention of a solid surface or particles, it is referred to as \textit{homogeneous nucleation} (c.f. Sect. \ref{sec:ice_nucleation}). The formation of water droplets by homogeneous nucleation can only occur at supersaturation levels of several hundred percent (never encountered on Earth). Likewise, only below −38 °C can ice crystals form through a homogeneous process \citep{Seinfeld_atmospheric_1998}. Homogeneous solid-phase nucleation, or \textit{ice nucleation}, is observed almost exclusively during the formation of cirrus clouds (high tropospheric clouds).
+    
+    It is because their formation is facilitated by the presence of aerosols\----liquid or solid particles suspended in the air (c.f. Sect. \ref{sec:aerosol_definition})\----that clouds still cover more than two-thirds of the globe’s surface. 
+    When aerosol particles help the formation of cloud particles, the process is called \textit{heterogeneous nucleation}. This process drastically lowers the humidity level required for liquid-phase formation, and increases the temperature at which ice crystals form; as a result, either phase can develop from small supersaturations, and ice crystal formation can begin at temperatures as high as 0 °C.
+
+   % Although the overall cloud ice content is small compared to the liquid content, ice crystals have a great influence on cloud evolution, precipitations and radiative budget.
+
+    % repartition of cloud phase
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/matus_cloud_frac.png}
+            \caption{Adapted from \citet{matus_role_2017}}
+            \label{fig:cloud_frac}
+        \end{figure}
+     
+     % what about it
+
+%-----------------------------------------------
+    \subsection{Physics of ice nucleation}
+    \label{sec:ice_nucleation}
+    Citation from Bernard Brunhes, \textit{La dégradation de l'énergie}, page ???.
+    % what is it
+    % why particles are needed? 
+        % --> introduction of INP and CCN
+    We saw that ice nucleation can happen in a pristine atmosphere through what is called homogeneous nucleation, or at higher temperatures with the help of aerosols particles through heterogeneous nucleation.
+    This section will focus on the physics behind heterogeneous nucleation, which is the cloud ice formation process studied in this thesis.
+
+     
+    % how it works
+    \subsubsection{The energy barrier}
+    % --> energy barrier
+    see chapter 8 and 9 of K and Curry. And chapter 8 of Lhomann for simplicity (p. 226)
 
 from Cantrell and Heymsfield 2005:
 In Kurt Vonnegut's novel, Cat's Cradle, Dr.
@@ -443,27 +588,26 @@ close enough to the crystalline structure of ice that
 the energy barrier between phases is substantially
 reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scientists in the United States, along with David Turnbull and Vincent Schaefer, to research the subject of heterogeneous nucleation of ice on a physicochemical level.}
 
-%-----------------------------------------------
-    \subsection{Cloud phase}
-    \label{sec:cloud_phase}
-    Although the overall cloud ice content is small compared to the liquid content, ice crystals have a great influence on cloud evolution, precipitations and radiative budget.
-     
-     % what about it
+    \subsubsection{Types of heterogeneous nucleation}
+        Heterogeneous ice nucleation can happen through four different processes.
 
-%-----------------------------------------------
-    \subsection{Ice nucleation}
-    Citation from Bernard Brunhes, \textit{La dégradation de l'énergie}, page ???.
-    % what is it
-        % --> formation of ice particles in clouds
-        % it could be homogeneous or heterogeneous
+        \paragraph{Immersion freezing}
+        Immersion freezing refers to the formation of an ice crystal from a droplet inside which an INP is immersed. It can occur at $100\%$ humidity and $T \leq 0~^{\circ}$C, but requires the preliminary formation of a liquid droplet and thus passing through a sufficiently high saturation ratio for liquid condensation to have taken place.
+        
+        \paragraph{Deposition nucleation}
+        Along with immersion freezing, deposition nucleation is the dominant process in the formation of atmospheric clouds. Water vapour can sometimes deposit directly on the surface of INPs. When the humidity conditions (saturation $\geq 100\%$) and temperature ($T \leq 0~^{\circ}$C) allow, an ice crystal can form from the INP on which water molecules have deposited.
+        
+        \paragraph{Condensation freezing}
+        When air approaches saturation, liquid water can condense on the surface of INPs without forming a droplet. If saturation is reached but remains below the threshold for droplet formation, an ice crystal can form. In general, INPs contain soluble components that can eventually act as CCN. If condensation freezing does not occur quickly enough, a droplet may form on the INP. In this case, immersion freezing will occur if ice crystal formation takes place.
+        
+        \paragraph{Contact freezing}
+        The collision of a supercooled water droplet with an INP can lead to the formation of an ice crystal if supersaturation conditions are met (saturation $\geq 100\%$ and $T \leq 0~^{\circ}$C). Contact freezing is limited by the collision rate between droplets and INPs, which depends on the INP concentration as well as the size distribution of the particles and droplets.
 
-    
-    % how it works
-    % --> energy barrier
-    see chapter 8 and 9 of K and Curry. And chapter 8 of Lhomann for simplicity (p. 226)
 
     % how is it modelled
+    \subsubsection{Modelling of heterogeneous ice nucleation}
 
+    \box{Opening question}
     % --> question d'ouverture : comment représenter les INPs dans les modèles, et quel est leur impact sur les nuages et le bilan radiatif ?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -485,26 +629,55 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
 %-----------------------------------------------
     \subsection{The variety of aerosols effects on cloud and climate}
     \label{sec:aerosol_effects}
-    % direct effect: radiative effect
-    % semi-direct effect: what they mask
-    % indirect effects: aerosol-cloud interactions, or what we're interested in
+    TODO: introduce better the direct effects
 
+    Beyond the so-called direct effects of aerosols on the radiative balance of an atmospheric layer due to their optical properties, two other types of impact of these particles on the energy budget can be distinguished through their interactions with clouds (Fig.~I.8).
+    
+    \paragraph{Semi-direct effects}
+    The presence of an aerosol plume, through its interactions with solar radiation, causes a warming of the air layer it occupies. This modification of the vertical temperature profile of the atmosphere induces, in cases where temperature decreases with altitude, an increase in hydrostatic stability. This phenomenon can inhibit atmospheric convection and consequently alter cloud formation by reducing their vertical development in favour of horizontal spreading. This leads to an increase in stratus cloud coverage and a reduction in cumulus development. In the Arctic, due to the low insolation associated with high latitudes, the direct and semi-direct effects of aerosols are not very pronounced. Indirect effects have the most significant impact on the region’s energy budget.
+    
+    \paragraph{Indirect effects}
+    Indirect effects are the consequences of aerosol–cloud interactions. While these interactions can be very complex, the general sequence of mechanisms is straightforward to understand. An increase in CCN concentration will promote the formation of a larger number of droplets, which in turn increases the cloud’s optical thickness and infrared emissivity \citep{twomey_influence_1977}. This is referred to as the first indirect effect. Furthermore, for a constant liquid water content, an increase in droplet number leads to a decrease in their mean size. The coalescence processes responsible for droplet growth will then be less efficient, delaying cloud precipitation. This is the second indirect effect, which results in an increased cloud lifetime \citep{albrecht_cloud_1989}.
+    
+    Many other indirect effects exist, such as the impact of aerosols on cloud altitude or on ice clouds. These processes, however, remain poorly understood, mainly due to gaps in our understanding of aerosol–cloud interactions.
+
+
+    TODO: Radiative effects of aerosols
         % figure of the aerosols effects on climate
         \begin{figure}[h]
-            \includegraphics[width=1\textwidth]{./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png}
+            \includegraphics[width=0.4\textwidth]{./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png}
             \caption{Effective radiative forcing for aerosols species, from 1750 to 2019. Graphics from \citet{intergovernemental_panel_on_climate_change_climate_2023}}
             \label{fig:radiative_forcing_aerosols}
         \end{figure}
-        % --> discuss the lack of quantification of other aerosols types effects on radiative forcing.
 
+        TODO: discuss the lack of quantification of other aerosols types effects on radiative forcing.
 
 
 %-----------------------------------------------
     \subsection{Natural or anthropogenic? The diversity of aerosols particles}
     see Lohmann P.129
-        \subsubsection{Aerosol sources}
 
-        \subsubsection{Emission mechanisms}
+    TODO: enrich and add references
+    
+    Arctic INPs are poorly characterized, but the current state of research suggests that they are mainly primary aerosols: mineral dust and particles of biological, marine, or terrestrial origin \citep{Hartmann2021}. For each of these INP types, several impacts of climate warming on their emissions\----and therefore on their concentrations in the Arctic atmosphere\----can be identified.
+    
+    \subsubsection{Sea salts and marine organics}
+    Sea salts are water-soluble in composition, which makes them poor INPs. However, they play a major role as cloud condensation nuclei (CCN). Moreover, they share their emission mechanism with marine organic particles, which are very efficient INPs. These two aerosol types are grouped under the term sea sprays, which refers to their emission mechanism.
+    
+    These aerosols are emitted during the bursting of fine water droplets projected at the ocean surface. The lifting of foam by swell and wind is the main production mechanism (source?). Thus, changes in surface winds in oceanic regions influence INP concentrations, but it is primarily the variation in the ocean surface in contact with the atmosphere (open ocean) that determines the emission of marine aerosols. This is particularly relevant in polar regions, especially in the Arctic, where the open ocean surface changes with both the seasonal cycle of sea ice and its multi-decadal decline associated with climate warming (see Fig.~I.9). This link between sea ice and the emission of sea salts and marine organics suggests that the ongoing decrease in sea ice concentration—seemingly inevitable given current warming trajectories—will be accompanied by an increase in the concentration of this aerosol type.
+    
+    \subsubsection{Biological sources, terrestrial and marine}
+    Particles produced by biological activity can act as INPs when emitted into the atmosphere, and in some cases—such as bacteria—can be particularly active at temperatures above $-15~^{\circ}$C \citep{Storelvmo2017}. Pollen, plant debris, bacteria, and viruses are the main representatives of continental organic aerosols. Marine organic INPs consist of residues from biological activity, such as algal, planktonic, or phytoplankton debris.
+    
+    \citet{Creamean2019} show that warming of the Arctic Ocean and the retreat of sea ice cover are two factors that promote biological activity at high northern latitudes. Similarly, \citet{Creamean2020} describe how permafrost thaw exposes the atmosphere to important INP sources through the re-emergence of biological organisms, once again exposed to the atmosphere. In general, temperature acts—up to a certain point—as a catalyst for microbial activity. Climate warming is therefore expected to mechanically increase the presence of biological INPs in cold regions. For example, it drives the migration of marine biological activity toward higher latitudes at a rate of about $1^{\circ}$ per decade \citep{Renaut2018}. All of these temperature-driven changes could lead to an increase in biological INP concentrations in the Arctic.
+    
+    \subsubsection{Mineral dust}
+    Among aerosols capable of acting as INPs, mineral dust is among the most common. Although their ice nucleating efficiency is lower than that of biological INPs, they can transport the latter and thus extend their range of action. However, due to their relatively short atmospheric lifetime—linked in part to their high density (see Sect.~I.2.6)—they can also limit the transport of biological INPs.
+    
+    Mineral dust is most often lofted by wind or projected into the air through the impact of other particles (saltation and sandblasting processes). They originate mainly from semi-arid regions or deserts but can also be emitted from riverbeds or glaciers. Again, climate warming is expected to increase the number of sites favorable to the emission of these particles through glacier melt and riverbed drying. In areas where warming leads to a retreat of arid zones due to increasing biodiversity, the decrease in mineral INPs could be partially offset by the rise in biological sources.
+        \subsubsection{Aerosol sources ????}
+
+        \subsubsection{Emission mechanisms ????}
 
 
 %-----------------------------------------------
@@ -537,6 +710,58 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
     \subsection{Polar amplification}
     \citep{rantanen_arctic_2022}
 
+The increase in average temperatures associated with global warming is not homogeneous across the globe. In some regions, warming is inhibited (for example, in the Southern Ocean, where the Antarctic Circumpolar Current benefits from the thermal inertia of deep ocean circulation to isolate Antarctica from warming for several decades), while in others it is amplified. As previously mentioned, the Arctic is the region where warming is most pronounced, with a rate of temperature increase about four times higher than the global average \citep{rantanen_arctic_2022}. Figure \ref{fig:arctic_warming} illustrates this meridional inhomogeneity of climate warming. In this section, we review the main mechanisms that can explain this Arctic amplification.
+
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/arctic_warming.png}
+            \caption{}
+            \label{fig:arctic_warming}
+        \end{figure}
+
+    \subsubsection{Convergence of horizontal heat fluxes}
+    Synoptic horizontal heat transport contributes to the amplification of warming at high northern latitudes. Although the list of relevant processes remains debated \citep{serreze_processes_2011}, the Atlantic Multidecadal Oscillation (AMO) appears to play a role in modulating Arctic temperatures. \citet{chylek_arctic_2009} showed that Arctic air temperature variations are linked to AMO phases. After at least sixty years of warming (1880–1940), the Arctic experienced a cooling period associated with a negative AMO phase. Following a loss of about 1°C over thirty years, temperatures began rising again when the AMO shifted back to a positive phase. However, establishing a robust correlation remains challenging, as AMO records only cover about one and a half oscillation cycles.
+    
+    The Arctic Oscillation (AO) also strongly influences the region’s climate \citep{quadrelli_simplified_2004}. The AO refers to a sea-level pressure (SLP) tripole at mid- and high northern latitudes (Fig.~\ref{fig:SLP_AO}). A positive AO phase corresponds to a low-pressure anomaly centred over the Arctic, which strengthens the jet stream and supports the persistence of the polar vortex. In this phase, polar air remains confined to the Arctic and isolated from warm lower-latitude air. Conversely, a negative AO phase is characterized by an anticyclonic SLP anomaly over the Arctic, weakening the polar vortex. Cold air can then spill into the mid-latitudes, while the Arctic receives intrusions of warm air. Although Arctic warming follows multi-decadal cycles (e.g., AMO influence), it is systematically faster than the global mean. We can thus distinguish two categories of mechanisms:  
+    (i) large-scale, multi-decadal drivers influencing the Arctic through climate cycles, and  
+    (ii) seasonal to regional feedbacks specific to the Arctic.
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/SLP_AO.png}
+            \caption{}
+            \label{fig:SLP_AO}
+        \end{figure}
+    
+    \subsubsection{Albedo feedback}
+    Among its many specificities, the Arctic Ocean stands out from other basins due to the variability of its albedo. The presence of sea ice increases the basin’s albedo to 0.5–0.7 (50–70\% of incoming solar radiation reflected), compared to only 0.06 for open water.
+    
+    Sea ice thus acts as a reflective shield against solar radiation. Under climate warming, its extent tends to decrease year after year (Fig.~\ref{fig:sst_sic_anomolies}). The surface of open water—i.e., not covered by ice—increases, absorbing more energy. Its temperature rises, directly affecting sea ice formation, making it thinner and less extensive. In parallel, as Arctic Ocean temperatures exceed air temperatures in winter, the excess sensible heat stored during summer is released back into the atmosphere in winter. This delayed effect of the sea ice–albedo feedback explains why temperature anomalies peak in winter \citep{serreze_processes_2011}.
+
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/sst_sic_anomalies.png}
+            \caption{}
+            \label{fig:sst_sic_anomolies}
+        \end{figure}
+    
+    A similar positive albedo feedback exists over Arctic land surfaces, but involves snow cover only (not sea ice). Snow has a very high albedo unless darkened by soot, ash, or other deposited particles (cf. Sect.~I.2.6). Earlier snowmelt—triggered by positive climate forcing (e.g., enhanced greenhouse effect)—reduces albedo and further accelerates melting.
+    
+    \citet{graversen_polar_2009} showed, by simulating Arctic amplification with fixed albedo, that albedo contributed about 15\% to the observed amplification. Other processes must therefore be considered to fully characterize Arctic amplification.
+    
+    \subsubsection{Lapse-rate feedback}
+    Arctic temperature conditions and low insolation impose a strong atmospheric stability, often associated with a temperature inversion in the Arctic boundary layer. The maximum of the vertical temperature profile is not at the surface, but at an altitude ranging from a few hundred meters to more than one kilometre during the Siberian winter. The frequency, intensity, and height of these inversions vary strongly with season and location \citep{maillard_boundary_2022}. As a result, the excess heat from surface warming is not efficiently transported to higher atmospheric layers, but remains confined near the surface (Fig. \ref{fig:lapserate}). Long wave radiation associated with this additional warming is also partly trapped in the lower atmosphere, contributing to positive feedback. \citet{pithan_arctic_2014} identified this mechanism as likely the main driver of Arctic amplification.
+
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap1/images/lapserate.png}
+            \caption{}
+            \label{fig:lapserate}
+        \end{figure}
+    
+    \subsubsection{Effect of polar clouds}
+    Polar clouds are primarily low-level stratus \citep{shupe_clouds_2011}. During daytime, they play a dual role: reflecting incoming solar radiation and acting as a greenhouse “lid” for terrestrial infrared radiation. Observations by \citet{intrieri_annual_2002} show that the radiative balance of polar clouds is generally positive—warming the lower atmosphere—except for a short summer period when the surface albedo is minimal. On an annual average, polar clouds have a net warming effect on the surface (Fig. \ref{fig:warming_on_clouds}).
+    While this cloud type tends to impose a net cooling at low and mid-latitudes, the Arctic warming effect is explained by the long polar night characteristic of high latitudes. During this period, cloud albedo has no impact on solar radiation, while their greenhouse effect persists and becomes the sole radiative forcing from clouds throughout the polar night.
+    Furthermore, increasing temperatures lead to a predominance of the liquid phase over the ice phase in clouds. These liquid-rich clouds become optically thicker and have longer lifetimes. The resulting effect is warming, making this process another positive feedback.
+    
+    TODO: introduce an opening question we want to address in this thesis.
+  %  In the next section, we examine the physical mechanisms by which aerosols influence these phenomena. Although current observations suggest an overall positive effect, poor understanding of certain cloud microphysical processes prevents firm conclusions on how cloud radiative forcing will evolve with climate warming.
+    
 
 %-----------------------------------------------
     \subsection{Modelling the Arctic climate}
@@ -551,14 +776,17 @@ reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scient
 %-----------------------------------------------
     \subsection{Arctic clouds}
     % what are their specificities
+    ---> figure matus et l'écuyer net warming effect (latitude + map)
         % the precipitations are driven by the ice phase (see ref. from Jennifer Kay)
 
 
     %  --> question d'ouverture : comment améliorer la modélisation du climat arctique ?
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{General intention and plan}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% has to be short, very clear, and recalling all the questions brought by the above introduction
 
 
 
