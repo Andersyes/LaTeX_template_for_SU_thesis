@@ -4,12 +4,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {III.1}{\ignorespaces WRF model setup.}}{42}{table.caption.18}%
-\contentsline {table}{\numberline {III.2}{\ignorespaces Tracer parameters in WRF-Chem.}}{43}{table.caption.19}%
-\contentsline {table}{\numberline {III.3}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{45}{table.caption.21}%
-\contentsline {table}{\numberline {III.4}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{48}{table.caption.22}%
-\contentsline {table}{\numberline {III.5}{\ignorespaces Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{53}{table.caption.26}%
-\contentsline {table}{\numberline {III.6}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{54}{table.caption.27}%
+\contentsline {table}{\numberline {III.1}{\ignorespaces WRF model setup.}}{40}{table.caption.19}%
+\contentsline {table}{\numberline {III.2}{\ignorespaces Tracer parameters in WRF-Chem.}}{41}{table.caption.20}%
+\contentsline {table}{\numberline {III.3}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{44}{table.caption.22}%
+\contentsline {table}{\numberline {III.4}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{46}{table.caption.23}%
+\contentsline {table}{\numberline {III.5}{\ignorespaces Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{51}{table.caption.27}%
+\contentsline {table}{\numberline {III.6}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{52}{table.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

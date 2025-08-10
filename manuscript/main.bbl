@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{albrecht_cloud_1989}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9cd3f3d3d6c9693dd32626a94929c951}{%
+           family={Albrecht},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44cba7f8920f923f49b5d2a7d730e5c0}{%
+           family={Bruce},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f952cef4c4232849c52ee1020c55a278}
+      \strng{fullhash}{43c69e51cc0ff15c2441c925eddeb61c}
+      \strng{bibnamehash}{43c69e51cc0ff15c2441c925eddeb61c}
+      \strng{authorbibnamehash}{43c69e51cc0ff15c2441c925eddeb61c}
+      \strng{authornamehash}{f952cef4c4232849c52ee1020c55a278}
+      \strng{authorfullhash}{43c69e51cc0ff15c2441c925eddeb61c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{note}{Place: Boston MA, USA Publisher: American Meteorological Society}
+      \field{title}{Cloud {Microphysics}, and {Fractional} {Cloudiness}}
+      \field{volume}{245}
+      \field{year}{1989}
+      \field{pages}{1227\bibrangedash 1230}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.245.4923.1227
+      \endverb
+      \verb{urlraw}
+      \verb http://science.sciencemag.org/content/245/4923/1227
+      \endverb
+      \verb{url}
+      \verb http://science.sciencemag.org/content/245/4923/1227
+      \endverb
+    \endentry
     \entry{allen_evidence_2021}{article}{}
       \name{author}{7}{}{%
         {{hash=39cb9f5fbb7de46c3caf4b4af45ed727}{%
@@ -276,6 +318,43 @@
       \verb https://www.sciencedirect.com/science/article/pii/0004698185902562
       \endverb
       \keyw{Models,statistical,residence time analysis,sulfur,particulate,source determination,statistical analysis}
+    \endentry
+    \entry{auzanneau_or_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c66df99cbec9ffbffe209a27e4133d9e}{%
+           family={Auzanneau},
+           familyi={A\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \strng{fullhash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \strng{bibnamehash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \strng{authorbibnamehash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \strng{authornamehash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \strng{authorfullhash}{c66df99cbec9ffbffe209a27e4133d9e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{La Découverte}
+      \field{title}{Or noir, {La} grande histoire du pétrole}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Or noir - Matthieu Auzanneau - Éditions La Découverte:/home/dasilva/snap/zotero-snap/common/Zotero/storage/JC9WIG73/or_noir-9782707167019.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.editionsladecouverte.fr/or_noir-9782707167019
+      \endverb
+      \verb{url}
+      \verb https://www.editionsladecouverte.fr/or_noir-9782707167019
+      \endverb
     \endentry
     \entry{bond_bounding_2013}{article}{}
       \name{author}{31}{}{%
@@ -1036,6 +1115,62 @@
       \verb https://gmd.copernicus.org/articles/9/4029/2016/
       \endverb
     \endentry
+    \entry{chylek_arctic_2009}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c3db7ee0612428f0ac56a617a2a38006}{%
+           family={Chylek},
+           familyi={C\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f8763aea75e60c8c4e09d721e150cd2e}{%
+           family={Folland},
+           familyi={F\bibinitperiod},
+           given={Chris\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=448b5142f499cd0ef8af629b7945b598}{%
+           family={Lesins},
+           familyi={L\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=41544c532cc108b9b823fd1bcebcdcc7}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Manvendra\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9bab3ac55c70ffdf873de60240f9ce23}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Muyin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{949093600f68d03ec176a35a622dc40a}
+      \strng{fullhash}{86aab87aa3c2ccbaa31c1ee6dcc1c206}
+      \strng{bibnamehash}{86aab87aa3c2ccbaa31c1ee6dcc1c206}
+      \strng{authorbibnamehash}{86aab87aa3c2ccbaa31c1ee6dcc1c206}
+      \strng{authornamehash}{949093600f68d03ec176a35a622dc40a}
+      \strng{authorfullhash}{86aab87aa3c2ccbaa31c1ee6dcc1c206}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{14}
+      \field{title}{Arctic air temperature change amplification and the {Atlantic} {Multidecadal} {Oscillation}}
+      \field{volume}{36}
+      \field{year}{2009}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2009GL038777
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009GL038777
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009GL038777
+      \endverb
+      \keyw{Arctic amplification,Atlantic Multidecadal Oscillation,climate change}
+    \endentry
     \entry{commerce_ncep_2000}{misc}{}
       \name{author}{1}{}{%
         {{hash=d33d9943dbfb612d43bba870cc2c9d4e}{%
@@ -1081,6 +1216,203 @@
       \endverb
       \verb{url}
       \verb https://rda.ucar.edu
+      \endverb
+    \endentry
+    \entry{cowie_sixth_2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=90d915c8e545fc1890641a7c9e96816e}{%
+           family={Cowie},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8e32a06c3be99709ce0aae9c204d6303}{%
+           family={Bouchet},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=87f6e516da05cee7ab4ee716fe5b10c4}{%
+           family={Fontaine},
+           familyi={F\bibinitperiod},
+           given={Benoît},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{09fa5caa6851173f52526a3a1a8fb26e}
+      \strng{fullhash}{0c36a0e21d866ed042ac5d9db21f86d1}
+      \strng{bibnamehash}{0c36a0e21d866ed042ac5d9db21f86d1}
+      \strng{authorbibnamehash}{0c36a0e21d866ed042ac5d9db21f86d1}
+      \strng{authornamehash}{09fa5caa6851173f52526a3a1a8fb26e}
+      \strng{authorfullhash}{0c36a0e21d866ed042ac5d9db21f86d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{There have been five Mass Extinction events in the history of Earth's biodiversity, all caused by dramatic but natural phenomena. It has been claimed that the Sixth Mass Extinction may be underway, this time caused entirely by humans. Although considerable evidence indicates that there is a biodiversity crisis of increasing extinctions and plummeting abundances, some do not accept that this amounts to a Sixth Mass Extinction. Often, they use the IUCN Red List to support their stance, arguing that the rate of species loss does not differ from the background rate. However, the Red List is heavily biased: almost all birds and mammals but only a minute fraction of invertebrates have been evaluated against conservation criteria. Incorporating estimates of the true number of invertebrate extinctions leads to the conclusion that the rate vastly exceeds the background rate and that we may indeed be witnessing the start of the Sixth Mass Extinction. As an example, we focus on molluscs, the second largest phylum in numbers of known species, and, extrapolating boldly, estimate that, since around AD 1500, possibly as many as 7.5–13\% (150,000–260,000) of all 2 million known species have already gone extinct, orders of magnitude greater than the 882 (0.04\%) on the Red List. We review differences in extinction rates according to realms: marine species face significant threats but, although previous mass extinctions were largely defined by marine invertebrates, there is no evidence that the marine biota has reached the same crisis as the non-marine biota. Island species have suffered far greater rates than continental ones. Plants face similar conservation biases as do invertebrates, although there are hints they may have suffered lower extinction rates. There are also those who do not deny an extinction crisis but accept it as a new trajectory of evolution, because humans are part of the natural world; some even embrace it, with a desire to manipulate it for human benefit. We take issue with these stances. Humans are the only species able to manipulate the Earth on a grand scale, and they have allowed the current crisis to happen. Despite multiple conservation initiatives at various levels, most are not species oriented (certain charismatic vertebrates excepted) and specific actions to protect every living species individually are simply unfeasible because of the tyranny of numbers. As systematic biologists, we encourage the nurturing of the innate human appreciation of biodiversity, but we reaffirm the message that the biodiversity that makes our world so fascinating, beautiful and functional is vanishing unnoticed at an unprecedented rate. In the face of a mounting crisis, scientists must adopt the practices of preventive archaeology, and collect and document as many species as possible before they disappear. All this depends on reviving the venerable study of natural history and taxonomy. Denying the crisis, simply accepting it and doing nothing, or even embracing it for the ostensible benefit of humanity, are not appropriate options and pave the way for the Earth to continue on its sad trajectory towards a Sixth Mass Extinction.}
+      \field{issn}{1469-185X}
+      \field{journaltitle}{Biological Reviews}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/brv.12816}
+      \field{number}{2}
+      \field{shorttitle}{The {Sixth} {Mass} {Extinction}}
+      \field{title}{The {Sixth} {Mass} {Extinction}: fact, fiction or speculation?}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{97}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{640\bibrangedash 663}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1111/brv.12816
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/WMYZYFAG/Cowie et al. - 2022 - The Sixth Mass Extinction fact, fiction or speculation.pdf:application/pdf;Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/S4D6VWHY/brv.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12816
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12816
+      \endverb
+      \keyw{biodiversity crisis,conservation,denial,extinction,invertebrates,IUCN Red List,land snails,molluscs,Sixth Extinction,undescribed species}
+    \endentry
+    \entry{da_silva_plotting_2025}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a27748bce4714bd90c5e3698768e1b4d}{%
+           family={Da\bibnamedelima Silva},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod}}}%
+        {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
+           family={Marelle},
+           familyi={M\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bolin Centre Code Repository}%
+      }
+      \strng{namehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{fullhash}{6e0dfe09f71a93e8d8b0df4772b9141b}
+      \strng{bibnamehash}{6e0dfe09f71a93e8d8b0df4772b9141b}
+      \strng{authorbibnamehash}{6e0dfe09f71a93e8d8b0df4772b9141b}
+      \strng{authornamehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{authorfullhash}{6e0dfe09f71a93e8d8b0df4772b9141b}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Plotting python tools for the {ARTofMELT} {FLEXPART}-{WRF} runs}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.57669/ODEN-ARTOFMELT-2023-TRAJECTORIES-BACKWARD-FLEXPART-1.0.1
+      \endverb
+      \verb{urlraw}
+      \verb https://git.bolin.su.se/bolin/oden-artofmelt-2023-trajectories-backward-flexpart/tree/1.0.1
+      \endverb
+      \verb{url}
+      \verb https://git.bolin.su.se/bolin/oden-artofmelt-2023-trajectories-backward-flexpart/tree/1.0.1
+      \endverb
+    \endentry
+    \entry{da_silva_how_2025}{article}{}
+      \name{author}{8}{}{%
+        {{hash=a27748bce4714bd90c5e3698768e1b4d}{%
+           family={Da\bibnamedelima Silva},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod}}}%
+        {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
+           family={Marelle},
+           familyi={M\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=61cea3eb61d9c37a529e4a7d9cd4d885}{%
+           family={Raut},
+           familyi={R\bibinitperiod},
+           given={Jean-Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=d4a06799d4c883dc31e990f0f132e987}{%
+           family={Gramlich},
+           familyi={G\bibinitperiod},
+           given={Yvette},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=49ff0fbaaa284b115307f12947f5e53f}{%
+           family={Siegel},
+           familyi={S\bibinitperiod},
+           given={Karolina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=718d0b35aa235f4598199b2e777d330e}{%
+           family={Haslett},
+           familyi={H\bibinitperiod},
+           given={Sophie\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=58128c33bdc350093114820d58919f3c}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=45126306c56f01243df79b540dfe11ae}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Jennie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{fullhash}{397c4086acefb468c0bda3f175e256be}
+      \strng{bibnamehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{authorbibnamehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{authornamehash}{26daf08875dba98ff602cd511b3988e0}
+      \strng{authorfullhash}{397c4086acefb468c0bda3f175e256be}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The origins of particles and trace gases involved in the rapidly changing polar climates remain unclear, limiting the reliability of climate models. This is especially true for particles involved in aerosol–cloud interactions with polar clouds. As detailed chemical fingerprinting measurements are difficult and expensive in polar regions, backward modeling is often used to identify the sources of observed atmospheric compounds. However, the accuracy of these methods is not well quantified. This study provides an evaluation of these analysis protocols by combining backward trajectories from the FLEXible PARTicle dispersion model (FLEXPART) with simulations of tracers from the Weather Research and Forecast model including Chemistry (WRF-Chem). Knowing the exact modeled tracer emission sources in WRF-Chem enables a precise quantification of the source detection accuracy. The results show that direct interpretation of backward model outputs or more advanced analyses like potential source contribution functions (PSCFs) are often unreliable in identifying emission sources. After exploring parameter sensitivities thanks to our simulation framework, we present an updated and rigorously evaluated backward-modeling analysis protocol for tracing the origins of atmospheric species from measurement data. Two tests of the improved protocol on actual aerosol data from Arctic campaigns demonstrate its ability to correctly identify known sources of methane sulfonic acid and black carbon. Our results reveal that traditional back-trajectory methods often misidentify emission source regions. Therefore, we recommend using the method described in this study for future efforts to trace the origins of measured atmospheric species.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{5}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{10}
+      \field{shorttitle}{How to trace the origins of short-lived atmospheric species}
+      \field{title}{How to trace the origins of short-lived atmospheric species: an {Arctic} example}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{5331\bibrangedash 5354}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.5194/acp-25-5331-2025
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/CU427J3H/Da Silva et al. - 2025 - How to trace the origins of short-lived atmospheric species an Arctic example.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/25/5331/2025/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/25/5331/2025/
       \endverb
     \endentry
     \entry{dubovik_retrieving_2008}{article}{}
@@ -1534,6 +1866,95 @@
       \verb https://pubs.rsc.org/en/content/articlelanding/2022/ea/d2ea00047d
       \endverb
     \endentry
+    \entry{fressoz_revoltes_2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d812206f14a88952b7f35894b00927d0}{%
+           family={Fressoz},
+           familyi={F\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{fullhash}{d812206f14a88952b7f35894b00927d0}
+      \strng{bibnamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authorbibnamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authornamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authorfullhash}{d812206f14a88952b7f35894b00927d0}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Seuil}
+      \field{title}{Les {Révoltes} du ciel}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Les Révoltes du ciel , Jean-Baptiste Fre... | Editions Seuil:/home/dasilva/snap/zotero-snap/common/Zotero/storage/Q299JFPC/9782021058147.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.seuil.com/ouvrage/les-revoltes-du-ciel-jean-baptiste-fressoz/9782021058147
+      \endverb
+      \verb{url}
+      \verb https://www.seuil.com/ouvrage/les-revoltes-du-ciel-jean-baptiste-fressoz/9782021058147
+      \endverb
+    \endentry
+    \entry{fressoz_pour_2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d812206f14a88952b7f35894b00927d0}{%
+           family={Fressoz},
+           familyi={F\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {fr}%
+      }
+      \strng{namehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{fullhash}{d812206f14a88952b7f35894b00927d0}
+      \strng{bibnamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authorbibnamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authornamehash}{d812206f14a88952b7f35894b00927d0}
+      \strng{authorfullhash}{d812206f14a88952b7f35894b00927d0}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1268-4783}
+      \field{journaltitle}{Annales des Mines - Responsabilité \& environnement}
+      \field{month}{1}
+      \field{note}{Publisher: Institut Mines-Télécom}
+      \field{number}{1}
+      \field{title}{Pour une histoire des symbioses énergétiques et matérielles}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{101}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{7\bibrangedash 11}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3917/re1.101.0007
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/D9RC3VLY/Fressoz - 2021 - Pour une histoire des symbioses énergétiques et matérielles.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://stm.cairn.info/revue-responsabilite-et-environnement-2021-1-page-7
+      \endverb
+      \verb{url}
+      \verb https://stm.cairn.info/revue-responsabilite-et-environnement-2021-1-page-7
+      \endverb
+    \endentry
     \entry{ginoux_sources_2001}{article}{}
       \name{author}{7}{}{%
         {{hash=e874f456f2236d3c158a2fe0fa4d35cf}{%
@@ -1755,6 +2176,42 @@
       \verb https://www.nature.com/articles/s41561-023-01254-8
       \endverb
       \keyw{Atmospheric chemistry,Atmospheric science,Cryospheric science,Environmental impact}
+    \endentry
+    \entry{graversen_polar_2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4ce8868fa088c864afe9e210896ec3d7}{%
+           family={Graversen},
+           familyi={G\bibinitperiod},
+           given={R.G.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c8036c92eb308087403a4876f318cba0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e28c1b5ca2219a90f1084a430a046392}
+      \strng{fullhash}{9a92728aeaff5f09b0286f25fb4212b8}
+      \strng{bibnamehash}{9a92728aeaff5f09b0286f25fb4212b8}
+      \strng{authorbibnamehash}{9a92728aeaff5f09b0286f25fb4212b8}
+      \strng{authornamehash}{e28c1b5ca2219a90f1084a430a046392}
+      \strng{authorfullhash}{9a92728aeaff5f09b0286f25fb4212b8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Climate Dynamics}
+      \field{title}{Polar amplification in a coupled climate model with locked albedo}
+      \field{volume}{33}
+      \field{year}{2009}
+      \field{pages}{629\bibrangedash 643}
+      \range{pages}{15}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s00382-009-0535-6
+      \endverb
+      \keyw{Albedo feedback,Climate-model experiment,Greenhouse effect,Polar amplification}
     \endentry
     \entry{grell_generalized_2002}{article}{}
       \name{author}{2}{}{%
@@ -2691,6 +3148,74 @@
       \endverb
       \keyw{climate change,greenhouse forcing,radiative transfer}
     \endentry
+    \entry{intrieri_annual_2002}{article}{}
+      \name{author}{7}{}{%
+        {{hash=dad46d0e6760447c36a7cafffbc328ca}{%
+           family={Intrieri},
+           familyi={I\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0af3389a7bab4465318ca5fcb4397427}{%
+           family={Fairall},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=c2f2821bd06ada20cafa6051cd15451d}{%
+           family={Shupe},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=49e97eb26752ff747959f4a8f1dadcd5}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi O.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=19f170a6f9048ba00135a3d06636ed19}{%
+           family={Andreas},
+           familyi={A\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=51df4c9c9b01d9a946211d603f571b21}{%
+           family={Guest},
+           familyi={G\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bcc7fe4521b6cf98490cbf849e3275fa}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b96f6942b3950583b1a7be56ac6eb701}
+      \strng{fullhash}{c7677f6fbf6996b6db361bd33855c8df}
+      \strng{bibnamehash}{b96f6942b3950583b1a7be56ac6eb701}
+      \strng{authorbibnamehash}{b96f6942b3950583b1a7be56ac6eb701}
+      \strng{authornamehash}{b96f6942b3950583b1a7be56ac6eb701}
+      \strng{authorfullhash}{c7677f6fbf6996b6db361bd33855c8df}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Oceans}
+      \field{number}{C10}
+      \field{title}{An annual cycle of {Arctic} surface cloud forcing at {SHEBA}}
+      \field{volume}{107}
+      \field{year}{2002}
+      \field{pages}{SHE 13--1--SHE 13\bibrangedash 14}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2000JC000439
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JC000439
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JC000439
+      \endverb
+      \keyw{atmospheric radiation,clouds,forcing,polar meteorology,remote sensing}
+    \endentry
     \entry{ipcc_sixth_2021}{report}{}
       \name{author}{1}{}{%
         {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
@@ -2899,6 +3424,112 @@
       \endverb
       \keyw{aerosol effect,carbon monoxide,ice cloud,satellite observation}
     \endentry
+    \entry{jones_uk_2007}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=754ef483cc118651dbbe70d1a2879764}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5b1e01223d3abdfaa02d045362049323}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e2eecd05771f40ca89b97b6761450bae}{%
+           family={Hort},
+           familyi={H\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d67a92609ea54e9814e64cf17b69294}{%
+           family={Devenish},
+           familyi={D\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b562c9906baadc9205de3ba633e7123c}{%
+           family={Borrego},
+           familyi={B\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2ca420c1faa6b7480eac565ae540e4cc}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Ann-Lise},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{ab16f86d6be6c335fcd98f933fee7467}
+      \strng{fullhash}{179714093618d423e2069ed5c8d4752d}
+      \strng{bibnamehash}{179714093618d423e2069ed5c8d4752d}
+      \strng{authorbibnamehash}{179714093618d423e2069ed5c8d4752d}
+      \strng{authornamehash}{ab16f86d6be6c335fcd98f933fee7467}
+      \strng{authorfullhash}{179714093618d423e2069ed5c8d4752d}
+      \strng{editorbibnamehash}{db2fab57a1f79d2a64c308f29998d7a8}
+      \strng{editornamehash}{6bae49ac32a4eb55a5b8bd05938ccb6e}
+      \strng{editorfullhash}{db2fab57a1f79d2a64c308f29998d7a8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The impact of the Chernobyl power-plant accident in 1986 gave a major impetus to dispersion modelling activities around that time, especially in those countries directly impacted by the radioactive cloud. In the United Kingdom, the greatest contamination occurred in upland areas across the western half of the country where intense convective rainfall had intercepted the plume (most notably, in NW Wales, Cumbria and SW Scotland). Significant quantities of radionuclides were deposited locally in these upland grassland environments. The Met Office provided specialist forecasts during the incident (based essentially on trajectory techniques); however no operational long-range dispersion model was available for use at that time. Hence central government sanctioned us with developing an emergencyresponse modelling capability to provide detailed predictions of the transport and deposition of radioactive materials that might arise from any similar events in the future. The Met Office Nuclear Accident ModEl (abbreviated to NAME) was in use by 1988 with a major upgrade (NAME II) operational from 1994.}
+      \field{booktitle}{Air {Pollution} {Modeling} and {Its} {Application} {XVII}}
+      \field{isbn}{978-0-387-68854-1}
+      \field{title}{The {U}.{K}. {Met} {Office}'s {Next}-{Generation} {Atmospheric} {Dispersion} {Model}, {NAME} {III}}
+      \field{year}{2007}
+      \field{pages}{580\bibrangedash 589}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-0-387-68854-1_62
+      \endverb
+    \endentry
+    \entry{keeling_atmospheric_2017}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=ef6a45089d83616362b984b1a2661af6}{%
+           family={Keeling},
+           familyi={K\bibinitperiod},
+           given={Ralph\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=bbafcad60d119c71c930ddce1f41e4ff}{%
+           family={{Morgan, Eric J.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=31b62a5629802fa990bb4e6fe63d385e}{%
+           family={{Keeling, Charles D.}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {No linguistic content; Not applicable}%
+      }
+      \strng{namehash}{c96dabdbde9a4e28c1440e9229506a7d}
+      \strng{fullhash}{5d422a8820281941d6d653687ed82ff6}
+      \strng{bibnamehash}{5d422a8820281941d6d653687ed82ff6}
+      \strng{authorbibnamehash}{5d422a8820281941d6d653687ed82ff6}
+      \strng{authornamehash}{c96dabdbde9a4e28c1440e9229506a7d}
+      \strng{authorfullhash}{5d422a8820281941d6d653687ed82ff6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Context Object: url\_ver=Z39.88-2004\&ctx\_ver=Z39.88-2004\&rft\_val\_fmt=info\%3Aofi\%2Ffmt\%3Akev\%3Amtx\%3Adc\&rfr\_id=info\%3Asid\%2Fblacklight.rubyforge.org\%3Agenerator\&rft.title=Atmospheric+Monthly+In+Situ+CO2+Data+-+Mauna+Loa+Observatory\%2C+Hawaii\&rft.date=1958+to+present\&rft.date=2017\&rft.language=No+linguistic+content\%3B+Not+applicable\&rft.rights=purposeNote\%3A+Use\%3A+This+work+is+available+from+the+UC+San+Diego+Library.+This+digital+copy+of+the+work+is+intended+to+support+research\%2C+teaching\%2C+and+private+study.+note\%3A+Constraint\%28s\%29+on+Use\%3A+This+work+is+protected+by+the+U.S.+Copyright+Law+\%28Title+17\%2C+U.S.C.\%29.+Use+of+this+work+beyond+that+allowed+by+\%22fair+use\%22+or+any+license+applied+to+this+work+requires+written+permission+of+the+copyright+holder\%28s\%29.+Responsibility+for+obtaining+permissions+and+any+use+and+distribution+of+this+work+rests+exclusively+with+the+user+and+not+the+UC+San+Diego+Library.+Inquiries+can+be+made+to+the+UC+San+Diego+Library+program+having+custody+of+the+work.}
+      \field{title}{Atmospheric {Monthly} {In} {Situ} {CO2} {Data} - {Mauna} {Loa} {Observatory}, {Hawaii}}
+      \field{year}{2017}
+      \verb{file}
+      \verb text/html Attachment:/home/dasilva/snap/zotero-snap/common/Zotero/storage/BXQ4S8E8/bb3859642r.html:text/html
+      \endverb
+    \endentry
     \entry{kirchstetter_evidence_2004}{article}{}
       \name{author}{3}{}{%
         {{hash=2d6f1c8a3449f28bc30519da1e093f09}{%
@@ -3037,6 +3668,77 @@
       \verb https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1271/
       \endverb
     \endentry
+    \entry{lesigne_extensive_2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d70a5c13a9d6ed72bf7f297ef742844e}{%
+           family={Lesigne},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6915983d8be720c9a654cfae4425e496}{%
+           family={Ravetta},
+           familyi={R\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=24d155bc13b95e76eaff194b993a913b}{%
+           family={Podglajen},
+           familyi={P\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=93b5c31d46f6d619c330c6faaabcba66}{%
+           family={Mariage},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a7975fea4adf8ebec4ecb7b1f0983836}{%
+           family={Pelon},
+           familyi={P\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{575a9d5ae791fb3c3db6d066e8337515}
+      \strng{fullhash}{58846afa292ddb258535e5e3dc2a0fca}
+      \strng{bibnamehash}{58846afa292ddb258535e5e3dc2a0fca}
+      \strng{authorbibnamehash}{58846afa292ddb258535e5e3dc2a0fca}
+      \strng{authornamehash}{575a9d5ae791fb3c3db6d066e8337515}
+      \strng{authorfullhash}{58846afa292ddb258535e5e3dc2a0fca}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tropical tropopause layer (TTL) clouds have a significant impact on the Earth's radiative budget and regulate the amount of water vapor entering the stratosphere. Estimating the total coverage of tropical cirrus clouds is challenging, since the range of their optical depth spans several orders of magnitude, from thick opaque cirrus detrained from convection to sub-visible clouds just below the stratosphere. During the Strateole-2 observation campaign, three microlidars were flown on board stratospheric superpressure balloons from October 2021 to late January 2022, slowly drifting only a few kilometers above the TTL. These measurements have unprecedented sensitivity to thin cirrus and provide a fine-scale description of cloudy structures both in time and in space. Case studies of collocated observations with the spaceborne Cloud-Aerosol Lidar with Orthogonal Polarization (CALIOP) show very good agreement between the instruments and highlight the Balloon-borne Cirrus and convective overshOOt Lidar's (BeCOOL) higher detection sensitivity. Indeed, the microlidar is able to detect optically very thin clouds (optical depth τ\&lt;2×10-3) that are undetected by CALIOP. Statistics on cloud occurrence show that TTL cirrus appear in about 50 \% of the microlidar profiles and have a mean geometrical depth of 1 km. Ultrathin TTL cirrus (τ\&lt;2×10-3) have a significant coverage (23 \% of the profiles), and their mean geometrical depth is 0.5 km.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{5}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{10}
+      \field{title}{Extensive coverage of ultrathin tropical tropopause layer cirrus clouds revealed by balloon-borne lidar observations}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{5935\bibrangedash 5952}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.5194/acp-24-5935-2024
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/RNYEXU6T/Lesigne et al. - 2024 - Extensive coverage of ultrathin tropical tropopaus.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/24/5935/2024/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/24/5935/2024/
+      \endverb
+    \endentry
     \entry{lu_novel_2012}{article}{}
       \name{author}{4}{}{%
         {{hash=aa46434e0be83ebe3b8e2839e107bf24}{%
@@ -3100,6 +3802,34 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2011GL049903
       \endverb
       \keyw{black carbon,Himalayas and Tibetan Plateau,source region,trajectory analysis}
+    \endentry
+    \entry{maillard_boundary_2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c5aad74e474b8c5aa539f596b2635b6c}{%
+           family={Maillard},
+           familyi={M\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sorbonne Université}%
+      }
+      \strng{namehash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \strng{fullhash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \strng{bibnamehash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \strng{authorbibnamehash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \strng{authornamehash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \strng{authorfullhash}{c5aad74e474b8c5aa539f596b2635b6c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{Boundary layer processes impacting the surface energy balance in the {Arctic}}
+      \field{type}{Theses}
+      \field{year}{2022}
     \endentry
     \entry{manning_estimating_2011}{article}{}
       \name{author}{5}{}{%
@@ -3347,6 +4077,136 @@
       \endverb
       \verb{url}
       \verb https://gmd.copernicus.org/articles/10/3661/2017/
+      \endverb
+    \endentry
+    \entry{masson-delmotte_summary_2021}{incollection}{}
+      \name{editor}{19}{}{%
+        {{hash=6353363baf7fef1e2b7e6e86d6c23588}{%
+           family={Masson-Delmotte},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Valérie},
+           giveni={V\bibinitperiod}}}%
+        {{hash=913d3b0d5757aad7955d4332563274ea}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Panmao},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2ae39f4e939829bc4d7209716abab828}{%
+           family={Pirani},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de54e9960ea6a6f244717359073b9d24}{%
+           family={Connors},
+           familyi={C\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=068447ee26859629ebd5a35075df8d5f}{%
+           family={Péan},
+           familyi={P\bibinitperiod},
+           given={Clotilde},
+           giveni={C\bibinitperiod}}}%
+        {{hash=10b5018448581f55774b68864eb1fdd3}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b825b24bee317139b8938afe0aa753fc}{%
+           family={Caud},
+           familyi={C\bibinitperiod},
+           given={Nada},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f532a47a63f16b583c4455dea6a8018e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f8640c43a61541c47439c84de7b63a70}{%
+           family={Goldfarb},
+           familyi={G\bibinitperiod},
+           given={Leah},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d73069c8f6f7fe18c1630536c5c90fdd}{%
+           family={Gomis},
+           familyi={G\bibinitperiod},
+           given={Melissa\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=e1e84bbf1be75ac3eaefdf23d38d12dd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Mengtian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c6f8aeb70048a03c53c20810592dfe2}{%
+           family={Leitzell},
+           familyi={L\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e70fc762c966e457d3f4bbe74e2640ed}{%
+           family={Lonnoy},
+           familyi={L\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ffc8c2e1710f55b31e6896a0b89270c9}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi B.\bibnamedelimi Robin},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2630ff291299d62b6ed4b85881a5db55}{%
+           family={Maycock},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=87f464a8a2b8130911044cd8d550a35d}{%
+           family={Waterfield},
+           familyi={W\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b05515cd34e8e4994d8f9a944b1e2b0f}{%
+           family={Yelekçi},
+           familyi={Y\bibinitperiod},
+           given={Özge},
+           giveni={Ö\bibinitperiod}}}%
+        {{hash=6ffd0307503b69f5ed91d373fe019df7}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44be9cba3540be1300829ac747256333}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Botao},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Cambridge, United Kingdom}%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{fullhash}{c2d26e444258284ae8642867487750df}
+      \strng{bibnamehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{editorbibnamehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{editornamehash}{ca1b5b789cb8eb8f7d56b09fab481ef5}
+      \strng{editorfullhash}{c2d26e444258284ae8642867487750df}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Summary for Policymakers (SPM) provides a high-level summary of the understanding of the current state of the climate, including how it is changing and the role of human influence, and the state of knowledge about possible climate futures, climate information relevant to regions and sectors, and limiting human-induced climate change.}
+      \field{booktitle}{Climate {Change} 2021: {The} {Physical} {Science} {Basis}. {Contribution} of {Working} {Group} {I} to the {Sixth} {Assessment} {Report} of the {Intergovernmental} {Panel} on {Climate} {Change}}
+      \field{title}{Summary for policymakers}
+      \field{year}{2021}
+      \field{pages}{3\bibrangedash 32}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/9781009157896.001
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/dasilva/snap/zotero-snap/common/Zotero/storage/DSL22E5R/Masson-Delmotte et al. - 2021 - Summary for policymakers.pdf:application/pdf
       \endverb
     \endentry
     \entry{matus_role_2017}{article}{}
@@ -4778,6 +5638,47 @@
       \verb https://gmd.copernicus.org/articles/12/4955/2019/
       \endverb
     \endentry
+    \entry{pithan_arctic_2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e12e16a99b959bb700174fef86383091}{%
+           family={Pithan},
+           familyi={P\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8fa9f4d5973ffedbceece9028748f2b6}{%
+           family={Mauritsen},
+           familyi={M\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b51d784993e76e0fa488544997cfb2e}
+      \strng{fullhash}{87ebd0a5df979f54ad1519d711ee2fdf}
+      \strng{bibnamehash}{87ebd0a5df979f54ad1519d711ee2fdf}
+      \strng{authorbibnamehash}{87ebd0a5df979f54ad1519d711ee2fdf}
+      \strng{authornamehash}{3b51d784993e76e0fa488544997cfb2e}
+      \strng{authorfullhash}{87ebd0a5df979f54ad1519d711ee2fdf}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Geoscience}
+      \field{title}{Arctic amplification dominated by temperature feedbacks in contemporary climate models}
+      \field{volume}{7}
+      \field{year}{2014}
+      \field{pages}{181\bibrangedash 184}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1038/ngeo2071
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/ngeo2071
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ngeo2071
+      \endverb
+    \endentry
     \entry{polissar_aerosol_1999}{article}{}
       \name{author}{8}{}{%
         {{hash=630af31b26497e7a40079a1cc493c0da}{%
@@ -4979,6 +5880,49 @@
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD036059
       \endverb
       \keyw{Arctic,mixed-phase clouds,ice,ice-nucleating particles}
+    \endentry
+    \entry{quadrelli_simplified_2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=de62b70d4353ded08340035e6ef1cab6}{%
+           family={Quadrelli},
+           familyi={Q\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=066db983e41e0db42de0b6b89b6a055d}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3a649fc351781bceeec3808f4ad1a5f}
+      \strng{fullhash}{0a1e34e962c369f18ecd8fcd70f7b6c1}
+      \strng{bibnamehash}{0a1e34e962c369f18ecd8fcd70f7b6c1}
+      \strng{authorbibnamehash}{0a1e34e962c369f18ecd8fcd70f7b6c1}
+      \strng{authornamehash}{a3a649fc351781bceeec3808f4ad1a5f}
+      \strng{authorfullhash}{0a1e34e962c369f18ecd8fcd70f7b6c1}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Climate}
+      \field{note}{Place: Boston MA, USA Publisher: American Meteorological Society}
+      \field{number}{19}
+      \field{title}{A {Simplified} {Linear} {Framework} for {Interpreting} {Patterns} of {Northern} {Hemisphere} {Wintertime} {Climate} {Variability}}
+      \field{volume}{17}
+      \field{year}{2004}
+      \field{pages}{3728\bibrangedash 3744}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1175/1520-0442(2004)017<3728:ASLFFI>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/clim/17/19/1520-0442_2004_017_3728_aslffi_2.0.co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/clim/17/19/1520-0442_2004_017_3728_aslffi_2.0.co_2.xml
+      \endverb
     \endentry
     \entry{raut_cross-polar_2017}{article}{}
       \name{author}{13}{}{%
@@ -5302,6 +6246,116 @@
       \endverb
       \verb{url}
       \verb https://amt.copernicus.org/articles/14/6119/2021/
+      \endverb
+    \endentry
+    \entry{rubino_revised_2019}{article}{}
+      \name{author}{13}{}{%
+        {{hash=224ccd1afef54818414b3648bfb8b5f2}{%
+           family={Rubino},
+           familyi={R\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e7f0cb26ec1886f48f5ee727de430041}{%
+           family={Etheridge},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=82a22450cd262bed45a82239205818f2}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7c5fc0d078aced89ffa5e04b9dfcd42d}{%
+           family={Howden},
+           familyi={H\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cce264c85ea2387dccb8fa24bd60d561}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={Colin\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ff8be08a25f3f256fcf463deecd76add}{%
+           family={Francey},
+           familyi={F\bibinitperiod},
+           given={Roger\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d8c0b0e1cb1da4be0f702e50c8a33341}{%
+           family={Langenfelds},
+           familyi={L\bibinitperiod},
+           given={Ray\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=58f04539490d030fb9519d807bd15891}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi Paul},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5959e31018255df9a064b2df5160b92d}{%
+           family={Trudinger},
+           familyi={T\bibinitperiod},
+           given={Cathy\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7c28c320ef0ed167db26f9c99ce6ee15}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={Darren\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=16ee1db151e458965a1979e9d0f5f314}{%
+           family={Curran},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a6c9ef05f7fa920ac6b397193849c581}{%
+           family={Van\bibnamedelima Ommen},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Tas\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1815efaad80dac5c431f55ee38cdacb9}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{43ee75e49910ab402ccae98fd35ecdb6}
+      \strng{fullhash}{0667e7c64c61dc5f0f07015141a7fb69}
+      \strng{bibnamehash}{43ee75e49910ab402ccae98fd35ecdb6}
+      \strng{authorbibnamehash}{43ee75e49910ab402ccae98fd35ecdb6}
+      \strng{authornamehash}{43ee75e49910ab402ccae98fd35ecdb6}
+      \strng{authorfullhash}{0667e7c64c61dc5f0f07015141a7fb69}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. Ice core records of the major atmospheric greenhouse gases (CO2, CH4, N2O) and their isotopologues covering recent centuries provide evidence of biogeochemical variations during the Late Holocene and pre-industrial periods and over the transition to the industrial period. These records come from a number of ice core and firn air sites and have been measured in several laboratories around the world and show common features but also unresolved differences. Here we present revised records, including new measurements, performed at the CSIRO Ice Core Extraction LABoratory (ICELAB) on air samples from ice obtained at the high-accumulation site of Law Dome (East Antarctica). We are motivated by the increasing use of the records by the scientific community and by recent data-handling developments at CSIRO ICELAB. A number of cores and firn air samples have been collected at Law Dome to provide high-resolution records overlapping recent, direct atmospheric observations. The records have been updated through a dynamic link to the calibration scales used in the Global Atmospheric Sampling LABoratory (GASLAB) at CSIRO, which are periodically revised with information from the latest calibration experiments. The gas-age scales have been revised based on new ice-age scales and the information derived from a new version of the CSIRO firn diffusion model. Additionally, the records have been revised with new, rule-based selection criteria and updated corrections for biases associated with the extraction procedure and the effects of gravity and diffusion in the firn. All measurements carried out in ICELAB–GASLAB over the last 25 years are now managed through a database (the ICElab dataBASE or ICEBASE), which provides consistent data management, automatic corrections and selection of measurements, and a web-based user interface for data extraction. We present the new records, discuss their strengths and limitations, and summarise their main features. The records reveal changes in the carbon cycle and atmospheric chemistry over the last 2 millennia, including the major changes of the anthropogenic era and the smaller, mainly natural variations beforehand. They provide the historical data to calibrate and test the next inter-comparison of models used to predict future climate change (Coupled Model Inter-comparison Project – phase 6, CMIP6). The datasets described in this paper, including spline fits, are available at https://doi.org/10.25919/5bfe29ff807fb (Rubino et al., 2019).}
+      \field{issn}{1866-3516}
+      \field{journaltitle}{Earth System Science Data}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Revised records of atmospheric trace gases {CO}$_{\textrm{2}}$ , {CH}$_{\textrm{4}}$ , {N}$_{\textrm{2}}$ {O}, and \textit{δ}$^{\textrm{13}}$ {C}-{CO}$_{\textrm{2}}$ over the last 2000 years from {Law} {Dome}, {Antarctica}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{473\bibrangedash 492}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/essd-11-473-2019
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/dasilva/snap/zotero-snap/common/Zotero/storage/L3IHLACJ/Rubino et al. - 2019 - Revised records of atmospheric trace gases CO2 , CH4 , N2 O, and i.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://essd.copernicus.org/articles/11/473/2019/
+      \endverb
+      \verb{url}
+      \verb https://essd.copernicus.org/articles/11/473/2019/
       \endverb
     \endentry
     \entry{ruckstuhl_robust_2012}{article}{}
@@ -5747,6 +6801,74 @@
       \endverb
       \keyw{Climate,Electron microscope,Global geochemical cycles,Health,Individual particle analyses,Particle source}
     \endentry
+    \entry{shupe_clouds_2011}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2a68466f2bd343f06418245ca9a5e0f7}{%
+           family={Shupe},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4b92870f0a1c41ff8e81bbf033bb5c46}{%
+           family={Walden},
+           familyi={W\bibinitperiod},
+           given={Von\bibnamedelima P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f68c8d8712f4481a393a6b30a6de05d1}{%
+           family={Eloranta},
+           familyi={E\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=21491ebd8d3ea855d0733c1c33dfc471}{%
+           family={Uttal},
+           familyi={U\bibinitperiod},
+           given={Taneil},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c70c223e3f08c9c6e4379ec1c5aacc38}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f084788c616b6a0fa0f6f2674d70e336}{%
+           family={Starkweather},
+           familyi={S\bibinitperiod},
+           given={Sandra\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9aa78c5d4119f46969dd374f254512eb}{%
+           family={Shiobara},
+           familyi={S\bibinitperiod},
+           given={Masataka},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6cc13e77e8a013dbc735f2d13dd8bb89}
+      \strng{fullhash}{e1856d4bfedd85eee357212bc524ddf4}
+      \strng{bibnamehash}{6cc13e77e8a013dbc735f2d13dd8bb89}
+      \strng{authorbibnamehash}{6cc13e77e8a013dbc735f2d13dd8bb89}
+      \strng{authornamehash}{6cc13e77e8a013dbc735f2d13dd8bb89}
+      \strng{authorfullhash}{e1856d4bfedd85eee357212bc524ddf4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Meteorology and Climatology}
+      \field{note}{Place: Boston MA, USA Publisher: American Meteorological Society}
+      \field{number}{3}
+      \field{title}{Clouds at {Arctic} {Atmospheric} {Observatories}. {Part} {I}: {Occurrence} and {Macrophysical} {Properties}}
+      \field{volume}{50}
+      \field{year}{2011}
+      \field{pages}{626\bibrangedash 644}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1175/2010JAMC2467.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/apme/50/3/2010jamc2467.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/apme/50/3/2010jamc2467.1.xml
+      \endverb
+    \endentry
     \entry{si_concentrations_2019}{article}{}
       \name{author}{14}{}{%
         {{hash=c90c1416b8cff14d6c62c9aeaf28f3e3}{%
@@ -6022,6 +7144,69 @@
       \verb{file}
       \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/J34SRK3U/Skamarock et al. - 2021 - A Description of the Advanced Research WRF Model V.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{spankuch_what_2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=345b288fa820e7e6b4df6fbbe341eb89}{%
+           family={Spänkuch},
+           familyi={S\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4af4b5417c00ff9ddfbcfe345c9431a1}{%
+           family={Hellmuth},
+           familyi={H\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=dfa33160e71522c7e5c465f4152cb867}{%
+           family={Görsdorf},
+           familyi={G\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{31f40e9bebbf12f56e970a7545ad18bc}
+      \strng{fullhash}{fd633078bc180e802eab3c71f301b80c}
+      \strng{bibnamehash}{fd633078bc180e802eab3c71f301b80c}
+      \strng{authorbibnamehash}{fd633078bc180e802eab3c71f301b80c}
+      \strng{authornamehash}{31f40e9bebbf12f56e970a7545ad18bc}
+      \strng{authorfullhash}{fd633078bc180e802eab3c71f301b80c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{There are a couple of reasons to stimulate a discussion about the definition of clouds. One reason is that the American Meteorological Society (AMS) and the World Meteorological Organization (WMO) define clouds differently, and that in two aspects. AMS defines clouds as visible objects, and WMO as perceivable objects. Furthermore, AMS includes all minute particles independent of their nature and composition whereas WMO considers only such minute particles that consist of water, ice, or a mixture of both. Additionally, the so-called invisible or subvisible clouds are perceivable objects in the definition of WMO but not of AMS. Clouds can be observed by humans and be detected by active and passive sensors from ground and space. The detection limits of instruments span more than two orders of magnitude in visible optical thickness ranging from about 0.001 from satellite lidar (in case of horizontal and vertical averaging or 0.07 for single lidar shots) to about 0.3 to 0.45 for multispectral satellite imaging spectrometers. Human observers see clouds when their optical thickness is larger than about 0.03 at day and 0.05 at night. This paper gives a brief overview of cloud detection from ground and space and of the occurrence, characteristics, and impacts of subvisible clouds. Pros and cons of these definitions are discussed, followed by a proposal for a more precise definition. This definition is, like those of AMS and WMO, a one-parametric definition and does not cover all aspects of clouds.}
+      \field{issn}{0003-0007, 1520-0477}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{month}{9}
+      \field{note}{Publisher: American Meteorological Society Section: Bulletin of the American Meteorological Society}
+      \field{number}{8}
+      \field{shorttitle}{What {Is} a {Cloud}?}
+      \field{title}{What {Is} a {Cloud}? {Toward} a {More} {Precise} {Definition}}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{103}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{E1894\bibrangedash E1929}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1175/BAMS-D-21-0032.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/IM4PLH76/Spänkuch et al. - 2022 - What Is a Cloud Toward a More Precise Definition.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/103/8/BAMS-D-21-0032.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/103/8/BAMS-D-21-0032.1.xml
+      \endverb
+      \keyw{Clouds,Atmosphere,Cloud retrieval}
     \endentry
     \entry{sprenger_lagranto_2015}{article}{}
       \name{author}{2}{}{%
@@ -6646,6 +7831,44 @@
       \field{title}{Implementation and verification of the unified {Noah} land surface model in the {WRF} model}
       \field{year}{2004}
     \endentry
+    \entry{twomey_influence_1977}{article}{}
+      \name{author}{1}{}{%
+        {{hash=18c060504a02a9521115cfd51be1a61a}{%
+           family={Twomey},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{fullhash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{bibnamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authorbibnamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authornamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authorfullhash}{18c060504a02a9521115cfd51be1a61a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Atmospheric Sciences}
+      \field{note}{Place: Boston MA, USA Publisher: American Meteorological Society}
+      \field{number}{7}
+      \field{title}{The {Influence} of {Pollution} on the {Shortwave} {Albedo} of {Clouds}}
+      \field{volume}{34}
+      \field{year}{1977}
+      \field{pages}{1149\bibrangedash 1152}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1977)034<1149:TIOPOT>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/34/7/1520-0469_1977_034_1149_tiopot_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/34/7/1520-0469_1977_034_1149_tiopot_2_0_co_2.xml
+      \endverb
+    \endentry
     \entry{wen_backward-time_2012}{article}{}
       \name{author}{5}{}{%
         {{hash=19540b2d0848a129f9df776aadf5bf07}{%
@@ -6898,6 +8121,40 @@
       \verb https://www.nature.com/articles/ncomms12776
       \endverb
       \keyw{Atmospheric chemistry,Environmental impact,Climate-change mitigation}
+    \endentry
+    \entry{world_meteorological_organisation_international_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=007b8984d577db40c6867caa38d8dee0}{%
+           family={{Worl Meteorological Organisation}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{fullhash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{bibnamehash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{authorbibnamehash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{authornamehash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{authorfullhash}{007b8984d577db40c6867caa38d8dee0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{International {Cloud} {Atlas}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Home | International Cloud Atlas:/home/dasilva/snap/zotero-snap/common/Zotero/storage/RD9NLF2Y/home.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://cloudatlas.wmo.int/en/home.html
+      \endverb
+      \verb{url}
+      \verb https://cloudatlas.wmo.int/en/home.html
+      \endverb
     \endentry
     \entry{xu_source_2017}{article}{}
       \name{author}{14}{}{%
@@ -7347,7 +8604,20 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
-  \missing{jones_UK_2007}
+  \missing{Creamean2019}
+  \missing{Creamean2020}
+  \missing{Hartmann2021}
+  \missing{Renaut2018}
+  \missing{Seinfeld_atmospheric_1998}
+  \missing{Storelvmo2017}
+  \missing{chalon_combien_2014}
+  \missing{chen_impacts_2025}
+  \missing{copernicus_climate_change_service_era5_2017}
+  \missing{da_silva_backward_2025}
+  \missing{hay_variations_1976}
+  \missing{howard_LXIV_1803}
+  \missing{intergovernemental_panel_on_climate_change_climate_2023}
+  \missing{rantanen_he_2022}
 \endrefsection
 \endinput
 

@@ -1,21 +1,35 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[50] biber:340> INFO - === ven. juil. 25, 2025, 16:52:20
-[62] Biber.pm:419> INFO - Reading 'main.bcf'
-[121] Biber.pm:979> INFO - Found 88 citekeys in bib section 0
-[130] Biber.pm:4419> INFO - Processing section 0
-[138] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202507.bib' for section 0
-[195] bibtex.pm:1713> INFO - LaTeX decoding ...
-[662] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202507.bib'
-[710] Utils.pm:410> ERROR - Name "Rantanen, M., Karpechko, A.Y., Lipponen, A." has too many commas, skipping entry 'rantanen_he_2022'
-[1464] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1464] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1464] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1464] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1569] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1710] bbl.pm:763> INFO - Output to main.bbl
-[1710] Biber.pm:131> WARN - Entry with key 'rantanen_he_2022' in section '0' is cited and found but not created (likely due to sourcemap)
-[1710] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'jones_UK_2007' and 'jones_uk_2007' in file '../../Biblio/biblio_202507.bib'
-[1710] Biber.pm:131> WARN - I didn't find a database entry for 'jones_UK_2007' (section 0)
-[1710] Biber.pm:133> INFO - WARNINGS: 3
-[1710] Biber.pm:136> INFO - ERRORS: 1
+[53] biber:340> INFO - === dim. août 10, 2025, 14:58:11
+[64] Biber.pm:419> INFO - Reading 'main.bcf'
+[148] Biber.pm:979> INFO - Found 123 citekeys in bib section 0
+[163] Biber.pm:4419> INFO - Processing section 0
+[173] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202508.bib' for section 0
+[240] bibtex.pm:1713> INFO - LaTeX decoding ...
+[908] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202508.bib'
+[1054] Utils.pm:410> ERROR - Name "Rantanen, M., Karpechko, A.Y., Lipponen, A." has too many commas, skipping entry 'rantanen_arctic_2022'
+[1924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1924] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1924] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2037] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2191] bbl.pm:763> INFO - Output to main.bbl
+[2191] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'howard_LXIV_1803' and 'howard_lxiv_1803' in file '../../Biblio/biblio_202508.bib'
+[2191] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Seinfeld_atmospheric_1998' and 'seinfeld_atmospheric_1998' in file '../../Biblio/biblio_202508.bib'
+[2191] Biber.pm:131> WARN - Entry with key 'rantanen_arctic_2022' in section '0' is cited and found but not created (likely due to sourcemap)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'da_silva_backward_2025' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'hay_variations_1976' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'chen_impacts_2025' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'intergovernemental_panel_on_climate_change_climate_2023' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'howard_LXIV_1803' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'chalon_combien_2014' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Seinfeld_atmospheric_1998' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Hartmann2021' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Storelvmo2017' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Creamean2019' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Creamean2020' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'Renaut2018' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'copernicus_climate_change_service_era5_2017' (section 0)
+[2191] Biber.pm:131> WARN - I didn't find a database entry for 'rantanen_he_2022' (section 0)
+[2192] Biber.pm:133> INFO - WARNINGS: 17
+[2192] Biber.pm:136> INFO - ERRORS: 1
