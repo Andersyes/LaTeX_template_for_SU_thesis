@@ -1280,6 +1280,104 @@
       \endverb
       \keyw{biodiversity crisis,conservation,denial,extinction,invertebrates,IUCN Red List,land snails,molluscs,Sixth Extinction,undescribed species}
     \endentry
+    \entry{creamean_ice_2019}{article}{}
+      \name{author}{13}{}{%
+        {{hash=8ab56189ee445245b97b65600aa179b8}{%
+           family={Creamean},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dda05dc1e6df6353d251a60950946fde}{%
+           family={Cross},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2d47d6adf608c664df13d1f35dde9b91}{%
+           family={Pickart},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8b63d06c9a1c1b5ecdd5ab6966c678fd}{%
+           family={McRaven},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=618b44e75ec7467e49f92116bd7f6ee2}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=31006d3847ca1fa6cf08dbdf70fac498}{%
+           family={Pacini},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=372c289bb5e979cca638798aae3cc105}{%
+           family={Hanlon},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=279ce1e502d4845d2994dfc4bcebbf16}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=344ae0d528dd72fcf4c6c66092251b9e}{%
+           family={Ceniceros},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f4978bce45fab13c1fd91be8b35f639}{%
+           family={Aydell},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=344a1450560d38872940a02bd90b3758}{%
+           family={Colombi},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9ce322c31f7da1ec2c201598b41fb8c2}{%
+           family={Bolger},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bfbd39e7f3fd0c35a978f78311eacebb}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{55802930608560c66d76f0d408d3f9ad}
+      \strng{fullhash}{d4e0809e4349cacf545a102f84685b59}
+      \strng{bibnamehash}{55802930608560c66d76f0d408d3f9ad}
+      \strng{authorbibnamehash}{55802930608560c66d76f0d408d3f9ad}
+      \strng{authornamehash}{55802930608560c66d76f0d408d3f9ad}
+      \strng{authorfullhash}{d4e0809e4349cacf545a102f84685b59}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{14}
+      \field{title}{Ice {Nucleating} {Particles} {Carried} {From} {Below} a {Phytoplankton} {Bloom} to the {Arctic} {Atmosphere}}
+      \field{volume}{46}
+      \field{year}{2019}
+      \field{pages}{8572\bibrangedash 8581}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2019GL083039
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083039
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083039
+      \endverb
+      \keyw{aerosol-cloud interactions,Arctic,Arctic aerosol,ice nucleation,phytoplankton bloom}
+    \endentry
     \entry{da_silva_plotting_2025}{misc}{}
       \name{author}{2}{}{%
         {{hash=a27748bce4714bd90c5e3698768e1b4d}{%
@@ -3739,6 +3837,42 @@
       \verb https://acp.copernicus.org/articles/24/5935/2024/
       \endverb
     \endentry
+    \entry{lohmann_introduction_2016}{book}{}
+      \name{author}{3}{}{%
+        {{hash=2f3de49377eb85e7dc69b4d608d6f4a1}{%
+           family={Lohmann},
+           familyi={L\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod}}}%
+        {{hash=31366f6653c634a111aa07f2445e8c85}{%
+           family={Lüönd},
+           familyi={L\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f650f45767928c491383da2966f53cd2}{%
+           family={Mahrt},
+           familyi={M\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{35fc904c26a2d7c7316d2c94d4be0dfc}
+      \strng{fullhash}{003658cafed70f939d63f4e60903d4ae}
+      \strng{bibnamehash}{003658cafed70f939d63f4e60903d4ae}
+      \strng{authorbibnamehash}{003658cafed70f939d63f4e60903d4ae}
+      \strng{authornamehash}{35fc904c26a2d7c7316d2c94d4be0dfc}
+      \strng{authorfullhash}{003658cafed70f939d63f4e60903d4ae}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An {Introduction} to {Clouds}, from the {Microscale} to {Climate}}
+      \field{year}{2016}
+    \endentry
     \entry{lu_novel_2012}{article}{}
       \name{author}{4}{}{%
         {{hash=aa46434e0be83ebe3b8e2839e107bf24}{%
@@ -6131,6 +6265,55 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0048969721019355
       \endverb
       \keyw{MAX-DOAS,Polluted gases,Potential sources,PSCF,Regional transport}
+    \endentry
+    \entry{renaut_northward_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4ac7c5abc91095125978e498943d173b}{%
+           family={Renaut},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=44d25ce3aa5d74b844cd4531939be41d}{%
+           family={Devred},
+           familyi={D\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bcf5f6af809e29a9ec74b0880b6066e6}{%
+           family={Babin},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7503946ea503f9556953bce6eee7b43}
+      \strng{fullhash}{f541a9d154edd76285366d391d91d35f}
+      \strng{bibnamehash}{f541a9d154edd76285366d391d91d35f}
+      \strng{authorbibnamehash}{f541a9d154edd76285366d391d91d35f}
+      \strng{authornamehash}{d7503946ea503f9556953bce6eee7b43}
+      \strng{authorfullhash}{f541a9d154edd76285366d391d91d35f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{10}
+      \field{note}{Publisher: American Geophysical Union}
+      \field{number}{19}
+      \field{title}{Northward {Expansion} and {Intensification} of {Phytoplankton} {Growth} {During} the {Early} {Ice}-{Free} {Season} in {Arctic}}
+      \field{volume}{45}
+      \field{year}{2018}
+      \field{pages}{10\bibrangessep 590\bibrangedash 10\bibrangessep 598}
+      \range{pages}{-77}
+      \verb{doi}
+      \verb 10.1029/2018GL078995
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.archives-ouvertes.fr/hal-02415146
+      \endverb
+      \verb{url}
+      \verb https://hal.archives-ouvertes.fr/hal-02415146
+      \endverb
     \endentry
     \entry{resovsky_algorithm_2021}{article}{}
       \name{author}{14}{}{%
@@ -8604,15 +8787,12 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
-  \missing{Creamean2019}
-  \missing{Creamean2020}
   \missing{Hartmann2021}
-  \missing{Renaut2018}
   \missing{Seinfeld_atmospheric_1998}
-  \missing{Storelvmo2017}
   \missing{chalon_combien_2014}
   \missing{chen_impacts_2025}
   \missing{copernicus_climate_change_service_era5_2017}
+  \missing{creamean_thawing2020}
   \missing{da_silva_backward_2025}
   \missing{hay_variations_1976}
   \missing{howard_LXIV_1803}

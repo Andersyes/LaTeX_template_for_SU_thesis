@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  11 AUG 2025 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  12 AUG 2025 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2848,20 +2848,6 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Creamean2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Creamean2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                Hartmann2021
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2869,21 +2855,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Renaut2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                Seinfeld_atmospheric_1998
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Storelvmo2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2905,6 +2877,13 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
 (biblatex)                copernicus_climate_change_service_era5_2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                creamean_thawing2020
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -3075,7 +3054,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package cleveref Info: loaded `english' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 66.
+Package cleveref Info: loaded `english' language definitions on input line 68.
  [3
 
 ])
@@ -3938,32 +3917,178 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package cleveref Info: loaded `english' language definitions on input line 596.
+Missing character: There is no œ in font lmsy10!
+
+! LaTeX Error: Unicode character ‚Åª (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597 ...nsition, and expressed in \unit{J m‚Åª¬≥}
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 59
+7.
+
+Package textcomp Info: Symbol \textthreesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 597.
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 59
+7.
+
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 59
+7.
+
+Package cleveref Info: loaded `english' language definitions on input line 598.
 
 [23 <./chap1/images/matus_cloud_frac.png>]
+Missing character: There is no π in font lmsy10!
+Missing character: There is no ∫ in font lmsy10!
 Missing character: There is no œ in font lmsy10!
-<./chap1/images/homogeneous_nucleation_rate.png, id=548, 578.16pt x 361.35pt>
+Missing character: There is no π in font lmsy10!
+Missing character: There is no ∫ in font lmsy10!
+Missing character: There is no π in font lmsy8!
+Missing character: There is no ∫ in font lmsy8!
+Missing character: There is no π in font lmsy10!
+Missing character: There is no ∫ in font lmsy10!
+
+! LaTeX Error: Unicode character ‚Åª (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.621 ...n \unit{J}, $\sigma_i$ in \unit{J m‚Åª¬≤}
+                                                  , $\Delta g_v$ in \unit{J ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 621.
+
+
+Package textcomp Info: Symbol \texttwosuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 621.
+
+LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 621.
+
+
+
+LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 621.
+
+
+
+! LaTeX Error: Unicode character ‚Åª (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.621 ... m‚Åª¬≤}, $\Delta g_v$ in \unit{J m‚Åª¬≥}
+                                                   and $r_c$ in \unit{m}.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 62
+1.
+
+Package textcomp Info: Symbol \textthreesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 621.
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 62
+1.
+
+
+LaTeX Warning: Command \textthreesuperior invalid in math mode on input line 62
+1.
+
+
+! LaTeX Error: Unicode character ‚Åª (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.628        expressed in \unit{s‚Åª¬π}
+                                        and where $J_0$ is a kinetic prefact...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Command \textonesuperior invalid in math mode on input line 628.
+
+
+Package textcomp Info: Symbol \textonesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 628.
+
+LaTeX Warning: Command \textonesuperior invalid in math mode on input line 628.
+
+
+
+LaTeX Warning: Command \textonesuperior invalid in math mode on input line 628.
+
+
+Missing character: There is no π in font lmsy10!
+Missing character: There is no ∫ in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 647.
+
+[24{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+Missing character: There is no π in font lmsy10!
+Missing character: There is no ∫ in font lmsy10!
+<./chap1/images/hetero_nucleation.png, id=566, 1194.864pt x 372.4314pt>
+File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
+<use ./chap1/images/hetero_nucleation.png>
+Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
+ne 662.
+(pdftex.def)             Requested size: 455.24411pt x 141.89478pt.
+Missing character: There is no π in font lmsy10!
+Missing character: There is no π in font lmsy10!
+
+LaTeX Warning: Reference `sec:INP_types' on page 25 undefined on input line 674
+.
+
+Package cleveref Info: loaded `english' language definitions on input line 675.
+
+[25 <./chap1/images/hetero_nucleation.png>]
+<./chap1/images/homogeneous_nucleation_rate.png, id=581, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
-n input line 617.
-(pdftex.def)             Requested size: 273.14923pt x 170.71672pt.
-Missing character: There is no π in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 636.
+n input line 677.
+(pdftex.def)             Requested size: 227.62206pt x 142.26025pt.
 
-[24 <./chap1/images/homogeneous_nucleation_rate.png>]
+Missing character: There is no π in font lmsy10!
 Missing character: There is no π in font lmsy10!
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.655     \box{
+l.716     \box{
                Opening question}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+Package cleveref Info: loaded `english' language definitions on input line 720.
+
+[26 <./chap1/images/homogeneous_nucleation_rate.png>]
 ! You can't use `macro parameter character #' in vertical mode.
-l.677     #
+l.738     #
            ##TODO###  introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3971,7 +4096,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.677     ##
+l.738     ##
             #TODO###  introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3979,7 +4104,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.677     ###
+l.738     ###
              TODO###  introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3987,7 +4112,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.677     ###TODO#
+l.738     ###TODO#
                   ##  introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3995,7 +4120,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.677     ###TODO##
+l.738     ###TODO##
                    #  introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4003,18 +4128,15 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.677     ###TODO###
+l.738     ###TODO###
                       introduce better the direct effects
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package cleveref Info: loaded `english' language definitions on input line 680.
-
-[25]
 ! You can't use `macro parameter character #' in vertical mode.
-l.690     #
+l.751     #
            ##TODO###  Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4022,7 +4144,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.690     ##
+l.751     ##
             #TODO###  Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4030,7 +4152,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.690     ###
+l.751     ###
              TODO###  Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4038,7 +4160,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.690     ###TODO#
+l.751     ###TODO#
                   ##  Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4046,7 +4168,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.690     ###TODO##
+l.751     ###TODO##
                    #  Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4054,37 +4176,40 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.690     ###TODO###
+l.751     ###TODO###
                       Radiative effects of aerosols
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=572, 841.1425pt x 81
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=592, 841.1425pt x 81
 3.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png 
- used on input line 693.
+ used on input line 754.
 (pdftex.def)             Requested size: 182.09486pt x 176.00302pt.
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 26 undefined on input line 694.
+3' on page 27 undefined on input line 755.
 
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 26 undefined on input line 694.
+3' on page 27 undefined on input line 755.
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 694--694
-[]\T1/ntxtlf/m/n/10 Figure I.11: |Ef-fec-tive ra-dia-tive forc-ing for aerosols
+Underfull \hbox (badness 1303) in paragraph at lines 755--755
+[]\T1/ntxtlf/m/n/10 Figure I.12: |Ef-fec-tive ra-dia-tive forc-ing for aerosols
  species, from 1750 to 2019. Graph-ics from
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ! You can't use `macro parameter character #' in vertical mode.
-l.698         #
+l.759         #
                ##TODO###  discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4092,7 +4217,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.698         ##
+l.759         ##
                 #TODO###  discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4100,7 +4225,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.698         ###
+l.759         ###
                  TODO###  discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4108,7 +4233,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.698         ###TODO#
+l.759         ###TODO#
                       ##  discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4116,7 +4241,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.698         ###TODO##
+l.759         ###TODO##
                        #  discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4124,7 +4249,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.698         ###TODO###
+l.759         ###TODO###
                           discuss the lack of quantification of other aeroso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4132,7 +4257,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.705     #
+l.766     #
            ##TODO###  enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4140,7 +4265,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.705     ##
+l.766     ##
             #TODO###  enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4148,18 +4273,18 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.705     ###
+l.766     ###
              TODO###  enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package cleveref Info: loaded `english' language definitions on input line 705.
+Package cleveref Info: loaded `english' language definitions on input line 766.
 
-[26 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
+[27]
 ! You can't use `macro parameter character #' in horizontal mode.
-l.705     ###TODO#
+l.766     ###TODO#
                   ##  enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4167,7 +4292,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.705     ###TODO##
+l.766     ###TODO##
                    #  enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4175,7 +4300,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.705     ###TODO###
+l.766     ###TODO###
                       enrich, specify INP and add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4183,25 +4308,17 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Citation 'Hartmann2021' on page 27 undefined on input line 707.
+LaTeX Warning: Citation 'Hartmann2021' on page 28 undefined on input line 768.
 
+Package cleveref Info: loaded `english' language definitions on input line 777.
 
-LaTeX Warning: Citation 'creamean_ice_2019' on page 27 undefined on input line 
-717.
+[28 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
 
+LaTeX Warning: Citation 'creamean_thawing2020' on page 29 undefined on input li
+ne 778.
 
-LaTeX Warning: Citation 'creamean_thawing2020' on page 27 undefined on input li
-ne 717.
-
-
-LaTeX Warning: Citation 'renaut_northward_2018' on page 27 undefined on input l
-ine 717.
-
-Package cleveref Info: loaded `english' language definitions on input line 721.
-
-[27]
 ! You can't use `macro parameter character #' in vertical mode.
-l.735     #
+l.796     #
            ##TODO###  add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4209,7 +4326,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.735     ##
+l.796     ##
             #TODO###  add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4217,7 +4334,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.735     ###
+l.796     ###
              TODO###  add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4225,7 +4342,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.735     ###TODO#
+l.796     ###TODO#
                   ##  add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4233,7 +4350,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.735     ###TODO##
+l.796     ###TODO##
                    #  add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4241,39 +4358,43 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.735     ###TODO###
+l.796     ###TODO###
                       add references
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package cleveref Info: loaded `english' language definitions on input line 745.
+Package cleveref Info: loaded `english' language definitions on input line 803.
 
-[28]
+[29]
 
-LaTeX Warning: Citation 'rantanen_arctic_2022' on page 29 undefined on input li
-ne 770.
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 30 undefined on input li
+ne 831.
 
-<./chap1/images/arctic_ampli.png, id=598, 565.1514pt x 349.7868pt>
+<./chap1/images/arctic_ampli.png, id=625, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
-Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 77
-3.
+Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 83
+4.
 (pdftex.def)             Requested size: 455.24411pt x 281.7726pt.
 Missing character: There is no π in font lmsy10!
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap1/images/SLP_AO.png, id=605, 849.1725pt x 676.5275pt>
+Package cleveref Info: loaded `english' language definitions on input line 842.
+
+[30]
+<./chap1/images/SLP_AO.png, id=640, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
-Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 786.
+Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 847.
 (pdftex.def)             Requested size: 182.09486pt x 145.06862pt.
+
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.787 ...nicus_climate_change_service_era5_2017}.}
+l.848 ...nicus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4282,13 +4403,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 2
-9 undefined on input line 787.
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 3
+1 undefined on input line 848.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.787 ...nicus_climate_change_service_era5_2017}.}
+l.848 ...nicus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4297,42 +4418,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 2
-9 undefined on input line 787.
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 3
+1 undefined on input line 848.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 793.
+Package cleveref Info: loaded `english' language definitions on input line 856.
 
-[29]
-<./chap1/images/albedo_feedback.png, id=621, 1134.2375pt x 533.995pt>
+[31 <./chap1/images/arctic_ampli.png>]
+<./chap1/images/albedo_feedback.png, id=653, 1134.2375pt x 533.995pt>
 File: ./chap1/images/albedo_feedback.png Graphic file (type png)
 <use ./chap1/images/albedo_feedback.png>
 Package pdftex.def Info: ./chap1/images/albedo_feedback.png  used on input line
- 797.
+ 858.
 (pdftex.def)             Requested size: 227.62206pt x 107.15562pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `sec:deposition' on page 32 undefined on input line 86
+3.
 
+Package cleveref Info: loaded `english' language definitions on input line 869.
 
-LaTeX Warning: Reference `sec:deposition' on page 30 undefined on input line 80
-2.
-
-Package cleveref Info: loaded `english' language definitions on input line 808.
-
-[30 <./chap1/images/arctic_ampli.png>]
-<./chap1/images/lapserate.png, id=636, 779.91376pt x 814.04124pt>
+[32 <./chap1/images/SLP_AO.png> <./chap1/images/albedo_feedback.png>]
+<./chap1/images/lapserate.png, id=667, 779.91376pt x 814.04124pt>
 File: ./chap1/images/lapserate.png Graphic file (type png)
 <use ./chap1/images/lapserate.png>
-Package pdftex.def Info: ./chap1/images/lapserate.png  used on input line 810.
+Package pdftex.def Info: ./chap1/images/lapserate.png  used on input line 871.
 (pdftex.def)             Requested size: 182.09486pt x 190.05759pt.
 
 ! Undefined control sequence.
 <argument> ...se of a surface warming of $\DeltaT 
                                                   _{surf}$, a negative buoya...
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4343,7 +4461,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...tmosphere, and the warming $\DeltaT 
                                                   _{TOA}$ at the tropopause ...
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4354,7 +4472,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \DeltaT 
                         
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4365,7 +4483,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \DeltaT 
                         
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4376,7 +4494,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \DeltaT 
                         
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4387,7 +4505,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \DeltaT 
                         
-l.811 ...taT_{TOA}$ at the tropopause is minimal.}
+l.872 ...taT_{TOA}$ at the tropopause is minimal.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4396,17 +4514,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:warming_on_clouds' on page 33 undefined on input 
+line 877.
 
-
-LaTeX Warning: Reference `fig:warming_on_clouds' on page 31 undefined on input 
-line 816.
-
-Package cleveref Info: loaded `english' language definitions on input line 819.
-
-[31 <./chap1/images/SLP_AO.png> <./chap1/images/albedo_feedback.png>]
 ! You can't use `macro parameter character #' in vertical mode.
-l.820     #
+l.881     #
            ##TODO###  introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4414,7 +4526,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.820     ##
+l.881     ##
             #TODO###  introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4422,7 +4534,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.820     ###
+l.881     ###
              TODO###  introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4430,7 +4542,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.820     ###TODO#
+l.881     ###TODO#
                   ##  introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4438,7 +4550,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.820     ###TODO##
+l.881     ###TODO##
                    #  introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4446,16 +4558,18 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.820     ###TODO###
+l.881     ###TODO###
                       introduce an opening question we want to address in th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-)
+Package cleveref Info: loaded `english' language definitions on input line 906.
+
+[33 <./chap1/images/lapserate.png>])
 Package cleveref Info: loaded `english' language definitions on input line 46.
- [32 <./chap1/images/lapserate.png>]
+ [34]
 \openout2 = `chap2/chap2_main.aux'.
 
  (./chap2/chap2_main.tex
@@ -4479,7 +4593,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 6--6
 | [] []
  []
 
-[33
+[35
 
 
 
@@ -4490,9 +4604,9 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 Missing character: There is no π in font lmsy10!
 )
 Package cleveref Info: loaded `english' language definitions on input line 30.
- [34])
+ [36])
 Package cleveref Info: loaded `english' language definitions on input line 47.
- [35]
+ [37]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -4508,14 +4622,14 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 15.
-[36
+[38
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [37]
+) [39]
 ! You can't use `macro parameter character #' in vertical mode.
 l.34 #
       ##TODO### use section I.3 master 2 for the intro
@@ -4581,13 +4695,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 41.
 
 
-LaTeX Warning: Citation 'rantanen_he_2022' on page 38 undefined on input line 4
+LaTeX Warning: Citation 'rantanen_he_2022' on page 40 undefined on input line 4
 7.
 
 Package cleveref Info: loaded `english' language definitions on input line 65.
-[38]
+[40]
 Package cleveref Info: loaded `english' language definitions on input line 81.
- [39]
+ [41]
 ! Undefined control sequence.
 l.97         \subsubsubsection
                               {Model setup}
@@ -4598,7 +4712,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `P1appb' on page 40 undefined on input line 105.
+LaTeX Warning: Reference `P1appb' on page 42 undefined on input line 105.
 
 
 Overfull \hbox (5.52316pt too wide) in paragraph at lines 102--106
@@ -4718,7 +4832,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 133.
 
-[40]
+[42]
 ! Undefined control sequence.
 l.148                     \tophline
                                    
@@ -4773,7 +4887,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap3/images/f01.png, id=851, 1038.7608pt x 715.473pt>
+<./chap3/images/f01.png, id=881, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 168.
@@ -4783,10 +4897,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 179.
 
-[41]
+[43]
 Package cleveref Info: loaded `english' language definitions on input line 193.
 
- [42 <./chap3/images/f01.png>]
+ [44 <./chap3/images/f01.png>]
 ! Undefined control sequence.
 l.204         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -4846,7 +4960,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 244.
 
-[43]
+[45]
 Missing character: There is no Õ in font lmex10!
 Missing character: There is no π in font lmsy10!
 Missing character: There is no ∫ in font lmsy10!
@@ -4866,11 +4980,11 @@ Missing character: There is no π in font lmsy10!
 Missing character: There is no ∫ in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 268.
 
-[44]
+[46]
 Missing character: There is no ù in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 307.
 
-[45]
+[47]
 ! Undefined control sequence.
 l.313                 \tophline
                                
@@ -4902,7 +5016,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap3/images/f02.png, id=933, 742.6947pt x 457.71pt>
+<./chap3/images/f02.png, id=962, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
 Package pdftex.def Info: ./chap3/images/f02.png  used on input line 346.
@@ -4913,12 +5027,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 370.
 
-[46]
+[48]
 Package cleveref Info: loaded `english' language definitions on input line 370.
 
- [47 <./chap3/images/f02.png>]
+ [49 <./chap3/images/f02.png>]
 Missing character: There is no π in font lmsy10!
-<./chap3/images/f03.png, id=964, 1038.7608pt x 715.473pt>
+<./chap3/images/f03.png, id=992, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
 Package pdftex.def Info: ./chap3/images/f03.png  used on input line 392.
@@ -4930,13 +5044,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no π in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 414.
 
-[48]
+[50]
 Missing character: There is no π in font lmsy10!
 Missing character: There is no ∫ in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 431.
 
-[49 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=991, 1115.6079pt x 832.0686pt>
+[51 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=1020, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
 Package pdftex.def Info: ./chap3/images/f04.png  used on input line 433.
@@ -4993,10 +5107,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 456.
 
-[50 <./chap3/images/f04.png>]
+[52 <./chap3/images/f04.png>]
 Package cleveref Info: loaded `english' language definitions on input line 479.
 
- [51]
+ [53]
 Missing character: There is no π in font lmsy10!
 Missing character: There is no π in font lmsy10!
 ! Undefined control sequence.
@@ -5050,17 +5164,17 @@ l.516         \begin{figure*}[n]
                                 
 Option `n' ignored and `p' used.
 
-<./chap3/images/f05.png, id=1014, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=1043, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
 Package pdftex.def Info: ./chap3/images/f05.png  used on input line 517.
 (pdftex.def)             Requested size: 455.24411pt x 346.01105pt.
 Package cleveref Info: loaded `english' language definitions on input line 528.
 
-[52]
+[54]
 Package cleveref Info: loaded `english' language definitions on input line 528.
 
- [53 <./chap3/images/f05.png>]
+ [55 <./chap3/images/f05.png>]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -5072,7 +5186,7 @@ l.547     \begin{figure*}[n]
                             
 Option `n' ignored and `p' used.
 
-<./chap3/images/f06.png, id=1038, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=1066, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
 Package pdftex.def Info: ./chap3/images/f06.png  used on input line 548.
@@ -5080,15 +5194,15 @@ Package pdftex.def Info: ./chap3/images/f06.png  used on input line 548.
 Missing character: There is no π in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 570.
 
-[54]
+[56]
 Package cleveref Info: loaded `english' language definitions on input line 570.
 
- [55 <./chap3/images/f06.png>]
+ [57 <./chap3/images/f06.png>]
 Missing character: There is no π in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 603.
 
-[56]
-<./chap3/images/f07.png, id=1068, 722.7pt x 505.89pt>
+[58]
+<./chap3/images/f07.png, id=1096, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
 Package pdftex.def Info: ./chap3/images/f07.png  used on input line 606.
@@ -5105,16 +5219,16 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 611.
 
-[57 <./chap3/images/f07.png>]
-<./chap3/images/f08.png, id=1082, 734.2632pt x 477.9456pt>
+[59 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=1111, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
 Package pdftex.def Info: ./chap3/images/f08.png  used on input line 632.
 (pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
 Package cleveref Info: loaded `english' language definitions on input line 644.
 
- [58 <./chap3/images/f08.png>]
-<./chap3/images/f09.png, id=1104, 377.7312pt x 720.7728pt>
+ [60 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=1133, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
 Package pdftex.def Info: ./chap3/images/f09.png  used on input line 656.
@@ -5125,13 +5239,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 677.
 
-[59]
+[61]
 Package cleveref Info: loaded `english' language definitions on input line 706.
 
- [60]
+ [62]
 Package cleveref Info: loaded `english' language definitions on input line 730.
 
- [61]
+ [63]
 ! Undefined control sequence.
 l.746 \hack
            {\clearpage}
@@ -5143,10 +5257,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 746.
 
-[62]
+[64]
 Package cleveref Info: loaded `english' language definitions on input line 746.
 
- [63 <./chap3/images/f09.png>]
+ [65 <./chap3/images/f09.png>]
 
 Package hyperref Warning: Suppressing empty link on input line 788.
 
@@ -5161,7 +5275,7 @@ look up `weird error' in the index to The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 48.
- [64
+ [66
 
 
 ! Undefined control sequence.
@@ -5190,7 +5304,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[65
+[67
 
 
 
@@ -5208,7 +5322,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[66]
+[68]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -5220,7 +5334,7 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 49.
- [67]
+ [69]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -5239,14 +5353,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[68
+[70
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [69])
+) [71])
 Package cleveref Info: loaded `english' language definitions on input line 50.
 
 
@@ -5257,7 +5371,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[70]
+[72]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -5286,7 +5400,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[71
+[73
 
 
 
@@ -5295,16 +5409,16 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 23.
- [72]) (./main.lof
+ [74]) (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 73 undefined on input line 8.
+3' on page 75 undefined on input line 8.
 
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 73 undefined on input line 9.
+3' on page 75 undefined on input line 9.
 
 
 Overfull \hbox (46.54587pt too wide) in paragraph at lines 9--9
@@ -5313,7 +5427,7 @@ Overfull \hbox (46.54587pt too wide) in paragraph at lines 9--9
 
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 73 undefined on input line 10.
+3' on page 75 undefined on input line 10.
 
 
 Overfull \hbox (57.94489pt too wide) in paragraph at lines 10--10
@@ -5321,19 +5435,19 @@ Overfull \hbox (57.94489pt too wide) in paragraph at lines 10--10
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 15.
-[73
+[75
 
 
 
 ]
 
 LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 74 undefined on input line 15.
+3' on page 76 undefined on input line 16.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.17 ...rvice_era5_2017}.}}{30}{figure.caption.16}
+l.18 ...rvice_era5_2017}.}}{32}{figure.caption.17}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5343,16 +5457,16 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 7
-4 undefined on input line 17.
+6 undefined on input line 18.
 
 
-Overfull \hbox (1.82965pt too wide) in paragraph at lines 17--17
+Overfull \hbox (1.82965pt too wide) in paragraph at lines 18--18
  \T1/ntxtlf/m/n/10.95 of the Arc-tic Os-cil-la-tion (AO). Data from [].[][] [] 
  
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 28.
-[74])
+Package cleveref Info: loaded `english' language definitions on input line 27.
+[76])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -5367,7 +5481,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 66.
-[75] (./main.lot
+[77] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -5384,21 +5498,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[76
+[78
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [77
+ [79
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [78]
-Package cleveref Info: loaded `english' language definitions on input line 76.
- [79]
-Package cleveref Info: loaded `english' language definitions on input line 76.
  [80]
+Package cleveref Info: loaded `english' language definitions on input line 76.
+ [81]
+Package cleveref Info: loaded `english' language definitions on input line 76.
+ [82]
 LaTeX Font Info:    Trying to load font information for LGR+ntxtlf on input lin
 e 76.
 LaTeX Font Info:    No file LGRntxtlf.fd. on input line 76.
@@ -5408,7 +5522,7 @@ LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/cmr/m/n' instead on input line 76.
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[81]
+[83]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
@@ -5419,7 +5533,7 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 81.
-[82] [83
+[84] [85
 
 
 ]
@@ -5433,7 +5547,7 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
-[84] (./main.aux
+[86] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/avantpropos.aux) (./others/contrib_commu.aux)
 (./chap1/chap1_main.aux) (./chap2/chap2_main.aux) (./chap3/chap3_main.aux)
@@ -5467,38 +5581,39 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59301 strings out of 475189
- 1171469 string characters out of 5763838
- 2173445 words of memory out of 5000000
- 79129 multiletter control sequences out of 15000+600000
- 731569 words of font info for 201 fonts, out of 8000000 for 9000
+ 59341 strings out of 475189
+ 1172635 string characters out of 5763838
+ 2178622 words of memory out of 5000000
+ 79156 multiletter control sequences out of 15000+600000
+ 726534 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,4167b,3679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn0900.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-d
-ist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/
-type1/public/lm/lmtt9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/newtx/ntxsups-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ne
-wtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhv
-b8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-
-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (98 pages, 24259857 bytes).
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2
+023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/public/lm/lmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
+2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
+ic/lm/lmtt9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/nt
+xsups-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gy
+re/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/tex
+live/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (100 pages, 25150016 bytes).
 PDF statistics:
- 2103 PDF objects out of 2487 (max. 8388607)
- 1855 compressed objects within 19 object streams
- 381 named destinations out of 1000 (max. 500000)
- 730 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2148 PDF objects out of 2487 (max. 8388607)
+ 1893 compressed objects within 19 object streams
+ 391 named destinations out of 1000 (max. 500000)
+ 735 words of extra memory for PDF output out of 10000 (max. 10000000)
 

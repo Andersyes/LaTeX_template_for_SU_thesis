@@ -582,71 +582,132 @@ This question shelters many dimensions and can be explored in a multitude of man
     \subsubsection{The energy barrier}
     % --> energy barrier
     %see chapter 8 and 9 of K and Curry. And chapter 8 of Lhomann for simplicity (p. 226)
-    In order to understand the physics behind heterogeneous nucleation, it is necessary to recall how homogeneous nucleation works.
-    What prevents the spontaneous formation of an ice crystal from water vapour of a liquid droplet, is the competition between two energy terms.
-    \paragraph{Volume term}
-       Freezing releases latent heat that lowers the Gibbs free energy. The corresponding energy variation for an ice embryo of radius $r$ is:
+    In order to understand the physics behind heterogeneous nucleation, it is necessary to recall how homogeneous nucleation works. The following are the basics of classical nucleation theory (CNT).
+
+    What prevents the spontaneous formation of an ice crystal from water vapour of a liquid droplet, is the competition between two energy terms:
        \begin{equation}
-           \Delta G_V = \frac{4}{3} \pi r^3 \Delta g_V
+           \Delta G = \Delta G_{vol} + \Delta G_{surf}
        \end{equation}
-       where $g_v$ depends of the phase transition:
-       \begin{align}
-           \textbf{Vapour to ice} \,\, \Delta g_{V,v} &= \frac{R_v T}{3\alpha_i} ln\, S_i \\
-           \textbf{Liquid to ice} \,\, \Delta g_{V,l} &= \frac{R_v T}{3\alpha_i} ln\, \frac{e_{s,w}}{e_{s,i}} \\
-       \end{align}
-       % à revoir avec les équations de gpt
-       where $R_v$ is gas constant of water vapour, $\alpha_i$ the specific volume of ice, $S_i$ the supersaturation, $e_{s,i}$ and $e_{s,w}$ the saturation vapour pressure in respect to ice and water.
 
-    \paragraph{Surface term}
-        Creating a new ice–water or ice-vapour interface costs energy, because of the unsatisfied bonds of molecules at the phases interface. This is the origin of surface tension.
-        This term scales with the surface area:
+    Let us assume the formation of a spherical ice embryo of radius $r$.
+    The volume term comes from the released latent heat of the phase transition, which lowers the Gibbs free energy of the system. It scales with the volume of the ice embryo:
        \begin{equation}
-           \Delta G_S = 4 \pi r^2 \sigma_{i}
+           \Delta G_{vol} = \frac{4}{3} \pi r^3 \Delta g_{v}
        \end{equation}
-       where $\sigma_i$ is the surface tension that depends on the phase transition: $\sigma_{i,v}$ for vapour to ice, and $\sigma_{i,w}$ for liquid to ice.
+       $\Delta g_{vol}$ is the volumetric Gibbs free-energy change associated with the phase transition, and expressed in \unit{J m⁻³}.
 
-    The total free energy variation during ice nucleation is thus,
+    The surface term expresses the energy cost due to the creation of an ice-water or ice-vapour interface. It is due to the molecules unsatisfied bonds at the phases interface, and is the origin of surface tension. The term scales with the surface area:
        \begin{equation}
-           \Delta G = \frac{4}{3} \pi r^3 \Delta g_V + 4 \pi r^2 \sigma_{i}
+           \Delta G_{surf} = 4 \pi r^2 \sigma_{i}
        \end{equation}
-        
+       where $\sigma_i$ is the surface tension between the new phase and the parent phase: $\sigma_{i,v}$ for vapour to ice, and $\sigma_{i,l}$ for liquid to ice, both assumed to be anisotropic.
+
+       The Gibbs free energy change of nucleation thus express as:
+       \begin{equation}
+           \label{eq:G}
+           \Delta G(r) = \frac{4}{3} \pi r^3 \Delta g_{v} + 4 \pi r^2 \sigma_{i}
+       \end{equation}
+
+       Surface term $\propto r^2$ opposes formation; volume term $\propto r^3$ favours growth when $|\Delta g_v|$ is large enough. The maximum of $\Delta G(r)$ is the nucleation energy barrier $\Delta G_c$ at critical radius $r_c$. They are derived for $\frac{\partial \Delta G(r)}{\partial r} = 0$, which lead to the critical radius expression:
+       \begin{equation}
+            \label{eq:r_c}
+            r_c = - \frac{2\sigma_i}{\Delta g_v} 
+       \end{equation}
+       Injected in the expression of $\Delta G(r)$, we get:
+       \begin{equation}
+            \label{eq:G_c}
+           \Delta G_c = \frac{16}{3} \pi \frac{\sigma_{i}^3}{|\Delta g_v|^2}
+       \end{equation}
+       where $\Delta G_c$ is in \unit{J}, $\sigma_i$ in \unit{J m⁻²}, $\Delta g_v$ in \unit{J m⁻³} and $r_c$ in \unit{m}.
 
 
+       The nucleation rate is usually written as follows,
+       \begin{equation}
+           J = J_0 exp\left(-\frac{\Delta G_c}{k_B T}\right)
+       \end{equation}
+       expressed in \unit{s⁻¹} and where $J_0$ is a kinetic prefactor, and $k_B$ the Boltzmann's constant.
 
-        \begin{figure}[h]
-            \includegraphics[width=0.6\textwidth]{./chap1/images/homogeneous_nucleation_rate.png}
-            \caption{Representation of theoretical droplet freezing rate by homogeneous nucleation versus temperature. The average time needed for an ice crystal to form is plotted along side. In the vicinity of $-38$°C, the nucleation rate rapidly decreases with increasing temperature, while the average time before freezing dramatically increases.}
-            \label{fig:nuc_rate}
-        \end{figure}
+       The expression of $\Delta g_v$ varies whether the phase transition is vapour to ice, or liquid to ice:
+
+       \paragraph{Vapour to ice}
+       In this case, the driving force for the ice embryo formation is the vapour supersaturation relative to ice:
+       \begin{equation}
+           S_i = \frac{p_{vapour}}{p_{sat,ice}(T)}
+       \end{equation}
+       
+       The temperature and $k_B$ intervene, along with $v_molecule$ the molecular volume of ice, to express $\Delta g_v$ as a volumique energy density:
+       \begin{equation}
+           \Delta g_{v,v} = - \frac{k_B T}{v_molecule} ln S_i 
+       \end{equation}
+       When the vapour is supersaturated ($S_i>1$), $\Delta g_{v,v} < 0$ which favours solid growth in eq~\ref{eq:G}. Higher is $S_i$, lower gets the critical radius $r_c$ (eq.~\ref{eq:r_c}) and the energy barrier $\Delta G_c$ (eq.~\ref{eq:G_c}).
+
+       \paragraph{Liquid to ice}
+       Here, the driving force for phase transition is the supercooling $\Delta T = T_m-T$.
+       
+       The latent heat released during freezing of liquid water $L_f$ and the ice density $\rho_i$ have to be taken into account in order to express $\Delta g_{v,l}$:
+       \begin{equation}
+           \Delta g_{v,l} \approx - \rho_i L_f\, ln \frac{T_m}{T}
+       \end{equation}
+       where we make the approximation that $L_f \approx \Delta h$, the enthalpy of changing state.
+       When the supercooling is positive (i.e. the temperature is under the melting point of water $T_m$), $T_m > T$ which implies $\Delta g_v < 0$. This create favorable condition for ice growth and lowers the critical radius and the energy barrier.
+       \vspace{\baselineskip}
+
+       In the case of heterogeneous nucleation, the energy barrier is reduced by the presence of what is called an ice nucleating particle (INP). CNT describes the effect of INPs through the contact angle $\theta$ between it and the ice embryo (Fig.~\ref{fig:hetero_nucleation} A). Thus, $\Delta G_c$ is lowered by a factor $f$ that depends on that angle:
+       \begin{equation}
+           \Delta G_{c,het} = f(\theta)\,\Delta G_{c,hom} 
+       \end{equation}
+        The presence of an INP can reduce so much the energy barrier, that heterogeneous nucleation can happen at much warmer temperature than homogeneous nucleation (Fig.~\ref{fig:hetero_nucleation} B).
+
+            \begin{figure}[h]
+                \includegraphics[width=1\textwidth]{./chap1/images/hetero_nucleation.png}
+                \caption{Heterogeneous ice nucleation. Panel 1 is a schematic of the formation of an ice embryo in contact of an INP. The contact angle $\theta$ and the surface tensions $\sigma_i$ of the different actors are represented (adapted from \citet{lohmann_introduction_2016}). Panel B is the energy barrier $\Delta  G$ expressed in thermal units, function of the ice embryo radius, for homogeneous and heterogeneous ice nucleation. The curves maximum is the critical Gibbs free energy that, once reached allows the embryo to grow as an ice crystal.}
+                \label{fig:hetero_nucleation}
+            \end{figure}
+
+       % why the threshold of -38°C
+        It is common to consider the temperature condition for homogeneous nucleation as a threshold in the vicinity of $-38$°C, but the physical origin for that threshold is rarely explained nor even mentioned. However, the elements of CNT developed herein above can allow us to understand it.
+        Figure \ref{fig:nuc_rate} shows the ice nucleation rate for homogeneous freezing from liquid droplet to ice (green line). One can see that it is extremely low at temperatures above $-40$°C, and can be considered as zero below $30$°C.
+        On the other hand, it gets to values that could allow actual formation of ice crystal below $-40$°C, and even high rates below $-50$°C.
+        The blue line depicts the average mean time of nucleation. It is even more striking that above $-40$°C, the homogeneous nucleation can not happen. At $-35$°C, it takes $10^{18}$ \unit{s} for a droplet to freeze, or approximatively $32$ billion years. However, at $-50$°C, it only takes 10 \unit{s} in average.        
+
+        In conclusion, this threshold of $-38$°C is half quantitative\--half qualitative. It marks the beginning of acceptable and rapidly increasing values of nucleation rate, but still very few ice crystal can form homogeneously at this temperature.
+        Therefore, INPs active at temperature around the homogeneous temperature threshold (see Sect.~\ref{sec:INP_types}) can have a significant impact on the solid phase of cloud.
+
+            \begin{figure}[h]
+                \includegraphics[width=0.5\textwidth]{./chap1/images/homogeneous_nucleation_rate.png}
+                \caption{Representation of theoretical droplet freezing rate by homogeneous nucleation (liquid to ice) versus temperature. The corresponding average time needed for an ice crystal to form is plotted on the second axis. In the vicinity of $-38$°C, the nucleation rate rapidly decreases with increasing temperature, while the average time before freezing dramatically increases.}
+                \label{fig:nuc_rate}
+            \end{figure}
 
 
-from Cantrell and Heymsfield 2005:
-In Kurt Vonnegut's novel, Cat's Cradle, Dr.
-Asa Breed explains the process using the analogy of
-a stack of cannonballs. The cannonballs on the low-
-est level "teach" the ones in subsequent layers where
-they should be in order to form a stable structure.
-Heterogeneous nucleation of ice is envisioned as such
-a process, where a substrate forms a template onto
-which water molecules adsorb in a configuration
-close enough to the crystalline structure of ice that
-the energy barrier between phases is substantially
-reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scientists in the United States, along with David Turnbull and Vincent Schaefer, to research the subject of heterogeneous nucleation of ice on a physicochemical level.}
+%from Cantrell and Heymsfield 2005:
+%In Kurt Vonnegut's novel, Cat's Cradle, Dr.
+%Asa Breed explains the process using the analogy of
+%a stack of cannonballs. The cannonballs on the low-
+%est level "teach" the ones in subsequent layers where
+%they should be in order to form a stable structure.
+%Heterogeneous nucleation of ice is envisioned as such
+%a process, where a substrate forms a template onto
+%which water molecules adsorb in a configuration
+%close enough to the crystalline structure of ice that
+%the energy barrier between phases is substantially
+%reduced. \footnote{Kurt Vonnegut's brother, Bernard, was one of the first scientists in the United States, along with David Turnbull and Vincent Schaefer, to research the subject of heterogeneous nucleation of ice on a physicochemical level.}
+
 
     \subsubsection{Types of heterogeneous nucleation}
         Heterogeneous ice nucleation can happen through four different processes.
 
         \paragraph{Immersion freezing}
-        Immersion freezing refers to the formation of an ice crystal from a droplet inside which an INP is immersed. It can occur at $100\%$ humidity and $T \leq 0~^{\circ}$C, but requires the preliminary formation of a liquid droplet and thus passing through a sufficiently high saturation ratio for liquid condensation to have taken place.
+        Immersion freezing refers to the formation of an ice crystal from a droplet inside which an INP is immersed. It can occur at $S_i = 1$ and $T \leq 0~^{\circ}$C, but requires the preliminary formation of a liquid droplet and thus passing through a sufficiently high saturation ratio for liquid condensation to have taken place.
         
         \paragraph{Deposition nucleation}
-        Along with immersion freezing, deposition nucleation is the dominant process in the formation of atmospheric clouds. Water vapour can sometimes deposit directly on the surface of INPs. When the humidity conditions (saturation $\geq 100\%$) and temperature ($T \leq 0~^{\circ}$C) allow, an ice crystal can form from the INP on which water molecules have deposited.
+        Along with immersion freezing, deposition nucleation is the dominant process in the formation of atmospheric clouds. Water vapour can sometimes deposit directly on the surface of INPs. When the humidity conditions ($S_i = 1$) and temperature ($T \leq 0~^{\circ}$C) allow, an ice crystal can form from the INP on which water molecules have deposited.
         
         \paragraph{Condensation freezing}
         When air approaches saturation, liquid water can condense on the surface of INPs without forming a droplet. If saturation is reached but remains below the threshold for droplet formation, an ice crystal can form. In general, INPs contain soluble components that can eventually act as CCN. If condensation freezing does not occur quickly enough, a droplet may form on the INP. In this case, immersion freezing will occur if ice crystal formation takes place.
         
         \paragraph{Contact freezing}
-        The collision of a supercooled water droplet with an INP can lead to the formation of an ice crystal if supersaturation conditions are met (saturation $\geq 100\%$ and $T \leq 0~^{\circ}$C). Contact freezing is limited by the collision rate between droplets and INPs, which depends on the INP concentration as well as the size distribution of the particles and droplets.
+        The collision of a supercooled water droplet with an INP can lead to the formation of an ice crystal if supersaturation conditions are met ($S_i = 1$ and $T \leq 0~^{\circ}$C). Contact freezing is limited by the collision rate between droplets and INPs, which depends on the INP concentration as well as the size distribution of the particles and droplets.
 
 
     % how is it modelled
