@@ -356,6 +356,54 @@
       \verb https://www.editionsladecouverte.fr/or_noir-9782707167019
       \endverb
     \endentry
+    \entry{barahona_ice_2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fa51e907bc822d3c8fe5ca3e35d4f641}{%
+           family={Barahona},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \strng{fullhash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \strng{bibnamehash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \strng{authorbibnamehash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \strng{authornamehash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \strng{authorfullhash}{fa51e907bc822d3c8fe5ca3e35d4f641}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work presents a novel formulation of the ice nucleation spectrum, i.e. the function relating the ice crystal concentration to cloud formation conditions and aerosol properties. The new formulation is physically-based and explicitly accounts for the dependency of the ice crystal concentration on temperature, supersaturation, cooling rate, and particle size, surface area and composition. This is achieved by introducing the concepts of ice nucleation coefficient (the number of ice germs present in a particle) and nucleation probability dispersion function (the distribution of ice nucleation coefficients within the aerosol population). The new formulation is used to generate ice nucleation parameterizations for the homogeneous freezing of cloud droplets and the heterogeneous deposition ice nucleation on dust and soot ice nuclei. For homogeneous freezing, it was found that by increasing the dispersion in the droplet volume distribution the fraction of supercooled droplets in the population increases. For heterogeneous ice nucleation the new formulation consistently describes singular and stochastic behavior within a single framework. Using a fundamentally stochastic approach, both cooling rate independence and constancy of the ice nucleation fraction over time, features typically associated with singular behavior, were reproduced. Analysis of the temporal dependency of the ice nucleation spectrum suggested that experimental methods that measure the ice nucleation fraction over few seconds would tend to underestimate the ice nuclei concentration. It is shown that inferring the aerosol heterogeneous ice nucleation properties from measurements of the onset supersaturation and temperature may carry significant error as the variability in ice nucleation properties within the aerosol population is not accounted for. This work provides a simple and rigorous ice nucleation framework where theoretical predictions, laboratory measurements and field campaign data can be reconciled, and that is suitable for application in atmospheric modeling studies.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{4}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{8}
+      \field{title}{On the ice nucleation spectrum}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{3733\bibrangedash 3752}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/acp-12-3733-2012
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/12/3733/2012/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/12/3733/2012/
+      \endverb
+    \endentry
     \entry{bond_bounding_2013}{article}{}
       \name{author}{31}{}{%
         {{hash=5fb84eb39c1690ed7359cd4f7d2e398f}{%
@@ -1354,6 +1402,7 @@
       \strng{authorbibnamehash}{55802930608560c66d76f0d408d3f9ad}
       \strng{authornamehash}{55802930608560c66d76f0d408d3f9ad}
       \strng{authorfullhash}{d4e0809e4349cacf545a102f84685b59}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1377,6 +1426,134 @@
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083039
       \endverb
       \keyw{aerosol-cloud interactions,Arctic,Arctic aerosol,ice nucleation,phytoplankton bloom}
+    \endentry
+    \entry{creamean_annual_2022}{article}{}
+      \name{author}{16}{}{%
+        {{hash=a776c887d23c918ee99e229b04ea7c18}{%
+           family={Creamean},
+           familyi={C\bibinitperiod},
+           given={Jessie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ac71e10c95f19b38f2f836b312e529ab}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c653fa41b607fe95822849bb2aeb0134}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelimb C.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=820db767934f5f7f3dd0fabb371ec02a}{%
+           family={Hume},
+           familyi={H\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod}}}%
+        {{hash=246b5ddd629360f3fa98607eb5e575aa}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2a68466f2bd343f06418245ca9a5e0f7}{%
+           family={Shupe},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c5df096a03902b4dbbad9d88d6d84215}{%
+           family={Dahlke},
+           familyi={D\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7bfee01331f43fbc4d4c40a75b2505d4}{%
+           family={Willmes},
+           familyi={W\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ed16e6fca4534fac3ab19b807afb11e}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ffff21b4bbee4d84529a56e751477bd9}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=629b59ff2f3a31a89264e0ed6784bdbe}{%
+           family={Hoppe},
+           familyi={H\bibinitperiod},
+           given={Clara\bibnamedelimb J.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bd32c1caabfb027d703a8edf572ec8f0}{%
+           family={Fong},
+           familyi={F\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de9757d402b3b32a60480bda2c23ee93}{%
+           family={Chamberlain},
+           familyi={C\bibinitperiod},
+           given={Emelia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=81f8328baf14c01829d7998e2b0e4724}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90c7fd4834cbdd2e36fe3e1021c1063b}{%
+           family={Scharien},
+           familyi={S\bibinitperiod},
+           given={Randall},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a517625d41c7e4c704fdd07a7e7a43a8}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3600959768e799924414436aa65f2a7c}
+      \strng{fullhash}{2abe3bb792d33f3bff751c72b0896bf1}
+      \strng{bibnamehash}{3600959768e799924414436aa65f2a7c}
+      \strng{authorbibnamehash}{3600959768e799924414436aa65f2a7c}
+      \strng{authornamehash}{3600959768e799924414436aa65f2a7c}
+      \strng{authorfullhash}{2abe3bb792d33f3bff751c72b0896bf1}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Arctic is warming faster than anywhere else on Earth, prompting glacial melt, permafrost thaw, and sea ice decline. These severe consequences induce feedbacks that contribute to amplified warming, affecting weather and climate globally. Aerosols and clouds play a critical role in regulating radiation reaching the Arctic surface. However, the magnitude of their effects is not adequately quantified, especially in the central Arctic where they impact the energy balance over the sea ice. Specifically, aerosols called ice nucleating particles (INPs) remain understudied yet are necessary for cloud ice production and subsequent changes in cloud lifetime, radiative effects, and precipitation. Here, we report observations of INPs in the central Arctic over a full year, spanning the entire sea ice growth and decline cycle. Further, these observations are size-resolved, affording valuable information on INP sources. Our results reveal a strong seasonality of INPs, with lower concentrations in the winter and spring controlled by transport from lower latitudes, to enhanced concentrations of INPs during the summer melt, likely from marine biological production in local open waters. This comprehensive characterization of INPs will ultimately help inform cloud parameterizations in models of all scales.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{6}
+      \field{note}{Number: 1 Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{title}{Annual cycle observations of aerosols capable of ice formation in central {Arctic} clouds}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{3537}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-022-31182-x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/B65HGF8R/Creamean et al. - 2022 - Annual cycle observations of aerosols capable of i.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-022-31182-x
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-022-31182-x
+      \endverb
+      \keyw{Climate sciences,Environmental sciences}
     \endentry
     \entry{da_silva_plotting_2025}{misc}{}
       \name{author}{2}{}{%
@@ -1511,6 +1688,195 @@
       \endverb
       \verb{url}
       \verb https://acp.copernicus.org/articles/25/5331/2025/
+      \endverb
+    \endentry
+    \entry{demott_predicting_2010}{article}{}
+      \name{author}{9}{}{%
+        {{hash=bfbd39e7f3fd0c35a978f78311eacebb}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a0bb11d91d7d009af58221b82a755c63}{%
+           family={Prenni},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4b44bba1743c2ad874f7d960887af663}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=64efe74e36cea844b036ebf61081b7f8}{%
+           family={Kreidenweis},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6d8002fa7161cabb7c686b9a7a38aced}{%
+           family={Petters},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c1fdd6c449f17734f0381c1737c40016}{%
+           family={Twohy},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=224d3e27974be04b2813fe50c2dd677b}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2b59b022214d4dc87cc21ca64b49b79b}{%
+           family={Eidhammer},
+           familyi={E\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6572c9f5a36b13aaa6f4a07994f75c14}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{fullhash}{54978a27bb7b92733d9903084fab0d24}
+      \strng{bibnamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authorbibnamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authornamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authorfullhash}{54978a27bb7b92733d9903084fab0d24}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Knowledge of cloud and precipitation formation processes remains incomplete, yet global precipitation is predominantly produced by clouds containing the ice phase. Ice first forms in clouds warmer than -36 °C on particles termed ice nuclei. We combine observations from field studies over a 14-year period, from a variety of locations around the globe, to show that the concentrations of ice nuclei active in mixed-phase cloud conditions can be related to temperature and the number concentrations of particles larger than 0.5 μm in diameter. This new relationship reduces unexplained variability in ice nuclei concentrations at a given temperature from ∼103 to less than a factor of 10, with the remaining variability apparently due to variations in aerosol chemical composition or other factors. When implemented in a global climate model, the new parameterization strongly alters cloud liquid and ice water distributions compared to the simple, temperature-only parameterizations currently widely used. The revised treatment indicates a global net cloud radiative forcing increase of ∼1 W m-2 for each order of magnitude increase in ice nuclei concentrations, demonstrating the strong sensitivity of climate simulations to assumptions regarding the initiation of cloud glaciation.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{6}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{25}
+      \field{title}{Predicting global atmospheric ice nuclei distributions and their impacts on climate}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{107}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{11217\bibrangedash 11222}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0910818107
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/JWEU3CRE/DeMott et al. - 2010 - Predicting global atmospheric ice nuclei distribut.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.0910818107
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.0910818107
+      \endverb
+    \endentry
+    \entry{demott_integrating_2015}{article}{}
+      \name{author}{11}{}{%
+        {{hash=bfbd39e7f3fd0c35a978f78311eacebb}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a0bb11d91d7d009af58221b82a755c63}{%
+           family={Prenni},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1864893d61f21baea6baef6b465a1f56}{%
+           family={McMeeking},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e7c4b9887fef1e77506dfe3d0676ce47}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6d8002fa7161cabb7c686b9a7a38aced}{%
+           family={Petters},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=20c3328083271021f4e9e8a5006a752d}{%
+           family={Tobo},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=30220c95d3eead02fe9f9a20a705c286}{%
+           family={Niemand},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b482718ea4512294077b01bdd738ba1f}{%
+           family={Möhler},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7573a9650f93da253790e8bea9050277}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=64efe74e36cea844b036ebf61081b7f8}{%
+           family={Kreidenweis},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{fullhash}{3cd69f30d22e45271fd06cd64df00a44}
+      \strng{bibnamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authorbibnamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authornamehash}{1163a728bbcf4e4b934728215803a996}
+      \strng{authorfullhash}{3cd69f30d22e45271fd06cd64df00a44}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. Data from both laboratory studies and atmospheric measurements are used to develop an empirical parameterization for the immersion freezing activity of natural mineral dust particles. Measurements made with the Colorado State University (CSU) continuous flow diffusion chamber (CFDC) when processing mineral dust aerosols at a nominal 105\% relative humidity with respect to water (RHw) are taken as a measure of the immersion freezing nucleation activity of particles. Ice active frozen fractions vs. temperature for dusts representative of Saharan and Asian desert sources were consistent with similar measurements in atmospheric dust plumes for a limited set of comparisons available. The parameterization developed follows the form of one suggested previously for atmospheric particles of non-specific composition in quantifying ice nucleating particle concentrations as functions of temperature and the total number concentration of particles larger than 0.5 μm diameter. Such an approach does not explicitly account for surface area and time dependencies for ice nucleation, but sufficiently encapsulates the activation properties for potential use in regional and global modeling simulations, and possible application in developing remote sensing retrievals for ice nucleating particles. A calibration factor is introduced to account for the apparent underestimate (by approximately 3, on average) of the immersion freezing fraction of mineral dust particles for CSU CFDC data processed at an RHw of 105\% vs. maximum fractions active at higher RHw. Instrumental factors that affect activation behavior vs. RHw in CFDC instruments remain to be fully explored in future studies. Nevertheless, the use of this calibration factor is supported by comparison to ice activation data obtained for the same aerosols from Aerosol Interactions and Dynamics of the Atmosphere (AIDA) expansion chamber cloud parcel experiments. Further comparison of the new parameterization, including calibration correction, to predictions of the immersion freezing surface active site density parameterization for mineral dust particles, developed separately from AIDA experimental data alone, shows excellent agreement for data collected in a descent through a Saharan aerosol layer. These studies support the utility of laboratory measurements to obtain atmospherically relevant data on the ice nucleation properties of dust and other particle types, and suggest the suitability of considering all mineral dust as a single type of ice nucleating particle as a useful first-order approximation in numerical modeling investigations.}
+      \field{issn}{1680-7324}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Integrating laboratory and field data to quantify the immersion freezing ice nucleation activity of mineral dust particles}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{393\bibrangedash 409}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.5194/acp-15-393-2015
+      \endverb
+      \verb{file}
+      \verb PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/HHYVETPV/DeMott et al. - 2015 - Integrating laboratory and field data to quantify the immersion freezing ice nucleation activity of.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/15/393/2015/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/15/393/2015/
       \endverb
     \endentry
     \entry{dubovik_retrieving_2008}{article}{}
@@ -1881,6 +2247,57 @@
       \endverb
       \verb{url}
       \verb https://www.annualreviews.org/doi/10.1146/annurev-physchem-090519-034936
+      \endverb
+    \endentry
+    \entry{fletcher_active_1969}{article}{}
+      \name{author}{1}{}{%
+        {{hash=962df042cbcaea87820dfe5add79cc24}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={N.\bibnamedelimi H.},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{962df042cbcaea87820dfe5add79cc24}
+      \strng{fullhash}{962df042cbcaea87820dfe5add79cc24}
+      \strng{bibnamehash}{962df042cbcaea87820dfe5add79cc24}
+      \strng{authorbibnamehash}{962df042cbcaea87820dfe5add79cc24}
+      \strng{authornamehash}{962df042cbcaea87820dfe5add79cc24}
+      \strng{authorfullhash}{962df042cbcaea87820dfe5add79cc24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The concept of active nucleation sites is examined in the light of standard nucleation theory and it is suggested that these sites are probably small re-entrant corners or jogs in growth steps on the surface of the nucleating particle. The nucleation behavior of a spherical particle with a conical pit on its surface is examined in detail and the activity of a population of particles having a log-normal distribution of such pits is worked out. The parameters involved in the theory can be evaluated within acceptable limits and the resulting curves exhibit the phenomena observed experimentally. Generalized activity curves are given in parametric form for more detailed comparison with experiment.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{11}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{6}
+      \field{title}{Active {Sites} and {Ice} {Crystal} {Nucleation}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{26}
+      \field{year}{1969}
+      \field{urldateera}{ce}
+      \field{pages}{1266\bibrangedash 1271}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1969)026<1266:ASAICN>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/JR6FAIZN/Fletcher - 1969 - Active Sites and Ice Crystal Nucleation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/26/6/1520-0469_1969_026_1266_asaicn_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/26/6/1520-0469_1969_026_1266_asaicn_2_0_co_2.xml
       \endverb
     \endentry
     \entry{freitas_emission_2022}{article}{}
@@ -3044,6 +3461,51 @@
       \verb https://acp.copernicus.org/articles/10/669/2010/
       \endverb
     \endentry
+    \entry{hoose_heterogeneous_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d458eb21a175b3c9c80e752578a2fec}{%
+           family={Hoose},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b482718ea4512294077b01bdd738ba1f}{%
+           family={Möhler},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{16388c78213a01e1587940c00f38c3f3}
+      \strng{fullhash}{c9a5ec9492d652360e3c5fa015035b1a}
+      \strng{bibnamehash}{c9a5ec9492d652360e3c5fa015035b1a}
+      \strng{authorbibnamehash}{c9a5ec9492d652360e3c5fa015035b1a}
+      \strng{authornamehash}{16388c78213a01e1587940c00f38c3f3}
+      \strng{authorfullhash}{c9a5ec9492d652360e3c5fa015035b1a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{number}{20}
+      \field{title}{Heterogeneous ice nucleation on atmospheric aerosols: a review of results from laboratory experiments}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{9817\bibrangedash 9854}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.5194/acp-12-9817-2012
+      \endverb
+      \verb{file}
+      \verb Hoose and Möhler - 2012 - Heterogeneous ice nucleation on atmospheric aeroso.pdf:/home/dasilva/snap/zotero-snap/common/Zotero/storage/26J2W7BZ/Hoose and Möhler - 2012 - Heterogeneous ice nucleation on atmospheric aeroso.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/12/9817/2012/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/12/9817/2012/
+      \endverb
+    \endentry
     \entry{hopkins_biogeochemistry_2023}{article}{}
       \name{author}{5}{}{%
         {{hash=d6750484c86b03c47d0013ba4366f3fe}{%
@@ -3170,6 +3632,82 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1352231002008865
       \endverb
       \keyw{Chicago,Hybrid receptor models,North America,PCBS,Source identification,United States,Wind trajectory}
+    \endentry
+    \entry{hummel_simulating_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b7e5f06d98dae6e0caee52ecec8ffbaa}{%
+           family={Hummel},
+           familyi={H\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef161aef45294789c148e689a1c786c7}{%
+           family={Hoose},
+           familyi={H\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod}}}%
+        {{hash=39e2bf9e301c03f7e744d7a721df59df}{%
+           family={Pummer},
+           familyi={P\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=64fbf3016e66fabe49bb8e0c37f4087d}{%
+           family={Schaupp},
+           familyi={S\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e3c3a14c53e6a2f521091257bcd6b12d}{%
+           family={Fröhlich-Nowoisky},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Janine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3be602a8a980d5ffec54a3f30daa97d4}{%
+           family={Möhler},
+           familyi={M\bibinitperiod},
+           given={Ottmar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{1f6d3cc106e65d8023b79f24b928b697}
+      \strng{fullhash}{4b3f32b3458cf4daf863457aca805a55}
+      \strng{bibnamehash}{4b3f32b3458cf4daf863457aca805a55}
+      \strng{authorbibnamehash}{4b3f32b3458cf4daf863457aca805a55}
+      \strng{authornamehash}{1f6d3cc106e65d8023b79f24b928b697}
+      \strng{authorfullhash}{4b3f32b3458cf4daf863457aca805a55}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Primary ice formation, which is an important process for mixed-phase clouds with an impact on their lifetime, radiative balance, and hence the climate, strongly depends on the availability of ice-nucleating particles (INPs). Supercooled droplets within these clouds remain liquid until an INP immersed in or colliding with the droplet reaches its activation temperature. Only a few aerosol particles are acting as INPs and the freezing efficiency varies among them. Thus, the fraction of supercooled water in the cloud depends on the specific properties and concentrations of the INPs. Primary biological aerosol particles (PBAPs) have been identified as very efficient INPs at high subzero temperatures, but their very low atmospheric concentrations make it difficult to quantify their impact on clouds. Here we use the regional atmospheric model COSMO–ART to simulate the heterogeneous ice nucleation by PBAPs during a 1-week case study on a domain covering Europe. We focus on three highly ice-nucleation-active PBAP species, Pseudomonas syringae bacteria cells and spores from the fungi Cladosporium sp. and Mortierella alpina. PBAP emissions are parameterized in order to represent the entirety of bacteria and fungal spores in the atmosphere. Thus, only parts of the simulated PBAPs are assumed to act as INPs. The ice nucleation parameterizations are specific for the three selected species and are based on a deterministic approach. The PBAP concentrations simulated in this study are within the range of previously reported results from other modeling studies and atmospheric measurements. Two regimes of PBAP INP concentrations are identified: a temperature-limited and a PBAP-limited regime, which occur at temperatures above and below a maximal concentration at around −10\&thinsp;∘C, respectively. In an ensemble of control and disturbed simulations, the change in the average ice crystal concentration by biological INPs is not statistically significant, suggesting that PBAPs have no significant influence on the average state of the cloud ice phase. However, if the cloud top temperature is below −15\&thinsp;∘C, PBAP can influence the cloud ice phase and produce ice crystals in the absence of other INPs. Nevertheless, the number of produced ice crystals is very low and it has no influence on the modeled number of cloud droplets and hence the cloud structure.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{10}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{20}
+      \field{title}{Simulating the influence of primary biological aerosol particles on clouds by heterogeneous ice nucleation}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{18}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{15437\bibrangedash 15450}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.5194/acp-18-15437-2018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/Y4AMS87G/Hummel et al. - 2018 - Simulating the influence of primary biological aer.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/18/15437/2018/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/18/15437/2018/
+      \endverb
     \endentry
     \entry{iacono_radiative_2008}{article}{}
       \name{author}{6}{}{%
@@ -3835,6 +4373,77 @@
       \endverb
       \verb{url}
       \verb https://acp.copernicus.org/articles/24/5935/2024/
+      \endverb
+    \endentry
+    \entry{li_predicting_2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ff601f0ae62e304f8476f043391245b6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guangyu},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2378d4a83f23dc47cc52cab62a678f1c}{%
+           family={Wieder},
+           familyi={W\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ba3851a1d277fbdc607dabb30a7a71b}{%
+           family={Pasquier},
+           familyi={P\bibinitperiod},
+           given={Julie\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ddeaa3353539e23297913b5dd3f15888}{%
+           family={Henneberger},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7dd10fa49b69ad0fca8fc694182b322c}{%
+           family={Kanji},
+           familyi={K\bibinitperiod},
+           given={Zamin\bibnamedelima A.},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{7b91538211716de6053a131e0bd7ad70}
+      \strng{fullhash}{ed63c073ae4b66b77beafb75f186f163}
+      \strng{bibnamehash}{ed63c073ae4b66b77beafb75f186f163}
+      \strng{authorbibnamehash}{ed63c073ae4b66b77beafb75f186f163}
+      \strng{authornamehash}{7b91538211716de6053a131e0bd7ad70}
+      \strng{authorfullhash}{ed63c073ae4b66b77beafb75f186f163}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mixed-phase clouds (MPCs) can have a net warming or cooling radiative effect on Earth's climate influenced by the phase and concentration of cloud particles. They have received considerable attention due to high spatial coverage and occurrence frequency in the Arctic. To initiate ice formation in MPCs at temperatures above −38 ∘C, ice-nucleating particles (INPs) are required, which therefore have important implications on the radiative properties of MPCs by altering the ice-to-liquid ratio of hydrometeors. As a result, constraining ambient INP concentrations could promote accurate representation of cloud microphysical processes and reduce the uncertainties in estimating the cloud-phase-related climate feedback in climate models. Currently, INP parameterizations are lacking for remote Arctic environments. Here we present INP number concentrations and their variability measured in Ny-Ålesund (Svalbard) at temperatures between 0 and −30 ∘C. No distinguishable seasonal difference was observed from 12 weeks of field measurements during October and November 2019 and March and April 2020. Compared to existing studies, the absence of a seasonal difference is not surprising, as most seasonal differences are reported for summer versus winter time INP concentrations. In addition, correlating INP concentrations to aerosol physical properties was not successful. Therefore, we propose a lognormal-distribution-based parameterization to predict Arctic INP concentration solely as a function of temperature, specifically for the transition seasons autumn and spring to fill in the data gap in the literature pertaining to these seasons. In practice, the parameterized variables allow for (i) the prediction of the most likely INP concentrations and (ii) the retrieval of the governing distribution of INP concentrations at given temperatures in the Arctic.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{11}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{21}
+      \field{title}{Predicting atmospheric background number concentration of ice-nucleating particles in the {Arctic}}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{14441\bibrangedash 14454}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.5194/acp-22-14441-2022
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/GIH8VGWQ/Li et al. - 2022 - Predicting atmospheric background number concentra.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/22/14441/2022/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/22/14441/2022/
       \endverb
     \endentry
     \entry{lohmann_introduction_2016}{book}{}
@@ -4852,6 +5461,7 @@
       \strng{authorbibnamehash}{0967b1054d60937e3971a584001eeed8}
       \strng{authornamehash}{5d6f1500f085111af6b366ac02b73934}
       \strng{authorfullhash}{0967b1054d60937e3971a584001eeed8}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4873,6 +5483,58 @@
       \endverb
       \verb{url}
       \verb https://acp.copernicus.org/articles/21/665/2021/
+      \endverb
+    \endentry
+    \entry{murray_ice_2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fe63de4a153bfa22fc9856c699b145fa}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bec71f940af82438657e9892736b4830}{%
+           family={O'Sullivan},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d959c2ab5c52833216c65c358efc8892}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=95e1978d490de86a2f7c38b444107d68}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d6f1500f085111af6b366ac02b73934}
+      \strng{fullhash}{8a93286635f28b565ef5d7da9d1f5df9}
+      \strng{bibnamehash}{8a93286635f28b565ef5d7da9d1f5df9}
+      \strng{authorbibnamehash}{8a93286635f28b565ef5d7da9d1f5df9}
+      \strng{authornamehash}{5d6f1500f085111af6b366ac02b73934}
+      \strng{authorfullhash}{8a93286635f28b565ef5d7da9d1f5df9}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The formation of ice particles in the Earth's atmosphere strongly affects the properties of clouds and their impact on climate. Despite the importance of ice formation in determining the properties of clouds, the Intergovernmental Panel on Climate Change (IPCC, 2007) was unable to assess the impact of atmospheric ice formation in their most recent report because our basic knowledge is insufficient. Part of the problem is the paucity of quantitative information on the ability of various atmospheric aerosol species to initiate ice formation. Here we review and assess the existing quantitative knowledge of ice nucleation by particles immersed within supercooled water droplets. We introduce aerosol species which have been identified in the past as potentially important ice nuclei and address their ice-nucleating ability when immersed in a supercooled droplet. We focus on mineral dusts, biological species (pollen, bacteria, fungal spores and plankton), carbonaceous combustion products and volcanic ash. In order to make a quantitative comparison we first introduce several ways of describing ice nucleation and then summarise the existing information according to the time-independent (singular) approximation. Using this approximation in combination with typical atmospheric loadings, we estimate the importance of ice nucleation by different aerosol types. According to these estimates we find that ice nucleation below about −15 °C is dominated by soot and mineral dusts. Above this temperature the only materials known to nucleate ice are biological, with quantitative data for other materials absent from the literature. We conclude with a summary of the challenges our community faces.}
+      \field{journaltitle}{Chem. Soc. Rev.}
+      \field{note}{Publisher: The Royal Society of Chemistry}
+      \field{number}{19}
+      \field{title}{Ice nucleation by particles immersed in supercooled cloud droplets}
+      \field{volume}{41}
+      \field{year}{2012}
+      \field{pages}{6519\bibrangedash 6554}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1039/C2CS35200A
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/KCHK3F4Z/Murray et al. - 2012 - Ice nucleation by particles immersed in supercoole.pdf:application/pdf
       \endverb
     \endentry
     \entry{nakanishi_development_2009}{article}{}
@@ -4965,6 +5627,108 @@
       \verb{url}
       \verb https://oceancolor.gsfc.nasa.gov/data/10.5067/AQUA/MODIS/L3M/CHL/2022
       \endverb
+    \endentry
+    \entry{niemand_particle-surface-area-based_2012}{article}{}
+      \name{author}{11}{}{%
+        {{hash=ce29f84887259d205b3c4601cadfc8c4}{%
+           family={Niemand},
+           familyi={N\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3be602a8a980d5ffec54a3f30daa97d4}{%
+           family={Möhler},
+           familyi={M\bibinitperiod},
+           given={Ottmar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0afa26e6a2e6034d83f5abcefbf441de}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=60899b25c6902e2fb8b404687a6bd49b}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Heike},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ef161aef45294789c148e689a1c786c7}{%
+           family={Hoose},
+           familyi={H\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ea9d0ff8c3e9d2596715fee062f25bd2}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c936c209f99a04e197d6cc19013622e0}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b5711312b858c82b077ba35f4cecaf22}{%
+           family={Bingemer},
+           familyi={B\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=084076168fef9a0cdf27e91357300c25}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3e278581c7850dc5802495c787a462a2}{%
+           family={Skrotzki},
+           familyi={S\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03df546fae9883a61e19b61aa36eb979}{%
+           family={Leisner},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{aaa228c41e6ea3dbb77cc519a9adcf24}
+      \strng{fullhash}{19c54819c11e8ab5d70de488ec7d2174}
+      \strng{bibnamehash}{aaa228c41e6ea3dbb77cc519a9adcf24}
+      \strng{authorbibnamehash}{aaa228c41e6ea3dbb77cc519a9adcf24}
+      \strng{authornamehash}{aaa228c41e6ea3dbb77cc519a9adcf24}
+      \strng{authorfullhash}{19c54819c11e8ab5d70de488ec7d2174}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In climate and weather models, the quantitative description of aerosol and cloud processes relies on simplified assumptions. This contributes major uncertainties to the prediction of global and regional climate change. Therefore, models need good parameterizations for heterogeneous ice nucleation by atmospheric aerosols. Here the authors present a new parameterization of immersion freezing on desert dust particles derived from a large number of experiments carried out at the Aerosol Interaction and Dynamics in the Atmosphere (AIDA) cloud chamber facility. The parameterization is valid in the temperature range between −12° and −36°C at or above water saturation and can be used in atmospheric models that include information about the dust surface area. The new parameterization was applied to calculate distribution maps of ice nuclei during a Saharan dust event based on model results from the regional-scale model Consortium for Small-Scale Modelling–Aerosols and Reactive Trace Gases (COSMO-ART). The results were then compared to measurements at the Taunus Observatory on Mount Kleiner Feldberg, Germany, and to three other parameterizations applied to the dust outbreak. The aerosol number concentration and surface area from the COSMO-ART model simulation were taken as input to different parameterizations. Although the surface area from the model agreed well with aerosol measurements during the dust event at Kleiner Feldberg, the ice nuclei (IN) number concentration calculated from the new surface-area-based parameterization was about a factor of 13 less than IN measurements during the same event. Systematic differences of more than a factor of 10 in the IN number concentration were also found among the different parameterizations. Uncertainties in the modeled and measured parameters probably both contribute to this discrepancy and should be addressed in future studies.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{10}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{10}
+      \field{title}{A {Particle}-{Surface}-{Area}-{Based} {Parameterization} of {Immersion} {Freezing} on {Desert} {Dust} {Particles}}
+      \field{urlday}{2}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{69}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{3077\bibrangedash 3092}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1175/JAS-D-11-0249.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/W42IFBLL/Niemand et al. - 2012 - A Particle-Surface-Area-Based Parameterization of .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/69/10/jas-d-11-0249.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/69/10/jas-d-11-0249.1.xml
+      \endverb
+      \keyw{Aerosols,Dust or dust storms,Ice crystals,Ice particles,Parameterization}
     \endentry
     \entry{ohata_key_2016}{article}{}
       \name{author}{5}{}{%
@@ -6692,6 +7456,62 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/JC088iC15p10897
       \endverb
     \endentry
+    \entry{savre_theory-based_2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e0af1e73b728151ccf864c7f253b6d63}{%
+           family={Savre},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7f2da4f8258ddcdc2800be5036f21faa}{%
+           family={Ekman},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi M.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7031a1360be6a2cec0b754fceaf99b61}
+      \strng{fullhash}{ea692857c4e99101494605003f431387}
+      \strng{bibnamehash}{ea692857c4e99101494605003f431387}
+      \strng{authorbibnamehash}{ea692857c4e99101494605003f431387}
+      \strng{authornamehash}{7031a1360be6a2cec0b754fceaf99b61}
+      \strng{authorfullhash}{ea692857c4e99101494605003f431387}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new parameterization for heterogeneous ice nucleation constrained by laboratory data and based on classical nucleation theory is introduced. Key features of the parameterization include the following: a consistent and modular modeling framework for treating condensation/immersion and deposition freezing, the possibility to consider various potential ice nucleating particle types (e.g., dust, black carbon, and bacteria), and the possibility to account for an aerosol size distribution. The ice nucleating ability of each aerosol type is described using a contact angle (θ) probability density function (PDF). A new modeling strategy is described to allow the θ PDF to evolve in time so that the most efficient ice nuclei (associated with the lowest θ values) are progressively removed as they nucleate ice. A computationally efficient quasi Monte Carlo method is used to integrate the computed ice nucleation rates over both size and contact angle distributions. The parameterization is employed in a parcel model, forced by an ensemble of Lagrangian trajectories extracted from a three-dimensional simulation of a springtime low-level Arctic mixed-phase cloud, in order to evaluate the accuracy and convergence of the method using different settings. The same model setup is then employed to examine the importance of various parameters for the simulated ice production. Modeling the time evolution of the θ PDF is found to be particularly crucial; assuming a time-independent θ PDF significantly overestimates the ice nucleation rates. It is stressed that the capacity of black carbon (BC) to form ice in the condensation/immersion freezing mode is highly uncertain, in particular at temperatures warmer than −20°C. In its current version, the parameterization most likely overestimates ice initiation by BC.}
+      \field{issn}{2169-8996}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2014JD023000}
+      \field{number}{10}
+      \field{title}{A theory-based parameterization for heterogeneous ice nucleation and implications for the simulation of ice processes in atmospheric models}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{120}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{4937\bibrangedash 4961}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1002/2014JD023000
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/5UC5HCC7/2014JD023000.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2014JD023000
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2014JD023000
+      \endverb
+      \keyw{heterogeneous ice nucleation,mixed-phase clouds,parameterization,classical nucleation theory}
+    \endentry
     \entry{schmale_pan-arctic_2022}{article}{}
       \name{author}{17}{}{%
         {{hash=4ed16e6fca4534fac3ab19b807afb11e}{%
@@ -8052,6 +8872,148 @@
       \verb https://journals.ametsoc.org/view/journals/atsc/34/7/1520-0469_1977_034_1149_tiopot_2_0_co_2.xml
       \endverb
     \endentry
+    \entry{ullrich_new_2017}{article}{}
+      \name{author}{9}{}{%
+        {{hash=9adae69a49653212abe45678594b2222}{%
+           family={Ullrich},
+           familyi={U\bibinitperiod},
+           given={Romy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ef161aef45294789c148e689a1c786c7}{%
+           family={Hoose},
+           familyi={H\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3be602a8a980d5ffec54a3f30daa97d4}{%
+           family={Möhler},
+           familyi={M\bibinitperiod},
+           given={Ottmar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=ce29f84887259d205b3c4601cadfc8c4}{%
+           family={Niemand},
+           familyi={N\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15a1e6892dd9a6ac182db634932676ae}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2963fee1744038c3b4d990a16a4a9835}{%
+           family={Höhler},
+           familyi={H\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2deab7592b2046ccb6af536312414672}{%
+           family={Hiranuma},
+           familyi={H\bibinitperiod},
+           given={Naruki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ac59cdf2e34fbf9213a415666e5cd728}{%
+           family={Saathoff},
+           familyi={S\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=03df546fae9883a61e19b61aa36eb979}{%
+           family={Leisner},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{183c98a5c369e729b744f27bf7354aa4}
+      \strng{fullhash}{6af5c5542e8594df143f5a9fd73fde04}
+      \strng{bibnamehash}{183c98a5c369e729b744f27bf7354aa4}
+      \strng{authorbibnamehash}{183c98a5c369e729b744f27bf7354aa4}
+      \strng{authornamehash}{183c98a5c369e729b744f27bf7354aa4}
+      \strng{authorfullhash}{6af5c5542e8594df143f5a9fd73fde04}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Based on results of 11 yr of heterogeneous ice nucleation experiments at the Aerosol Interaction and Dynamics in the Atmosphere (AIDA) chamber in Karlsruhe, Germany, a new empirical parameterization framework for heterogeneous ice nucleation was developed. The framework currently includes desert dust and soot aerosol and quantifies the ice nucleation efficiency in terms of the ice nucleation active surface site (INAS) approach. The immersion freezing INAS densities nS of all desert dust experiments follow an exponential fit as a function of temperature, well in agreement with an earlier analysis of AIDA experiments. The deposition nucleation nS isolines for desert dust follow u-shaped curves in the ice saturation ratio–temperature (Si–T) diagram at temperatures below about 240 K. The negative slope of these isolines toward lower temperatures may be explained by classical nucleation theory (CNT), whereas the behavior toward higher temperatures may be caused by a pore condensation and freezing mechanism. The deposition nucleation measured for soot at temperatures below about 240 K also follows u-shaped isolines with a shift toward higher Si for soot with higher organic carbon content. For immersion freezing of soot aerosol, only upper limits for nS were determined and used to rescale an existing parameterization line. The new parameterization framework is compared to a CNT-based parameterization and an empirical framework as used in models. The comparison shows large differences in shape and magnitude of the nS isolines especially for deposition nucleation. For the application in models, implementation of this new framework is simple compared to that of other expressions.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{3}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{3}
+      \field{title}{A {New} {Ice} {Nucleation} {Active} {Site} {Parameterization} for {Desert} {Dust} and {Soot}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{74}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{699\bibrangedash 717}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1175/JAS-D-16-0074.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/YF6LZ9X9/Ullrich et al. - 2017 - A New Ice Nucleation Active Site Parameterization .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/74/3/jas-d-16-0074.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/74/3/jas-d-16-0074.1.xml
+      \endverb
+    \endentry
+    \entry{vali_quantitative_1971}{article}{}
+      \name{author}{1}{}{%
+        {{hash=86a16ba8ca2a7039538538a3cad8e44d}{%
+           family={Vali},
+           familyi={V\bibinitperiod},
+           given={Gabor},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \strng{fullhash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \strng{bibnamehash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \strng{authorbibnamehash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \strng{authornamehash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \strng{authorfullhash}{86a16ba8ca2a7039538538a3cad8e44d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Freezing experiments using large numbers of small drops are frequently used for the study of both homogeneous and heterogeneous nucleation of water and of other substances. For heterogeneous nucleation, the spread in the observed freezing temperatures of drops has been shown to arise from the presence of nuclei of different activities in the sample. In the past no quantitative assessment of the nucleus content could be given independent of the drop sizes used. It is shown in this paper that from the observed freezing temperatures of the drops one can derive both a differential and a cumulative nucleus spectrum. The differential spectrum represents the concentrations of nuclei which are active at specific temperatures and the cumulative spectrum represents the concentrations of nuclei active at all temperatures warmer than the selected temperature. The accuracies of the derived spectra were examined by Monte Carlo simulation and are shown to be such that the concentrations are reliable to within factors of 2–4. The dependence of the average freezing temperature on drop volume is shown in general to be determined by the shape of the nucleus spectrum but is approximately exponential for many spectra.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{4}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{3}
+      \field{title}{Quantitative {Evaluation} of {Experimental} {Results} an the {Heterogeneous} {Freezing} {Nucleation} of {Supercooled} {Liquids}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{28}
+      \field{year}{1971}
+      \field{urldateera}{ce}
+      \field{pages}{402\bibrangedash 409}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1971)028<0402:QEOERA>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/VFRWUY29/Vali - 1971 - Quantitative Evaluation of Experimental Results an the Heterogeneous Freezing Nucleation of Supercoo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/28/3/1520-0469_1971_028_0402_qeoera_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/28/3/1520-0469_1971_028_0402_qeoera_2_0_co_2.xml
+      \endverb
+    \endentry
     \entry{wen_backward-time_2012}{article}{}
       \name{author}{5}{}{%
         {{hash=19540b2d0848a129f9df776aadf5bf07}{%
@@ -8232,6 +9194,198 @@
       \verb{url}
       \verb https://acp.copernicus.org/articles/19/5293/2019/
       \endverb
+    \endentry
+    \entry{wilson_marine_2015}{article}{}
+      \name{author}{29}{}{%
+        {{hash=92e1602696e3bf8ad5c121ebaca49d3c}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Theodore\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=af5cfd85e3f0ed077c324ec3847d9237}{%
+           family={Ladino},
+           familyi={L\bibinitperiod},
+           given={Luis\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=69c9093d21282b626230530bc1481399}{%
+           family={Alpert},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ab70484cfb9ce07048b79d331c87e79}{%
+           family={Breckels},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=307021fe9a706144eb0de9c22e54ec77}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={Ian\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3bb9671b71efef2f89914397227bffce}{%
+           family={Browse},
+           familyi={B\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=17c4a0c0f9d48d0ec1e1c36bcb5e4f0a}{%
+           family={Burrows},
+           familyi={B\bibinitperiod},
+           given={Susannah\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b23bc255450361ae8e51f50c9ac483f3}{%
+           family={Carslaw},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=aab385f86d6ef66709b436f46ead97b6}{%
+           family={Huffman},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi Alex},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5594cbd6c09a3d23708278c80fba9f18}{%
+           family={Judd},
+           familyi={J\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ec4d0bdaf292d1b03699ad8e35361a06}{%
+           family={Kilthau},
+           familyi={K\bibinitperiod},
+           given={Wendy\bibnamedelima P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1338111121d929bfb1c7dc33a18c94fd}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Ryan\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=db8f4fe32e61b1578eb626c0fc5f355c}{%
+           family={McFiggans},
+           familyi={M\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e3571b89af71052eded6b8fb6c7d29a6}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Lisa\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9bb461705a52dcc119b705d969584093}{%
+           family={Nájera},
+           familyi={N\bibinitperiod},
+           given={Juan\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cda4ed696339074af0d2903f2bacf6cf}{%
+           family={Polishchuk},
+           familyi={P\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=37fb8fbc96d495900e0860d74177f4db}{%
+           family={Rae},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ba501ecc8e988b040f0f372aded9a54}{%
+           family={Schiller},
+           familyi={S\bibinitperiod},
+           given={Corinne\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c90c1416b8cff14d6c62c9aeaf28f3e3}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=742350ab202263b9cec278d7e44ba3d8}{%
+           family={Temprado},
+           familyi={T\bibinitperiod},
+           given={Jesús\bibnamedelima Vergara},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=776f232566ccbd40a2c4687f20f7d8b6}{%
+           family={Whale},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=e96d20ecf1800e4a6603ffc6338bde54}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Jenny\bibnamedelimb P.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=070279dbe049b0f8e4b9a30ead8dc12c}{%
+           family={Wurl},
+           familyi={W\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=957481aefe225aa1600192978c3f829a}{%
+           family={Yakobi-Hancock},
+           familyi={Y\bibinithyphendelim H\bibinitperiod},
+           given={Jacqueline\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5fe32a0df9cc228098751791baefc753}{%
+           family={Abbatt},
+           familyi={A\bibinitperiod},
+           given={Jonathan\bibnamedelimb P.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ffd3e777e299a64dcffdc3c5ff9c11f}{%
+           family={Aller},
+           familyi={A\bibinitperiod},
+           given={Josephine\bibnamedelima Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=8c339b0e2c9eaf87b1fc8410cf33651b}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={Allan\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d32483b6a14d13d350c6e2d0789c81ff}{%
+           family={Knopf},
+           familyi={K\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a3345de0aca8f456315a83263874c3d6}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2e5ff6019aa3a03bfa26ac5d5428eb20}
+      \strng{fullhash}{ff5f3c59477664bbfb572059a7d994e1}
+      \strng{bibnamehash}{2e5ff6019aa3a03bfa26ac5d5428eb20}
+      \strng{authorbibnamehash}{2e5ff6019aa3a03bfa26ac5d5428eb20}
+      \strng{authornamehash}{2e5ff6019aa3a03bfa26ac5d5428eb20}
+      \strng{authorfullhash}{ff5f3c59477664bbfb572059a7d994e1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The presence of ice in clouds can influence cloud lifetime, precipitation and radiative properties; here, organic material at the sea–air interface, possibly associated with phytoplankton cell exudates, is shown to nucleate ice under conditions relevant for ice cloud formation in the atmospheric environment.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{note}{Number: 7568 Publisher: Nature Publishing Group}
+      \field{number}{7568}
+      \field{title}{A marine biogenic source of atmospheric ice-nucleating particles}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{525}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{234\bibrangedash 238}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature14986
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/dasilva/snap/zotero-snap/common/Zotero/storage/TKZZZ3HP/Wilson et al. - 2015 - A marine biogenic source of atmospheric ice-nuclea.pdf:application/pdf;Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/RFAJ2ZY8/Wilson et al. - 2015 - A marine biogenic source of atmospheric ice-nuclea.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nature14986
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nature14986
+      \endverb
+      \keyw{Atmospheric science,Marine biology}
     \endentry
     \entry{winiger_sources_2016}{article}{}
       \name{author}{5}{}{%
@@ -8797,6 +9951,8 @@
   \missing{hay_variations_1976}
   \missing{howard_LXIV_1803}
   \missing{intergovernemental_panel_on_climate_change_climate_2023}
+  \missing{ipcc_AR3_2007}
+  \missing{kanji__2013}
   \missing{rantanen_he_2022}
 \endrefsection
 \endinput
