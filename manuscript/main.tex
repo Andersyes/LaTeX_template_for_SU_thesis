@@ -7,7 +7,8 @@
 % couvertures accessibles sur le site du college doctoral de PSL : https://collegedoctoral.psl.eu/doctorat-psl/espace-ressources/
 
 % Proposé par Arthur Chavignon, février 2022
-% adapté à Sorbonne Université par Antoine Ehret et Julie Carles et d'après Alban Planchat
+% adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'après Alban Planchat (2023)
+% Adapté et complété par Anderson Da Silva (2025)
 
 \input{config/parameters} % mise en forme globale du document
 \input{config/macro.tex} % macro Latex
@@ -36,6 +37,7 @@
 %%{\printnoidxglossaries}\adjustmtc
 \end{singlespace}
     
+\include{others/remerciements}
 \include{others/avantpropos}
 \include{others/contrib_commu} % activité communautaire autour de la thèse
 
@@ -49,7 +51,6 @@
 \include{chap4/chap4_main}
 \include{chap5/chap5_main}
 \include{conclusion/conclusion}
-\include{annexes/MT180}
 
 
 %%%%%%%%%%%%%%%% AUTRES PAGES %%%%%%%%%%%%%%%%%%
@@ -57,12 +58,13 @@
 \appendix
 \renewcommand{\thesection}{\Alph{chapter}.\arabic{section}}
 \renewcommand{\thechapter}{\Alph{chapter}}
-%\include{annexes/annexe_chimieAtmo}
+\include{annexes/future_of_research}
+\include{annexes/MT180}
 
 
 \begin{singlespace} % réduction de l'interligne pour condenser
 % Utiliser \adjustmtc si un décalage apparaît dans les petites tables des matières
-\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\listfigurename}{List of figures}
 \phantomsection\listoffigures\adjustmtc % Liste des figures
 \phantomsection\listoftables\adjustmtc  % Liste des tableaux \mtcaddchapter
 % \printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
@@ -74,6 +76,7 @@
 
 \begin{singlespace}
 \setlength\labelalphawidth{0em}
+\tquote{Transitur et augebitur scientia}{}
 \small\printbibliography[heading=bibintoc,title=References]
 \end{singlespace}
 
