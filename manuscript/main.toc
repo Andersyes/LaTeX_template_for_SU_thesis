@@ -13,121 +13,119 @@
 \contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.2.3.2}The anthropogenic forcing}{10}{subsubsection.1.2.3.2}%
 \contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.2.3.3}An unprecedented rate}{13}{subsubsection.1.2.3.3}%
 \contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.4}Expected evolution}{13}{subsection.1.2.4}%
-\contentsline {paragraph}{About the unexpected}{16}{figure.caption.10}%
 \contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.5}The silent collapse}{16}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.6}Implication for scientific research}{16}{subsection.1.2.6}%
-\contentsline {section}{\numberline {\uppercase {i{}\relax }.3}Clouds and microphysics}{18}{section.1.3}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.1}What are clouds}{18}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.2}Cloud role in climate}{20}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.3}Cloud formation and evolution}{21}{subsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.1}Notions of stability}{21}{subsubsection.1.3.3.1}%
-\contentsline {paragraph}{Stable case:}{22}{equation.1.3.9}%
-\contentsline {paragraph}{Unstable case:}{23}{equation.1.3.9}%
-\contentsline {paragraph}{Neutral case:}{23}{equation.1.3.9}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.2}Cloud phase}{24}{subsubsection.1.3.3.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.3}Precipitations}{24}{subsubsection.1.3.3.3}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.4}Physics of ice nucleation}{25}{subsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.1}The energy barrier}{25}{subsubsection.1.3.4.1}%
-\contentsline {paragraph}{Vapour to ice:}{26}{equation.1.3.16}%
-\contentsline {paragraph}{Liquid to ice:}{27}{equation.1.3.18}%
-\contentsline {paragraph}{Note about the $-38$°C threshold}{27}{figure.caption.15}%
-\contentsline {paragraph}{Nota bene:}{28}{figure.caption.16}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.2}Types of heterogeneous nucleation}{28}{subsubsection.1.3.4.2}%
-\contentsline {paragraph}{Immersion freezing:}{28}{subsubsection.1.3.4.2}%
-\contentsline {paragraph}{Deposition nucleation:}{28}{subsubsection.1.3.4.2}%
-\contentsline {paragraph}{Condensation freezing:}{29}{subsubsection.1.3.4.2}%
-\contentsline {paragraph}{Contact freezing:}{29}{subsubsection.1.3.4.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.3}Modelling of heterogeneous ice nucleation}{29}{subsubsection.1.3.4.3}%
-\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{30}{equation.1.3.21}%
-\contentsline {section}{\numberline {\uppercase {i{}\relax }.4}Ice nucleating particles in the Arctic}{30}{section.1.4}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.1}The variety of aerosols effects on cloud and climate}{30}{subsection.1.4.1}%
-\contentsline {paragraph}{Semi-direct effects:}{31}{subsection.1.4.1}%
-\contentsline {paragraph}{Indirect effects:}{31}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.2}Physical requirements of INPs}{32}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.3}Natural or anthropogenic? The diversity of INPs}{32}{subsection.1.4.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.1}Sea salts and marine organics}{33}{subsubsection.1.4.3.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.2}Biological sources, terrestrial and marine}{33}{subsubsection.1.4.3.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.3}Mineral dust}{33}{subsubsection.1.4.3.3}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.4}Lifetime and deposition processes}{34}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.5}Seasonal variability and observational ability}{34}{subsection.1.4.5}%
-\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{36}{figure.caption.19}%
-\contentsline {section}{\numberline {\uppercase {i{}\relax }.5}The Arctic atmosphere}{36}{section.1.5}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.1}A glimpse on Arctic climate conditions}{37}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.2}Polar amplification}{38}{subsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.1}Convergence of horizontal heat fluxes}{38}{subsubsection.1.5.2.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.2}Albedo feedback}{39}{subsubsection.1.5.2.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.3}Lapse-rate feedback}{40}{subsubsection.1.5.2.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.4}Effect of polar clouds}{40}{subsubsection.1.5.2.4}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.3}Arctic clouds}{41}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.4}Modelling the Arctic climate}{42}{subsection.1.5.4}%
-\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{42}{subsection.1.5.4}%
-\contentsline {section}{\numberline {\uppercase {i{}\relax }.6}General intention and plan}{42}{section.1.6}%
-\contentsline {chapter}{\numberline {II}Methodological approach, materials and techniques}{44}{chapter.2}%
-\contentsline {section}{\numberline {\uppercase {ii{}\relax }.1}[Introduction]}{46}{section.2.1}%
-\contentsline {section}{\numberline {\uppercase {ii{}\relax }.2}Models and related tools}{46}{section.2.2}%
-\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.1}The Weather Research and Forecast model}{46}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.2}WRF including chemistry: WRF-Chem}{47}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.3}Backward modelling}{47}{subsection.2.2.3}%
-\contentsline {section}{\numberline {\uppercase {ii{}\relax }.3}Microphysics scheme in cloud modelling}{48}{section.2.3}%
-\contentsline {section}{\numberline {\uppercase {ii{}\relax }.4}Observation data and measurements}{48}{section.2.4}%
-\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.4.1}Meteorological observations}{48}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.4.2}Ice nucleating particles observations}{48}{subsection.2.4.2}%
-\contentsline {section}{\numberline {\uppercase {ii{}\relax }.5}Acknowledgements ????}{48}{section.2.5}%
-\contentsline {chapter}{\numberline {III}Identification of ice nucleating particles emission sources}{49}{chapter.3}%
-\contentsline {section}{\numberline {\uppercase {iii{}\relax }.1}[Introduction]}{51}{section.3.1}%
-\contentsline {section}{\numberline {\uppercase {iii{}\relax }.2}How to trace the origins of INPs \citep {da_silva_how_2025}}{51}{section.3.2}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.1}Context and state of the art}{51}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.2}Methods}{53}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.1}WRF-Chem for simulating concentration time series}{54}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.2}PES plumes with FLEXPART-WRF}{56}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.3}Statistical source identification method}{57}{subsubsection.3.2.2.3}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.3}Results}{58}{subsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.1}Metric of evaluation}{58}{subsubsection.3.2.3.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.2}The standard ratio method}{59}{subsubsection.3.2.3.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.3}Improving the ratio method}{61}{subsubsection.3.2.3.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.4}Result comparison}{63}{subsubsection.3.2.3.4}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.5}Combination of stations}{65}{subsubsection.3.2.3.5}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.6}Points for using a ratio methodology}{66}{subsubsection.3.2.3.6}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.4}Discussion on sensitivities}{68}{subsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.1}Sorting percentiles}{68}{subsubsection.3.2.4.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.2}Series duration}{68}{subsubsection.3.2.4.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.3}FPES filtering}{70}{subsubsection.3.2.4.3}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.5}Application examples on aerosol observational datasets}{71}{subsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.5.1}Aerosol absorption coefficient}{71}{subsubsection.3.2.5.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.5.2}Methanesulfonic acid}{72}{subsubsection.3.2.5.2}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.6}Conclusions}{74}{subsection.3.2.6}%
-\contentsline {section}{\numberline {\uppercase {iii{}\relax }.3}Natural sources of INPs in the Arctic}{78}{section.3.3}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.1}The MOCCHA 2018 campaign}{78}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.2}The MOSAIC 2019-2020 campaign}{78}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.3}The ARTOFMELT 2023 campaign}{78}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.4}[What else?]}{78}{subsection.3.3.4}%
-\contentsline {section}{\numberline {\uppercase {iii{}\relax }.4}Other applications of atmospheric species sources identification}{78}{section.3.4}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.4.1}North American fire emissions}{78}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.4.2}Origins of air masses that form clouds in the North Atlantic}{78}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {IV}Role of high latitude aerosols sources in the Arctic ice nucleating particles populations}{79}{chapter.4}%
-\contentsline {section}{\numberline {\uppercase {iv{}\relax }.1}[Introduction]}{81}{section.4.1}%
-\contentsline {section}{\numberline {\uppercase {iv{}\relax }.2}[Second paper]}{81}{section.4.2}%
-\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.1}Methods}{81}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.1}WRF-Chem modelling setup}{81}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.2}High latitude dust emissions}{81}{subsubsection.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.3}Sea sprays emissions}{81}{subsubsection.4.2.1.3}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.4}Observational data}{81}{subsubsection.4.2.1.4}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.5}Ice nucleation modelling }{81}{subsubsection.4.2.1.5}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.6}INP emission and activation}{81}{subsubsection.4.2.1.6}%
-\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.2}Results}{81}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.2.1}First approach: in situ nucleation modelling}{81}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.2.2}Emissions of modelled INPs}{81}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.3}Discussion}{81}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {V}The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}{82}{chapter.5}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.1}Introduction}{84}{section.5.1}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{84}{section.5.2}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Aerosol particles setup and INP tracers}{84}{section.5.3}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Effects on cloud}{84}{section.5.4}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.5}Discussion}{84}{section.5.5}%
-\contentsline {chapter}{\numberline {VI}Conclusions}{85}{chapter.6}%
-\contentsline {chapter}{A.\ \ What research in 2050?}{87}{section*.41}%
-\contentsline {chapter}{B.\ \ Ma thèse en 180 secondes}{89}{section*.42}%
-\contentsline {chapter}{List of figures}{92}{section*.43}%
-\contentsline {chapter}{List of Tables}{96}{section*.44}%
-\contentsline {chapter}{References}{97}{section*.44}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.6}Implication for scientific research}{17}{subsection.1.2.6}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.3}Clouds and microphysics}{19}{section.1.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.1}What are clouds}{19}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.2}Cloud role in climate}{21}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.3}Cloud formation and evolution}{22}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.1}Notions of stability}{22}{subsubsection.1.3.3.1}%
+\contentsline {paragraph}{Stable case:}{23}{equation.1.3.9}%
+\contentsline {paragraph}{Unstable case:}{24}{equation.1.3.9}%
+\contentsline {paragraph}{Neutral case:}{24}{equation.1.3.9}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.2}Cloud phase}{25}{subsubsection.1.3.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.3}Precipitations}{25}{subsubsection.1.3.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.4}Physics of ice nucleation}{26}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.1}The energy barrier}{26}{subsubsection.1.3.4.1}%
+\contentsline {paragraph}{Vapour to ice:}{27}{equation.1.3.16}%
+\contentsline {paragraph}{Liquid to ice:}{28}{equation.1.3.18}%
+\contentsline {paragraph}{Nota bene:}{29}{figure.caption.16}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.2}Types of heterogeneous nucleation}{29}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Immersion freezing:}{29}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Deposition nucleation:}{30}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Condensation freezing:}{30}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Contact freezing:}{30}{subsubsection.1.3.4.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.3}Modelling of heterogeneous ice nucleation}{30}{subsubsection.1.3.4.3}%
+\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{31}{equation.1.3.21}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.4}Ice nucleating particles in the Arctic}{31}{section.1.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.1}The variety of aerosols effects on cloud and climate}{31}{subsection.1.4.1}%
+\contentsline {paragraph}{Semi-direct effects:}{32}{subsection.1.4.1}%
+\contentsline {paragraph}{Indirect effects:}{32}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.2}Physical requirements of INPs}{33}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.3}Natural or anthropogenic? The diversity of INPs}{34}{subsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.1}Sea salts and marine organics}{34}{subsubsection.1.4.3.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.2}Biological sources, terrestrial and marine}{35}{subsubsection.1.4.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.3}Mineral dust}{35}{subsubsection.1.4.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.4}Lifetime and deposition processes}{35}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.5}Seasonal variability and observational ability}{36}{subsection.1.4.5}%
+\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{38}{figure.caption.20}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.5}The Arctic atmosphere}{38}{section.1.5}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.1}A glimpse on Arctic climate conditions}{38}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.2}Polar amplification}{40}{subsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.1}Convergence of horizontal heat fluxes}{40}{subsubsection.1.5.2.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.2}Albedo feedback}{41}{subsubsection.1.5.2.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.3}Lapse-rate feedback}{42}{subsubsection.1.5.2.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.4}Effect of polar clouds}{42}{subsubsection.1.5.2.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.3}Arctic clouds}{43}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.4}Modelling the Arctic climate}{44}{subsection.1.5.4}%
+\contentsline {subparagraph}{\scriptsize \textit {Box \uppercase {i{}\relax }. - Opening questions}}{44}{subsection.1.5.4}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.6}General intention and plan}{44}{section.1.6}%
+\contentsline {chapter}{\numberline {II}Methodological approach, materials and techniques}{46}{chapter.2}%
+\contentsline {section}{\numberline {\uppercase {ii{}\relax }.1}[Introduction]}{48}{section.2.1}%
+\contentsline {section}{\numberline {\uppercase {ii{}\relax }.2}Models and related tools}{48}{section.2.2}%
+\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.1}The Weather Research and Forecast model}{48}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.2}WRF including chemistry: WRF-Chem}{49}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.2.3}Backward modelling}{49}{subsection.2.2.3}%
+\contentsline {section}{\numberline {\uppercase {ii{}\relax }.3}Microphysics scheme in cloud modelling}{50}{section.2.3}%
+\contentsline {section}{\numberline {\uppercase {ii{}\relax }.4}Observation data and measurements}{50}{section.2.4}%
+\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.4.1}Meteorological observations}{50}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {\uppercase {ii{}\relax }.4.2}Ice nucleating particles observations}{50}{subsection.2.4.2}%
+\contentsline {section}{\numberline {\uppercase {ii{}\relax }.5}Acknowledgements ????}{50}{section.2.5}%
+\contentsline {chapter}{\numberline {III}Identification of ice nucleating particles emission sources}{51}{chapter.3}%
+\contentsline {section}{\numberline {\uppercase {iii{}\relax }.1}[Introduction]}{53}{section.3.1}%
+\contentsline {section}{\numberline {\uppercase {iii{}\relax }.2}How to trace the origins of INPs \citep {da_silva_how_2025}}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.1}Context and state of the art}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.2}Methods}{55}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.1}WRF-Chem for simulating concentration time series}{56}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.2}PES plumes with FLEXPART-WRF}{58}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.2.3}Statistical source identification method}{59}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.3}Results}{60}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.1}Metric of evaluation}{60}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.2}The standard ratio method}{61}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.3}Improving the ratio method}{63}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.4}Result comparison}{65}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.5}Combination of stations}{67}{subsubsection.3.2.3.5}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.3.6}Points for using a ratio methodology}{69}{subsubsection.3.2.3.6}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.4}Discussion on sensitivities}{69}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.1}Sorting percentiles}{69}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.2}Series duration}{71}{subsubsection.3.2.4.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.4.3}FPES filtering}{71}{subsubsection.3.2.4.3}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.5}Application examples on aerosol observational datasets}{73}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.5.1}Aerosol absorption coefficient}{73}{subsubsection.3.2.5.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iii{}\relax }.2.5.2}Methanesulfonic acid}{74}{subsubsection.3.2.5.2}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.2.6}Conclusions}{75}{subsection.3.2.6}%
+\contentsline {section}{\numberline {\uppercase {iii{}\relax }.3}Natural sources of INPs in the Arctic}{79}{section.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.1}The MOCCHA 2018 campaign}{79}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.2}The MOSAIC 2019-2020 campaign}{79}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.3}The ARTOFMELT 2023 campaign}{79}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.3.4}[What else?]}{79}{subsection.3.3.4}%
+\contentsline {section}{\numberline {\uppercase {iii{}\relax }.4}Other applications of atmospheric species sources identification}{79}{section.3.4}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.4.1}North American fire emissions}{79}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {\uppercase {iii{}\relax }.4.2}Origins of air masses that form clouds in the North Atlantic}{79}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {IV}Role of high latitude aerosols sources in the Arctic ice nucleating particles populations}{80}{chapter.4}%
+\contentsline {section}{\numberline {\uppercase {iv{}\relax }.1}[Introduction]}{82}{section.4.1}%
+\contentsline {section}{\numberline {\uppercase {iv{}\relax }.2}[Second paper]}{82}{section.4.2}%
+\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.1}Methods}{82}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.1}WRF-Chem modelling setup}{82}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.2}High latitude dust emissions}{82}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.3}Sea sprays emissions}{82}{subsubsection.4.2.1.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.4}Observational data}{82}{subsubsection.4.2.1.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.5}Ice nucleation modelling }{82}{subsubsection.4.2.1.5}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.1.6}INP emission and activation}{82}{subsubsection.4.2.1.6}%
+\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.2}Results}{82}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.2.1}First approach: in situ nucleation modelling}{82}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.2.2.2}Emissions of modelled INPs}{82}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.2.3}Discussion}{82}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {V}The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}{83}{chapter.5}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.1}Introduction}{85}{section.5.1}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{85}{section.5.2}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Aerosol particles setup and INP tracers}{85}{section.5.3}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Effects on cloud}{85}{section.5.4}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.5}Discussion}{85}{section.5.5}%
+\contentsline {chapter}{\numberline {VI}Conclusions}{86}{chapter.6}%
+\contentsline {chapter}{A.\ \ What research in 2050?}{88}{section*.42}%
+\contentsline {chapter}{B.\ \ Ma thèse en 180 secondes}{90}{section*.43}%
+\contentsline {chapter}{List of figures}{93}{section*.44}%
+\contentsline {chapter}{List of Tables}{97}{section*.45}%
+\contentsline {chapter}{References}{98}{section*.45}%
 \contentsfinish 

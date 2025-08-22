@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  21 AUG 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  23 AUG 2025 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -106,198 +106,50 @@ LaTeX Info: Redefining \textulc on input line 49.
 \tx@dimC=\dimen154
 LaTeX Info: Redefining \oldstylenums on input line 710.
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/newtxmath.sty
-Package: newtxmath 2023/07/30 v1.723
-
-`newtxmath' v1.723, 2023/07/30 Math macros based originally on txfonts (msharpe
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen155
-))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen156
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count266
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count269
-\DOTSCASE@=\count270
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen157
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count272
-\dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
-\tag@help=\toks20
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
-\andhelp@=\toks21
-\eqnshift@=\dimen158
-\alignsep@=\dimen159
-\tagshift@=\dimen160
-\tagwidth@=\dimen161
-\totwidth@=\dimen162
-\lineht@=\dimen163
-\@envbody=\toks22
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
-Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
-)
-\tx@cntz=\count278
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count279
-\tx@IsAlNum=\count280
-\tx@tA=\toks24
-\tx@tB=\toks25
-\tx@su=\read2
-
-amsthm NOT loaded
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 385.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 385.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 385.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 386.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 392.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/qhv/m/n on input line 392.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/qhv/m/n on input line 392.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 393.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 393.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 393.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 394.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 394.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 394.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 396.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 396.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 396.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 397.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/qhv/m/n --> OT1/qhv/b/n on input line 398.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/ntxtt/m/n --> OT1/ntxtt/b/n on input line 399.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 501.
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 501.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 501.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 502.
-\symlettersA=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 557.
-Now handling font encoding LMS ...
-... no UTF-8 mapping file for font encoding LMS
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 578.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 578.
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 578.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 578.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 578.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 579.
-\symAMSm=\mathgroup5
-LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
-(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 604.
-\symsymbolsC=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 625.
-Now handling font encoding LMX ...
-... no UTF-8 mapping file for font encoding LMX
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 638.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 6
-38.
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 638.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 638
-.
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 638.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 639.
-\symlargesymbolsTXA=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-
-(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 653.
-\tx@sbptoks=\toks26
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 876.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 877.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 878.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 879.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 880.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 881.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 882.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 884.
-LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 888.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 889.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 935.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 960.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 961.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 2031.
-LaTeX Info: Redefining \Bbbk on input line 2821.
-LaTeX Info: Redefining \not on input line 2969.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/07/15 v3.92 The Babel package
-\babel@savecnt=\count281
-\U@D=\dimen164
+\babel@savecnt=\count266
+\U@D=\dimen155
 \l@unhyphenated=\language87
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count282
+\bbl@readstream=\read2
+\bbl@dirlevel=\count267
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -314,11 +166,11 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+minntx on input line
- 112.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1minntx.fd
-File: t1minntx.fd 2022/01/20 v1.1 font definition file for T1/minntx
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/textgreek/textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
@@ -696,16 +548,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count283
-\cp@tempcnt=\count284
+\c@cp@cntr=\count268
+\cp@tempcnt=\count269
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen165
+\ttl@leftsep=\dimen156
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box53
+\@tempboxb=\box51
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 
@@ -899,23 +751,91 @@ Package: expl3 2023-08-11 L3 programming layer (loader)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count286
-\calc@Bcount=\count287
-\calc@Adimen=\dimen166
-\calc@Bdimen=\dimen167
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Acount=\count271
+\calc@Bcount=\count272
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count288
-\calc@Cskip=\skip55
+\calc@Ccount=\count273
+\calc@Cskip=\skip52
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen159
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen160
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count274
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count275
+\leftroot@=\count276
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count277
+\DOTSCASE@=\count278
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen161
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count279
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count280
+\dotsspace@=\muskip16
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
+\tag@help=\toks20
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
+\andhelp@=\toks21
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -923,10 +843,10 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count289
-\g__chemgreek_tmpa_int=\count290
+\l__chemgreek_tmpa_int=\count286
+\g__chemgreek_tmpa_int=\count287
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count291
+\l__mhchem_ce_distanceFromLastComma_int=\count288
 \__mhchem_arrow_extPgfLength_skip=\skip56
 \mhchem@minispace@tmp=\skip57
 \mhchem@minibackspace@tmp=\skip58
@@ -937,7 +857,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \mhchem@smallbondwidth=\skip63
 \mhchem@bondtmp@minussidebearingleft=\skip64
 \mhchem@bondtmp@minussidebearingright=\skip65
-\l__mhchem_option_version_int=\count292
+\l__mhchem_option_version_int=\count289
 \mhchem@option@minusmathsidebearingleft=\dimen168
 \mhchem@option@minusmathsidebearingright=\dimen169
 \mhchem@option@minustextsidebearingleft=\dimen170
@@ -1000,11 +920,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count293
+\c@section@level=\count290
 )
 \@linkdim=\dimen172
-\Hy@linkcounter=\count294
-\Hy@pagecounter=\count295
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
@@ -1014,7 +934,7 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count296
+\Hy@SavedSpaceFactor=\count293
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
@@ -1034,7 +954,7 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count297
+\c@Hy@tempcnt=\count294
  (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1049,7 +969,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count298
+\Fld@menulength=\count295
 \Field@Width=\dimen174
 \Fld@charsize=\dimen175
 Package hyperref Info: Hyper figures OFF on input line 6051.
@@ -1064,9 +984,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count299
-\c@Item=\count300
-\c@Hfootnote=\count301
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1078,8 +998,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count302
-\c@bookmark@seq@number=\count303
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1130,13 +1050,13 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count304
+\pdfpages@includegraphics@status=\count301
 \AM@pagebox=\box55
-\AM@global@opts=\toks27
-\AM@pagecnt=\count305
-\AM@toc@title=\toks28
-\AM@lof@heading=\toks29
-\c@AM@survey=\count306
+\AM@global@opts=\toks24
+\AM@pagecnt=\count302
+\AM@toc@title=\toks25
+\AM@lof@heading=\toks26
+\c@AM@survey=\count303
 \AM@templatesizebox=\box56
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1145,9 +1065,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count307
-\Gm@cntv=\count308
-\c@Gm@tempcnt=\count309
+\Gm@cnth=\count304
+\Gm@cntv=\count305
+\c@Gm@tempcnt=\count306
 \Gm@bindingoffset=\dimen183
 \Gm@wd@mp=\dimen184
 \Gm@odd@mp=\dimen185
@@ -1156,280 +1076,38 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen188
 \Gm@layouthoffset=\dimen189
 \Gm@layoutvoffset=\dimen190
-\Gm@dimlist=\toks30
+\Gm@dimlist=\toks27
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup8
-\symAMSb=\mathgroup9
-LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
-LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
-LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
-LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
-)
-LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
-
-LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
-.
-LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
-.
-LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
-
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-
-LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
-
-LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
-79.
-LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
-LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
-LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
-LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
-LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
-9.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-20.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
-1.
-LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
-LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
-LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
-LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
-LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
-LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
-LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
-
-LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
-LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
-LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
-LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
-LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
-LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
-LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
-LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
-LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
-LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
-LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
-LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
-LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
-LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
-LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
-LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
-LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
-LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
-LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
-LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
-LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
-LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
-LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
-LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
-LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
-LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
-LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
-LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
-LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
-LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
-LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
-LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
-LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
-.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
-
-LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
-LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
-LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
-LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
-LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
-
-LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
-
-LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
-LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
-LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
-LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
-LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
-LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
-LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
-LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
-LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
-LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
-LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
-LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
-LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
-LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
-LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-
-LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-
-
-! LaTeX Error: Command `\Bbbk' already defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...ol{\Bbbk}           {\mathord}{AMSb}{"7C}
-                                                  
-? R
-OK, entering \nonstopmode...
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks31
-\thm@bodyfont=\toks32
-\thm@headfont=\toks33
-\thm@notefont=\toks34
-\thm@headpunct=\toks35
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
 \thm@preskip=\skip67
 \thm@postskip=\skip68
 \thm@headsep=\skip69
-\dth@everypar=\toks36
-
-
-! LaTeX Error: Command \openbox already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.426   \vrule\hfil}}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Info: Redefining \textsquare on input line 427.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+\dth@everypar=\toks33
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count310
+\g_MT_multlinerow_int=\count307
 \l_MT_multwidth_dim=\dimen191
 \origjot=\skip70
 \l_MT_shortvdotswithinadjustabove_dim=\dimen192
@@ -1443,24 +1121,24 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup10
+\symrsfs=\mathgroup6
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-08-03 v3.3.2 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count311
-\l__siunitx_number_exponent_fixed_int=\count312
-\l__siunitx_number_min_decimal_int=\count313
-\l__siunitx_number_min_integer_int=\count314
-\l__siunitx_number_round_precision_int=\count315
-\l__siunitx_number_lower_threshold_int=\count316
-\l__siunitx_number_upper_threshold_int=\count317
-\l__siunitx_number_group_first_int=\count318
-\l__siunitx_number_group_size_int=\count319
-\l__siunitx_number_group_minimum_int=\count320
+\l__siunitx_number_uncert_offset_int=\count308
+\l__siunitx_number_exponent_fixed_int=\count309
+\l__siunitx_number_min_decimal_int=\count310
+\l__siunitx_number_min_integer_int=\count311
+\l__siunitx_number_round_precision_int=\count312
+\l__siunitx_number_lower_threshold_int=\count313
+\l__siunitx_number_upper_threshold_int=\count314
+\l__siunitx_number_group_first_int=\count315
+\l__siunitx_number_group_size_int=\count316
+\l__siunitx_number_group_minimum_int=\count317
 \l__siunitx_angle_tmp_dim=\dimen199
 \l__siunitx_angle_marker_box=\box58
 \l__siunitx_angle_unit_box=\box59
-\l__siunitx_compound_count_int=\count321
+\l__siunitx_compound_count_int=\count318
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -1476,9 +1154,9 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_table_after_box=\box65
 \l__siunitx_table_before_dim=\dimen258
 \l__siunitx_table_carry_dim=\dimen259
-\l__siunitx_unit_tmp_int=\count322
-\l__siunitx_unit_position_int=\count323
-\l__siunitx_unit_total_int=\count324
+\l__siunitx_unit_tmp_int=\count319
+\l__siunitx_unit_position_int=\count320
+\l__siunitx_unit_total_int=\count321
 
 
 ! LaTeX Error: Key 'siunitx/locale' accepts only a fixed set of choices.
@@ -1488,17 +1166,14 @@ For immediate help type H <return>.
                                                   
 l.8619   }
           
-
-The key 'siunitx/locale' only accepts predefined values, and 'EN' is not one
-of these.
-
-
+? R
+OK, entering \nonstopmode...
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen260
 \ar@mcellbox=\box66
 \extrarowheight=\dimen261
-\NC@list=\toks37
+\NC@list=\toks34
 \extratabsurround=\skip71
 \backup@length=\skip72
 \ar@cellbox=\box67
@@ -1526,53 +1201,35 @@ l.65   p
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 66.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1minntx.fd
-File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+6.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 66.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+6.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
-File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 66.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
-File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
-)
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 66.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
-File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 66.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 66.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
-File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-66.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-66.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
-File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
-)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 66.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 66.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 66.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
 
 
@@ -1631,7 +1288,7 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks35
 \pgfutil@tempdima=\dimen262
 \pgfutil@tempdimb=\dimen263
 )
@@ -1648,12 +1305,12 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks38
 ))
 \pgf@x=\dimen264
 \pgf@y=\dimen265
@@ -1666,15 +1323,15 @@ tered.code.tex
 \pgf@xd=\dimen272
 \pgf@yd=\dimen273
 \w@pgf@writea=\write3
-\r@pgf@reada=\read4
-\c@pgf@counta=\count325
-\c@pgf@countb=\count326
-\c@pgf@countc=\count327
-\c@pgf@countd=\count328
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count329
+\r@pgf@reada=\read3
+\c@pgf@counta=\count322
+\c@pgf@countb=\count323
+\c@pgf@countc=\count324
+\c@pgf@countd=\count325
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count326
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -1692,8 +1349,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count330
-\pgfsyssoftpath@bigbuffer@items=\count331
+\pgfsyssoftpath@smallbuffer@items=\count327
+\pgfsyssoftpath@bigbuffer@items=\count328
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1705,11 +1362,11 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen274
-\pgfmath@count=\count332
+\pgfmath@count=\count329
 \pgfmath@box=\box70
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -1731,7 +1388,7 @@ code.tex)
 erarithmetics.code.tex)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count333
+\c@pgfmathroundto@lastzeros=\count330
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -1769,7 +1426,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box71
 \pgf@hbox=\box72
 \pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count334
+\pgf@picture@serial@count=\count331
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -1804,8 +1461,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 e.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen298
-\pgf@sys@shading@range@num=\count335
-\pgf@shadingcount=\count336
+\pgf@sys@shading@range@num=\count332
+\pgf@shadingcount=\count333
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1860,8 +1517,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen301
 \pgffor@skip=\dimen302
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1870,7 +1527,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count337
+\pgf@plot@mark@count=\count334
 \pgfplotmarksize=\dimen303
 )
 \tikz@lastx=\dimen304
@@ -1885,19 +1542,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count338
-\tikznumberofchildren=\count339
-\tikznumberofcurrentchild=\count340
-\tikz@fig@count=\count341
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count342
-\pgfmatrixcurrentcolumn=\count343
-\pgf@matrix@numberofcolumns=\count344
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
 )
-\tikz@expandcount=\count345
+\tikz@expandcount=\count342
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1906,7 +1563,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip73
-\multirow@cntb=\count346
+\multirow@cntb=\count343
 \multirow@dima=\skip74
 \bigstrutjot=\dimen312
 )
@@ -1944,13 +1601,13 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count347
+\c@checkoddpage=\count344
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box81
-\sift@deathcycles=\count348
+\sift@deathcycles=\count345
 \@vwid@loff=\dimen325
 \@vwid@roff=\dimen326
 ))
@@ -1969,8 +1626,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen334
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count349
-\c@continuedfloat=\count350
+\c@caption@flags=\count346
+\c@continuedfloat=\count347
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen335
 \caption@adjustwidth@linewidth=\dimen336
@@ -1980,9 +1637,9 @@ Package caption Info: threeparttable package is loaded.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count351
+\c@subfigure=\count348
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count352
+\c@subtable=\count349
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
@@ -2012,9 +1669,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/04/15 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count353
+\c@svg@param@lastpage=\count350
 \svg@box=\box82
-\c@svg@param@currpage=\count354
+\c@svg@param@currpage=\count351
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -2025,10 +1682,10 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count355
-\float@exts=\toks50
+\c@float@type=\count352
+\float@exts=\toks47
 \float@box=\box83
-\@float@everytoks=\toks51
+\@float@everytoks=\toks48
 \@floatcapt=\box84
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -2043,12 +1700,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen344
 \cmidrulekern=\dimen345
 \defaultaddspace=\dimen346
-\@cmidla=\count356
-\@cmidlb=\count357
+\@cmidla=\count353
+\@cmidlb=\count354
 \@aboverulesep=\dimen347
 \@belowrulesep=\dimen348
-\@thisruleclass=\count358
-\@lastruleclass=\count359
+\@thisruleclass=\count355
+\@lastruleclass=\count356
 \@thisrulewidth=\dimen349
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/paralist/paralist.sty
@@ -2057,7 +1714,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip76
 \plitemsep=\skip77
 \plparsep=\skip78
-\pl@lab=\toks52
+\pl@lab=\toks49
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -2079,12 +1736,12 @@ Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
 \SC@CAPWD=\dimen351
 \SC@tempdima=\dimen352
 \SC@tempdimb=\dimen353
-\c@SC@C=\count360
+\c@SC@C=\count357
 \SC@BOX=\box85
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count361
+\c@tracingst=\count358
 \ST@wd=\dimen354
 \ST@rightskip=\skip87
 \ST@leftskip=\skip88
@@ -2134,66 +1791,21 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \aftertitleunit=\skip107
 \ttl@plus=\dimen364
 \ttl@minus=\dimen365
-\ttl@toksa=\toks53
+\ttl@toksa=\toks50
 \titlewidth=\dimen366
 \titlewidthlast=\dimen367
 \titlewidthfirst=\dimen368
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/minntx/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/ntxmi/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 24.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  LMS/ntxsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 2
-5.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  LMX/ntxexx/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/minntx/b/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ntxmi/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LMS/ntxsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 29.
-
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/ntxexx/b/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/minntx/b/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/qhv/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/minntx/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/ntxtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/minntx/b/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/qhv/b/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/minntx/b/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/ntxtt/b/n --> OT1/lmtt/m/n on input line 38.
-)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count362
-\l__lipsum_a_int=\count363
-\l__lipsum_b_int=\count364
+\g__lipsum_par_int=\count359
+\l__lipsum_a_int=\count360
+\l__lipsum_b_int=\count361
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 \chapnumb=\skip108
-\c@ttlp@side=\count365
-\ttlp@side=\count366
+\c@ttlp@side=\count362
+\ttlp@side=\count363
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -2234,8 +1846,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip135
 \cftfigindent=\skip136
 \cftfignumwidth=\skip137
-\c@lofdepth=\count367
-\c@lotdepth=\count368
+\c@lofdepth=\count364
+\c@lotdepth=\count365
 \cftbeforelottitleskip=\skip138
 \cftafterlottitleskip=\skip139
 \cftbeforetabskip=\skip140
@@ -2261,13 +1873,13 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count369
-\csq@gtype=\count370
-\csq@glevel=\count371
-\csq@qlevel=\count372
-\csq@maxlvl=\count373
-\csq@tshold=\count374
-\csq@ltx@everypar=\toks54
+\csq@reset=\count366
+\csq@gtype=\count367
+\csq@glevel=\count368
+\csq@qlevel=\count369
+\csq@maxlvl=\count370
+\csq@tshold=\count371
+\csq@ltx@everypar=\toks51
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -2280,7 +1892,7 @@ File: csquotes.cfg
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks55
+\AP@output=\toks52
 \AP@partial=\box88
 \AP@footins=\box89
 )
@@ -2292,14 +1904,14 @@ Package: todonotes 2023/01/31
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count375
+\c@@todonotes@numberoftodonotes=\count372
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count376
+\BKM@id=\count373
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
@@ -2307,7 +1919,7 @@ Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-\AC@clearlist=\toks56
+\AC@clearlist=\toks53
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -2335,54 +1947,54 @@ Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count377
+\lrq@indent=\count374
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count378
-\c@listtotal=\count379
-\c@listcount=\count380
-\c@liststart=\count381
-\c@liststop=\count382
-\c@citecount=\count383
-\c@citetotal=\count384
-\c@multicitecount=\count385
-\c@multicitetotal=\count386
-\c@instcount=\count387
-\c@maxnames=\count388
-\c@minnames=\count389
-\c@maxitems=\count390
-\c@minitems=\count391
-\c@citecounter=\count392
-\c@maxcitecounter=\count393
-\c@savedcitecounter=\count394
-\c@uniquelist=\count395
-\c@uniquename=\count396
-\c@refsection=\count397
-\c@refsegment=\count398
-\c@maxextratitle=\count399
-\c@maxextratitleyear=\count400
-\c@maxextraname=\count401
-\c@maxextradate=\count402
-\c@maxextraalpha=\count403
-\c@abbrvpenalty=\count404
-\c@highnamepenalty=\count405
-\c@lownamepenalty=\count406
-\c@maxparens=\count407
-\c@parenlevel=\count408
-\blx@tempcnta=\count409
-\blx@tempcntb=\count410
-\blx@tempcntc=\count411
-\c@blx@maxsection=\count412
-\blx@maxsegment@0=\count413
-\blx@notetype=\count414
-\blx@parenlevel@text=\count415
-\blx@parenlevel@foot=\count416
-\blx@sectionciteorder@0=\count417
-\blx@sectionciteorderinternal@0=\count418
-\blx@entrysetcounter=\count419
-\blx@biblioinstance=\count420
+\c@tabx@nest=\count375
+\c@listtotal=\count376
+\c@listcount=\count377
+\c@liststart=\count378
+\c@liststop=\count379
+\c@citecount=\count380
+\c@citetotal=\count381
+\c@multicitecount=\count382
+\c@multicitetotal=\count383
+\c@instcount=\count384
+\c@maxnames=\count385
+\c@minnames=\count386
+\c@maxitems=\count387
+\c@minitems=\count388
+\c@citecounter=\count389
+\c@maxcitecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextraname=\count398
+\c@maxextradate=\count399
+\c@maxextraalpha=\count400
+\c@abbrvpenalty=\count401
+\c@highnamepenalty=\count402
+\c@lownamepenalty=\count403
+\c@maxparens=\count404
+\c@parenlevel=\count405
+\blx@tempcnta=\count406
+\blx@tempcntb=\count407
+\blx@tempcntc=\count408
+\c@blx@maxsection=\count409
+\blx@maxsegment@0=\count410
+\blx@notetype=\count411
+\blx@parenlevel@text=\count412
+\blx@parenlevel@foot=\count413
+\blx@sectionciteorder@0=\count414
+\blx@sectionciteorderinternal@0=\count415
+\blx@entrysetcounter=\count416
+\blx@biblioinstance=\count417
 \labelnumberwidth=\skip150
 \labelalphawidth=\skip151
 \biblabelsep=\skip152
@@ -2391,12 +2003,12 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibinitsep=\skip155
 \bibparsep=\skip156
 \bibhang=\skip157
-\blx@bcfin=\read5
+\blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language88
-\c@mincomprange=\count421
-\c@maxcomprange=\count422
-\c@mincompwidth=\count423
+\c@mincomprange=\count418
+\c@maxcomprange=\count419
+\c@mincompwidth=\count420
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2407,74 +2019,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count424
-\c@savedafterword=\count425
-\c@annotator=\count426
-\c@savedannotator=\count427
-\c@author=\count428
-\c@savedauthor=\count429
-\c@bookauthor=\count430
-\c@savedbookauthor=\count431
-\c@commentator=\count432
-\c@savedcommentator=\count433
-\c@editor=\count434
-\c@savededitor=\count435
-\c@editora=\count436
-\c@savededitora=\count437
-\c@editorb=\count438
-\c@savededitorb=\count439
-\c@editorc=\count440
-\c@savededitorc=\count441
-\c@foreword=\count442
-\c@savedforeword=\count443
-\c@holder=\count444
-\c@savedholder=\count445
-\c@introduction=\count446
-\c@savedintroduction=\count447
-\c@namea=\count448
-\c@savednamea=\count449
-\c@nameb=\count450
-\c@savednameb=\count451
-\c@namec=\count452
-\c@savednamec=\count453
-\c@translator=\count454
-\c@savedtranslator=\count455
-\c@shortauthor=\count456
-\c@savedshortauthor=\count457
-\c@shorteditor=\count458
-\c@savedshorteditor=\count459
-\c@labelname=\count460
-\c@savedlabelname=\count461
-\c@institution=\count462
-\c@savedinstitution=\count463
-\c@lista=\count464
-\c@savedlista=\count465
-\c@listb=\count466
-\c@savedlistb=\count467
-\c@listc=\count468
-\c@savedlistc=\count469
-\c@listd=\count470
-\c@savedlistd=\count471
-\c@liste=\count472
-\c@savedliste=\count473
-\c@listf=\count474
-\c@savedlistf=\count475
-\c@location=\count476
-\c@savedlocation=\count477
-\c@organization=\count478
-\c@savedorganization=\count479
-\c@origlocation=\count480
-\c@savedoriglocation=\count481
-\c@origpublisher=\count482
-\c@savedorigpublisher=\count483
-\c@publisher=\count484
-\c@savedpublisher=\count485
-\c@language=\count486
-\c@savedlanguage=\count487
-\c@origlanguage=\count488
-\c@savedoriglanguage=\count489
-\c@pageref=\count490
-\c@savedpageref=\count491
+\c@afterword=\count421
+\c@savedafterword=\count422
+\c@annotator=\count423
+\c@savedannotator=\count424
+\c@author=\count425
+\c@savedauthor=\count426
+\c@bookauthor=\count427
+\c@savedbookauthor=\count428
+\c@commentator=\count429
+\c@savedcommentator=\count430
+\c@editor=\count431
+\c@savededitor=\count432
+\c@editora=\count433
+\c@savededitora=\count434
+\c@editorb=\count435
+\c@savededitorb=\count436
+\c@editorc=\count437
+\c@savededitorc=\count438
+\c@foreword=\count439
+\c@savedforeword=\count440
+\c@holder=\count441
+\c@savedholder=\count442
+\c@introduction=\count443
+\c@savedintroduction=\count444
+\c@namea=\count445
+\c@savednamea=\count446
+\c@nameb=\count447
+\c@savednameb=\count448
+\c@namec=\count449
+\c@savednamec=\count450
+\c@translator=\count451
+\c@savedtranslator=\count452
+\c@shortauthor=\count453
+\c@savedshortauthor=\count454
+\c@shorteditor=\count455
+\c@savedshorteditor=\count456
+\c@labelname=\count457
+\c@savedlabelname=\count458
+\c@institution=\count459
+\c@savedinstitution=\count460
+\c@lista=\count461
+\c@savedlista=\count462
+\c@listb=\count463
+\c@savedlistb=\count464
+\c@listc=\count465
+\c@savedlistc=\count466
+\c@listd=\count467
+\c@savedlistd=\count468
+\c@liste=\count469
+\c@savedliste=\count470
+\c@listf=\count471
+\c@savedlistf=\count472
+\c@location=\count473
+\c@savedlocation=\count474
+\c@organization=\count475
+\c@savedorganization=\count476
+\c@origlocation=\count477
+\c@savedoriglocation=\count478
+\c@origpublisher=\count479
+\c@savedorigpublisher=\count480
+\c@publisher=\count481
+\c@savedpublisher=\count482
+\c@language=\count483
+\c@savedlanguage=\count484
+\c@origlanguage=\count485
+\c@savedoriglanguage=\count486
+\c@pageref=\count487
+\c@savedpageref=\count488
 \shorthandwidth=\skip158
 \shortjournalwidth=\skip159
 \shortserieswidth=\skip160
@@ -2500,19 +2112,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count492
-\c@textcitetotal=\count493
-\c@textcitemaxnames=\count494
-\c@biburlbigbreakpenalty=\count495
-\c@biburlbreakpenalty=\count496
-\c@biburlnumpenalty=\count497
-\c@biburlucpenalty=\count498
-\c@biburllcpenalty=\count499
+\c@textcitecount=\count489
+\c@textcitetotal=\count490
+\c@textcitemaxnames=\count491
+\c@biburlbigbreakpenalty=\count492
+\c@biburlbreakpenalty=\count493
+\c@biburlnumpenalty=\count494
+\c@biburlucpenalty=\count495
+\c@biburllcpenalty=\count496
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count500
+\c@smartand=\count497
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -2532,8 +2144,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count501
-\c@bbx:relatedtotal=\count502
+\c@bbx:relatedcount=\count498
+\c@bbx:relatedtotal=\count499
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -2566,9 +2178,9 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks57
+\everycr=\toks54
 \minrowclearance=\skip172
-\rownum=\count503
+\rownum=\count500
 ))
 (./config/macro.tex) (./others/glossaire.tex
 (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
@@ -2576,8 +2188,8 @@ Package: glossaries 2022/11/03 v4.52 (NLCT)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks58
-\@glsmrest=\toks59
+\@glsmfirst=\toks55
+\@glsmrest=\toks56
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -2587,7 +2199,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count504
+\c@su@anzahl=\count501
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -2598,19 +2210,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count505
+\actioncount=\count502
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count506
-\FP@xia=\count507
-\FP@xib=\count508
-\FP@xfa=\count509
-\FP@xfb=\count510
-\FP@rega=\count511
-\FP@regb=\count512
-\FP@regs=\count513
-\FP@times=\count514
+\FP@xs=\count503
+\FP@xia=\count504
+\FP@xib=\count505
+\FP@xfa=\count506
+\FP@xfb=\count507
+\FP@rega=\count508
+\FP@regb=\count509
+\FP@regs=\count510
+\FP@times=\count511
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2629,7 +2241,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count515
+\FPseed=\count512
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2640,15 +2252,15 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks60
-\@dtl@tmpcount=\count516
+\@dtl@toks=\toks57
+\@dtl@tmpcount=\count513
 \dtl@tmplength=\skip173
-\dtl@sortresult=\count517
-\@dtl@numgrpsepcount=\count518
-\@dtl@datatype=\count519
-\dtl@codeA=\count520
-\dtl@codeB=\count521
-\@dtl@foreach@level=\count522
+\dtl@sortresult=\count514
+\@dtl@numgrpsepcount=\count515
+\@dtl@datatype=\count516
+\dtl@codeA=\count517
+\dtl@codeB=\count518
+\@dtl@foreach@level=\count519
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
@@ -2661,13 +2273,13 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count523
-\@gls@tmpb=\toks61
+\gls@level=\count520
+\@gls@tmpb=\toks58
 \gls@tmplen=\skip174
-\glskeylisttok=\toks62
-\glslabeltok=\toks63
-\glsshorttok=\toks64
-\glslongtok=\toks65
+\glskeylisttok=\toks59
+\glslabeltok=\toks60
+\glsshorttok=\toks61
+\glslongtok=\toks62
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -2687,18 +2299,18 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip177
 \LTpre=\skip178
 \LTpost=\skip179
-\LTchunksize=\count524
+\LTchunksize=\count521
 \LTcapwidth=\dimen369
 \LT@head=\box90
 \LT@firsthead=\box91
 \LT@foot=\box92
 \LT@lastfoot=\box93
 \LT@gbox=\box94
-\LT@cols=\count525
-\LT@rows=\count526
-\c@LT@tables=\count527
-\c@LT@chunks=\count528
-\LT@p@ftn=\toks66
+\LT@cols=\count522
+\LT@rows=\count523
+\c@LT@tables=\count524
+\c@LT@chunks=\count525
+\LT@p@ftn=\toks63
 )
 \glsdescwidth=\skip180
 \glspagelistwidth=\skip181
@@ -2721,8 +2333,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen372
 \TX@target=\dimen373
 \TX@delta=\dimen374
-\TX@cols=\count529
-\TX@ftn=\toks67
+\TX@cols=\count526
+\TX@ftn=\toks64
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
@@ -2764,7 +2376,7 @@ LaTeX Warning: Label `chap1@cref' multiply defined.
 ) (./annexes/future_of_research.aux) (./annexes/MT180.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -2776,11 +2388,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
@@ -2802,24 +2410,22 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-\c@mv@tabular=\count530
-\c@mv@boldtabular=\count531
-LaTeX Info: Command `\dddot' is already robust on input line 21.
-LaTeX Info: Command `\ddddot' is already robust on input line 21.
+\c@mv@tabular=\count527
+\c@mv@boldtabular=\count528
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count532
+\scratchcounter=\count529
 \scratchdimen=\dimen375
 \scratchbox=\box97
-\nofMPsegments=\count533
-\nofMParguments=\count534
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count535
+\nofMPsegments=\count530
+\nofMParguments=\count531
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count532
 \MPscratchDim=\dimen376
-\MPnumerator=\count536
-\makeMPintoPDFobject=\count537
-\everyMPtoPDFconversion=\toks69
+\MPnumerator=\count533
+\makeMPintoPDFobject=\count534
+\everyMPtoPDFconversion=\toks66
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -2838,7 +2444,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 21.
+Package chemgreek Info: Activating mapping `textgreek' on line 21.
 
 Package hyperref Info: Link coloring ON on input line 21.
 
@@ -2859,13 +2465,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* h-part:(L,W,R)=(79.6678pt, 460.93457pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=460.93457pt
 * \textheight=674.33032pt
-* \oddsidemargin=13.08827pt
+* \oddsidemargin=7.39781pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-23.85716pt
 * \headheight=17.07164pt
@@ -2944,14 +2550,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Hartmann2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Seinfeld_atmospheric_1998
+(biblatex)                ahmed_modeling_2023
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2965,21 +2564,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                chen_impacts_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                copernicus_climate_change_service_era5_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                creamean_thawing2020
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2993,43 +2578,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                hay_variations_1976
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                howard_LXIV_1803
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                intergovernemental_panel_on_climate_change_climate_20
-23
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ipcc_AR3_2007
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                kanji__2013
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                rantanen_he_2022
+(biblatex)                ipcc_AR4_2007
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -3047,53 +2596,13 @@ File: config/psl-cover/cover_manuscript.pdf Graphic file (type pdf)
 Package pdftex.def Info: config/psl-cover/cover_manuscript.pdf  used on input l
 ine 22.
 (pdftex.def)             Requested size: 596.94872pt x 844.11156pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-2.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-2.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-22.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-22.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 22.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.1> on input line 22.
-
-Missing character: There is no π in font lmsy10!
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 22.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.8> on input line 22.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 22.
-Missing character: There is no π in font lmsy10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no π in font lmsy9!
 
 Overfull \hbox (15.46416pt too wide) in alignment at lines 22--22
 [][] 
  []
 
-Missing character: There is no π in font lmsy10!
 <config/psl-cover/logos_latmos_SU.pdf, id=8, 597.53635pt x 845.04686pt>
 File: config/psl-cover/logos_latmos_SU.pdf Graphic file (type pdf)
 <use config/psl-cover/logos_latmos_SU.pdf>
@@ -3109,9 +2618,10 @@ e 22.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./animation/nuages/des
-sin_nuages1.png> <./config/psl-cover/cover_manuscript.pdf> <./config/psl-cover/
-logos_latmos_SU.pdf
+al/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive
+/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./animation/nuages/dessin_nuages
+1.png> <./config/psl-cover/cover_manuscript.pdf> <./config/psl-cover/logos_latm
+os_SU.pdf
 
 pdfTeX warning: pdflatex (file ./config/psl-cover/logos_latmos_SU.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
@@ -3136,7 +2646,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package cleveref Info: loaded `english' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 71.
+Package cleveref Info: loaded `english' language definitions on input line 69.
  [3
 
 ])
@@ -3203,17 +2713,16 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 17.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
 0.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 Package cleveref Info: loaded `english' language definitions on input line 47.
  [10
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/lo
-cal/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 ! Undefined control sequence.
 l.63 ...ffective as reproducing Arctic INPs?, 3\up
                                                   {rd} QUiESCENT Workshop, L...
@@ -3292,8 +2801,8 @@ Package cleveref Info: loaded `english' language definitions on input line 42.
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
-\c@counterboxspe=\count538
-\c@counterchapter=\count539
+\c@counterboxspe=\count535
+\c@counterchapter=\count536
 
 Chapter I.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -3309,7 +2818,8 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 27--27
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 32.
-Missing character: There is no π in font lmsy10!
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 32.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -3323,11 +2833,9 @@ l.35 \newpage
 
 
 ]
-\c@ttl@toc@chapters=\count540
+\c@ttl@toc@chapters=\count537
  (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-
-Missing character: There is no π in font lmsy10!
 )
 Package cleveref Info: loaded `english' language definitions on input line 47.
 
@@ -3350,12 +2858,9 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 83.
 [3]
-Missing character: There is no π in font lmsy9!
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-23/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Missing character: There is no π in font lmsy10!
+ [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local
+/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 ! Undefined control sequence.
 l.103 ...e fact it remarkably suits the late 18\up
                                                   {th} century French politi...
@@ -3369,7 +2874,7 @@ Package cleveref Info: loaded `english' language definitions on input line 120.
 
 [5]
 ! Undefined control sequence.
-l.137 ...ppens at the first second of January 1\up
+l.136 ...ppens at the first second of January 1\up
                                                   {st}, while my PhD viva vo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3378,7 +2883,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.137 ...ace at exactly midnight on December 31\up
+l.136 ...ace at exactly midnight on December 31\up
                                                   {st}\footnote{That is not ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3387,7 +2892,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.138 ...me scale, the Milky Way forms on May 6\up
+l.137 ...me scale, the Milky Way forms on May 6\up
                                                   {th}, the Sun on August 31...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3396,7 +2901,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.138 ... on May 6\up{th}, the Sun on August 31\up
+l.137 ... on May 6\up{th}, the Sun on August 31\up
                                                   {st}. Fourteen days later ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3405,7 +2910,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.138 .... But we have to wait until December 1\up
+l.137 .... But one has to wait until December 1\up
                                                   {st} to see oxygen in the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3414,7 +2919,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.138 ...erentiated from apes at 8 pm on the 31\up
+l.137 ...erentiated from apes at 8 pm on the 31\up
                                                   {st}. Homo Sapiens appears...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3423,8 +2928,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.140 ...nomical and geological forcers. The 21\up
-                                                  {st} started with human so...
+l.139 ...nomical and geological forcers. The 21\up
+                                                  {st} century started with ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3434,11 +2939,11 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 150.
 
 [6]
-Package cleveref Info: loaded `english' language definitions on input line 182.
+Package cleveref Info: loaded `english' language definitions on input line 181.
 
  [7]
 ! Undefined control sequence.
-l.191 ...ious centuries. In fact, during the 20\up
+l.190 ...ious centuries. In fact, during the 20\up
                                                   {th} century, the temperat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3446,40 +2951,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/warming_evidences.png, id=368, 492.8814pt x 368.577pt>
+<./chap1/images/warming_evidences.png, id=370, 492.8814pt x 368.577pt>
 File: ./chap1/images/warming_evidences.png Graphic file (type png)
 <use ./chap1/images/warming_evidences.png>
 Package pdftex.def Info: ./chap1/images/warming_evidences.png  used on input li
-ne 200.
-(pdftex.def)             Requested size: 455.24411pt x 340.43346pt.
+ne 199.
+(pdftex.def)             Requested size: 460.93457pt x 344.68521pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 216.
+Package cleveref Info: loaded `english' language definitions on input line 211.
 
 [8]
+Package cleveref Info: loaded `english' language definitions on input line 231.
 
-LaTeX Warning: Citation 'hay_variations_1976' on page 9 undefined on input line
- 222.
-
-Package cleveref Info: loaded `english' language definitions on input line 229.
-
-[9 <./chap1/images/warming_evidences.png>]
-
-LaTeX Warning: Citation 'chen_impacts_2025' on page 10 undefined on input line 
-231.
-
-Missing character: There is no π in font lmsy10!
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 10 undefined on input line 235.
-
+ [9 <./chap1/images/warming_evidences.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 241.
+(Font)              scaled to size 8.0pt on input line 243.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 241.
+(Font)              scaled to size 6.0pt on input line 243.
+
 ! Undefined control sequence.
-l.241 ...curve remained still until the late 18\up
+l.243 ...curve remained still until the late 18\up
                                                   {th}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3487,15 +2980,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/co2_2k_ce.pdf, id=391, 667.66628pt x 338.09306pt>
+<./chap1/images/co2_2k_ce.pdf, id=396, 667.66628pt x 338.09306pt>
 File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
 <use ./chap1/images/co2_2k_ce.pdf>
-Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 246.
-(pdftex.def)             Requested size: 455.24411pt x 230.52446pt.
+Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 248.
+(pdftex.def)             Requested size: 460.93457pt x 233.40828pt.
 ! Undefined control sequence.
 <argument> ...ease that started in the late 18\up 
                                                   {th} century. Data can be ...
-l.247 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+l.249 ...e: \url{https://keelingcurve.ucsd.edu/}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3503,15 +2996,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no π in font lmsy10!
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 247.
+(Font)              scaled to size 7.0pt on input line 249.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 247.
+(Font)              scaled to size 5.0pt on input line 249.
 ! Undefined control sequence.
 <argument> ...ease that started in the late 18\up 
                                                   {th} century. Data can be ...
-l.247 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+l.249 ...e: \url{https://keelingcurve.ucsd.edu/}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3522,7 +3014,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ease that started in the late 18\up 
                                                   {th} century. Data can be ...
-l.247 ...e: \url{https://keelingcurve.ucsd.edu/}.}
+l.249 ...e: \url{https://keelingcurve.ucsd.edu/}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3533,12 +3025,11 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 253.
+Package cleveref Info: loaded `english' language definitions on input line 255.
 
 [10]
-Missing character: There is no π in font lmsy10!
 ! Undefined control sequence.
-l.262 ...use of coal since the middle of the 19\up
+l.264 ...use of coal since the middle of the 19\up
                                                   {th} century, has been joi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3547,7 +3038,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.262 ...ent of oil in the first half of the 20\up
+l.264 ...ent of oil in the first half of the 20\up
                                                   {th} century. Simultaneous...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3555,170 +3046,79 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 267.
+Package cleveref Info: loaded `english' language definitions on input line 266.
 
 [11 <./chap1/images/co2_2k_ce.pdf>]
-<./chap1/images/world_energy_consumption.png, id=447, 3770.085pt x 1067.99pt>
+<./chap1/images/world_energy_consumption.png, id=454, 3770.085pt x 1067.99pt>
 File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
 <use ./chap1/images/world_energy_consumption.png>
 Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
-nput line 270.
-(pdftex.def)             Requested size: 455.24411pt x 128.95178pt.
-
-Missing character: There is no π in font lmsy10!
+nput line 273.
+(pdftex.def)             Requested size: 460.93457pt x 130.56511pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 271.
-Missing character: There is no π in font lmsy10!
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=452, 2133.9725pt x 1352.0
+(Font)              scaled to size 10.0pt on input line 274.
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=459, 2133.9725pt x 1352.0
 5125pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png  used
- on input line 282.
-(pdftex.def)             Requested size: 455.24411pt x 288.43661pt.
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 12 undefined on input line 283.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 12 undefined on input line 283.
+ on input line 285.
+(pdftex.def)             Requested size: 460.93457pt x 292.02634pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 297.
-Missing character: There is no π in font lmsy9!
-Package cleveref Info: loaded `english' language definitions on input line 298.
+Package cleveref Info: loaded `english' language definitions on input line 293.
 
 [12 <./chap1/images/world_energy_consumption.png>]
-Package cleveref Info: loaded `english' language definitions on input line 309.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 300.
+Package cleveref Info: loaded `english' language definitions on input line 312.
 
  [13 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>]
-<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=469, 1973.3725pt x 1060.96375pt
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=478, 1973.3725pt x 1060.96375pt
 >
 File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png  used on in
-put line 317.
-(pdftex.def)             Requested size: 455.24411pt x 244.74503pt.
+put line 320.
+(pdftex.def)             Requested size: 460.93457pt x 247.80475pt.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 318.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 14 undefined on input line 318.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 14 undefined on input line 318.
+(Font)              scaled to size 10.0pt on input line 321.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:projection_scenarios' on page 14 undefined on inp
-ut line 322.
-
-Missing character: There is no π in font lmsy10!
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=471, 2134.97626pt x 2247.39626
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=483, 2134.97626pt x 2247.39626
 pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png  used on i
-nput line 329.
-(pdftex.def)             Requested size: 455.24411pt x 479.20285pt.
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 14 undefined on input line 330.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 14 undefined on input line 330.
-
+nput line 332.
+(pdftex.def)             Requested size: 460.93457pt x 485.20404pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 340.
-
-[14]
 Package cleveref Info: loaded `english' language definitions on input line 344.
 
+[14]
+Package cleveref Info: loaded `english' language definitions on input line 347.
+
  [15 <./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>]
+Package cleveref Info: loaded `english' language definitions on input line 389.
 
-! LaTeX Error: There's no line here to end.
+ [16]
+Package cleveref Info: loaded `english' language definitions on input line 406.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.347 B
-       eyond the climate projections produced by the global climate models (...
+ [17]
+Package cleveref Info: loaded `english' language definitions on input line 406.
 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.350 #
-       ##TODO### biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.350 ##
-        #TODO### biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.350 ###
-         TODO### biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.350 ###TODO#
-              ## biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.350 ###TODO##
-               # biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.350 ###TODO###
-                 biblio + redac
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Package cleveref Info: loaded `english' language definitions on input line 372.
-
-[16]
-Package cleveref Info: loaded `english' language definitions on input line 372.
-
- [17 <./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png (PNG copy)>]
+ [18 <./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 374.
+(Font)              scaled to size 9.0pt on input line 408.
 
 ! Undefined control sequence.
-l.389 ...-1864), sometime considered as the \texit
+l.427 ...-1864), sometime considered as the \texit
                                                   {"Godfather of clouds"} fo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3726,13 +3126,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Package cleveref Info: loaded `english' language definitions on input line 435.
 
-LaTeX Warning: Citation 'howard_lxiv_1803' on page 18 undefined on input line 3
-89.
-
-Package cleveref Info: loaded `english' language definitions on input line 400.
-
-[18
+[19
 
 ]
 
@@ -3742,7 +3138,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 ...phics[width=1\textwidth]{./chap1/images/}
+l.462 ...phics[width=1\textwidth]{./chap1/images/}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -3750,238 +3146,168 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'chalon_combien_2014' on page 19 undefined on input lin
-e 436.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 437.
 
-[19]
+LaTeX Warning: Citation 'chalon_combien_2014' on page 20 undefined on input lin
+e 475.
 
-LaTeX Warning: Reference `fig:CRE' on page 20 undefined on input line 458.
-
-Package cleveref Info: loaded `english' language definitions on input line 459.
+Package cleveref Info: loaded `english' language definitions on input line 476.
 
 [20]
-! You can't use `macro parameter character #' in vertical mode.
-l.461     #
-           ##TODO### schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Package cleveref Info: loaded `english' language definitions on input line 493.
 
-! You can't use `macro parameter character #' in vertical mode.
-l.461     ##
-            #TODO### schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+ [21]
+Package cleveref Info: loaded `english' language definitions on input line 541.
 
-! You can't use `macro parameter character #' in vertical mode.
-l.461     ###
-             TODO### schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+ [22]
+Package cleveref Info: loaded `english' language definitions on input line 590.
 
-! You can't use `macro parameter character #' in horizontal mode.
-l.461     ###TODO#
-                  ## schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.461     ###TODO##
-                   # schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.461     ###TODO###
-                     schematic of CRE and some orders of magnitude
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no œ in font lmsy10!
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no Æ in font lmsy10!
-Missing character: There is no ù in font lmsy10!
-Missing character: There is no œ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 507.
-
-[21]
-Missing character: There is no œ in font lmsy10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no π in font lmsy9!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ù in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 557.
-
-[22]
-<./chap1/images/stability.png, id=548, 779.0706pt x 411.939pt>
+ [23]
+<./chap1/images/stability.png, id=589, 779.0706pt x 411.939pt>
 File: ./chap1/images/stability.png Graphic file (type png)
 <use ./chap1/images/stability.png>
-Package pdftex.def Info: ./chap1/images/stability.png  used on input line 562.
-(pdftex.def)             Requested size: 455.24411pt x 240.7099pt.
-Package cleveref Info: loaded `english' language definitions on input line 582.
+Package pdftex.def Info: ./chap1/images/stability.png  used on input line 595.
+(pdftex.def)             Requested size: 460.93457pt x 243.72073pt.
+Package cleveref Info: loaded `english' language definitions on input line 615.
 
- [23 <./chap1/images/stability.png>]
-
-LaTeX Warning: Citation 'Seinfeld_atmospheric_1998' on page 24 undefined on inp
-ut line 583.
-
-
-LaTeX Warning: Reference `sec:aerosol_definition' on page 24 undefined on input
- line 585.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.588 #
-       ##TODO### paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.588 ##
-        #TODO### paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.588 ###
-         TODO### paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.588 ###TODO#
-              ## paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.588 ###TODO##
-               # paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.588 ###TODO###
-                 paragraph about the impacts of cloud phase
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-<./chap1/images/matus_cloud_frac.png, id=559, 1553.44pt x 420.48pt>
+ [24 <./chap1/images/stability.png>]
+<./chap1/images/matus_cloud_frac.png, id=602, 1553.44pt x 420.48pt>
 File: ./chap1/images/matus_cloud_frac.png Graphic file (type png)
 <use ./chap1/images/matus_cloud_frac.png>
 Package pdftex.def Info: ./chap1/images/matus_cloud_frac.png  used on input lin
-e 593.
-(pdftex.def)             Requested size: 455.24411pt x 123.22568pt.
+e 626.
+(pdftex.def)             Requested size: 460.93457pt x 124.76552pt.
 
-Package caption Warning: \label without proper reference on input line 600.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:growth_processes' on page 24 undefined on input l
-ine 605.
-
-
-Underfull \hbox (badness 5878) in paragraph at lines 620--620
+Underfull \hbox (badness 5878) in paragraph at lines 652--652
 []|\T1/ntxtlf/m/n/10.95 Collision^^Ucoalescence (liq-
  []
 
 
-Overfull \hbox (4.11792pt too wide) in paragraph at lines 629--629
+Overfull \hbox (4.11792pt too wide) in paragraph at lines 661--661
 []|\T1/ntxtlf/m/n/10.95 Wegener^^UBergeron^^UFindeisen
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 632.
+Package cleveref Info: loaded `english' language definitions on input line 665.
 
-[24 <./chap1/images/matus_cloud_frac.png>]
-Missing character: There is no œ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 659.
+[25 <./chap1/images/matus_cloud_frac.png>]
+Package cleveref Info: loaded `english' language definitions on input line 692.
 
-[25]
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no œ in font lmsy10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no π in font lmsy8!
-Missing character: There is no ∫ in font lmsy8!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 706.
+ [26]
+! Extra }, or forgotten $.
+l.707 ...to r^3$ favours growth when $|\Delta g_v}
+                                                  |$ is large enough. The ma...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-[26{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-<./chap1/images/hetero_nucleation.png, id=596, 1194.864pt x 372.4314pt>
+! You can't use `\eqno' in math mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+Things are pretty mixed up, but I think the worst is over.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Too many }'s.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.717 ...igma_i$ in \si{J m^{-2}}, $\Delta g_{v}}$
+                                                   in \si{J m^{-3}} and $r_c...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra }, or forgotten $.
+l.726        The expression of $\Delta g_{v}}
+                                             $ varies whether the phase tran...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Package cleveref Info: loaded `english' language definitions on input line 739.
+
+[27{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+! Extra }, or forgotten $.
+l.741 ...ccount in order to express $\Delta g_v,l}
+                                                  $:
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<./chap1/images/hetero_nucleation.png, id=642, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
 Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
-ne 723.
-(pdftex.def)             Requested size: 455.24411pt x 141.89478pt.
-Missing character: There is no π in font lmsy10!
-Missing character: There is no π in font lmsy10!
-LaTeX Font Info:    Font shape `TS1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 729.
+ne 756.
+(pdftex.def)             Requested size: 460.93457pt x 143.66782pt.
+Package cleveref Info: loaded `english' language definitions on input line 767.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.730         I
-               t is common to consider the temperature condition for homogen...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package cleveref Info: loaded `english' language definitions on input line 734.
-
-[27 <./chap1/images/hetero_nucleation.png>]
-
-LaTeX Warning: Reference `sec:INP_types' on page 28 undefined on input line 736
-.
-
-<./chap1/images/homogeneous_nucleation_rate.png, id=614, 578.16pt x 361.35pt>
+[28 <./chap1/images/hetero_nucleation.png>]
+<./chap1/images/homogeneous_nucleation_rate.png, id=658, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
-n input line 739.
-(pdftex.def)             Requested size: 227.62206pt x 142.26025pt.
-Missing character: There is no π in font lmsy10!
+n input line 773.
+(pdftex.def)             Requested size: 322.65279pt x 201.65437pt.
+
 ! Undefined control sequence.
-l.745 ...nt studies have tried to take this \texit
+l.779 ...nt studies have tried to take this \texit
                                                   {active sites} approach in...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3989,256 +3315,83 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Package cleveref Info: loaded `english' language definitions on input line 802.
 
-LaTeX Warning: Citation 'kanji_heterogeneous_2013' on page 28 undefined on inpu
-t line 745.
+[29 <./chap1/images/homogeneous_nucleation_rate.png>]
+Package cleveref Info: loaded `english' language definitions on input line 825.
 
-Missing character: There is no π in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 771.
-
-[28 <./chap1/images/homogeneous_nucleation_rate.png>]
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 792.
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 802--802
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 
  []
 
 
-LaTeX Warning: Reference `' on page 30 undefined on input line 802.
+LaTeX Warning: Reference `' on page 31 undefined on input line 835.
 
+Package cleveref Info: loaded `english' language definitions on input line 866.
 
-LaTeX Warning: Reference `fig:aerosols_effects' on page 30 undefined on input l
-ine 832.
-
-Package cleveref Info: loaded `english' language definitions on input line 836.
-
-[30]
-<./chap1/images/aerosols_effects.jpg, id=669, 1282.7925pt x 542.025pt>
+[31]
+<./chap1/images/aerosols_effects.jpg, id=716, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
-e 841.
-(pdftex.def)             Requested size: 455.24411pt x 192.34991pt.
+e 874.
+(pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
 
 
-LaTeX Warning: Citation 'ipcc_AR3_2007' on page 31 undefined on input line 842.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 32 undefined on input line 875.
 
 
 
-LaTeX Warning: Citation 'ipcc_AR3_2007' on page 31 undefined on input line 842.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 32 undefined on input line 875.
 
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=670, 841.1425pt x 81
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=717, 841.1425pt x 81
 3.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png 
- used on input line 850.
-(pdftex.def)             Requested size: 182.09486pt x 176.00302pt.
-Missing character: There is no π in font lmsy10!
+ used on input line 884.
+(pdftex.def)             Requested size: 230.46729pt x 222.761pt.
 
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 31 undefined on input line 851.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 893.
+
+[32 <./chap1/images/aerosols_effects.jpg>]
+Package cleveref Info: loaded `english' language definitions on input line 910.
+
+ [33 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
+<./chap1/images/nuages/seasprays_pic.png, id=738, 1733.47626pt x 970.62625pt>
+File: ./chap1/images/nuages/seasprays_pic.png Graphic file (type png)
+<use ./chap1/images/nuages/seasprays_pic.png>
+Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic.png  used on input
+ line 918.
+(pdftex.def)             Requested size: 460.93457pt x 258.08855pt.
+Package cleveref Info: loaded `english' language definitions on input line 925.
+
+ [34 <./chap1/images/nuages/seasprays_pic.png>]
+Package cleveref Info: loaded `english' language definitions on input line 948.
 
 
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 31 undefined on input line 851.
+[35]
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=767, 1179.2055pt x 858.5676pt>
+File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
+<use ./chap1/images/Ninp_cycle_Utqiagvik.png>
+Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
+ line 968.
+(pdftex.def)             Requested size: 460.93457pt x 335.59985pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Missing character: There is no π in font lmsy10!
+Package cleveref Info: loaded `english' language definitions on input line 978.
 
-! LaTeX Error: Unicode character ‚Åª (U+207B)
-               not set up for use with LaTeX.
+[36]
+Package cleveref Info: loaded `english' language definitions on input line 997.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856 ...is negative, about $-1.3$ \unit{W m‚Åª¬≤}
-                                                  , with an important uncert...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-Package textcomp Info: Symbol \texttwosuperior not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 856.
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-
-! LaTeX Error: Unicode character ‚Åª (U+207B)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856 ... uncertainty of $\pm 0.8$ \unit{W m‚Åª¬≤}
-                                                  . The latter is mainly due...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-Package textcomp Info: Symbol \texttwosuperior not provided by
-(textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 856.
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-
-LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 856.
-
-
-Package cleveref Info: loaded `english' language definitions on input line 859.
-
-[31 <./chap1/images/aerosols_effects.jpg>]
-! You can't use `macro parameter character #' in vertical mode.
-l.873     #
-           ##TODO###  enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.873     ##
-            #TODO###  enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.873     ###
-             TODO###  enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.873     ###TODO#
-                  ##  enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.873     ###TODO##
-                   #  enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.873     ###TODO###
-                      enrich and add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Citation 'Hartmann2021' on page 32 undefined on input line 875.
-
-Package cleveref Info: loaded `english' language definitions on input line 879.
-
-[32 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
-
-LaTeX Warning: Citation 'creamean_thawing_2020' on page 33 undefined on input l
-ine 885.
-
-Package cleveref Info: loaded `english' language definitions on input line 891.
-
-[33]
-! You can't use `macro parameter character #' in vertical mode.
-l.900     #
-           ##TODO###  add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.900     ##
-            #TODO###  add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.900     ###
-             TODO###  add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.900     ###TODO#
-                  ##  add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.900     ###TODO##
-                   #  add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.900     ###TODO###
-                      add references
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no º in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 924.
-
-[34]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=710, 1179.2055pt x 858.5676pt>
-File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
-<use ./chap1/images/Ninp_cycle_Utqiagvik.png>
-Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
- line 927.
-(pdftex.def)             Requested size: 455.24411pt x 331.46004pt.
-Package cleveref Info: loaded `english' language definitions on input line 937.
-
- [35 <./chap1/images/Ninp_cycle_Utqiagvik.png>]
-
-LaTeX Warning: Reference `sec:observation_data' on page 36 undefined on input l
-ine 938.
-
+ [37 <./chap1/images/Ninp_cycle_Utqiagvik.png>]
 
 ! LaTeX Error: Command \ensuregreek unavailable in encoding T1.
 
@@ -4246,7 +3399,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.960 ...tic finds its roots in ancient Greek: ·ºÑ
+l.1001 ...ic finds its roots in ancient Greek: ·ºÑ
                                                   œÅŒ∫œÑŒøœÇ [√°rktos], whic...
 
 Your command was ignored.
@@ -4260,7 +3413,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.960 ...tic finds its roots in ancient Greek: ·ºÑ
+l.1001 ...ic finds its roots in ancient Greek: ·ºÑ
                                                   œÅŒ∫œÑŒøœÇ [√°rktos], whic...
 
 Your command was ignored.
@@ -4268,11 +3421,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for LGR+ntxtlf on input lin
-e 960.
-LaTeX Font Info:    No file LGRntxtlf.fd. on input line 960.
+e 1001.
+LaTeX Font Info:    No file LGRntxtlf.fd. on input line 1001.
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 960.
+(Font)              using `LGR/cmr/m/n' instead on input line 1001.
 
 
 ! LaTeX Error: Command \textomicron unavailable in encoding T1.
@@ -4281,7 +3434,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.960 ...s its roots in ancient Greek: ·ºÑœÅŒ∫œÑŒø
+l.1001 ... its roots in ancient Greek: ·ºÑœÅŒ∫œÑŒø
                                                   œÇ [√°rktos], which means ...
 
 Your command was ignored.
@@ -4289,7 +3442,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.960 ...many exploratory expeditions in the 19\up
+l.1001 ...any exploratory expeditions in the 19\up
                                                   {th} century. As for the g...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4298,7 +3451,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.960 ...he advent of flying machines in the 20\up
+l.1001 ...e advent of flying machines in the 20\up
                                                   {th} century. Theses diffi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4306,49 +3459,44 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `sec:evidence_of_GW' on page 36 undefined on input lin
-e 964.
-
-Package cleveref Info: loaded `english' language definitions on input line 967.
-
-[36]
-<./chap1/images/arctic_map_upscaled.png, id=736, 3268.21pt x 3345.49875pt>
+<./chap1/images/arctic_map_upscaled.png, id=794, 3268.21pt x 3345.49875pt>
 File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
 <use ./chap1/images/arctic_map_upscaled.png>
 Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
-line 970.
-(pdftex.def)             Requested size: 273.14923pt x 279.59064pt.
-Package cleveref Info: loaded `english' language definitions on input line 993.
+line 1011.
+(pdftex.def)             Requested size: 276.56355pt x 283.0619pt.
 
- [37 <./chap1/images/arctic_map_upscaled.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Citation 'rantanen_arctic_2022' on page 38 undefined on input li
-ne 1003.
+Package cleveref Info: loaded `english' language definitions on input line 1029
+.
+[38]
+Package cleveref Info: loaded `english' language definitions on input line 1042
+.
+ [39 <./chap1/images/arctic_map_upscaled.png>]
 
-<./chap1/images/arctic_ampli.png, id=751, 565.1514pt x 349.7868pt>
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 40 undefined on input li
+ne 1044.
+
+<./chap1/images/arctic_ampli.png, id=817, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
 Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
-08.
-(pdftex.def)             Requested size: 455.24411pt x 281.7726pt.
-Missing character: There is no π in font lmsy10!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package cleveref Info: loaded `english' language definitions on input line 1019
+49.
+(pdftex.def)             Requested size: 460.93457pt x 285.29523pt.
+Package cleveref Info: loaded `english' language definitions on input line 1056
 .
-[38]
-<./chap1/images/SLP_AO.png, id=770, 849.1725pt x 676.5275pt>
+[40 <./chap1/images/arctic_ampli.png>]
+<./chap1/images/SLP_AO.png, id=835, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
-Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1021.
-(pdftex.def)             Requested size: 182.09486pt x 145.06862pt.
+Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1063.
+(pdftex.def)             Requested size: 230.46729pt x 183.60425pt.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1022 ...icus_climate_change_service_era5_2017}.}
+l.1064 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4357,13 +3505,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 3
-9 undefined on input line 1022.
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
+1 undefined on input line 1064.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1022 ...icus_climate_change_service_era5_2017}.}
+l.1064 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4372,232 +3520,54 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 3
-9 undefined on input line 1022.
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
+1 undefined on input line 1064.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `sec:deposition_processes' on page 41 undefined on inp
+ut line 1079.
 
-
-LaTeX Warning: Reference `sec:deposition' on page 39 undefined on input line 10
-37.
-
-Package cleveref Info: loaded `english' language definitions on input line 1039
+Package cleveref Info: loaded `english' language definitions on input line 1080
 .
-[39 <./chap1/images/arctic_ampli.png>]
-<./chap1/images/AA_feedbacks.png, id=786, 489.5088pt x 206.2104pt>
+[41 <./chap1/images/SLP_AO.png>]
+<./chap1/images/AA_feedbacks.png, id=851, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 10
-45.
-(pdftex.def)             Requested size: 455.24411pt x 191.77682pt.
-
-! Undefined control sequence.
-<argument> ...se of a surface warming of $\DeltaT 
-                                                  _{surf}$, a negative buoya...
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...tmosphere, and the warming $\DeltaT 
-                                                  _{TOA}$ at the tropopause ...
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \DeltaT 
-                        
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \DeltaT 
-                        
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \DeltaT 
-                        
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \DeltaT 
-                        
-l.1046 ...aT_{TOA}$ at the tropopause is minimal.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+87.
+(pdftex.def)             Requested size: 460.93457pt x 194.17447pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:warming_on_clouds' on page 42 undefined on input 
+line 1093.
 
-
-LaTeX Warning: Reference `fig:warming_on_clouds' on page 40 undefined on input 
-line 1051.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1055     #
-            ##TODO###  introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1055     ##
-             #TODO###  introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1055     ###
-              TODO###  introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1055     ###TODO#
-                   ##  introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1055     ###TODO##
-                    #  introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1055     ###TODO###
-                       introduce an opening question we want to address in t...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Package cleveref Info: loaded `english' language definitions on input line 1060
+Package cleveref Info: loaded `english' language definitions on input line 1096
 .
-[40 <./chap1/images/SLP_AO.png>]
-
-LaTeX Warning: Reference `fig:arctic_map_upscaled' on page 41 undefined on inpu
-t line 1065.
-
-Missing character: There is no π in font lmsy10!
-
-LaTeX Warning: Reference `fig:matus_cloud_frac' on page 41 undefined on input l
-ine 1071.
-
-<./chap1/images/matus_CRE.png, id=802, 1635.2pt x 411.72pt>
+[42 <./chap1/images/AA_feedbacks.png>]
+<./chap1/images/matus_CRE.png, id=868, 1635.2pt x 411.72pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
-Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1080.
+Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1122.
 
-(pdftex.def)             Requested size: 455.24411pt x 114.62117pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1088 #
-        ##TODO### write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1088 ##
-         #TODO### write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in vertical mode.
-l.1088 ###
-          TODO### write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1088 ###TODO#
-               ## write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1088 ###TODO##
-                # write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.1088 ###TODO###
-                  write this section
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Package cleveref Info: loaded `english' language definitions on input line 1093
+(pdftex.def)             Requested size: 460.93457pt x 116.05353pt.
+Package cleveref Info: loaded `english' language definitions on input line 1148
 .
-[41 <./chap1/images/AA_feedbacks.png>]
-Package cleveref Info: loaded `english' language definitions on input line 1122
-.
- [42 <./chap1/images/matus_CRE.png>]
-<./chap1/images/mixed-phase-clouds.png, id=824, 324.7332pt x 316.3017pt>
+ [43 <./chap1/images/matus_CRE.png>]
+<./chap1/images/mixed-phase-clouds.png, id=885, 324.7332pt x 316.3017pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
-ine 1148.
-(pdftex.def)             Requested size: 273.14923pt x 266.06807pt.
+ine 1190.
+(pdftex.def)             Requested size: 230.46729pt x 224.48889pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 Package cleveref Info: loaded `english' language definitions on input line 48.
-
-[43 <./chap1/images/mixed-phase-clouds.png>]
+ [44]
+Package cleveref Info: loaded `english' language definitions on input line 48.
+ [45 <./chap1/images/mixed-phase-clouds.png>]
 \openout2 = `chap2/chap2_main.aux'.
 
  (./chap2/chap2_main.tex
@@ -4621,48 +3591,36 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 6--6
 | [] []
  []
 
-Missing character: There is no π in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 14.
-[44
+[46
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
+) [47]
 
-Missing character: There is no π in font lmsy10!
-) [45]
-
-LaTeX Warning: Reference `sec:flexpart' on page 46 undefined on input line 54.
+LaTeX Warning: Reference `sec:flexpart' on page 48 undefined on input line 54.
 
 
-LaTeX Warning: Citation 'skamarock_description_2008' on page 46 undefined on in
-put line 59.
+LaTeX Warning: Reference `sec:flexpart' on page 48 undefined on input line 62.
 
-Package cleveref Info: loaded `english' language definitions on input line 62.
-[46]
-
-LaTeX Warning: Reference `sec:flexpart' on page 47 undefined on input line 62.
-
-
-Overfull \hbox (24.99261pt too wide) in paragraph at lines 67--78
+Package cleveref Info: loaded `english' language definitions on input line 64.
+[48]
+Overfull \hbox (19.30215pt too wide) in paragraph at lines 67--78
  [][] 
  []
 
 
-LaTeX Warning: Citation 'marelle_aerosol_2025' on page 47 undefined on input li
-ne 88.
-
-
-LaTeX Warning: Citation 'ahmed_modelling_2023' on page 47 undefined on input li
+LaTeX Warning: Citation 'ahmed_modelling_2023' on page 49 undefined on input li
 ne 88.
 
 Package cleveref Info: loaded `english' language definitions on input line 107.
 
-[47])
+[49])
 Package cleveref Info: loaded `english' language definitions on input line 49.
- [48]
+ [50]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -4677,7 +3635,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[49
+[51
 
 
 
@@ -4686,7 +3644,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 29.
- [50]
+ [52]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\citep' on input line 58.
@@ -4704,16 +3662,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 58.
 
 
-LaTeX Warning: Citation 'rantanen_he_2022' on page 51 undefined on input line 6
-4.
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 53 undefined on input li
+ne 64.
+
+
+Overfull \hbox (2.29228pt too wide) in paragraph at lines 64--67
+\T1/ntxtlf/m/n/10.95 The warm-ing rate of the Arc-tic is al-most 4 times higher
+ than the global av-er-age rate ([]).
+ []
 
 Package cleveref Info: loaded `english' language definitions on input line 69.
-[51]
-Package cleveref Info: loaded `english' language definitions on input line 89.
- [52]
-Package cleveref Info: loaded `english' language definitions on input line 108.
+[53]
+Package cleveref Info: loaded `english' language definitions on input line 90.
+ [54]
+Package cleveref Info: loaded `english' language definitions on input line 109.
 
- [53]
+ [55]
 ! Undefined control sequence.
 l.114         \subsubsubsection
                                {Model setup}
@@ -4722,17 +3686,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation 'lapere_modelling_2024' on page 54 undefined on input l
-ine 117.
-
-
-Overfull \hbox (5.52316pt too wide) in paragraph at lines 119--123
-\T1/ntxtlf/m/n/10.95 Cen-ter for En-vi-ron-men-tal Pre-dic-tion, with 6h time s
-teps. The sim-u-la-tion is run on a $\OT1/lmr/m/n/10.95 10 000$$[]$$\OMS/lmsy/m
-/n/10.95 ^^B$$\OT1/lmr/m/n/10.95 10 000$$[]$
- []
 
 ! Undefined control sequence.
 l.147         \subsubsubsection
@@ -4799,15 +3752,15 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 183.
 
-[54]
-<./chap3/images/f01.png, id=1069, 1038.7608pt x 715.473pt>
+[56]
+<./chap3/images/f01.png, id=1138, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 185.
-(pdftex.def)             Requested size: 455.24411pt x 313.55362pt.
-Package cleveref Info: loaded `english' language definitions on input line 196.
+(pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
+Package cleveref Info: loaded `english' language definitions on input line 197.
 
- [55 <./chap3/images/f01.png>]
+ [57 <./chap3/images/f01.png>]
 ! Undefined control sequence.
 l.221         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -4819,7 +3772,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 231.
 
-[56]
+[58]
 ! Undefined control sequence.
 l.236                 \tophline
                                
@@ -4865,30 +3818,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--248
 [][]
  []
 
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 273.
+Package cleveref Info: loaded `english' language definitions on input line 277.
 
-[57]
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no Õ in font lmex10!
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Missing character: There is no ù in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 313.
+[59]
+Package cleveref Info: loaded `english' language definitions on input line 315.
 
-[58]
+ [60]
 ! Undefined control sequence.
 l.330                 \tophline
                                
@@ -4920,46 +3855,37 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 361.
-
-[59]
-<./chap3/images/f02.png, id=1146, 742.6947pt x 457.71pt>
+<./chap3/images/f02.png, id=1205, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
 Package pdftex.def Info: ./chap3/images/f02.png  used on input line 363.
-(pdftex.def)             Requested size: 455.24411pt x 280.5576pt.
+(pdftex.def)             Requested size: 460.93457pt x 284.06361pt.
+Package cleveref Info: loaded `english' language definitions on input line 366.
 
-Missing character: There is no π in font lmsy10!
+[61]
 Package cleveref Info: loaded `english' language definitions on input line 387.
 
-[60 <./chap3/images/f02.png>]
-Missing character: There is no π in font lmsy10!
-<./chap3/images/f03.png, id=1167, 1038.7608pt x 715.473pt>
+ [62 <./chap3/images/f02.png>]
+<./chap3/images/f03.png, id=1235, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
 Package pdftex.def Info: ./chap3/images/f03.png  used on input line 409.
-(pdftex.def)             Requested size: 455.24411pt x 313.55362pt.
-Missing character: There is no π in font lmsy10!
+(pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Missing character: There is no π in font lmsy10!
 Package cleveref Info: loaded `english' language definitions on input line 425.
 
-[61]
-Missing character: There is no π in font lmsy10!
-Missing character: There is no ∫ in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 433.
+[63]
+Package cleveref Info: loaded `english' language definitions on input line 440.
 
-[62 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=1193, 1115.6079pt x 832.0686pt>
+ [64 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=1263, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
 Package pdftex.def Info: ./chap3/images/f04.png  used on input line 450.
-(pdftex.def)             Requested size: 455.24411pt x 339.5379pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(pdftex.def)             Requested size: 460.93457pt x 343.77847pt.
 
 ! Undefined control sequence.
 l.456         \hack
@@ -5012,12 +3938,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 473.
 
-[63]
-Package cleveref Info: loaded `english' language definitions on input line 491.
+[65 <./chap3/images/f04.png>]
+Package cleveref Info: loaded `english' language definitions on input line 496.
 
- [64 <./chap3/images/f04.png>]
-Missing character: There is no π in font lmsy10!
-Missing character: There is no π in font lmsy10!
+ [66]
 ! Undefined control sequence.
 l.501                 \tophline
                                
@@ -5058,9 +3982,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 526.
 
-[65]
+Underfull \hbox (badness 2253) in paragraph at lines 500--511
+[][] \T1/ntxtlf/m/n/10.95 The val-ues are
+ []
+
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -5072,17 +3998,17 @@ l.533         \begin{figure*}[n]
                                 
 Option `n' ignored and `p' used.
 
-<./chap3/images/f05.png, id=1224, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=1288, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
 Package pdftex.def Info: ./chap3/images/f05.png  used on input line 534.
-(pdftex.def)             Requested size: 455.24411pt x 346.01105pt.
-Package cleveref Info: loaded `english' language definitions on input line 563.
+(pdftex.def)             Requested size: 460.93457pt x 350.33556pt.
+Package cleveref Info: loaded `english' language definitions on input line 545.
 
-[66]
-Package cleveref Info: loaded `english' language definitions on input line 563.
+[67]
+Package cleveref Info: loaded `english' language definitions on input line 545.
 
- [67 <./chap3/images/f05.png>]
+ [68 <./chap3/images/f05.png>]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -5094,26 +4020,25 @@ l.564     \begin{figure*}[n]
                             
 Option `n' ignored and `p' used.
 
-<./chap3/images/f06.png, id=1250, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=1311, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
 Package pdftex.def Info: ./chap3/images/f06.png  used on input line 565.
-(pdftex.def)             Requested size: 455.24411pt x 277.05858pt.
-Missing character: There is no π in font lmsy10!
-Package cleveref Info: loaded `english' language definitions on input line 600.
+(pdftex.def)             Requested size: 460.93457pt x 280.52269pt.
+Package cleveref Info: loaded `english' language definitions on input line 587.
 
-[68]
-Package cleveref Info: loaded `english' language definitions on input line 600.
+[69]
+Package cleveref Info: loaded `english' language definitions on input line 587.
 
- [69 <./chap3/images/f06.png>]
-Missing character: There is no π in font lmsy10!
-<./chap3/images/f07.png, id=1274, 722.7pt x 505.89pt>
+ [70 <./chap3/images/f06.png>]
+Package cleveref Info: loaded `english' language definitions on input line 620.
+
+ [71]
+<./chap3/images/f07.png, id=1344, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
 Package pdftex.def Info: ./chap3/images/f07.png  used on input line 623.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! Undefined control sequence.
 l.628 \hack
@@ -5126,39 +4051,33 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 628.
 
-[70]
-<./chap3/images/f08.png, id=1287, 734.2632pt x 477.9456pt>
+[72 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=1356, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
 Package pdftex.def Info: ./chap3/images/f08.png  used on input line 649.
 (pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package cleveref Info: loaded `english' language definitions on input line 661.
 
-[71 <./chap3/images/f07.png>]
-<./chap3/images/f09.png, id=1309, 377.7312pt x 720.7728pt>
+ [73 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=1379, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
 Package pdftex.def Info: ./chap3/images/f09.png  used on input line 673.
 (pdftex.def)             Requested size: 284.52756pt x 542.93185pt.
-Package cleveref Info: loaded `english' language definitions on input line 676.
 
- [72 <./chap3/images/f08.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 708.
+Package cleveref Info: loaded `english' language definitions on input line 694.
 
-[73]
-Package cleveref Info: loaded `english' language definitions on input line 732.
-
- [74]
-Package cleveref Info: loaded `english' language definitions on input line 758.
+[74]
+Package cleveref Info: loaded `english' language definitions on input line 723.
 
  [75]
+Package cleveref Info: loaded `english' language definitions on input line 747.
+
+ [76]
 ! Undefined control sequence.
 l.763 \hack
            {\clearpage}
@@ -5170,10 +4089,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 763.
 
-[76]
+[77]
 Package cleveref Info: loaded `english' language definitions on input line 763.
 
- [77 <./chap3/images/f09.png>]
+ [78 <./chap3/images/f09.png>]
 
 Package hyperref Warning: Suppressing empty link on input line 806.
 
@@ -5188,7 +4107,7 @@ look up `weird error' in the index to The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 50.
- [78
+ [79
 
 
 ! Undefined control sequence.
@@ -5217,16 +4136,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[79
-
-
-
-
-] (./main.ptc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 25.
-
+Package cleveref Info: loaded `english' language definitions on input line 13.
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 25.11508pt, for example:
@@ -5235,7 +4145,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[80]
+[80
+
+
+
+
+] (./main.ptc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+) [81]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -5247,7 +4164,16 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 51.
- [81]
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[82]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -5257,24 +4183,15 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 15.
-
-Package fancyhdr Warning: \headheight is too small (17.07164pt): 
-(fancyhdr)                Make it at least 25.08223pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.08223pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
-
-[82
+[83
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [83])
-Package cleveref Info: loaded `english' language definitions on input line 52.
+)
+Package cleveref Info: loaded `english' language definitions on input line 27.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -5284,7 +4201,9 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[84]
+[84])
+Package cleveref Info: loaded `english' language definitions on input line 52.
+ [85]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -5313,16 +4232,15 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[85
+Package cleveref Info: loaded `english' language definitions on input line 11.
+[86
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 23.
- [86])
+) [87])
 \openout2 = `annexes/future_of_research.aux'.
 
  (./annexes/future_of_research.tex
@@ -5333,20 +4251,20 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-LaTeX Warning: Reference `sec:implication_sciencesl' on page 87 undefined on in
+LaTeX Warning: Reference `sec:implication_sciencesl' on page 88 undefined on in
 put line 4.
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 25.
 Package cleveref Info: loaded `english' language definitions on input line 26.
-[87
+[88
 
 
 
 
 ])
 Package cleveref Info: loaded `english' language definitions on input line 61.
- [88]
+ [89]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
@@ -5406,7 +4324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 31.
-[89
+[90
 
 
 
@@ -5437,7 +4355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--67
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[90]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 76--88
 
  []
@@ -5484,48 +4402,21 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [91] (./main.lof
+ [92] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 92 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 92 undefined on input line 10.
-
-
-Overfull \hbox (49.28336pt too wide) in paragraph at lines 10--10
- \T1/ntxtlf/m/n/10.95 mate change im-pacts. Graph-ics from [].[][] []  
- []
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 92 undefined on input line 11.
-
-
-Overfull \hbox (60.68237pt too wide) in paragraph at lines 11--11
- \T1/ntxtlf/m/n/10.95 warm-ing con-se-quences. Graph-ics from [].[][] []  
- []
-
 Package cleveref Info: loaded `english' language definitions on input line 15.
-[92
+ [93
 
 
 
 ]
 
-LaTeX Warning: Citation 'ipcc_AR3_2007' on page 93 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'intergovernemental_panel_on_climate_change_climate_202
-3' on page 93 undefined on input line 18.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 94 undefined on input line 17.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.22 ...rvice_era5_2017}.}}{40}{figure.caption.22}
+l.23 ...rvice_era5_2017}.}}{41}{figure.caption.23}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5535,18 +4426,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 9
-3 undefined on input line 22.
+4 undefined on input line 23.
 
-
-Overfull \hbox (1.82965pt too wide) in paragraph at lines 22--22
- \T1/ntxtlf/m/n/10.95 of the Arc-tic Os-cil-la-tion (AO). Data from [].[][] [] 
- 
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 25.
-[93]
-Package cleveref Info: loaded `english' language definitions on input line 36.
- [94])
+Package cleveref Info: loaded `english' language definitions on input line 26.
+[94]
+Package cleveref Info: loaded `english' language definitions on input line 37.
+ [95])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -5561,7 +4446,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 69.
-[95] (./main.lot
+[96] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -5578,29 +4463,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 80.
-[96
+[97
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 80.
 Package cleveref Info: loaded `english' language definitions on input line 80.
- [97
+ [98
 
 ]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [98]
 Package cleveref Info: loaded `english' language definitions on input line 80.
  [99]
 Package cleveref Info: loaded `english' language definitions on input line 80.
  [100]
+Package cleveref Info: loaded `english' language definitions on input line 80.
+ [101]
+Package cleveref Info: loaded `english' language definitions on input line 80.
+ [102]
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/ntxtlf/m/n' instead on input line 80.
 
 Package cleveref Info: loaded `english' language definitions on input line 80.
-[101]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [102]
+[103]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
@@ -5611,21 +4496,31 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 85.
-[103]
+[104] [105
+
+
+]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
-Missing character: There is no π in font lmsy10!
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.69997> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.5> on input line 85.
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 85.
+
 
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
-[104
-
-
-] (./main.aux
+[106] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/remerciements.aux) (./others/avantpropos.aux)
 (./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
@@ -5660,45 +4555,45 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59746 strings out of 475189
- 1183465 string characters out of 5763838
- 2246238 words of memory out of 5000000
- 79473 multiletter control sequences out of 15000+600000
- 737348 words of font info for 222 fonts, out of 8000000 for 9000
+ 57938 strings out of 475189
+ 1165721 string characters out of 5763838
+ 2273998 words of memory out of 5000000
+ 77693 multiletter control sequences out of 15000+600000
+ 720409 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,120p,4167b,3669s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,15n,120p,4167b,3665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn0900.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/lm/lmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
-mr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/te
-xmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
-mtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt9.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/font
-s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
-tmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (120 pages, 38464886 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn0900.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi
+9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy6
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/tex
+live/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2
+023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ne
+wtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (122 pages, 42200857 bytes).
 PDF statistics:
- 2482 PDF objects out of 2487 (max. 8388607)
- 2179 compressed objects within 22 object streams
- 436 named destinations out of 1000 (max. 500000)
- 776 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2584 PDF objects out of 2984 (max. 8388607)
+ 2272 compressed objects within 23 object streams
+ 454 named destinations out of 1000 (max. 500000)
+ 781 words of extra memory for PDF output out of 10000 (max. 10000000)
 

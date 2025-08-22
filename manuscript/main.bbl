@@ -356,6 +356,63 @@
       \verb https://www.editionsladecouverte.fr/or_noir-9782707167019
       \endverb
     \endentry
+    \entry{bar-on_biomass_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f968ad57029f4a60dfbd50872b8ee367}{%
+           family={Bar-On},
+           familyi={B\bibinithyphendelim O\bibinitperiod},
+           given={Yinon\bibnamedelima M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=db7f39acd822484a5ceba469cc4e3b88}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9fed56718464421f939e0b0d84997792}{%
+           family={Milo},
+           familyi={M\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4b1a2976db2205f862b80715b01fe55}
+      \strng{fullhash}{b84ff78005fbecc58c9c9daa7dd9dde1}
+      \strng{bibnamehash}{b84ff78005fbecc58c9c9daa7dd9dde1}
+      \strng{authorbibnamehash}{b84ff78005fbecc58c9c9daa7dd9dde1}
+      \strng{authornamehash}{f4b1a2976db2205f862b80715b01fe55}
+      \strng{authorfullhash}{b84ff78005fbecc58c9c9daa7dd9dde1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A census of the biomass on Earth is key for understanding the structure and dynamics of the biosphere. However, a global, quantitative view of how the biomass of different taxa compare with one another is still lacking. Here, we assemble the overall biomass composition of the biosphere, establishing a census of the ≈550 gigatons of carbon (Gt C) of biomass distributed among all of the kingdoms of life. We find that the kingdoms of life concentrate at different locations on the planet; plants (≈450 Gt C, the dominant kingdom) are primarily terrestrial, whereas animals (≈2 Gt C) are mainly marine, and bacteria (≈70 Gt C) and archaea (≈7 Gt C) are predominantly located in deep subsurface environments. We show that terrestrial biomass is about two orders of magnitude higher than marine biomass and estimate a total of ≈6 Gt C of marine biota, doubling the previous estimated quantity. Our analysis reveals that the global marine biomass pyramid contains more consumers than producers, thus increasing the scope of previous observations on inverse food pyramids. Finally, we highlight that the mass of humans is an order of magnitude higher than that of all wild mammals combined and report the historical impact of humanity on the global biomass of prominent taxa, including mammals, fish, and plants.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{6}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{25}
+      \field{title}{The biomass distribution on {Earth}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{6506\bibrangedash 6511}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1711842115
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/3W7GVUM6/Bar-On et al. - 2018 - The biomass distribution on Earth.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.1711842115
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.1711842115
+      \endverb
+    \endentry
     \entry{barahona_ice_2012}{article}{}
       \name{author}{1}{}{%
         {{hash=fa51e907bc822d3c8fe5ca3e35d4f641}{%
@@ -1163,6 +1220,86 @@
       \verb https://gmd.copernicus.org/articles/9/4029/2016/
       \endverb
     \endentry
+    \entry{chen_impact_2025}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c6649d02b24225ca4c9012cee6c790de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2f3ea981fa5a715a69118b48e576a9f5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6c1a2523f756af0f9ba51cb0bbb69f5b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0ba5704a12e1c310bdeac704abc7e64}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Zhendong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3a1ca720ee336fb3c35a619a09041ad8}{%
+           family={Jaegle},
+           familyi={J\bibinitperiod},
+           given={Lyatt},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a76848ebf53f3704eb938ae6acba0fe7}{%
+           family={Oman},
+           familyi={O\bibinitperiod},
+           given={Luke\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=75c037bc0ba8e8144f0ebe946cfde590}{%
+           family={Taha},
+           familyi={T\bibinitperiod},
+           given={Ghassan},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fcec9bb019a48f994cf390066d6aa604}
+      \strng{fullhash}{129e73f4600c0d54161bcfa815b4d493}
+      \strng{bibnamehash}{fcec9bb019a48f994cf390066d6aa604}
+      \strng{authorbibnamehash}{fcec9bb019a48f994cf390066d6aa604}
+      \strng{authornamehash}{fcec9bb019a48f994cf390066d6aa604}
+      \strng{authorfullhash}{129e73f4600c0d54161bcfa815b4d493}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The unprecedented water vapor amount (WV, 150–160 Tg) injected by the 2022 eruption of Hunga Tonga–Hunga Haʻapai not only directly cooled the stratosphere, but also facilitated the formation and growth of sulfate particles, indirectly heating it. Here, we developed analytical models constrained by satellite observations to quantify these contrasting roles of WV in stratospheric temperature perturbations. Our analysis revealed that condensation and nucleation processes facilitated by abundant WV accounted for {\textasciitilde}90\% of the observed particle radius growth, from 0.1–0.2 µm to 0.35–0.45 µm. Despite increased aerosol extinction due to particle growth, a cooling of up to −4 K was observed in the mid-stratosphere, persisting for over a year since February, with over 60\% attributed to WV radiative cooling. Conversely, in the lower stratosphere, {\textasciitilde}50\% of the observed 1–2 K warming was attributed to the radiative heating of large particles that formed in upper layers and settled down gravitationally.}
+      \field{issn}{2397-3722}
+      \field{journaltitle}{npj Climate and Atmospheric Science}
+      \field{month}{5}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{shorttitle}{Impact of water vapor on stratospheric temperature after the 2022 {Hunga} {Tonga} eruption}
+      \field{title}{Impact of water vapor on stratospheric temperature after the 2022 {Hunga} {Tonga} eruption: direct radiative cooling versus indirect warming by facilitating large particle formation}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{192}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41612-025-01056-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41612-025-01056-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41612-025-01056-2
+      \endverb
+      \keyw{Atmospheric chemistry,Attribution}
+    \endentry
     \entry{chylek_arctic_2009}{article}{}
       \name{author}{5}{}{%
         {{hash=c3db7ee0612428f0ac56a617a2a38006}{%
@@ -1427,6 +1564,74 @@
       \endverb
       \keyw{aerosol-cloud interactions,Arctic,Arctic aerosol,ice nucleation,phytoplankton bloom}
     \endentry
+    \entry{creamean_thawing_2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a776c887d23c918ee99e229b04ea7c18}{%
+           family={Creamean},
+           familyi={C\bibinitperiod},
+           given={Jessie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c653fa41b607fe95822849bb2aeb0134}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelimb C.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=246b5ddd629360f3fa98607eb5e575aa}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a81ea4516419867b7c2683e3f29cfb80}{%
+           family={Uetake},
+           familyi={U\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4314c1ad9e5fd3498fa71ffff35a6e5}{%
+           family={Kreidenweis},
+           familyi={K\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=819a48382944eb04731119e82f24531b}{%
+           family={Douglas},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3600959768e799924414436aa65f2a7c}
+      \strng{fullhash}{7cdc741c126c10eefdcaff3e7701c3d8}
+      \strng{bibnamehash}{7cdc741c126c10eefdcaff3e7701c3d8}
+      \strng{authorbibnamehash}{7cdc741c126c10eefdcaff3e7701c3d8}
+      \strng{authornamehash}{3600959768e799924414436aa65f2a7c}
+      \strng{authorfullhash}{7cdc741c126c10eefdcaff3e7701c3d8}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Research Letters}
+      \field{month}{8}
+      \field{note}{Publisher: IOP Publishing}
+      \field{number}{8}
+      \field{title}{Thawing permafrost: an overlooked source of seeds for {Arctic} cloud formation}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{084022}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-9326/ab87d3
+      \endverb
+      \verb{file}
+      \verb IOP Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/LEXBL8GU/Creamean et al. - 2020 - Thawing permafrost an overlooked source of seeds for Arctic cloud formation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1748-9326/ab87d3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1748-9326/ab87d3
+      \endverb
+    \endentry
     \entry{creamean_annual_2022}{article}{}
       \name{author}{16}{}{%
         {{hash=a776c887d23c918ee99e229b04ea7c18}{%
@@ -1519,7 +1724,7 @@
       \strng{authorbibnamehash}{3600959768e799924414436aa65f2a7c}
       \strng{authornamehash}{3600959768e799924414436aa65f2a7c}
       \strng{authorfullhash}{2abe3bb792d33f3bff751c72b0896bf1}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -2838,6 +3043,110 @@
       \endverb
       \keyw{Aerosols and particles,Air quality forecasting,Urban and regional air quality modeling,Urban and regional pollution}
     \endentry
+    \entry{hallmann_more_2017}{article}{}
+      \name{author}{12}{}{%
+        {{hash=ffe232443b1d16acd863a78bf5b7b7aa}{%
+           family={Hallmann},
+           familyi={H\bibinitperiod},
+           given={Caspar\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=62716e62c80d8c2eaad4e8d3010c6222}{%
+           family={Sorg},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3b5400b78edfe701580b37f82c05d0b0}{%
+           family={Jongejans},
+           familyi={J\bibinitperiod},
+           given={Eelke},
+           giveni={E\bibinitperiod}}}%
+        {{hash=afd4994aad923b54f5f85c1ffccc2a71}{%
+           family={Siepel},
+           familyi={S\bibinitperiod},
+           given={Henk},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ce6e1b258f60f3b5915fc1937a5f4d92}{%
+           family={Hofland},
+           familyi={H\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=463c2e615ea5c15eeab7935a52379499}{%
+           family={Schwan},
+           familyi={S\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8aa6de091ac364f6adefaa6dd5ed80a4}{%
+           family={Stenmans},
+           familyi={S\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b6cfa06c6d110548dbb088a1445563f5}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b0c952b9b355865b24d015c2ed773a2d}{%
+           family={Sumser},
+           familyi={S\bibinitperiod},
+           given={Hubert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bd0ff8c5c6328ed8bd16eb5ee32d28a8}{%
+           family={Hörren},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aa48da29619ce51faea7911d5d57faba}{%
+           family={Goulson},
+           familyi={G\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c5967b92d4f51a15da9936ee554749f9}{%
+           family={Kroon},
+           familyi={K\bibinitperiod},
+           given={Hans\bibnamedelima de},
+           giveni={H\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b0035eba86b8cac05b66f9ff12068b0a}
+      \strng{fullhash}{2990c4e9ff8326f954719da0868673eb}
+      \strng{bibnamehash}{b0035eba86b8cac05b66f9ff12068b0a}
+      \strng{authorbibnamehash}{b0035eba86b8cac05b66f9ff12068b0a}
+      \strng{authornamehash}{b0035eba86b8cac05b66f9ff12068b0a}
+      \strng{authorfullhash}{2990c4e9ff8326f954719da0868673eb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Global declines in insects have sparked wide interest among scientists, politicians, and the general public. Loss of insect diversity and abundance is expected to provoke cascading effects on food webs and to jeopardize ecosystem services. Our understanding of the extent and underlying causes of this decline is based on the abundance of single species or taxonomic groups only, rather than changes in insect biomass which is more relevant for ecological functioning. Here, we used a standardized protocol to measure total insect biomass using Malaise traps, deployed over 27 years in 63 nature protection areas in Germany (96 unique location-year combinations) to infer on the status and trend of local entomofauna. Our analysis estimates a seasonal decline of 76\%, and mid-summer decline of 82\% in flying insect biomass over the 27 years of study. We show that this decline is apparent regardless of habitat type, while changes in weather, land use, and habitat characteristics cannot explain this overall decline. This yet unrecognized loss of insect biomass must be taken into account in evaluating declines in abundance of species depending on insects as a food source, and ecosystem functioning in the European landscape.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{10}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{10}
+      \field{title}{More than 75 percent decline over 27 years in total flying insect biomass in protected areas}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{e0185809}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0185809
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185809
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185809
+      \endverb
+      \keyw{Biomass,Conservation science,Grasslands,Insects,Land use,Meteorology,Seasons,Species diversity}
+    \endentry
     \entry{hartmann_wintertime_2020}{article}{}
       \name{author}{13}{}{%
         {{hash=0946aa77415633d8af9019b18f9feb16}{%
@@ -3056,6 +3365,61 @@
       \endverb
       \verb{url}
       \verb https://acp.copernicus.org/articles/21/11613/2021/
+      \endverb
+    \endentry
+    \entry{hays_variations_1976}{article}{}
+      \name{author}{3}{}{%
+        {{hash=178f08d62908c9b145b811bf34434a26}{%
+           family={Hays},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b50ca356f23dbb70396b1cae1c4a5adc}{%
+           family={Imbrie},
+           familyi={I\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ee42803400cc0274130184ea11c89ae1}{%
+           family={Shackleton},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{78d7588f1a157ae18217d0d2fa9972d5}
+      \strng{fullhash}{9aef9474a4b95f0461b365732f774a08}
+      \strng{bibnamehash}{9aef9474a4b95f0461b365732f774a08}
+      \strng{authorbibnamehash}{9aef9474a4b95f0461b365732f774a08}
+      \strng{authornamehash}{78d7588f1a157ae18217d0d2fa9972d5}
+      \strng{authorfullhash}{9aef9474a4b95f0461b365732f774a08}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{1) Three indices of global climate have been monitored in the record of the past 450,000 years in Southern Hemisphere ocean-floor sediments. 2) Over the frequency range 10–4 to 10–5 cycle per year, climatic variance of these records is concentrated in three discrete spectral peaks at periods of 23,000, 42,000, and approximately 100,000 years. These peaks correspond to the dominant periods of the earth's solar orbit, and contain respectively about 10, 25, and 50 percent of the climatic variance. 3) The 42,000-year climatic component has the same period as variations in the obliquity of the earth's axis and retains a constant phase relationship with it. 4) The 23,000-year portion of the variance displays the same periods (about 23,000 and 19,000 years) as the quasi-periodic precession index. 5) The dominant, 100,000-year climatic component has an average period close to, and is in phase with, orbital eccentricity. Unlike the correlations between climate and the higher-frequency orbital variations (which can be explained on the assumption that the climate system responds linearly to orbital forcing), an explanation of the correlation between climate and eccentricity probably requires an assumption of nonlinearity. 6) It is concluded that changes in the earth's orbital geometry are the fundamental cause of the succession of Quaternary ice ages. 7) A model of future climate based on the observed orbital-climate relationships, but ignoring anthropogenic effects, predicts that the long-term trend over the next several thousand years is toward extensive Northern Hemisphere glaciation.}
+      \field{journaltitle}{Science}
+      \field{month}{12}
+      \field{note}{Publisher: American Association for the Advancement of Science}
+      \field{number}{4270}
+      \field{shorttitle}{Variations in the {Earth}'s {Orbit}}
+      \field{title}{Variations in the {Earth}'s {Orbit}: {Pacemaker} of the {Ice} {Ages}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{194}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \field{pages}{1121\bibrangedash 1132}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1126/science.194.4270.1121
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.194.4270.1121
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.194.4270.1121
       \endverb
     \endentry
     \entry{hegarty_evaluation_2013}{article}{}
@@ -3575,6 +3939,53 @@
       \endverb
       \keyw{Marine chemistry,Biogeochemistry}
     \endentry
+    \entry{howard_lxiv_1803}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4d4587aa2e0f284756e55e23cf6697db}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4587aa2e0f284756e55e23cf6697db}
+      \strng{fullhash}{4d4587aa2e0f284756e55e23cf6697db}
+      \strng{bibnamehash}{4d4587aa2e0f284756e55e23cf6697db}
+      \strng{authorbibnamehash}{4d4587aa2e0f284756e55e23cf6697db}
+      \strng{authornamehash}{4d4587aa2e0f284756e55e23cf6697db}
+      \strng{authorfullhash}{4d4587aa2e0f284756e55e23cf6697db}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-5796}
+      \field{journaltitle}{The Philosophical Magazine}
+      \field{month}{9}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/14786440308676358}
+      \field{number}{64}
+      \field{title}{{LXIV}. {On} the modifications of clouds, and on the principles of their production, suspension, and destruction; being the substance of an essay read before the {Askesian} {Society} in the session 1802–3}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{1803}
+      \field{urldateera}{ce}
+      \field{pages}{344\bibrangedash 357}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/14786440308676358
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/dasilva/snap/zotero-snap/common/Zotero/storage/DJ9CYURY/Howard - 1803 - LXIV. On the modifications of clouds, and on the principles of their production, suspension, and des.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/14786440308676358
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/14786440308676358
+      \endverb
+    \endentry
     \entry{hsu_comparison_2003}{article}{}
       \name{author}{3}{}{%
         {{hash=db74aaf28e770a30ac315a1e2681d484}{%
@@ -3784,6 +4195,54 @@
       \endverb
       \keyw{climate change,greenhouse forcing,radiative transfer}
     \endentry
+    \entry{intergovernmental_panel_on_climate_change_climate_2023}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00adaaa4e948fe42fff84476002d5d2d}{%
+           family={{Intergovernmental Panel On Climate Change}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{00adaaa4e948fe42fff84476002d5d2d}
+      \strng{fullhash}{00adaaa4e948fe42fff84476002d5d2d}
+      \strng{bibnamehash}{00adaaa4e948fe42fff84476002d5d2d}
+      \strng{authorbibnamehash}{00adaaa4e948fe42fff84476002d5d2d}
+      \strng{authornamehash}{00adaaa4e948fe42fff84476002d5d2d}
+      \strng{authorfullhash}{00adaaa4e948fe42fff84476002d5d2d}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.}
+      \field{edition}{1}
+      \field{isbn}{978-1-009-15789-6}
+      \field{month}{7}
+      \field{shorttitle}{Climate {Change} 2021 – {The} {Physical} {Science} {Basis}}
+      \field{title}{Climate {Change} 2021 – {The} {Physical} {Science} {Basis}: {Working} {Group} {I} {Contribution} to the {Sixth} {Assessment} {Report} of the {Intergovernmental} {Panel} on {Climate} {Change}}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/9781009157896
+      \endverb
+      \verb{file}
+      \verb Intergovernmental Panel On Climate Change - 2023 - Climate Change 2021 – The Physical Science Basis .pdf:/home/dasilva/snap/zotero-snap/common/Zotero/storage/JPX4XNNR/Intergovernmental Panel On Climate Change - 2023 - Climate Change 2021 – The Physical Science Basis .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896/type/book
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896/type/book
+      \endverb
+    \endentry
     \entry{intrieri_annual_2002}{article}{}
       \name{author}{7}{}{%
         {{hash=dad46d0e6760447c36a7cafffbc328ca}{%
@@ -3851,6 +4310,44 @@
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JC000439
       \endverb
       \keyw{atmospheric radiation,clouds,forcing,polar meteorology,remote sensing}
+    \endentry
+    \entry{ipbes_summary_2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebb4b25ab16a0668ca3ba0ed014998d2}{%
+           family={IPBES},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \strng{fullhash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \strng{bibnamehash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \strng{authorbibnamehash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \strng{authornamehash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \strng{authorfullhash}{ebb4b25ab16a0668ca3ba0ed014998d2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{IPBES is an independent intergovernmental body comprising over 130 member Governments. Established by Governments in 2012, IPBES provides policymakers with objective scientific assessments about the state of knowledge regarding the planet’s biodiversity, ecosystems and the contributions they make to people, as well as options and actions to protect and sustainably use these vital natural assets. The IPBES Global Assessment of Biodiversity and Ecosystem Services represents the landmark product of the first work programme of IPBES (2014-2018). The Global Assessment was initiated following a decision from the IPBES Plenary at its fourth session (IPBES 4, Kuala Lumpur, 2016), and considered by the IPBES Plenary at its seventh session (IPBES 7, Paris, 2019). It is composed of a summary for policymakers, which was approved at IPBES 7, and six chapters, which were accepted at IPBES 7.}
+      \field{title}{Summary for policymakers of the global assessment report on biodiversity and ecosystem services}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.3553579
+      \endverb
+      \verb{urlraw}
+      \verb https://zenodo.org/records/3553579
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/records/3553579
+      \endverb
     \endentry
     \entry{ipcc_sixth_2021}{report}{}
       \name{author}{1}{}{%
@@ -4130,6 +4627,73 @@
       \verb 10.1007/978-0-387-68854-1_62
       \endverb
     \endentry
+    \entry{kanji_heterogeneous_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7dd10fa49b69ad0fca8fc694182b322c}{%
+           family={Kanji},
+           familyi={K\bibinitperiod},
+           given={Zamin\bibnamedelima A.},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=055a104a792a69c9a7c73c10dabb142e}{%
+           family={Welti},
+           familyi={W\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4bb6d3b75c0503fac2d12833c13311ed}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Cédric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e50518b750d7d85a072865ef7df22990}{%
+           family={Stetzer},
+           familyi={S\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=2f3de49377eb85e7dc69b4d608d6f4a1}{%
+           family={Lohmann},
+           familyi={L\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed2f30a26cae52cbb08536586e6b9c6e}
+      \strng{fullhash}{c314166692dc593e45fcb0f91217f982}
+      \strng{bibnamehash}{c314166692dc593e45fcb0f91217f982}
+      \strng{authorbibnamehash}{c314166692dc593e45fcb0f91217f982}
+      \strng{authornamehash}{ed2f30a26cae52cbb08536586e6b9c6e}
+      \strng{authorfullhash}{c314166692dc593e45fcb0f91217f982}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deposition and immersion mode ice nucleation studies of kaolinite (Ka) and Arizona Test Dust (ATD) particles exposed to ozone at 430 ppbv, 1.4 and 4.3 ppmv for approximately 2 hours in a stainless steel aerosol tank are presented. The polydisperse particles used have a mode mobility diameter of 800 nm for Ka and 400 nm for ATD. The portable ice nucleation chamber (PINC) and immersion chamber (IMCA-ZINC) were used to study deposition and immersion mode ice nucleation respectively. Both instruments sampled through a particle impactor with a diameter cut-off size of 1 μm. Preliminary results indicate that ice nucleation can be enhanced or inhibited depending on ozone concentration used for the ageing process with higher concentrations suppressing ice nucleation in both immersion and deposition modes. Additionally, Ka and ATD respond differently to the ageing process and to the different modes of ice nucleation. Ozone surface coverage and initial uptake coefficients are presented for the low exposure studies to explain the ice nucleation behavior observed. Ice Active Surface Site Densities (IASSD) are presented as a means of comparison and parameterization of the data to predict potential atmospheric ice nuclei (IN) concentrations.}
+      \field{issn}{0094-243X}
+      \field{journaltitle}{AIP Conference Proceedings}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Heterogeneous ice nucleation of mineral dust particles exposed to ozone}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{1527}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{879\bibrangedash 882}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.4803411
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/5BXT5KC2/1.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4803411
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4803411
+      \endverb
+    \endentry
     \entry{keeling_atmospheric_2017}{misc}{}
       \name{author}{3}{}{%
         {{hash=ef6a45089d83616362b984b1a2661af6}{%
@@ -4226,6 +4790,58 @@
       \endverb
       \keyw{aerosol light absorption,biomass burning,organic carbon}
     \endentry
+    \entry{lamkin_challenge_2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=04d61c4f8c33f764630199b34a1b682c}{%
+           family={Lamkin},
+           familyi={L\bibinitperiod},
+           given={Megan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21a649d62f9a1081ae31e5b29e7b29eb}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Arnold\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1efacf9aafdf381a6fcaa91c9bb3f6b4}
+      \strng{fullhash}{1a47483e9469143ea51367c07fdb2d54}
+      \strng{bibnamehash}{1a47483e9469143ea51367c07fdb2d54}
+      \strng{authorbibnamehash}{1a47483e9469143ea51367c07fdb2d54}
+      \strng{authornamehash}{1efacf9aafdf381a6fcaa91c9bb3f6b4}
+      \strng{authorfullhash}{1a47483e9469143ea51367c07fdb2d54}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To assess whether Earth is currently experiencing a human-induced “sixth” mass extinction, scientists over the past 20 years have compared modern rates of extinction with the widely accepted average global background rate of 1 extinction (E) per million species-years (MSY). The application of the comparative method has led to the widely iterated estimate that contemporary global extinction rates are 100–1000 times higher than the background rate. Recent analyses indicate that the average background rate is closer to 0.1 E/MSY, suggesting that the difference between contemporary and background extinction is actually about 10 times greater than previously thought. Here, we review the historical development and mathematical underpinning of these estimates and show that, regardless of the baseline measure, there have been fewer documented extinctions in the recent 100–500 years than the comparative measure implies. Although anthropogenic activities have reduced the abundance and distribution of countless species and have caused more species extinctions than would be expected in the absence of humans, we conclude that the most appropriate interpretation of the existing data is that the global rate of contemporary extinction is closer to 100 times greater than the (revised) background rate of extinction rather than 1000 times greater.}
+      \field{issn}{0006-3568}
+      \field{journaltitle}{BioScience}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{On the {Challenge} of {Comparing} {Contemporary} and {Deep}-{Time} {Biological}-{Extinction} {Rates}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{66}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{785\bibrangedash 789}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/biosci/biw088
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/KXCHZ2HB/biw088.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/biosci/biw088
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/biosci/biw088
+      \endverb
+    \endentry
     \entry{lapere_modeling_2024}{article}{}
       \name{author}{7}{}{%
         {{hash=8a49376b56db78e492a412169637299e}{%
@@ -4279,29 +4895,32 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{{<}p{>}{<}strong class="journal-contentHeaderColor"{>}Abstract.{<}/strong{>} Elongated open water areas in sea ice (leads) release sea spray particles to the atmosphere. However, there is limited knowledge on the amount, properties and drivers of sea spray emitted from leads, and no existing parameterization of this process is available for use in models. In this work, we use measurements of aerosol fluxes from Nilsson et al. (2001) to produce an estimate of the location, timing and amount of sea spray emissions from leads at the scale of the Arctic Ocean for one year. Lead fractions are derived using sea ice data sets from numerical models and satellite detection. The proposed parameterization estimates that leads account for 0.3 \%\&ndash;3 \% of the annual sea salt aerosol number emissions in the high Arctic. Assuming similar size distribution as emissions from the open ocean, leads account for 30 \%\&ndash;85 \% of mass emissions in sea ice regions. The total annual mass of sea salt emitted from leads, 0.1\&ndash;1.9 Tg yr$^{\textrm{-1}}$, is comparable to the mass of sea salt aerosol transported above sea ice from the open ocean, according to the MERRA-2 reanalysis. In addition to providing the first estimates of possible upper and lower bounds of sea spray emissions from leads, the conceptual model developed in this work is implemented and tested in the regional atmospheric chemistry model WRF-Chem. Given the estimates obtained in this work, the impact of sea spray from leads on Arctic clouds and radiative budget needs to be further explored.{<}/p{>}}
-      \field{journaltitle}{EGUsphere}
-      \field{month}{5}
+      \field{abstract}{Elongated open-water areas in sea ice (leads) release sea spray particles to the atmosphere. However, there is limited knowledge on the amount, properties and drivers of sea spray emitted from leads, and no existing parameterization of this process is available for use in models. In this work, we use measurements of aerosol fluxes from Nilsson et al. (2001) to produce an estimate of the location, timing and amount of sea spray emissions from leads at the scale of the Arctic Ocean for 1 year. Lead fractions are derived using sea ice data sets from numerical models and satellite detection. The proposed parameterization estimates that leads account for 0.3 \%–9.8 \% of the annual sea salt aerosol number emissions in the Arctic Ocean regions where sea ice concentration is greater than 80 \%. Assuming similar size distributions to those from emissions from the open ocean, leads account for 30 \%–85 \% of mass emissions in sea ice regions. The total annual mass of sea salt emitted from leads, 0.1–2.1 Tg yr−1, is comparable to the mass of sea salt aerosol transported above sea ice from the open ocean, according to the MERRA-2 reanalysis. In addition to providing the first estimates of possible upper and lower bounds of sea spray emissions from leads, the conceptual model developed in this work is implemented and tested in the regional atmospheric chemistry model WRF-Chem. Given the estimates obtained in this work, the impact of sea spray from leads on Arctic clouds and radiative budget needs to be further explored.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{10}
       \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{21}
       \field{title}{Modeling the contribution of leads to sea spray aerosol in the high {Arctic}}
-      \field{urlday}{1}
-      \field{urlmonth}{6}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
       \field{urlyear}{2024}
+      \field{volume}{24}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 31}
-      \range{pages}{31}
+      \field{pages}{12107\bibrangedash 12132}
+      \range{pages}{26}
       \verb{doi}
-      \verb 10.5194/egusphere-2024-1271
+      \verb 10.5194/acp-24-12107-2024
       \endverb
       \verb{file}
-      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/AUKZALIH/Lapere et al. - 2024 - Modeling the contribution of leads to sea spray ae.pdf:application/pdf
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/AP5U5WHN/Lapere et al. - 2024 - Modeling the contribution of leads to sea spray aerosol in the high Arctic.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1271/
+      \verb https://acp.copernicus.org/articles/24/12107/2024/
       \endverb
       \verb{url}
-      \verb https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1271/
+      \verb https://acp.copernicus.org/articles/24/12107/2024/
       \endverb
     \endentry
     \entry{lesigne_extensive_2024}{article}{}
@@ -4735,6 +5354,74 @@
       \verb https://acp.copernicus.org/articles/15/3831/2015/
       \endverb
     \endentry
+    \entry{marelle_aerosol_2025}{article}{}
+      \name{author}{4}{}{%
+        {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
+           family={Marelle},
+           familyi={M\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fc0a7f5e31bfe17c53ce03d40968bcf2}{%
+           family={Myhre},
+           familyi={M\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=45126306c56f01243df79b540dfe11ae}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Jennie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=61cea3eb61d9c37a529e4a7d9cd4d885}{%
+           family={Raut},
+           familyi={R\bibinitperiod},
+           given={Jean-Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b4240f0934483be23cd5f2b111d2ae5d}
+      \strng{fullhash}{688f70075a2e83f794d74678a6f3b66b}
+      \strng{bibnamehash}{688f70075a2e83f794d74678a6f3b66b}
+      \strng{authorbibnamehash}{688f70075a2e83f794d74678a6f3b66b}
+      \strng{authornamehash}{b4240f0934483be23cd5f2b111d2ae5d}
+      \strng{authorfullhash}{688f70075a2e83f794d74678a6f3b66b}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We use an independent observational estimate of aerosol-cloud interactions (ACI) during the 2014 Holuhraun volcanic eruption in Iceland to evaluate four ACI parameterizations in a regional model. All parameterizations reproduce the observed pattern of liquid cloud droplet size reduction during the eruption, but strongly differ on its magnitude and on the resulting effective radiative forcing (ERF). Our results contradict earlier findings that this eruption could be used to constrain liquid water path (LWP) adjustments in models, except to exclude extremely high LWP adjustments of more than 20 gm−2 {\textbackslash}g{\textbackslash}hspace*.5emm{\textasciicircum}-2{\textbackslash}. The modeled ERF is very sensitive to the non-volcanic background aerosol concentration: doubling the non-volcanic aerosol background weakens the ACI ERF by ∼30\% \{\vphantom{\}}{\textbackslash}sim 30\%{\textbackslash}. Since aerosol biases in climate models can be an order of magnitude or more, these results suggest that aerosol background concentrations could be a major and under-examined source of uncertainty for modeling ACI.}
+      \field{annotation}{e2024GL111780 2024GL111780}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2024GL111780}
+      \field{number}{8}
+      \field{title}{Aerosol {Background} {Concentrations} {Influence} {Aerosol}-{Cloud} {Interactions} as {Much} as the {Choice} of {Aerosol}-{Cloud} {Parameterization}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{52}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{e2024GL111780}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2024GL111780
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/APYHPAEI/Marelle et al. - 2025 - Aerosol Background Concentrations Influence Aerosol-Cloud Interactions as Much as the Choice of Aero.pdf:application/pdf;Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/GZE72435/2024GL111780.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2024GL111780
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2024GL111780
+      \endverb
+      \keyw{aerosol-cloud interactions,clouds,aerosols,climate modeling,climate science,radiative forcing}
+    \endentry
     \entry{marelle_improvements_2017}{article}{}
       \name{author}{8}{}{%
         {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
@@ -4787,7 +5474,7 @@
       \strng{authorbibnamehash}{b4240f0934483be23cd5f2b111d2ae5d}
       \strng{authornamehash}{b4240f0934483be23cd5f2b111d2ae5d}
       \strng{authorfullhash}{d09796ec4420825467173bf8b9a45a7e}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4993,7 +5680,7 @@
       \verb{url}
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016JD025951
       \endverb
-      \keyw{mixed-phase clouds,cloud phase,cloud radiative effects,CloudSat,global energy budget,satellite remote sensing}
+      \keyw{cloud phase,cloud radiative effects,CloudSat,global energy budget,mixed-phase clouds,satellite remote sensing}
     \endentry
     \entry{mohler_portable_2021}{article}{}
       \name{author}{13}{}{%
@@ -7645,6 +8332,176 @@
       \verb https://acp.copernicus.org/articles/22/3067/2022/
       \endverb
     \endentry
+    \entry{seibold_arthropod_2019}{article}{}
+      \name{author}{19}{}{%
+        {{hash=6b909845e35cb58ede109c412b39f315}{%
+           family={Seibold},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=abe447d5c01051345002f96a730dd632}{%
+           family={Gossner},
+           familyi={G\bibinitperiod},
+           given={Martin\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=337e5f3eb9841e80ac145222666d91a7}{%
+           family={Simons},
+           familyi={S\bibinitperiod},
+           given={Nadja\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=781e4fd9ec62de98d683962e430fc541}{%
+           family={Blüthgen},
+           familyi={B\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7a14b793f9c8206819859db7ee3c9fc9}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03d63b897ef3e663b7606711933e5cf3}{%
+           family={Ambarlı},
+           familyi={A\bibinitperiod},
+           given={Didem},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8490cf2226d68f315506263191778724}{%
+           family={Ammer},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4ffe43a58647f682933940988cd0af6d}{%
+           family={Bauhus},
+           familyi={B\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec71b12607241800e2335944a4f80058}{%
+           family={Habel},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=770799b8b16c7cfc669bb9bbc8f2c305}{%
+           family={Linsenmair},
+           familyi={L\bibinitperiod},
+           given={Karl\bibnamedelima Eduard},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=7edfd94756995820b27254e329fa0c2a}{%
+           family={Nauss},
+           familyi={N\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3fafd228195f9fdbbfca11ab11350616}{%
+           family={Penone},
+           familyi={P\bibinitperiod},
+           given={Caterina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6743cb6aae3e77cdb8505349c29f182b}{%
+           family={Prati},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bae05fe681090d52e42aa646e51f0519}{%
+           family={Schall},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2c513dab4477ccf2de521f2dd4770c84}{%
+           family={Schulze},
+           familyi={S\bibinitperiod},
+           given={Ernst-Detlef},
+           giveni={E\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=ed0077282ce3f2e03430167d94dc1ffe}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Juliane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=701c9c62a881b075df0dd92db90eb8ac}{%
+           family={Wöllauer},
+           familyi={W\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=222a4a873e5dba6aa6be00cfdf1d3e93}{%
+           family={Weisser},
+           familyi={W\bibinitperiod},
+           given={Wolfgang\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2630599115ee5a367307d8f2e2caf49a}
+      \strng{fullhash}{a331939aa863be201f25369f483fb5d6}
+      \strng{bibnamehash}{2630599115ee5a367307d8f2e2caf49a}
+      \strng{authorbibnamehash}{2630599115ee5a367307d8f2e2caf49a}
+      \strng{authornamehash}{2630599115ee5a367307d8f2e2caf49a}
+      \strng{authorfullhash}{a331939aa863be201f25369f483fb5d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent reports of local extinctions of arthropod species1, and of massive declines in arthropod biomass2, point to land-use intensification as a major driver of decreasing biodiversity. However, to our knowledge, there are no multisite time series of arthropod occurrences across gradients of land-use intensity with which to confirm causal relationships. Moreover, it remains unclear which land-use types and arthropod groups are affected, and whether the observed declines in biomass and diversity are linked to one another. Here we analyse data from more than 1 million individual arthropods (about 2,700 species), from standardized inventories taken between 2008 and 2017 at 150 grassland and 140 forest sites in 3 regions of Germany. Overall gamma diversity in grasslands and forests decreased over time, indicating loss of species across sites and regions. In annually sampled grasslands, biomass, abundance and number of species declined by 67\%, 78\% and 34\%, respectively. The decline was consistent across trophic levels and mainly affected rare species; its magnitude was independent of local land-use intensity. However, sites embedded in landscapes with a higher cover of agricultural land showed a stronger temporal decline. In 30 forest sites with annual inventories, biomass and species number—but not abundance—decreased by 41\% and 36\%, respectively. This was supported by analyses of all forest sites sampled in three-year intervals. The decline affected rare and abundant species, and trends differed across trophic levels. Our results show that there are widespread declines in arthropod biomass, abundance and the number of species across trophic levels. Arthropod declines in forests demonstrate that loss is not restricted to open habitats. Our results suggest that major drivers of arthropod decline act at larger spatial scales, and are (at least for grasslands) associated with agriculture at the landscape level. This implies that policies need to address the landscape scale to mitigate the negative effects of land-use practices.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{10}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{7780}
+      \field{title}{Arthropod decline in grasslands and forests is associated with landscape-level drivers}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{574}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{671\bibrangedash 674}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1684-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41586-019-1684-3
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41586-019-1684-3
+      \endverb
+      \keyw{Biodiversity,Conservation biology,Forest ecology,Grassland ecology}
+    \endentry
+    \entry{seinfeld_atmospheric_1998}{book}{}
+      \name{author}{2}{}{%
+        {{hash=890b0c564b5cd91f545445ff4355fcf6}{%
+           family={Seinfeld},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2c23f09a86d22023f075cd5c6c24f9d6}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={Spyros\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Interscience}%
+      }
+      \strng{namehash}{2d6959d4b5ba4d2b7bc0b00d5cffe8fe}
+      \strng{fullhash}{7136718aad255566c90b495f8b810fa1}
+      \strng{bibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authorbibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authornamehash}{2d6959d4b5ba4d2b7bc0b00d5cffe8fe}
+      \strng{authorfullhash}{7136718aad255566c90b495f8b810fa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atmospheric {Chemistry} and {Physics}, from {Air} {Pollution} to {Climate} {Change}}
+      \field{year}{1998}
+    \endentry
     \entry{serreze_processes_2011}{article}{}
       \name{author}{2}{}{%
         {{hash=29557df7fd246c395f0ad194b353885a}{%
@@ -9461,16 +10318,16 @@
     \endentry
     \entry{world_meteorological_organisation_international_2018}{misc}{}
       \name{author}{1}{}{%
-        {{hash=007b8984d577db40c6867caa38d8dee0}{%
-           family={{Worl Meteorological Organisation}},
+        {{hash=dcf52e8409504dc927aced3f846d7e12}{%
+           family={{World Meteorological Organisation}},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{007b8984d577db40c6867caa38d8dee0}
-      \strng{fullhash}{007b8984d577db40c6867caa38d8dee0}
-      \strng{bibnamehash}{007b8984d577db40c6867caa38d8dee0}
-      \strng{authorbibnamehash}{007b8984d577db40c6867caa38d8dee0}
-      \strng{authornamehash}{007b8984d577db40c6867caa38d8dee0}
-      \strng{authorfullhash}{007b8984d577db40c6867caa38d8dee0}
+      \strng{namehash}{dcf52e8409504dc927aced3f846d7e12}
+      \strng{fullhash}{dcf52e8409504dc927aced3f846d7e12}
+      \strng{bibnamehash}{dcf52e8409504dc927aced3f846d7e12}
+      \strng{authorbibnamehash}{dcf52e8409504dc927aced3f846d7e12}
+      \strng{authornamehash}{dcf52e8409504dc927aced3f846d7e12}
+      \strng{authorfullhash}{dcf52e8409504dc927aced3f846d7e12}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -9941,19 +10798,11 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
-  \missing{Hartmann2021}
-  \missing{Seinfeld_atmospheric_1998}
+  \missing{ahmed_modeling_2023}
   \missing{chalon_combien_2014}
-  \missing{chen_impacts_2025}
   \missing{copernicus_climate_change_service_era5_2017}
-  \missing{creamean_thawing2020}
   \missing{da_silva_backward_2025}
-  \missing{hay_variations_1976}
-  \missing{howard_LXIV_1803}
-  \missing{intergovernemental_panel_on_climate_change_climate_2023}
-  \missing{ipcc_AR3_2007}
-  \missing{kanji__2013}
-  \missing{rantanen_he_2022}
+  \missing{ipcc_AR4_2007}
 \endrefsection
 \endinput
 
