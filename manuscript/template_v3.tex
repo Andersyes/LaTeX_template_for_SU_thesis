@@ -1,0 +1,1205 @@
+%% Copernicus Publications Manuscript Preparation Template for LaTeX Submissions
+%% ---------------------------------
+%% This template should be used for copernicus.cls
+%% The class file and some style files are bundled in the Copernicus Latex Package, which can be downloaded from the different journal webpages.
+%% For further assistance please contact Copernicus Publications at: production@copernicus.org
+%% https://publications.copernicus.org/for_authors/manuscript_preparation.html
+
+
+%% Please use the following documentclass and journal abbreviations for preprints and final revised papers.
+
+%% 2-column papers and preprints
+\documentclass[acp, manuscript]{copernicus}
+
+%% Journal abbreviations (please use the same for preprints and final revised papers)
+
+% Advances in Geosciences (adgeo)
+% Advances in Radio Science (ars)
+% Advances in Science and Research (asr)
+% Advances in Statistical Climatology, Meteorology and Oceanography (ascmo)
+% Aerosol Research (ar)
+% Annales Geophysicae (angeo)
+% Archives Animal Breeding (aab)
+% Atmospheric Chemistry and Physics (acp)
+% Atmospheric Measurement Techniques (amt)
+% Biogeosciences (bg)
+% Climate of the Past (cp)
+% DEUQUA Special Publications (deuquasp)
+% Earth Surface Dynamics (esurf)
+% Earth System Dynamics (esd)
+% Earth System Science Data (essd)
+% E&G Quaternary Science Journal (egqsj)
+% EGUsphere (egusphere) | This is only for EGUsphere preprints submitted without relation to an EGU journal.
+% European Journal of Mineralogy (ejm)
+% Fossil Record (fr)
+% Geochronology (gchron)
+% Geographica Helvetica (gh)
+% Geoscience Communication (gc)
+% Geoscientific Instrumentation, Methods and Data Systems (gi)
+% Geoscientific Model Development (gmd)
+% History of Geo- and Space Sciences (hgss)
+% Hydrology and Earth System Sciences (hess)
+% Journal of Bone and Joint Infection (jbji)
+% Journal of Micropalaeontology (jm)
+% Journal of Sensors and Sensor Systems (jsss)
+% Magnetic Resonance (mr)
+% Mechanical Sciences (ms)
+% Natural Hazards and Earth System Sciences (nhess)
+% Nonlinear Processes in Geophysics (npg)
+% Ocean Science (os)
+% Polarforschung - Journal of the German Society for Polar Research (polf)
+% Primate Biology (pb)
+% Proceedings of the International Association of Hydrological Sciences (piahs)
+% Safety of Nuclear Waste Disposal (sand)
+% Scientific Drilling (sd)
+% SOIL (soil)
+% Solid Earth (se)
+% State of the Planet (sp)
+% The Cryosphere (tc)
+% Weather and Climate Dynamics (wcd)
+% Web Ecology (we)
+% Wind Energy Science (wes)
+
+
+%% \usepackage commands included in the copernicus.cls:
+%\usepackage[german, english]{babel}
+%\usepackage{tabularx}
+%\usepackage{cancel}
+%\usepackage{multirow}
+%\usepackage{supertabular}
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+%\usepackage{amsthm}
+%\usepackage{float}
+%\usepackage{subfig}
+%\usepackage{rotating}
+
+\usepackage{xcolor}
+
+\begin{document}
+
+\title{Long-range transport pathways of fire plumes in the Northern Hemisphere observed by the IASI/METOP satellite mission}
+
+
+% \Author[affil]{given_name}{surname}
+
+\Author[1][antoine.ehret@latmos.ipsl.fr]{Antoine}{Ehret}
+\Author[1]{Solène}{Turquety}
+\Author[1]{Anderson}{Da Silva}
+\Author[1]{Maya}{George}
+\Author[1]{Juliette}{Hadji-Lazaro}
+\Author[2]{Bruno}{Franco}
+\Author[2]{Lieven}{Clarisse}
+\Author[2]{Pierre-François}{Coheur}
+\Author[1,2]{Cathy}{Clerbaux}
+
+
+\affil[1]{LATMOS/IPSL, Sorbonne Université, UVSQ Université Paris-Saclay, CNRS, Paris, France}
+\affil[2]{Spectroscopy, Quantum Chemistry and Atmospheric Remote Sensing (SQUARES), Université Libre de Bruxelles (ULB), Brussels, Belgium}
+
+%% The [] brackets identify the author with the corresponding affiliation. 1, 2, 3, etc. should be inserted.
+
+%% If an author is deceased, please mark the respective author name(s) with a dagger, e.g. "\Author[2,$\dag$]{Anton}{Smith}", and add a further "\affil[$\dag$]{deceased, 1 July 2019}".
+
+%% If authors contributed equally, please mark the respective author names with an asterisk, e.g. "\Author[2,*]{Anton}{Smith}" and "\Author[3,*]{Bradley}{Miller}" and add a further affiliation: "\affil[*]{These authors contributed equally to this work.}".
+
+
+\runningtitle{Long-range transport pathways of fire plumes in the Northern Hemisphere observed by the IASI/METOP satellite mission}
+
+\runningauthor{A. Ehret et al.}
+
+
+
+
+
+\received{}
+\pubdiscuss{} %% only important for two-stage journals
+\revised{}
+\accepted{}
+\published{}
+
+%% These dates will be inserted by Copernicus Publications during the typesetting process.
+
+
+\firstpage{1}
+
+\maketitle
+
+
+
+\begin{abstract}
+ 
+\end{abstract}
+
+
+\copyrightstatement{} %% This section is optional and can be used for copyright transfers.
+
+
+\introduction %% \introduction[modified heading if necessary]
+
+The combustion of biomass in wildfires results in substantial emissions of greenhouse gases and pollutants, which have a number of detrimental effects, particularly on human health and the climate. The smoke from these fires has been shown to increase the risk of cardiovascular and respiratory diseases \citep{karanasiouShorttermHealthEffects2021,aguileraWildfireSmokeImpacts2021}, as well as exerting a more general impact on the human body \citep{liuSystematicReviewPhysical2015,heft-nealAssociationsWildfireSmoke2022}. The impact of fire emissions on air quality has been estimated to be responsible for 1.53 million deaths per year \citep{xuGlobalRegionalNational2024}. The impact of biomass fires on the carbon cycle and climate is also significant, although the overall radiative balance of fires remains uncertain \citep{lasslopInfluenceFireCarbon2019,liuBiophysicalFeedbackGlobal2019}. It is estimated that the impact of fires on carbon sinks and biome alterations would result in a 6\,\% diminution of the remaining carbon budget estimated to restrict warming to 2\,\textdegree C \citep{burtonFireWeakensLand2024}. The climate also influences fire regimes in return, resulting in increased the burned area \citep{burtonGlobalBurnedArea2024} and heightened risk of extreme fire events \citep{jainObservedIncreasesExtreme2022a,brownClimateWarmingIncreases2023}. The frequency of extreme fires has increased substantially in recent decades due to climate change, with a notable rise observed in the boreal regions of the Northern Hemisphere and the western United States \citep{cunninghamIncreasingFrequencyIntensity2024}. 
+
+
+
+In addition to their local consequences, extreme fires are of particular concern due to their potential to emit plumes of smoke that can be dispersed over vast distances, on a continental or hemispheric scale. This can have a negative effect on air quality in regions that are not directly affected by fires \citep{kollanusEffectsLongrangeTransported2016,wuIntracontinentalWildfireSmoke2018,huLongrangetransportedCanadianSmoke2019b,hungImpactsTransportedWildfire2020a,silverLargeTransboundaryHealth2024}. As demonstrated by \citet{magzamenDifferentialCardiopulmonaryHealth2021}, the long-range transport of plumes has different effects compared to local fires, in particular by increasing asthma-related risks. One of the postulated hypotheses is that, given the absence of an immediate fire emergency associated with pollution episodes caused by long-range transport, measures implemented to protect the population, particularly the most vulnerable, are less effective \citep{magzamenDifferentialCardiopulmonaryHealth2021}. 
+
+
+Carbon monoxide (CO), a product of incomplete combustion, has been identified as an excellent tracer for tracking plume transport pathways due to its long lifetime in the troposphere, ranging from a few weeks in summer to several months in winter \citep{lelieveldGlobalTroposphericHydroxyl2016}, and its substantial emission from fires \citep{andreaeEmissionTraceGases2019a}. The CO present within the smoke plumes emanating from fires is well observed by satellite, thereby enabling the study of plume transport dynamics \citep[e.g][]{turquetyAPIFLAMEV20Biomass2020,buchholzNewSeasonalPattern2022,alboresContinentalscaleAtmosphericImpacts2023,ceamanosRemoteSensingModel2023}.
+
+
+Furthermore, large quantities of peroxyacetyl nitrate (PAN) have been observed by satellite in fire plumes \citep{coheurIASIMeasurementsReactive2009,francoGeneralFrameworkGlobal2018a,juncosacalahorranoEvolutionAcylPeroxynitrates2021,wizenbergExceptionalWildfireEnhancements2023,zhaiTranspacificTransportAsian2024}. The rapid formation of PAN in fresh fire plumes has been identified as a major product of the chemical transformation of NOx \citep{pengObservationsModelingNOx2021}. 
+PAN itself has been identified as a significant eye irritant, responsible for the majority of eye irritation observed in the context of the Los Angeles smog \citep{gaffneyImpactsPeroxyacetylNitrate2021}.
+Being relatively stable at low temperatures, it acts as a thermally unstable reservoir for NOx. 
+Indeed, the plumes injected into the free troposphere allow the transport of PAN over long distances, thereby acting as a precursor to the formation of NOx and ozone (O\textsubscript{3}) far from the sources of fires \citep{lindaasChangesOzonePrecursors2017,bourgeoisLargeContributionBiomass2021,lillWildfiredrivenChangesAbundance2022}.
+As demonstrated by \citet{wangChemicalTomographyFresh2021}, higher concentrations of PAN are observed at the edges of fresh plumes. However, this effect is significantly reduced during transport, as the increase in photochemistry is enabled by the reduction in aerosol load. Most notably, they demonstrate that elevated PAN concentrations can still be detected in aged plumes despite the absence of a CO signature (i.e. CO concentrations are close to the background levels). Consequently, the complementary use of CO and PAN for the monitoring of smoke plumes from fires appears to be particularly interesting. 
+
+Chemistry-transport models allow to quantify the contribution of fires to atmospheric composition \citep[e.g][]{arnoldBiomassBurningInfluence2015a,yeEvaluationIntercomparisonWildfire2021b}. Many studies rely on the use of a Lagrangian transport model such as FLEXPART \citep{stohlValidationLagrangianParticle1998a,stohlTechnicalNoteLagrangian2005,pissoLagrangianParticleDispersion2019} to study fire plumes, their origins and transport. These models can be used to analyse pollutant transport based on in-situ \citep[e.g][]{owenAnalysisMechanismsNorth2006} and/or satellite observations \citep[e.g][]{duflotMarineBiomassBurning2011,bencherifInvestigatingLongRangeTransport2020c,kimInverseModelingFire2020,smoydzinContributionAsianEmissions2022}. Few  studies propose a multi-year analysis of all the sources and receptors of fire plumes on a global or hemispheric scale. One such study, however, is that of \citet{lebourgeoisSeasonalRegionalVertical2024a}, who used in-situ IAGOS (In-service Aircraft for a Global Observing System) data from instruments installed in passenger aeroplanes and the SOFT-IO model \citep{sauvageSourceAttributionUsing2017} which combines FLEXPART and emission inventories to identify the source regions of measured CO plumes. 
+
+
+The variability of the average and extreme total CO between June and October for the 2008--2023 period was examined in detail in \citet{ehretIncreaseCarbonMonoxide2025} with observations of the IASI (Infrared Atmospheric Sounding Interferometer) mission. Statistically significant upward trends was observed in the mean and 97\textsuperscript{th} percentile values in the boreal regions of North America and Asia, the Atlantic, and Europe. Moreover, the results indicate that the number of days during which the regions of interest are affected by a CO plume has increased by over 50\,\% in recent years in the boreal regions of North America and Asia, the western United States, the Atlantic and Europe. The number of days with a plume is significantly correlated to the total burned area in the Northern Hemisphere for regions above 30\,\textdegree N, with the exclusion of regions where the burning is mainly linked to agricultural practices. The boreal regions of East Asia, along with North America, were the most significant contributors to the total burned area. However, this previous study provided an integrated view of the entire hemisphere and did not allow any conclusions to be drawn regarding the contribution of these three regions to the number of plumes observed. It is therefore of interest to consider the source regions of the plumes in question. 
+
+
+%%After a long introduction to the topic, I find that this paragraph introducing your actual work and contribution to the research field is too brief. I believe your results truly deserve a stronger introduction here to capture the reader's interest and highlight their significance. For instance, what is missing here I think, is that you do not enough emphasize the interest of your approach and of the use of satellite data compared to what has already been done before in the literature.
+
+% --------- 
+This article aims to present a plume back trajectory algorithm only based on CO and PAN satellite observations from the IASI mission and to analyse the variability of the identified fire plumes' characteristics and their sources over the 2008--2023 period in the extra-tropical northern hemisphere. 
+We demonstrate the feasibility of utilising daily satellite observations to detect and track extreme fire plumes. The use of satellite observations ensures extensive spatial coverage, circumscribed in this article to the extra-tropical Northern Hemisphere, though it can be expanded to encompass the entire globe. The method is predicated on the utilisation of operational databases and demands minimal computing time for statistical analysis over an extended period. Consequently, it is feasible to estimate the most probable origin of the plumes detected over the entire extra-tropical Northern Hemisphere for each day between June and October between 2008 and 2023. This would require a substantial investment of computing time and would be a complex undertaking using a numerical model.
+This method also paves the way for the development of a near-real-time operational product for detecting and estimating the origin of extreme plumes.
+% ---------  
+
+
+After a description of the data used (section~\ref{method_atm_obs_CO_chap4}), extreme events detection and back trajectories algorithms are presented in section~\ref{method_extremes_chap4} and \ref{back_trajectory_algorithm_chap4}. The detection of extreme events is assessed against IAGOS CO data in section~\ref{sec:IAGOS_chap4}. The estimate of the origin of the detected plumes is compared with FLEXPART back trajectories in the case of summer 2018 in section~\ref{sec:FLEXPART_chap4}. The evolution of detected plumes' characteristics is outlined in section~\ref{variability_chap4}. Finally, a source-receptor analysis is performed in section~\ref{origin_traj_chap4}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods}{\label{MaterialandMethod_chap4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Observations}\label{method_atm_obs_CO_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{IASI satellite observations of trace gases}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The study is based on CO and PAN retrievals from observations by the IASI instruments on board Metop-A, Metop-B and Metop-C satellites, launched in 2006, 2012 and 2018, respectively. IASI measures the outgoing thermal infrared radiation  in a nadir-viewing geometry twice daily (equator crossing time 9:30 LST) with a pixel size of \(\sim\)12\,km diameter at nadir and a swath of 2200\,km across nadir that allows global coverage \citep{clerbauxMonitoringAtmosphericComposition2009a}.
+
+The CO Level 2 (L2) product from the Climate Data Record (CDR, \url{http://doi.org/10.15770/EUM_SAF_AC_0047}), based on the  FORLI (Fast Optimal Retrievals on Layers for IASI) retrieval method \citep{hurtmansFORLIRadiativeTransfer2012a}, is used.
+This product was evaluated through comparisons with NDACC FTIR data performed for 23 stations \citep{Langerock2024}. The mean bias obtained is 3.89\,\% for IASI-A and 4.19\,\% for IASI-B, with relative differences ranging from -3.75\,\% (-4.17\,\%) for Zugspitze to 15.09\,\% (15.01\,\%) for Toronto, for IASI-A (B). \citet{barretValidation12Years2025} estimated a mean bias of -8\,\% for IASI-A CO total column compared to IAGOS CO total column. 
+
+The PAN total columns are taken from the ANNI (Artificial Neural Network for IASI) PAN version 4 product from IASI \citep{francoGeneralFrameworkGlobal2018a,clarisseIASINH3Version2023b}. The uncertainty in the PAN total column measurement is typically found to range between 1 and 3\texttimes 10\textsuperscript{15} molecules.cm\textsuperscript{-2} and in some cases can reach 4\texttimes 10\textsuperscript{15} molecules.cm\textsuperscript{-2} likely due to partially cloudy scenes \citep{francoGeneralFrameworkGlobal2018a}.
+In this study, total PAN is primarily used to assist in the tracking of plume trajectories. 
+To our knowledge, no validation process involving independent measurements has been conducted for the IASI PAN product. Nevertheless, IASI PAN has been compared with new ground-based FTIR columns at Jungfraujoch, showing a good agreement \citep{mahieuFirstRetrievalsPeroxyacetyl2021}. \citet{wizenbergExceptionalWildfireEnhancements2023} showed that IASI can track PAN enhancements in biomass burning plume over long distances, up to polar latitudes where such enhancements were also detected by ground-based FTIR measurements at Eureka (80\,\textdegree N). The PAN signal is clearly discernible in pollution plumes, as evidenced by several studies \citep[e.g.][]{coheurIASIMeasurementsReactive2009,clarisseIntercontinentalTransportAnthropogenic2011,francoGeneralFrameworkGlobal2018a,zhaiTranspacificTransportAsian2024}.
+
+% To our knowledge, no validation process involving independent measurements has been conducted for the IASI PAN product. Nevertheless, the PAN signal is clearly discernible in pollution plumes, as evidenced by several studies \citep[e.g.][]{coheurIASIMeasurementsReactive2009,clarisseIntercontinentalTransportAnthropogenic2011,francoGeneralFrameworkGlobal2018a}. Consequently, the decision was made to restrict our investigation to the total PAN in plumes, while leaving the examination of background total columns of PAN aside.
+
+
+The IASI vertical sensitivity mostly depends on the thermal contrast (temperature difference between the surface and the air layer) and is maximal in the free troposphere ($\sim$\,5--7\,km) \citep{digioacchinoSpatialTemporalVariations2024}. 
+
+
+Only daytime observations of the highest quality are considered for both products and are gridded on a 0.5\textdegree \texttimes 0.5\textdegree\ grid. This study focuses on the years 2008 to 2023. \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{IAGOS in situ observations of CO}\label{sec:descrip_IAGOS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+The MOZAIC programme (Measurement of ozone and water vapour by Airbus in-service aircraft) ran from 1994 to 2014 with the initial aim of measuring ozone, water vapour and meteorological parameters using instruments installed on commercial airliners \citep{marencoMeasurementOzoneWater1998}. Since December 2001, the programme has also incorporated the measurement of CO \citep{nedelecImprovedInfraredCarbon2003}.
+
+
+As of 2011, the IAGOS programme has succeeded the MOZAIC programme \citep{petzoldGlobalscaleAtmosphereMonitoring2015,thouretIAGOSMonitoringAtmospheric2022}. The IAGOS European research infrastructure also incorporates the CARIBIC (Civil Aircraft for the Regular Investigation of the atmosphere Based on Instrument Container) programme \citep{brenninkmeijerCARIBICCivilAircraft1999}.
+The in-situ CO observations used in section~\ref{sec:IAGOS_chap4} are derived from the L2 IAGOS time series \citep{boulangerIAGOSFinalQuality2018}, which is produced from observations obtained from the MOZAIC, IAGOS, and CARIBIC instruments (hereafter referred to as IAGOS observations). The concentration data are automatically collected during flights and are provided with the location and altitude of the measurement from take-off to landing. The total uncertainty of the CO measurement is reported as being within the range of $\pm$5\,ppb $\pm$5\,\% \citep{nedelecInstrumentationCommercialAircraft2015}. The temporal resolution of the measurements is 4\,s for the MOZAIC and IAGOS instruments and 10\,s for the CARIBIC instruments.
+Despite the use of multiple instruments over time in the MOZAIC, IAGOS, and CARIBIC data sets, \citet{blotInternalConsistencyIAGOS2021} demonstrated that there was no drift in the biases over time.
+
+Each IAGOS flight generally provided two vertical profiles of CO during the take-off and landing phases, and a horizontal profile during the cruise phase. This phase accounts for the majority of measurements and takes place most of the time in the upper troposphere between 9 and 12\,km. 
+
+To enable the comparison of IAGOS and IASI data, the two datasets were co-located in time and space. Following this process, 556 flights were retained and are shown in Figure~\ref{fig:IAGOS_flights}. 
+
+The CO anomalies in the IAGOS data are calculated using the method detailed in \citet{sauvageSourceAttributionUsing2017}.
+The median of the CO values measured at altitudes above 9\,km between June and October on all flights between 2008 and 2023 is calculated. This value is then subtracted from each measurement in order to obtain a residual (CO$_{\text{UT}}^{\text{R}}$). All the residuals are then used to calculate the 75\textsuperscript{th} percentile of their distribution (Q75(CO$_{\text{UT}}^{\text{R}}$)). An anomaly is detected if the residual of a measurement is greater than the 75\textsuperscript{th} percentile of the distribution of all the residuals : CO$_{\text{UT}}^{\text{A}}$ = CO$_{\text{UT}}^{\text{R}}$ if CO$_{\text{UT}}^{\text{R}}$ > Q75(CO$_{\text{UT}}^{\text{R}}$). 
+
+
+Furthermore, the highest anomaly values are taken into consideration. The extreme CO IAGOS anomalies (CO$_{\text{UT}}^{\text{Extrem}}$) are defined as the 25\,\% of the highest anomalies : CO$_{\text{UT}}^{\text{Extrem}}$ = CO$_{\text{UT}}^{\text{A}}$ if CO$_{\text{UT}}^{\text{A}}$ > Q75(CO$_{\text{UT}}^{\text{A}}$). 
+
+
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/fig_IAGOS_flights3.pdf}
+    \caption{IAGOS flights collocated with IASI observations of CO between June and October over the period 2008--2023.}
+    \label{fig:IAGOS_flights}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Fire observations with MODIS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The fire observations are based on MODIS (Moderate Resolution Imaging Spectroradiometer) Collection 6 data \citep{Giglio2018}. The burned area is estimated using the date of burning at a resolution of 500 m provided by the MCD64A1 product (500\,m resolution), while active fires are detected using the MOD14 and MYD14 products (1\,km resolution) \citep{giglioGlobalDistributionSeasonality2006,giglioAssessingVariabilityLongterm2010,giglioMCD64A1MODISTerra+Aqua2015}. These products also measure the fires radiative power (FRP), which is an indicator of the intensity of combustion. The relationship between the area affected by fire and radiative power is found to be linear up to a certain threshold, after which point the affected area stabilises or decreases \citep{laurentVaryingRelationshipsFire2019a}.
+
+The data are processed using APIFLAME v2.0 software \citep{turquetyAPIFLAMEV20Biomass2020}. The burned area is calculated as a function of pixel size and vegetation fraction, using only data of the highest confidence. Uncertainty is attributed primarily to variations in cloud cover. The temporal resolution of the data is approximately two days, and the spatial accuracy of 500\,m to 1\,km may result in the overestimation of burned areas in some cases. % Based on burned area, faction of vegetation, biomass consumed and emission factor for different vegetation types, APIFLAME also provides daily CO fire emissions.  %BIEN VERIFIER SI A LA FIN ON UTILISE LES EMISSIONS CO OU PAS 
+
+The daily burned area and FRP data data are gridded on a 0.5\textdegree \texttimes 0.5\textdegree\ grid for the Northern Hemisphere.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Extremes and plume identification}\label{method_extremes_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Figure~\ref{fig:extrem_selection} summarizes the main steps involved in selecting extreme values and identifying plumes.  
+
+The extremes are identified by analysing the characteristics of the statistical distribution of total columns of CO and PAN observed in June--October 2008--2023, for each 0.5\textdegree \texttimes 0.5\textdegree\ grid cell, by the IASI instrument. More specifically, observations with values above the 97\textsuperscript{th} detrended percentile are considered to be extreme values. 
+
+
+The decision to use the detrended percentile was made in view of the significant trends observed by \citet{ehretIncreaseCarbonMonoxide2025} in the June--October total CO 97\textsuperscript{th} percentile, which exhibited an increase of up to +2.6\,\%.year\textsuperscript{-1} over the majority of the Northern Hemisphere. Disregarding this trend could potentially result in an underestimation of plumes at the beginning of the period under consideration.
+
+
+The percentile is detrended using the following method for each 0.5\textdegree \texttimes 0.5\textdegree\ grid cell : (1) For each year between 2008 and 2023, the averaged June to October CO (PAN) total column is computed. (2) A linear regression is performed for these values, providing a slope value $a$. (3) For each year, the value $a\times i$ for $i$ $\in$ {[0;15]} (correspond to years between 2008 and 2023) is subtracted from June to October CO (PAN) total columns of the corresponding year. (4) The 97\textsuperscript{th} percentile of the distribution of new June--October CO (PAN) total columns is calculated, providing the 97\textsuperscript{th} detrended percentile. 
+
+
+\citet{ehretIncreaseCarbonMonoxide2025} observed a stable number of days with a CO plume per year between 2017--2023 in the boreal regions of East Asia, compared to the 2008--2023 period. This is despite an increase of 29\,\% in burned areas between 2017--2023 compared to 2008--2023. This finding indicates that the 97\textsuperscript{th} percentile threshold may not be appropriate for this region, as it is expected that the number of days with CO plumes will follow the increasing trend in burned area. %REF ? Justification ?
+In the Siberian region (50-90\,\textdegree N and 84-180\,\textdegree E), CO emissions are predominantly attributed to fires, with anthropogenic emissions being comparatively low in comparison to the rest of the northern hemisphere \citep{zhongGlobalEstimatesCarbon2017,mullerTopDownCOEmissions2018,zhengGlobalAtmosphericCarbon2019}. In order to prevent the misidentification of extreme fire plumes in this region, the extremes are quantified using the 95\textsuperscript{th} detrended percentile. 
+
+
+The spatial extent of plumes is defined using boxes of size 20\textdegree \texttimes 24\textdegree, with each box containing an identical number of 0.5\textdegree grid cells (1\,920 grid cells). These boxes are arbitrarily defined beforehand, with the northern hemisphere subdivided into 60 boxes.
+Thus, considering $X(i)$ as a total CO or PAN value in a grid cell $i$ and $Q_X(i)$ the percentile used as a threshold (97\textsuperscript{th} or 95\textsuperscript{th} detrended percentile), a plume is identified if $X(i)-Q_X(i) > 0$ on more than 5\,\% of the grid cells in the box and for at least two days. 
+
+In spite of this criteria, some plumes may correspond to only a few isolated grid cells in the considered box. 
+These cases are filtered out using a k-clustering method with an arbitrary minimum cluster size of 10 grid cells. 
+This definition enables the number of false detections to be minimised by not considering extreme values with limited spatial and temporal extents as plumes from intense fires. 
+
+\begin{figure}
+    \includegraphics[width=0.78\textwidth]{fig/Method_count_CO.pdf}
+    \caption{Example of the method used to select the extremes of total column of CO for 14 August 2018. The 20\textdegree \texttimes 24\textdegree\ boxes used for plume selection are delimited by the black grid. (a) Total column of CO on 14 August 2018. (b) 97\textsuperscript{th} percentile of the total column of CO distribution between June and October over the period 2008--2023. (c) First step : selection of total columns of CO above the 97\textsuperscript{th} percentile on 14 August 2018. (d) Second step : only the 20\textdegree \texttimes 24\textdegree\ boxes containing values above the 97\textsuperscript{th} percentile on more than 5\,\% of the total number of grid cells in the box and on two consecutive days are retained. To do this, we also look at total columns above the 97\textsuperscript{th} percentile on 13 and 15 August 2018. (e) Third step: a k-clustering method is applied. The same method is applied to the total columns of PAN to obtain the PAN plumes.}
+    \label{fig:extrem_selection}
+\end{figure}
+
+
+This method is applied to identify plumes of CO and PAN separately. Plumes of extreme CO and PAN (CO\texttt{+}PAN plumes) are then derived (fig.~\ref{fig:extrem_selection_CO_PAN}). 
+This union allows a better spatial resolution and a better tracking of plumes. 
+%This CO\texttt{+}PAN dataset can only be used qualitatively to determine if a grid cell is in a plume or not. 
+%Once this information known, one has to use CO or PAN total column separately to perform quantitative analysis. 
+
+%Isn’t there a risk that the process could include PAN plumes that are actually due to intense biogenic emissions? For example, we often observe seasonally large PAN plumes of biogenic origin over the southeastern US or Southeast Asia. These plumes are quite frequent, appear as “pulses” (likely driven by favorable meteorological conditions and atmospheric circulation), and can spread over the oceans, making them easy to confuse with fire-related plumes.
+
+
+The CO\texttt{+}PAN database contains a daily information on which boxes are identified as part of a plume, the number of grid cells detected as a plume within each 20\textdegree \texttimes 24\textdegree\ box, the corresponding mean CO and PAN total columns and a flag for each 0.5\textdegree \texttimes 0.5\textdegree\ gridcell indicating whether the cell is identified as: a CO-only extreme, a PAN-only extreme, a CO\texttt{+}PAN extreme, or not an extreme.
+To quantitatively characterize the plume intensity, the sum of the normalised CO total columns plus the normalised PAN total columns (CO\texttt{+}PAN TC) is also calculated for each grid cell identified as a plume. 
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/Method_count_CO_PAN.png}
+    \caption[Example of the identification of CO\texttt{+}PAN plumes for 14 August 2018]{Example of the identification of CO\texttt{+}PAN plumes for 14 August 2018. (a) CO plumes identified following the steps presented in figure~\ref{fig:extrem_selection}. (c) PAN plumes identified following the steps presented in Figure~\ref{fig:extrem_selection}. (b) The plumes identified in (a) and (c) are normalised and summed to give CO\texttt{+}PAN plumes.}
+    \label{fig:extrem_selection_CO_PAN}
+\end{figure}
+
+
+
+Only the clear-sky data for total CO and PAN columns are used to identify extreme plumes. The use of the 60 boxes of 20\textdegree \texttimes 24\textdegree minimises the risk of underestimating the number of plumes in cloudy situations since a large number of grid cells are used. The results obtained following the identification of extreme plumes are mainly based on the scale of these boxes, and not on the number of grid cells considered as belonging to a plume, thus avoiding underestimating the extent of plumes by not taking into account grid cells that are filtered because they are cloudy. However, it would be interesting to assess the impact of applying the cloud filter on the results obtained, and in particular to study changes in the percentage of observations rejected because of the cloud filter and the geographical distribution of the percentage of observations rejected or usable.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Plumes' characteristics}\label{plumes_charac_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+The identification of plumes enables the analysis of plume intensity variability. Intensity can be characterised in relation to two variables: the concentration of CO and PAN in the plumes, and the spatial extent of the plumes, as determined by the number of grid cells considered to belong to a plume.
+
+The mean June--October total column of CO (PAN) and the number of grid cells exhibiting extremes of CO (PAN) in the identified plumes, denoted by $\overline{\text{TCO}_{\text{plumes}}}$ ($\overline{\text{TPAN}_{\text{plumes}}}$) and $\text{N}_{\text{CO}}^{\text{plumes}}$ ($\text{N}_{\text{PAN}}^{\text{plumes}}$), can be calculated. For each day, this is achieved by (1) isolating boxes with a CO\texttt{+}PAN plume and (2) retaining the CO (PAN) grid cells in these boxes with a value above the detrended 97\textsuperscript{th} (or 95\textsuperscript{th}) percentile.
+
+The number of CO\texttt{+}PAN grid cells in the plumes, denoted by $\text{N}_{\text{CO\texttt{+}PAN}}^{\text{plumes}}$, is the union of the number of extreme CO grid cells and the number of extreme PAN grid cells in the plumes, $\text{N}_{\text{CO\texttt{+}PAN}}^{\text{plumes}}=\text{N}_{\text{CO}}^{\text{plumes}}\cup\text{N}_{\text{PAN}}^{\text{plumes}}$. It is important to note that this number is not necessarily equal to the sum of $\text{N}_{\text{CO}}^{\text{plumes}}$ and $\text{N}_{\text{PAN}}^{\text{plumes}}$.
+
+
+When a plume is detected in a box, the total columns above the 97 (or 95) percentile are designated as being within a plume. However, it should be noted that this does not imply that total columns with values below the 97\textsuperscript{th} (or 95\textsuperscript{th}) percentile are outside the plume. To avoid using a background level that might be biased high due to the inclusion of days with fire plumes, it has been decided to calculate the background mean June--October total column of CO, designated as $\overline{\text{TCO}_{\text{background}}}$, as the average total columns on days where no plume is detected. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Back-trajectory algorithms}\label{back_trajectory_algorithm_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{IASI-based plume origin}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The back trajectories are calculated on the basis of IASI observations of CO and PAN plumes and using the ERA5 wind fields \citep{hersbachERA5GlobalReanalysis2020a} as an additional constraint. The wind field at 300 hPa between 6h and 12h local time is averaged for each 20\textdegree \texttimes 24\textdegree\ box in order to obtain a daily indication of the wind direction.
+
+The methodology for plume detection involves the use of 60 boxes (size 20\textdegree \texttimes 24\textdegree).
+Considering a specific box $i$ containing a plume on day $d$. The main objective is to find the origin of that plume, that is to say when (day $d_0$) and where (box $i_0$) the plume was first observed. 
+The developed algorithm employs a step-by-step approach. It identifies the most probable source box among the adjacent boxes of the specified box for the current day ($d$) and the previous day ($d-1$), considering the number and intensity of plumes detected within the boxes, as well as the wind direction. This method is repeated until no adjacent box can be identified as containing a plume. At this point, the corresponding box and day are designated as the initial observation of the plume.
+
+
+This procedure is then repeated for each box containing a plume on day $d$, with the sequence starting with box 1 and ending with box 60. Once the source box and day (box $i_0$, and $d_0$) have been documented for each plume identified (box $i$, day $d$), the algorithm progresses to the next day $i+1$. The decision to scan a grid of 60 boxes, extending from box 1 to box 60, was made on the basis of the enhanced probability of a plume's transportation from west to east by prevailing winds. The influence of adjacent boxes to the east of box $i$ is adequately considered, particularly through the use of the algorithm's outputs from previous days. 
+
+
+
+Figure~\ref{fig:back_trajectory_algo} shows an illustration of plume detection, trajectory tracking and origin identification. 
+For each box $i$, the number of CO\texttt{+}PAN grid cells detected as part of a plume $B(i,d)$ is used, as well as the mean value of the sum of normalised CO and PAN total columns ($[CO\texttt{+}PAN](i,d)$), and the wind direction $w(i,d)$ . 
+
+% Figure~\ref{fig:back_trajectory_algo} depicts a simple case focusing on determining the most probable origin for the detected plume in box 22. As the algorithm follows the sequence from box 1 to box 60, origins for boxes 1 to 21 have already been found, and the most probable origin for plumes in boxes 14, 16, 18, 19 and 20 was determined to be box 10. The maximum values of $B(j,d)$ and $[CO\texttt{+}PAN](j,d)$ in the adjacent boxes of box 22 ($j$ $\in$ {[17,18,19,23,27,26,25,21]}) are obtained for box 18. Moreover, the average wind is from west to east in box 18, thus it is toward the box 22. Therefore, it can be deduced that the most probable origin of the detected plume in box 22 is equivalent to that of box 18. Using the same method for box 18, the plume has already been traced back to box 14, which itself has led to box 10, the latter being the origin of the plume (i.e. first observation assumed to be the source).
+
+Figure~\ref{fig:back_trajectory_algo} depicts a simple case focusing on determining the most probable origin for the detected plume in box 22. As the algorithm progresses sequentially from box 1 to box 60, origins for boxes 1 to 21 have previously been identified, and the most probable origin for plumes in boxes 14, 16, 18, 19 and 20 has been determined to be box 10. The maximum values of $B(j,d)$ and $[CO\texttt{+}PAN](j,d)$ in the adjacent boxes of box 22 ($j$ $\in$ {[17,18,19,23,27,26,25,21]}) are obtained for box 18. Furthermore, an analysis of the prevailing wind directions reveals a mean wind from west to east in box 18, indicating a corresponding direction towards box 22. Consequently, it can be deduced that the most probable origin of the detected plume in box 22 is equivalent to that of box 18. The application of the aforementioned methodology to box 18 has resulted in the identification of the plume's origin as box 14, which, itself, has been traced back to box 10, and box 10 has been determined to be the origin of the plume (i.e. the initial observation designated as the source).
+
+
+
+
+It was decided to divide the northern hemisphere into 60 equal-sized boxes to avoid biases associated with the choice of boxes of different sizes. However, if a fire occurs at the edge of a box $i$, it is possible that the contribution of this fire to the atmospheric composition will be higher in an adjacent box $j$ due to the transport of the plume on the same day. Consequently, since the back-trajectory algorithm does not use burned area data, it may attribute the origin of the plume to box $j$ rather than box $i$. For instance, a plume originating from a fire in the western United States (box 10) could potentially be considered as originating from the central United States (box 14). %It is therefore preferable to analyse regions that are large enough to avoid assigning plumes from neighboring regions to one region.
+
+
+%In this simple case, origins for boxes 0 to 19 has already been found. 
+%The most probable origin of grid cells considered as plumes in boxes 9, 13, 15, 17, 18 and 19 is the box 9. 
+%Let us focus on box 21 :except box 21 itself, $\max(B_{i,d})$ and $\max([CO\texttt{+}PAN]_{i,d})$ in the adjacent boxes ($i$ $\in$ {[16,17,18,22,26,25,24,20]}) are in box 17. Moreover, the average wind is from west to east in box 17, thus it is toward the box 21. As a consequence, the most likely origin in box 21 is the same than in box 17 which is the box 9. 
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/Method_algo.pdf}
+    \caption{Schematic diagram explaining the estimation of the most likely origin of a plume observed over the Atlantic on 13 August 2018. (a) 20\textdegree \texttimes 24\textdegree\ boxes are used to identify and track the plumes. The trajectories of the plumes and their most likely origin are expressed as a function of the number of the boxes through which the plume was transported. The numbering of the boxes starts at 1 in the south-west of the extra-tropical northern hemisphere and ends at 60 in the north-east. (b) The following example is provided to illustrate the back-tracking method: the step of estimating the origin of the plume at box 22 on 13 August 2018 is shown here. As the algorithm progresses sequentially from box 1 to box 60, origins for boxes 1 to 21 have previously been identified, and the most probable origin for plumes in boxes 14, 16, 18, 19 and 20 has been determined to be box 10. In order to estimate the origin of the plume at box 22: (c) the direction and magnitude of the mean wind in each box are analysed. Box 18, delineated by the green square, corresponds to the box adjacent to box 22 whose wind direction is consistent with transport towards box 22. (d) In addition, the number of grid cells detected as plumes in the adjacent boxes (18, 19, 20, 22, 24, 26, 27, 28) is examined. It is observed that box 18, represented by the green square, corresponded to the box where the number of grid cells considered as plumes is the highest. (e) Finally, the mean value of the normalised sum of the total columns of CO and PAN in the boxes in the adjacent boxes is examined. Box 18, represented by the green square, corresponds to the box where this mean value is the highest. The three parameters are consistent and indicate that the plume at box 22 most likely originates from box 18. The algorithm will then attribute to the plume in box 22 the same origin as that attributed to the plume in box 18, i.e. box 10.}
+    \label{fig:back_trajectory_algo}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{FLEXPART model}\label{sect:descrip_flexpart_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The back trajectories obtained with IASI are compared in section~\ref{sec:FLEXPART_chap4} to back trajectories produced using the FLEXPART-WRF dispersion model \citep{brioudeLagrangianParticleDispersion2013}, running on Weather Research and Forecast (WRF) meteorological fields \citep{skamarockDescriptionAdvancedResearch2019}, for August 2018. % actually in this last version we used the entire fire season (J6une-October)
+
+
+For each day in August 2018, a set of 20\,000 particles is released above Paris, over two hours and between 48 and 50\,\textdegree N and 1 and 3\,\textdegree E at different altitudes (4, 5, 6, 6.5, 7, 7.5 and 8\,km). The corresponding reverse trajectories were calculated up to ten days before the release. The injection altitudes are selected on the basis that IASI CO's vertical sensitivity is maximal in the free troposphere ($\sim$5--7 km) \citep{clerbauxMonitoringAtmosphericComposition2009a}. The location for the particle release is selected along the path of the plumes observed in August 2018 and in an area where the IASI total CO time series shows a minimum of missing data. The trajectory of the emitted tracers is defined using the Potential Emission Sensitivity (PES) in seconds, which can be considered as the tracer's residence time in each grid cell.
+
+
+The origins of emission presented in the section~\ref{sec:FLEXPART_chap4} are identified with the ratio method, an improvement of Potential Source Contribution Function (PSCF) analysis, fully described and evaluated in \citet{dasilvaHowTraceOrigins2025}. The PES between the surface and 4\,km altitude are used to identify the potential region of the emission sources in order to take into consideration fire emissions injection height. 
+The emission source regions signal is defined as the ratio of the back trajectories associated with high concentration events, to the sum of all the back trajectories ran on the measurement period. These values indicate the likely emission origins of the observed particles, without any information on the actual sources. In this study, the aim is to estimate the sources of the high CO total column values observed above Paris on 27, 28 and 29 August 2018. Therefore, the emission source regions signal is the ratio of the back trajectories of air masses that brought the high CO values observed in Paris on 27, 28 and 29 August 2018, to the sum of all the back trajectories of particles released above Paris between June and October 2018. 
+In comparison with the classical PSCF method, the back trajectories are filtered in order to get rid of the 2\,\% lowest PES values obtained between June and October 2018. The ratio is then refined by identifying the sink regions (detected using the PSCF of the 33\,\% lowest observed concentrations). The resulting variable, which provides information regarding the region of origin, is defined as the composite ratio. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Validation}{\label{comparison_chap4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\subsection{Validation of extremes detection : comparison between IASI and IAGOS data}\label{sec:IAGOS_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+The comparison between IASI and IAGOS CO data is used  to evaluate the selected IASI total CO extreme values. The objective is to test whether an extreme detected in the IAGOS dataset also corresponds to a plume in the IASI dataset.
+
+
+%---- IASI SACHANT IAGOS -----
+
+Over the period 2008--2023 between June and October, 2\,043 grid cells with a CO anomalies (CO$_{\text{UT}}^{\text{A}}$) at altitudes above 9\,km are identified in the IAGOS data co-located with IASI using the method presented in section~\ref{sec:descrip_IAGOS}. Of these grid cells, 172 are detected over North America, 475 over Europe, 646 over Asia and 750 over another region of the hemisphere. For all the collocated grid cells where an IAGOS anomaly is observed, the number of grid cells considered to belong to a CO\texttt{+}PAN plume detected by IASI is examined. The analysis reveals that 59\,\% of the 2\,043 IAGOS CO$_{\text{UT}}^{\text{A}}$ also correspond to an IASI CO\texttt{+}PAN plume, with a higher percentage of agreement in North America and Europe (63\,\%) compared to Asia (55\,\%) and to other regions of the hemisphere (59\,\%). 
+
+
+However, a number of IAGOS anomalies are not detected by IASI, which may be due to the different thresholds and methods used to define anomalies or smaller plumes, missed by IASI. Considering extreme IAGOS anomalies (CO$_{\text{UT}}^{\text{Extrem}}$) as defined in section~\ref{sec:descrip_IAGOS}, it can be observed that there are 504 IAGOS CO$_{\text{UT}}^{\text{Extrem}}$ that are collocated with IASI over the entire hemisphere, 35 over North America, 74 over Europe, 237 over Asia, and 158 in the other regions. The number of concurrent observations of extremes with IASI CO\texttt{+}PAN plumes increases to 76\,\% over the hemisphere as a whole and 94\,\%, 74\,\%, 70\,\% and 84\,\% when considering only North America, Europe, Asia and the other regions of the hemisphere, respectively.
+
+It is also interesting to note that if we consider only the CO plumes detected by IASI, without taking the PAN into account, the number of observations of IAGOS extremes is concomitant with IASI CO plumes in only 36\,\% of cases over the whole hemisphere. This results indicates that the extremes detection algorithm may miss some CO extremes, potentially due to an overly high threshold for detecting such extremes. Additionally, it is possible that IASI observations of PAN exhibit greater sensitivity compared to observations of CO at altitudes above 9\,km. An alternative hypothesis is that some CO IASI data from fire events are filtered out during inversion because they do not meet the quality criteria. However, these suppositions necessitate further investigations.
+
+%BF : This is unexpected… but highly interesting!It's true that IASI’s sensitivity to PAN peaks in the upper troposphere, but I find it hard to imagine that CO sensitivity would drop so much that it goes undetected. I'll think more about this. One factor that might play a role is that CO retrievals from IASI are generally too constrained—meaning that the retrieval does not allow enough freedom for the profile to deviate from the a priori. As a result, IASI often fails to fully capture the CO concentration peak at high altitudes in fire plumes, because the retrieved profile remains too close to the shape of the a priori. For PAN, the retrievals are completely different and are based on a hyperspectral range index (and a neural network). I’m not sure if that’s relevant here, but it’s worth considering.
+%CC :  comme Elsa Jacquette nous l’avait expliqué il y a un filtrage sur les L1 qui parfois flag comme bad des spectres « chaud » eg quand il y a des feux typiquement. Perso j’ai des doutes que on soit plus sensible au PAN que au CO.
+
+This analysis demonstrates the pertinence of employing CO and PAN IASI data in conjunction to monitor plumes and provides evidence of the plume discrimination method's efficacy in detecting the most extreme plumes. %The elements of this comparison are summarized in Figure~\ref{fig:iagos_kw_iasi}.
+
+
+% \begin{figure}
+%     \includegraphics[width=\textwidth]{fig/bar_plot_CO_AM_IASI_sachant_IAGOS.pdf}
+%     \caption{Number of grid cells collocated between IAGOS and IASI data with an IAGOS CO anomalies. Among these grid cells, the number of grid cells with a CO\texttt{+}PAN plume detected by IASI is considered. Extreme IAGOS anomalies are defined as values above the 75\textsuperscript{th} percentile of the distribution of IAGOS CO anomalies. The results are provided for the whole hemisphere, but also only for grid cells in North America, Europe, Asia and other regions of the hemisphere.}
+%     \label{fig:iagos_kw_iasi}
+% \end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\subsection{Validation of back trajectories on a case study : comparison between IASI and FLEXPART}\label{sec:FLEXPART_chap4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+This section presents a comparison of the results obtained with the back-trajectory algorithm using only IASI data with those obtained with FLEXPART. The case study is plumes observed in August 2018. %This three-day period corresponds to the maximum total CO observed between 49 and 51\,\textdegree N and -1 and 1\,\textdegree E for the month of August 2018.
+
+The summer of 2018 was characterised by extreme weather conditions, with heat waves in North America, Western Europe and the Caspian Sea region, and intense rainfall in south-eastern Europe and Japan \citep{kornhuberExtremeWeatherEvents2019,rousiExtremelyHotDry2023}. The prevailing weather conditions, characterised by severe drought and elevated temperatures, engendered a particularly intense fire season in California, resulting in substantial human and economic consequences \citep{brownExtreme2018Northern2020,wangEconomicFootprintCalifornia2021}. The plumes from the intense fires in this region were transported over long distances, significantly impacting air quality in New York City \citep{wuSynergisticAircraftGround2021b}. \citet{griffin2018FireSeason2020b} observed several plumes injected at an altitude of more than 4\,km, and likely to be transported over long distances. Over the summer of 2018, 10.8\texttimes 10\textsuperscript{6}\,ha burned in the extratropical Northern Hemisphere, including 2.9\texttimes 10\textsuperscript{6}\,ha in North America (Fig.~\ref{fig:BA_2018}). More specifically, 1.4\texttimes 10\textsuperscript{6}\,ha were consumed by fire in North America in August 2018, which is 1.8 times the average burned area in August between 2008 and 2023 in this region (0.8\texttimes 10\textsuperscript{6}\,ha).
+
+
+The analysis of IASI observations has led to the identification of multiple CO\texttt{+}PAN plumes within the Northern Hemisphere during the summer months of 2018, with a notable prevalence in August. %Specifically, in August 2018, 15\,587 and 12\,115 grid cells associated with a CO\texttt{+}PAN plume were detected within the temperate and boreal regions of North America, respectively. This value is similar to the average for August between 2008 and 2023 in boreal regions of North America (12\,559 grid cells) but is 2 times higher than the average for August between 2008 and 2023 in temperate regions of North America (7\,642 grid cells). In the Atlantic and Europe, 8\,732 and 23\,115 grid cells in a plume were observed, which is 2 and 1.9 times more than the average for August between 2008 and 2023 (4\,458 and 12\,400 grid cells). 
+%In the boreal regions of East Asia, 6\,549 grid cells in a plume were observed, which is 3 times less than the average for August between 2008 and 2023 (19\,987 grid cells). 
+Figure~\ref{fig:plumes_2018} shows the CO plumes observed by IASI from 19 to 28 August 2018 (from bottom right to top left). Our back-trajectory approach attributes these plumes to box 9, corresponding to the Western part of the United States, and most likely attribuable to intense fires. In the period between 19 and 28 August 2018, intense fires occurres to the west of North America. In addition to this, several plumes are observed by IASI, with some stagnating over the North American continent before being transported to Europe. The summer of 2018 was characterised by a record positive North Atlantic Oscillation, which dominated the atmospheric circulation between June and August \citep{drouardDisentanglingDynamicContributions2019} and was marked by particularly strong westerly winds towards the north of Western Europe (Fig.~\ref{fig:wind}). 
+
+
+
+
+Figure~\ref{fig:plumes_2018} also shows back trajectories obtained with FLEXPART for particles released above Paris on 28 August 2018 (from bottom right to top left). Here, the trajectories of the emitted tracers is defined using the Potential Emission Sensitivity (PES) in seconds between the surface and the top of the atmosphere. These trajectories correspond to the origins of the air masses that reached Europe in August 2018. They demonstrate that the air masses pass over the Atlantic two days before release, over eastern Canada three days before, and then over western North America. Consequently, the FLEXPART back trajectories are in perfect agreement with the IASI plumes observed between 23 and 28 August 2018. However, on the preceding days, some of the FLEXPART air masses remain within the North American continent and the Atlantic, while other back trajectories suggest that some of the air masses originate from East Asia. However, almost no IASI plumes originating from East Asia were detected between 20 and 22 August.
+This can be explained by the minimal fire activity observed in East Asia during this period and the fact that IASI detected almost no extreme CO and PAN values in this region. Between 19 and 28 August 2018, 5\texttimes 10\textsuperscript{5}\,ha burned in the western temperate and boreal regions of North America, while 1\texttimes 10\textsuperscript{5}\,ha burned in the eastern central and boreal regions of Asia.
+Nevertheless, the influence of air masses originating from East Asia is well accounted for in the IASI-based back-trajectory algorithm. This is evidenced by the mixing of IASI plumes identified as originating from the eastern boreal regions of Asia with plumes identified as originating from North America on 19 August 2018, in the western boreal region of North America. The plumes originating in the eastern boreal regions of Asia appear to be highly diluted, in contrast those originating in the western temperate regions of North America. The IASI-based back-trajectory algorithm favours the origin of the densest plumes and therefore indicates that the plumes originate from western temperate North America.
+
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/CO_PLUMES_28_082018_7_Paris_v4.png}
+    \caption{Daily evolution (from bottom right to top left) of CO\texttt{+}PAN plumes observed by IASI between the 19\textsuperscript{th} of august and the 28\textsuperscript{th} of august 2018 and FLEXPART back trajectories following particles released at 7\,km altitude above Paris on 28 August 2018. FLEXPART back trajectories are displayed in an overlay. The plume values correspond to the most probable plume origin estimated. Plumes originating from box 10, which corresponds to the western United States, are in yellow. Plumes originating from box 46, which corresponds to the eastern Boreal Asia, are in purple. Green gridcells correspond to gridcells for which the origin is undetermined.}
+    \label{fig:plumes_2018}
+\end{figure}
+
+Using the ratio method detailed in Section~\ref{sect:descrip_flexpart_chap4}, FLEXPART back trajectories enable the identification of the most probable regions of origin for the extreme CO values observed in Europe in August 2018, without making any a priori assumptions about CO emissions. The aim here is to estimate the sources of the high CO values observed in Paris on 27, 28 and 29 August 2018.
+The results of the ratio method are shown in Figure~\ref{fig:ratios}. The composite ratio suggests that the CO extremes observed in Europe are likely to originate from North America, which is consistent with the estimated origins of the plumes observed by IASI on 27, 28 and 29 August 2018. 
+Furthermore, an analysis of the different release altitudes of the back trajectories indicates the presence of a plume of North American origin, which is estimated to be approximately 7\,km in height, over Paris. Additionally, a weaker North American signal is observed at release altitudes of 4 and 5\,km (though not at 6\,km or 8\,km), which may suggest the presence of a distinct lower-altitude plume, separate from the 7\,km plume.
+
+
+
+\begin{figure}
+    \begin{center}
+    \includegraphics[width=\textwidth]{fig/Compo_ratio_allAlts_fire_season_2018_Paris_2.png}
+    \caption{Application of the ratio method for FLEXPART back trajectories as it is depicted in Section~\ref{sect:descrip_flexpart_chap4}. For each day in August 2018, a set of 10,000 particles is released above Paris between 48-50\,\textdegree N and 1-3\,\textdegree E at different altitudes (4, 5, 6, 6.5, 7, 7.5 and 8\,km), and the corresponding back trajectories were calculated up to ten days before the release. The composite ratio is the ratio of the climatology of the total air masses origins on the climatology of the origins of air masses that brought the high CO values observed in Paris on 27, 28 and 29 August 2018, masked by map of the likely sinks constructed with the PSCF method.}
+    \label{fig:ratios}
+    \end{center}
+\end{figure}
+
+
+% In addition to the ratio method, it is possible to estimate which fires contributed to the concentrations observed in Europe on 22, 26 and 29 August by multiplying the FPES of the backtrajectories with the CO emissions from the fires in the corresponding grid cells and on the corresponding days. In other words, if a back trajectory of a particle released in Europe on 22, 26 or 28 August originates in a grid cell and on a day when a fire is detected, the FPES of the back trajectory (in second) is multiplied with the estimated CO emissions from the fire (in kg/second).
+% As demonstrated in Figure~\ref{fig:ratio_emiss}, it is highly probable that the fires in western North America contributed to the observed concentrations in Europe on 22, 26 and 29 August. Furthermore, the regions affected by these fires coincide with the source regions determined using the ratio method. 
+
+
+% \begin{figure}
+%     \includegraphics[width=15cm]{fig/Ratios_Emiss_fires_2018_7km.pdf}
+%     \caption{To complete}
+%     \label{fig:ratio_emiss}
+% \end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Intense plumes observed by IASI during the 2008--2023 period}{\label{results_chap4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+This study investigates the variations in intensity of plumes (see section~\ref{plumes_charac_chap4}) between June and October over the 2008--2023 period, with a focus on trends and recent evolutions (section~\ref{variability_chap4}). The results of a source-receptor analysis based on IASI back trajectories are presented in section~\ref{origin_traj_chap4}.
+
+
+Due to the substantial spatio-temporal variability of fires, the study is conducted at the regional scale rather than on a gridcell scale. As illustrated in Figure~\ref{fig:regions_chap4}, the Northern Hemisphere is divided into 8 regions, namely Boreal North America, Temperate North America, Atlantic, Europe, Western Boreal Asia, Western Central Asia, Eastern Boreal Asia and Eastern Central Asia.
+Only regions prone to an intense fire activity identified in \citet{ehretIncreaseCarbonMonoxide2025} (Boreal North America, Temperate North America and Eastern Boreal Asia), the regions downwind (Atlantic and Europe) and Eastern Central Asia are considered for regional investigations. Regions identified as affected by land management and agricultural fires (Western Boreal Asia and Western Central Asia) are only used in the source-receptor analysis.
+
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/fig01.pdf}
+    \caption[Regions used in this study]{Regions used in this study : Boreal North America (BONA), Temperate North America (TENA), Atlantic (ATLAN), Europe (EURO), Western Boreal Asia (WBOAS), Western Central Asia (WCEAS), Eastern Boreal Asia (EBOAS), Eastern Central Asia (ECEAS). The grey areas over land correspond to regions not analyzed in this study.}
+    \label{fig:regions_chap4}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\subsection{Relative impact of plumes concentrations and extent on mean total CO and PAN in the Northern Hemisphere}{\label{variability_chap4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+The mean total column of CO (resp. PAN) in grid cells detected as a plume in the regions Boreal and Temperate North America, Eastern Boreal Asia, Atlantic, Europe and Eastern Central Asia is 3.9\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2} (resp. 1.2\texttimes 10\textsuperscript{16}\,molecules.cm\textsuperscript{-2}), while the mean total column of CO (resp. PAN) outside the plumes in these regions is 2.0\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2} (resp. 4.6\texttimes 10\textsuperscript{15}\,molecules.cm\textsuperscript{-2}). 
+%And PAN?
+%Also, further in this section, you don't discuss the evolution of background PAN. Why? Even if the PAN background is biased for some reasons (biased high or low), this bias would be systematic, hence wouldn't influence the trend over the IASI time series.
+
+
+Tables~\ref{table:summary_var_concentration} and~\ref{table:summary_var_concentration_PAN} show the trends and the relative difference between June and October in the 2017--2023 and 2008--2023 periods for the mean regional total columns of CO and PAN, respectively. An increase in the mean total CO column (resp. PAN) of 0.8 to 2.6\,\% (resp. 0.2 to 2.4\,\%) was observed between June and October in the regions Boreal and Temperate North America, Eastern Boreal Asia, Atlantic and Europe between the 2017--2023 and the 2008--2023 periods. In contrast, a decline of -2.7\,\% (or -1.14\,\%) in the mean total CO column (or PAN) was observed in the Eastern Central Asia region.
+
+
+We are interested here in explaining the differences in average total CO and PAN between the 2017--2023 period and the full 2008--2023 period for regions where average total CO and PAN have exhibited an increase in recent years (i.e. Boreal North America, Temperate North America, Eastern Boreal Asia, Atlantic and Europe). 
+
+
+The average total CO and PAN in the specified regions can be expressed as: 
+(($\text{TC}_{\text{plume}} \times \text{N}_{\text{plume}}$)+($\text{TC}_{\text{out}} \times \text{N}_{\text{out}}$))/($\text{N}_{\text{plume}} + \text{N}_{\text{out}}$), where $\text{TC}_{\text{out}}$ signifies all non-extreme total columns for either CO or PAN.  
+The differences in mean total CO and PAN between the 2017--2023 period and the entire 2008--2023 period may be attributed to a combination of two factors: the increase in plume total columns ($\text{TC}_{\text{plume}}$) and the increase in plume extent ($\text{N}_{\text{plume}}$).
+
+
+In the regions Boreal and Temperate North America, Eastern Boreal Asia, Atlantic and Europe, $\text{TC}_{\text{plume}}^{\text{CO}}$ and $\text{TC}_{\text{plume}}^{\text{PAN}}$ - except for Europe for $\text{TC}_{\text{plume}}^{\text{PAN}}$ - has increased in recent years (2017--2023) compared to the entire period (2008--2023) in line with an increase in the 97\textsuperscript{th} and 95\textsuperscript{th} percentiles. $\text{TC}_{\text{plume}}^{\text{CO}}$ shows an increasing trend of +1.2\,\%.year\textsuperscript{-1} over Temperate North America and of +0.7\,\%.year\textsuperscript{-1} over Europe. 
+
+The increase in extreme values of CO and PAN in these regions is consistent with the increase in fire activity observed in the northern hemisphere \citep{ehretIncreaseCarbonMonoxide2025}.
+Several studies have demonstrated a direct correlation between the radiative power of fires and the emissions they produce \citep{woosterRetrievalBiomassCombustion2005,kaiserBiomassBurningEmissions2012,wigginsHighTemporalResolution2020}. More intense fires emit greater quantities of pollutants. The MODIS satellite instrument has measured an increase of 3.2\,\% to 18.0\,\% in FRP between 2017--2023 compared with 2008--2023 for the regions Boreal and Temperate North America, Eastern Boreal Asia and Europe. An upward trend in CO emissions from fires has been observed in several emission inventories for the regions Boreal and Temperate North America, as well as for Eastern Boreal Asia \citep{griffinBiomassBurningCO2024}. Moreover, this is consistent with the increase of HONO detections in fire plumes with IASI in the northern hemisphere. \citet{francoPyrogenicHONOSeen2024} shown that most of HONO detections occur in North America and Siberia, where the fires have the highest FRP, and that in these regions the number of detection has increased by a factor of 3-4 throughout the October 2007--September 2023 period, following closely the increase of MODIS FRP.
+
+
+% In these regions, the background total CO has decreased in recent years, which is consistent with the decreases in anthropogenic CO emissions \citep{zhongGlobalEstimatesCarbon2017,zhengGlobalAtmosphericCarbon2019,crippaHTAP_v3EmissionMosaic2023,fortems-cheineyCOAnthropogenicEmissions2024}.
+
+
+The extent of a given plume ($\text{N}_{\text{plume}}$) is characterised using the number of grid cells identified as belonging to a plume. Table~\ref{table:summary_var_grid} provides the trends and the relative difference in the total annual number of grid cells between the 2017--2023 and 2008--2023 periods for $\text{N}_{\text{plume}}^{\text{CO\texttt{+}PAN}}$, $\text{N}_{\text{plume}}^{\text{CO}}$ and $\text{N}_{\text{plume}}^{\text{PAN}}$.
+A large significant trend is obtained for CO\texttt{+}PAN plumes in Boreal North America, of +263.5\,\%.year\textsuperscript{-1} between 2008 and 2023. 
+Upon isolating solely the PAN grid cells identified within the CO\texttt{+}PAN plumes, an upward trend in the number of extreme annual grid cells (+42.7\,\%.year\textsuperscript{-1}) is obtained in Boreal North America. In the case of CO plumes, an upward trend is observed in the number of extreme annual grid cells in Boreal North America (+72.1\,\%.year\textsuperscript{-1}) and in Temperate North America (+46.8\,\%.year\textsuperscript{-1}).
+With the exception of Eastern Central Asia, the number of extreme grid cells has increased in recent years across all the regions under study. Furthermore, it is notable that the number of $\text{N}_{\text{plume}}^{\text{CO}}$ is increasing at a greater rate than $\text{N}_{\text{plume}}^{\text{PAN}}$. 
+The reason for this difference requires further investigation. It may be related to the difference in atmospheric lifetime of the two molecules and the possibility that part of the PAN plumes identified as fire plumes may in fact be biogenic plumes, particularly during the summer months in North America. Furthermore, PAN exhibits a complex chemical composition, necessitating the presence of both VOC precursors and NOx for its formation and stability. Additionally, elevated temperatures are deleterious to its stability, causing rapid decomposition.
+
+
+%BF : Yes. This, and the possibility that part of the PAN plumes identified as fire plumes would actually be biogenic plumes, especially in summer in North America, which would also explain why the relative increase is weaker than for CO.
+% Also, PAN has a complex chemistry: to be formed and to remain stable, it needs the availability of both VOC precursors and NOx, and not so high temperatures otherwise it rapidly decomposes.
+
+To quantify the relative impact of the increase in $\text{TC}_{\text{plume}}$ and in $\text{N}_{\text{plume}}$ on mean total CO and PAN in the regions Boreal and Temperate North America, Eastern Boreal Asia, Atlantic and Europe, four indicators are calculated: 
+\begin{enumerate}
+    \item The average total CO and PAN in the plumes over the period 2008--2023: $\text{TC}_{\text{plume,ref}}$.
+    \item The average number of grid cells in the plumes and out of the plumes during the summer over the period 2008--2023: $\text{N}_{\text{plume,ref}}$ and $\text{N}_{\text{out,ref}}$.
+    \item The average total CO and PAN including all CO and PAN columns over the period 2008--2023: $\text{TC}_{\text{ref}}$.
+    \item The relative difference in average total CO and PAN between the 2017--2023 period and the entire 2008--2023 period: $\Delta\text{TC}_{\text{ref}}$.
+\end{enumerate}
+
+
+To study the effect only of total CO and PAN in the plumes on average total CO and PAN, we calculate the average total CO and total PAN between 2017--2023 using a test total column defined as : 
+$\text{TC}_{\text{Test1}}$ = ($\text{TC}_{\text{plume,ref}} \times \text{N}_{\text{plume}}$(y)) + ($\text{X}_{\text{out}}}\text{(y)} \times \text{N}_{\text{out}}$(y)))/($\text{N}_{\text{plume}}}\text{(y)} + \text{N}_{\text{out}}\text{(y)}$
+
+
+To study only the effect of the extent of the plumes, we consider the average total CO and total PAN between 2017--2023 using a test total column defined as : 
+$\text{TC}_{\text{Test2}}$ = ($\text{TC}_{\text{plume}}\text{(y)} \times \text{N}_{\text{plume,ref}}$) + ($\text{X}_{\text{out}}\text{(y)} \times \text{(}\text{N}_{\text{out,ref}}$+$\text{N}_{\text{plume}}$(y)-$\text{N}_{\text{plume,ref}}$)))/($\text{N}_{\text{plume}}\text{(y)} + \text{N}_{\text{out}}\text{(y)}$
+
+
+For each test, the relative difference between 2017--2023 and 2008--2023 is calculated using the test values : 
+$\Delta\text{TC}_{\text{Test}}$=($\text{TC}_{\text{Test}}$-$\text{TC}_{\text{plume,ref}}$)/$\text{TC}_{\text{plume,ref}}$
+
+
+Subsequently, the relative difference between $\Delta\text{TC}_{\text{Test1}}$ (resp. $\Delta\text{TC}_{\text{Test2}}$) and $\Delta\text{TC}_{\text{ref}}$ is calculated and reported in Table~\ref{table:sensiv}.
+
+For all regions where average total CO and PAN have increased in recent years (i.e. Boreal North America, Temperate North America, Eastern Boreal Asia, Atlantic and Europe), the increase in the extent of the plumes has a much greater impact on the evolution of average total CO and total PAN than the increase in total CO and PAN in the plumes. A notable sensitivity to variations in the two indicators studied was observed, in comparison with other regions, in Eastern Boreal Asia, which seems to behave differently.
+
+As demonstrated in \citet{ehretIncreaseCarbonMonoxide2025}, it has been shown that the burned areas have increased in the regions Boreal North America, Temperate North America and Eastern Boreal Asia between 2017--2023 compared to 2008--2023 by 16 to 37\,\% and that the FRP has increased in these regions by 1.4 to 11\,\%. Furthermore, the number of fire events with FRP > 500\%, in the specified regions, exhibited an 22\,\% to 33\,\% increase between 2017--2023 compared to 2008--2023. The increase in the frequency of fire events that are likely to create extreme smoke plumes appears to be a probable cause of the increase in plume extent while the increase in average FRP appears to be a likely cause of the increase in total CO and PAN in plumes. Therefore, the greater impact of the increase in plume extent on the evolution of average total CO and PAN compared to the impact of the increase in total CO and PAN in plumes suggests that the increase in the frequency of fire events plays a dominant role on the evolution of average total CO and PAN.
+
+
+% Dans \citet{ehretIncreaseCarbonMonoxide2025}, il a été démontré que les surfaces brûlées ont augmenté dans les régions Boreal North America, Temperate North America, Eastern Boreal Asia entre 2017-2023 par rapport à 2008-2023 de 16 à 37\,\% et que le FRP a augmenté dans ces régions de 1.4 à 11\,\%. Par ailleurs, \citet{ehretIncreaseCarbonMonoxide2025} montrent que le nombre d'évènements de feux de FRP > 500\,\% a augmenté entre 2017-2023 par rapport à 2008-2023 dans ces régions de 22\,\% à 33\,\%. L'augmentation de la fréquence des événements de feux susceptibles de créer des panaches de fumée extrêmes impacte semble être une cause probable de l'augmentation de l'étendue des panaches tandis que l'augmentation du FRP moyen semble être une cause probable de l'augmentation du CO et du PAN total dans les panaches. Par conséquent, l'impact plus important de l'augmentation de l'étendue des panaches sur l'évolution du CO et PAN total moyen par rapport à l'impact de l'augmentation du CO et PAN total dans les panaches suggèrent que l'augmentation de la fréquence des événements de feux joue un rôle prépondérante sur l'évolution du CO et PAN total moyen.
+
+%BF : This is interesting. Might be worth discussing it a bit more.
+
+
+\begin{table}
+    \begin{center}
+      \caption{Relative impact of plumes' concentration and extent on mean total CO and PAN. Test 1 is used to study the effect only of total CO and PAN in the plumes on average total CO and PAN. Test 2 is used to study only the effect of the extent of the plumes. Sensitivity is calculated as the relative difference between the relative difference in mean total CO and PAN between June and October in recent years (2017--2023) and the whole study period (2008--2023), taking into account the test concentrations for 2017--2023 and the relative difference in mean total CO and PAN between June and October between recent years (2017--2023) and the whole study period (2008--2023) taking into account the reference concentrations for 2017--2023. A high sensitivity value for Test 1 indicates a significant impact of the variation in total CO and PAN in the plumes on the variability of mean total CO and PAN. Conversely, a high sensitivity value for Test 2 reveals a substantial impact of the variation in the number of CO and PAN grid cells in the plumes on the variability of the mean total CO and PAN.}
+      \label{table:sensiv}
+    \begin{tabular}{|l|c|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+        \hline
+         \textbf{Variable ($X$)} & \begin{tabular}[c]{@{}c@{}}Boreal\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperate\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Atlantic\end{tabular} & Europe & \begin{tabular}[c]{@{}c@{}}East. Boreal\\[-1.25ex] Asia\end{tabular} \\
+        \hline
+        \hline
+        \multicolumn{6}{|l|}{\textbf{Test 1 : no variation in plumes' total columns, variation in plumes' extent}}	\\
+        \hline
+        Sensitivity for CO (\%) & 3.3 & 1.5  & 4.7  &  6.7  & 17.7    \\
+        \hline
+        Sensitivity for PAN (\%) & 2.9 & 7.4 & 1.1 & 0 & 79.6  \\    
+        \hline
+        \hline
+        \multicolumn{6}{|l|}{\textbf{Test 2 : no variation in plumes' extent, variation in plumes' total columns}}	\\
+        \hline
+        Sensitivity for CO (\%) & 61.3 & 34.0  & 36.1  &  45.1  & 145.4    \\
+        \hline
+        Sensitivity for PAN (\%) & 36.3 & 42.3 & 28.1 & 38.0 & 360.8  \\    
+        \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\subsection{Source-receptor analysis}{\label{origin_traj_chap4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+The algorithm presented in Section~\ref{back_trajectory_algorithm_chap4} can be employed to calculate the most probable trajectory of the identified plumes, thereby determining the most probable source region of each identified plumes. A source region is defined as region where a plume is first observed, and a receptor region is defined as a region where a plume is last observed. The typical transport pathways can also be determined. 
+
+Although back trajectories identify a source region using 20\textdegree \texttimes 24\textdegree\ boxes, the results are presented for the larger regions discussed in the previous section.
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%VISION SOURCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Source to receptor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+By aggregating the most probable transport pathways of the identified plumes, it is possible to determine the typical transport pathways of the plumes transported from the main source regions. Figure~\ref{fig:pathways_origin} presents a summary of the typical transport pathways and the corresponding number of plumes identified during the period 2008 to 2023 with the IASI observations. 
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/Sources_retrotrajectories_PAN_CO_AM_arrow_v4_NEW.pdf}
+    \caption[View from the source regions of trajectories based on IASI observations of CO\texttt{+}PAN plumes between June and October 2008--2023 impacting the study regions]{View from the source regions of trajectories based on IASI observations of CO\texttt{+}PAN plumes between June and October 2008--2023 impacting the study regions. The number of plumes that followed the trajectories shown is indicated next to each transport path. The color of the arrows corresponds to the regions receiving the plumes.}
+    \label{fig:pathways_origin}
+\end{figure}
+
+Table~\ref{table:summary_var_nbr_traj_sources} provides the number of plume trajectories originating from all study regions and impacting the regions of interest.
+
+Between June and October from 2008 to 2023, a total of 1\,607 trajectories were detected originating from Boreal Asia and Boreal and Temperate North America, and impacting the regions of interest. These accounted for 53\,\% of the total observed trajectories during this period.
+The number of plumes originating from Boreal and Temperate North America and Eastern Boreal Asia increased by 52\,\%, 45\,\%, and 25\,\%, respectively, during 2017--2023 compared to the entire 2008--2023 period. In contrast, plume trajectories originating from Europe and Eastern Central Asia showed a decline of 51\,\% and 29\,\%, respectively, over the same time frame.
+
+% \textcolor{red}{Pour cette section et la suivante: ajouter une discussion des transport pathways: le plus souvent vent d'ouest, mais pas toujours... Dans quelles situations météo transport depuis l'Asie vers l'Europe par exemple? Tu peux regarder champs ERA5 de pression surface et geopotentiel à 500hPa. Ce qui est fait souvent ce sont des clusters des situations correspondantes mais je pense vu le peu de trajectoires dans ce cas tu peux juste regarder "a la main" en faisant des cartes pour les differentes périodes correspondantes. Tu peux aussi te baser sur la litterature. }
+
+% \textcolor{orange}{Je propose de faire une étude en utilisant la classification de Jenkinson-Collison avec ERA5 \citet{fernandez-granjaExploringLimitsJenkinson2023}. Peut être plutôt mettre dans les perspectives ?}
+
+\begin{table}
+    \begin{center}
+      \caption{Yearly average number of plume trajectories observed in June--October 2008--2023 and evolution during recent years of the number of June--October plume trajectories. The recent evolution is calculated as the difference between the values averaged over the 2017--2023 period (recent period) minus values averaged over the 2008--2023 period (full period), so that the relative difference is defined as $(\overline{X_{recent}}-\overline{X_{full}})/\overline{X_{full}}$. Columns of the table correspond to source region and lines to receptor regions.}
+      \label{table:summary_var_nbr_traj_sources}
+    \begin{tabular}{|l|c|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+        \hline
+         \textbf{Variable ($X$)} & \begin{tabular}[c]{@{}c@{}}Boreal\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperate\\[-1.25ex] North America\end{tabular} & Europe & \begin{tabular}[c]{@{}c@{}}East. Boreal\\[-1.25ex] Asia\end{tabular} & \begin{tabular}[c]{@{}c@{}}East. Central\\[-1.25ex] Asia\end{tabular} \\
+        \hline
+        \hline
+        \multicolumn{6}{|l|}{\textbf{Number of trajectories observed, June--October 2008--2023 average}}	\\
+        \hline
+        Boreal North America & $ - $ & 12 & 0 & 9 & 3 \\  
+        \hline
+        Temperate North America & 7 & $ - $ & 0 & 2 & 0.4 \\    
+        \hline
+        Atlantic & 12 & 16 & 1 & 1.5 & 0 \\    
+        \hline
+        Europe & 10 & 11 & $ - $ & 1 & 0.5 \\    
+        \hline
+        East. Boreal Asia & 4 & 4.5 & 2 & $ - $ & 8 \\    
+        \hline
+        East. Central Asia & 1 & 2 & 0.75 & 9 & $ - $ \\    
+        \hline
+        \hline
+        \multicolumn{6}{|l|}{\textbf{Number of trajectories observed, June--October difference recent vs full period (\%)}}	\\
+        \hline
+        Boreal North America & $ - $ & 23 & $ - $ & 34 & -35 \\  
+        \hline
+        Temperate North America & 24 & $ - $ & $ - $ & 2 & -100 \\    
+        \hline
+        Atlantic & 46 & 29 & 14 & 62 & $ - $ \\    
+        \hline
+        Europe & 76 & 56 & $ - $ & 52 & 14 \\    
+        \hline
+        East. Boreal Asia & 55 & 110 & -83 & $ - $ & -27 \\    
+        \hline
+        East. Central Asia & 90 & 129 & -43 & 14 & $ - $ \\    
+        \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%VISION RECEPTEURS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Receptor to source}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Plumes originating from the identified source regions can disperse across the Northern Hemisphere, impacting background pollution levels in distant areas. This section examines the sources of plumes reaching each region of interest.
+
+Figure~\ref{fig:pathways_origin} highlights the contributions of various regions within the Northern Hemisphere to the long-range transport of plumes impacting the areas under study. Table~\ref{table:summary_var_nbr_traj_sources} provides the number of plume trajectories affecting these regions.
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/retrotrajectories_PAN_CO_AM_arrow_v4_NEW.pdf}
+    \caption{View from the receiving regions of trajectories based on IASI observations of CO\texttt{+}PAN plumes between June and October 2008--2023 originating from the following regions: North America (Boreal and Temperate), East Asia (Boreal and Central), Europe, Middle East, North Africa and Others. The term 'Others' refers to all other regions of the globe not mentioned above. Plumes for which the algorithm has been unable to find the origin are considered 'Undetermined'. The number of plumes that followed the trajectories shown is indicated next to each transport path, with the colour of the arrows corresponding to the source regions of the plumes.}
+    \label{fig:pathways_origin_receptor}
+\end{figure}
+
+
+The majority of trajectories observed over Europe were influenced by plumes originating from North America, with 326 trajectories detected, representing 45\,\% of the total trajectories observed. Additionally, plumes originating from Eastern Boreal Asia (16 trajectories, representing 2\,\% of the total trajectories observed), North Africa (171 trajectories, or 23\,\% of the total trajectories observed) and the Middle East (120 trajectories, or 16\,\% of the total trajectories observed) also impacted this region. 
+The number of trajectories from the boreal and temperate regions of North America and Eastern Boreal Asia exhibited a notable increase, reaching 76\,\%, 56\,\% and 52\,\% respectively during the period 2017--2023 compared with 2008--2023.
+
+A similar situation is observed over the Atlantic. The region is primarily affected by plumes from wildfires in North America, with 449 trajectories identified (representing 76\,\% of the total observed trajectories) and by plumes originating from eastern boreal Asia, with 26 trajectories (4\,\% of the total observed trajectories). The number of trajectories originating from the boreal and temperate North America and Eastern Boreal Asia exhibited an increase of 46\,\%, 29\,\%, and 62\,\%, respectively, during the period 2017--2023 in comparison to the period 2008--2023.
+
+The present work based on satellite observations shows that the majority of the plumes observed in the Northern Hemisphere originate from the boreal regions of East Asia and North America and the Temperate North America region. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Interannual variability of observed long-range transport events}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Figure~\ref{fig:bar_plot_origin} shows the number of CO\texttt{+}PAN grid cells associated with plumes, categorised by the most likely source region for each plume.
+The data suggest a predominantly local contribution in areas that are particularly prone to extreme fires, namely the boreal regions of North America and Asia, as well as temperate North America and East Central Asia. In these regions, most plumes originate from the same region or a neighbouring region. Boreal North America is also affected by plumes originating from East Boreal Asia. The plumes observed over the Atlantic and Europe are primarily sourced from North America.
+Several seasons stand out as being impacted by a particularly large number of plumes transported over the Northern Hemisphere: 2012, 2019, 2021, 2023. The MODIS observations of fire activity in the different source regions are used to further analyse the situation in each of these seasons.
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{fig/bar_plot_origine_PAN_CO_AM_v4_NEW.pdf}
+    \caption[Total number of CO\texttt{+}PAN plume grid cells per year identified between June and October over Boreal and Temperate North America, Atlantic, Europe, Eastern Boreal and Central Asia]{Total number of CO\texttt{+}PAN plume grid cells per year identified between June and October over Boreal and Temperate North America, Atlantic, Europe, Eastern Boreal and Central Asia. The total number of CO\texttt{+}PAN plume grid cells is distributed according to the estimated origin of the plumes. The source regions distinguished here are Boreal and Temperate North America, Europe, Atlantic, Eastern and Western Boreal and Central Asia, Other and Undetermined. The term 'Others' refers to all other regions of the globe not mentioned above. Plumes for which the algorithm has been unable to find the origin are considered 'Undetermined'.}
+    \label{fig:bar_plot_origin}
+\end{figure}
+
+
+In 2012, a significant number of extreme grid cells are identified as originating from from Western Boreal Asia. The detected plumes exhibited a west-to-east trajectory, dispersing across the northern hemisphere and gradually diluting during transport. This increase in extreme grid cells can be attributed to the intense fire activity in Western Boreal Asia during June and July of that year. Approximately 0.5\texttimes 10\textsuperscript{6}\,ha were burned in June, increasing to 1.0\texttimes 10\textsuperscript{6}\,ha in July. These values represent a fivefold increase over the June monthly average for 2008--2023 (0.1\texttimes 10\textsuperscript{6}\,ha) and a 3.6-fold increase over the July monthly average (0.27\texttimes 10\textsuperscript{6}\,ha). Fire activity was particularly intense, with maximum daily FRP averaging 248\,MW in June and 390\,MW in July -- 2.8 times and 2.7 times higher, respectively, than the corresponding monthly averages for 2008--2023 (88\,MW in June and 142\,MW in July). \citet{gorchakovSatelliteGroundbasedMonitoring2014,sitnovFormaldehydeNitrogenDioxide2017} have shown that this event occurred in the context of extreme meteorological conditions, characterised by atmospheric blockages that facilitated the rapid spread of fire. The long-range transported plumes detected using the methodology outlined in this paper are consistent with the results from \citet{antokhinDistributionTraceGases2018}, who observed elevated levels of pollutants from fires in both the lower and free troposphere (4-5\,km) during their airborne campaign.
+
+
+%-----------------------------
+
+
+The situation in 2019 is relatively similar to that in 2012. As detailed by \citet{bondurSatelliteMonitoringSiberian2020a}, the formation of an atmospheric blocking event over Siberia, which persisted for an extended period, resulted in elevated temperatures and a lack of precipitation, thereby fostering the development of extreme wildfires.
+We observed that significant areas were affected in eastern Siberia during the months of July and August, with burned areas reaching 2.3\texttimes 10\textsuperscript{6}\,ha and 1.4\texttimes 10\textsuperscript{6}\,ha, respectively. This is equivalent to twice the average burned area during the same months from 2008 to 2023, at 1.2\texttimes 10\textsuperscript{6}\,ha and 0.8\texttimes 10\textsuperscript{6}\,ha, respectively. 
+The emissions from these fires were found to be significantly higher compared to previous years \citep{voronovaAnomalousWildfiresSiberia2020}. \citet{johnsonLongrangeTransportSiberian2021} and \citet{kostrykinBlackCarbonEmissions2021} show that these emissions impacted western Canada, which is consistent with the observations made in this study. However, the plumes' origins estimated using IASI indicate that the plumes originated in the boreal regions of western Asia, whereas it would appear that the intense fires took place to the east. This inconsistency is discussed in section~\ref{sect:conclu_chap4}.
+
+
+%-----------------------------
+
+In 2021, detected plumes from Eastern Boreal Asia and temperate North America significantly affected the entire Northern Hemisphere. \citep{hayasakaRareExtremeWildland2021,tomshinFeaturesExtremeFire2022,zhengRecordhighCO2Emissions2023} show that these two regions experienced, simultaneously, a substantial water deficit, thereby increasing the risk of extreme fires .
+In Eastern Boreal Asia, intense fire activity led to the burning of 3.45\texttimes 10\textsuperscript{6}\,ha in July and 3.1\texttimes 10\textsuperscript{6}\,ha in August. These figures represent a 2.7-fold increase compared to the July average for 2008--2023 (1.2\texttimes 10\textsuperscript{6}\,ha) and a fourfold increase relative to the August average for the same period (0.78\texttimes 10\textsuperscript{6}\,ha). Fire intensity was also exceptional, with the monthly average maximum daily FRP reaching 738\,MW in July and 580\,MW in August, 1.6 and 1.8 times higher, respectively, than the 2008--2023 averages.
+Similarly, temperate North America experienced widespread fires in July (0.53\texttimes 10\textsuperscript{6}\,ha or 2.3 times the July average), August (0.71\texttimes 10\textsuperscript{6}\,ha or 1.9 times the August average), and September (0.40\texttimes 10\textsuperscript{6}\,ha, 1.3 times the September average). These fires were notably intense, with monthly average maximum daily FRP values of 1193\,MW in July, 1427\,MW in August, and 913 MW in September -- 2.8, 1.9, and 1.6 times higher than the respective 2008--2023 averages (432\,MW in July, 762\,MW in August and 577\,MW in September). These extreme events have also been highlighted by \citet{cunninghamIncreasingFrequencyIntensity2024}.
+The impact of these fires on air quality in the United States has been considerable \citep{burkeContributionWildfirePM252023}. \citet{tomshinFeaturesExtremeFire2022} demonstrated that plumes from fires in Siberia have impacted Alaska, which is consistent with our analysis.
+
+%-----------------------------
+
+We observed that in 2023, the majority of plumes had their origin in Boreal North America in accordance with \citet{jonesStateWildfires202320242024}. The region experienced exceptionally high fire activity from June to September, with 3.5\texttimes 10\textsuperscript{6}\,ha burned in June, 2.3\texttimes 10\textsuperscript{6}\,ha in July, 1.5\texttimes 10\textsuperscript{6}\,ha in August, and 1.2\texttimes 10\textsuperscript{6}\,ha in September. These values represent a 6.5-fold increase in June, 2.8-fold in July, 3.5-fold in August, and 8.5-fold in September compared to the respective monthly averages for 2008--2023 (0.5\texttimes 10\textsuperscript{6}\,ha in June, 0.8\texttimes 10\textsuperscript{6}\,ha in July, 0.4\texttimes 10\textsuperscript{6}\,ha in August, and 0.1\texttimes 10\textsuperscript{6}\,ha in September).
+Fire intensity was also notable during this period. The monthly average maximum daily FRP reached 830\,MW in July, 1132\,MW in August, and 1043\,MW in September, surpassing the 2008--2023 averages by factors of 1.4, 1.8, and 3.4, respectively (600\,MW in July, 614\,MW in August, and 306\,MW in September). \citet {cunninghamIncreasingFrequencyIntensity2024} show that the number of extreme fires in 2023 was the highest observed since 2003, with a 7-fold increase in boreal forests.
+As explained by \citet{jainDriversImpactsRecordBreaking2024}, the drivers of this record fire season in Canada include early snowmelt, multi-year drought conditions in western Canada and the rapid transition to drought in eastern Canada.
+In the eastern United States, smoke plumes severely degraded air quality \citep{koldenWildfires20232024,chenCanadianRecordbreakingWildfires2025}. Furthermore, \citet{wangSevereGlobalEnvironmental2024} demonstrate that fire plumes have also reached Europe, a finding that is consistent with IASI observations. 
+
+
+%-----------------------------
+
+%-----------------------------
+\section{Conclusion and discussion}\label{sect:conclu_chap4}
+%----------------------------- 
+%----------------------------- 
+% \conclusions\label{sect:conclu_chap4}
+%----------------------------- 
+%----------------------------- 
+
+The present study proposes an algorithm for the detection of extreme pollution plumes and the calculation of the back trajectories of these plumes. These calculations are based solely on satellite observations of the total column of CO and PAN by the IASI instrument. 
+
+A comparison was made between the extremes of CO observed by IAGOS and IASI CO\texttt{+}PAN plumes. The results demonstrate a high degree of agreement between the two databases when the most extreme values observed by IAGOS are considered. 
+
+
+A comparison was made between the transport pathways and plume origins obtained with IASI and FLEXPART back trajectories, with consistent results obtained. 
+
+The identification of plumes enables the study of variability in their intensity, i.e. the variations in total CO and PAN in the plumes and those in the number of grid cells considered as a plume. A decline in plume intensity is observed in the Eastern Central Asia region during the period 2017--2023 compared to the 2008--2023 period for both indicators, with a 4.2\,\% decrease in total CO and a 2.84\,\% decrease in total PAN in plumes. Additionally, a 23\,\% decrease is observed in the number of CO\texttt{+}PAN grid cells considered as plumes.
+In regions exhibiting intense fire activity (Boreal North America, Temperate North America, Eastern Boreal Asia) or located downwind of these regions (Atlantic, Europe), a 0.35\,\% to 1.9\,\% increase in total columns in plumes was observed in 2017--2023 compared with 2008--2023 for CO, and a 0.5\,\% to 1.25\,\% increase for PAN. Furthermore, the proportion of CO\texttt{+}PAN grid cells categorised as plumes has increased in these regions from 15.3\,\% to 59.5\,\% in recent years compared with the whole period. 
+
+
+%In comparison with other satellite instruments, such as MOPITT, IASI tends to overestimate the extremes of CO
+Comparisons of IASI instrument with other satellite instruments, such as MOPITT, demonstrates the presence of biases between instruments with regard to CO extremes \citep{georgeExaminationLongtermCO2015}. These bias may result in an overestimation or underestimation of the influence of extremes on the variability of the mean values of total CO and PAN. 
+However, the sensitivity study based on IASI observations (Section~\ref{variability_chap4}) shows that, in regions where average total CO and PAN increased between 2008--2023 and 2017--2023, this rise in plume intensity is mainly driven by the larger spatial extent of the plumes, rather than by higher total CO and PAN within them.
+Nevertheless, it should be noted that this sensitivity study assumes perfect observations and the results should therefore be considered with caution. A more complete sensitivity study based on a chemistry-transport model would be necessary. 
+
+
+The IASI-based back-trajectory algorithm has been used to calculate the most likely trajectories of the plumes that have been identified between 2008 and 2023. A significant proportion of these plumes (51\,\%) emanate from the Boreal and Temperate North America and Eastern Boreal Asia regions, with an increase from 28\,\% to 47\,\% between 2017--2023 in comparison to the 2008--2023 period. An in-depth analysis of the receiving regions has also been conducted. It has been demonstrated, for instance, that Europe and the Atlantic are particularly impacted by plumes originating in North America (45\,\% of the total plumes observed in Europe). The study of plume transport pathways as a function of meteorological conditions using, for example, Jenkinson-Collison classifications \citep{fernandez-granjaExploringLimitsJenkinson2023} is envisaged to complete the study of plume sources and receptors.
+
+
+
+The back-trajectory method presented in this study is subject to a number of biases. Firstly, the plume selection method is restricted to plumes with the most extreme total CO and total PAN values. Secondly, the use of the algorithm is limited to the largest plumes, due to the gridding of observations on a 0.5\textdegree \texttimes 0.5\textdegree\ grid and the consideration of plumes observed on two consecutive days. Furthermore, the selection of 20\textdegree \texttimes 24\textdegree\ boxes introduces a bias in the origin of the plumes, as the origin of a plume may be attributed to a box close to the actual origin when the fire generating the plume occurs close to the boundary between two boxes. This bias can be mitigated by constraining the algorithm with burned surface data. Some plumes may also be undetected because of missing observations due to cloud cover. Finally, while the algorithm provides all the probabilities of the possible origins of a plume, determining the contribution of the different source regions when several plumes mix is difficult, if not impossible. In some cases, the distinction between two overlapping plumes could be made using plume altitude data. Despite these biases, the algorithm appears to correctly identify the most extreme plume trajectories and origins.  
+
+
+
+
+Despite the use of a single daily observation and the lack of data in specific regions due to cloud cover, it is demonstrated that the estimation of the trajectories and origins of the most extreme CO and PAN plumes is achievable through the use of satellite observations. This development provides a rapid tool for the estimation of the origin of pollution plumes that does not necessitate the employment of complex models. 
+
+
+
+
+%% The following commands are for the statements about the availability of data sets and/or software code corresponding to the manuscript.
+%% It is strongly recommended to make use of these sections in case data sets and/or software code have been part of your research the article is based on.
+
+\codeavailability{} %% use this section when having only software code available
+
+
+\dataavailability{The IASI L2 Carbon Monoxide (CO) Climate Data Record (CDR) data are distributed by EUMETSAT through the EUMETSAT Data Store
+(\url{http://doi.org/10.15770/EUM_SAF_AC_0047}, last access: 7 October 2024). 
+The analysis of fire activity is conducted using MODIS MCD64 and MOD14 products. MCD64A1.061 product is used for burned area, MOD14A1.061 and MYD14A1.061 for active fires. The MODIS MCD64 and MOD14 products were retrieved from the NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota (\url{https://lpdaac.usgs.gov/products/mcd64a1v061/}, last access: 7 October 2024, and \url{https://lpdaac.usgs.gov/products/mod14v061/}, last access: 7 October 2024). 
+The analysis of aerosol plumes is conducted using MODIS aerosol optical depth products. The MODIS MOD04\_L2 and MYD04\_L2 products were retrieved from the NASA EOSDIS Level-1 and Atmosphere Archive \& Distribution System Distributed Active Archive Center (LAADS DAAC), Goddard Space Flight Center, Greenbelt, Maryland (\url{https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD04_L2}, last access: 7 October 2024, and \url{https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MYD04_L2}, last access: 7 October 2024). 
+The ERA5 dataset used to compute the fire weather index is the fifth generation atmospheric reanalysis of the global climate produced by the Copernicus Climate Change Service (C3S) at ECMWF and is distributed via the Copernicus Climate Data Store (\url{https://cds.climate.copernicus.eu/datasets/reanalysis-era5-complete?tab=overview}, last access: 7 October 2024).}
+
+
+\codedataavailability{} %% use this section when having data sets and software code available
+
+
+\sampleavailability{} %% use this section when having geoscientific samples available
+
+
+\videosupplement{} %% use this section when having video supplements available
+
+
+\appendix
+\section{Additional figures}    %% Appendix A
+
+
+
+\begin{table}
+    \begin{center}
+      \caption{Trends and evolution during recent years for key variables $X$ of total CO during June--October. The recent evolution of a given variable $X$ is calculated as the difference between the values averaged over the 2017--2023 period (recent period, $X_{recent}$) minus values averaged over the 2008--2023 period (full period, $X_{full}$), so that the relative difference is defined as $(\overline{X_{recent}}-\overline{X_{full}})/\overline{X_{full}}$. The symbol $^\ast$ for Eastern Boreal Asia indicates that for this region the total CO 95\textsuperscript{th} percentile is used instead of the total CO 97\textsuperscript{th} percentile. Only significant trends (p<0.1) are provided.}
+      \label{table:summary_var_concentration}
+    \begin{tabular}{|l|c|c|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+        \hline
+         \textbf{Variable ($X$)} & \begin{tabular}[c]{@{}c@{}}Boreal\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperate\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Atlantic\end{tabular} & Europe & \begin{tabular}[c]{@{}c@{}}East. Boreal\\[-1.25ex] Asia\end{tabular} & \begin{tabular}[c]{@{}c@{}}East. Central\\[-1.25ex] Asia\end{tabular} \\
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total CO, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex](\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2})\end{tabular} &  2.1 &  1.9 & 2.0  &  2.0 & 2.2  &  2.4 \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ &  -0.4 \\    
+        \hline
+        Difference recent vs full period (\%) & 1.30 & 1.44 & 2.6 & 1.6 & 0.8 & -2.7 \\    
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total CO inside plumes, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex](\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2})\end{tabular} & 4.3  & 3.7  & 3.4  & 3.0  &  4.6 & 4.4  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & 1.2 & $ - $ & 0.7 & $ - $ & -0.7  \\ 
+        \hline
+        Difference recent vs full period (\%) & 1.18 & 1.91 & 1.0 & 0.35 & 1.57 & -4.2 \\    
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Background total CO, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex](\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2})\end{tabular} &  2.0 & 1.9  &  1.9 &  1.9 & 2.1  & 2.3  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ & $ - $   \\  
+        \hline
+        Difference recent vs full period (\%) & -1.7 & -0.5 & 0.0 & -0.3 & 0.0 & -1.2 \\       
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total CO 97\textsuperscript{th} percentile, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex](\texttimes 10\textsuperscript{18}\,molecules.cm\textsuperscript{-2})\end{tabular} &  3.4 & 3.5 & 3.0 &  2.7 & 3.1* &  3.7 \\ 
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ & -0.96  \\  
+        \hline
+        Difference recent vs full period (\%) & 8.5 & 11.6 & 7.3 & 5.4 & 2.6* & -4.9 \\    
+        \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+    \begin{center}
+      \caption{Trends and evolution during recent years for key variables $X$ of total PAN during June--October. The recent evolution of a given variable $X$ is calculated as the difference between the values averaged over the 2017--2023 period (recent period, $X_{recent}$) minus values averaged over the 2008--2023 period (full period, $X_{full}$), so that the relative difference is defined as $(\overline{X_{recent}}-\overline{X_{full}})/\overline{X_{full}}$. The symbol $^\ast$ for Eastern Boreal Asia indicates that for this region the total PAN 95\textsuperscript{th} percentile is used instead of the total PAN 97\textsuperscript{th} percentile. Only significant trends (p<0.1) are provided.}
+      \label{table:summary_var_concentration_PAN}
+    \begin{tabular}{|l|c|c|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+        \hline
+         \textbf{Variable ($X$)} & \begin{tabular}[c]{@{}c@{}}Boreal\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperate\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Atlantic\end{tabular} & Europe & \begin{tabular}[c]{@{}c@{}}East. Boreal\\[-1.25ex] Asia\end{tabular} & \begin{tabular}[c]{@{}c@{}}East. Central\\[-1.25ex] Asia\end{tabular} \\
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total PAN, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex]($\times$ 10$^\textrm{15}$ molecules.cm$^\textrm{-2}$)\end{tabular} & 5.2  & 5.4  &  4.2 &  5.0 &  6.2 & 4.9  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ &  $ - $ \\  
+        \hline
+        Difference recent vs full period (\%) & 2.05 & 2.4 & 2.0 & 0.62 & 0.18 & -1.14 \\  
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total PAN inside plumes, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex]($\times$ 10$^\textrm{15}$ molecules.cm$^\textrm{-2}$)\end{tabular} & 13  &  11 & 10  & 10  &  14 & 11  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ &  -1.0 \\    
+        \hline
+        Difference recent vs full period (\%) & 1.25 & 1.19 & 0.71 & -0.78 & 0.53 & -2.84 \\  
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Background total PAN, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex](\texttimes 10\textsuperscript{15}\,molecules.cm\textsuperscript{-2})\end{tabular} &  4.8 & 4.0  &  3.9 & 4.7 & 5.8  & 4.6  \\ 
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ & $ - $   \\  
+        \hline
+        Difference recent vs full period (\%) & -1.0 & -0.2 & 0.4 & 0.7 & 0.0 & 0.7 \\       
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Total PAN 97\textsuperscript{th} percentile, June--October regional average}}	\\
+        \hline
+    \begin{tabular}[l]{@{}l@{}} Mean 2008--2023 \\[-1.25ex]($\times$ 10$^\textrm{15}$ molecules.cm$^\textrm{-2}$)\end{tabular} &  10.2 & 10.7 & 8.4 &  9.4 & 10.3* & 9.4  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & $ - $ & $ - $ & $ - $ & $ - $ & $ - $ &  -0.6 \\  
+        \hline
+        Difference recent vs full period (\%) & 3.9 & 4.8 & 0.8 & -1.3 & -0.8* & -4.2 \\ 
+        \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}
+    \begin{center}
+      \caption{Trends and evolution during recent years for CO-only, PAN-only and CO\texttt{+}PAN plumes' extent during June--October. The recent evolution of a given variable $X$ is calculated as the difference between the values averaged over the 2017--2023 period (recent period, $X_{recent}$), minus values averaged over the 2008--2023 period (full period, $X_{full}$), so that the relative difference is defined as $(\overline{X_{recent}}-\overline{X_{full}})/\overline{X_{full}}$. Only significant trends (p<0.1) are provided.}
+      \label{table:summary_var_grid}
+    \begin{tabular}{|l|c|c|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+        \hline
+         \textbf{Variable ($X$)} & \begin{tabular}[c]{@{}c@{}}Boreal\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperate\\[-1.25ex] North America\end{tabular} & \begin{tabular}[c]{@{}c@{}}Atlantic\end{tabular} & Europe & \begin{tabular}[c]{@{}c@{}}East. Boreal\\[-1.25ex] Asia\end{tabular} & \begin{tabular}[c]{@{}c@{}}East. Central\\[-1.25ex] Asia\end{tabular} \\
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Number of grid cells identified within CO\texttt{+}PAN plumes, regional June--October total}}	\\
+        \hline
+        Mean 2008--2023 (\texttimes 10\textsuperscript{3}) &  32.4 & 23.9  & 13.7  & 37.5  & 40.4  & 14.1  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & 276 & $ - $ & $ - $ & $ - $ & $ - $ & $ - $  \\    
+        \hline
+        Difference recent vs full period (\%) & 50.9 & 41.4 & 59.5 & 43.2 & 15.3 & -23.0 \\    
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Number of grid cells identified within CO plumes, regional June--October total}}	\\
+        \hline
+        Mean 2008--2023 (\texttimes 10\textsuperscript{3}) & 23.6  &  13.4 &  9.2 & 22.3  & 30.4  & 6.9  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & 72.1 & 46.8 & $ - $ & $ - $ & $ - $ & $ - $   \\  
+        \hline
+        Difference recent vs full period (\%) & 58.0  & 69.2  & 82.2 & 78.4 &  20.9 & -28.4  \\
+        \hline
+        \hline
+        \multicolumn{7}{|l|}{\textbf{Number of grid cells identified within PAN plumes, regional June--October total}}	\\
+        \hline
+        Mean 2008--2023 (\texttimes 10\textsuperscript{3}) & 17.2  & 14.4  & 6.1  & 18.4  & 19.6  & 8.7  \\
+        \hline
+        Trend 2008--2023 (\%.year\textsuperscript{-1}) & 42.7 & $ - $ & $ - $ & $ - $ & $ - $ & $ - $  \\  
+        \hline
+        Difference recent vs full period (\%) & 48.0 &  22.5 & 31.8  & 5.5  &  9.2 & -23.4  \\   
+       \hline
+\end{tabular}   
+\end{center}
+\end{table}
+  
+
+\begin{figure}[h!]
+    \includegraphics[width=0.9\textwidth]{fig/fig_total_BA_JJASO_2018.pdf}
+    \caption{(a) Total burned area during June--October derived from MODIS observations, for year 2018. (b) CO total column observed by the IASI instrument, averaged on a 0.5\textdegree \texttimes 0.5\textdegree\ grid for June--October 2018. (c) PAN total column observed by the IASI instrument, averaged on a 0.5\textdegree \texttimes 0.5\textdegree\ grid for June--October 2018.}
+    \label{fig:BA_2018}
+\end{figure}
+
+\begin{figure}[h!]
+    \begin{center}
+    \includegraphics[width=0.7\textwidth]{fig/wind_august2018_500hPa2.pdf}
+    \caption[Average zonal wind and anomalies at 500 hPa for the month of August 2018 according to ERA5 data]{(a) Average zonal wind at 500 hPa for the month of August 2018 according to ERA5 data. (b) Anomalies in the average zonal wind at 500 hPa for the month of August 2018 compared with all August months between 2008--2023.\label{fig:wind}}
+    \end{center}
+\end{figure}
+
+
+
+
+% \vspace*{10pt}
+% \begin{figure}
+%     \begin{center}
+%     \includegraphics[width=\textwidth]{fig/fig_earth_for_ts_newLocations2.pdf}
+%     \caption[Time series of daily average total CO (blue curve) between June and October 2018 for the different locations selected for the ratio method presented in section~\ref{sect:descrip_flexpart_chap4}]{Time series of daily average total CO (blue curve) between June and October 2018 for the different locations selected for the ratio method presented in section~\ref{sect:descrip_flexpart_chap4}. The yellow curve corresponds to the 5-day rolling average of daily average total CO. For each month between June and October, the monthly average total CO is shown by the green curve. The month of August 2018 is delimited by the vertical lines.\label{fig:locs_ratio}}
+
+%     \end{center}
+% \end{figure}
+
+
+
+% \subsection{}     %% Appendix A1, A2, etc.
+
+
+\noappendix       %% use this to mark the end of the appendix section. Otherwise the figures might be numbered incorrectly (e.g. 10 instead of 1).
+
+%% Regarding figures and tables in appendices, the following two options are possible depending on your general handling of figures and tables in the manuscript environment:
+
+%% Option 1: If you sorted all figures and tables into the sections of the text, please also sort the appendix figures and appendix tables into the respective appendix sections.
+%% They will be correctly named automatically.
+
+%% Option 2: If you put all figures after the reference list, please insert appendix tables and figures after the normal tables and figures.
+%% To rename them correctly to A1, A2, etc., please add the following commands in front of them:
+
+% \appendixfigures  %% needs to be added in front of appendix figures
+
+% \appendixtables   %% needs to be added in front of appendix tables
+
+%% Please add \clearpage between each table and/or figure. Further guidelines on figures and tables can be found below.
+
+\clearpage
+
+\authorcontribution{} %% this section is mandatory : AE and ST conceptualised the paper and developed the methodology. AE carried out the analysis and designed the figures. AE and ST wrote the original draft. MG, JHL and CC have verified the correct use of the data. AE, ST, MG, JHL and CC reviewed and edited the paper. All authors have read and agreed to the final version of the paper.
+
+\competinginterests{The contact author has declared that none of the authors has any competing interests.
+} %% this section is mandatory even if you declare that no competing interests are present
+
+\disclaimer{} %% optional section
+
+\begin{acknowledgements}
+% A. Ehret received a grant from CNES. The authors would like to thank CNES for its financial support to the FIRESAT project. IASI is a joint mission of EUMETSAT and the Centre National d'Etudes Spatiales (CNES, France). The authors acknowledge the AERIS data infrastructure for providing access to the IASI data in this study, ULB-LATMOS for the development of the retrieval algorithms, and EUMETSAT/AC SAF for CO data production. The authors acknowledge the LP DAAC (\url{https://lpdaac.usgs.gov/}, last access: 7 October 2024), the LAADS DAAC (\url{https://ladsweb.modaps.eosdis.nasa.gov/}, last access: 7 October 2024) and the Copernicus Climate Data Store (\url{https://cds.climate.copernicus.eu/}, last access: 7 October 2024) for providing MODIS and ERA5 data. 
+% The authors would like to thank the ESPRI mesocentre at IPSL for access to computing resources and support in exploiting the data.
+% MOZAIC/CARIBIC/IAGOS data were created with support from the European Commission, national agencies in Germany (BMBF), France (MESR), and the UK (NERC), and the IAGOS member institutions (\url{http://www.iagos.org/partners}). The participating airlines (Lufthansa, Air France, Austrian, China Airlines, Hawaiian Airlines, Air Canada, Iberia, Eurowings Discover, Cathay Pacific, Air Namibia, Sabena) supported IAGOS by carrying the measurement equipment free of charge since 1994. The data are available at \url{http://www.iagos.fr} thanks to additional support from AERIS.
+\end{acknowledgements}
+
+
+
+
+%% REFERENCES
+
+%% The reference list is compiled as follows:
+
+% \begin{thebibliography}{}
+
+% \bibitem[AUTHOR(YEAR)]{LABEL1}
+% REFERENCE 1
+
+% \bibitem[AUTHOR(YEAR)]{LABEL2}
+% REFERENCE 2
+
+% \end{thebibliography}
+
+\bibliographystyle{copernicus}
+\bibliography{mabiblio.bib}
+
+%% Since the Copernicus LaTeX package includes the BibTeX style file copernicus.bst,
+%% authors experienced with BibTeX only have to include the following two lines:
+%%
+%% \bibliographystyle{copernicus}
+%% \bibliography{example.bib}
+%%
+%% URLs and DOIs can be entered in your BibTeX file as:
+%%
+%% URL = {http://www.xyz.org/~jones/idx_g.htm}
+%% DOI = {10.5194/xyz}
+
+
+%% LITERATURE CITATIONS
+%%
+%% command                        & example result
+%% \citet{jones90}|               & Jones et al. (1990)
+%% \citep{jones90}|               & (Jones et al., 1990)
+%% \citep{jones90,jones93}|       & (Jones et al., 1990, 1993)
+%% \citep[p.~32]{jones90}|        & (Jones et al., 1990, p.~32)
+%% \citep[e.g.,][]{jones90}|      & (e.g., Jones et al., 1990)
+%% \citep[e.g.,][p.~32]{jones90}| & (e.g., Jones et al., 1990, p.~32)
+%% \citeauthor{jones90}|          & Jones et al.
+%% \citeyear{jones90}|            & 1990
+
+
+
+%% FIGURES
+
+%% When figures and tables are placed at the end of the MS (article in one-column style), please add \clearpage
+%% between bibliography and first table and/or figure as well as between each table and/or figure.
+
+% The figure files should be labelled correctly with Arabic numerals (e.g. fig01.jpg, fig02.png).
+
+
+%% ONE-COLUMN FIGURES
+
+%%f
+%\begin{figure}[t]
+%\includegraphics[width=8.3cm]{FILE NAME}
+%\caption{TEXT}
+%\end{figure*}
+%
+%%% TWO-COLUMN FIGURES
+%
+%%f
+%\begin{figure*}[t]
+%\includegraphics[width=12cm]{FILE NAME}
+%\caption{TEXT}
+%\end{figure*}
+%
+%
+%%% TABLES
+%%%
+%%% The different columns must be seperated with a & command and should
+%%% end with \\ to identify the column brake.
+%
+%%% ONE-COLUMN TABLE
+%
+%%t
+%\begin{table}[t]
+%\caption{TEXT}
+%\begin{tabular}{column = lcr}
+%\tophline
+%
+%\middlehline
+%
+%\bottomhline
+%\end{tabular}
+%\belowtable{} % Table Footnotes
+%\end{table*}
+%
+%%% TWO-COLUMN TABLE
+%
+%%t
+%\begin{table*}[t]
+%\caption{TEXT}
+%\begin{tabular}{column = lcr}
+%\tophline
+%
+%\middlehline
+%
+%\bottomhline
+%\end{tabular}
+%\belowtable{} % Table Footnotes
+%\end{table*}
+%
+%%% LANDSCAPE TABLE
+%
+%%t
+%\begin{sidewaystable*}[t]
+%\caption{TEXT}
+%\begin{tabular}{column = lcr}
+%\tophline
+%
+%\middlehline
+%
+%\bottomhline
+%\end{tabular}
+%\belowtable{} % Table Footnotes
+%\end{sidewaystable*}
+%
+%
+%%% MATHEMATICAL EXPRESSIONS
+%
+%%% All papers typeset by Copernicus Publications follow the math typesetting regulations
+%%% given by the IUPAC Green Book (IUPAC: Quantities, Units and Symbols in Physical Chemistry,
+%%% 2nd Edn., Blackwell Science, available at: http://old.iupac.org/publications/books/gbook/green_book_2ed.pdf, 1993).
+%%%
+%%% Physical quantities/variables are typeset in italic font (t for time, T for Temperature)
+%%% Indices which are not defined are typeset in italic font (x, y, z, a, b, c)
+%%% Items/objects which are defined are typeset in roman font (Car A, Car B)
+%%% Descriptions/specifications which are defined by itself are typeset in roman font (abs, rel, ref, tot, net, ice)
+%%% Abbreviations from 2 letters are typeset in roman font (RH, LAI)
+%%% Vectors are identified in bold italic font using \vec{x}
+%%% Matrices are identified in bold roman font
+%%% Multiplication signs are typeset using the LaTeX commands \times (for vector products, grids, and exponential notations) or \cdot
+%%% The character * should not be applied as mutliplication sign
+%
+%
+%%% EQUATIONS
+%
+%%% Single-row equation
+%
+%\begin{equation}
+%
+%\end{equation}
+%
+%%% Multiline equation
+%
+%\begin{align}
+%& 3 + 5 = 8\\
+%& 3 + 5 = 8\\
+%& 3 + 5 = 8
+%\end{align}
+%
+%
+%%% MATRICES
+%
+%\begin{matrix}
+%x & y & z\\
+%x & y & z\\
+%x & y & z\\
+%\end{matrix}
+%
+%
+%%% ALGORITHM
+%
+%\begin{algorithm}
+%\caption{...}
+%\label{a1}
+%\begin{algorithmic}
+%...
+%\end{algorithmic}
+%\end{algorithm}
+%
+%
+%%% CHEMICAL FORMULAS AND REACTIONS
+%
+%%% For formulas embedded in the text, please use \chem{}
+%
+%%% The reaction environment creates labels including the letter R, i.e. (R1), (R2), etc.
+%
+%\begin{reaction}
+%%% \rightarrow should be used for normal (one-way) chemical reactions
+%%% \rightleftharpoons should be used for equilibria
+%%% \leftrightarrow should be used for resonance structures
+%\end{reaction}
+%
+%
+%%% PHYSICAL UNITS
+%%%
+%%% Please use \unit{} and apply the exponential notation
+
+
+\end{document}
+
