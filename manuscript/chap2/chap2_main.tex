@@ -32,7 +32,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Here I say the thesis has been a modelling thesis, I have participated to no obs. campaign, so I will describe only ligthly the measurement setups of the observational data I used.
-See intro of Khvorostyanov about correspondance principle.
+See intro of Khvorostyanov about correspondence principle.
+
+In the 1910s, the Danish physicist Niels Bohr (1885-1962)\----known for the first application of Plank's quantum theory to atomic structure models\---- formulated the \textit{correspondence principle}.
+Rapidly become one of the fundamental physics principles, the correspondence principle is nowadays at the heart of many theoretical disciplines.
+It states that any new parametrisation, or model, dedicated to describe an observational phenomenon, should generalise the previous working theory and do not reject it. The old theory would then become a particular case of the new one.
+In their immensely complete book about cloud physics \citep{curry_thermodynamics_2014}, the atmosphericists Khvorostyanov and Curry explain:
+\begin{quote}
+    The new theory contains a new parameter absent in the previous theory; when its value tends to some limiting value, the new theory transforms into the old theory. [...]A newer theory should be able to express the empirical parameters of the previous theories or parametrisations via physical constants. 
+\end{quote}
+
+The correspondence principle acts as powerful tool for understanding the world in a systematic way. When science strives to provide a mathematical\----that is, formal\----description of natural phenomena, Bohr’s principle offers the framework for developing sound theories that serve science’s ultimate goal: understanding.
+\vspace{\baselineskip}
+
+As suggested by its title, this thesis is the achievement of three years of modelling work. Modelling within the meaning of testing and developing descriptive theories of the world as we observe it, but also of sandbox playing in order to understand why is the world the way we see it.
+%As observational science focus on observing the nature as it is, with minimal bias, modelling strives to understand why is 
+
+% what we use
+In this chapter, will be presented the technical tools used in the next chapters work.
+First, we will go through the main tools of the modellers, the models.
+Next, we will talk more specifically of parametrising the physics of aerosol-cloud interactions, and how to apply the correspondence principle.
+Finally, the observational material used during this thesis will be briefly presented. Since I have not participated to any Arctic measurement campaign during my thesis, I will not dwell on a topic where my knowledge is lacking of experience.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Models and related tools}
@@ -57,6 +77,8 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
     \subsection{The Weather Research and Forecast model}
     \label{sec:wrf}
     The Weather Research and Forecasting model (WRF) is a numerical mesoscale atmospheric simulation model \citep{skamarock_description_2022}. Its development began in the 1990s and has since brought together a large international community. The original design objectives of WRF followed two main directions: short-term weather prediction through data assimilation, and regional climate simulation for research purposes. For more than twenty years, WRF has been the research tool of several tens of thousands of scientists worldwide and has become the primary framework for developing parametrisations of numerous physico-chemical processes for climate models.
+
+    WRF can be guided by different reanalysis data. In this thesis have been used Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, and ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_era5_2017}.
 
     % setup of wrf
     In this thesis, WRF was used to provide the meteorological fields required to run FLEXPART-WRF, the LPDM presented in Sect.~\ref{sec:flexpart}.
@@ -84,9 +106,15 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
 %-----------------------------------------------
     \subsection{WRF including chemistry: WRF-Chem}
     \label{sec:wrfchem}
+    The Weather Research and Forecast model including chemistry (WRF-Chem), is a CTM coupled with WRF\citep{grell_fully_2005}. It is fully integrated within the physics of WRF and shares its modelling mechanics.
+    It can be seen as an extended version of WRF that includes chemistry, aerosols and photolysis mechanisms. For the latter, and even for the physical part of the model, a great variety of schemes can be used, which makes WRF-Chem a highly modular model. Thus, complexity can be controlled in order to put the emphasise on specific chemical or physical aspects, making the model as light as possible for the intended use.
+    Most of the WRF-Chem mechanisms are online, that is to say they interact with each others, especially between chemistry and physics. In the following, we will say explicitly if a chemical tracer is physically passive.
+    This property makes it ideal to study aerosol particles emissions and transport, as well as aerosol-cloud interactions.
 
-    WRF-Chem has been used in many recent studies to investigate atmospheric compounds, from the role of aerosols particles on clouds \citep{marelle_aerosol_2025} to the contribution of Arctic leads to marine aerosol emissions \citep{lapere_modeling_2024}, or to model complex chemical atmospheric cycles \citep{ahmed_modelling_2023}.
+    WRF-Chem has been used in many recent studies to investigate atmospheric compounds, from the role of aerosols particles on clouds \citep{marelle_aerosol_2025}, to the contribution of Arctic open leads to marine aerosol emissions \citep{lapere_modeling_2024}, including the modelling of complex chemical atmospheric cycles \citep{ahmed_modelling_2023}.
+    \vspace{\baselineskip}
 
+    In this thesis, several versions of WRF-Chem have been used, from v4.3 to v4.6.
 
 
 %-----------------------------------------------

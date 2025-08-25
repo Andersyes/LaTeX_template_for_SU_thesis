@@ -13,6 +13,7 @@
 \usepackage{ifthen}
 \usepackage[strict]{changepage}
 \usepackage{titletoc}
+\usepackage{supertabular}
 \usepackage[para]{threeparttable}
 \usepackage{lscape}
 % \usepackage[latin1]{inputenc}
@@ -52,7 +53,7 @@
 \DeclareMathOperator{\sinc}{sinc}
 \DeclareMathOperator{\e}{e}
 
-\usepackage[locale = EN]{siunitx} % Pour gérer les unités
+\usepackage[locale = UK]{siunitx} % Pour gérer les unités
 \sisetup{
   % Numbers
   group-separator          = {\,},     % thin space for thousands
@@ -222,11 +223,13 @@
 \usepackage{acronym}
 \usepackage[nameinlink,english]{cleveref} % noabbrev
 \Crefname{figure}{Fig.}{Figs.} % traduction des références aux figures/tables/équations
-\crefname{figure}{fig.}{figs.}
+    \crefname{figure}{Fig.}{Figs.} % {ref type}{abbrev for one}{abbrev for multiple}
 \Crefname{equation}{Eq.}{Eqs.}
 \crefname{equation}{eq.}{eqs.}
-\Crefname{table}{Table.}{Tables.}
-\crefname{table}{table.}{tables.}
+\Crefname{table}{Table}{Tables}
+\crefname{table}{table}{tables}
+\crefname{section}{Sect.}{Sects.}
+\crefname{chapter}{Chap.}{Chaps.}
 
 % Configuration de hyperref
 \definecolor{color_ref}{rgb}{0.18, 0.31, 0.31} % couleur cite

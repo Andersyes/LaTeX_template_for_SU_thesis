@@ -19,6 +19,228 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{ahmed_modelling_2023}{article}{}
+      \name{author}{36}{}{%
+        {{hash=d34a885c8c2f6ecc938b274b8a467d36}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Shaddy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45126306c56f01243df79b540dfe11ae}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Jennie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8cc3007a17ca7ef9d6f136d1dc6344cd}{%
+           family={Angot},
+           familyi={A\bibinitperiod},
+           given={Hélène},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bc759d7ce05a69f58924e66486df3b32}{%
+           family={Dommergue},
+           familyi={D\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd229eba5ddc0078a874a7577f7bc41f}{%
+           family={Archer},
+           familyi={A\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=47ca9de9aa2a3821d29c69ca63935c56}{%
+           family={Bariteau},
+           familyi={B\bibinitperiod},
+           given={Ludovic},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ffff21b4bbee4d84529a56e751477bd9}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ba1bfe594ae3ac99846cdcadb5e13656}{%
+           family={Benavent},
+           familyi={B\bibinitperiod},
+           given={Nuria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=69002757e29776eb4e6bc163ac4fc746}{%
+           family={Blechschmidt},
+           familyi={B\bibinitperiod},
+           given={Anne-Marlene},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=37cb91f8cba29d747c7caa363ba369e5}{%
+           family={Blomquist},
+           familyi={B\bibinitperiod},
+           given={Byron},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1f09181ab58e58ddcaece49d65116441}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a4db1ef1f9f1355472b4b6a9951fbe5a}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Jesper\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c5df096a03902b4dbbad9d88d6d84215}{%
+           family={Dahlke},
+           familyi={D\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2df6259f923d5f7f881b17dab6fec411}{%
+           family={Dastoor},
+           familyi={D\bibinitperiod},
+           given={Ashu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=69c09d3eed22f03878a2d0c7f1445b6c}{%
+           family={Helmig},
+           familyi={H\bibinitperiod},
+           given={Detlev},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69809786ef218623492f08ffa1744361}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Dean},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b59b7e5e2e4560b364485f7cd06b7f58}{%
+           family={Jacobi},
+           familyi={J\bibinitperiod},
+           given={Hans-Werner},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=c557a8b618881a46bb2596c569791b1e}{%
+           family={Jokinen},
+           familyi={J\bibinitperiod},
+           given={Tuija},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8a49376b56db78e492a412169637299e}{%
+           family={Lapere},
+           familyi={L\bibinitperiod},
+           given={Rémy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b775d66c33bbcb104abbb1b334cdec1c}{%
+           family={Laurila},
+           familyi={L\bibinitperiod},
+           given={Tiia},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8544ef6af16c9916fbaa0a95f1f55b16}{%
+           family={Quéléver},
+           familyi={Q\bibinitperiod},
+           given={Lauriane\bibnamedelimb L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b80def2e9d954a1c7da21c41723f91e4}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7406205f43b8ba8cc1dbd93967d19a2}{%
+           family={Ryjkov},
+           familyi={R\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+        {{hash=83d11052aeedaa90c19516921848c1df}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Anoop\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
+           family={Marelle},
+           familyi={M\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0bf4abe1274096b2876b516a94c7950e}{%
+           family={Pfaffhuber},
+           familyi={P\bibinitperiod},
+           given={Katrine\bibnamedelima Aspmo},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0d799d99ca8309b23ec20937e975a2da}{%
+           family={Posman},
+           familyi={P\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cb89f66eda74c6973a44f284ed3310ab}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28d39e79c573b3a81fa2799f4f1cb1d8}{%
+           family={Saiz-Lopez},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ed16e6fca4534fac3ab19b807afb11e}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e30474e39a42d84f65262dce046d2186}{%
+           family={Skov},
+           familyi={S\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a98088a1ff47f8f68051d10c6bcb8b7d}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c72b94ba6eb8053870ad19b5fe443203}{%
+           family={Stupple},
+           familyi={S\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c1d0d56ecd7b6f6793da73aba554e1b8}{%
+           family={Stutz},
+           familyi={S\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=407f6fb2b7d9444766cb5a6fe4cdfcef}{%
+           family={Travnikov},
+           familyi={T\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=9954bcf553954cde4bc64861abf8c077}{%
+           family={Zilker},
+           familyi={Z\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6a58bfd98acb4e7d667138947431321}
+      \strng{fullhash}{796b49eda4e43e163656aae86ed24e5f}
+      \strng{bibnamehash}{c6a58bfd98acb4e7d667138947431321}
+      \strng{authorbibnamehash}{c6a58bfd98acb4e7d667138947431321}
+      \strng{authornamehash}{c6a58bfd98acb4e7d667138947431321}
+      \strng{authorfullhash}{796b49eda4e43e163656aae86ed24e5f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Near-surface mercury and ozone depletion events occur in the lowest part of the atmosphere during Arctic spring. Mercury depletion is the first step in a process that transforms long-lived elemental mercury to more reactive forms within the Arctic that are deposited to the cryosphere, ocean, and other surfaces, which can ultimately get integrated into the Arctic food web. Depletion of both mercury and ozone occur due to the presence of reactive halogen radicals that are released from snow, ice, and aerosols. In this work, we added a detailed description of the Arctic atmospheric mercury cycle to our recently published version of the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem 4.3.3) that includes Arctic bromine and chlorine chemistry and activation/recycling on snow and aerosols. The major advantage of our modelling approach is the online calculation of bromine concentrations and emission/recycling that is required to simulate the hourly and daily variability of Arctic mercury depletion. We used this model to study coupling between reactive cycling of mercury, ozone, and bromine during the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) spring season in 2020 and evaluated results compared to land-based, ship-based, and remote sensing observations. The model predicts that elemental mercury oxidation is driven largely by bromine chemistry and that particulate mercury is the major form of oxidized mercury. The model predicts that the majority (74\%) of oxidized mercury deposited to land-based snow is re-emitted to the atmosphere as gaseous elemental mercury, while a minor fraction (4\%) of oxidized mercury that is deposited to sea ice is re-emitted during spring. Our work demonstrates that hourly differences in bromine/ozone chemistry in the atmosphere must be considered to capture the springtime Arctic mercury cycle, including its integration into the cryosphere and ocean.}
+      \field{issn}{2325-1026}
+      \field{journaltitle}{Elementa: Science of the Anthropocene}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Modelling the coupled mercury-halogen-ozone cycle in the central {Arctic} during spring}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{00129}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1525/elementa.2022.00129
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/2ELHA9RC/elementa.2022.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1525/elementa.2022.00129
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1525/elementa.2022.00129
+      \endverb
+    \endentry
     \entry{albrecht_cloud_1989}{article}{}
       \name{author}{2}{}{%
         {{hash=9cd3f3d3d6c9693dd32626a94929c951}{%
@@ -1218,6 +1440,46 @@
       \endverb
       \verb{url}
       \verb https://gmd.copernicus.org/articles/9/4029/2016/
+      \endverb
+    \endentry
+    \entry{chalon_combien_2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d59526c987479a5e855d7e6858eeba48}{%
+           family={Chalon},
+           familyi={C\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Decitre}%
+      }
+      \strng{namehash}{d59526c987479a5e855d7e6858eeba48}
+      \strng{fullhash}{d59526c987479a5e855d7e6858eeba48}
+      \strng{bibnamehash}{d59526c987479a5e855d7e6858eeba48}
+      \strng{authorbibnamehash}{d59526c987479a5e855d7e6858eeba48}
+      \strng{authornamehash}{d59526c987479a5e855d7e6858eeba48}
+      \strng{authorfullhash}{d59526c987479a5e855d7e6858eeba48}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{EDP Sciences}
+      \field{title}{Combien pèse un nuage ?}
+      \field{urlday}{8}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Combien pèse un nuage ? de Jean-Pierre Chalon - Decitre:/home/dasilva/snap/zotero-snap/common/Zotero/storage/E8SWJEPM/combien-pese-un-nuage-ou-pourquoi-les-nuages-ne-tombent-pas-2e-edition-9782759810727.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.decitre.fr/livres/combien-pese-un-nuage-ou-pourquoi-les-nuages-ne-tombent-pas-2e-edition-9782759810727.html
+      \endverb
+      \verb{url}
+      \verb https://www.decitre.fr/livres/combien-pese-un-nuage-ou-pourquoi-les-nuages-ne-tombent-pas-2e-edition-9782759810727.html
       \endverb
     \endentry
     \entry{chen_impact_2025}{article}{}
@@ -4789,6 +5051,124 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2004JD004999
       \endverb
       \keyw{aerosol light absorption,biomass burning,organic carbon}
+    \endentry
+    \entry{kojoj_arctic_2024}{article}{}
+      \name{author}{15}{}{%
+        {{hash=9591dcdd4a4bd25c6b15461c9c3c99e1}{%
+           family={Kojoj},
+           familyi={K\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d422b8fd12ca7f539b702a5bd8240164}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Gabriel\bibnamedelima Pereira},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f28279774a79cfe0c4ea09685f752529}{%
+           family={Muilwijk},
+           familyi={M\bibinitperiod},
+           given={Morven},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f017fd341031b0ce421550fdaefa8ea4}{%
+           family={Granskog},
+           familyi={G\bibinitperiod},
+           given={Mats\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9576fca8c87ef9de1c59b0aad0954955}{%
+           family={Naakka},
+           familyi={N\bibinitperiod},
+           given={Tuomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=68d91eceefbcc2272f298470dcc62f5a}{%
+           family={Ekman},
+           familyi={E\bibinitperiod},
+           given={Annica\bibnamedelimb M.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2516ad6a95c6075dc4a81d3597e973f4}{%
+           family={Heutte},
+           familyi={H\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4ed16e6fca4534fac3ab19b807afb11e}{%
+           family={Schmale},
+           familyi={S\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b0e31a97f7689497e2104ce1167d866}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Anderson\bibnamedelima Da},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8a49376b56db78e492a412169637299e}{%
+           family={Lapere},
+           familyi={L\bibinitperiod},
+           given={Rémy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=36af4fc736649a2a2e7cbd98eb24d854}{%
+           family={Marelle},
+           familyi={M\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=45126306c56f01243df79b540dfe11ae}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Jennie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0487fc032b9604fb5190c4f092270b6c}{%
+           family={Melsheimer},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3345de0aca8f456315a83263874c3d6}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c7ac005319c9ec1167105ab5697b754f}{%
+           family={Zieger},
+           familyi={Z\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{8a54a85aba3ad1b01d24cb9a662044a6}
+      \strng{fullhash}{d7f211374b8e8f39d5cbb8f208815efb}
+      \strng{bibnamehash}{8a54a85aba3ad1b01d24cb9a662044a6}
+      \strng{authorbibnamehash}{8a54a85aba3ad1b01d24cb9a662044a6}
+      \strng{authornamehash}{8a54a85aba3ad1b01d24cb9a662044a6}
+      \strng{authorfullhash}{d7f211374b8e8f39d5cbb8f208815efb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tellus B: Chemical and Physical Meteorology is an open access journal focusing on all aspects of atmospheric chemical cycling related to Earth science processes. Along with its sister journal Tellus A: Dynamic Meteorology and Oceanography, Tellus B are international, peer-reviewed journals of the International Meteorological Institute in Stockholm, an independent not-for-profit body integrated into the Department of Meteorology at the Faculty of Sciences of Stockholm University, Sweden. The two journals serve an international community of researchers, policymakers, managers, media and the general public. Together they promote the exchange of knowledge about meteorology from across a range of scientific sub-disciplines. Specific topics covered and the types of articles that are accepted in Tellus B is described in About the journal. The journal operates a single-blind peer-review policy.  All published articles are made freely and permanently available online through gold open access publication with a CC BY license. Read the Guidelines for Authors for information on how to submit your manuscript for review.}
+      \field{issn}{0280-6509}
+      \field{journaltitle}{Tellus B: Chemical and Physical Meteorology}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{An {Arctic} {Marine} {Source} of {Fluorescent} {Primary} {Biological} {Aerosol} {Particles} {During} the {Transition} from {Summer} to {Autumn} at the {North} {Pole}}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{76}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.16993/tellusb.1880
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/dasilva/snap/zotero-snap/common/Zotero/storage/NUW3AHAT/Kojoj et al. - 2024 - An Arctic Marine Source of Fluorescent Primary Biological Aerosol Particles During the Transition fr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://b.tellusjournals.se/articles/10.16993/tellusb.1880
+      \endverb
+      \verb{url}
+      \verb https://b.tellusjournals.se/articles/10.16993/tellusb.1880
+      \endverb
     \endentry
     \entry{lamkin_challenge_2016}{article}{}
       \name{author}{2}{}{%
@@ -10798,8 +11178,6 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
-  \missing{ahmed_modeling_2023}
-  \missing{chalon_combien_2014}
   \missing{copernicus_climate_change_service_era5_2017}
   \missing{da_silva_backward_2025}
   \missing{ipcc_AR4_2007}
