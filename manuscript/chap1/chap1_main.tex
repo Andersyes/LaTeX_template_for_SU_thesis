@@ -813,6 +813,7 @@ In Chap.~\ref{chap4}, more evidences will arise about the short coming of CNT fo
 
     % how is it modelled
     \subsubsection{Modelling of heterogeneous ice nucleation}
+    \label{sec:modelling_hetero_nuc}
     The modelling of heterogeneous ice nucleation goes through parametrisations that aim to represent the freezing of supercooled droplets induced by aerosol particles acting as INPs. These numerical schemes bridge aerosol properties (number concentration, size, composition, surface characteristics) to INP concentrations, typically as a function of activation temperature. Depending on the approach, they can describe different nucleation modes (immersion, deposition, condensation, contact freezing), though immersion freezing is the most widely implemented in large-scale models.
 
 Two main categories of parametrisations are commonly used. The first consists of empirical, temperature-dependent fits to INP measurements, directly yielding the INP number concentration for specific aerosol types and temperature ranges \citep[e.g.][]{demott_predicting_2010, demott_integrating_2015, wilson_marine_2015, li_predicting_2022}. While computationally efficient, these schemes are tied to the observational datasets they were derived from and are sensitive to the underlying aerosol size distribution.
@@ -830,8 +831,8 @@ In practice, large-scale models tend to adopt either empirical temperature-fit o
 
     \boxspe{}{Opening questions}{
     \begin{itemize}
-        \item How do compare the different ice nucleation representations in a regional model? (Chap.~\ref{chap5})
-        \item ??? (Chap.~\ref{})
+        \item How do compare the different ice nucleation representations in a regional model? (\cref{chap4})
+        \item Is it possible to use a general parametrisation for Arctic INPs? (\cref{chap4})
         \item !!!What else?!!!
     \end{itemize}
 }

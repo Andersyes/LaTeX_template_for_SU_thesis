@@ -28,11 +28,11 @@
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{[Introduction]}
+\section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Here I say the thesis has been a modelling thesis, I have participated to no obs. campaign, so I will describe only ligthly the measurement setups of the observational data I used.
-See intro of Khvorostyanov about correspondence principle.
+%See intro of Khvorostyanov about correspondence principle.
 
 In the 1910s, the Danish physicist Niels Bohr (1885-1962)\----known for the first application of Plank's quantum theory to atomic structure models\---- formulated the \textit{correspondence principle}.
 Rapidly become one of the fundamental physics principles, the correspondence principle is nowadays at the heart of many theoretical disciplines.
@@ -52,7 +52,7 @@ As suggested by its title, this thesis is the achievement of three years of mode
 In this chapter, will be presented the technical tools used in the next chapters work.
 First, we will go through the main tools of the modellers, the models.
 Next, we will talk more specifically of parametrising the physics of aerosol-cloud interactions, and how to apply the correspondence principle.
-Finally, the observational material used during this thesis will be briefly presented. Since I have not participated to any Arctic measurement campaign during my thesis, I will not dwell on a topic where my knowledge is lacking of experience.
+Finally, the observational material used during this thesis will be briefly presented. Since I have not participated to any Arctic measurement campaign during my thesis, I will not dwell on a topic where my knowledge is only theoretical, and lacks of experience.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Models and related tools}
@@ -78,8 +78,6 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
     \label{sec:wrf}
     The Weather Research and Forecasting model (WRF) is a numerical mesoscale atmospheric simulation model \citep{skamarock_description_2022}. Its development began in the 1990s and has since brought together a large international community. The original design objectives of WRF followed two main directions: short-term weather prediction through data assimilation, and regional climate simulation for research purposes. For more than twenty years, WRF has been the research tool of several tens of thousands of scientists worldwide and has become the primary framework for developing parametrisations of numerous physico-chemical processes for climate models.
 
-    WRF can be guided by different reanalysis data. In this thesis have been used Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, and ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_era5_2017}.
-
     % setup of wrf
     In this thesis, WRF was used to provide the meteorological fields required to run FLEXPART-WRF, the LPDM presented in Sect.~\ref{sec:flexpart}.
     The setup used in that purpose follows the options listed in Table~\ref{tab:wrf_setup}. %In Chap.~\ref{chap4} and \ref{chap5}, the setup differ.
@@ -88,7 +86,7 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
     \centering
     \begin{tabular}{l|l}
     \textbf{Physics and Meteorology}  &  \textbf{Model Option} \\
-    \toprule 
+    \middlerule 
     Planetary boundary layer / Surface layer & MYNN level 2.5 TKE scheme / MYNN \citep{nakanishi_development_2009} \\
     Surface layer & Noah LSM \citep{tewari_implementation_2004} \\
     Microphysics & Morrison \citep{morrison_impact_2009} \\
@@ -116,6 +114,8 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
 
     In this thesis, several versions of WRF-Chem have been used, from v4.3 to v4.6.
 
+    !!!TODO!!! model setup description in a Table
+
 
 %-----------------------------------------------
     \subsection{Backward modelling}
@@ -139,16 +139,56 @@ In this section, will be described the setup of a RCM (Sect.~\ref{sec:wrf}), of 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ask GPT about it
 % subsection about nifa
+!!!TODO!!! write this section; maybe move \cref{sec:modelling_hetero_nuc} here (would be more logical)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Observation data and measurements}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{sec:observation_data}
+Modelling use observations in two ways. First, the models, and especially the regional models which, by definition, do not simulate the whole planet, need boundary conditions they use as a window on what happens outside their simulation domain.
+Second, models are relevant when confronted to actual observations. For instance, an atmospheric model has to be able to reproduce standard meteorological parameters as surface temperature and winds, at the location of weather stations within its domain. When it does, we call the model validated.
+
+In aerosol-cloud modelling, modellers are interested in validating their model against aerosols particles and clouds observations. 
+In the Arctic, because its continental areas are mostly remote, and the Arctic Ocean is partially covered by sea ice, this kind of observations are much more difficult to get. 
+This is especially true for long and continuous time series.
 
     \subsection{Meteorological observations}
+    \label{sec:meteo_obs}
+        \subsubsection{Models boundary conditions}
+        For setting the meteorological boundary conditions of WRF and WRF-Chem, I used two different reanalysis products.
+        First, the Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, for the work done in \cref{sec:paper1}. Second, the ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_era5_2017}, for all the other WRF and WRF-Chem simulations.
+
+        WRF-Chem also needs boundary and initial conditions for aerosol and chemical particles. In our usage, they are all provided by the Atmospheric Chemistry Observations and Modeling Lab (ACOM) of the National Center for Atmospheric Research (NCAR). Among the data used, instantaneous output for boundary conditions from the CAM-Chem model \citep{buchholz_instantaneous_2019}.
+    
+        \subsubsection{In situ meteorological observations}
+        In order to validate the meteorological performances of WRF and WRF-Chem, have been extensively used in situ data from EBAS hosted by the Norwegian Institute for Air Research (NILU) described in \citet{tørseth_introduction_2012}. When used, the datasets are specifically cited.
+
+        A few data from airborne campaign have been used, namely ACLOUD, AFLUX, MOSAiC-ACA et HALO-(AC)³ (see \cref{sec:cloud_origins}), as well as data from instrumental mast on campaign boats of the MOCCHA, MOSAIC and ARTofMELT campaigns (see \cref{chap3}). 
 
 
     \subsection{Ice nucleating particles observations}
+    INP observations are pretty rare data, although new instruments and measurement networks are setting in and developing fast. 
+    An excellent example of that dynamic is the Portable Ice Nucleation Experiment (PINE) initiative, that has been developed by the University of Leeds (UK). The instrument, an automated instrument that measure INP concentrations across the full range of tropospheric temperatures, has been sent all over the world with the objective of creating a worldwide network of long time series of INP concentrations \citep{möhler_portable_2021}.
+
+    For this thesis work, I mainly used INP measurements from marine campaigns (MOCCHA, MOSAIC, ARTofMELT). Those are presented and described when suited in the following chapters. 
+    Nonetheless, I can mention the observations from \citet{wex_annual_2019}, \citet{irish_ice_2019}, \citet{shrod_long-term_2020} and \citet{hartmann_wintertime_2020} that I used when attempting to find the sources of their INP measurements. This was before I realised that those datasets do not suit reliable source tracking. The reasons for that are extensively discussed in \cref{sec:paper1}.
+\vspace{\baselineskip}
+
+        \subsubsection{Deriving INP concentrations}
+        Most of these measurement are INP concentration series derived from a technique that relies on immersion freezing. It starts by a phase of particles collection, followed by an estimation of their ice nucleating abilities.
+
+        This first step can be carried out using different techniques, each suited to its context (land-based or marine campaigns). Air filtration through micro-filters is better adapted to land-based measurements, as it requires integration over a long period of time (from several tens of hours to a few days). For icebreaker campaigns, it is necessary to use a faster air-collection technique to avoid biasing the measurements due to the ship’s movement. The most recent campaigns thereby use instruments based on particle collection on hydrophobic glass slides. The instrument directs an air intake, with a flow rate of a few litres per minute (\SI{10}{\liter\per\minute} for the MOSSI instrument described by \citet{irish_ice_2019}), through several micro-orifices onto the hydrophobic slides, where fine particles are deposited. The presence of the micro-orifices allows the collected particles to be concentrated at different points on the slide. With this type of instrument, collection times are on the order of a few tens of minutes.
+
+    Regardless of the collection method, the techniques used to characterize the concentration of INPs in air remain similar. Although the implementation varies from one campaign to another \citep{conen_atmospheric_2012, mason_micro-orifice_2015}, the general principle is the same. This is known as the Droplet Freezing Technique (DFT), or droplet freezing measurement. The DFT consists in immersing the collected particles into droplets of pure water deposited on a plate. The plate is then gradually cooled, and the temperature at which droplet freezing is observed is recorded. From these measurements, together with the parameters of particle collection on the filter, it is possible to infer the concentration of INPs in the sampled air.
+    The expression of INP concentration depends on the technique used. Here, I present the one used by \citet{wex_annual_2019}. The number of INPs per liter of air is expressed as:
+    \begin{equation}
+        N_{INP}(T) = - \frac{\ln (1-f_{\text{ice}}(T))}{F}
+    \end{equation}
+
+where $f_{\text{ice}}$ is the fraction of frozen droplets observed at temperature $T$, and $F$ is the total volume of air (in litres) that passed through the filter.
+These data\----i.e., the concentration of air in INPs active at a given temperature $T$\----are expressed in particles per liter.
+
+The exact formula and protocol can differ from a study to another, but this illustrates the general principle of derived INP concentration measurements.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

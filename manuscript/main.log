@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  26 AUG 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  26 AUG 2025 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3283,82 +3283,79 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 801.
 
 [29 <./chap1/images/hetero_nucleation.png>]
-Package cleveref Info: loaded `english' language definitions on input line 817.
+Package cleveref Info: loaded `english' language definitions on input line 818.
 
  [30 <./chap1/images/homogeneous_nucleation_rate.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 837--837
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
 
  []
 
-
-LaTeX Warning: Reference `' on page 31 undefined on input line 837.
-
-Package cleveref Info: loaded `english' language definitions on input line 848.
+Package cleveref Info: loaded `english' language definitions on input line 849.
 
 [31]
-Package cleveref Info: loaded `english' language definitions on input line 874.
+Package cleveref Info: loaded `english' language definitions on input line 875.
 
  [32]
-<./chap1/images/aerosols_effects.jpg, id=722, 1282.7925pt x 542.025pt>
+<./chap1/images/aerosols_effects.jpg, id=723, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
-e 876.
+e 877.
 (pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
 
 
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 877.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 878.
 
 
 
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 877.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 878.
 
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=723, 841.1425pt x 81
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=724, 841.1425pt x 81
 3.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png 
- used on input line 886.
+ used on input line 887.
 (pdftex.def)             Requested size: 230.46729pt x 222.761pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 904.
+Package cleveref Info: loaded `english' language definitions on input line 905.
 
 [33 <./chap1/images/aerosols_effects.jpg>]
-<./chap1/images/nuages/seasprays_pic_HD.jpg, id=738, 462.528pt x 260.172pt>
+<./chap1/images/nuages/seasprays_pic_HD.jpg, id=739, 462.528pt x 260.172pt>
 File: ./chap1/images/nuages/seasprays_pic_HD.jpg Graphic file (type jpg)
 <use ./chap1/images/nuages/seasprays_pic_HD.jpg>
 Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic_HD.jpg  used on in
-put line 920.
+put line 921.
 (pdftex.def)             Requested size: 460.93457pt x 259.29001pt.
-Package cleveref Info: loaded `english' language definitions on input line 924.
+Package cleveref Info: loaded `english' language definitions on input line 925.
 
  [34 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
-Package cleveref Info: loaded `english' language definitions on input line 934.
+Package cleveref Info: loaded `english' language definitions on input line 935.
 
  [35 <./chap1/images/nuages/seasprays_pic_HD.jpg>]
-Package cleveref Info: loaded `english' language definitions on input line 960.
+Package cleveref Info: loaded `english' language definitions on input line 961.
 
 
 [36]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=770, 1179.2055pt x 858.5676pt>
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=771, 1179.2055pt x 858.5676pt>
 File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
 <use ./chap1/images/Ninp_cycle_Utqiagvik.png>
 Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
- line 970.
+ line 971.
 (pdftex.def)             Requested size: 460.93457pt x 335.59985pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 999.
-
+Package cleveref Info: loaded `english' language definitions on input line 1000
+.
 [37]
-Package cleveref Info: loaded `english' language definitions on input line 999.
-
+Package cleveref Info: loaded `english' language definitions on input line 1000
+.
  [38 <./chap1/images/Ninp_cycle_Utqiagvik.png>]
 
 ! LaTeX Error: Command \ensuregreek unavailable in encoding T1.
@@ -3367,7 +3364,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1003 ...ic finds its roots in ancient Greek: ἄ
+l.1004 ...ic finds its roots in ancient Greek: ἄ
                                                   ρκτος [árktos], whic...
 
 Your command was ignored.
@@ -3381,7 +3378,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1003 ...ic finds its roots in ancient Greek: ἄ
+l.1004 ...ic finds its roots in ancient Greek: ἄ
                                                   ρκτος [árktos], whic...
 
 Your command was ignored.
@@ -3389,11 +3386,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for LGR+ntxtlf on input lin
-e 1003.
-LaTeX Font Info:    No file LGRntxtlf.fd. on input line 1003.
+e 1004.
+LaTeX Font Info:    No file LGRntxtlf.fd. on input line 1004.
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 1003.
+(Font)              using `LGR/cmr/m/n' instead on input line 1004.
 
 
 ! LaTeX Error: Command \textomicron unavailable in encoding T1.
@@ -3402,7 +3399,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1003 ... its roots in ancient Greek: ἄρκτο
+l.1004 ... its roots in ancient Greek: ἄρκτο
                                                   ς [árktos], which means ...
 
 Your command was ignored.
@@ -3410,7 +3407,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.1003 ...any exploratory expeditions in the 19\up
+l.1004 ...any exploratory expeditions in the 19\up
                                                   {th} century. As for the g...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3419,7 +3416,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1003 ...e advent of flying machines in the 20\up
+l.1004 ...e advent of flying machines in the 20\up
                                                   {th} century. Theses diffi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3427,41 +3424,41 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/arctic_map_upscaled.png, id=797, 3268.21pt x 3345.49875pt>
+<./chap1/images/arctic_map_upscaled.png, id=798, 3268.21pt x 3345.49875pt>
 File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
 <use ./chap1/images/arctic_map_upscaled.png>
 Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
-line 1013.
+line 1014.
 (pdftex.def)             Requested size: 276.56355pt x 283.0619pt.
-Package cleveref Info: loaded `english' language definitions on input line 1023
+Package cleveref Info: loaded `english' language definitions on input line 1024
 .
 [39 <./chap1/images/arctic_map_upscaled.png>]
 
 LaTeX Warning: Citation 'rantanen_arctic_2022' on page 40 undefined on input li
-ne 1046.
+ne 1047.
 
-<./chap1/images/arctic_ampli.png, id=814, 565.1514pt x 349.7868pt>
+<./chap1/images/arctic_ampli.png, id=815, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
 Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
-51.
+52.
 (pdftex.def)             Requested size: 460.93457pt x 285.29523pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 1058
+Package cleveref Info: loaded `english' language definitions on input line 1059
 .
 [40]
-<./chap1/images/SLP_AO.png, id=829, 849.1725pt x 676.5275pt>
+<./chap1/images/SLP_AO.png, id=830, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
-Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1065.
+Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1066.
 (pdftex.def)             Requested size: 230.46729pt x 183.60425pt.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1066 ...icus_climate_change_service_era5_2017}.}
+l.1067 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3471,12 +3468,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
-1 undefined on input line 1066.
+1 undefined on input line 1067.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1066 ...icus_climate_change_service_era5_2017}.}
+l.1067 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3486,46 +3483,46 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
-1 undefined on input line 1066.
+1 undefined on input line 1067.
 
-Package cleveref Info: loaded `english' language definitions on input line 1068
+Package cleveref Info: loaded `english' language definitions on input line 1069
 .
 [41 <./chap1/images/arctic_ampli.png>]
 
 LaTeX Warning: Reference `sec:deposition_processes' on page 42 undefined on inp
-ut line 1081.
+ut line 1082.
 
-Package cleveref Info: loaded `english' language definitions on input line 1087
+Package cleveref Info: loaded `english' language definitions on input line 1088
 .
 [42 <./chap1/images/SLP_AO.png>]
-<./chap1/images/AA_feedbacks.png, id=856, 489.5088pt x 206.2104pt>
+<./chap1/images/AA_feedbacks.png, id=857, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 10
-89.
+90.
 (pdftex.def)             Requested size: 460.93457pt x 194.17447pt.
 
 
 LaTeX Warning: Reference `fig:warming_on_clouds' on page 43 undefined on input 
-line 1095.
+line 1096.
 
-Package cleveref Info: loaded `english' language definitions on input line 1111
+Package cleveref Info: loaded `english' language definitions on input line 1112
 .
 [43 <./chap1/images/AA_feedbacks.png>]
-<./chap1/images/matus_CRE.png, id=872, 1635.2pt x 411.72pt>
+<./chap1/images/matus_CRE.png, id=873, 1635.2pt x 411.72pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
-Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1124.
+Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1125.
 
 (pdftex.def)             Requested size: 460.93457pt x 116.05353pt.
-Package cleveref Info: loaded `english' language definitions on input line 1154
+Package cleveref Info: loaded `english' language definitions on input line 1155
 .
  [44 <./chap1/images/matus_CRE.png>]
-<./chap1/images/mixed-phase-clouds.png, id=888, 324.7332pt x 316.3017pt>
+<./chap1/images/mixed-phase-clouds.png, id=889, 324.7332pt x 316.3017pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
-ine 1192.
+ine 1193.
 (pdftex.def)             Requested size: 230.46729pt x 224.48889pt.
 
 
@@ -3579,25 +3576,75 @@ Package cleveref Info: loaded `english' language definitions on input line 67.
 LaTeX Warning: Reference `sec:flexpart' on page 50 undefined on input line 74.
 
 
-LaTeX Warning: Citation 'copernicus-climate-change-service_era5_2017' on page 5
-0 undefined on input line 81.
+LaTeX Warning: Reference `sec:flexpart' on page 50 undefined on input line 82.
+
+! Undefined control sequence.
+<recently read> \middlerule 
+                            
+l.89     \middlerule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `sec:flexpart' on page 50 undefined on input line 84.
-
-
-Overfull \hbox (19.30215pt too wide) in paragraph at lines 89--100
+Overfull \hbox (19.30215pt too wide) in paragraph at lines 87--98
  [][] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 105.
+Package cleveref Info: loaded `english' language definitions on input line 111.
 
 [50]
 Package cleveref Info: loaded `english' language definitions on input line 135.
 
- [51])
+ [51]
+
+LaTeX Warning: Citation 'copernicus-climate-change-service_era5_2017' on page 5
+2 undefined on input line 159.
+
+
+LaTeX Warning: Citation 'buchholz_instantaneous_2019' on page 52 undefined on i
+nput line 161.
+
+
+LaTeX Warning: Citation 'tørseth_introduction_2012' on page 52 undefined on in
+put line 164.
+
+Package textcomp Info: Symbol \textthreesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 166.
+Package cleveref Info: loaded `english' language definitions on input line 169.
+
+[52]
+
+LaTeX Warning: Citation 'möhler_portable_2021' on page 53 undefined on input l
+ine 171.
+
+
+LaTeX Warning: Citation 'shrod_long-term_2020' on page 53 undefined on input li
+ne 174.
+
+
+LaTeX Warning: Citation 'conen_atmospheric_2012' on page 53 undefined on input 
+line 182.
+
+
+LaTeX Warning: Citation 'mason_micro-orifice_2015' on page 53 undefined on inpu
+t line 182.
+
+
+Overfull \hbox (17.4109pt too wide) in paragraph at lines 182--184
+\T1/ntxtlf/m/n/10.95 re-main sim-i-lar. Al-though the im-ple-men-ta-tion varies
+ from one cam-paign to an-other ([];
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 184.
+
+[53])
 Package cleveref Info: loaded `english' language definitions on input line 49.
- [52]
+ [54]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -3612,7 +3659,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[53
+[55
 
 
 
@@ -3621,7 +3668,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 29.
- [54]
+ [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\citep' on input line 58.
@@ -3639,7 +3686,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 58.
 
 
-LaTeX Warning: Citation 'rantanen_arctic_2022' on page 55 undefined on input li
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 57 undefined on input li
 ne 64.
 
 
@@ -3649,12 +3696,12 @@ Overfull \hbox (2.29228pt too wide) in paragraph at lines 64--67
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 69.
-[55]
+[57]
 Package cleveref Info: loaded `english' language definitions on input line 90.
- [56]
+ [58]
 Package cleveref Info: loaded `english' language definitions on input line 109.
 
- [57]
+ [59]
 ! Undefined control sequence.
 l.114         \subsubsubsection
                                {Model setup}
@@ -3704,15 +3751,15 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 184.
 
-[58]
-<./chap3/images/f01.png, id=1147, 1038.7608pt x 715.473pt>
+[60]
+<./chap3/images/f01.png, id=1171, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 186.
 (pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
 Package cleveref Info: loaded `english' language definitions on input line 198.
 
- [59 <./chap3/images/f01.png>]
+ [61 <./chap3/images/f01.png>]
 ! Undefined control sequence.
 l.222         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -3724,7 +3771,7 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 232.
 
-[60]
+[62]
 ! Undefined control sequence.
 <recently read> \middlerule 
                             
@@ -3752,10 +3799,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--249
 
 Package cleveref Info: loaded `english' language definitions on input line 278.
 
-[61]
+[63]
 Package cleveref Info: loaded `english' language definitions on input line 316.
 
- [62]
+ [64]
 ! Undefined control sequence.
 l.331                 \tophline
                                
@@ -3787,18 +3834,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap3/images/f02.png, id=1213, 742.6947pt x 457.71pt>
+<./chap3/images/f02.png, id=1237, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
 Package pdftex.def Info: ./chap3/images/f02.png  used on input line 364.
 (pdftex.def)             Requested size: 460.93457pt x 284.06361pt.
 Package cleveref Info: loaded `english' language definitions on input line 367.
 
-[63]
+[65]
 Package cleveref Info: loaded `english' language definitions on input line 388.
 
- [64 <./chap3/images/f02.png>]
-<./chap3/images/f03.png, id=1244, 1038.7608pt x 715.473pt>
+ [66 <./chap3/images/f02.png>]
+<./chap3/images/f03.png, id=1267, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
 Package pdftex.def Info: ./chap3/images/f03.png  used on input line 410.
@@ -3809,11 +3856,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 426.
 
-[65]
+[67]
 Package cleveref Info: loaded `english' language definitions on input line 441.
 
- [66 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=1271, 1115.6079pt x 832.0686pt>
+ [68 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=1295, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
 Package pdftex.def Info: ./chap3/images/f04.png  used on input line 451.
@@ -3870,10 +3917,10 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 474.
 
-[67 <./chap3/images/f04.png>]
+[69 <./chap3/images/f04.png>]
 Package cleveref Info: loaded `english' language definitions on input line 497.
 
- [68]
+ [70]
 ! Undefined control sequence.
 l.502                 \tophline
                                
@@ -3930,17 +3977,17 @@ l.534         \begin{figure*}[n]
                                 
 Option `n' ignored and `p' used.
 
-<./chap3/images/f05.png, id=1296, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=1320, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
 Package pdftex.def Info: ./chap3/images/f05.png  used on input line 535.
 (pdftex.def)             Requested size: 460.93457pt x 350.33556pt.
 Package cleveref Info: loaded `english' language definitions on input line 546.
 
-[69]
+[71]
 Package cleveref Info: loaded `english' language definitions on input line 546.
 
- [70 <./chap3/images/f05.png>]
+ [72 <./chap3/images/f05.png>]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -3952,21 +3999,21 @@ l.565     \begin{figure*}[n]
                             
 Option `n' ignored and `p' used.
 
-<./chap3/images/f06.png, id=1320, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=1343, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
 Package pdftex.def Info: ./chap3/images/f06.png  used on input line 566.
 (pdftex.def)             Requested size: 460.93457pt x 280.52269pt.
 Package cleveref Info: loaded `english' language definitions on input line 588.
 
-[71]
+[73]
 Package cleveref Info: loaded `english' language definitions on input line 588.
 
- [72 <./chap3/images/f06.png>]
+ [74 <./chap3/images/f06.png>]
 Package cleveref Info: loaded `english' language definitions on input line 621.
 
- [73]
-<./chap3/images/f07.png, id=1351, 722.7pt x 505.89pt>
+ [75]
+<./chap3/images/f07.png, id=1375, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
 Package pdftex.def Info: ./chap3/images/f07.png  used on input line 624.
@@ -3983,16 +4030,16 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 629.
 
-[74 <./chap3/images/f07.png>]
-<./chap3/images/f08.png, id=1364, 734.2632pt x 477.9456pt>
+[76 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=1388, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
 Package pdftex.def Info: ./chap3/images/f08.png  used on input line 650.
 (pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
 Package cleveref Info: loaded `english' language definitions on input line 662.
 
- [75 <./chap3/images/f08.png>]
-<./chap3/images/f09.png, id=1388, 377.7312pt x 720.7728pt>
+ [77 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=1411, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
 Package pdftex.def Info: ./chap3/images/f09.png  used on input line 674.
@@ -4003,24 +4050,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 695.
 
-[76]
+[78]
 Package cleveref Info: loaded `english' language definitions on input line 724.
 
- [77]
+ [79]
 Package cleveref Info: loaded `english' language definitions on input line 748.
 
- [78]
+ [80]
 Package cleveref Info: loaded `english' language definitions on input line 766.
 
- [79]
+ [81]
 Package cleveref Info: loaded `english' language definitions on input line 766.
 
- [80 <./chap3/images/f09.png>]
+ [82 <./chap3/images/f09.png>]
 
 LaTeX Warning: Reference `sec:source_pbap_moccha' on page 1 undefined on input 
 line 789.
 
-<./chap3/images/source_and_series_MOCCHA.jpg, id=1459, 470.2368pt x 270.7716pt>
+<./chap3/images/source_and_series_MOCCHA.jpg, id=1483, 470.2368pt x 270.7716pt>
 
 File: ./chap3/images/source_and_series_MOCCHA.jpg Graphic file (type jpg)
 <use ./chap3/images/source_and_series_MOCCHA.jpg>
@@ -4032,17 +4079,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 802.
 
-[81
+[83
 
 ]
 
-LaTeX Warning: Citation 'dall'osto_arctic_2017' on page 82 undefined on input l
+LaTeX Warning: Citation 'dall'osto_arctic_2017' on page 84 undefined on input l
 ine 810.
 
 Package cleveref Info: loaded `english' language definitions on input line 813.
 
-[82 <./chap3/images/source_and_series_MOCCHA.jpg>]
-<./chap3/images/source_PBAPs.jpg, id=1483, 1710.39pt x 831.105pt>
+[84 <./chap3/images/source_and_series_MOCCHA.jpg>]
+<./chap3/images/source_PBAPs.jpg, id=1506, 1710.39pt x 831.105pt>
 File: ./chap3/images/source_PBAPs.jpg Graphic file (type jpg)
 <use ./chap3/images/source_PBAPs.jpg>
 Package pdftex.def Info: ./chap3/images/source_PBAPs.jpg  used on input line 81
@@ -4050,8 +4097,8 @@ Package pdftex.def Info: ./chap3/images/source_PBAPs.jpg  used on input line 81
 (pdftex.def)             Requested size: 460.93457pt x 223.97017pt.
 Package cleveref Info: loaded `english' language definitions on input line 839.
 
- [83 <./chap3/images/source_PBAPs.jpg>]
-<./chap3/images/source_and_series_ARTofMELT.png, id=1491, 470.2368pt x 270.7716
+ [85 <./chap3/images/source_PBAPs.jpg>]
+<./chap3/images/source_and_series_ARTofMELT.png, id=1514, 470.2368pt x 270.7716
 pt>
 File: ./chap3/images/source_and_series_ARTofMELT.png Graphic file (type png)
 <use ./chap3/images/source_and_series_ARTofMELT.png>
@@ -4060,14 +4107,130 @@ n input line 843.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
 Package cleveref Info: loaded `english' language definitions on input line 858.
 
- [84 <./chap3/images/source_and_series_ARTofMELT.png>]
+ [86 <./chap3/images/source_and_series_ARTofMELT.png>]
+Package textcomp Info: Symbol \texttwosuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 859.
+
 
 LaTeX Warning: cref reference format for label type `' undefined on input line 
 859.
 
+Package textcomp Info: Symbol \textthreesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 887.
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ... sky ($\sigma < 0.05$ \si{\per\kilometre}
+                                                  ), light cloud ($0.05 < \s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ... sky ($\sigma < 0.05$ \si{\per\kilometre}
+                                                  ), light cloud ($0.05 < \s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package siunitx Error: Found per part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.896 ... sky ($\sigma < 0.05$ \si{\per\kilometre}
+                                                  ), light cloud ($0.05 < \s...
+
+
+Each per part must be associated with a unit: a per part was found but no
+following unit was given.
+
+
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ... ($0.05 < \sigma < 1$ \si{\per\kilometre}
+                                                  ), thick cloud (\SI{33}{\p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ... ($0.05 < \sigma < 1$ \si{\per\kilometre}
+                                                  ), thick cloud (\SI{33}{\p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package siunitx Error: Found per part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.896 ... ($0.05 < \sigma < 1$ \si{\per\kilometre}
+                                                  ), thick cloud (\SI{33}{\p...
+
+
+Each per part must be associated with a unit: a per part was found but no
+following unit was given.
+
+
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ...loud ($\sigma > 0.05$ \si{\per\kilometre}
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \per \kilometre 
+                           
+l.896 ...loud ($\sigma > 0.05$ \si{\per\kilometre}
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package siunitx Error: Found per part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.896 ...loud ($\sigma > 0.05$ \si{\per\kilometre}
+                                                  ).
+
+Each per part must be associated with a unit: a per part was found but no
+following unit was given.
+
+
 )
 Package cleveref Info: loaded `english' language definitions on input line 50.
- [85]
+ [87]
+Package cleveref Info: loaded `english' language definitions on input line 50.
+ [88]
 \openout2 = `chap4/chap4_main.aux'.
 
  (./chap4/chap4_main.tex
@@ -4082,7 +4245,16 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 13.
+[89
+
+
+
+
+] (./main.ptc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+)
+Package cleveref Info: loaded `english' language definitions on input line 25.
+
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 25.11508pt, for example:
@@ -4091,14 +4263,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[86
-
-
-
-
-] (./main.ptc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-) [87]
+[90]
 ! Undefined control sequence.
 l.71         \subsubsubsection
                               {Coarse aerosols to INPs}
@@ -4110,16 +4275,7 @@ and I'll forget about whatever was undefined.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 51.
-
-
-Package fancyhdr Warning: \headheight is too small (17.07164pt): 
-(fancyhdr)                Make it at least 25.11508pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.11508pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
-
-[88]
+ [91]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -4129,15 +4285,24 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[89
+Package cleveref Info: loaded `english' language definitions on input line 15.
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.08223pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.08223pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
+
+[92
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 27.
+) [93])
+Package cleveref Info: loaded `english' language definitions on input line 52.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -4147,9 +4312,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[90])
-Package cleveref Info: loaded `english' language definitions on input line 52.
- [91]
+[94]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -4178,15 +4341,16 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 11.
-[92
+[95
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [93])
+)
+Package cleveref Info: loaded `english' language definitions on input line 23.
+ [96])
 \openout2 = `annexes/future_of_research.aux'.
 
  (./annexes/future_of_research.tex
@@ -4197,20 +4361,20 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-LaTeX Warning: Reference `sec:implication_sciencesl' on page 94 undefined on in
+LaTeX Warning: Reference `sec:implication_sciencesl' on page 97 undefined on in
 put line 4.
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 25.
 Package cleveref Info: loaded `english' language definitions on input line 26.
-[94
+[97
 
 
 
 
 ])
 Package cleveref Info: loaded `english' language definitions on input line 61.
- [95]
+ [98]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
@@ -4270,7 +4434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 31.
-[96
+[99
 
 
 
@@ -4301,7 +4465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--67
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[97]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 76--88
 
  []
@@ -4348,16 +4512,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [98] (./main.lof
+ [101] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 Package cleveref Info: loaded `english' language definitions on input line 13.
- [99
+ [102
 
 
 
 ]
 
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 100 undefined on input line 17.
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 103 undefined on input line 17.
 
 
 ! Undefined control sequence.
@@ -4373,12 +4537,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 1
-00 undefined on input line 23.
+03 undefined on input line 23.
 
 Package cleveref Info: loaded `english' language definitions on input line 25.
-[100]
+[103]
 Package cleveref Info: loaded `english' language definitions on input line 36.
- [101])
+ [104])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -4393,7 +4557,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 69.
-[102] (./main.lot
+[105] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -4410,29 +4574,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 80.
-[103
+[106
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 80.
 Package cleveref Info: loaded `english' language definitions on input line 80.
- [104
+ [107
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 80.
- [105]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [106]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [107]
-Package cleveref Info: loaded `english' language definitions on input line 80.
  [108]
+Package cleveref Info: loaded `english' language definitions on input line 80.
+ [109]
+Package cleveref Info: loaded `english' language definitions on input line 80.
+ [110]
+Package cleveref Info: loaded `english' language definitions on input line 80.
+ [111]
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/ntxtlf/m/n' instead on input line 80.
 
 Package cleveref Info: loaded `english' language definitions on input line 80.
-[109]
+[112]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
@@ -4443,10 +4607,7 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 85.
-[110] [111
-
-
-]
+[113]
 Overfull \hbox (1.42416pt too wide) in paragraph at lines 85--85
 [][] 
  []
@@ -4467,7 +4628,10 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
-[112] (./main.aux
+[114
+
+
+] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/remerciements.aux) (./others/avantpropos.aux)
 (./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
@@ -4502,10 +4666,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58005 strings out of 475189
- 1167863 string characters out of 5763838
- 2290700 words of memory out of 5000000
- 77748 multiletter control sequences out of 15000+600000
+ 58024 strings out of 475189
+ 1168188 string characters out of 5763838
+ 2291855 words of memory out of 5000000
+ 77760 multiletter control sequences out of 15000+600000
  720409 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,120p,4167b,3665s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4537,10 +4701,10 @@ type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
 public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ne
 wtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (128 pages, 45058397 bytes).
+Output written on main.pdf (130 pages, 45078482 bytes).
 PDF statistics:
- 2689 PDF objects out of 2984 (max. 8388607)
- 2362 compressed objects within 24 object streams
- 466 named destinations out of 1000 (max. 500000)
+ 2722 PDF objects out of 2984 (max. 8388607)
+ 2393 compressed objects within 24 object streams
+ 473 named destinations out of 1000 (max. 500000)
  793 words of extra memory for PDF output out of 10000 (max. 10000000)
 

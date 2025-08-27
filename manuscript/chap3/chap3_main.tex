@@ -165,7 +165,7 @@ This chapter aims to address the two scientific questions raised in \cref{sec:IN
                 \begin{tabular}{l|l|l}
                     \toprule
                     \textbf{Tracer name} & \textbf{Regional condition} & \textbf{Parametrisation}\\
-                    \middlerule
+                    \midrule
                     Sea ice & Over ocean, with sea ice fraction larger than 0.5 &  \citet{monahan_model_1986}\\
                     Open ocean & Over ocean, with sea ice fraction smaller than 0.5 & \citet{monahan_model_1986}\\
                     Continent & Over continental regions & \citet{ginoux_sources_2001}\\
@@ -236,7 +236,7 @@ This chapter aims to address the two scientific questions raised in \cref{sec:IN
             \begin{tabular}{l|l}
                 \toprule
                 \textbf{Parameter} & \textbf{Description} \\
-                \middlerule
+                \midrule
                 Release period & Day of measurement (1\,d)\\
                 Release box & $50\times 50$\,\unit{km} wide and $10$\,\unit{m} tall box covering the measurement site \\
                 Backward duration & 7\,d\\
@@ -328,15 +328,15 @@ This chapter aims to address the two scientific questions raised in \cref{sec:IN
             \caption{Definition of the criteria for the evaluation of the ratio method results.}
 
             \begin{tabular}{ll}
-                \tophline
-                Level of success & Criteria \\
-                \middlehline
+                \toprule
+                \textbf{Level of success} & \textbf{Criteria} \\
+                \midrule
                 0 & $D_{T}$ is not first contribution \\
                 1 & $D_{T}$ is first contribution \\
                 2 & $D_{T} > 0.5$ \\
                 3 & $D_{T} > 0.5$ and second contribution\,$< 0.25$\\
                 4 & $D_{T} > 0.8$ \\
-                \bottomhline
+                \bottomrule
             \end{tabular}
             \label{P1tab:success_criteria}
         \end{table}
@@ -458,16 +458,16 @@ This chapter aims to address the two scientific questions raised in \cref{sec:IN
             \caption{Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}
             \label{P1tab:results_comparis}
             \begin{tabular}{lrr|rr|rr}
-                \tophline
+                \toprule
                 \multirow{2}{*}{Stations}    &   \multicolumn{2}{c|}{Sea ice tracer}    &   \multicolumn{2}{c|}{Open-ocean tracer}  &   \multicolumn{2}{c}{Continental tracer} \\ \cline{2-7}
                             & standard & improved    &   standard & improved   &    standard & improved \\
-                \middlehline
+                \midrule
                 Alert & 0  &\textbf{1}  & 0  & \textbf{2}  & 2  & 2 \\
                 Ny-Ålesund & 0  & \textbf{1}  & 2  &\textbf{3}  & 2  & 2  \\
                 Tiksi & 0  &\textbf{3}  & \textbf{ 1}  & 0  & 2  &\textbf{4}  \\
                 Utqiaġvik & 0  &\textbf{2}  & 0  &\textbf{1}  & 2  & 2  \\
                 Villum & 0  & \textbf{2}  & 2  &\textbf{3}  & 0 & \textbf{2}  \\
-                \bottomhline
+                \bottomrule
             \end{tabular}
         \end{table}
 
@@ -499,13 +499,13 @@ This chapter aims to address the two scientific questions raised in \cref{sec:IN
         \begin{table*}[t]
             \caption{Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}
             \begin{tabular}{lrrr}
-                \tophline
+                \toprule
                 & FPES filter & Background subtraction & Composite ratio \\
-                \middlehline
+                \midrule
                 FPES filter & 1.3 & 1.5 & 1.6\\
                 Background subtraction & 1.5 & 1.0 & 1.1\\
                 Composite ratio & 1.6 & 1.1 & 1.1\\
-                \bottomhline
+                \bottomrule
             \end{tabular}
             \belowtable{The values are rounded to the first two digits.}
             \label{P1tab:modif_compar}
@@ -856,7 +856,7 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
 
     First, I will present the work done with Antoine Ehret, former PhD student at LATMOS, who developed an algorithm for the detection of wild fire plume source detection. The objective of our collaboration was to compare our identification methods, with in mind their mutual validation. Part of my work for that study has been presented in Antoine's thesis, and later I contributed to his peer-reviewed paper on the study. Here, I will present the work I have done in more complete manner, as it has never been shown yet.
 
-    The second case study comes from a collaboration with Aymeric Dziduch, PhD student at LaMP in Clermont-Ferrand, in the frame of the ANR project MPC2 (see \cref{chap:contrib_commu} for details about the project).
+    The second case study comes from a collaboration with Aymeric Dziduch, PhD student at LaMP in Clermont-Ferrand, in the frame of the ANR project (MPC)² (see \cref{chap:contrib_commu} for details about the project).
     Aymeric has worked on the air masses classification during airborne measurements of cloud particles properties. He studied the data from four flight campaign in Svalbard. 
     I used my source detection method to identify the likely origin of air masses that were associated to cloud observation. These results were used to confirm and strengthen Aymeric's classification.
 
@@ -866,7 +866,40 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
 
     \subsection{Origins of air masses that form clouds in the North Atlantic}
     \label{sec:cloud_origins}
-    !!!TODO!!! write this section
+
+    The objective of this study was to (1) confirm the result of an alternative method, (2) introduce quantification in the results, and (3) explore the application domain of the improved ratio method.
+    The original method used by Aymeric Dziduch allowed for the categorisation of cloud origins on two variables: surface type (ocean or continent), and cardinal direction.
+    The application of the improved ratio method enabled the visual identification of the cloud origins and the quantification of the surface type contribution.
+
+    The measurement data I used were time series of extinction coefficients ($\sigma$), gathered during 39 flights over four airborne campaigns in Svalbard (\cref{tab:mpc2_campaigns}).
+    I downsampled the data to a ten minutes frequency and launched FLEXPART-WRF runs for every data point.
+    The emission boxes of the backward runs were collocated with the plane three dimensional coordinates (latitude, longitude and altitude) at the time of the measurement. Each run emitted \num{10000} passive air tracers with no lifetime. 
+For the analysis of the PES, the whole vertical column was used, not only the FPES as usual. This is justified by the fact we look for air masses origins and not for ground emissions.
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{l|c|c|c}
+        \toprule
+        \textbf{Campaign}  &  \textbf{Period} &  \textbf{Number of flights} & \textbf{Number of backward runs} \\
+        \midrule 
+        ACLOUD & Jun.\--Jul. 2017 & 8 & 277 \\
+        AFLUX & Mar.\--Apr. 2019 & 11 & 1005 \\
+        HALO-AC³ & Mar.\--Apr.\--- 2022 & 11 & 536 \\
+        MOSAIC & Sept. 2020 & 7 & 816 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Airborne campaigns of the measurements used for the cloud origin detection.}
+    \label{tab:mpc2_campaigns}
+\end{table}
+
+For this application, the ratio method has been adapted to better suit the objectives of the study.
+Rather than taking a fixed fraction of the data to define the highest and lowest observed values, I used thresholds that characterise the type of cloud observed. On Aymeric's advice, I defined four categories: clear sky ($\sigma < 0.05$ \si{\per\kilometre}), light cloud ($0.05 < \sigma < 1$ \si{\per\kilometre}), thick cloud (\SI{33}{\percent} highest $\sigma$ values), total cloud ($\sigma > 0.05$ \si{\per\kilometre}).
+Consequently, we do not use the composite ratio for the results.
+\vspace{\baselineskip}
+
+The results shows that the majority of the cloud cases have oceanic\----or sea ice\---- origins; only a few have more than \perc{50} of continental signal.
+
+!!!TODO!!! histogram avec les stat d'origines continentales + figures d'exemples de quelques cas
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
