@@ -1665,6 +1665,58 @@
       \verb https://rda.ucar.edu
       \endverb
     \endentry
+    \entry{conen_atmospheric_2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3b8c3f0a7a2faf40cf648f58683eee06}{%
+           family={Conen},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cc6dad911ef7b8e9b1c6f2fa876b069a}{%
+           family={Henne},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=72e617b486d9f69bc1d95a65dbff0722}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8dd386152e356c05fe86dcb74ea79e86}{%
+           family={Alewell},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b33ad6aaf443c2b56db98d543c81296}
+      \strng{fullhash}{8bae0b17a7d986693dcaf70043695280}
+      \strng{bibnamehash}{8bae0b17a7d986693dcaf70043695280}
+      \strng{authorbibnamehash}{8bae0b17a7d986693dcaf70043695280}
+      \strng{authornamehash}{6b33ad6aaf443c2b56db98d543c81296}
+      \strng{authorfullhash}{8bae0b17a7d986693dcaf70043695280}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Measurement Techniques}
+      \field{number}{2}
+      \field{title}{Atmospheric ice nucleators active {>} -12°{C} can be quantified on {PM}$_{\textrm{10}}$ filters}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{321\bibrangedash 327}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.5194/amt-5-321-2012
+      \endverb
+      \verb{urlraw}
+      \verb https://amt.copernicus.org/articles/5/321/2012/
+      \endverb
+      \verb{url}
+      \verb https://amt.copernicus.org/articles/5/321/2012/
+      \endverb
+    \endentry
     \entry{cowie_sixth_2022}{article}{}
       \name{author}{3}{}{%
         {{hash=90d915c8e545fc1890641a7c9e96816e}{%
@@ -5887,6 +5939,83 @@
       \endverb
       \verb{url}
       \verb https://gmd.copernicus.org/articles/10/3661/2017/
+      \endverb
+    \endentry
+    \entry{mason_micro-orifice_2015}{article}{}
+      \name{author}{9}{}{%
+        {{hash=fe2772c19205f220c1a9543e1283a10f}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bda65ca2bca176cd01a5f2cc76a78003}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cd60d2f8ad8556d3b073f8bb020874fe}{%
+           family={McCluskey},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=395ae2ca5400fcedc858be7b8cd47aff}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi J.\bibnamedelimi T.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=dfb4be07c859dd192c50f826855cf8cd}{%
+           family={Schiller},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4b615785921974a1b4e3949df4c6a35e}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi C.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cab18e24d7f42dbea2afa646eadabc36}{%
+           family={Huffman},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bfbd39e7f3fd0c35a978f78311eacebb}{%
+           family={DeMott},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ad27cac578def162d27646468e7ab779}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a82ed7f42d50cf457454c43e5506a65e}
+      \strng{fullhash}{a146e8e5b00eeb9ac618845fde6638db}
+      \strng{bibnamehash}{a82ed7f42d50cf457454c43e5506a65e}
+      \strng{authorbibnamehash}{a82ed7f42d50cf457454c43e5506a65e}
+      \strng{authornamehash}{a82ed7f42d50cf457454c43e5506a65e}
+      \strng{authorfullhash}{a146e8e5b00eeb9ac618845fde6638db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Measurement Techniques}
+      \field{number}{6}
+      \field{title}{The micro-orifice uniform deposit impactor–droplet freezing technique ({MOUDI}-{DFT}) for measuring concentrations of ice nucleating particles as a function of size: improvements and initial validation}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{2449\bibrangedash 2462}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.5194/amt-8-2449-2015
+      \endverb
+      \verb{urlraw}
+      \verb https://amt.copernicus.org/articles/8/2449/2015/
+      \endverb
+      \verb{url}
+      \verb https://amt.copernicus.org/articles/8/2449/2015/
       \endverb
     \endentry
     \entry{masson-delmotte_summary_2021}{incollection}{}
@@ -11178,9 +11307,16 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
+  \missing{buchholz_instantaneous_2019}
+  \missing{copernicus-climate-change-service_era5_2017}
   \missing{copernicus_climate_change_service_era5_2017}
+  \missing{curry_thermodynamics_2014}
   \missing{da_silva_backward_2025}
+  \missing{dall'osto_arctic_2017}
   \missing{ipcc_AR4_2007}
+  \missing{möhler_portable_2021}
+  \missing{shrod_long-term_2020}
+  \missing{tørseth_introduction_2012}
 \endrefsection
 \endinput
 

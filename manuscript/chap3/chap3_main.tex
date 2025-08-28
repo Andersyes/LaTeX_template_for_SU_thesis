@@ -831,10 +831,11 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
 
     Figure \ref{fig:source_INP_artofmelt} shows the results of the detection for the INP series active at \tempc{-20}. 
     Panel A and B show that the air masses always came from the South-west; no contribution to either the high or low concentrations signal from Europe and Asia. During the campaign, all the air masses have come from North America (north Alaska and Canada), and Greenland.
+    Both maps indicates potential sources in central Greenland. For the high concentration map (panel A), this detection is most likely misleading since the high plateau region of Greenland correspond to several kilometres of glaciers from where very little potential INPs are emitted.
+    The benefits of the composite ratio are thereby perfectly illustrated.
     On panel C, the composite ratio indicates sources from the Greenland coasts. Although the detection method precision does not allow to distinguish the continental from the ocean contribution, it is possible to hypothesise.
-    Since Greenland has been originally misnamed by Erik Thorvaldsson (a.k.a. Erik the Red, 950-1003), it does not consist of many forests, and excepted some tundra (c.f. \cref{fig:arctic_map}), it does not have great areas of potential emissions of organic particles. Same for dust emissions that are very thin within the great Greenland ice cap.
-    The signal is thereby most likely associated to emissions from coastal marine areas.
-    However, even though the hypothesis of biological marine particles emitted from on the edge of the melting ice pack is plausible, the very low concentrations of warm INPs colder, would rather suggest mineral particles.
+    Since Greenland has been originally misnamed by Erik Thorvaldsson (a.k.a. Erik the Red, 950-1003), it does not consist of many forests, and excepted some tundra (c.f. \cref{fig:arctic_map}), it does not have great areas of potential emissions of organic particles. Same for dust emissions that are very thin within the great Greenland ice cap, although coastal emissions can be non-zero, and even increasing in the last decades due to the melting of ice and snow cover \citep{amino_increasing_2021}.
+    The signal could also be associated with emissions from coastal marine areas. However, even though the hypothesis of biological marine particles emitted from on the edge of the melting ice pack is plausible, the very low concentrations of warm INPs colder, would rather suggest mineral particles.
     Consequently, the interpretation of these results remain ambiguous, and motivates further investigations about the possible INP sources in coastal Greenland, Baffin Bay, and Davis Strait.
 
 
@@ -844,7 +845,6 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
             \caption{Same as \cref{fig:source_INP_moccha} for the ARTofMELT campaign. Panel A is the raw ratio of the \SI{10}{\percent} highest observed concentrations. Panel B is the raw ratio of the \SI{33}{\percent} lowest observed concentrations. Yellow to red indicate detection signal, while the blueish colour means no signal. Panel C is the composite ratio (c.f. \cref{P1sec:improved_method}), the actual identification results. Panel D is the time series of INP concentrations measured during the campaign for four activation temperatures.}
             \label{fig:source_INP_artofmelt}
         \end{figure}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -858,10 +858,42 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
 
     The second case study comes from a collaboration with Aymeric Dziduch, PhD student at LaMP in Clermont-Ferrand, in the frame of the ANR project (MPC)² (see \cref{chap:contrib_commu} for details about the project).
     Aymeric has worked on the air masses classification during airborne measurements of cloud particles properties. He studied the data from four flight campaign in Svalbard. 
-    I used my source detection method to identify the likely origin of air masses that were associated to cloud observation. These results were used to confirm and strengthen Aymeric's classification.
+    I used my source detection method to identify the likely origin of air masses that were associated to cloud observations. These results were used to confirm and strengthen Aymeric's classification, and open new lines of research.
 
     \subsection{North American fire emissions}
     !!!TODO!!! write this section
+    In this study, we investigate the emission origins of aerosols particles that hovered Paris during summer 2018. More precisely, we study a high concentration event that happened between August, 23 and 28, observed as carbone monoxide (\ce{CO}) concentrations by the Infrared Atmospheric Sounding Interferometer (IASI) mission.
+    These five days represent the peak of \ce{CO} observations over Paris during the 2018 fire season 2018 (June\--October) as depicted on \cref{fig:co_paris_2018}.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=1\textwidth]{./chap3/images/co_paris_2018.png}
+            \caption{!!!À REFAIRE!!! Time series of \ce{CO} concentrations observed by IASI over Paris' coordinates.}
+            \label{fig:co_paris_2018}
+        \end{figure}
+    
+    % technical application of the method
+    I ran WRF for five months between June and October, on a semi-hemispheric domain of \SI{50}{\kilometre} resolution.
+    The five days of the event were flagged as the high concentrations of the ratio method.
+    The dates of the \perc{33} lowest concentrations of the series were considered as the low flags.
+    FLEXPART-WRF ran \num{151} times on every days of the period. Each run emitted \num{20000} air tracers over two hours from \SI{8}{a.m.} to \si{10}{a.m.} Paris local time, which frame IASI flyby time (\SI{9}{a.m.}).
+    The particles were emitted in a box \SI{200}{\metre} high, and \SI{50}{\kilometre} wide.
+    % problem of the plume altitude
+    The altitude of emission had to correspond to the \ce{CO} plume's. Unfortunately, the IASI observations do not allow an estimation of that parameter.
+    %Ground based observations could have help getting
+    I thus used the detection ability of the ratio method to determine what was the likely altitude of the plume. I set up FLEXPART-WRF to emit at several altitudes, between \SI{4}{\kilometre} and \SI{9}{\kilometre}. Each air tracers plume being independent of the others.
+    The analysis of the results would therefore indicate what emission altitude better corresponded to the observed \ce{CO} plume.
+    For the application of the ratio method, I used the PES of the first \SI{4000}{\metre} of the atmosphere, rather than only the FPES. This is was intended to take into account the total injection of \ce{CO} from wild fires that can reach the altitude.
+    However, this high range of PES implied higher uncertainty on the detection.
+    The composite ratio for all the tested FLEXPART-WRF emission altitudes are presented on \cref{fig:compo_ratio_fire_altitude}.
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=1\textwidth]{./chap3/images/.png}
+            \caption{!!!À FAIRE!!! Composite ratio maps for the different tested emission altitude FLEXPART-WRF runs on the Paris high \ce{CO} event.}
+            \label{fig:compo_ratio_fire_altitude}
+        \end{figure}
+    % usage of multiple stations thanks to iasi obs to triangulate the source.
 
 
     \subsection{Origins of air masses that form clouds in the North Atlantic}
