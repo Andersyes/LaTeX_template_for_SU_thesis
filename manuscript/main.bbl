@@ -365,6 +365,94 @@
       \endverb
       \keyw{Environmental sciences,Environmental impact,Atmospheric dynamics}
     \endentry
+    \entry{amino_increasing_2021}{article}{}
+      \name{author}{9}{}{%
+        {{hash=f504c437196a42a0cd45d48fcd11e06c}{%
+           family={Amino},
+           familyi={A\bibinitperiod},
+           given={Tomomi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=184fe64f5de3f79d21927b007f66c6a7}{%
+           family={Iizuka},
+           familyi={I\bibinitperiod},
+           given={Yoshinori},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=47d3c0a22a9df786de3f86a00c8a4076}{%
+           family={Matoba},
+           familyi={M\bibinitperiod},
+           given={Sumito},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fea0a03c7cf70d52ba4b9f37acc2d3e8}{%
+           family={Shimada},
+           familyi={S\bibinitperiod},
+           given={Rigen},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7e23dbf50043575fa370e8091e0754d6}{%
+           family={Oshima},
+           familyi={O\bibinitperiod},
+           given={Naga},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c1084754729fa0de5958836a9d0d4207}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Toshitaka},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8a18c75bb83ac55bf964049312b08c1c}{%
+           family={Ando},
+           familyi={A\bibinitperiod},
+           given={Takuto},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e0f510d4674b57df49cb05f3dfc13796}{%
+           family={Aoki},
+           familyi={A\bibinitperiod},
+           given={Teruo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5ef0fd70cef6996bb08440be3fd4eede}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Koji},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{19e403bea88c72e1558d3ab043aa0339}
+      \strng{fullhash}{6cc0df8f1811a3c2c5ef7d03f686c525}
+      \strng{bibnamehash}{19e403bea88c72e1558d3ab043aa0339}
+      \strng{authorbibnamehash}{19e403bea88c72e1558d3ab043aa0339}
+      \strng{authornamehash}{19e403bea88c72e1558d3ab043aa0339}
+      \strng{authorfullhash}{6cc0df8f1811a3c2c5ef7d03f686c525}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mineral dust plays a key role in both local and global climates. At high latitudes, atmospheric dust can affect ice-nuclei formation, and surface dust can reduce the albedo as well as increase subsequent ice melting. As a proxy for past climate, mineral dust is preserved in ice cores, but few studies have examined deposited dust in ice cores during the Anthropocene, especially after 2000. We measured dust concentrations in an ice core at the southeastern dome in Greenland (SE-Dome), and reconstructed the annual and seasonal dust fluxes during 1960–2014. We find the annual average flux during 1960–2014 to be 34.8 ± 13.5 mg m−2 yr−1, a value about twice that of ice cores further inland. The more recent part of that period, 2000–2014, has the higher annual flux of 46.6 ± 16.2 mg m−2 yr−1. The annual and autumn dust fluxes highly correlate with air temperature in Tasiilaq (r = 0.61 and 0.50, respectively), a coastal location in southeastern Greenland. Our results suggest that the local dust emissions at the coastal region are increasing due to a decreasing seasonal snow-cover area arising from coastal Greenland warming after 2000.}
+      \field{issn}{1873-9652}
+      \field{journaltitle}{Polar Science}
+      \field{month}{3}
+      \field{series}{Arctic {Challenge} for {Sustainability} {Project} ({ArCS})}
+      \field{title}{Increasing dust emission from ice free terrain in southeastern {Greenland} since 2000}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{100599}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.polar.2020.100599
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/dasilva/snap/zotero-snap/common/Zotero/storage/WYT3PC45/Amino et al. - 2021 - Increasing dust emission from ice free terrain in southeastern Greenland since 2000.pdf:application/pdf;ScienceDirect Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/3KZULV3Q/S1873965220301171.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1873965220301171
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1873965220301171
+      \endverb
+      \keyw{Annual flux,Dust,Greenland,Ice core,Seasonal flux}
+    \endentry
     \entry{an_tracking_2014}{article}{}
       \name{author}{5}{}{%
         {{hash=49ae944f5cc2e8e43756a3778911b340}{%
@@ -1148,6 +1236,59 @@
       \endverb
       \keyw{Atmospheric chemistry,Lagrangian models,Chemical lagrangian model of the stratosphere (CLaMS),Chemistry transport models (CTMs),Kinetic preprocessor software (KPP),Master chemical mechanism (MCM),Network common data form (NetCDF),Plume models,Volatile organic compounds (VOCs)}
     \endentry
+    \entry{buchholz_instantaneous_2019}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=5a70016c8c7dc1d44c898b822f896e22}{%
+           family={Buchholz},
+           familyi={B\bibinitperiod},
+           given={Rebecca\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=33861ec00cae498531e31f2e2b489f3e}{%
+           family={Emmons},
+           familyi={E\bibinitperiod},
+           given={Louisa\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=66c88a57ef86eb459a53e8316bfbbfbb}{%
+           family={{The CESM2 Development Team}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {UCAR/NCAR - Atmospheric Chemistry Observations}%
+        {Modeling Laboratory}%
+      }
+      \strng{namehash}{b2b43e05259aade4305c032cd91236fc}
+      \strng{fullhash}{092565b6078675bc7a9e5e1f9f5c6216}
+      \strng{bibnamehash}{092565b6078675bc7a9e5e1f9f5c6216}
+      \strng{authorbibnamehash}{092565b6078675bc7a9e5e1f9f5c6216}
+      \strng{authornamehash}{b2b43e05259aade4305c032cd91236fc}
+      \strng{authorfullhash}{092565b6078675bc7a9e5e1f9f5c6216}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instantaneous {Output} for {Boundary} {Conditions}, {CESM2}.1/{CAM}-chem}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5065/NMP7-EP60
+      \endverb
+      \verb{urlraw}
+      \verb https://wiki.ucar.edu/display/camchem/CESM2.1%3ACAM-chem+as+Boundary+Conditions
+      \endverb
+      \verb{url}
+      \verb https://wiki.ucar.edu/display/camchem/CESM2.1%3ACAM-chem+as+Boundary+Conditions
+      \endverb
+    \endentry
     \entry{burrows_ice_2013}{article}{}
       \name{author}{4}{}{%
         {{hash=5fdbd915e86a9a3df2508bda2a71e94e}{%
@@ -1717,6 +1858,44 @@
       \verb https://amt.copernicus.org/articles/5/321/2012/
       \endverb
     \endentry
+    \entry{copernicus_climate_change_service_era5_2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8ea7c5a32b4df3a9672a582058a63f9e}{%
+           family={{Copernicus Climate Change Service}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \strng{fullhash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \strng{bibnamehash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \strng{authorbibnamehash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \strng{authornamehash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \strng{authorfullhash}{8ea7c5a32b4df3a9672a582058a63f9e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. Data is available from 1940 onwards. ERA5 replaces the ERA-Interim reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. This principle, called data assimilation, is based on the method used by numerical weather prediction centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way, but at reduced resolution to allow for the provision of a dataset spanning back several decades. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product. ERA5 provides hourly estimates for a large number of atmospheric, ocean-wave and land-surface quantities. An uncertainty estimate is sampled by an underlying 10-member ensemble at three-hourly intervals. Ensemble mean and spread have been pre-computed for convenience. Such uncertainty estimates are closely related to the information content of the available observing system which has evolved considerably over time. They also indicate flow-dependent sensitive areas. To facilitate many climate applications, monthly-mean averages have been pre-calculated too, though monthly means are not available for the ensemble mean and spread. ERA5 is updated daily with a latency of about 5 days. In case that serious flaws are detected in this early release (called ERA5T), this data could be different from the final release 2 to 3 months later. In case that this occurs users are notified. The data set presented here is a regridded subset of the full ERA5 data set on native resolution. It is online on spinning disk, which should ensure fast and easy access. It should satisfy the requirements for most common applications. An overview of all ERA5 datasets can be found in this article. Information on access to ERA5 data on native resolution is provided in these guidelines. Data has been regridded to a regular lat-lon grid of 0.25 degrees for the reanalysis and 0.5 degrees for the uncertainty estimate (0.5 and 1 degree respectively for ocean waves). There are four main sub sets: hourly and monthly products, both on pressure levels (upper air fields) and single levels (atmospheric, ocean-wave and land surface quantities). The present entry is "ERA5 hourly data on pressure levels from 1940 to present".}
+      \field{title}{{ERA5} hourly data on pressure levels from 1940 to present}
+      \field{urlday}{24}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/9DBXQPAN/reanalysis-era5-pressure-levels.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=overview
+      \endverb
+      \verb{url}
+      \verb https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=overview
+      \endverb
+    \endentry
     \entry{cowie_sixth_2022}{article}{}
       \name{author}{3}{}{%
         {{hash=90d915c8e545fc1890641a7c9e96816e}{%
@@ -2073,6 +2252,52 @@
       \verb https://www.nature.com/articles/s41467-022-31182-x
       \endverb
       \keyw{Climate sciences,Environmental sciences}
+    \endentry
+    \entry{curry_thermodynamics_2014}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6e4740d769d82677fce3029440650ffb}{%
+           family={Curry},
+           familyi={C\bibinitperiod},
+           given={Judith\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=878f8a3468d8ae4bc65c45b5a7be0d4d}{%
+           family={khvorostynanov},
+           familyi={k\bibinitperiod},
+           given={Vitaly\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{cab54a25fedaf03306f2ebe229796482}
+      \strng{fullhash}{5e5f53b511f5d2c290d88839f82dbec7}
+      \strng{bibnamehash}{5e5f53b511f5d2c290d88839f82dbec7}
+      \strng{authorbibnamehash}{5e5f53b511f5d2c290d88839f82dbec7}
+      \strng{authornamehash}{cab54a25fedaf03306f2ebe229796482}
+      \strng{authorfullhash}{5e5f53b511f5d2c290d88839f82dbec7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{by Judith Curry Our new book is now published. Thermodynamics, Kinetics and Microphysics of Clouds by Vitaly I. Khvorostyanov and Judith Curry.  Look Inside at amazon.com. Excerpts from the Preface: Cloud microphysics is a branch of cloud physics that studies … Continue reading →}
+      \field{month}{9}
+      \field{title}{Thermodynamics, {Kinetics} and {Microphysics} of {Clouds}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/dasilva/snap/zotero-snap/common/Zotero/storage/FFJ4F2YJ/thermodynamics-kinetics-and-microphysics-of-clouds.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://judithcurry.com/2014/09/04/thermodynamics-kinetics-and-microphysics-of-clouds/
+      \endverb
+      \verb{url}
+      \verb https://judithcurry.com/2014/09/04/thermodynamics-kinetics-and-microphysics-of-clouds/
+      \endverb
     \endentry
     \entry{da_silva_plotting_2025}{misc}{}
       \name{author}{2}{}{%
@@ -6189,7 +6414,7 @@
       \verb{url}
       \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016JD025951
       \endverb
-      \keyw{cloud phase,cloud radiative effects,CloudSat,global energy budget,mixed-phase clouds,satellite remote sensing}
+      \keyw{mixed-phase clouds,cloud phase,cloud radiative effects,CloudSat,global energy budget,satellite remote sensing}
     \endentry
     \entry{mohler_portable_2021}{article}{}
       \name{author}{13}{}{%
@@ -11307,12 +11532,11 @@
       \keyw{Atmospheric chemistry}
     \endentry
   \enddatalist
-  \missing{buchholz_instantaneous_2019}
+  \missing{_study_2014}
   \missing{copernicus-climate-change-service_era5_2017}
-  \missing{copernicus_climate_change_service_era5_2017}
-  \missing{curry_thermodynamics_2014}
   \missing{da_silva_backward_2025}
   \missing{dall'osto_arctic_2017}
+  \missing{ehret_long-range_2025}
   \missing{ipcc_AR4_2007}
   \missing{möhler_portable_2021}
   \missing{shrod_long-term_2020}

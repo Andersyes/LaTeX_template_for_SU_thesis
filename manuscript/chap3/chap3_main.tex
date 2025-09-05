@@ -34,7 +34,7 @@
 In the study of the Arctic region, where the effects of climate warming are amplified by multiple mechanisms—including the omnipresence of low-level clouds in the solid or mixed phase (c.f. \cref{sec:arctic_clouds})\----the evolution of environments identified as potential sources of INPs constitutes a major determinant of the Arctic climate’s response to rising temperatures.
 As exposed in \cref{chap1}, INPs play a central role in cloud microphysics and thereby determine the nature of cloud–radiation interactions. 
 These interactions, through the concept of CRE, represent one of the cornerstones of the Arctic climate system. The evolution of the Arctic climate is therefore indirectly, yet inextricably, linked to INP-emitting sources. 
-Our limited understanding of these sources is one of the reasons why the impact of aerosols on climate, and their role in its evolution, remains a major source of uncertainty in the current state of climate science.
+Our limited understanding of their sources is one of the reasons why the impact of aerosols on climate, and their role in its evolution, remains a major source of uncertainty in the current state of climate sciences.
 \vspace{\baselineskip}
 
 This chapter will address the topic of INP emission sources by a complete \textit{tour d'horizon} of the atmospheric species emission sources identification.
@@ -42,9 +42,9 @@ The first section is a retranscription, yet adapted, of my first thesis output p
 In the course of the section will be presented different methods of source retrieval, related modelling and observation tools, and the development and assessment of methodology for tracking emissions sources from observation time series.  
 
 The second section presents the application of the methodology developed in \cref{sec:paper1} to three INP datasets, from recent Arctic observation campaigns.
-Eventually, the third section steps aside from the Arctic INPs heart of this thesis by presenting application of the source identification method to wild fire plumes, and to Arctic clouds. Work led in collaboration with other PhD students of my entourage.
+Eventually, the third section steps aside from the Arctic INPs heart of this thesis by presenting applications of the source identification method to wild fire plumes, and to Arctic clouds, work led in collaboration with other PhD students of my entourage.
 
-This chapter aims to address the two scientific questions raised in \cref{sec:INP}:
+This chapter aims to address the three scientific questions raised in \cref{sec:INP}:
 \begin{itemize}
     \item What tools for the identification of aerosols particles emission sources? 
     \item What are the emission sources of Arctic INPs? 
@@ -825,6 +825,7 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
 
 
     \subsection{The ARTofMELT 2023 campaign}
+    \label{sec:artofmelt_sources}
 
     The ARTofMELT 2023 campaign took place during the melt season in spring 2023. It was meant to study the phenomena responsible for the melting of the sea ice pack, with a particular focus on the role of warm air intrusions.
     The campaign was the occasion to study Arctic aerosols particles, and among them INPs. Compared to MOCCHA and MOSAIC, the measurements have been led further south, closer to Svalbard, at latitudes around 80°N. This promises the sounding of different emission sources.
@@ -861,39 +862,69 @@ Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 
     I used my source detection method to identify the likely origin of air masses that were associated to cloud observations. These results were used to confirm and strengthen Aymeric's classification, and open new lines of research.
 
     \subsection{North American fire emissions}
-    !!!TODO!!! write this section
     In this study, we investigate the emission origins of aerosols particles that hovered Paris during summer 2018. More precisely, we study a high concentration event that happened between August, 23 and 28, observed as carbone monoxide (\ce{CO}) concentrations by the Infrared Atmospheric Sounding Interferometer (IASI) mission.
-    These five days represent the peak of \ce{CO} observations over Paris during the 2018 fire season 2018 (June\--October) as depicted on \cref{fig:co_paris_2018}.
-
+    These five days represent the peak of \ce{CO} observations over Paris during the 2018 fire season 2018 (June\--October) as depicted on \cref{fig:co_paris_2018} B.
+    This event is suspected to take its origins in the intense wild fires that happened in North America this year, as shown on panel A of \cref{fig:co_paris_2018} which depicts the repartition of the areas burnt during the 2018 fire season, for a total of \SI{2.8e6}{ha}.
+    
         \begin{figure}[h]
             \centering
-            \includegraphics[width=1\textwidth]{./chap3/images/co_paris_2018.png}
-            \caption{!!!À REFAIRE!!! Time series of \ce{CO} concentrations observed by IASI over Paris' coordinates.}
+            \includegraphics[width=1\textwidth]{./chap3/images/Co_concentrations.png}
+            \caption{Panel A is the total burned area during June–October derived from MODIS observations, for year 2018. Panel B is the time series of total column \ce{CO} concentrations observed by IASI over Paris' coordinates.}
             \label{fig:co_paris_2018}
         \end{figure}
     
+    The alternative method of Antoine \citep{ehret_long-range_2025} has detected that this \ce{CO} event over Paris originated from western North America.
     % technical application of the method
-    I ran WRF for five months between June and October, on a semi-hemispheric domain of \SI{50}{\kilometre} resolution.
+    In order to confirm that result, I ran WRF for five months between June and October, on a semi-hemispheric domain of \SI{50}{\kilometer} resolution.
     The five days of the event were flagged as the high concentrations of the ratio method.
     The dates of the \perc{33} lowest concentrations of the series were considered as the low flags.
     FLEXPART-WRF ran \num{151} times on every days of the period. Each run emitted \num{20000} air tracers over two hours from \SI{8}{a.m.} to \si{10}{a.m.} Paris local time, which frame IASI flyby time (\SI{9}{a.m.}).
-    The particles were emitted in a box \SI{200}{\metre} high, and \SI{50}{\kilometre} wide.
-    % problem of the plume altitude
-    The altitude of emission had to correspond to the \ce{CO} plume's. Unfortunately, the IASI observations do not allow an estimation of that parameter.
-    %Ground based observations could have help getting
-    I thus used the detection ability of the ratio method to determine what was the likely altitude of the plume. I set up FLEXPART-WRF to emit at several altitudes, between \SI{4}{\kilometre} and \SI{9}{\kilometre}. Each air tracers plume being independent of the others.
-    The analysis of the results would therefore indicate what emission altitude better corresponded to the observed \ce{CO} plume.
-    For the application of the ratio method, I used the PES of the first \SI{4000}{\metre} of the atmosphere, rather than only the FPES. This is was intended to take into account the total injection of \ce{CO} from wild fires that can reach the altitude.
-    However, this high range of PES implied higher uncertainty on the detection.
-    The composite ratio for all the tested FLEXPART-WRF emission altitudes are presented on \cref{fig:compo_ratio_fire_altitude}.
+    The particles were emitted in a box \SI{200}{\metre} high, and \SI{50}{\kilometer} wide.
+
+        \subsubsection{Source validation and plume altitude}
+        % problem of the plume altitude
+        The altitude of emission had to correspond to the \ce{CO} plume's. Unfortunately, the IASI observations do not allow an estimation of that parameter.
+        %Ground based observations could have help getting
+        I thus used the detection ability of the ratio method to determine what was the likely altitude of the plume. I set up FLEXPART-WRF to emit at several altitudes, between \SI{4}{\kilometer} and \SI{9}{\kilometer}. Each air tracers plume being independent of the others.
+        The analysis of the results would therefore indicate what emission altitude better corresponded to the observed \ce{CO} plume.
+        For the application of the ratio method, I used the PES of the first \SI{4000}{\metre} of the atmosphere, rather than only the FPES. This is was intended to take into account the total injection of \ce{CO} from wild fires that can reach the altitude.
+        However, this high range of PES implied higher uncertainty on the detection.
+
+        The composite ratio for all the tested FLEXPART-WRF emission altitudes are presented on \cref{fig:compo_ratio_fire_altitude}.
+        The maps pinpoint two major sources: over the Atlantic ocean off the coasts of Spain and North Africa, and over western USA and Canada. 
+        The second corresponds to the wild fire event we want to detect.
+        The maps of starting altitude \kilom{5}, \kilom{7} and \kilom{7.5} presents the signal of this source. However, the signal is the strongest for the run that started at \kilom{7}.
+        Except some overflow offshore the west American coast, the area highlighted by the composite ratio map matches the wild fire regions shown on \cref{fig:co_paris_2018} A.
+        The overflow could be explained by the intensity of the \ce{CO} emissions, which can move over the Pacific Ocean with easterly winds at low altitude, before going up and eastward with high latitude westerly winds. Thereby, the area is detected as a source. 
+        On other explanation for this oceanic signal is the fundamental uncertainty on the plume altitude and thickness when it is observed over Paris, since it conditions the emission box of FLEXPART-WRF.
+        Nevertheless, the correlation between the burnt areas map and the signal of this map suggests that the plume altitude was hovered about \kilom{7}.
 
         \begin{figure}[h]
             \centering
-            \includegraphics[width=1\textwidth]{./chap3/images/.png}
-            \caption{!!!À FAIRE!!! Composite ratio maps for the different tested emission altitude FLEXPART-WRF runs on the Paris high \ce{CO} event.}
+            \includegraphics[width=1\textwidth]{./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png}
+            \caption{Composite ratio maps computed on the PES \sirange{0}{4000}{\metre} for different starting altitudes. It shows the likely source of the Paris high \ce{CO} event of the end of August 2018. Each map shows the results for a different starting altitude of the FLEXPART-WRF tracers emission, from \SI{5}{\km} to \SI{8}{\km}. The interpretation of the maps enables the detection of the \ce{CO} plume altitude when it passed over Paris.}
             \label{fig:compo_ratio_fire_altitude}
         \end{figure}
-    % usage of multiple stations thanks to iasi obs to triangulate the source.
+
+        % usage of multiple stations thanks to iasi obs to triangulate the source.
+        \subsubsection{Triangulating the source with multiple stations}
+        In order to get a more complete source detection, we can apply the suggestion made in \cref{P1sec:combi_stations} to use multiple simultaneous time series of the same species. 
+        Thanks to the satellite nature of IASI, it is possible to interpolate quasi simultaneous time series almost anywhere on the globe.
+        For this application, I used three time series of \ce{CO} at Paris, New York and in the middle of the Atlantic Ocean, and the classic \perc{10} highest and \perc{33} lowest concentrations of \ce{CO}(\cref{fig:multiloc_fire_season}).
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=1\textwidth]{./chap3/images/multiloc_fire_season.png}
+            \caption{Time series of total \ce{CO} column for Paris, New York and over the Atlantic (A). Results of the improved ratio method for the combinaison of the three locations source tracing.}
+            \label{fig:multiloc_fire_season}
+        \end{figure}
+
+        Unlike the results of ARTofMELT INP sources study (c.f. \cref{sec:artofmelt_sources}), the signals of the high and low ratios are completely different. 
+        The low ratio indicates various oceanic areas and central Asia, whilst the high ratio shows a signal concentrated over North America.
+        The composite ratio presents a clean signal that spreads over western USA and Canada, wider than the signal of the Paris only analysis (\cref{fig:compo_ratio_fire_altitude} \kilom{7}).
+        It is also in better agreement with the maps of burnt areas of \cref{fig:co_paris_2018} A, which demonstrates the added value of the composite ratio.
+        A spot of high signal is also located in eastern China. Its detection was enabled by the New York observations, closer to it than Paris. 
+
 
 
     \subsection{Origins of air masses that form clouds in the North Atlantic}
@@ -925,13 +956,27 @@ For the analysis of the PES, the whole vertical column was used, not only the FP
 \end{table}
 
 For this application, the ratio method has been adapted to better suit the objectives of the study.
-Rather than taking a fixed fraction of the data to define the highest and lowest observed values, I used thresholds that characterise the type of cloud observed. On Aymeric's advice, I defined four categories: clear sky ($\sigma < 0.05$ \si{\per\kilometre}), light cloud ($0.05 < \sigma < 1$ \si{\per\kilometre}), thick cloud (\SI{33}{\percent} highest $\sigma$ values), total cloud ($\sigma > 0.05$ \si{\per\kilometre}).
+Rather than taking a fixed fraction of the data to define the highest and lowest observed values, I used thresholds that characterise the type of cloud observed. On Aymeric's advice, I defined four categories: clear sky ($\sigma < 0.05$ \si{\per\km}), light cloud ($0.05 < \sigma < 1$ \si{\per\km}), thick cloud (\SI{33}{\percent} highest $\sigma$ values), total cloud ($\sigma > 0.05$ \si{\per\km}).
 Consequently, we do not use the composite ratio for the results.
 \vspace{\baselineskip}
 
-The results shows that the majority of the cloud cases have oceanic\----or sea ice\---- origins; only a few have more than \perc{50} of continental signal.
+The results shows that the majority of the cloud cases have oceanic\----or sea ice\---- origins; only a few have more than \perc{50} of continental signal. 
+Figure \ref{fig:stat_origin_clouds} shows the distribution of the cloud types origins for the four campaigns.
+The average origin of all cloud types and campaigns is oceanic in majority. However, there is differences among campaigns and cloud types.
+The general tendency is that air masses of clear sky is more continental than cloudy air masses.
+This difference is the weakest for the ACLOUD campaign, and the strongest for HALO-AC3.
+Thick clouds and light clouds present similar, but weaker relation, except during the AFLUX campaign for which the thick clouds originate more from continental regions than light clouds.
+In general, this difference between cloudy air masses and clear sky origins is more striking during HALO-AC3 and MOSAIC. 
+Both took place in respectively spring and early autumn. Since AFLUX happened also in spring, and ACLOUD in summer (c.f. \cref{tab:mpc2_campaigns}), the distribution of air masses origins associated with clouds does not seem to be linked to seasonality. 
 
-!!!TODO!!! histogram avec les stat d'origines continentales + figures d'exemples de quelques cas
+The difference of origin distribution might be explained by aerosol particles. These results suggest that oceanic particles are more efficient than continental to form cloud.
+However, a finer analysis of cloud phase and particle measurements of the campaign with the detected origin is required in order to get a better understanding of the causes of this origin difference.
+
+        \begin{figure}[h]
+            \includegraphics[width=1\textwidth]{./chap3/images/violin_plot_allCampaigns.png}
+            \caption{Statistics distributions of the continental contribution to air masses origins during the four airborne measurement campaign.}
+            \label{fig:stat_origin_clouds}
+        \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
