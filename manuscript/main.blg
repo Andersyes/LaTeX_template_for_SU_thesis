@@ -1,29 +1,5 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'main.blg'
-[59] biber:340> INFO - === sam. août 30, 2025, 22:39:10
-[73] Biber.pm:419> INFO - Reading 'main.bcf'
-[174] Biber.pm:979> INFO - Found 157 citekeys in bib section 0
-[187] Biber.pm:4419> INFO - Processing section 0
-[206] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202508.bib' for section 0
-[277] bibtex.pm:1713> INFO - LaTeX decoding ...
-[935] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202508.bib'
-[1341] Utils.pm:410> ERROR - Name "Rantanen, M., Karpechko, A.Y., Lipponen, A." has too many commas, skipping entry 'rantanen_arctic_2022'
-[2200] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2200] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2201] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2201] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[2367] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2572] bbl.pm:763> INFO - Output to main.bbl
-[2572] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'ipcc_AR4_2007' and 'ipcc_ar4_2007' in file '../../Biblio/biblio_202508.bib'
-[2572] Biber.pm:131> WARN - Entry with key 'rantanen_arctic_2022' in section '0' is cited and found but not created (likely due to sourcemap)
-[2572] Biber.pm:131> WARN - I didn't find a database entry for 'da_silva_backward_2025' (section 0)
-[2572] Biber.pm:131> WARN - I didn't find a database entry for 'ipcc_AR4_2007' (section 0)
-[2572] Biber.pm:131> WARN - I didn't find a database entry for '_study_2014' (section 0)
-[2572] Biber.pm:131> WARN - I didn't find a database entry for 'copernicus-climate-change-service_era5_2017' (section 0)
-[2572] Biber.pm:131> WARN - I didn't find a database entry for 'tørseth_introduction_2012' (section 0)
-[2573] Biber.pm:131> WARN - I didn't find a database entry for 'möhler_portable_2021' (section 0)
-[2573] Biber.pm:131> WARN - I didn't find a database entry for 'shrod_long-term_2020' (section 0)
-[2573] Biber.pm:131> WARN - I didn't find a database entry for 'dall'osto_arctic_2017' (section 0)
-[2573] Biber.pm:131> WARN - I didn't find a database entry for 'ehret_long-range_2025' (section 0)
-[2573] Biber.pm:133> INFO - WARNINGS: 11
-[2573] Biber.pm:136> INFO - ERRORS: 1
+[9] Config.pm:310> INFO - Logfile is 'main.blg'
+[69] biber:340> INFO - === lun. sept.  8, 2025, 23:01:48
+[83] Utils.pm:410> ERROR - main.bcf is malformed, last biblatex run probably failed. Deleted main.bbl
+[83] Biber.pm:136> INFO - ERRORS: 1

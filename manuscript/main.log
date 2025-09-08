@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  5 SEP 2025 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  8 SEP 2025 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2354,15 +2354,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux
 (./others/remerciements.aux) (./others/avantpropos.aux)
 (./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
-(./chap3/chap3_main.aux) (./chap4/chap4_main.aux) (./chap5/chap5_main.aux)
-(./conclusion/conclusion.aux
-
-LaTeX Warning: Label `chap1' multiply defined.
-
-
-LaTeX Warning: Label `chap1@cref' multiply defined.
-
-) (./annexes/future_of_research.aux) (./annexes/MT180.aux))
+(./chap3/chap3_main.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -2532,78 +2524,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
+Package biblatex Info: ... file 'main.bbl' not found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                _study_2014
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                copernicus-climate-change-service_era5_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                da_silva_backward_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                dall'osto_arctic_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ehret_long-range_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ipcc_AR4_2007
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                möhler_portable_2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                shrod_long-term_2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                tørseth_introduction_2012
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 22
 .
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1phv.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 <config/psl-cover/cover_manuscript.pdf, id=7, 596.95016pt x 844.11362pt>
@@ -2658,45 +2586,34 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 33.
- (./main.toc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 69.
- [3
-
-])
+ (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 Package cleveref Info: loaded `english' language definitions on input line 33.
- [4]
+ [3
+
+]
 \openout2 = `others/remerciements.aux'.
 
- (./others/remerciements.tex [5
+ (./others/remerciements.tex [4
 
-])
-Package cleveref Info: loaded `english' language definitions on input line 40.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 40.
- [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}
+]) [5
 
 ]
 \openout2 = `others/avantpropos.aux'.
 
 
-(./others/avantpropos.tex [7
+(./others/avantpropos.tex [6
 
 
 
-])
-Package cleveref Info: loaded `english' language definitions on input line 41.
- [8
+]) [7
 
 ]
 \openout2 = `others/contrib_commu.aux'.
 
- (./others/contrib_commu.tex [9
+ (./others/contrib_commu.tex [8
 
 
 
@@ -2715,14 +2632,14 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 17.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
 0.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-Package cleveref Info: loaded `english' language definitions on input line 47.
- [10
+) [9
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 ! Undefined control sequence.
@@ -2734,7 +2651,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11]
+Package cleveref Info: loaded `english' language definitions on input line 88.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 88.
+[10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}
+]
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 94.
@@ -2743,13 +2664,17 @@ Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             Default family used instead on input line 96.
 
 
-LaTeX Warning: Citation 'da_silva_backward_2025' on page 12 undefined on input 
+LaTeX Warning: Reference `sec:cloud_origins' on page xi undefined on input line
+ 98.
+
+
+LaTeX Warning: Citation 'da_silva_backward_2025' on page 11 undefined on input 
 line 104.
 
-Package cleveref Info: loaded `english' language definitions on input line 122.
 
-[12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
-c}]
+LaTeX Warning: Citation 'da_silva_plotting_2025' on page 11 undefined on input 
+line 104.
+
 ! Undefined control sequence.
 <recently read> \texit 
                        
@@ -2761,6 +2686,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[11{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
+c}]
 ! Undefined control sequence.
 <recently read> \texit 
                        
@@ -2774,7 +2701,9 @@ and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 155.
-[13]
+Package cleveref Info: loaded `english' language definitions on input line 157.
+
+[12]
 ! Undefined control sequence.
 <argument> 2\up 
                 {nde}
@@ -2797,9 +2726,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
-Package cleveref Info: loaded `english' language definitions on input line 42.
- [14]
+) [13]
 \openout2 = `chap1/chap1_main.aux'.
 
  (./chap1/chap1_main.tex
@@ -2954,9 +2881,22 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 131.
 
 [6]
+
+! Package siunitx Error: Found power part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.146 ...f SW incoming radiations at the surface.}
+                                                  .
+
+Each power part must be associated with a unit: a power part was found but no
+following unit was given.
+
+
 Package cleveref Info: loaded `english' language definitions on input line 163.
 
- [7]
+[7]
 ! Undefined control sequence.
 l.172 ...ious centuries. In fact, during the 20\up
                                                   {th} century, the temperat...
@@ -2966,26 +2906,45 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/warming_evidences.png, id=366, 492.8814pt x 368.577pt>
+<./chap1/images/warming_evidences.png, id=237, 492.8814pt x 368.577pt>
 File: ./chap1/images/warming_evidences.png Graphic file (type png)
 <use ./chap1/images/warming_evidences.png>
 Package pdftex.def Info: ./chap1/images/warming_evidences.png  used on input li
 ne 181.
 (pdftex.def)             Requested size: 460.93457pt x 344.68521pt.
 
+LaTeX Warning: Citation 'masson-delmotte_summary_2021' on page 8 undefined on i
+nput line 182.
+
+
+LaTeX Warning: Citation 'masson-delmotte_summary_2021' on page 8 undefined on i
+nput line 182.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 193.
 
 [8]
+
+LaTeX Warning: Citation 'hays_variations_1976' on page 9 undefined on input lin
+e 204.
+
 Package cleveref Info: loaded `english' language definitions on input line 213.
 
- [9 <./chap1/images/warming_evidences.png>]
+[9 <./chap1/images/warming_evidences.png>]
+
+LaTeX Warning: Citation 'chen_impact_2025' on page 10 undefined on input line 2
+15.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 10 undefined on input line 219.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 225.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 225.
-
 ! Undefined control sequence.
 l.225 ...curve remained still until the late 18\up
                                                   {th}.
@@ -2998,7 +2957,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 227.
 
 [10]
-<./chap1/images/co2_2k_ce.pdf, id=403, 667.66628pt x 338.09306pt>
+<./chap1/images/co2_2k_ce.pdf, id=265, 667.66628pt x 338.09306pt>
 File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
 <use ./chap1/images/co2_2k_ce.pdf>
 Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 230.
@@ -3019,6 +2978,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 231.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 231.
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 11 undefined on inpu
+t line 231.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 11 undefined on input lin
+e 231.
+
 ! Undefined control sequence.
 <argument> ...ease that started in the late 18\up 
                                                   {th} century. Data can be ...
@@ -3029,6 +2996,14 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 11 undefined on inpu
+t line 231.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 11 undefined on input lin
+e 231.
 
 ! Undefined control sequence.
 <argument> ...ease that started in the late 18\up 
@@ -3062,7 +3037,11 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 247.
 
 [11 <./chap1/images/co2_2k_ce.pdf>]
-<./chap1/images/world_energy_consumption.png, id=450, 3770.085pt x 1067.99pt>
+
+LaTeX Warning: Citation 'fressoz_pour_2021' on page 12 undefined on input line 
+248.
+
+<./chap1/images/world_energy_consumption.png, id=305, 3770.085pt x 1067.99pt>
 File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
 <use ./chap1/images/world_energy_consumption.png>
 Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
@@ -3070,22 +3049,44 @@ nput line 255.
 (pdftex.def)             Requested size: 460.93457pt x 130.56511pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.0pt on input line 256.
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=455, 2133.9725pt x 1352.0
+
+! Package siunitx Error: Found power part with no unit.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.262 ...ng around \SI{-1}{\watt\per\meter\square}
+                                                  . Its effect splits into t...
+
+
+Each power part must be associated with a unit: a power part was found but no
+following unit was given.
+
+
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=310, 2133.9725pt x 1352.0
 5125pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png  used
  on input line 267.
 (pdftex.def)             Requested size: 460.93457pt x 292.02634pt.
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 12 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 12 undefined on input line 268.
+
 Package cleveref Info: loaded `english' language definitions on input line 270.
 
- [12 <./chap1/images/world_energy_consumption.png>]
+[12 <./chap1/images/world_energy_consumption.png>]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 282.
 Package cleveref Info: loaded `english' language definitions on input line 294.
 
  [13 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>]
-<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=474, 1973.3725pt x 1060.96375pt
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=327, 1973.3725pt x 1060.96375pt
 >
 File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
@@ -3096,12 +3097,20 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 303.
 
 
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 14 undefined on input line 303.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 14 undefined on input line 303.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 312.
 
 [14]
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=485, 2134.97626pt x 2247.39626
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=336, 2134.97626pt x 2247.39626
 pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
@@ -3110,22 +3119,70 @@ nput line 314.
 (pdftex.def)             Requested size: 460.93457pt x 485.20404pt.
 
 
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 15 undefined on input line 315.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 15 undefined on input line 315.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 326.
 
 [15 <./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>]
+
+LaTeX Warning: Citation 'hallmann_more_2017' on page 16 undefined on input line
+ 345.
+
+
+LaTeX Warning: Citation 'seibold_arthropod_2019' on page 16 undefined on input 
+line 346.
+
+
+LaTeX Warning: Citation 'lamkin_challenge_2016' on page 16 undefined on input l
+ine 347.
+
+
+LaTeX Warning: Citation 'ipbes_summary_2019' on page 16 undefined on input line
+ 348.
+
+
+LaTeX Warning: Citation 'bar-on_biomass_2018' on page 16 undefined on input lin
+e 352.
+
+
+LaTeX Warning: Citation 'bar-on_biomass_2018' on page 16 undefined on input lin
+e 353.
+
 Package cleveref Info: loaded `english' language definitions on input line 355.
 
- [16]
+[16]
+
+LaTeX Warning: Citation 'ipbes_summary_2019' on page 17 undefined on input line
+ 371.
+
+
+LaTeX Warning: Citation 'cowie_sixth_2022' on page 17 undefined on input line 3
+75.
+
+
+LaTeX Warning: Reference `sec:research_futur' on page 1 undefined on input line
+ 382.
+
 Package cleveref Info: loaded `english' language definitions on input line 389.
 
- [17]
+[17]
 Package cleveref Info: loaded `english' language definitions on input line 389.
 
  [18 <./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 9.0pt on input line 391.
+
+
+LaTeX Warning: Citation 'cantrell_production_2005' on page 19 undefined on inpu
+t line 406.
 
 ! Undefined control sequence.
 l.410 ...-1864), sometime considered as the \texit
@@ -3136,20 +3193,50 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'howard_lxiv_1803' on page 19 undefined on input line 4
+10.
+
+
+Overfull \hbox (25.52443pt too wide) in paragraph at lines 406--413
+\T1/ntxtlf/m/n/10.95 cles in sus-pen-sion. The ma-jor-ity are liq-uid wa-ter dr
+oplets, and the rest is ice crys-tals ([]).
+ []
+
 Package cleveref Info: loaded `english' language definitions on input line 418.
 
 [19
 
 ]
-<./chap1/images/compile_nuages.png, id=544, 462.528pt x 275.5896pt>
+
+LaTeX Warning: Citation 'world_meteorological_organisation_international_2018' 
+on page 20 undefined on input line 424.
+
+
+Overfull \hbox (49.92538pt too wide) in paragraph at lines 424--425
+\T1/ntxtlf/m/n/10.95 the eye, as a dust cloud or smoke cloud ([]). 
+ []
+
+
+LaTeX Warning: Citation 'lesigne_extensive_2024' on page 20 undefined on input 
+line 431.
+
+
+LaTeX Warning: Citation 'spankuch_what_2022' on page 20 undefined on input line
+ 434.
+
+<./chap1/images/compile_nuages.png, id=370, 462.528pt x 275.5896pt>
 File: ./chap1/images/compile_nuages.png Graphic file (type png)
 <use ./chap1/images/compile_nuages.png>
 Package pdftex.def Info: ./chap1/images/compile_nuages.png  used on input line 
 445.
 (pdftex.def)             Requested size: 460.93457pt x 274.65536pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'chalon_combien_2014' on page 20 undefined on input lin
+e 458.
 
 Package cleveref Info: loaded `english' language definitions on input line 459.
 
@@ -3163,7 +3250,7 @@ Package cleveref Info: loaded `english' language definitions on input line 498.
 Package cleveref Info: loaded `english' language definitions on input line 552.
 
  [23]
-<./chap1/images/stability.png, id=587, 779.0706pt x 411.939pt>
+<./chap1/images/stability.png, id=408, 779.0706pt x 411.939pt>
 File: ./chap1/images/stability.png Graphic file (type png)
 <use ./chap1/images/stability.png>
 Package pdftex.def Info: ./chap1/images/stability.png  used on input line 578.
@@ -3175,15 +3262,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package cleveref Info: loaded `english' language definitions on input line 592.
 
 [24]
+
+LaTeX Warning: Citation 'seinfeld_atmospheric_1998' on page 25 undefined on inp
+ut line 599.
+
 Package cleveref Info: loaded `english' language definitions on input line 603.
 
- [25 <./chap1/images/stability.png>]
-<./chap1/images/matus_cloud_frac.png, id=607, 1553.44pt x 420.48pt>
+[25 <./chap1/images/stability.png>]
+<./chap1/images/matus_cloud_frac.png, id=426, 1553.44pt x 420.48pt>
 File: ./chap1/images/matus_cloud_frac.png Graphic file (type png)
 <use ./chap1/images/matus_cloud_frac.png>
 Package pdftex.def Info: ./chap1/images/matus_cloud_frac.png  used on input lin
 e 609.
 (pdftex.def)             Requested size: 460.93457pt x 124.76552pt.
+
+
+LaTeX Warning: Citation 'matus_role_2017' on page 26 undefined on input line 61
+0.
+
+
+LaTeX Warning: Citation 'matus_role_2017' on page 26 undefined on input line 61
+0.
+
 
 Underfull \hbox (badness 5878) in paragraph at lines 635--635
 []|\T1/ntxtlf/m/n/10.95 Collision^^Ucoalescence (liq-
@@ -3296,21 +3396,33 @@ deleted material, e.g., by typing `I$}'.
 Package cleveref Info: loaded `english' language definitions on input line 737.
 
 [28{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<./chap1/images/hetero_nucleation.png, id=649, 1194.864pt x 372.4314pt>
+<./chap1/images/hetero_nucleation.png, id=465, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
 Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
 ne 739.
 (pdftex.def)             Requested size: 460.93457pt x 143.66782pt.
-<./chap1/images/homogeneous_nucleation_rate.png, id=654, 578.16pt x 361.35pt>
+
+
+LaTeX Warning: Citation 'lohmann_introduction_2016' on page 29 undefined on inp
+ut line 740.
+
+
+LaTeX Warning: Citation 'lohmann_introduction_2016' on page 29 undefined on inp
+ut line 740.
+
+<./chap1/images/homogeneous_nucleation_rate.png, id=468, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
 n input line 756.
 (pdftex.def)             Requested size: 322.65279pt x 201.65437pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'fletcher_active_1969' on page 29 undefined on input li
+ne 761.
 
 ! Undefined control sequence.
 l.762 ...nt studies have tried to take this \texit
@@ -3321,88 +3433,211 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'murray_ice_2012' on page 29 undefined on input line 76
+2.
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 29 u
+ndefined on input line 762.
+
+
+LaTeX Warning: Citation 'kanji_heterogeneous_2013' on page 29 undefined on inpu
+t line 762.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 29 undefined on input 
+line 762.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 763.
+
+
+Overfull \hbox (1.39163pt too wide) in paragraph at lines 761--764
+[]\T1/ntxtlf/m/n/10.95 ; []; []).
+ []
+
 Package cleveref Info: loaded `english' language definitions on input line 782.
 
 [29 <./chap1/images/hetero_nucleation.png>]
-Package cleveref Info: loaded `english' language definitions on input line 799.
 
- [30 <./chap1/images/homogeneous_nucleation_rate.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 819--819
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 795.
+
+Package cleveref Info: loaded `english' language definitions on input line 796.
+
+[30 <./chap1/images/homogeneous_nucleation_rate.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 803--803
 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 830.
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 803.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 803.
+
+Package cleveref Info: loaded `english' language definitions on input line 837.
 
 [31]
-Package cleveref Info: loaded `english' language definitions on input line 856.
 
- [32]
-<./chap1/images/aerosols_effects.jpg, id=723, 1282.7925pt x 542.025pt>
+LaTeX Warning: Citation 'twomey_influence_1977' on page 32 undefined on input l
+ine 839.
+
+
+LaTeX Warning: Citation 'albrecht_cloud_1989' on page 32 undefined on input lin
+e 839.
+
+<./chap1/images/aerosols_effects.jpg, id=496, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
-e 858.
+e 842.
 (pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
 
-
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 859.
-
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 32 undefined on input line 843.
 
 
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 33 undefined on input line 859.
+
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 32 undefined on input line 843.
 
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=724, 841.1425pt x 81
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=497, 841.1425pt x 81
 3.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png 
- used on input line 868.
+ used on input line 852.
 (pdftex.def)             Requested size: 230.46729pt x 222.761pt.
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 32 undefined on input line 853.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 32 undefined on input line 853.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 886.
+Package cleveref Info: loaded `english' language definitions on input line 863.
 
-[33 <./chap1/images/aerosols_effects.jpg>]
-<./chap1/images/nuages/seasprays_pic_HD.jpg, id=739, 462.528pt x 260.172pt>
+[32 <./chap1/images/aerosols_effects.jpg>]
+Package cleveref Info: loaded `english' language definitions on input line 882.
+
+ [33 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 34 undefined on inp
+ut line 882.
+
+
+Overfull \hbox (31.20047pt too wide) in paragraph at lines 882--883
+\T1/ntxtlf/m/n/10.95 mary aerosols: min-eral dust and par-ti-cles of bi-o-log-i
+-cal, ma-rine, or ter-res-trial ori-gin ([]).
+ []
+
+<./chap1/images/nuages/seasprays_pic_HD.jpg, id=511, 462.528pt x 260.172pt>
 File: ./chap1/images/nuages/seasprays_pic_HD.jpg Graphic file (type jpg)
 <use ./chap1/images/nuages/seasprays_pic_HD.jpg>
 Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic_HD.jpg  used on in
-put line 902.
+put line 890.
 (pdftex.def)             Requested size: 460.93457pt x 259.29001pt.
-Package cleveref Info: loaded `english' language definitions on input line 906.
 
- [34 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
-Package cleveref Info: loaded `english' language definitions on input line 916.
-
- [35 <./chap1/images/nuages/seasprays_pic_HD.jpg>]
-Package cleveref Info: loaded `english' language definitions on input line 942.
+LaTeX Warning: Citation 'storelvmo_aerosol_2017' on page 34 undefined on input 
+line 896.
 
 
-[36]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=771, 1179.2055pt x 858.5676pt>
+Overfull \hbox (9.01257pt too wide) in paragraph at lines 896--897
+\T1/ntxtlf/m/n/10.95 cases^^Vsuch as bac-te-ria^^Vcan be par-tic-u-larly ac-tiv
+e at tem-per-a-tures above $\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 15$\TS1/n
+txtlf/m/n/10.95 �\T1/ntxtlf/m/n/10.95 C ([]).
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 897.
+
+[34 <./chap1/images/nuages/seasprays_pic_HD.jpg>]
+
+LaTeX Warning: Citation 'creamean_ice_2019' on page 35 undefined on input line 
+898.
+
+
+LaTeX Warning: Citation 'creamean_thawing_2020' on page 35 undefined on input l
+ine 898.
+
+
+LaTeX Warning: Citation 'renaut_northward_2018' on page 35 undefined on input l
+ine 898.
+
+! Undefined control sequence.
+<argument> \percentage 
+                       
+l.919 ...ts for only \SIrange{10}{20}{\percentage}
+                                                   of aerosol removal from t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \percentage 
+                       
+l.919 ...ts for only \SIrange{10}{20}{\percentage}
+                                                   of aerosol removal from t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 920.
+
+[35]
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 923.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 36 undefined on input line 93
+3.
+
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=528, 1179.2055pt x 858.5676pt>
 File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
 <use ./chap1/images/Ninp_cycle_Utqiagvik.png>
 Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
- line 952.
+ line 941.
 (pdftex.def)             Requested size: 460.93457pt x 335.59985pt.
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 36 undefined on input line 94
+2.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 36 undefined on input line 94
+2.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+Package cleveref Info: loaded `english' language definitions on input line 951.
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--977
+[36]
+
+LaTeX Warning: Citation 'creamean_annual_2022' on page 37 undefined on input li
+ne 952.
+
+
+LaTeX Warning: Reference `chap4' on page 37 undefined on input line 955.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 966--966
 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 980.
 
-[37]
-Package cleveref Info: loaded `english' language definitions on input line 980.
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 966.
 
- [38 <./chap1/images/Ninp_cycle_Utqiagvik.png>]
+Package cleveref Info: loaded `english' language definitions on input line 969.
+
+[37 <./chap1/images/Ninp_cycle_Utqiagvik.png>]
 
 ! LaTeX Error: Command \ensuregreek unavailable in encoding T1.
 
@@ -3410,7 +3645,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.984 ...tic finds its roots in ancient Greek: ἄ
+l.973 ...tic finds its roots in ancient Greek: ἄ
                                                   ρκτος [árktos], whic...
 
 Your command was ignored.
@@ -3424,7 +3659,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.984 ...tic finds its roots in ancient Greek: ἄ
+l.973 ...tic finds its roots in ancient Greek: ἄ
                                                   ρκτος [árktos], whic...
 
 Your command was ignored.
@@ -3432,11 +3667,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for LGR+ntxtlf on input lin
-e 984.
-LaTeX Font Info:    No file LGRntxtlf.fd. on input line 984.
+e 973.
+LaTeX Font Info:    No file LGRntxtlf.fd. on input line 973.
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 984.
+(Font)              using `LGR/cmr/m/n' instead on input line 973.
 
 
 ! LaTeX Error: Command \textomicron unavailable in encoding T1.
@@ -3445,7 +3680,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.984 ...s its roots in ancient Greek: ἄρκτο
+l.973 ...s its roots in ancient Greek: ἄρκτο
                                                   ς [árktos], which means ...
 
 Your command was ignored.
@@ -3453,7 +3688,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.984 ...many exploratory expeditions in the 19\up
+l.973 ...many exploratory expeditions in the 19\up
                                                   {th} century. As for the g...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3462,7 +3697,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.984 ...he advent of flying machines in the 20\up
+l.973 ...he advent of flying machines in the 20\up
                                                   {th} century. Theses diffi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3470,41 +3705,63 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/arctic_map_upscaled.png, id=798, 3268.21pt x 3345.49875pt>
+<./chap1/images/arctic_map_upscaled.png, id=549, 3268.21pt x 3345.49875pt>
 File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
 <use ./chap1/images/arctic_map_upscaled.png>
 Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
-line 994.
+line 983.
 (pdftex.def)             Requested size: 276.56355pt x 283.0619pt.
-Package cleveref Info: loaded `english' language definitions on input line 1004
-.
-[39 <./chap1/images/arctic_map_upscaled.png>]
 
-LaTeX Warning: Citation 'rantanen_arctic_2022' on page 40 undefined on input li
-ne 1027.
+LaTeX Warning: Citation 'maillard_boundary_2022' on page 38 undefined on input 
+line 984.
 
-<./chap1/images/arctic_ampli.png, id=815, 565.1514pt x 349.7868pt>
-File: ./chap1/images/arctic_ampli.png Graphic file (type png)
-<use ./chap1/images/arctic_ampli.png>
-Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
-32.
-(pdftex.def)             Requested size: 460.93457pt x 285.29523pt.
+
+LaTeX Warning: Citation 'maillard_boundary_2022' on page 38 undefined on input 
+line 984.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 1039
+Package cleveref Info: loaded `english' language definitions on input line 999.
+
+[38]
+Package cleveref Info: loaded `english' language definitions on input line 1014
 .
-[40]
-<./chap1/images/SLP_AO.png, id=830, 849.1725pt x 676.5275pt>
+ [39 <./chap1/images/arctic_map_upscaled.png>]
+
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 40 undefined on input li
+ne 1016.
+
+<./chap1/images/arctic_ampli.png, id=568, 565.1514pt x 349.7868pt>
+File: ./chap1/images/arctic_ampli.png Graphic file (type png)
+<use ./chap1/images/arctic_ampli.png>
+Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
+21.
+(pdftex.def)             Requested size: 460.93457pt x 285.29523pt.
+
+LaTeX Warning: Citation 'serreze_processes_2011' on page 40 undefined on input 
+line 1027.
+
+
+LaTeX Warning: Citation 'chylek_arctic_2009' on page 40 undefined on input line
+ 1027.
+
+Package cleveref Info: loaded `english' language definitions on input line 1028
+.
+[40 <./chap1/images/arctic_ampli.png>]
+
+LaTeX Warning: Citation 'quadrelli_simplified_2004' on page 41 undefined on inp
+ut line 1029.
+
+<./chap1/images/SLP_AO.png, id=583, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
-Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1046.
+Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1035.
 (pdftex.def)             Requested size: 230.46729pt x 183.60425pt.
-
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1047 ...icus_climate_change_service_era5_2017}.}
+l.1036 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3512,10 +3769,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
+1 undefined on input line 1036.
+
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.1047 ...icus_climate_change_service_era5_2017}.}
+l.1036 ...icus_climate_change_service_era5_2017}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3523,59 +3784,105 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 1049
-.
-[41 <./chap1/images/arctic_ampli.png>]
 
-LaTeX Warning: Reference `sec:deposition_processes' on page 42 undefined on inp
-ut line 1062.
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 4
+1 undefined on input line 1036.
 
-Package cleveref Info: loaded `english' language definitions on input line 1068
+
+LaTeX Warning: Citation 'serreze_processes_2011' on page 41 undefined on input 
+line 1043.
+
+
+LaTeX Warning: Reference `sec:deposition_processes' on page 1 undefined on inpu
+t line 1051.
+
+Package cleveref Info: loaded `english' language definitions on input line 1052
 .
-[42 <./chap1/images/SLP_AO.png>]
-<./chap1/images/AA_feedbacks.png, id=860, 489.5088pt x 206.2104pt>
+[41 <./chap1/images/SLP_AO.png>]
+
+LaTeX Warning: Citation 'graversen_polar_2009' on page 42 undefined on input li
+ne 1053.
+
+
+LaTeX Warning: Citation 'maillard_boundary_2022' on page 42 undefined on input 
+line 1056.
+
+
+LaTeX Warning: Citation 'pithan_arctic_2014' on page 42 undefined on input line
+ 1056.
+
+<./chap1/images/AA_feedbacks.png, id=594, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 10
-70.
+59.
 (pdftex.def)             Requested size: 460.93457pt x 194.17447pt.
 
+LaTeX Warning: Citation 'shupe_clouds_2011' on page 42 undefined on input line 
+1065.
 
-LaTeX Warning: Reference `fig:warming_on_clouds' on page 43 undefined on input 
-line 1076.
 
-Package cleveref Info: loaded `english' language definitions on input line 1092
+LaTeX Warning: Citation 'intrieri_annual_2002' on page 42 undefined on input li
+ne 1065.
+
+
+LaTeX Warning: Reference `fig:warming_on_clouds' on page 1 undefined on input l
+ine 1065.
+
+Package cleveref Info: loaded `english' language definitions on input line 1068
 .
-[43 <./chap1/images/AA_feedbacks.png>]
-<./chap1/images/matus_CRE.png, id=876, 1635.2pt x 411.72pt>
+[42 <./chap1/images/AA_feedbacks.png>]
+<./chap1/images/matus_CRE.png, id=606, 1635.2pt x 411.72pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
-Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1105.
+Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1094.
 
 (pdftex.def)             Requested size: 460.93457pt x 116.05353pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1130--1130
+
+LaTeX Warning: Citation 'matus_role_2017' on page 43 undefined on input line 10
+95.
+
+
+LaTeX Warning: Citation 'matus_role_2017' on page 43 undefined on input line 10
+95.
+
+Package cleveref Info: loaded `english' language definitions on input line 1119
+.
+[43 <./chap1/images/matus_CRE.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1134
-.
-[44 <./chap1/images/matus_CRE.png>]
-<./chap1/images/mixed-phase-clouds.png, id=892, 324.7332pt x 316.3017pt>
+
+LaTeX Warning: Reference `chap5' on page 1 undefined on input line 1119.
+
+
+LaTeX Warning: Reference `chap5' on page 1 undefined on input line 1119.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 1141.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 1142.
+
+
+LaTeX Warning: Reference `chap5' on page 1 undefined on input line 1144.
+
+<./chap1/images/mixed-phase-clouds.png, id=615, 324.7332pt x 316.3017pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
-ine 1173.
+ine 1162.
 (pdftex.def)             Requested size: 230.46729pt x 224.48889pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 48.
- [45]
+ [44]
 Package cleveref Info: loaded `english' language definitions on input line 48.
- [46 <./chap1/images/mixed-phase-clouds.png>]
+ [45 <./chap1/images/mixed-phase-clouds.png>]
 \openout2 = `chap2/chap2_main.aux'.
 
  (./chap2/chap2_main.tex
@@ -3599,70 +3906,255 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 6--6
 | [] []
  []
 
-[47
+Package cleveref Info: loaded `english' language definitions on input line 14.
+[46
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 28.
- [48]
+) [47]
+
+LaTeX Warning: Citation 'curry_thermodynamics_2014' on page 48 undefined on inp
+ut line 40.
+
 Package cleveref Info: loaded `english' language definitions on input line 67.
- [49]
-Overfull \hbox (18.90216pt too wide) in paragraph at lines 87--99
+[48]
+
+LaTeX Warning: Citation 'skamarock_description_2022' on page 49 undefined on in
+put line 79.
+
+
+LaTeX Warning: Citation 'nakanishi_development_2009' on page 49 undefined on in
+put line 91.
+
+
+LaTeX Warning: Citation 'tewari_implementation_2004' on page 49 undefined on in
+put line 92.
+
+
+LaTeX Warning: Citation 'morrison_impact_2009' on page 49 undefined on input li
+ne 93.
+
+
+LaTeX Warning: Citation 'iacono_radiative_2008' on page 49 undefined on input l
+ine 94.
+
+
+LaTeX Warning: Citation 'grell_generalized_2002' on page 49 undefined on input 
+line 95.
+
+
+LaTeX Warning: Citation 'commerce_ncep_2000' on page 49 undefined on input line
+ 96.
+
+
+Overfull \hbox (60.77486pt too wide) in paragraph at lines 87--99
  [][] 
  []
+
+
+LaTeX Warning: Citation 'grell_fully_2005' on page 49 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation 'grell_fully_2005' on page 49 undefined on input line 1
+08.
 
 Package cleveref Info: loaded `english' language definitions on input line 112.
 
-[50]
-! Undefined control sequence.
-<argument> \thompson 
-                     _study_2014
-l.127 ...s & Thompson \citep{\thompson_study_2014}
-                                                   \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[49]
+
+LaTeX Warning: Citation 'marelle_aerosol_2025' on page 50 undefined on input li
+ne 113.
 
 
-LaTeX Warning: Citation '_study_2014' on page 51 undefined on input line 127.
+LaTeX Warning: Citation 'lapere_modeling_2024' on page 50 undefined on input li
+ne 113.
 
 
-Overfull \hbox (18.90216pt too wide) in paragraph at lines 120--139
+LaTeX Warning: Citation 'ahmed_modelling_2023' on page 50 undefined on input li
+ne 113.
+
+
+LaTeX Warning: Citation 'nakanishi_development_2009' on page 50 undefined on in
+put line 125.
+
+
+LaTeX Warning: Citation 'tewari_implementation_2004' on page 50 undefined on in
+put line 126.
+
+
+LaTeX Warning: Citation 'thompson_study_2014' on page 50 undefined on input lin
+e 127.
+
+
+LaTeX Warning: Citation 'iacono_radiative_2008' on page 50 undefined on input l
+ine 128.
+
+
+LaTeX Warning: Citation 'grell_generalized_2002' on page 50 undefined on input 
+line 129.
+
+
+LaTeX Warning: Citation 'commerce_ncep_2000' on page 50 undefined on input line
+ 130.
+
+
+Overfull \hbox (60.77486pt too wide) in paragraph at lines 120--140
  [][] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 153.
+
+LaTeX Warning: Citation 'stein_noaas_2015' on page 50 undefined on input line 1
+51.
+
+
+LaTeX Warning: Citation 'sprenger_lagranto_2015' on page 50 undefined on input 
+line 151.
+
+Package cleveref Info: loaded `english' language definitions on input line 154.
+
+[50]
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 51 undefined on input l
+ine 155.
+
+
+LaTeX Warning: Citation 'brioude_lagrangian_2013' on page 51 undefined on input
+ line 155.
+
+
+LaTeX Warning: Reference `P1sec:FLEXPART' on page 1 undefined on input line 158
+.
+
+
+LaTeX Warning: Reference `sec:INP_sources' on page 1 undefined on input line 16
+0.
+
+
+LaTeX Warning: Citation 'demott_predicting_2010' on page 51 undefined on input 
+line 177.
+
+
+LaTeX Warning: Citation 'demott_integrating_2015' on page 51 undefined on input
+ line 177.
+
+
+LaTeX Warning: Citation 'wilson_marine_2015' on page 51 undefined on input line
+ 177.
+
+
+LaTeX Warning: Citation 'li_predicting_2022' on page 51 undefined on input line
+ 177.
+
+
+LaTeX Warning: Citation 'fletcher_active_1969' on page 51 undefined on input li
+ne 179.
+
+
+LaTeX Warning: Citation 'vali_quantitative_1971' on page 51 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 51 u
+ndefined on input line 179.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 51 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation 'ullrich_new_2017' on page 51 undefined on input line 1
+79.
+
+
+Overfull \hbox (3.57788pt too wide) in paragraph at lines 179--180
+\T1/ntxtlf/m/n/10.95 gies ([]; []; []). The
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 180.
 
 [51]
 
-LaTeX Warning: Citation 'copernicus-climate-change-service_era5_2017' on page 5
-2 undefined on input line 184.
+LaTeX Warning: Citation 'barahona_ice_2012' on page 52 undefined on input line 
+186.
 
-Package cleveref Info: loaded `english' language definitions on input line 185.
+
+LaTeX Warning: Citation 'hoose_heterogeneous_2012' on page 52 undefined on inpu
+t line 186.
+
+
+LaTeX Warning: Citation 'savre_theory-based_2015' on page 52 undefined on input
+ line 186.
+
+
+LaTeX Warning: Citation 'copernicus-climate-change-service_c3s_era5_2017' on pa
+ge 52 undefined on input line 205.
+
+
+LaTeX Warning: Citation 'buchholz_instantaneous_2019' on page 52 undefined on i
+nput line 207.
+
+
+LaTeX Warning: Citation 'torseth_introduction_2012' on page 52 undefined on inp
+ut line 210.
+
+Package cleveref Info: loaded `english' language definitions on input line 211.
 
 [52]
-
-LaTeX Warning: Citation 'tørseth_introduction_2012' on page 53 undefined on in
-put line 189.
-
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 191.
+(textcomp)             Default family used instead on input line 212.
 
-LaTeX Warning: Citation 'möhler_portable_2021' on page 53 undefined on input l
-ine 196.
+
+LaTeX Warning: Reference `sec:cloud_origins' on page 1 undefined on input line 
+212.
+
+
+LaTeX Warning: Citation 'mohler_portable_2021' on page 53 undefined on input li
+ne 217.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 53 undefined on input line 22
+0.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 53 undefined on input line 220
+.
 
 
 LaTeX Warning: Citation 'shrod_long-term_2020' on page 53 undefined on input li
-ne 199.
+ne 220.
 
-Package cleveref Info: loaded `english' language definitions on input line 206.
+
+LaTeX Warning: Citation 'hartmann_wintertime_2020' on page 53 undefined on inpu
+t line 220.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 53 undefined on input line 226
+.
+
+
+LaTeX Warning: Citation 'conen_atmospheric_2012' on page 53 undefined on input 
+line 228.
+
+
+LaTeX Warning: Citation 'mason_micro-orifice_2015' on page 53 undefined on inpu
+t line 228.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 53 undefined on input line 22
+9.
+
+
+Overfull \hbox (17.4109pt too wide) in paragraph at lines 228--230
+\T1/ntxtlf/m/n/10.95 re-main sim-i-lar. Al-though the im-ple-men-ta-tion varies
+ from one cam-paign to an-other ([];
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 230.
 
 [53])
 Package cleveref Info: loaded `english' language definitions on input line 49.
@@ -3688,9 +4180,22 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 56 undefined on input line 
+85.
+
 )
 Package cleveref Info: loaded `english' language definitions on input line 29.
  [56]
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 57 undefined on input line 
+41.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 57 undefined on input line 
+58.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\citep' on input line 58.
@@ -3712,18 +4217,244 @@ LaTeX Warning: Citation 'rantanen_arctic_2022' on page 57 undefined on input li
 ne 64.
 
 
+LaTeX Warning: Citation 'bronselaer_change_2018' on page 57 undefined on input 
+line 65.
+
+
+LaTeX Warning: Citation 'serreze_processes_2011' on page 57 undefined on input 
+line 65.
+
+
 Overfull \hbox (2.29228pt too wide) in paragraph at lines 64--67
 \T1/ntxtlf/m/n/10.95 The warm-ing rate of the Arc-tic is al-most 4 times higher
  than the global av-er-age rate ([]).
  []
 
+
+Overfull \hbox (3.6394pt too wide) in paragraph at lines 64--67
+\T1/ntxtlf/m/n/10.95 com-mu-nity due to its pos-si-ble im-pacts on the at-mo-sp
+heric and ocean cir-cu-la-tions ([]).
+ []
+
+
+LaTeX Warning: Citation 'ipcc_sixth_2021' on page 57 undefined on input line 68
+.
+
+
+LaTeX Warning: Citation 'stuecker_polar_2018' on page 57 undefined on input lin
+e 68.
+
+
+LaTeX Warning: Citation 'storelvmo_aerosol_2017' on page 57 undefined on input 
+line 68.
+
+
+LaTeX Warning: Citation 'carslaw_large_2013' on page 57 undefined on input line
+ 68.
+
+
+LaTeX Warning: Citation 'matus_role_2017' on page 57 undefined on input line 68
+.
+
 Package cleveref Info: loaded `english' language definitions on input line 69.
 [57]
-Package cleveref Info: loaded `english' language definitions on input line 90.
- [58]
-Package cleveref Info: loaded `english' language definitions on input line 109.
 
- [59]
+LaTeX Warning: Citation 'zhao_global_2024' on page 58 undefined on input line 7
+1.
+
+
+LaTeX Warning: Citation 'morrison_confronting_2020' on page 58 undefined on inp
+ut line 72.
+
+
+LaTeX Warning: Citation 'murray_opinion_2021' on page 58 undefined on input lin
+e 72.
+
+
+LaTeX Warning: Citation 'freitas_emission_2022' on page 58 undefined on input l
+ine 75.
+
+
+LaTeX Warning: Citation 'heutte_observations_2025' on page 58 undefined on inpu
+t line 75.
+
+
+LaTeX Warning: Citation 'parshintsev_methods_2015' on page 58 undefined on inpu
+t line 75.
+
+
+LaTeX Warning: Citation 'shao_review_2022' on page 58 undefined on input line 7
+5.
+
+
+LaTeX Warning: Citation 'jiang_aerosol-co_2009' on page 58 undefined on input l
+ine 75.
+
+
+LaTeX Warning: Citation 'park_observational_2017' on page 58 undefined on input
+ line 75.
+
+
+LaTeX Warning: Citation 'allen_evidence_2021' on page 58 undefined on input lin
+e 80.
+
+
+LaTeX Warning: Citation 'hartmann_wintertime_2020' on page 58 undefined on inpu
+t line 80.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 58 undefined on inp
+ut line 80.
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 58 undefined on input line
+ 80.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 58 undefined on input line 80
+.
+
+
+LaTeX Warning: Citation 'yun_ice_2022' on page 58 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 58 undefined on input line 80.
+
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 58 undefined on input 
+line 80.
+
+
+LaTeX Warning: Citation 'stein_noaas_2015' on page 58 undefined on input line 8
+7.
+
+
+LaTeX Warning: Citation 'sprenger_lagranto_2015' on page 58 undefined on input 
+line 87.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 58 undefined on input l
+ine 87.
+
+
+LaTeX Warning: Citation 'jones_uk_2007' on page 58 undefined on input line 87.
+
+
+LaTeX Warning: Citation 'wen_backward-time_2012' on page 58 undefined on input 
+line 87.
+
+Package cleveref Info: loaded `english' language definitions on input line 89.
+[58]
+
+LaTeX Warning: Citation 'stohl_analytical_2009' on page 59 undefined on input l
+ine 90.
+
+
+LaTeX Warning: Citation 'manning_estimating_2011' on page 59 undefined on input
+ line 90.
+
+
+LaTeX Warning: Citation 'brunner_estimating_2012' on page 59 undefined on input
+ line 90.
+
+
+LaTeX Warning: Citation 'fang_multiannual_2015' on page 59 undefined on input l
+ine 90.
+
+
+LaTeX Warning: Citation 'dubovik_retrieving_2008' on page 59 undefined on input
+ line 90.
+
+
+LaTeX Warning: Citation 'partridge_inverse_2011' on page 59 undefined on input 
+line 90.
+
+
+LaTeX Warning: Citation 'ashbaugh_residence_1985' on page 59 undefined on input
+ line 90.
+
+
+LaTeX Warning: Citation 'zeng_study_1989' on page 59 undefined on input line 90
+.
+
+
+LaTeX Warning: Citation 'hsu_comparison_2003' on page 59 undefined on input lin
+e 90.
+
+
+LaTeX Warning: Citation 'polissar_aerosol_1999' on page 59 undefined on input l
+ine 90.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 59 undefined on input lin
+e 90.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 59 undefined on input line 90.
+
+
+
+LaTeX Warning: Citation 'ren_use_2021' on page 59 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'fang_performance_2018' on page 59 undefined on input l
+ine 93.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 59 undefined on input lin
+e 96.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 59 undefined on input line 96.
+
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 59 undefined on input 
+line 96.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 96.
+
+
+LaTeX Warning: Reference `P1sec:results' on page 1 undefined on input line 97.
+
+
+LaTeX Warning: Reference `P1sec:discussion' on page 1 undefined on input line 9
+7.
+
+
+LaTeX Warning: Reference `P1sec:application' on page 1 undefined on input line 
+97.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 59 undefined on input line 103
+.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 59 undefined on input 
+line 103.
+
+
+LaTeX Warning: Citation 'hirdman_transport_2009' on page 59 undefined on input 
+line 103.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 59 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Reference `P1sec:results' on page 1 undefined on input line 107.
+
+
+Package cleveref Info: loaded `english' language definitions on input line 108.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 59 undefined on input line 
+108.
+
+[59]
 ! Undefined control sequence.
 l.114         \subsubsubsection
                                {Model setup}
@@ -3732,6 +4463,22 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'skamarock_description_2022' on page 60 undefined on in
+put line 116.
+
+
+LaTeX Warning: Citation 'grell_fully_2005' on page 60 undefined on input line 1
+16.
+
+
+LaTeX Warning: Citation 'lapere_modeling_2024' on page 60 undefined on input li
+ne 117.
+
+
+LaTeX Warning: Citation 'marelle_improvements_2017' on page 60 undefined on inp
+ut line 117.
 
 ! Undefined control sequence.
 l.147         \subsubsubsection
@@ -3742,14 +4489,37 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.174                 \belowtable
-                                 {The parametrisations refer to the applicat...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation 'burrows_ice_2013' on page 60 undefined on input line 1
+53.
+
+
+LaTeX Warning: Citation 'gong_arctic_2023' on page 60 undefined on input line 1
+53.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 60 undefined on inp
+ut line 153.
+
+
+LaTeX Warning: Citation 'ohata_key_2016' on page 60 undefined on input line 157
+.
+
+
+LaTeX Warning: Citation 'farmer_dry_2021' on page 60 undefined on input line 15
+7.
+
+
+LaTeX Warning: Citation 'monahan_model_1986' on page 60 undefined on input line
+ 169.
+
+
+LaTeX Warning: Citation 'monahan_model_1986' on page 60 undefined on input line
+ 170.
+
+
+LaTeX Warning: Citation 'ginoux_sources_2001' on page 60 undefined on input lin
+e 171.
 
 ! Undefined control sequence.
 l.178             \subsubsubsection
@@ -3760,17 +4530,62 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'pasquier_ny-alesund_2022' on page 60 undefined on inpu
+t line 183.
+
 Package cleveref Info: loaded `english' language definitions on input line 184.
 
 [60]
-<./chap3/images/f01.png, id=1191, 1038.7608pt x 715.473pt>
+<./chap3/images/f01.png, id=775, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 186.
 (pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
-Package cleveref Info: loaded `english' language definitions on input line 198.
+Package cleveref Info: loaded `english' language definitions on input line 197.
 
- [61 <./chap3/images/f01.png>]
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 61 undefined on input line 
+197.
+
+[61 <./chap3/images/f01.png>]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 62 undefined on input 
+line 203.
+
+
+LaTeX Warning: Citation 'cassiani_offline_2016' on page 62 undefined on input l
+ine 209.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 62 undefined on input l
+ine 209.
+
+
+LaTeX Warning: Citation 'stohl_replacement_2002' on page 62 undefined on input 
+line 210.
+
+
+LaTeX Warning: Citation 'pisso_lagrangian_2019' on page 62 undefined on input l
+ine 212.
+
+
+LaTeX Warning: Citation 'hirdman_transport_2009' on page 62 undefined on input 
+line 214.
+
+
+LaTeX Warning: Citation 'stohl_validation_1998' on page 62 undefined on input l
+ine 215.
+
+
+LaTeX Warning: Citation 'hegarty_evaluation_2013' on page 62 undefined on input
+ line 216.
+
+
+LaTeX Warning: Citation 'brioude_lagrangian_2013' on page 62 undefined on input
+ line 219.
+
 ! Undefined control sequence.
 l.222         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -3780,64 +4595,204 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Reference `P1tab:FP_params' on page 1 undefined on input line 22
+4.
+
 Package cleveref Info: loaded `english' language definitions on input line 232.
 
 [62]
-! Undefined control sequence.
-l.247             \belowtable
-                             {$^*$~Deposition parameters can be set differen...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 254.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-[][]
+LaTeX Warning: Citation 'ashbaugh_statistical_1983' on page 63 undefined on inp
+ut line 260.
+
+
+LaTeX Warning: Citation 'ashbaugh_residence_1985' on page 63 undefined on input
+ line 260.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 63 undefined on input lin
+e 262.
+
+
+Overfull \hbox (12.1764pt too wide) in paragraph at lines 259--263
+\T1/ntxtlf/m/n/10.95 tion of PSCFs. The method it-self is in-spired by the anal
+-y-sis pro-to-col in-tro-duced by []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 278.
+Package cleveref Info: loaded `english' language definitions on input line 272.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 63 undefined on input line 
+272.
 
 [63]
-Package cleveref Info: loaded `english' language definitions on input line 316.
+Package cleveref Info: loaded `english' language definitions on input line 315.
 
  [64]
-Package cleveref Info: loaded `english' language definitions on input line 362.
 
- [65]
-<./chap3/images/f02.png, id=1266, 742.6947pt x 457.71pt>
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 319.
+
+
+LaTeX Warning: Reference `P1tab:success_criteria' on page 1 undefined on input 
+line 324.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 349.
+
+
+LaTeX Warning: Reference `P1fig:basic_method' on page 65 undefined on input lin
+e 353.
+
+
+LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
+ 357.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 358.
+
+
+LaTeX Warning: Reference `P1sec:evaluation_metric' on page 1 undefined on input
+ line 362.
+
+Package cleveref Info: loaded `english' language definitions on input line 364.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 65 undefined on input line 
+364.
+
+[65]
+<./chap3/images/f02.png, id=820, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
-Package pdftex.def Info: ./chap3/images/f02.png  used on input line 364.
+Package pdftex.def Info: ./chap3/images/f02.png  used on input line 366.
 (pdftex.def)             Requested size: 460.93457pt x 284.06361pt.
-Package cleveref Info: loaded `english' language definitions on input line 388.
 
- [66 <./chap3/images/f02.png>]
-<./chap3/images/f03.png, id=1287, 1038.7608pt x 715.473pt>
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 367.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 367.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
+71.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
+73.
+
+
+LaTeX Warning: Citation 'schmale_pan-arctic_2022' on page 66 undefined on input
+ line 386.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
+87.
+
+
+LaTeX Warning: Reference `P1sec:combi_stations' on page 1 undefined on input li
+ne 388.
+
+Package cleveref Info: loaded `english' language definitions on input line 390.
+
+[66 <./chap3/images/f02.png>]
+
+LaTeX Warning: Reference `P1sec:standard_method' on page 1 undefined on input l
+ine 396.
+
+
+LaTeX Warning: Citation 'ruckstuhl_robust_2012' on page 67 undefined on input l
+ine 401.
+
+
+LaTeX Warning: Citation 'resovsky_algorithm_2021' on page 67 undefined on input
+ line 401.
+
+
+LaTeX Warning: Citation 'fang_performance_2018' on page 67 undefined on input l
+ine 404.
+
+
+LaTeX Warning: Reference `P1sec:discussion' on page 1 undefined on input line 4
+06.
+
+Package cleveref Info: loaded `english' language definitions on input line 410.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 67 undefined on input line 
+410.
+
+[67]
+<./chap3/images/f03.png, id=834, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
-Package pdftex.def Info: ./chap3/images/f03.png  used on input line 410.
+Package pdftex.def Info: ./chap3/images/f03.png  used on input line 412.
 (pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
+ 413.
 
-Package cleveref Info: loaded `english' language definitions on input line 426.
 
-[67]
-Package cleveref Info: loaded `english' language definitions on input line 441.
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 413.
 
- [68 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=1315, 1115.6079pt x 832.0686pt>
+
+LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
+ 413.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 413.
+
+
+LaTeX Warning: Reference `P1fig:improved_method' on page 1 undefined on input l
+ine 417.
+
+Package cleveref Info: loaded `english' language definitions on input line 428.
+
+[68 <./chap3/images/f03.png>]
+
+LaTeX Warning: Reference `P1tab:modif_compar' on page 1 undefined on input line
+ 444.
+
+
+LaTeX Warning: Reference `P1sec:results_compar' on page 1 undefined on input li
+ne 444.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 450.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 69 undefined on input line 
+450.
+
+
+LaTeX Warning: Reference `P1tab:results_comparis' on page 1 undefined on input 
+line 450.
+
+<./chap3/images/f04.png, id=841, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
-Package pdftex.def Info: ./chap3/images/f04.png  used on input line 451.
+Package pdftex.def Info: ./chap3/images/f04.png  used on input line 453.
 (pdftex.def)             Requested size: 460.93457pt x 343.77847pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ! Undefined control sequence.
-l.457         \hack
-                   {\hsize\textwidth}
+l.460             \hack
+                       {\hsize\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3845,7 +4800,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.474         \hack
+l.477         \hack
                    {\newpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3853,25 +4808,62 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 474.
-
-[69 <./chap3/images/f04.png>]
-Package cleveref Info: loaded `english' language definitions on input line 497.
-
- [70]
-! Undefined control sequence.
-l.510             \belowtable
-                             {The values are rounded to the first two digits.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package cleveref Info: loaded `english' language definitions on input line 477.
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 501--512
-[][] \T1/ntxtlf/m/n/10.95 The val-ues are
- []
+LaTeX Warning: Citation 'da_silva_how_2025' on page 69 undefined on input line 
+477.
+
+[69]
+
+LaTeX Warning: Reference `P1sec:standard_method' on page 1 undefined on input l
+ine 479.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 4
+79.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 4
+80.
+
+
+LaTeX Warning: Reference `P1tab:results_comparis' on page 1 undefined on input 
+line 480.
+
+
+LaTeX Warning: Reference `P1sec:evaluation_metric' on page 1 undefined on input
+ line 484.
+
+
+LaTeX Warning: Reference `P1sec:standard_method' on page 1 undefined on input l
+ine 490.
+
+Package cleveref Info: loaded `english' language definitions on input line 495.
+
+[70 <./chap3/images/f04.png>]
+
+LaTeX Warning: Reference `P1tab:modif_compar' on page 1 undefined on input line
+ 496.
+
+
+LaTeX Warning: Reference `P1sec:evaluation_metric' on page 1 undefined on input
+ line 498.
+
+Package cleveref Info: loaded `english' language definitions on input line 531.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 71 undefined on input line 
+531.
+
+[71]
+
+LaTeX Warning: Reference `P1eq:ratio_high' on page 72 undefined on input line 5
+36.
+
+
+LaTeX Warning: Reference `P1eq:ratio_low' on page 72 undefined on input line 53
+6.
 
 
 ! LaTeX Error: Unknown float option `n'.
@@ -3880,21 +4872,66 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534         \begin{figure*}[n]
+l.538         \begin{figure*}[n]
                                 
 Option `n' ignored and `p' used.
 
-<./chap3/images/f05.png, id=1340, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=862, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
-Package pdftex.def Info: ./chap3/images/f05.png  used on input line 535.
+Package pdftex.def Info: ./chap3/images/f05.png  used on input line 539.
 (pdftex.def)             Requested size: 460.93457pt x 350.33556pt.
-Package cleveref Info: loaded `english' language definitions on input line 546.
 
-[71]
-Package cleveref Info: loaded `english' language definitions on input line 546.
+LaTeX Warning: Reference `P1fig:multi_stations' on page 1 undefined on input li
+ne 544.
 
- [72 <./chap3/images/f05.png>]
+
+LaTeX Warning: Citation 'mohler_portable_2021' on page 72 undefined on input li
+ne 553.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+59.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+61.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+63.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+64.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+65.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+65.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+66.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
+68.
+
+Package cleveref Info: loaded `english' language definitions on input line 569.
+
+[72]
+Package cleveref Info: loaded `english' language definitions on input line 569.
+
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 73 undefined on input line 
+569.
+
+[73 <./chap3/images/f05.png>]
 
 ! LaTeX Error: Unknown float option `n'.
 
@@ -3902,32 +4939,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.565     \begin{figure*}[n]
+l.570     \begin{figure*}[n]
                             
 Option `n' ignored and `p' used.
 
-<./chap3/images/f06.png, id=1363, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=875, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
-Package pdftex.def Info: ./chap3/images/f06.png  used on input line 566.
+Package pdftex.def Info: ./chap3/images/f06.png  used on input line 571.
 (pdftex.def)             Requested size: 460.93457pt x 280.52269pt.
-Package cleveref Info: loaded `english' language definitions on input line 588.
 
-[73]
-Package cleveref Info: loaded `english' language definitions on input line 588.
+LaTeX Warning: Citation 'irish_ice_2019' on page 74 undefined on input line 586
+.
 
- [74 <./chap3/images/f06.png>]
-Package cleveref Info: loaded `english' language definitions on input line 621.
 
- [75]
-<./chap3/images/f07.png, id=1395, 722.7pt x 505.89pt>
+LaTeX Warning: Citation 'si_concentrations_2019' on page 74 undefined on input 
+line 586.
+
+Package cleveref Info: loaded `english' language definitions on input line 606.
+
+[74]
+Package cleveref Info: loaded `english' language definitions on input line 606.
+
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 75 undefined on input line 
+606.
+
+[75 <./chap3/images/f06.png>]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 611.
+
+
+LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
+17.
+
+
+LaTeX Warning: Reference `P1sec:evaluation_metric' on page 1 undefined on input
+ line 619.
+
+
+LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
+20.
+
+
+LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
+22.
+
+<./chap3/images/f07.png, id=890, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
-Package pdftex.def Info: ./chap3/images/f07.png  used on input line 624.
+Package pdftex.def Info: ./chap3/images/f07.png  used on input line 629.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ! Undefined control sequence.
-l.629 \hack
+l.634 \hack
            {\newpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3935,111 +5004,434 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 629.
+Package cleveref Info: loaded `english' language definitions on input line 634.
 
-[76 <./chap3/images/f07.png>]
-<./chap3/images/f08.png, id=1408, 734.2632pt x 477.9456pt>
+[76]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 639.
+
+
+LaTeX Warning: Citation 'eleftheriadis_aerosol_2019' on page 77 undefined on in
+put line 647.
+
+
+LaTeX Warning: Citation 'bond_bounding_2013' on page 77 undefined on input line
+ 649.
+
+
+LaTeX Warning: Citation 'kirchstetter_evidence_2004' on page 77 undefined on in
+put line 649.
+
+
+LaTeX Warning: Citation 'bond_bounding_2013' on page 77 undefined on input line
+ 651.
+
+<./chap3/images/f08.png, id=898, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
-Package pdftex.def Info: ./chap3/images/f08.png  used on input line 650.
+Package pdftex.def Info: ./chap3/images/f08.png  used on input line 655.
 (pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
-Package cleveref Info: loaded `english' language definitions on input line 662.
+Package cleveref Info: loaded `english' language definitions on input line 658.
 
- [77 <./chap3/images/f08.png>]
-<./chap3/images/f09.png, id=1432, 377.7312pt x 720.7728pt>
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 77 undefined on input line 
+658.
+
+[77 <./chap3/images/f07.png>]
+
+LaTeX Warning: Reference `P1fig:abs' on page 78 undefined on input line 660.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 660.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 78 undefined on input line 
+662.
+
+
+LaTeX Warning: Citation 'winiger_sources_2016' on page 78 undefined on input li
+ne 665.
+
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 78 undefined on input lin
+e 665.
+
+
+LaTeX Warning: Citation 'xu_source_2017' on page 78 undefined on input line 666
+.
+
+
+LaTeX Warning: Citation 'saltzman_methane_1983' on page 78 undefined on input l
+ine 671.
+
+
+LaTeX Warning: Citation 'hopkins_biogeochemistry_2023' on page 78 undefined on 
+input line 671.
+
+
+LaTeX Warning: Citation 'pasquier_ny-alesund_2022' on page 78 undefined on inpu
+t line 673.
+
+
+LaTeX Warning: Citation 'siegel_arctic_2023' on page 78 undefined on input line
+ 674.
+
+
+LaTeX Warning: Reference `P1sec:black_carbon' on page 1 undefined on input line
+ 675.
+
+
+Overfull \hbox (4.00348pt too wide) in paragraph at lines 670--676
+\T1/ntxtlf/m/n/10.95 can be ox-i-dized into MSA in the at-mo-sphere ([]; []).
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 676.
+
+[78 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=913, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
-Package pdftex.def Info: ./chap3/images/f09.png  used on input line 674.
+Package pdftex.def Info: ./chap3/images/f09.png  used on input line 679.
 (pdftex.def)             Requested size: 284.52756pt x 542.93185pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 695.
 
-[78]
-Package cleveref Info: loaded `english' language definitions on input line 724.
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 684.
 
- [79]
-Package cleveref Info: loaded `english' language definitions on input line 748.
 
- [80]
-Package cleveref Info: loaded `english' language definitions on input line 766.
+LaTeX Warning: Citation 'eker_phytoplankton_2005' on page 79 undefined on input
+ line 692.
 
- [81]
-Package cleveref Info: loaded `english' language definitions on input line 766.
 
- [82 <./chap3/images/f09.png>]
+LaTeX Warning: Citation 'marelle_transport_2015' on page 79 undefined on input 
+line 693.
+
+
+LaTeX Warning: Citation 'mungall_heterogeneous_2018' on page 79 undefined on in
+put line 693.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 696.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 701.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 701.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 702.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 703.
+
+
+LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 7
+06.
+
+
+LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 709.
+
+
+LaTeX Warning: Citation 'pernov_pan-arctic_2024' on page 79 undefined on input 
+line 710.
+
+
+LaTeX Warning: Citation 'nasa_ocean_biology_processing_group_aqua_2022' on page
+ 79 undefined on input line 711.
+
+Package cleveref Info: loaded `english' language definitions on input line 712.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 79 undefined on input line 
+712.
+
+[79]
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 80 undefined on input lin
+e 716.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 80 undefined on input line 727
+.
+
+Package cleveref Info: loaded `english' language definitions on input line 739.
+
+[80]
+
+LaTeX Warning: Citation 'hirdman_source_2010' on page 81 undefined on input lin
+e 760.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 81 undefined on input line 760
+.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 81 undefined on input 
+line 760.
+
+
+LaTeX Warning: Citation 'allen_evidence_2021' on page 81 undefined on input lin
+e 761.
+
+
+LaTeX Warning: Citation 'an_tracking_2014' on page 81 undefined on input line 7
+61.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 81 undefined on inp
+ut line 761.
+
+
+LaTeX Warning: Citation 'lu_novel_2012' on page 81 undefined on input line 761.
+
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 81 undefined on input line
+ 761.
+
+
+LaTeX Warning: Citation 'raut_cross-polar_2017' on page 81 undefined on input l
+ine 761.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 81 undefined on input line 76
+1.
+
+Package cleveref Info: loaded `english' language definitions on input line 764.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 81 undefined on input line 
+764.
+
+[81]
+Package cleveref Info: loaded `english' language definitions on input line 771.
+
+ [82]
+Package cleveref Info: loaded `english' language definitions on input line 771.
+
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 83 undefined on input line 
+771.
+
+[83 <./chap3/images/f09.png>]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 778.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 84 undefined on input line 
+784.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 786.
+
+
+LaTeX Warning: Reference `fig:source_INP_moccha' on page 84 undefined on input 
+line 790.
+
 
 LaTeX Warning: Reference `sec:source_pbap_moccha' on page 1 undefined on input 
-line 789.
+line 795.
 
-<./chap3/images/source_and_series_MOCCHA.jpg, id=1503, 470.2368pt x 270.7716pt>
 
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 84 undefined on input line 
+796.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 797.
+
+Package cleveref Info: loaded `english' language definitions on input line 798.
+
+[84
+
+]
+<./chap3/images/source_and_series_MOCCHA.jpg, id=943, 470.2368pt x 270.7716pt>
 File: ./chap3/images/source_and_series_MOCCHA.jpg Graphic file (type jpg)
 <use ./chap3/images/source_and_series_MOCCHA.jpg>
 Package pdftex.def Info: ./chap3/images/source_and_series_MOCCHA.jpg  used on i
-nput line 795.
+nput line 801.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 802.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 802.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 85 undefined on input line 
+807.
+
+
+LaTeX Warning: Reference `fig:source_pbap_moccha' on page 85 undefined on input
+ line 812.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 85 undefined on input line 
+812.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 85 undefined on input line 
+813.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 814.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 85 undefined on input line 
+817.
+
+
+LaTeX Warning: Citation 'dallosto_arctic_2017' on page 85 undefined on input li
+ne 817.
+
+
+LaTeX Warning: Citation 'hartmann_terrestrial_2021' on page 85 undefined on inp
+ut line 817.
+
+Package cleveref Info: loaded `english' language definitions on input line 820.
+
+[85 <./chap3/images/source_and_series_MOCCHA.jpg>]
+<./chap3/images/source_PBAPs.jpg, id=950, 1710.39pt x 831.105pt>
+File: ./chap3/images/source_PBAPs.jpg Graphic file (type jpg)
+<use ./chap3/images/source_PBAPs.jpg>
+Package pdftex.def Info: ./chap3/images/source_PBAPs.jpg  used on input line 82
+3.
+(pdftex.def)             Requested size: 460.93457pt x 223.97017pt.
+
+
+LaTeX Warning: Citation 'creamean_annual_2022' on page 86 undefined on input li
+ne 831.
+
+Package cleveref Info: loaded `english' language definitions on input line 835.
+
+[86 <./chap3/images/source_PBAPs.jpg>]
+
+LaTeX Warning: Reference `fig:source_MOSAIC' on page 87 undefined on input line
+ 836.
+
+
+LaTeX Warning: Reference `fig:source_MOSAIC' on page 1 undefined on input line 
+838.
+
+<./chap3/images/source_and_series_MOSAIC.png, id=958, 595.7457pt x 704.1507pt>
+File: ./chap3/images/source_and_series_MOSAIC.png Graphic file (type png)
+<use ./chap3/images/source_and_series_MOSAIC.png>
+Package pdftex.def Info: ./chap3/images/source_and_series_MOSAIC.png  used on i
+nput line 845.
+(pdftex.def)             Requested size: 460.93457pt x 544.83011pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 802.
 
-[83
+LaTeX Warning: Citation 'rangel-alvarado_snow-borne_2015' on page 87 undefined 
+on input line 853.
 
-]
 
-LaTeX Warning: Citation 'dall'osto_arctic_2017' on page 84 undefined on input l
-ine 810.
+LaTeX Warning: Citation 'christner_ubiquity_2008' on page 87 undefined on input
+ line 853.
 
-Package cleveref Info: loaded `english' language definitions on input line 813.
 
-[84 <./chap3/images/source_and_series_MOCCHA.jpg>]
-<./chap3/images/source_PBAPs.jpg, id=1526, 1710.39pt x 831.105pt>
-File: ./chap3/images/source_PBAPs.jpg Graphic file (type jpg)
-<use ./chap3/images/source_PBAPs.jpg>
-Package pdftex.def Info: ./chap3/images/source_PBAPs.jpg  used on input line 81
-6.
-(pdftex.def)             Requested size: 460.93457pt x 223.97017pt.
-Package cleveref Info: loaded `english' language definitions on input line 841.
+LaTeX Warning: Citation 'lapere_modeling_2024' on page 87 undefined on input li
+ne 854.
 
- [85 <./chap3/images/source_PBAPs.jpg>]
-<./chap3/images/source_and_series_ARTofMELT.png, id=1535, 470.2368pt x 270.7716
-pt>
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 854.
+
+
+LaTeX Warning: Citation 'lapere_modeling_2024' on page 87 undefined on input li
+ne 855.
+
+Package cleveref Info: loaded `english' language definitions on input line 870.
+
+[87]
+
+LaTeX Warning: Reference `fig:source_INP_artofmelt' on page 88 undefined on inp
+ut line 870.
+
+
+LaTeX Warning: Citation 'amino_increasing_2021' on page 88 undefined on input l
+ine 875.
+
+<./chap3/images/source_and_series_ARTofMELT.png, id=965, 470.2368pt x 270.7716p
+t>
 File: ./chap3/images/source_and_series_ARTofMELT.png Graphic file (type png)
 <use ./chap3/images/source_and_series_ARTofMELT.png>
 Package pdftex.def Info: ./chap3/images/source_and_series_ARTofMELT.png  used o
-n input line 845.
+n input line 882.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
-Package cleveref Info: loaded `english' language definitions on input line 857.
 
- [86 <./chap3/images/source_and_series_ARTofMELT.png>]
+LaTeX Warning: Reference `fig:source_INP_moccha' on page 1 undefined on input l
+ine 883.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 883.
+
+
+LaTeX Warning: Reference `fig:source_INP_moccha' on page 1 undefined on input l
+ine 883.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 883.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 889.
+
+[88]
+Package cleveref Info: loaded `english' language definitions on input line 889.
+
+ [89 <./chap3/images/source_and_series_MOSAIC.png>]
+Package cleveref Info: loaded `english' language definitions on input line 889.
+
+ [90 <./chap3/images/source_and_series_ARTofMELT.png>]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 892.
+
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 860.
-
+(textcomp)             Default family used instead on input line 897.
 
 LaTeX Warning: cref reference format for label type `' undefined on input line 
-860.
+897.
 
-<./chap3/images/Co_concentrations.png, id=1551, 396.5214pt x 259.6902pt>
+
+LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
+903.
+
+
+LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
+904.
+
+<./chap3/images/Co_concentrations.png, id=984, 396.5214pt x 259.6902pt>
 File: ./chap3/images/Co_concentrations.png Graphic file (type png)
 <use ./chap3/images/Co_concentrations.png>
 Package pdftex.def Info: ./chap3/images/Co_concentrations.png  used on input li
-ne 871.
+ne 908.
 (pdftex.def)             Requested size: 460.93457pt x 301.89067pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'ehret_long-range_2025' on page 87 undefined on input l
-ine 876.
+LaTeX Warning: Citation 'ehret_long-range_2025' on page 91 undefined on input l
+ine 913.
 
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.878 ...hemispheric domain of \SI{50}{\kilometer}
+l.915 ...hemispheric domain of \SI{50}{\kilometer}
                                                    resolution.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4050,7 +5442,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.878 ...hemispheric domain of \SI{50}{\kilometer}
+l.915 ...hemispheric domain of \SI{50}{\kilometer}
                                                    resolution.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4061,7 +5453,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.882 ...00}{\metre} high, and \SI{50}{\kilometer}
+l.919 ...00}{\metre} high, and \SI{50}{\kilometer}
                                                    wide.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4072,7 +5464,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.882 ...00}{\metre} high, and \SI{50}{\kilometer}
+l.919 ...00}{\metre} high, and \SI{50}{\kilometer}
                                                    wide.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4083,7 +5475,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.888 ...ral altitudes, between \SI{4}{\kilometer}
+l.925 ...ral altitudes, between \SI{4}{\kilometer}
                                                    and \SI{9}{\kilometer}. E...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4094,7 +5486,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.888 ...ral altitudes, between \SI{4}{\kilometer}
+l.925 ...ral altitudes, between \SI{4}{\kilometer}
                                                    and \SI{9}{\kilometer}. E...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4105,7 +5497,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.888 ...\SI{4}{\kilometer} and \SI{9}{\kilometer}
+l.925 ...\SI{4}{\kilometer} and \SI{9}{\kilometer}
                                                   . Each air tracers plume b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4116,7 +5508,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilometer 
                       
-l.888 ...\SI{4}{\kilometer} and \SI{9}{\kilometer}
+l.925 ...\SI{4}{\kilometer} and \SI{9}{\kilometer}
                                                   . Each air tracers plume b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4124,22 +5516,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 901.
+Package cleveref Info: loaded `english' language definitions on input line 929.
 
-[87]
-<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=1562, 6020.4
-925pt x 2861.69125pt>
+[91
+
+]
+
+LaTeX Warning: Reference `fig:compo_ratio_fire_altitude' on page 1 undefined on
+ input line 930.
+
+
+LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
+934.
+
+<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=990, 6020.49
+25pt x 2861.69125pt>
 File: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png Graphic fil
 e (type png)
 <use ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>
 Package pdftex.def Info: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Pa
-ris.png  used on input line 904.
+ris.png  used on input line 941.
 (pdftex.def)             Requested size: 460.93457pt x 219.0715pt.
-
 ! Undefined control sequence.
 <argument> ...o maps computed on the PES \sirange 
                                                   {0}{4000}{\metre } for dif...
-l.905 ...lume altitude when it passed over Paris.}
+l.942 ...lume altitude when it passed over Paris.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4150,7 +5551,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...o maps computed on the PES \sirange 
                                                   {0}{4000}{\metre } for dif...
-l.905 ...lume altitude when it passed over Paris.}
+l.942 ...lume altitude when it passed over Paris.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4161,7 +5562,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \metre ->\ERROR 
                 
-l.905 ...lume altitude when it passed over Paris.}
+l.942 ...lume altitude when it passed over Paris.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4172,7 +5573,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...o maps computed on the PES \sirange 
                                                   {0}{4000}{\metre } for dif...
-l.905 ...lume altitude when it passed over Paris.}
+l.942 ...lume altitude when it passed over Paris.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4183,7 +5584,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \metre ->\ERROR 
                 
-l.905 ...lume altitude when it passed over Paris.}
+l.942 ...lume altitude when it passed over Paris.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4194,36 +5595,96 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap3/images/multiloc_fire_season.png, id=1565, 395.5578pt x 246.6816pt>
+
+LaTeX Warning: Reference `P1sec:combi_stations' on page 1 undefined on input li
+ne 948.
+
+
+LaTeX Warning: Reference `fig:multiloc_fire_season' on page 1 undefined on inpu
+t line 950.
+
+Package cleveref Info: loaded `english' language definitions on input line 951.
+
+[92 <./chap3/images/CO_concentrations.png>]
+<./chap3/images/multiloc_fire_season.png, id=998, 395.5578pt x 246.6816pt>
 File: ./chap3/images/multiloc_fire_season.png Graphic file (type png)
 <use ./chap3/images/multiloc_fire_season.png>
 Package pdftex.def Info: ./chap3/images/multiloc_fire_season.png  used on input
- line 917.
+ line 954.
 (pdftex.def)             Requested size: 460.93457pt x 287.46826pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 927.
 
-[88 <./chap3/images/CO_concentrations.png>]
+LaTeX Warning: Reference `sec:artofmelt_sources' on page 1 undefined on input l
+ine 959.
+
+
+LaTeX Warning: Reference `fig:compo_ratio_fire_altitude' on page 1 undefined on
+ input line 961.
+
+
+LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
+962.
+
+
+LaTeX Warning: Reference `tab:mpc2_campaigns' on page 1 undefined on input line
+ 974.
+
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 950.
-Package cleveref Info: loaded `english' language definitions on input line 962.
+(textcomp)             Default family used instead on input line 987.
+Package cleveref Info: loaded `english' language definitions on input line 993.
 
- [89 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
-Package cleveref Info: loaded `english' language definitions on input line 972.
+[93 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
 
- [90 <./chap3/images/multiloc_fire_season.png>]
-<./chap3/images/violin_plot_allCampaigns.png, id=1591, 722.7pt x 433.62pt>
+LaTeX Warning: Reference `fig:stat_origin_clouds' on page 94 undefined on input
+ line 1001.
+
+
+LaTeX Warning: Reference `tab:mpc2_campaigns' on page 1 undefined on input line
+ 1007.
+
+Package cleveref Info: loaded `english' language definitions on input line 1008
+.
+[94 <./chap3/images/multiloc_fire_season.png>]
+<./chap3/images/violin_plot_allCampaigns.png, id=1013, 722.7pt x 433.62pt>
 File: ./chap3/images/violin_plot_allCampaigns.png Graphic file (type png)
 <use ./chap3/images/violin_plot_allCampaigns.png>
 Package pdftex.def Info: ./chap3/images/violin_plot_allCampaigns.png  used on i
-nput line 976.
+nput line 1013.
 (pdftex.def)             Requested size: 460.93457pt x 276.56308pt.
+
+
+LaTeX Warning: Reference `P1sec:results_compar' on page 1 undefined on input li
+ne 1026.
+
+
+LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 1
+026.
+
+
+LaTeX Warning: Reference `P1sec:point_ratio' on page 1 undefined on input line 
+1026.
+
+
+LaTeX Warning: Reference `P1sec:application' on page 1 undefined on input line 
+1027.
+
+Package cleveref Info: loaded `english' language definitions on input line 1028
+.
+[95 <./chap3/images/violin_plot_allCampaigns.png>]
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 1030.
+
+
+LaTeX Warning: Reference `P1sec:combi_stations' on page 1 undefined on input li
+ne 1034.
+
 )
 Package cleveref Info: loaded `english' language definitions on input line 50.
- [91 <./chap3/images/violin_plot_allCampaigns.png>]
+ [96]
 \openout2 = `chap4/chap4_main.aux'.
 
  (./chap4/chap4_main.tex
@@ -4238,7 +5699,16 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 13.
+[97
+
+
+
+
+] (./main.ptc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+)
+Package cleveref Info: loaded `english' language definitions on input line 24.
+
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 25.11508pt, for example:
@@ -4247,24 +5717,1032 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[92
+[98]
+
+LaTeX Warning: Citation 'matus_role_2017' on page 99 undefined on input line 33
+.
+
+
+LaTeX Warning: Citation 'cantrell_production_2005' on page 99 undefined on inpu
+t line 34.
+
+
+LaTeX Warning: Citation 'vali_technical_2015' on page 99 undefined on input lin
+e 35.
+
+
+LaTeX Warning: Citation 'ickes_classical_2015' on page 99 undefined on input li
+ne 36.
+
+
+LaTeX Warning: Citation 'korolev_limitations_2007' on page 99 undefined on inpu
+t line 37.
+
+
+LaTeX Warning: Citation 'hartmann_variation_2019' on page 99 undefined on input
+ line 41.
+
+
+LaTeX Warning: Citation 'murray_ice_2012' on page 99 undefined on input line 45
+.
+
+
+LaTeX Warning: Citation 'hoose_heterogeneous_2012' on page 99 undefined on inpu
+t line 45.
+
+
+LaTeX Warning: Citation 'kanji_overview_2017' on page 99 undefined on input lin
+e 45.
+
+
+LaTeX Warning: Citation 'kok_mineral_2023' on page 99 undefined on input line 4
+6.
+
+
+LaTeX Warning: Citation 'burrows_ice_2013' on page 99 undefined on input line 4
+7.
+
+
+LaTeX Warning: Citation 'si_concentrations_2019' on page 99 undefined on input 
+line 47.
+
+
+LaTeX Warning: Citation 'despres_primary_2012' on page 99 undefined on input li
+ne 50.
+
+
+LaTeX Warning: Citation 'demott_sea_2016' on page 99 undefined on input line 50
+.
+
+
+LaTeX Warning: Citation 'creamean_ice_2019' on page 99 undefined on input line 
+50.
+
+
+LaTeX Warning: Citation 'irish_ice_2019' on page 99 undefined on input line 50.
 
 
 
+LaTeX Warning: Citation 'ickes_ice-nucleating_2020' on page 99 undefined on inp
+ut line 50.
 
-] (./main.ptc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-) [93]
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 99 undefined on input line 
+50.
+
+
+LaTeX Warning: Citation 'pereira_freitas_regionally_2023' on page 99 undefined 
+on input line 50.
+
+
+LaTeX Warning: Citation 'creamean_thawing_2020' on page 99 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation 'jensen_linking_2025' on page 99 undefined on input lin
+e 50.
+
+
+LaTeX Warning: Citation 'amato_survival_2015' on page 99 undefined on input lin
+e 51.
+
+
+LaTeX Warning: Citation 'vogel_ice-nucleating_2024' on page 99 undefined on inp
+ut line 51.
+
+
+LaTeX Warning: Citation 'connolly_studies_2009' on page 99 undefined on input l
+ine 51.
+
+
+LaTeX Warning: Citation 'ansmann_influence_2008' on page 99 undefined on input 
+line 51.
+
+
+LaTeX Warning: Citation 'da_silva_how_2025' on page 99 undefined on input line 
+54.
+
+
+Overfull \hbox (74.51538pt too wide) in paragraph at lines 49--55
+[]\T1/ntxtlf/m/n/10.95 ; []; []), ter-res-trial veg-e-ta-tion ([])
+ []
+
+
+LaTeX Warning: Citation 'serreze_processes_2011' on page 99 undefined on input 
+line 58.
+
+
+LaTeX Warning: Citation 'rantanen_arctic_2022' on page 99 undefined on input li
+ne 58.
+
+
+LaTeX Warning: Citation 'taylor_process_2022' on page 99 undefined on input lin
+e 58.
+
+
+LaTeX Warning: Citation 'murray_opinion_2021' on page 99 undefined on input lin
+e 59.
+
+
+LaTeX Warning: Citation 'tan_potential_2022' on page 99 undefined on input line
+ 60.
+
+Package cleveref Info: loaded `english' language definitions on input line 63.
+[99]
+
+LaTeX Warning: Citation 'bigg_formation_1953' on page 100 undefined on input li
+ne 63.
+
+
+LaTeX Warning: Citation 'young_role_1974' on page 100 undefined on input line 6
+3.
+
+
+LaTeX Warning: Citation 'fletcher_active_1969' on page 100 undefined on input l
+ine 63.
+
+
+LaTeX Warning: Citation 'meyers_new_1992' on page 100 undefined on input line 6
+3.
+
+
+LaTeX Warning: Citation 'demott_predicting_2010' on page 100 undefined on input
+ line 64.
+
+
+LaTeX Warning: Citation 'hoose_classical-theory-based_2010' on page 100 undefin
+ed on input line 64.
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 100 
+undefined on input line 64.
+
+
+LaTeX Warning: Citation 'burrows_ice_2013' on page 100 undefined on input line 
+64.
+
+
+LaTeX Warning: Citation 'demott_integrating_2015' on page 100 undefined on inpu
+t line 64.
+
+
+LaTeX Warning: Citation 'wilson_marine_2015' on page 100 undefined on input lin
+e 64.
+
+
+LaTeX Warning: Citation 'li_predicting_2022' on page 100 undefined on input lin
+e 64.
+
+
+LaTeX Warning: Citation 'gjelsvik_using_2025' on page 100 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Citation 'gettelman_global_2010' on page 100 undefined on input 
+line 66.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 100 undefined on input
+ line 66.
+
+
+LaTeX Warning: Citation 'li_predicting_2022' on page 100 undefined on input lin
+e 66.
+
+
+LaTeX Warning: Citation 'kawai_dominant_2023' on page 100 undefined on input li
+ne 66.
+
+
+LaTeX Warning: Citation 'gjelsvik_using_2025' on page 100 undefined on input li
+ne 66.
+
+
+LaTeX Warning: Citation 'kawai_dominant_2023' on page 100 undefined on input li
+ne 68.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 100 undefined on input
+ line 68.
+
+
+LaTeX Warning: Citation 'mccluskey_numerical_2019' on page 100 undefined on inp
+ut line 68.
+
+
+LaTeX Warning: Citation 'chatziparaschos_assessing_2025' on page 100 undefined 
+on input line 69.
+
+
+Overfull \hbox (32.64291pt too wide) in paragraph at lines 63--70
+\T1/ntxtlf/m/n/10.95 ([]; []; [];
+ []
+
+
+Overfull \hbox (44.038pt too wide) in paragraph at lines 63--70
+[]\T1/ntxtlf/m/n/10.95 ; []; []; []; []).
+ []
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 100 undefined on input line
+ 73.
+
+
+LaTeX Warning: Citation 'barry_bioaerosols_2025' on page 100 undefined on input
+ line 73.
+
+
+LaTeX Warning: Citation '' on page 100 undefined on input line 88.
+
+
+LaTeX Warning: Citation 'frickenhaus_data_2022' on page 100 undefined on input 
+line 88.
+
+Package cleveref Info: loaded `english' language definitions on input line 90.
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[100]
+
+LaTeX Warning: Citation 'grell_fully_2005' on page 101 undefined on input line 
+110.
+
+
+LaTeX Warning: Citation 'marelle_improvements_2017' on page 101 undefined on in
+put line 112.
+
+
+LaTeX Warning: Citation 'hersbach_era5_2020' on page 101 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Citation 'ginoux_long-term_2004' on page 101 undefined on input 
+line 127.
+
+
+LaTeX Warning: Citation 'legrand_afwa_2019' on page 101 undefined on input line
+ 127.
+
+
+LaTeX Warning: Citation 'legrand_afwa_2019' on page 101 undefined on input line
+ 128.
+
+
+LaTeX Warning: Citation 'ginoux_long-term_2004' on page 101 undefined on input 
+line 128.
+
+
+LaTeX Warning: Citation 'fecan_parametrization_1999' on page 101 undefined on i
+nput line 128.
+
+
+LaTeX Warning: Citation 'kok_scaling_2011' on page 101 undefined on input line 
+129.
+
+
+LaTeX Warning: Citation 'legrand_afwa_2019' on page 101 undefined on input line
+ 129.
+
+
+LaTeX Warning: Reference `tab:dust_bins' on page 101 undefined on input line 12
+9.
+
+
+LaTeX Warning: Citation 'groot_zwaaftink_substantial_2016' on page 101 undefine
+d on input line 130.
+
+
+LaTeX Warning: Citation 'national_mapping_organizations_global_2025' on page 10
+1 undefined on input line 130.
+
+
+LaTeX Warning: Citation 'noaa_national_centers_for_environmental_information_et
+opo_2022' on page 101 undefined on input line 130.
+
+Package cleveref Info: loaded `english' language definitions on input line 131.
+
+[101]
 ! Undefined control sequence.
-l.71         \subsubsubsection
-                              {Coarse aerosols to INPs}
+l.137         \tophline
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/ntxtlf/m/n/10.95 Bins
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/ntxtlf/m/n/10.95 num-
+ []
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 138.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/ntxtlf/m/n/10.95 Lower
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/ntxtlf/m/n/10.95 bound di-
+ []
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 138.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/ntxtlf/m/n/10.95 Upper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/ntxtlf/m/n/10.95 bound di-
+ []
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 138.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[]|\T1/ntxtlf/m/n/10.95 Particle
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 138--139
+\T1/ntxtlf/m/n/10.95 den-sity ($\OML/lmm/m/it/10.95 ^^Z[]$\T1/ntxtlf/m/n/10.95 
 )
+ []
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.139         \middlehline
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.145         \bottomhline
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'ioannidis_modelling_2023' on page 102 undefined on inp
+ut line 153.
+
+
+LaTeX Warning: Citation 'gong_parameterization_2003' on page 102 undefined on i
+nput line 155.
+
+
+LaTeX Warning: Citation 'monahan_model_1986' on page 102 undefined on input lin
+e 155.
+
+
+LaTeX Warning: Citation 'lapere_representation_2023' on page 102 undefined on i
+nput line 155.
+
+
+LaTeX Warning: Citation 'vignati_global_2010' on page 102 undefined on input li
+ne 162.
+
+
+LaTeX Warning: Reference `EQ03' on page 102 undefined on input line 162.
+
+
+LaTeX Warning: Citation 'cmems_chla' on page 102 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sec:seaspray_emiss' on page 102 undefined on input li
+ne 173.
+
+
+LaTeX Warning: Citation 'hummel_regional-scale_2015' on page 102 undefined on i
+nput line 174.
+
+Package cleveref Info: loaded `english' language definitions on input line 182.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[102]
+
+LaTeX Warning: Citation 'burrows_bacteria_2009' on page 103 undefined on input 
+line 182.
+
+
+LaTeX Warning: Citation 'burrows_bacteria_2009' on page 103 undefined on input 
+line 183.
+
+
+LaTeX Warning: Reference `fig:emission_maps' on page 103 undefined on input lin
+e 185.
+
+<./chap4/images/Emission_maps_august.v16.png, id=1081, 1805.74625pt x 1507.6325
+pt>
+File: ./chap4/images/Emission_maps_august.v16.png Graphic file (type png)
+<use ./chap4/images/Emission_maps_august.v16.png>
+Package pdftex.def Info: ./chap4/images/Emission_maps_august.v16.png  used on i
+nput line 188.
+(pdftex.def)             Requested size: 236.15796pt x 197.14934pt.
+
+LaTeX Warning: Citation 'porter_ice-nucleating_nodate' on page 103 undefined on
+ input line 197.
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 103 undefined on input lin
+e 197.
+
+
+LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 103 undefined on input 
+line 198.
+
+
+LaTeX Warning: Citation 'porter_highly_2022' on page 103 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Citation 'zieger_coarse-mode_2022' on page 103 undefined on inpu
+t line 201.
+
+
+LaTeX Warning: Citation 'kojoj_single-particle_2024' on page 103 undefined on i
+nput line 201.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 103 undefined on input line
+ 201.
+
+<./chap4/images/NinpVsT_date.png, id=1082, 867.24pt x 722.7pt>
+File: ./chap4/images/NinpVsT_date.png Graphic file (type png)
+<use ./chap4/images/NinpVsT_date.png>
+Package pdftex.def Info: ./chap4/images/NinpVsT_date.png  used on input line 20
+7.
+(pdftex.def)             Requested size: 236.15796pt x 196.79675pt.
+
+LaTeX Warning: Citation 'demott_predicting_2010' on page 103 undefined on input
+ line 218.
+
+
+LaTeX Warning: Citation 'demott_integrating_2015' on page 103 undefined on inpu
+t line 218.
+
+
+LaTeX Warning: Citation 'wilson_marine_2015' on page 103 undefined on input lin
+e 218.
+
+
+LaTeX Warning: Citation 'li_predicting_2022' on page 103 undefined on input lin
+e 218.
+
+
+LaTeX Warning: Citation 'fletcher_active_1969' on page 103 undefined on input l
+ine 219.
+
+
+LaTeX Warning: Citation 'vali_quantitative_1971' on page 103 undefined on input
+ line 219.
+
+
+LaTeX Warning: Citation 'connolly_studies_2009' on page 103 undefined on input 
+line 219.
+
+
+LaTeX Warning: Citation 'murray_ice_2012' on page 103 undefined on input line 2
+19.
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 103 
+undefined on input line 219.
+
+
+LaTeX Warning: Citation 'ullrich_new_2017' on page 103 undefined on input line 
+219.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 103 undefined on input
+ line 219.
+
+
+LaTeX Warning: Citation 'mccluskey_marine_2018' on page 103 undefined on input 
+line 219.
+
+
+Overfull \hbox (79.33717pt too wide) in paragraph at lines 215--221
+[]\T1/ntxtlf/m/n/10.95 ; []; []; []).
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 221.
+
+[103 <./chap4/images/Emission_maps_august.v16.png>]
+
+LaTeX Warning: Citation 'pruppacher_microphysics_1998' on page 104 undefined on
+ input line 227.
+
+
+LaTeX Warning: Citation 'ickes_classical_2015' on page 104 undefined on input l
+ine 227.
+
+
+LaTeX Warning: Citation 'chen_parameterizing_2008' on page 104 undefined on inp
+ut line 228.
+
+
+LaTeX Warning: Citation 'barahona_ice_2012' on page 104 undefined on input line
+ 228.
+
+
+LaTeX Warning: Citation 'hoose_heterogeneous_2012' on page 104 undefined on inp
+ut line 228.
+
+
+LaTeX Warning: Citation 'savre_theory-based_2015' on page 104 undefined on inpu
+t line 228.
+
+
+Overfull \hbox (24.29172pt too wide) in paragraph at lines 227--229
+\T1/ntxtlf/m/n/10.95 ([]; []; []; []),
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 231.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[104 <./chap4/images/NinpVsT_date.png>]
+
+LaTeX Warning: Reference `sec:pbap_emiss' on page 105 undefined on input line 2
+31.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 105 undefined on input
+ line 232.
+
+<./chap4/images/icenuc_schemes_201888-0h.png, id=1097, 2407.99625pt x 1722.435p
+t>
+File: ./chap4/images/icenuc_schemes_201888-0h.png Graphic file (type png)
+<use ./chap4/images/icenuc_schemes_201888-0h.png>
+Package pdftex.def Info: ./chap4/images/icenuc_schemes_201888-0h.png  used on i
+nput line 242.
+(pdftex.def)             Requested size: 236.15796pt x 168.91574pt.
+! Undefined control sequence.
+l.250         \tophline
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.252         \middlehline
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'demott_predicting_2010' on page 105 undefined on input
+ line 253.
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 253.
+
+LaTeX Warning: Citation 'demott_integrating_2015' on page 105 undefined on inpu
+t line 254.
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+
+LaTeX Warning: Citation 'li_predicting_2022' on page 105 undefined on input lin
+e 255.
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 105 
+undefined on input line 256.
+
+
+LaTeX Warning: Citation 'ullrich_new_2017' on page 105 undefined on input line 
+257.
+
+
+LaTeX Warning: Citation 'mccluskey_marine_2018' on page 105 undefined on input 
+line 258.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 105 undefined on input
+ line 259.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 105 undefined on input
+ line 260.
+
+
+LaTeX Warning: Citation 'keita_new_2020' on page 105 undefined on input line 26
+1.
+
+
+LaTeX Warning: Citation 'keita_new_2020' on page 105 undefined on input line 26
+2.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.263         \bottomhline
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (153.94078pt too wide) in paragraph at lines 249--265
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `sec:removal' on page 105 undefined on input line 283.
+
+
+
+LaTeX Warning: Citation 'niemand_particle-surface-area-based_2012' on page 105 
+undefined on input line 286.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 105 undefined on input
+ line 287.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 105 undefined on input line
+ 287.
+
+
+LaTeX Warning: Citation 'mccluskey_marine_2018' on page 105 undefined on input 
+line 288.
+
+
+LaTeX Warning: Citation 'mccluskey_numerical_2019' on page 105 undefined on inp
+ut line 288.
+
+
+LaTeX Warning: Citation 'wilson_marine_2015' on page 105 undefined on input lin
+e 289.
+
+
+LaTeX Warning: Citation 'mccluskey_numerical_2019' on page 105 undefined on inp
+ut line 289.
+
+
+LaTeX Warning: Reference `tab:inp_emiss' on page 105 undefined on input line 29
+0.
+
+Package cleveref Info: loaded `english' language definitions on input line 291.
+
+[105 <./chap4/images/icenuc_schemes_201888-0h.png>]
+! Undefined control sequence.
+<inserted text> {c|ccc} \tophline 
+                                  Tracer name & Activation temperature (°C)...
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<inserted text> {c|ccc} \tophline 
+                                  Tracer name & Activation temperature (°C)...
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<inserted text> {c|ccc} \tophline 
+                                  Tracer name & Activation temperature (°C)...
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \middlehline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomhline 
+                             
+l.305         \end{tabularx}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (103.0319pt too wide) in alignment at lines 305--305
+[][][][] 
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 342.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[106]
+
+LaTeX Warning: Reference `fig:coarse_concentrations' on page 107 undefined on i
+nput line 344.
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 347.
+
+LaTeX Warning: Reference `sec:wrf_setup' on page 107 undefined on input line 34
+8.
+
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 350.
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 350.
+Package textcomp Info: Symbol \textmu not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 356.
+Package textcomp Info: Symbol \textthreesuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 356.
+<./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png, id=111
+2, 2864.7025pt x 2729.19624pt>
+File: ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png Gr
+aphic file (type png)
+<use ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>
+Package pdftex.def Info: ./chap4/images/mass_concentration_WRF_dust+pbap_coarse
+VSobs_3h.v16.png  used on input line 366.
+(pdftex.def)             Requested size: 236.15796pt x 224.96158pt.
+
+LaTeX Warning: Reference `sec:inp_param' on page 107 undefined on input line 37
+4.
+
+
+LaTeX Warning: Reference `sec:aer_emissions' on page 107 undefined on input lin
+e 374.
+
+
+LaTeX Warning: Reference `tab:param' on page 107 undefined on input line 375.
+
+
+LaTeX Warning: Reference `sec:observations' on page 107 undefined on input line
+ 376.
+
+
+LaTeX Warning: Reference `fig:nucleation_1525' on page 107 undefined on input l
+ine 378.
+
+<./chap4/images/nucleation_15-25.png, id=1113, 1081.1592pt x 383.5128pt>
+File: ./chap4/images/nucleation_15-25.png Graphic file (type png)
+<use ./chap4/images/nucleation_15-25.png>
+Package pdftex.def Info: ./chap4/images/nucleation_15-25.png  used on input lin
+e 382.
+(pdftex.def)             Requested size: 341.43306pt x 121.11147pt.
+
+LaTeX Warning: Reference `sec:observations' on page 107 undefined on input line
+ 387.
+
+Package cleveref Info: loaded `english' language definitions on input line 388.
+
+[107]
+
+LaTeX Warning: Reference `fig:nucleation_1525' on page 108 undefined on input l
+ine 396.
+
+
+LaTeX Warning: Reference `fig:coarse_concentrations' on page 108 undefined on i
+nput line 396.
+
+
+LaTeX Warning: Reference `sec:method_inp_emission' on page 108 undefined on inp
+ut line 396.
+
+
+LaTeX Warning: Reference `fig:nucleation_schemes' on page 108 undefined on inpu
+t line 400.
+
+
+LaTeX Warning: Citation 'wilson_marine_2015' on page 108 undefined on input lin
+e 403.
+
+
+LaTeX Warning: Reference `sec:seaspray_emiss' on page 108 undefined on input li
+ne 403.
+
+
+LaTeX Warning: Citation 'kojoj_arctic_2024' on page 108 undefined on input line
+ 403.
+
+Package cleveref Info: loaded `english' language definitions on input line 404.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[108 <./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>]
+
+LaTeX Warning: Reference `fig:nucleation_1525' on page 109 undefined on input l
+ine 406.
+
+
+LaTeX Warning: Citation 'keita_new_2020' on page 109 undefined on input line 41
+1.
+
+
+LaTeX Warning: Citation 'hummel_simulating_2018' on page 109 undefined on input
+ line 411.
+
+
+LaTeX Warning: Reference `fig:nucleation_schemes' on page 109 undefined on inpu
+t line 412.
+
+
+LaTeX Warning: Reference `fig:nucleation_1525' on page 109 undefined on input l
+ine 416.
+
+
+LaTeX Warning: Reference `sec:method_inp_emission' on page 109 undefined on inp
+ut line 421.
+
+
+LaTeX Warning: Reference `sec:removal' on page 109 undefined on input line 422.
+
+
+Package cleveref Info: loaded `english' language definitions on input line 423.
+
+[109 <./chap4/images/nucleation_15-25.png>]
+
+LaTeX Warning: Reference `fig:INP_concs_MOCCHA' on page 110 undefined on input 
+line 425.
+
+
+LaTeX Warning: Citation 'connolly_studies_2009' on page 110 undefined on input 
+line 434.
+
+<./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png, id=1132, 4515.87125pt x 1655.
+18375pt>
+File: ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png Graphic file (type png)
+<use ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>
+Package pdftex.def Info: ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png  used 
+on input line 439.
+(pdftex.def)             Requested size: 460.93457pt x 168.93764pt.
+
+LaTeX Warning: Reference `fig:INP_maps_MOCCHA' on page 110 undefined on input l
+ine 444.
+
+
+LaTeX Warning: Reference `fig:INP_concs_MOCCHA' on page 110 undefined on input 
+line 445.
+
+Package cleveref Info: loaded `english' language definitions on input line 448.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 25.11508pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.11508pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
+
+[110 <./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>]
+
+LaTeX Warning: Reference `fig:emission_maps' on page 111 undefined on input lin
+e 449.
+
+<./chap4/images/INP_map_august.v16.png, id=1140, 1763.58875pt x 1501.61pt>
+File: ./chap4/images/INP_map_august.v16.png Graphic file (type png)
+<use ./chap4/images/INP_map_august.v16.png>
+Package pdftex.def Info: ./chap4/images/INP_map_august.v16.png  used on input l
+ine 453.
+(pdftex.def)             Requested size: 236.15796pt x 201.05888pt.
+
+LaTeX Warning: Reference `fig:INP_maps_MOCCHA_1day' on page 111 undefined on in
+put line 459.
+
+<./chap4/images/INP_map_20180823.v16.png, id=1141, 1204.5pt x 1005.7575pt>
+File: ./chap4/images/INP_map_20180823.v16.png Graphic file (type png)
+<use ./chap4/images/INP_map_20180823.v16.png>
+Package pdftex.def Info: ./chap4/images/INP_map_20180823.v16.png  used on input
+ line 462.
+(pdftex.def)             Requested size: 236.15796pt x 197.1885pt.
+Package cleveref Info: loaded `english' language definitions on input line 471.
+
+[111 <./chap4/images/INP_map_august.v16.png>])
 Package cleveref Info: loaded `english' language definitions on input line 51.
 
 
@@ -4275,7 +6753,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.04344pt}.
 
-[94]
+[112 <./chap4/images/INP_map_20180823.v16.png>]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -4285,7 +6763,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[95
+[113
 
 
 
@@ -4293,7 +6771,7 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 4--4
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
-Package cleveref Info: loaded `english' language definitions on input line 27.
+Package cleveref Info: loaded `english' language definitions on input line 26.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -4303,9 +6781,16 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.01059pt}.
 
-[96])
+[114]
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 32.
+
+
+LaTeX Warning: Reference `chap4' on page 1 undefined on input line 34.
+
+)
 Package cleveref Info: loaded `english' language definitions on input line 52.
- [97]
+ [115]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -4335,14 +6820,14 @@ Overfull \hbox (3.28485pt too wide) in paragraph at lines 5--5
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 11.
-[98
+[116
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [99])
+) [117])
 \openout2 = `annexes/future_of_research.aux'.
 
  (./annexes/future_of_research.tex
@@ -4353,20 +6838,28 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-LaTeX Warning: Reference `sec:implication_sciencesl' on page 100 undefined on i
+LaTeX Warning: Reference `sec:implication_sciencesl' on page 118 undefined on i
 nput line 4.
+
+
+LaTeX Warning: Citation 'fressoz_revoltes_2020' on page 118 undefined on input 
+line 7.
+
+
+LaTeX Warning: Citation 'auzanneau_or_2015' on page 118 undefined on input line
+ 8.
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 25.
 Package cleveref Info: loaded `english' language definitions on input line 26.
-[100
+[118
 
 
 
 
 ])
 Package cleveref Info: loaded `english' language definitions on input line 61.
- [101]
+ [119]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
@@ -4426,7 +6919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 31.
-[102
+[120
 
 
 
@@ -4457,7 +6950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--67
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 76.
-[103]
+[121]
 Underfull \hbox (badness 10000) in paragraph at lines 76--88
 
  []
@@ -4504,22 +6997,72 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [104] (./main.lof
+ [122] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
+
+
+LaTeX Warning: Citation 'masson-delmotte_summary_2021' on page 123 undefined on
+ input line 6.
+
+
+LaTeX Warning: Citation 'keeling_atmospheric_2017' on page 123 undefined on inp
+ut line 7.
+
+
+LaTeX Warning: Citation 'rubino_revised_2019' on page 123 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 123 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 123 undefined on input line 10.
+
+
+Overfull \hbox (15.8019pt too wide) in paragraph at lines 10--10
+ \T1/ntxtlf/m/n/10.95 change im-pacts. Graph-ics from [].[][] []  
+ []
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 123 undefined on input line 11.
+
 Package cleveref Info: loaded `english' language definitions on input line 13.
- [105
+[123
 
 
 
 ]
 
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 106 undefined on input line 17.
+LaTeX Warning: Citation 'matus_role_2017' on page 124 undefined on input line 1
+4.
 
+
+LaTeX Warning: Citation 'lohmann_introduction_2016' on page 124 undefined on in
+put line 15.
+
+
+LaTeX Warning: Citation 'ipcc_AR4_2007' on page 124 undefined on input line 17.
+
+
+
+LaTeX Warning: Citation 'intergovernmental_panel_on_climate_change_climate_2023
+' on page 124 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'wex_annual_2019' on page 124 undefined on input line 2
+0.
+
+
+LaTeX Warning: Citation 'maillard_boundary_2022' on page 124 undefined on input
+ line 21.
 
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
-l.23 ...rvice_era5_2017}.}}{42}{figure.caption.23}
+l.23 ...rvice_era5_2017}.}}{41}{figure.caption.23}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4527,14 +7070,46 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'copernicus_climate_change_service_era5_2017' on page 1
+24 undefined on input line 23.
+
 Package cleveref Info: loaded `english' language definitions on input line 25.
-[106]
+[124]
+
+LaTeX Warning: Citation 'matus_role_2017' on page 125 undefined on input line 2
+5.
+
+
+LaTeX Warning: Reference `P1sec:ratio_method' on page 1 undefined on input line
+ 30.
+
+
+LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
+ 31.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 31.
+
 Package cleveref Info: loaded `english' language definitions on input line 36.
- [107]
+[125]
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 38.
+
+
+LaTeX Warning: Reference `fig:source_INP_moccha' on page 1 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Reference `P1sec:improved_method' on page 1 undefined on input l
+ine 41.
+
 ! Undefined control sequence.
 \metre ->\ERROR 
                 
-l.42 ...assed over Paris.}}{89}{figure.caption.47}
+l.43 ...assed over Paris.}}{92}{figure.caption.48}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4542,7 +7117,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
+Package cleveref Info: loaded `english' language definitions on input line 47.
+[126])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -4557,7 +7133,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 69.
-[108] (./main.lot
+[127] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write7
@@ -4573,33 +7149,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 80.
-[109
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 80.
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [110
+LaTeX Warning: Empty bibliography on input line 80.
 
-]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [111]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [112]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [113]
-Package cleveref Info: loaded `english' language definitions on input line 80.
- [114]
-
-LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
-(Font)              using `LGR/ntxtlf/m/n' instead on input line 80.
-
-Package cleveref Info: loaded `english' language definitions on input line 80.
-[115]
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
-
 
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
@@ -4607,7 +7161,9 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
 This document will not have a glossary.
 
 Package cleveref Info: loaded `english' language definitions on input line 85.
-[116] [117
+[128
+
+] [129
 
 
 ]
@@ -4631,7 +7187,7 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
-[118] (./main.aux
+[130] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 62.
  (./others/remerciements.aux) (./others/avantpropos.aux)
 (./others/contrib_commu.aux) (./chap1/chap1_main.aux) (./chap2/chap2_main.aux)
@@ -4654,7 +7210,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -4666,45 +7222,45 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58122 strings out of 475189
- 1171856 string characters out of 5763838
- 2308970 words of memory out of 5000000
- 77841 multiletter control sequences out of 15000+600000
- 720409 words of font info for 172 fonts, out of 8000000 for 9000
+ 57190 strings out of 475189
+ 1138761 string characters out of 5763838
+ 2039052 words of memory out of 5000000
+ 77034 multiletter control sequences out of 15000+600000
+ 719623 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,120p,4167b,3665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,16n,120p,2304b,3375s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn0900.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/font
-s/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi
-9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts
-/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy6
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/
-type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ne
-wtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (134 pages, 48439265 bytes).
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
+mmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lm
+sy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
+tmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+
+Output written on main.pdf (145 pages, 55394240 bytes).
 PDF statistics:
- 2820 PDF objects out of 2984 (max. 8388607)
- 2477 compressed objects within 25 object streams
- 490 named destinations out of 1000 (max. 500000)
- 813 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1959 PDF objects out of 2073 (max. 8388607)
+ 1616 compressed objects within 17 object streams
+ 374 named destinations out of 1000 (max. 500000)
+ 930 words of extra memory for PDF output out of 10000 (max. 10000000)
 

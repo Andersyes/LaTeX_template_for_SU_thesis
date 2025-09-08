@@ -4,9 +4,8 @@
 \chapter{Role of high latitude aerosols sources in the Arctic ice nucleating particles populations}\label{chap4}
 \chaptermark{\color{chapcolor} Role of high latitude aerosols sources in the Arctic ice nucleating particles populations}
 
- \poetry{7}{
-One does not simply compile WRF-Chem. 
- }
+\chapquote{
+}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -23,91 +22,505 @@ One does not simply compile WRF-Chem.
 \vspace*{\fill}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{[Introduction]}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+ 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{[Second paper]}
+\section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Methods}
+\label{sec:intro_chap4}
+ 
+% ice cloud in polar regions
+The climate of polar regions, where ice-containing clouds are predominant \citep{matus_role_2017}, is highly subject to atmospheric ice particles.
+Indeed, the latter determine the physical properties of clouds by exerting a strong influence on physical cloud properties such as lifetime and phase partitioning, which will therefore influence precipitations and radiative transfer \citep{cantrell_production_2005}.
+Cloud ice systematically originates from a nucleation event, which can itself be of different nature. In homogeneous nucleation, the freezing rate depends on temperature and water vapor super-saturation, and happens without the assistance of any foreign substance \citep{vali_technical_2015}.
+The initial nucleation event can be followed by secondary processes that magnify the ice production \citep{ickes_classical_2015}. 
+In mixed-phase clouds (MPCs), the supercooled liquid water can thus turned into ice through the Wegener-Bergeron-Findeisen effect \citep{korolev_limitations_2007}.
 
+% introduction to hetero nucleation and INPs
+In the Arctic, where the temperature at cloud height do not systematically reach the homogeneous ice nucleation threshold of $-38$ \unit{\degree C}, the particles responsible for the heterogeneous ice formation are critical. These ice nucleation particles (INPs), can be of various natures. 
+In the remote region of high Arctic, the natural sources predominate over the anthropogenic emissions \citep{hartmann_variation_2019}. 
+The main types of particles are mineral dust from desert, river bed, shores and glacial valley, and biological matter from vegetation debris and oceanic sea sprays. REFERENCE
+
+% what are the important particles for INPs
+The aerosol particles' ability to nucleate ice highly depends on their nature, which will affect the nucleation temperature and rate \citep{murray_ice_2012, hoose_heterogeneous_2012, kanji_overview_2017}.
+Because of their nucleation ability due to their large sizes, and because of their high emission rates, coarse-mode mineral dust particles are often recognised as the most important type of INP globally \citep[][]{kok_mineral_2023}. 
+But in remote marine environments such as central Arctic, this predominance is questioned, and marine biogenic particles could get the upper hand over the dust \citep{burrows_ice_2013}, although dust remain a strong contributor over marine sources \citep[][]{si_concentrations_2019}.
+
+Additionally, biogenic particles make INPs active at warmer temperatures than dust.
+They can be of various types: fungal spores, virus, bacteria, vegetation debris, and can originate from a broad range of environments \citep{despres_primary_2012}: marine sources \citep[][]{demott_sea_2016, creamean_ice_2019, irish_ice_2019, ickes_ice-nucleating_2020, kojoj_arctic_2024}, terrestrial vegetation \citep[][]{pereira_freitas_regionally_2023} and soil \citep[][]{creamean_thawing_2020, jensen_linking_2025}. 
+Biological species that are particularly effective in ice nucleation, such as the \textit{Pseudomonas Syringae} bacteria, can trigger ice formation from $-3$ \unit{\degree C} \citep{amato_survival_2015} and below $-24$ \unit{\degree C} \citep{vogel_ice-nucleating_2024}. In comparison, the K-Feldspar, considered as the most important mineral for ice nucleation REFERENCE, does not efficiently nucleate at temperatures above $-12$ \unit{\degree C} \citep{connolly_studies_2009, ansmann_influence_2008}.
+% the sources of INPs remain blurry
+The contributions of the different types of aerosols to INPs remain uncertain. Many studies have tried to identify main sources of INP, but converging results are rare.
+Furthermore, the tracing of INP sources as performed in the literature is not always reliable and rarely homogeneous \citep[][]{da_silva_how_2025}.
+    
+% what is the problematic?
+    % knowledge on INPs
+    In the frame of an accelerating global warming, and especially with the Arctic suffering polar amplification \citep{serreze_processes_2011, rantanen_arctic_2022, taylor_process_2022}, the efforts to better model the climate get intensified.
+    Considering the importance of ice clouds in this context, investigating the role of INPs is crucial \citep{murray_opinion_2021}.
+    The representation of INPs in models has even be suggested to be a key variable in the modelling of Arctic amplification \citep[][]{tan_potential_2022}.
+    
+    % modelling INPs
+    Work on ice nucleation modelling goes back to the mid 20\[^{th}\] century with the immersion freezing parametrisation of \citet{bigg_formation_1953}, the investigation on contact freezing by \citet{young_role_1974} and on active site density by \citet{fletcher_active_1969}, and more recently with the implementation of condensation and deposition freezing in a cloud model by \citet{meyers_new_1992}.
+    In the last decades, the legacy of these studies has been accompanied by an increasing number of measurement campaigns. It brought new knowledge for species and region specific parametrisations \citep[e.g.][]{demott_predicting_2010, hoose_classical-theory-based_2010, niemand_particle-surface-area-based_2012, burrows_ice_2013, demott_integrating_2015, wilson_marine_2015, li_predicting_2022, gjelsvik_using_2025}.
+    % efforts of implementation in models
+    In parallel, efforts are made to implement this knowledge on ice nucleation modelling within aerosol-aware atmospheric models \citep[][]{gettelman_global_2010, hummel_simulating_2018, li_predicting_2022, kawai_dominant_2023, gjelsvik_using_2025}.
+    The conclusions of these experiments highly vary from a study to another.
+    With a dust focus, \citet{kawai_dominant_2023} emphasise the dominant role of local dust particles for Arctic INPs; results corroborated by the PBAP focused study by \citet{hummel_simulating_2018}. \citet{mccluskey_numerical_2019} have shown that modelled INPs from dust and sea sprays can efficiently reproduce observation in the North eastern Atlantic.
+    In parallel, \citet{chatziparaschos_assessing_2025} highlight the seasonal and regional variability of the dominant contribution to INPs between dust and PBAPs from marine and terrestrial sources.
+    
+    % observation perspective
+    From the observation perspective, both marine and terrestrial PBAPs appear to be of greater importance for Arctic INPs. 
+    \citet{kojoj_arctic_2024} demonstrate the importance of fluorescent PBAPs (fPBAPs) during peaks of INP concentrations in the central Arctic, while \citet{barry_bioaerosols_2025} show the important contribution of bioaerosols for INPs in the same region.
+    This discrepancy between the modelling and observational point of views fuels the questioning about what type of particles drive the INP populations in the Arctic. 
+    
+    
+% declaration about what we want to achieve here
+In this study, we use modelling tools to investigate the role of high latitude primary aerosols particles for the INP Arctic populations, with a focus on the respective contributions of PBAPs and mineral dust. Relying on both observations and modelling, we try to reconcile the both perspectives.
+    
+%    Demott 2010 says observations can not be extrapolated to some other places.
+%  [terminology by vali 2015]
+
+\vspace{\baselineskip}
+% what we do in this study
+The Weather Research and Forecast model including chemistry (WRF-Chem) is used, along with a set of ice nucleation parametrisations, in order to 1)~reproduce in situ INP observations, 2)~investigate the effect of in-cloud activation on INP concentrations, 3)~get insights on the INP spatial distribution.
+    % what is set up
+    In a first off-line approach, different ice nucleation parametrisations are applied to both modelled and observed coarse mode aerosols particles. The modelled aerosols are composed of mineral dust particles emitted in mid and high latitude sources, including Iceland, Northern Canada, and Northern Russia. Marine primary organic aerosols (MPOA) also contribute to the coarse mode modelled particles. Those are emitted along with sea sprays in open ocean regions, and have a dependence with the marine biological activity.  
+    The observed particles are coarse mode aerosols from the Microbiology-Ocean-Cloud-Coupling in the High Arctic (MOCCHA) 2018 \citep{} and the Multidisciplinary Drifting Observatory for the Study of Arctic Climate (MOSAiC) 2020 \citep{frickenhaus_data_2022} Arctic campaigns. Among the coarse particles, are distinguished the primary biological aerosol particles (PBAP) from the total.
+    The INP observations used to compare the modelling results are also part of the campaigns datasets.
+    
+    In a second online\---but not cloud coupled\---approach, INP tracers are directly emitted from the aerosol sources. The activation temperatures are binned with a 5 degrees interval and range from $-5$ \unit{\degree C} to $-25$ \unit{\degree C}.
+    The INP tracers are then dynamically transported during the simulation, and are subject to dry and wet deposition, as well as removal by in-cloud activation.
+    This second setup allows to reproduce time series of INP concentrations that are comparable to the first approach's and to the observations'. But it also enables the quantification of in-cloud removal processes, as well as the investigation of the spatial distribution of INPs and of the emission sources contributions. 
+    Finally, it opens the door to the implementation of online aerosol-cloud interactions which would benefit of the same investigation flexibility that this modelling setup offers.
+
+% the plan
+In a first section, the modelling tools are presented with detailed description of coarse-mode aerosols modelled emissions.
+Then, the observational data from the two campaigns are described.
+To end with the methods, the ice nucleation parametrisations used in this study is described at the light of the reason they have been chosen for our experiments.
+The results section splits in two subsections: first the off-line modelling approach with modelled and observed aerosols converted to INPs, and secondly, the online approach with INP tracers emissions.
+Finally, we discuss the results of the two approaches and the conclusions they tend to draw.
+
+
+
+\section{Methods}
     % ____________________________________________________    
-    \subsubsection{WRF-Chem modelling setup}
+    \subsection{WRF-Chem modelling setup}
+    \label{sec:wrf_setup}
     % general presentation
+    The simulations and development presented in this study are performed with the Weather Research and Forecasting model including chemistry (WRF‐Chem) \citep{grell_fully_2005}.
+    !!! TO BE UPDATED !!!
+    The model version is WRF‐Chem version 4.3.3, including optimizations for polar regions described in \cite{marelle_improvements_2017}.
+    Meteorological initial and time-varying conditions are provided by ERA5 reanalyses \citep{hersbach_era5_2020}.
+    
     % domain setup
+    The simulation domain is a polar centred square of approximately 12,000 $\times$ 12,000 \unit{km}, or 240 $\times$ 240 cells of 50 \unit{km} resolution. % to be updated
+    It is composed of 72 vertical levels, ranging from the surface up to 50 \unit{hPa}.
+    
     % aerosol setup
+    
     % chemistry setup
     
     
     
     % ____________________________________________________    
-    \subsubsection{High latitude dust emissions}
-    The dust emissions rely on...
-     % description of the size bins
+    \subsection{High latitude dust emissions}
+    The dust emission parametrisation is based on \citet{ginoux_long-term_2004} with several important modifications to correct the shortcomings of the parametrisation as described in \citet{legrand_afwa_2019}. 
+    The threshold velocity was modified to be a function of soil grain size, not aerosol size, using parameters from \citet{legrand_afwa_2019}. It was scaled from a friction velocity to a 10-m velocity using the ratio of these 2 quantities in the model, to be used with the 10-m formulation in \citet{ginoux_long-term_2004}. The soil moisture dependence of the threshold velocity was modified to follow \citet{fecan_parametrization_1999}.
+    The emission size distribution was changed following \citet{kok_scaling_2011} theory and \citet{legrand_afwa_2019}, and is described in Table \ref{tab:dust_bins}.
+    The erodibility source parameter including high latitude sources is calculated with the procedure described in \citet{groot_zwaaftink_substantial_2016}, based on the Global Land Cover by National Mapping Organizations \citep[GLCNMO,][]{national_mapping_organizations_global_2025} land surface inventory, and the Earth Topography 2022 \citep[ETOPO,][]{noaa_national_centers_for_environmental_information_etopo_2022} digital elevation model.
+    
+    % description of the size bins
+    \begin{table}[ht!]
+        \caption{Dust emissions size distribution.}
+        \centering
+        \begin{tabular}{m{1cm}|m{1.9cm}m{1.9cm}m{2.4cm}m{2cm}}
+        \tophline
+        Bins number & Lower bound diameter (µm)  &  Upper bound diameter (µm) & Effective diameter ($D_{\text{p}}$) (µm) & Particle density ($\rho_{\text{p}}$) (\unit{g cm-3}) \\
+        \middlehline
+        1 & 0.2 & 2 & 1.46 & 2.50 \\
+        2 & 2 & 3.6 & 2.8 & 2.65 \\
+        3 & 3.6 & 6 & 4.8 & 2.65 \\
+        4 & 6 & 12 & 9 & 2.65 \\
+        5 & 12 & 20 & 16 & 2.65 \\
+        \bottomhline
+        \end{tabular}
+        \label{tab:dust_bins}
+    \end{table}
+     
     % ____________________________________________________    
-    \subsubsection{Sea sprays emissions}
+    \subsection{Sea spray emissions}
     \label{sec:seaspray_emiss}
+    The sea spray source function used in this work is from \citet{ioannidis_modelling_2023} (IO2023). It has been developed and implemented in the WRF-Chem model specifically for Arctic studies.
+    IO2023 includes a dependency on SST but is based on a whitecap fraction approach. % explain what it is
+    It is thus more region specific than the largely used \citet{gong_parameterization_2003} and \citet{monahan_model_1986}, often found in global models, such as those of the Climate Model Intercomparison Panel 6 (CMIP6) \citep{lapere_representation_2023}.
+    
+    % The marine primary organic aerosols (MPOA) are emitted as a fraction of the total sea spray aerosols. This organic fraction is computed thanks to an estimation formula of the marine organic material, described in \citet{vignati_global_2010}, and based on the chlorophyll-a concentrations.
+    % In this study, the sea spray aerosols will be considered as the sum of the sea salt aerosols and the MPOA since are only considered coarse mode particles.
+    % The PBAP will only be represented by the modelled MPOA, since we adopt the hypothesis of biological particles dominated by marine sources in central Arctic, as supported by the analysis of \citet{kojoj_arctic_2024}.
+   
+    Sea spray is a mixture of inorganic salt and organic matter.
+    In this work, marine primary organic aerosols (MPOA) are emitted as a fraction of the total sea spray aerosols following the formulation from \citet{vignati_global_2010}, which depends on oceanic chlorophyll-a concentrations ($Chl$) as described in Eq.~\eqref{EQ03}. 
+    \begin{equation}\label{EQ03}
+    \mathrm{MPOA_{\text{fraction}}} = 43.5\, Chl + 13.805
+    \end{equation}
+    $Chl$ is taken from the daily average mass concentration of chlorophyll-a in sea water from the Global Ocean Biogeochemistry Hindcast provided by the Copernicus Marine Service Information \citep{cmems_chla}.
+    Since the focus of this work is on coarse mode aerosols, we consider that inorganic salt and MPOA make up all of the sea spray. 
+    %In addition, we assume that the PBAP only consist of MPOA and we ignore continental sources of PBAP, since biological particles are dominated by marine sources in the central Arctic \citep{kojoj_arctic_2024}.
+   
     % ____________________________________________________    
-    \subsubsection{Observational data}
+    \subsection{Continental primary biological aerosols particles}
+    \label{sec:pbap_emiss}
+    Primary biological aerosols particles (PBAPs) can be of various different species. In this study, we model PBAPs from ocean regions as MPOA (c.f. Sect. \ref{sec:seaspray_emiss}), and from the continent as bacteria and fungal spores.
+    The fungal spores emissions follow \citet{hummel_regional-scale_2015} parametrisation, which relies on temperature and specific humidity conditions, together with the leaf area index (LAI). The LAI is constructed from the Global Landcover 2000 Database (GLC2000).
+    The emission flux density of fungal spores $F_{\text{FS}}$, expressed in \si{\per\square\metre\per\second}, is given by the following equation:
+    \begin{equation}
+        \label{eq:fungal_spores}
+        F_{\text{FS}} = b_1\, T\text{°C}+b_2\, q_v\, \text{LAI}
+    \end{equation}
+    where $T$ is the surface temperature in degrees Celsius, $qv$ the specific humidity in \si{kg\per kg}, and LAI the leaf area index in \si{\square\metre\per\square\metre}.
+    
+    The bacteria emissions is based on the parametrisation from \citet{burrows_bacteria_2009}.
+    It relies on bacteria emission rates dependent of the surface types. The latter are derived from the MODIS surface categories. The details of the lumped ecosystems classes and the associated emission rates are given in the supplementary materials of the original paper \citep[][]{burrows_bacteria_2009}.
+    
+    The emission fluxes of the dust particles, the MPOA from sea sprays, and the continental PBAPs (fungal spores and bacteria), are illustrated on Fig. \ref{fig:emission_maps}.
+     \begin{figure}[t]
+        \label{fig:emission_maps}
+        \includegraphics[width=8.3cm]{./chap4/images/Emission_maps_august.v16.png}
+        \caption{Averaged emission fluxes of modelled coarse-mode aerosol particles (dust, MPOA, bacteria and fungal spores) over the month of August 2018, during the MOCCHA 2018 campaign.}
+    \end{figure}
+    
+   
+    % ____________________________________________________    
+    \subsection{Observational data}
     \label{sec:observations}
+    In this study, we use data collected during the international research effort \textit{Microbiology Ocean Cloud Coupling in the High Arctic} (MOCCHA) that took place along with the US-Swedish research expedition Arctic Ocean 2018 (AO18) on board of the Swedish icebreaker I/B \textit{Oden}. The measurement period extends over August and September 2018 in the high Arctic.
+    Here are used INP measurements performed at ship level \citep{porter_ice-nucleating_nodate} presented in \citet{porter_highly_2022}, time series coarse aerosols. 
+    Figure \ref{fig:obs_INP_spectrum} shows the INP spectrum during the campaign. The great variability in the measurement series shapes suggests that the particle types responsible for those INPs might have much varied during the campaign.
+    We can also notice that the measurement technique did not allow to catch any concentrations below \SI{4e-3}{\per\liter}, but the measurement uncertainties do not exclude lower values to exist \citep{porter_highly_2022}. 
+    
+    The aerosol measurements used in this study are the coarse-mode particle number size distribution data of the MOCCHA campaign \citep{zieger_coarse-mode_2022}, and the biological aerosols are represented by the fluorescent primary biological aerosol particles (fPBAP) \citep{kojoj_single-particle_2024}, presented in \citet{kojoj_arctic_2024}.
+    
+    % TODO: make a second panel with the temporal evolution for a few temperatures and activation temperature
+    % TODO: make better axis
+    \begin{figure}[t]
+        \label{fig:obs_INP_spectrum}
+        \includegraphics[width=8.3cm]{./chap4/images/NinpVsT_date.png}
+        \caption{INP number concentration spectrum.}
+    \end{figure}
+
 
     % ____________________________________________________    
-    \subsubsection{Ice nucleation modelling } 
+    \subsection{Ice nucleation modelling } 
     \label{sec:inp_param}
+    Ice nucleation parametrisations convert aerosol particles concentrations to number concentrations of INP on a scale of activation temperature.
+    In this study, we stick to the representation of the immersion mode of nucleation.
+    % Types of nucleation schemes
+    Nucleation schemes can rely on various different approaches. Some of them are fitted temperature dependent functions of INP observations that directly give a number concentration of INP. They are therefore valid for a specific temperature range and particle type that correspond to the initial observations, and have strong dependence on the particle size distribution \citep[e.g.][]{demott_predicting_2010, demott_integrating_2015, wilson_marine_2015, li_predicting_2022}.
+    Others use a slightly more complex approach, based on ice nucleation active surface site (INAS) density, also derived from observations. This approach assume that freezing happens at specific sites on the particle \citep{fletcher_active_1969, vali_quantitative_1971}. The nucleation depends on the aerosol particle surface area, rather than just on its number concentration. The INAS densities are determined with fitted experiments or measurements, and are consequently dependent on the particles properties \citep[e.g.][]{connolly_studies_2009, murray_ice_2012, niemand_particle-surface-area-based_2012, ullrich_new_2017, hummel_simulating_2018, mccluskey_marine_2018}.
+    The standard equation of this approach has the following forms:
+    \begin{equation}
+        N_{\text{INP}} = N_{\text{p}} \left( 1 - \text{exp}(-S_{\text{p}} \text{INAS})\right)
+    \end{equation}
+    with $N_{\text{aerosol}}$ the number of aerosols particles, $S_{\text{p}}$ their surface area, and INAS is the ice nucleating surface site density. The latter is where the different parametrisations apply.
+    These parametrisations make the assumption that nucleation is time independent. 
+    
+    A contrario, the classical nucleation theory (CNT), takes a deeper step into the physics of ice crystal formation, considering ice nucleation as a stochastic process \citep{pruppacher_microphysics_1998, ickes_classical_2015}.
+    More complex than the previous approaches, the CNT considers many factors, including thermodynamic parameters and particles properties. Those parameters can be difficult to determine \citep[e.g.][]{chen_parameterizing_2008, barahona_ice_2012, hoose_heterogeneous_2012, savre_theory-based_2015}, and the implementation of such an approach is heavier than the previous methods.
+    
+    % parameters considered for the different species
+    Ice nucleation from PBAPs is considered to be driven by \textit{Pseudomonas syringae} from the modelled bacteria population, and by \textit{Mortierella alpina} for the modelled fungal spores (c.f. Sect. \ref{sec:pbap_emiss}), because these two species are particularly efficient at warm temperatures.
+    The ice nucleation parametrisations used for these species are from \citet{hummel_simulating_2018}, with an INAS density approach. 
+    
+    % The biological particles are considered as bacteria since those have a significant contribution to mass and number concentration to PBAP emissions \citet{despres_primary_2012} and for their high ice nucleation ability \citep{maki_ice_1974}. 
+    %In this work, we do not consider pollen because of their lower contribution to PBAP.
+    
+    
+    % fraction of bacteria among the PBAPs 
+
+    \begin{figure}[t]
+        \label{fig:nucleation_schemes}
+        \includegraphics[width=8.3cm]{./chap4/images/icenuc_schemes_201888-0h.png}
+        \caption{Activation fraction depending on temperature for the tested parametrisations.}
+        % à refaire en fraction d'activation
+    \end{figure}
+    
+    \begin{table}[ht!]
+        \centering
+        \begin{tabular}{c|c|c|c|c|c}
+        \tophline
+        \textbf{Name} & \textbf{Reference}  &  \textbf{Type} & \textbf{Particles} & \textbf{Mode} & \textbf{Temperature range}\\
+        \middlehline
+        D10 & \citet{demott_predicting_2010} & Fitted & All > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
+        D15 & \citet{demott_integrating_2015} & Fitted & Dust > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
+        L22 & \citet{li_predicting_2022} & Fitted & Arctic & Immersion/condensation & $T<-5$ \si{\degreeCelsius}\\
+        N12 & \citet{niemand_particle-surface-area-based_2012} & INAS & Dust & Immersion & $T\in[-35,-12]$ \si{\degreeCelsius} \\
+        U17 & \citet{ullrich_new_2017} & INAS & Dust/soot & Immersion/deposition & $T \in [-30,-14]$ \si{\degreeCelsius}\\
+        M18 & \citet{mccluskey_marine_2018}& INAS & SSA & Immersion & $T\in[-30,-10]$ \si{\degreeCelsius} \\
+        H18B & \citet{hummel_simulating_2018}& INAS & Bacteria & Immersion & $T<-3$ \si{\degreeCelsius} \\
+        H18FS & \citet{hummel_simulating_2018}& INAS & Fungal spores & Immersion & $T<-5$ \si{\degreeCelsius} \\
+        CNT Dust & \citet{keita_new_2020} & CNT & Dust & Immersion & $T<0$ \si{\degreeCelsius}\\
+        CNT PBAP & \citet{keita_new_2020} & CNT & PBAP & Immersion & $T<0$ \si{\degreeCelsius}\\
+        \bottomhline
+        \end{tabular}
+        \caption{Nucleation parametrisations}
+        \label{tab:param}
+    \end{table}
+    
+    % list of the equations used
+        % the fits
+            % Demott 2010 and 2015, Li 2022
+        % the INP from INAS general equation from Niemand 2012
+        % the different INAS
+            % Niemand, Ullrich, Hummel, Wilson, McCluskey
+        % Mention of the CNTs
+            
+    
     % ____________________________________________________    
-    \subsubsection{INP emission and activation}
+    \subsection{INP emissions}
     \label{sec:method_inp_emission}
+    This second approach uses the best performing ice nucleation parametrisations \--- identified with the first approach \--- to convert modelled dust, PBAPs (bacteria and fungal spores) and sea sprays into INPs, directly at emission.
+    INP tracers are emitted from this conversion into five classes, differentiated by their activation temperature and ranged from -5°C to SI{-25}°C, with a five degrees Celsius increment.
+    They are then transported as air tracers on which are applied rain washout, dry deposition, and there subject to removal by in-cloud activation (see Sect. \ref{sec:removal}). % to be changed
+    
+    In order to convert aerosol emissions into INP tracers active at the temperature $T$, we use INAS based and species specific parametrisations set up at $T$.
+    The INPs from dust particles are produced with the parametrisation by \citet{niemand_particle-surface-area-based_2012}.
+    INPs from sea sprays can be produced with two different approaches. First, the organic mass fraction of sea sprays can be considered as active bacteria and converted into INPs with the \citet{hummel_simulating_2018} parametrisation. But the species analysis work concomitant to the study by \citet{kojoj_arctic_2024}, showed that this assumption is unlikely since the marine organic aerosols observed during MOCCHA were devoid of \textit{Pseudomonas syringae} bacteria.
+    Alternatively, the total sea sprays can be used to produce INPs with the parametrisation from \citet{mccluskey_marine_2018}, which has shown good performances in reproducing INP concentrations when combined with dust parametrisations \citep[][]{mccluskey_numerical_2019}.
+    We excluded the parametrisation from \citet{wilson_marine_2015} because of its poor performances demonstrated in \citet{mccluskey_numerical_2019} and verified with our setup.
+    Table \ref{tab:inp_emiss} indexes the parametrisations used for the emissions of INPs by the different aerosol species.
+    
+    \begin{table}[ht!]
+        \caption{Ice nucleation parametrisations used for the conversion of aerosol particles to INP tracers.}
+        \centering
+        \begin{tabularx}{0.8\textwidth}{c|ccc}
+        \tophline
+        Tracer name & Activation temperature (°C) & Species dependence  &  Ice nucleation scheme \\
+        \middlehline
+        INP5 & \num{-5} & Bacteria, fungal spores & H18 \\
+        INP10 & \num{-10} & Bacteria, fungal spores, SSA, dust & H18, M18, N12 \\
+        INP15 & \num{-15} & Bacteria, fungal spores, SSA, dust & H18, M18, N12 \\
+        INP20 & \num{-20} & Bacteria, fungal spores, SSA, dust  & H18, M18, N12 \\
+        INP25 & \num{-25} & Bacteria, fungal spores, SSA, dust  & H18, M18, N12 \\
+        \bottomhline
+        \end{tabularx}
+        \label{tab:inp_emiss}
+    \end{table}
+    
+    
+    \subsection{INP removal and activation}
+    \label{sec:removal}
+    The main advantage of the INP tracers approach is the ability to monitor the activation of the INPs.
+    % INP removal
+    The activation mechanism is modelled as a removal of the INP tracers. In this study, we do not consider any post-activation recycling of INPs. Therefore, in the following, the terms "activation" and "removal" will be synonyms. 
+    Nevertheless, this setup is suitable for testing INP recycling parametrisations.
+    
+    The temperature threshold is the main driver of the activation process. A temperature condition is thus used to remove the INPs of which the activation temperature meets the condition.
+    The activation of $N_a$ INPs in the temperature class $T$ (i.e. INPs configured as active at the temperature $T$), will lead to the activation of the INPs classes that correspond to temperatures higher than $T$.
+    The amount $N_a$ of INP removed is the same in all the temperature classes that meet the temperature criterion.
+    $N_a$ can be modulated by different meteorological conditions, such as relative humidity, liquid water content or cloud fraction. % what do we use ? 
+    In the setup presented in this study, the removal of INPs rely on the model cloud fraction:
+    \begin{equation}
+        N_a = N_{INP} * (1-f_{cloud})
+    \end{equation}
+    with $N_{INP}$ the number of INPs active at the temperature $T$ and above, and $f_{cloud}$ the model cloud fraction.
+    
+    % activation in clouds
+    If one wants to use this approach for aerosol-cloud interactions modelling, the activation parametrisation needs more attention, since it will be linked to the cloud microphysics model schemes.
+    This is not in the scope of the present study.
+    
+    
+    
     
     
 % ########################################################
-\subsection{Results}
+\section{Results}
     % ____________________________________________________    
-    \subsubsection{First approach: in situ nucleation modelling}
+    \subsection{First approach: in situ nucleation modelling}
+    In this section, the model performances about the aerosol particles emissions (dust and sea sprays) are presented, along with how ice nucleation schemes perform in converting those particles into INPs.
+    
         % -------------------------------------------------    
-        \subsubsubsection{Coarse aerosols to INPs}
+        \subsubsection{Modelled aerosol emissions}
+        \label{sec:aer_emissions}
+        Figure \ref{fig:coarse_concentrations} depicts the modelled particles concentrations spatially interpolated along the ship track of the MOCCHA campaign.
+        Panel A shows the modelled dust mass concentrations for the five size bins.
+        Larger dust particles are generally the less abundant, but spike more sharply than the smaller dust bins.
+        In particular, the smallest bin ($d_{\text{p}} = 1.46$ \si{\um}) dominates most of the background signal, but can sometimes be overtaken by peaks of larger bins, most likely due to events of strong atmospheric transport.
+        The size-resolved representation shows the effective size-sorting by transport and deposition processes (c.f. Sect. \ref{sec:wrf_setup}).
+        
+        On panel B, the total PBAP (thick green line) stays mostly between \SIrange{0.02}{1}{\um\per\cubic\metre}, with relatively smooth variation compared to dust.
+        This lower variability suggests smoother emission patterns and more uniform sources.
+        The MPOA concentrations mostly drives the total PBAP. Fungal spores and bacteria are hardly transported from their remote continental emission sources. This is the expected behaviour in the central Arctic, where the MOCCHA campaign takes place.
+        However, the continental PBAPs happen to peak, because of transport events, temporarily overshooting the MPOAs.
+        
+    
+        On panel C, observations (black dashed-line) show high variability with frequent peaks in 1–100 µg/m³.
+        WRF-Chem total underestimates observed peaks but captures the general trend.
+        During major observed spikes (e.g., around August 7, August 21, September 13), WRF-Chem captures some, but not all, of the signal.
+        This is likely due to the inherent emission uncertainties.
+        WHO DOMINATES REALLY? 
+        
+        Underestimated emissions (especially of unrepresented PBAP types)
+        This could be due to too efficient wet and dry deposition, or to missing regional sources.
+       
+        \begin{figure}[t]
+            \includegraphics[width=8.3cm]{./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png}
+            \caption{Mass concentrations of modelled coarse aerosols particles from WRF-Chem compared to the coarse aerosols observations during the MOCCHA campaign. Panel A shows the concentrations of the five size bins of the GOCART dust particles. Panel B is the concentrations series of modelled PBAPs, including bacteria, fungal spores and MPOA. Panel C compares the sum of all the size bins and species of the WRF-Chem particles with the observations of coarse mode particles from the MOCCHA campaign.}
+            \label{fig:coarse_concentrations}
+        \end{figure}
+        
+        
+        % -------------------------------------------------    
+        \subsubsection{Coarse aerosols to INPs}
+        The ice nucleation parametrisations presented in Sect. \ref{sec:inp_param} are used to convert the coarse mode aerosols particles discussed in Sect. \ref{sec:aer_emissions} into INP concentrations.
+        The species specific parametrisations take as input the ad hoc modelled aerosol particles as referenced in Table \ref{tab:param} (dust or MPOA).
+        The INP measurements of the MOCCHA 2018 campaign (cf. Sect. \ref{sec:observations}) are used as reference. Two representative activation temperatures are displayed: \SI{-15}{\degreeCelsius} and \SI{-25}{\degreeCelsius}.
+        In order to withdraw the effect of the aerosol particles modelling errors on the INP modelling precision, the coarse mode particles and fPBAP measurements are also used to produce INPs with the nucleation schemes. This allows to isolate the bare nucleation modelling performances.
+        Figure \ref{fig:nucleation_1525} shows the INP concentrations at the two activation temperatures, displaying both the results with the modelled and the observed particles.
+        
+        % TODO à refaire avec la dernière version du model : jusqu'en septembre, plot plus joli, INP corrigés, nouveaux noms
+        \begin{figure*}[t]
+            \includegraphics[width=12cm]{./chap4/images/nucleation_15-25.png}
+            \caption{À REFAIRE AVEC LA DERNIÈRE VERSION | Modelled compared to observed INP concentrations at two activation temperatures. Panels A and C show the results for the concentrations obtained with the modelled aerosols particles, where panels B and D shows the results obtained with the observed particles. The INP observations series from the MOCCHA campaign 2018 are plotted in black dashed-line.}
+            \label{fig:nucleation_1525}
+        \end{figure*}
+    
+   First, let us take a look to the INP measurement series represented in black dashed-line. The series are continuous at \SI{-25}{\degreeCelsius}, but present drops at \SI{-15}{\degreeCelsius}. This is due to the sporadic absence of high enough INP concentrations at this temperature for the instrument to record them (cf. Sect. \ref{sec:observations}). Those drops are never reproduced by the modelled concentrations, either with the modelled particles or with the observed coarse particles.
+   
+  !!!!!!!!!!!!!!!!!! 
+  
+   !!!TODO!!! remettre à jour avec INP corrigés ! McCluskey marche pas mal à -25°C
+   
+  !!!!!!!!!!!!!!!!!! 
+  
+   % With the modelled particles
+   Panels A and C of Fig. \ref{fig:nucleation_1525} show that the modelled INP concentrations hardly reproduce the observed variability. This is easily explained by the difficulty of the model to reproduced the aerosols variability as seen on Fig. \ref{fig:coarse_concentrations} C. This can also be understood through the inherent drawback of this approach: the in-cloud activation of the potential INPs during atmospheric transport is not considered among the removal processes of the modelled coarse particles. A problem addressed by the second modelling approach (Sect. \ref{sec:method_inp_emission}).
+  
+   The dust parametrisations give concentrations that spread over two orders of magnitude, with clear overestimation from the CNT. The two Demott parametrisations show the lowest variability, but Demott 2010 has the best estimation of the INP concentration level at \SI{-25}{\degreeCelsius}, even though it overestimates the concentration on the second half of the period (panel C). Niemand 2012 and Ullrich 2021 give, as expected, very similar results. Those two parametrisations are close to give the best combination of variability and concentration level.
+   
+   In terms of biological INPs, the concentrations spread over two orders of magnitude at \SI{-15}{\degreeCelsius} between W15 and the CNT applied to PBAP (panel A), but are in much better agreement at \SI{-25}{\degreeCelsius} (panel C). This is explained by the profile of their respective temperature dependence (Fig. \ref{fig:nucleation_schemes}): the CNT is more efficient at making INPs at warm temperatures, but it gets inverted around \SI{-25}{\degreeCelsius}.
+   At \SI{-15}{\degreeCelsius}, the CNT is close to give the right order of magnitude, when the W15 scheme makes INP concentrations two orders of magnitude lower than the observations.
+   At \SI{-25}{\degreeCelsius}, the two schemes are two to one order of magnitude lower than the observations. This is expected for biological particles that, in INP populations, stand out especially at temperatures above \SI{-20}{\degreeCelsius}.
+   In this case, the W15 scheme gets more credits because it is specific to organic sea sprays \citep{wilson_marine_2015}, like those represented by our modelled MPOA (Sect. \ref{sec:seaspray_emiss}). Whereas the CNT PBAP is configured here to consider the aerosol particles as highly efficient bacteria. In this configuration, it is better suited to the PBAP observations that are considered to be efficient nucleation material \citep[][]{kojoj_arctic_2024}.
+   
+   % With the observations
+   Panels B and D of Fig. \ref{fig:nucleation_1525} present the INP concentrations produced by parametrisations that use the actual measurements of coarse particles and fPBAP to produce INP concentrations.
+   Compared to the full modelling approach (panels A and C), the variability is much better reproduced. At \SI{-15}{\degreeCelsius} (panel B), except the CNT, the dust parametrisations used with the coarse particles observation almost catch the order of magnitude of the INP observations. This suggests that the coarse particles might explain the whole INPs population.
+   At \SI{-25}{\degreeCelsius} (panel D), the INP concentrations are overestimated by all the parametrisations. However, the D10 parametrisation gives the correct order of magnitude, especially on the first half of the period.
+   
+   The coarse particles dataset does not allow to distinguish the dust from the biological particles, but the fPBAP measurements gives the opportunity to investigate their contribution to the INPs population.
+   Two ice nucleation schemes are applied to the fPBAPs: the CNT configured for bacteria material \citep{keita_new_2020}, and the H18 parametrisation with the \textit{Pseudomonas syringae} INAS \citep{hummel_simulating_2018}.
+   The two schemes give very similar results, as expected from their temperature spectrum (Fig. \ref{fig:nucleation_schemes}).
+   At \SI{-15}{\degreeCelsius} (panel B), both produce INPs approximately three orders of magnitude below the observations. 
+   The good correlation between the fPBAP concentration measurements and the observed INPs explains how good is the reproduced time variability. Nevertheless, the magnitude of the INP concentrations originated from the fPBAPs cannot explain the observed INP population.
+   
+   As for the \SI{-25}{\degreeCelsius} activation level, the INP concentrations modelled with the fPBAP measurements are up to four orders of magnitude lower than the INP observations; too low to appear on the plot (Fig. \ref{fig:nucleation_1525}D).
+   
+   
     % ____________________________________________________    
-    \subsubsection{Emissions of modelled INPs}
+    \subsection{Emissions of modelled INPs}
+    This section presents the results of the INP emission approach described in Sect.~\ref{sec:method_inp_emission}.
+    INP tracers are produced from aerosol particles emissions converted with nucleation schemes. They are then transported and subject to wet and dry deposition, as well as the in-cloud activation (c.f. Sect.~\ref{sec:removal}).
+    
+        \subsubsection{MOCCHA}
+        Figure~\ref{fig:INP_concs_MOCCHA} shows the confrontation of the interpolated modelled INPs and the observations of the MOCCHA campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
+        At \SI{-10}{\degreeCelsius} and \SI{-15}{\degreeCelsius} the observations points are lacking, especially over the second half of the campaign. This could suggest concentrations too low to be detected. Indeed, the modelled concentrations show values at the edge of the detection limit of the observation unit. Nevertheless, the modelled levels could be overestimated, whilst on the first half of the period they tend to be lower than observations.
+        Let us recall that the first peak in the observation series happens during an ice-breaking phase, associated with local emissions of particles. Since the latter is not modelled, the comparison is biased over that period (August 8-15).
+        All in all, at these warm temperatures, the modelled INPs show coherent orders of magnitude, but their validation with observation is unreliable.
+        
+        At colder temperatures, namely \SI{-20}{\degreeCelsius} and \SI{-25}{\degreeCelsius}, observations have complete time series over the period.
+         %Except for the ice breaking peak,
+        The high variability of the modelled INPs compared to the observations prevents perfect match, but the modelled series of INP \SI{-20}{\degreeCelsius} shows coherent orders of magnitude. 
+        As for the INP \SI{-25}{\degreeCelsius} series, it almost reproduces the ice-breaking peak. This goes against the thesis of local sources due to ice-breaking, and rather suggests an INP source that is only reproduced by the coldest modelled INPs. Considering that the latter are mainly emitted from dust sources, the peak in warm INP observations would be associated to this kind of particles. 
+        Although dust are not recognized as highly active above \SI{-15}{\degreeCelsius} \citep[][]{connolly_studies_2009}, this behaviour rather support the reverse hypothesis, mishandling the dust parametrisation used. 
+        On the second half of the period, the modelled INP series shows way higher variability than observation, which again, makes difficult the matching of both. However, some observed concentrations are well reproduced, but the the modelled series misses several ebbs with a general overestimation. 
+        % for the discussion: it suggests that dust2INP is too efficient at cold temp, not enough at warm temp.
+        
+ \begin{figure}[t]
+            \includegraphics[width=1\textwidth]{./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png}
+            \caption{Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOCCHA campaign.}
+            \label{fig:INP_concs_MOCCHA}
+        \end{figure}
 
+Figure~\ref{fig:INP_maps_MOCCHA} gives the averaged spatial distributions of the modelled INPs.
+Figure~\ref{fig:INP_concs_MOCCHA} showed that high INP concentrations were hard to reach on the location of the MOCCHA campaign. Here, the spatial averaged distributions confirm this remark and generalises it to the whole Arctic region.
+At the two warmest INP classes represented, the Arctic ocean never knows concentrations of $10^{-1}$ \si{\per\liter}. On the other hand, continental areas reach this level, but the particles responsible for these concentrations do not seem to be transported over the ocean.
+At these activation temperatures, the INPs are emitted from MPOA and continental PBAPs. These results suggest a low contribution of those species to the average INP population.
 
+The maps of the INP \SI{-20}{\degreeCelsius} and INP \SI{-25}{\degreeCelsius} show different behaviour. The influence of high latitude dust is highlighted by concentration hot spots that align with the emission map of modelled dust (c.f. Fig.~\ref{fig:emission_maps}). 
+The INP from dust sources are better transported in remote Arctic ocean area, which allow to reach concentrations up to $10^{-1}$ \si{\per\liter} at \SI{-20}{\degreeCelsius}, and up to \SI{10}{\per\liter} at \SI{-25}{\degreeCelsius}.
+
+ \begin{figure}[t]
+            \includegraphics[width=8.3cm]{./chap4/images/INP_map_august.v16.png}
+            \caption{Maps of modelled INP concentrations for four activation temperatures, averaged over the month of August 2018 (MOCCHA campaign period). Color bars are centered on $10^{-1}$ INP per liter; blue areas indicate values lower than this threshold, while red areas means concentrations greater than it.}
+            \label{fig:INP_maps_MOCCHA}
+        \end{figure}
+        
+        Although in average warm INPs are very scarce in central Arctic, transport events from continental regions can happen, bringing concentration up to $10^{-1}$ \si{\per\liter}.
+        Figure~\ref{fig:INP_maps_MOCCHA_1day} illustrates an occasional transport event of warm INPs toward the North Pole. High concentrations of continental PBAP appears to be the origin of this INP intrusion plume.
+        At colder temperature, the concentrations of the intrusion plume strengthens under the influence of intense coastal dust emissions.
+ \begin{figure}[t]
+            \includegraphics[width=8.3cm]{./chap4/images/INP_map_20180823.v16.png}
+            \caption{Maps of modelled INP concentrations for four activation temperatures, averaged on 2018/08/23. Here is illustrated the occasional transport of continental INPs toward central Arctic.}
+            \label{fig:INP_maps_MOCCHA_1day}
+        \end{figure}
+%        It is hard to get high concentrations in central arctic, except at specific times.
+%       SSA have a low influence. It is easier to spot the influence of continental PBAPs at high temperature, but their transport remains weak.
+%       At lower temperatures, the influence of dust sources is striking.
+        
 % ########################################################
-\subsection{Discussion}
+\section{Discussion}
+% ########################################################
+
 % we want to talk about the role of MPOA and/or PBAP in the INP production --> can be important if in model concentrations, or not important at all, if in observed concentrations
+% See discussion with Julia in the email
+% discuss the different parameters of the PBAPs H18 param --> even with optimistic hypothesis, we do not get high enough INPs conc.
+% It is more with the total coarse-mode obs. that we can get something right --> we should developp a specific param from those.
 
 % let's discuss about the efficiency of the INP modelling approach/setup
 
 
 
+%%\subsection{Methods}
+%%
+%%    % ____________________________________________________    
+%%    \subsubsection{WRF-Chem modelling setup}
+%%    % general presentation
+%%    % domain setup
+%%    % aerosol setup
+%%    % chemistry setup
+%%    
+%%    
+%%    
+%%    % ____________________________________________________    
+%%    \subsubsection{High latitude dust emissions}
+%%    The dust emissions rely on...
+%%     % description of the size bins
+%%    % ____________________________________________________    
+%%    \subsubsection{Sea sprays emissions}
+%%    \label{sec:seaspray_emiss}
+%%    % ____________________________________________________    
+%%    \subsubsection{Observational data}
+%%    \label{sec:observations}
+%%
+%%    % ____________________________________________________    
+%%    \subsubsection{Ice nucleation modelling } 
+%%    \label{sec:inp_param}
+%%    % ____________________________________________________    
+%%    \subsubsection{INP emission and activation}
+%%    \label{sec:method_inp_emission}
+%%    
+%%    
+%%% ########################################################
+%%\subsection{Results}
+%%    % ____________________________________________________    
+%%    \subsubsection{First approach: in situ nucleation modelling}
+%%        % -------------------------------------------------    
+%%        \subsubsubsection{Coarse aerosols to INPs}
+%%    % ____________________________________________________    
+%%    \subsubsection{Emissions of modelled INPs}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Modelling high latitude aerosols particles}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{INPs from aerosols particles with ice nucleation shemes}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Importance of biogenic particles}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    \subsection{Modelled particles}
-%
-%    \subsection{Observed particles}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \stopcontents[chapters]

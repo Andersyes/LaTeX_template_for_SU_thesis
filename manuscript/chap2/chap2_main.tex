@@ -124,7 +124,7 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
     \textbf{Physics and Meteorology}  &  \\
     Planetary boundary layer / Surface layer & MYNN level 2.5 TKE scheme / MYNN \citep{nakanishi_development_2009} \\
     Surface layer & Noah LSM \citep{tewari_implementation_2004} \\
-    Microphysics & Thompson \citep{\thompson_study_2014} \\
+    Microphysics & Thompson \citep{thompson_study_2014} \\
     SW/LW radiation & RRTMG \citep{iacono_radiative_2008} \\
     Cumulus & Grell-3 \citep{grell_generalized_2002} \\
     Initial and boundary conditions & NCEP FNL \citep{commerce_ncep_2000}\\
@@ -134,6 +134,7 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
         Aerosols &  GOCART \\
         Dust & \\
         PBAP & \\
+        Sea sprays& \\
     \bottomrule
     \end{tabular}
     \caption{WRF-Chem model base setup.}
@@ -163,8 +164,28 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
 \section{Microphysics scheme in cloud modelling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ask GPT about it
+
+ % section about the micro physics schemes used in wrf-chem
+
 % subsection about nifa
-!!!TODO!!! write this section; maybe move \cref{sec:modelling_hetero_nuc} here (would be more logical)
+!!!TODO!!! write this section
+
+    \subsection{Modelling of heterogeneous ice nucleation}
+    \label{sec:modelling_hetero_nuc}
+    The modelling of heterogeneous ice nucleation goes through parametrisations that aim to represent the freezing of supercooled droplets induced by aerosol particles acting as INPs. These numerical schemes bridge aerosol properties (number concentration, size, composition, surface characteristics) to INP concentrations, typically as a function of activation temperature. Depending on the approach, they can describe different nucleation modes (immersion, deposition, condensation, contact freezing), though immersion freezing is the most widely implemented in large-scale models.
+
+Two main categories of parametrisations are commonly used. The first consists of empirical, temperature-dependent fits to INP measurements, directly yielding the INP number concentration for specific aerosol types and temperature ranges \citep[e.g.][]{demott_predicting_2010, demott_integrating_2015, wilson_marine_2015, li_predicting_2022}. While computationally efficient, these schemes are tied to the observational datasets they were derived from and are sensitive to the underlying aerosol size distribution.
+
+The second, more physically based approach is the ice nucleation active site density (INAS) framework \citep{fletcher_active_1969, vali_quantitative_1971}. Here, nucleation is assumed to occur at discrete active sites on a particle’s surface, with the number of active sites per unit surface area determined from laboratory measurements or field observations. This method explicitly accounts for particle surface area rather than just number concentration, making it more adaptable to varying size distributions and aerosol surface morphologies \citep[e.g.][]{niemand_particle-surface-area-based_2012, hummel_simulating_2018, ullrich_new_2017}. The standard formulation is:
+\begin{equation}
+        N_{\text{INP}} = N_{\text{p}} \left( 1 - \text{exp}(-S_{\text{p}} \, \text{INAS})\right)
+    \end{equation}
+    with $N_{\text{aerosol}}$ the number of aerosols particles, $S_{\text{p}}$ their surface area, and INAS is the ice nucleating surface site density.
+Most INAS-based parametrisations assume time-independent nucleation, suitable for many atmospheric conditions.
+
+A more detailed representation comes from CNT (c.f. Sect.~\ref{sec:ice_nucleation}). CNT-based schemes incorporate thermodynamic parameters (e.g., supersaturation, surface tension, latent heat) and particle-specific properties (e.g., contact angle, morphology). While potentially more general, CNT implementations are computationally more demanding and require parameters that are often challenging to constrain \citep[e.g.][]{barahona_ice_2012, hoose_heterogeneous_2012, savre_theory-based_2015}.
+
+In practice, large-scale models tend to adopt either empirical temperature-fit or INAS-based parametrisations for specific aerosol types (e.g., mineral dust, primary biological aerosol particles), while CNT-based approaches are more often applied in detailed process models or sensitivity studies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Observation data and measurements}
@@ -181,19 +202,19 @@ This is especially true for long and continuous time series.
     \label{sec:meteo_obs}
         \subsubsection{Models boundary conditions}
         For setting the meteorological boundary conditions of WRF and WRF-Chem, I used two different reanalysis products.
-        First, the Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, for the work done in \cref{sec:paper1}. Second, the ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_era5_2017}, for all the other WRF and WRF-Chem simulations.
+        First, the Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, for the work done in \cref{sec:paper1}. Second, the ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_c3s_era5_2017}, for all the other WRF and WRF-Chem simulations.
 
         WRF-Chem also needs boundary and initial conditions for aerosol and chemical particles. In our usage, they are all provided by the Atmospheric Chemistry Observations and Modeling Lab (ACOM) of the National Center for Atmospheric Research (NCAR). Among the data used, instantaneous output for boundary conditions from the CAM-Chem model \citep{buchholz_instantaneous_2019}.
     
         \subsubsection{In situ meteorological observations}
-        In order to validate the meteorological performances of WRF and WRF-Chem, have been extensively used in situ data from EBAS hosted by the Norwegian Institute for Air Research (NILU) described in \citet{tørseth_introduction_2012}. When used, the datasets are specifically cited.
+        In order to validate the meteorological performances of WRF and WRF-Chem, have been extensively used in situ data from EBAS hosted by the Norwegian Institute for Air Research (NILU) described in \citet{torseth_introduction_2012}. When used, the datasets are specifically cited.
 
         A few data from airborne campaign have been used, namely ACLOUD, AFLUX, MOSAiC-ACA et HALO-(AC)³ (see \cref{sec:cloud_origins}), as well as data from instrumental mast on campaign boats of the MOCCHA, MOSAIC and ARTofMELT campaigns (see \cref{chap3}). 
 
 
     \subsection{Ice nucleating particles observations}
     INP observations are pretty rare data, although new instruments and measurement networks are setting in and developing fast. 
-    An excellent example of that dynamic is the Portable Ice Nucleation Experiment (PINE) initiative, that has been developed by the University of Leeds (UK). The instrument, an automated instrument that measure INP concentrations across the full range of tropospheric temperatures, has been sent all over the world with the objective of creating a worldwide network of long time series of INP concentrations \citep{möhler_portable_2021}.
+    An excellent example of that dynamic is the Portable Ice Nucleation Experiment (PINE) initiative, that has been developed by the University of Leeds (UK). The instrument, an automated instrument that measure INP concentrations across the full range of tropospheric temperatures, has been sent all over the world with the objective of creating a worldwide network of long time series of INP concentrations \citep{mohler_portable_2021}.
 
     For this thesis work, I mainly used INP measurements from marine campaigns (MOCCHA, MOSAIC, ARTofMELT). Those are presented and described when suited in the following chapters. 
     Nonetheless, I can mention the observations from \citet{wex_annual_2019}, \citet{irish_ice_2019}, \citet{shrod_long-term_2020} and \citet{hartmann_wintertime_2020} that I used when attempting to find the sources of their INP measurements. This was before I realised that those datasets do not suit reliable source tracking. The reasons for that are extensively discussed in \cref{sec:paper1}.
@@ -217,11 +238,10 @@ The exact formula and protocol can differ from a study to another, but this illu
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Acknowledgements ????}
+\subsection*{Acknowledgements to observers} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 I would like to acknowledge all the people who made the observations that I used during my PhD.
-Their commitment ....
-
+Their commitment to 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \stopcontents[chapters]
