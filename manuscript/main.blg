@@ -1,5 +1,23 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[9] Config.pm:310> INFO - Logfile is 'main.blg'
-[69] biber:340> INFO - === lun. sept.  8, 2025, 23:01:48
-[83] Utils.pm:410> ERROR - main.bcf is malformed, last biblatex run probably failed. Deleted main.bbl
-[83] Biber.pm:136> INFO - ERRORS: 1
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[61] biber:340> INFO - === mar. sept.  9, 2025, 15:28:20
+[77] Biber.pm:419> INFO - Reading 'main.bcf'
+[220] Biber.pm:979> INFO - Found 209 citekeys in bib section 0
+[234] Biber.pm:4419> INFO - Processing section 0
+[256] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
+[334] bibtex.pm:1713> INFO - LaTeX decoding ...
+[999] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
+[2706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2706] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2706] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2931] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3233] bbl.pm:763> INFO - Output to main.bbl
+[3233] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'ipcc_AR4_2007' and 'ipcc_ar4_2007' in file '../../Biblio/biblio_202509.bib'
+[3233] Biber.pm:131> WARN - I didn't find a database entry for 'da_silva_backward_2025' (section 0)
+[3233] Biber.pm:131> WARN - I didn't find a database entry for 'ipcc_AR4_2007' (section 0)
+[3233] Biber.pm:131> WARN - I didn't find a database entry for 'copernicus-climate-change-service_c3s_era5_2017' (section 0)
+[3234] Biber.pm:131> WARN - I didn't find a database entry for 'shrod_long-term_2020' (section 0)
+[3234] Biber.pm:131> WARN - I didn't find a database entry for 'ehret_long-range_2025' (section 0)
+[3234] Biber.pm:131> WARN - I didn't find a database entry for 'cmems_chla' (section 0)
+[3234] Biber.pm:133> INFO - WARNINGS: 7
