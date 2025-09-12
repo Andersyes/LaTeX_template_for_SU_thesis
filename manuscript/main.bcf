@@ -2733,24 +2733,26 @@
     <bcf:citekey order="286" intorder="1">wilson_marine_2015</bcf:citekey>
     <bcf:citekey order="287" intorder="1">kojoj_arctic_2024</bcf:citekey>
     <bcf:citekey order="288" intorder="1">keita_new_2020</bcf:citekey>
-    <bcf:citekey order="289" intorder="1">hummel_simulating_2018</bcf:citekey>
-    <bcf:citekey order="290" intorder="1">connolly_studies_2009</bcf:citekey>
-    <bcf:citekey order="291" intorder="1">fressoz_revoltes_2020</bcf:citekey>
-    <bcf:citekey order="292" intorder="1">auzanneau_or_2015</bcf:citekey>
-    <bcf:citekey order="293" intorder="1">masson-delmotte_summary_2021</bcf:citekey>
-    <bcf:citekey order="294" intorder="1">keeling_atmospheric_2017</bcf:citekey>
-    <bcf:citekey order="295" intorder="1">rubino_revised_2019</bcf:citekey>
-    <bcf:citekey order="296" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
-    <bcf:citekey order="297" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="289" intorder="1">connolly_studies_2009</bcf:citekey>
+    <bcf:citekey order="290" intorder="1">kojoj_arctic_2024</bcf:citekey>
+    <bcf:citekey order="291" intorder="1">hummel_simulating_2018</bcf:citekey>
+    <bcf:citekey order="292" intorder="1">kojoj_arctic_2024</bcf:citekey>
+    <bcf:citekey order="293" intorder="1">fressoz_revoltes_2020</bcf:citekey>
+    <bcf:citekey order="294" intorder="1">auzanneau_or_2015</bcf:citekey>
+    <bcf:citekey order="295" intorder="1">masson-delmotte_summary_2021</bcf:citekey>
+    <bcf:citekey order="296" intorder="1">keeling_atmospheric_2017</bcf:citekey>
+    <bcf:citekey order="297" intorder="1">rubino_revised_2019</bcf:citekey>
     <bcf:citekey order="298" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
-    <bcf:citekey order="299" intorder="1">matus_role_2017</bcf:citekey>
-    <bcf:citekey order="300" intorder="1">lohmann_introduction_2016</bcf:citekey>
-    <bcf:citekey order="301" intorder="1">ipcc_AR4_2007</bcf:citekey>
-    <bcf:citekey order="302" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
-    <bcf:citekey order="303" intorder="1">wex_annual_2019</bcf:citekey>
-    <bcf:citekey order="304" intorder="1">maillard_boundary_2022</bcf:citekey>
-    <bcf:citekey order="305" intorder="1">copernicus_climate_change_service_era5_2017</bcf:citekey>
-    <bcf:citekey order="306" intorder="1">matus_role_2017</bcf:citekey>
+    <bcf:citekey order="299" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="300" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="301" intorder="1">matus_role_2017</bcf:citekey>
+    <bcf:citekey order="302" intorder="1">lohmann_introduction_2016</bcf:citekey>
+    <bcf:citekey order="303" intorder="1">ipcc_AR4_2007</bcf:citekey>
+    <bcf:citekey order="304" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="305" intorder="1">wex_annual_2019</bcf:citekey>
+    <bcf:citekey order="306" intorder="1">maillard_boundary_2022</bcf:citekey>
+    <bcf:citekey order="307" intorder="1">copernicus_climate_change_service_era5_2017</bcf:citekey>
+    <bcf:citekey order="308" intorder="1">matus_role_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

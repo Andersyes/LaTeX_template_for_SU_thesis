@@ -276,44 +276,44 @@
 
 %%% Animation bas de page
 
-% Define images for each page (expandable macro)
-\newcommand{\PageImage}[1]{%
-  \ifcase#1
-    % page 0 (unused)
-  \or animation/nuages/dessin_nuages1.png % page 1
-  \or animation/nuages/dessin_nuages2.png 
-  \or animation/nuages/dessin_nuages3.png 
-  \or animation/nuages/dessin_nuages4.png 
-  \or animation/nuages/dessin_nuages5.png 
-  \or animation/nuages/dessin_nuages6.png 
-  \or animation/nuages/dessin_nuages7.png 
-  \or animation/nuages/dessin_nuages8.png 
-  \or animation/nuages/dessin_nuages9.png 
-  \or animation/nuages/dessin_nuages10.png 
-  \or animation/nuages/dessin_nuages11.png 
-  \or animation/nuages/dessin_nuages12.png 
-  \or animation/nuages/dessin_nuages13.png 
-  \or animation/nuages/dessin_nuages14.png 
-  \or animation/nuages/dessin_nuages15.png 
-  \or animation/nuages/dessin_nuages16.png 
-  \or animation/nuages/dessin_nuages17.png 
-  \or animation/nuages/dessin_nuages18.png 
-  \or animation/nuages/dessin_nuages19.png 
-  \or animation/nuages/dessin_nuages20.png 
-  \or animation/nuages/dessin_nuages21.png 
-  \or animation/nuages/dessin_nuages22.png 
-  \or animation/nuages/dessin_nuages23.png 
-  \or animation/nuages/dessin_nuages24.png 
-  % add more as needed
-  \else  animation/nuages/dessin_nuages1.png % page 1
-% fallback for extra pages
-  \fi
-}
-
-\AddToShipoutPictureBG*{%
-  \AtPageLowerLeft{%
-    \raisebox{1cm}[0pt][0pt]{%
-      \makebox[\paperwidth]{\includegraphics[width=0.25\paperwidth]{\PageImage{\thepage}}}%
-    }%
-  }%
-}
+%% Define images for each page (expandable macro)
+%\newcommand{\PageImage}[1]{%
+%  \ifcase#1
+%    % page 0 (unused)
+%  \or animation/nuages/dessin_nuages1.png % page 1
+%  \or animation/nuages/dessin_nuages2.png 
+%  \or animation/nuages/dessin_nuages3.png 
+%  \or animation/nuages/dessin_nuages4.png 
+%  \or animation/nuages/dessin_nuages5.png 
+%  \or animation/nuages/dessin_nuages6.png 
+%  \or animation/nuages/dessin_nuages7.png 
+%  \or animation/nuages/dessin_nuages8.png 
+%  \or animation/nuages/dessin_nuages9.png 
+%  \or animation/nuages/dessin_nuages10.png 
+%  \or animation/nuages/dessin_nuages11.png 
+%  \or animation/nuages/dessin_nuages12.png 
+%  \or animation/nuages/dessin_nuages13.png 
+%  \or animation/nuages/dessin_nuages14.png 
+%  \or animation/nuages/dessin_nuages15.png 
+%  \or animation/nuages/dessin_nuages16.png 
+%  \or animation/nuages/dessin_nuages17.png 
+%  \or animation/nuages/dessin_nuages18.png 
+%  \or animation/nuages/dessin_nuages19.png 
+%  \or animation/nuages/dessin_nuages20.png 
+%  \or animation/nuages/dessin_nuages21.png 
+%  \or animation/nuages/dessin_nuages22.png 
+%  \or animation/nuages/dessin_nuages23.png 
+%  \or animation/nuages/dessin_nuages24.png 
+%  % add more as needed
+%  \else  animation/nuages/dessin_nuages1.png % page 1
+%% fallback for extra pages
+%  \fi
+%}
+%
+%\AddToShipoutPictureBG*{%
+%  \AtPageLowerLeft{%
+%    \raisebox{1cm}[0pt][0pt]{%
+%      \makebox[\paperwidth]{\includegraphics[width=0.25\paperwidth]{\PageImage{\thepage}}}%
+%    }%
+%  }%
+%}
