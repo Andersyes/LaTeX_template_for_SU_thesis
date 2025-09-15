@@ -12,7 +12,7 @@
 
 \input{config/parameters} % mise en forme globale du document
 \input{config/macro.tex} % macro Latex
-\input{others/glossaire.tex} % import du glossaire
+\include{others/glossaire.tex} % import du glossaire
 \input{others/info.tex} % info de la thèse (titre, auteur, jury, résumé...)
 \addbibresource{../../Biblio/biblio_202509.bib} % ajout de la bibliographie
 
@@ -24,7 +24,7 @@
 \frontmatter
 % \include{others/description}
 \AddResumeAbstract % macro pour résumé et abstract
-% \include{others/remerciements}
+\include{others/remerciements}
 %\include{others/publications}
 
 \begin{singlespace} % réduction de l'interligne pour condenser
@@ -33,11 +33,18 @@
 \tableofcontents\newpage
 \newpage
 
-% \printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
+% --- Print glossaries
+\printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
 %%{\printnoidxglossaries}\adjustmtc
+%\printglossary[type=aerosols]
+%\printglossary[type=clouds]
+%\printglossary[type=meteo]
+%\printglossary[type=chemistry]
+%\printglossary[type=models]
+%\printglossary[type=ipcc]
+
 \end{singlespace}
     
-\include{others/remerciements}
 \include{others/avantpropos}
 \include{others/contrib_commu} % activité communautaire autour de la thèse
 

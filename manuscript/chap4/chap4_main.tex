@@ -133,16 +133,16 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     \begin{table}[ht!]
         \caption{Dust emissions size distribution.}
         \centering
-        \begin{tabular}{m{1cm}|m{1.9cm}m{1.9cm}m{2.4cm}m{2cm}}
-        \tophline
+        \begin{tabular}{m{1.5cm}|m{2cm}m{2cm}m{2cm}m{2cm}}
+        \toprule
         Bins number & Lower bound diameter (µm)  &  Upper bound diameter (µm) & Effective diameter ($D_{\text{p}}$) (µm) & Particle density ($\rho_{\text{p}}$) (\unit{g cm-3}) \\
-        \middlehline
+        \midrule
         1 & 0.2 & 2 & 1.46 & 2.50 \\
         2 & 2 & 3.6 & 2.8 & 2.65 \\
         3 & 3.6 & 6 & 4.8 & 2.65 \\
         4 & 6 & 12 & 9 & 2.65 \\
         5 & 12 & 20 & 16 & 2.65 \\
-        \bottomhline
+        \bottomrule
         \end{tabular}
         \label{tab:dust_bins}
     \end{table}
@@ -182,7 +182,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     The bacteria emissions is based on the parametrisation from \citet{burrows_bacteria_2009}.
     It relies on bacteria emission rates dependent of the surface types. The latter are derived from the MODIS surface categories. The details of the lumped ecosystems classes and the associated emission rates are given in the supplementary materials of the original paper \citep[][]{burrows_bacteria_2009}.
     
-    The emission fluxes of the dust particles, the MPOA from sea sprays, and the continental PBAPs (fungal spores and bacteria), are illustrated on Fig. \ref{fig:emission_maps}.
+    The emission fluxes of the dust particles, the MPOA from sea sprays, and the continental PBAPs (fungal spores and bacteria), are illustrated on \cref{fig:emission_maps}.
      \begin{figure}[h]
         \centering
         \label{fig:emission_maps}
@@ -251,9 +251,9 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     \begin{table}[ht!]
         \centering
         \begin{tabular}{c|c|c|c|c|c}
-        \tophline
+        \toprule
         \textbf{Name} & \textbf{Reference}  &  \textbf{Type} & \textbf{Particles} & \textbf{Mode} & \textbf{Temperature range}\\
-        \middlehline
+        \midrule
         D10 & \citet{demott_predicting_2010} & Fitted & All > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
         D15 & \citet{demott_integrating_2015} & Fitted & Dust > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
         L22 & \citet{li_predicting_2022} & Fitted & Arctic & Immersion/condensation & $T<-5$ \si{\degreeCelsius}\\
@@ -264,7 +264,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
         H18FS & \citet{hummel_simulating_2018}& INAS & Fungal spores & Immersion & $T<-5$ \si{\degreeCelsius} \\
         CNT Dust & \citet{keita_new_2020} & CNT & Dust & Immersion & $T<0$ \si{\degreeCelsius}\\
         CNT PBAP & \citet{keita_new_2020} & CNT & PBAP & Immersion & $T<0$ \si{\degreeCelsius}\\
-        \bottomhline
+        \bottomrule
         \end{tabular}
         \caption{Nucleation parametrisations}
         \label{tab:param}
@@ -293,7 +293,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     We excluded the parametrisation from \citet{wilson_marine_2015} because of its poor performances demonstrated in \citet{mccluskey_numerical_2019} and verified with our setup.
     Table \ref{tab:inp_emiss} indexes the parametrisations used for the emissions of INPs by the different aerosol species.
     
-    \begin{table}[ht!]
+     \begin{table}[ht!]
         \caption{Ice nucleation parametrisations used for the conversion of aerosol particles to INP tracers.}
         \centering
         \begin{tabularx}{0.8\textwidth}{c|ccc}
@@ -309,8 +309,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
         \end{tabularx}
         \label{tab:inp_emiss}
     \end{table}
-    
-    
+
     \subsection{INP removal and activation}
     \label{sec:removal}
     The main advantage of the INP tracers approach is the ability to monitor the activation of the INPs.
@@ -393,12 +392,6 @@ Finally, we discuss the results of the two approaches and the conclusions they t
    Nevertheless, the simulated INP levels do not always drop where the observations do. When it does, it can be interpreted as a correct variability catch.
    These drops could be due to events of in\--cloud activation, phenomenon not modelled in this simulation setup.
    
-  !!!!!!!!!!!!!!!!!! 
-  
-   !!!TODO!!! remettre à jour avec INP corrigés ! McCluskey marche pas mal à -25°C
-   
-  !!!!!!!!!!!!!!!!!! 
-  
    % With the modelled particles
    We can see on panel A that the modelled INP concentrations hardly reproduce the observed variability. This is easily explained by the difficulty of the model to reproduced the aerosols variability as seen on Fig. \ref{fig:coarse_concentrations} C. This can also be understood through the inherent drawback of this approach: the in-cloud activation of the potential INPs during atmospheric transport is not considered among the removal processes of the modelled coarse particles. A problem addressed by the second modelling approach (Sect. \ref{sec:method_inp_emission}).
    In addition, the polluted period\----that mostly correspond to the ice breaking transits\----is not included in the modelled particles emissions.

@@ -1,51 +1,151 @@
 \usepackage[acronym,toc,nogroupskip,section=chapter,nonumberlist,nopostdot]{glossaries}
 \makenoidxglossaries
+%\makeglossaries
 
 %\addto\captionsenglish{% 
 %\renewcommand*{\glossaryname}{BYolo}%
 %}
 
-\renewcommand{\glossarypreamble}{Only the main acronyms and abbreviations used throughout this thesis are listed here.\\}
+%\renewcommand{\glossarypreamble}{Only the main acronyms and abbreviations used throughout this thesis are listed here.\\}
 
 
-%% Info
+% ----------------------------------------------------------
+% Define thematic glossaries
+% ----------------------------------------------------------
+%\newglossary[alg]{aerosols}{acr}{acn}{Aerosols Particles}
+%\newglossary[clg]{clouds}{clr}{cln}{Clouds \& Microphysics}
+%\newglossary[metg]{meteo}{mtr}{mtn}{Meteorology \& Climate}
+%\newglossary[chg]{chemistry}{chr}{chn}{Climate \& Chemistry}
+%\newglossary[modg]{models}{mdr}{mdn}{Models \& Computation}
+%\newglossary[giec]{ipcc}{ip}{cc}{Intergovernemental panel on climate change}
 
-\newacronym{dic}{DIC}{dissolved inorganic carbon}
-\newacronym{alk}{Alk}{total alkalinity}
-\newacronym{co2}{CO\textsubscript{2}}{carbon dioxide}
-\newacronym{pco2}{\textit{p}CO\textsubscript{2}}{partial pressure of carbon dioxide}
-\newacronym{omega}{$\boldsymbol{\Omega}$}{saturation state}
+% ----------------------------------------------------------
+% Acronyms (assigned to each glossary)
+% ----------------------------------------------------------
+
+% --- Aerosols & particles ---
+\newacronym{inp}{INP}{Ice Nucleating Particle}
+\newacronym{ccn}{CCN}{Cloud Condensation Nuclei}
+\newacronym{pbap}{PBAP}{Primary Biological Aerosol Particle}
+\newacronym{mpoa}{MPOA}{Marine Primary Organic Aerosol}
+\newacronym{soa}{SOA}{Secondary Organic Aerosol}
+\newacronym{ssa}{SSA}{Sea Spray Aerosol}
+\newacronym{aod}{AOD}{Aerosol Optical Depth}
+\newacronym{bc}{BC}{Black Carbon}
+\newacronym{oc}{OC}{Organic Carbon}
+\newacronym{om}{OM}{organic matter}
+
+% --- Clouds & microphysics ---
+\newacronym{lwc}{LWC}{Liquid Water Content}
+\newacronym{iwc}{IWC}{Ice Water Content}
+\newacronym{reff}{R\textsubscript{eff}}{Effective Radius}
+\newacronym{cre}{CRE}{Cloud Radiative Effect}
+\newacronym{wbf}{WBF}{Wegener–Bergeron–Findeisen process}
+
+% --- Meteorology & Climate ---
+\newacronym{pbl}{PBL}{Planetary Boundary Layer}
+\newacronym{rh}{RH}{Relative Humidity}
+\newacronym{rhi}{RHi}{Relative Humidity with respect to Ice}
+\newacronym{ws}{WS}{Wind Speed}
+\newacronym{sst}{SST}{Sea Surface Temperature}
+\newacronym{nao}{NAO}{North Atlantic Oscillation}
+\newacronym{ao}{AO}{Arctic Oscillation}
+\newacronym{aa}{AA}{Arctic Amplification}
 \newacronym{ecs}{ECS}{equilibrium climate sensitivity}
-\newacronym{esm}{ESM}{Earth system model}
-\newacronym{cmip}{CMIP}{Coupled Model Intercomparison Project}
-\newacronym{ssp}{SSP}{Shared Socio-economic Pathway}
-\newacronym{rcp}{RCP}{Representative Concentration Pathway}
 \newacronym{ghg}{GHG}{greenhouse gas}
 \newacronym{gcb}{GCB}{Global Carbon Budget}
-\newacronym{gobm}{GOBM}{Global Ocean Biogeochemical Model}
-\newacronym{nemo}{NEMO}{Nucleus for European Modeling of the Ocean}
-\newacronym{pisces}{PISCES}{Pelagic Interactions Scheme for Carbon and Ecosystem Studies}
-\newacronym{om}{OM}{organic matter}
-\newacronym{poc}{POC}{particulate organic carbon}
-\newacronym{pic}{PIC}{particulate inorganic carbon}
-\newacronym{doc}{DOC}{dissolved organic carbon}
-\newacronym{dom}{DOM}{dissolved organic matter}
-\newacronym{ipsl}{IPSL}{Institut Pierre-Simon Laplace}
-\newacronym{glodap}{GLODAP}{Global Ocean Data Analysis Project}
-\newacronym{woa}{WOA}{World Ocean Atlas}
+\newacronym{sw}{SW}{Short Wave}
+\newacronym{lw}{LW}{Long Wave}
+
+% --- Chemistry ---
+\newacronym{ghg}{GHG}{Greenhouse Gas}
+\newacronym{co}{CO}{Carbon Monoxide}
+\newacronym{co2}{\ce{CO2}}{carbon dioxide}
+\newacronym{noa}{\ce{NOx}}{Nitrogen Oxides}
+\newacronym{o3}{\ce{O3}}{Ozone}
+\newacronym{so2}{\ce{SO2}}{Sulfur Dioxide}
+
+% --- Modelling & computation ---
+\newacronym{wrf}{WRF}{Weather Research and Forecast model}
+\newacronym{wrfchem}{WRF-Chem}{Weather Research and Forecast model including Chemistry}
+\newacronym{cam}{CAM}{Community Atmosphere Model}
+\newacronym{cesm}{CESM}{Community Earth System Model}
+\newacronym{cmaq}{CMAQ}{Community Multiscale Air Quality model}
+\newacronym{gcm}{GCM}{General Circulation Model}
+\newacronym{crm}{CRM}{Cloud Resolving Model}
+\newacronym{esm}{ESM}{Earth system model}
+\newacronym{cmip}{CMIP}{Coupled Model Intercomparison Project}
+
+% --- IPCC ---
 \newacronym{ar}{AR}{Assessment Report}
 \newacronym{spm}{SPM}{Summary for Policymakers}
 \newacronym{ts}{TS}{Technical Summary}
-\newacronym{pdf}{PDF}{Probability Density Function}
-\newacronym{caco3}{CaCO\textsubscript{3}}{calcium carbonate}
-\newacronym{no3}{NO\rlap{\textsuperscript{--}}\textsubscript{3}}{nitrate ion}
-\newacronym{po4}{PO\rlap{\textsuperscript{3--}}\textsubscript{4}}{phosphate ion}
-\newacronym{hco3}{HCO\rlap{\textsuperscript{--}}\textsubscript{3}}{bicarbonate ion}
-\newacronym{co3}{CO\rlap{\textsuperscript{2--}}\textsubscript{3}}{carbonate ion}
-\newacronym{tcre}{TCRE}{Transient Climate Response to cumulative CO\textsubscript{2} Emissions}
 \newacronym{ipcc}{IPCC}{Intergovernmental Panel on Climate Change}
-\newacronym{srocc}{SROCC}{Special Report on the Ocean and Cryosphere in a Changing Climate}
 \newacronym{wg}{WG}{Working Group}
+\newacronym{ssp}{SSP}{Shared Socio-economic Pathway}
+\newacronym{rcp}{RCP}{Representative Concentration Pathway}
+\newacronym{ipsl}{IPSL}{Institut Pierre-Simon Laplace}
+
+%% --- Aerosols & particles ---
+%\newacronym[type=aerosols]{inp}{INP}{Ice Nucleating Particle}
+%\newacronym[type=aerosols]{ccn}{CCN}{Cloud Condensation Nuclei}
+%\newacronym[type=aerosols]{pbap}{PBAP}{Primary Biological Aerosol Particle}
+%\newacronym[type=aerosols]{mpoa}{MPOA}{Marine Primary Organic Aerosol}
+%\newacronym[type=aerosols]{soa}{SOA}{Secondary Organic Aerosol}
+%\newacronym[type=aerosols]{ssa}{SSA}{Sea Spray Aerosol}
+%\newacronym[type=aerosols]{aod}{AOD}{Aerosol Optical Depth}
+%\newacronym[type=aerosols]{bc}{BC}{Black Carbon}
+%\newacronym[type=aerosols]{oc}{OC}{Organic Carbon}
+%\newacronym[type=aerosols]{om}{OM}{organic matter}
+%
+%% --- Clouds & microphysics ---
+%\newacronym[type=clouds]{lwc}{LWC}{Liquid Water Content}
+%\newacronym[type=clouds]{iwc}{IWC}{Ice Water Content}
+%\newacronym[type=clouds]{reff}{R\textsubscript{eff}}{Effective Radius}
+%\newacronym[type=clouds]{cre}{CRE}{Cloud Radiative Effect}
+%\newacronym[type=clouds]{wbf}{WBF}{Wegener–Bergeron–Findeisen process}
+%
+%% --- Meteorology & Climate ---
+%\newacronym[type=meteo]{pbl}{PBL}{Planetary Boundary Layer}
+%\newacronym[type=meteo]{rh}{RH}{Relative Humidity}
+%\newacronym[type=meteo]{rhi}{RHi}{Relative Humidity with respect to Ice}
+%\newacronym[type=meteo]{ws}{WS}{Wind Speed}
+%\newacronym[type=meteo]{sst}{SST}{Sea Surface Temperature}
+%\newacronym[type=meteo]{nao}{NAO}{North Atlantic Oscillation}
+%\newacronym[type=meteo]{ao}{AO}{Arctic Oscillation}
+%\newacronym[type=meteo]{aa}{AA}{Arctic Amplification}
+%\newacronym[type=meteo]{ecs}{ECS}{equilibrium climate sensitivity}
+%\newacronym[type=meteo]{ghg}{GHG}{greenhouse gas}
+%\newacronym[type=meteo]{gcb}{GCB}{Global Carbon Budget}
+%
+%% --- Climate & chemistry ---
+%\newacronym[type=chemistry]{ghg}{GHG}{Greenhouse Gas}
+%\newacronym[type=chemistry]{aer}{AER}{Aerosol}
+%\newacronym[type=chemistry]{co}{CO}{Carbon Monoxide}
+%\newacronym[type=chemistry]{co2}{CO\textsubscript{2}}{carbon dioxide}
+%\newacronym[type=chemistry]{noa}{NO\textsubscript{x}}{Nitrogen Oxides}
+%\newacronym[type=chemistry]{o3}{O\textsubscript{3}}{Ozone}
+%\newacronym[type=chemistry]{so2}{SO\textsubscript{2}}{Sulfur Dioxide}
+%
+%% --- Modelling & computation ---
+%\newacronym[type=models]{wrf}{WRF}{Weather Research and Forecast model}
+%\newacronym[type=models]{wrfchem}{WRF-Chem}{Weather Research and Forecast model including Chemistry}
+%\newacronym[type=models]{cam}{CAM}{Community Atmosphere Model}
+%\newacronym[type=models]{cesm}{CESM}{Community Earth System Model}
+%\newacronym[type=models]{cmaq}{CMAQ}{Community Multiscale Air Quality model}
+%\newacronym[type=models]{gcm}{GCM}{General Circulation Model}
+%\newacronym[type=models]{crm}{CRM}{Cloud Resolving Model}
+%\newacronym[type=models]{esm}{ESM}{Earth system model}
+%\newacronym[type=models]{cmip}{CMIP}{Coupled Model Intercomparison Project}
+%
+%% --- IPCC ---
+%\newacronym[type=ipcc]{ar}{AR}{Assessment Report}
+%\newacronym[type=ipcc]{spm}{SPM}{Summary for Policymakers}
+%\newacronym[type=ipcc]{ts}{TS}{Technical Summary}
+%\newacronym[type=ipcc]{ipcc}{IPCC}{Intergovernmental Panel on Climate Change}
+%\newacronym[type=ipcc]{wg}{WG}{Working Group}
+%\newacronym[type=ipcc]{ssp}{SSP}{Shared Socio-economic Pathway}
+%\newacronym[type=ipcc]{rcp}{RCP}{Representative Concentration Pathway}
 
 
 
