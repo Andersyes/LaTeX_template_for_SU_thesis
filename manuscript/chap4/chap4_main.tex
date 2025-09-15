@@ -82,7 +82,7 @@ In this study, we use modelling tools to investigate the role of high latitude p
 
 \vspace{\baselineskip}
 % what we do in this study
-The Weather Research and Forecast model including chemistry (WRF-Chem) is used, along with a set of ice nucleation parametrisations, in order to 1)~reproduce in situ INP observations, 2)~investigate the effect of in-cloud activation on INP concentrations, 3)~get insights on the INP spatial distribution.
+The Weather Research and Forecasting model including chemistry (WRF-Chem) is used, along with a set of ice nucleation parametrisations, in order to 1)~reproduce in situ INP observations, 2)~investigate the effect of in-cloud activation on INP concentrations, 3)~get insights on the INP spatial distribution.
     % what is set up
     In a first off-line approach, different ice nucleation parametrisations are applied to both modelled and observed coarse mode aerosols particles. The modelled aerosols are composed of mineral dust particles emitted in mid and high latitude sources, including Iceland, Northern Canada, and Northern Russia. Marine primary organic aerosols (MPOA) also contribute to the coarse mode modelled particles. Those are emitted along with sea sprays in open ocean regions, and have a dependence with the marine biological activity.  
     The observed particles are coarse mode aerosols from the Microbiology-Ocean-Cloud-Coupling in the High Arctic (MOCCHA) 2018 \citep{} and the Multidisciplinary Drifting Observatory for the Study of Arctic Climate (MOSAiC) 2020 \citep{frickenhaus_data_2022} Arctic campaigns. Among the coarse particles, are distinguished the primary biological aerosol particles (PBAP) from the total.
@@ -109,12 +109,12 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     % general presentation
     The simulations and development presented in this study are performed with the Weather Research and Forecasting model including chemistry (WRF‐Chem) \citep{grell_fully_2005}.
     !!! TO BE UPDATED !!!
-    The model version is WRF‐Chem version 4.3.3, including optimizations for polar regions described in \cite{marelle_improvements_2017}.
+    The model version is WRF‐Chem version 4.6.1, including optimizations for polar regions described in \cite{marelle_improvements_2017}.
     Meteorological initial and time-varying conditions are provided by ERA5 reanalyses \citep{hersbach_era5_2020}.
     
     % domain setup
     The simulation domain is a polar centred square of approximately 12,000 $\times$ 12,000 \unit{km}, or 240 $\times$ 240 cells of 50 \unit{km} resolution. % to be updated
-    It is composed of 72 vertical levels, ranging from the surface up to 50 \unit{hPa}.
+    It is composed of 49 vertical levels, ranging from the surface up to 50 \unit{hPa}.
     
     % aerosol setup
     
@@ -221,10 +221,10 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     Others use a slightly more complex approach, based on ice nucleation active surface site (INAS) density, also derived from observations. This approach assume that freezing happens at specific sites on the particle \citep{fletcher_active_1969, vali_quantitative_1971}. The nucleation depends on the aerosol particle surface area, rather than just on its number concentration. The INAS densities are determined with fitted experiments or measurements, and are consequently dependent on the particles properties \citep[e.g.][]{connolly_studies_2009, murray_ice_2012, niemand_particle-surface-area-based_2012, ullrich_new_2017, hummel_simulating_2018, mccluskey_marine_2018}.
     The standard equation of this approach has the following forms:
     \begin{equation}
-        N_{\text{INP}} = N_{\text{p}} \left( 1 - \text{exp}(-S_{\text{p}} \text{INAS})\right)
-        \label{eq:inas}
+        N_{\text{INP}} = N_{p} \left( 1 - \text{exp}(-S_{p}\, n_s)\right)
+        \label{eq:Ninp_inas}
     \end{equation}
-    with $N_{\text{aerosol}}$ the number of aerosols particles, $S_{\text{p}}$ their surface area, and INAS is the ice nucleating surface site density. The latter is where the different parametrisations apply.
+    with $N_p$ the number of aerosols particles, $S_p$ their surface area (\si{\meter\square}), and $n_s$ is the ice nucleating surface site density (\si{\per\meter\square}). The latter is where the different parametrisations apply.
     These parametrisations make the assumption that nucleation is time independent. 
     
     A contrario, the classical nucleation theory (CNT), takes a deeper step into the physics of ice crystal formation, considering ice nucleation as a stochastic process \citep{pruppacher_microphysics_1998, ickes_classical_2015}.
@@ -256,9 +256,9 @@ Finally, we discuss the results of the two approaches and the conclusions they t
         \midrule
         D10 & \citet{demott_predicting_2010} & Fitted & All > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
         D15 & \citet{demott_integrating_2015} & Fitted & Dust > 0.5 \si{\um} & Immersion & $T<-5$ \si{\degreeCelsius} \\
-        L22 & \citet{li_predicting_2022} & Fitted & Arctic & Immersion/condensation & $T<-5$ \si{\degreeCelsius}\\
+        %L22 & \citet{li_predicting_2022} & Fitted & Arctic & Immersion/condensation & $T<-5$ \si{\degreeCelsius}\\
         N12 & \citet{niemand_particle-surface-area-based_2012} & INAS & Dust & Immersion & $T\in[-35,-12]$ \si{\degreeCelsius} \\
-        U17 & \citet{ullrich_new_2017} & INAS & Dust/soot & Immersion/deposition & $T \in [-30,-14]$ \si{\degreeCelsius}\\
+        %U17 & \citet{ullrich_new_2017} & INAS & Dust/soot & Immersion/deposition & $T \in [-30,-14]$ \si{\degreeCelsius}\\
         M18 & \citet{mccluskey_marine_2018}& INAS & SSA & Immersion & $T\in[-30,-10]$ \si{\degreeCelsius} \\
         H18B & \citet{hummel_simulating_2018}& INAS & Bacteria & Immersion & $T<-3$ \si{\degreeCelsius} \\
         H18FS & \citet{hummel_simulating_2018}& INAS & Fungal spores & Immersion & $T<-5$ \si{\degreeCelsius} \\
@@ -266,7 +266,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
         CNT PBAP & \citet{keita_new_2020} & CNT & PBAP & Immersion & $T<0$ \si{\degreeCelsius}\\
         \bottomrule
         \end{tabular}
-        \caption{Nucleation parametrisations}
+        \caption{Nucleation parametrisations, the particles they apply to, and the their temperature range of validity.}
         \label{tab:param}
     \end{table}
     
@@ -278,13 +278,53 @@ Finally, we discuss the results of the two approaches and the conclusions they t
             % Niemand, Ullrich, Hummel, Wilson, McCluskey
         % Mention of the CNTs
             
-    
+    \subsubsection{Parameters of the INAS parametrisations}
+    In the following sections, the INAS based parametrisations will be used for the production of INP tracers. Here, are described in details how they are set up.
+
+    The number of INPs is given by Eq.~\ref{eq:Ninp_inas}. The INAS term is specific to every parametrisation, but each follows an equation of the form:
+    \begin{equation}
+        \text{n_s}(T) = \text{exp}(\alpha\,T + \beta) 
+        \label{eq:inas}
+    \end{equation}
+    The number of particle $N_p$ of \cref{eq:Ninp_inas} can also be modulated by a factor $\epsilon$ that represents the abondance of potential INPs among the considered particles, and by $\gamma$, the fraction of maximum activation at low temperature for the considered species.
+    These parameters are all derived from observations, and listed in \cref{tab:inas_param}.
+
+    \begin{table}[ht!]
+        \centering
+        \label{tab:inas_param}
+        \begin{tabular}{c|cccc}
+        \toprule
+        Parametrisation & $\alpha$  &  $\beta$ & $\gamma$ & $\epsilon$ \\
+        \midrule
+            H18B & \num{-0.894} & \num{15.501} & \num{0.028} & \num{0.04} \\
+            H18FS & \num{0.37573} & \num{4.23229} & \num{0.00851} & \num{0.08} \\
+            M18 & \num{-0.545} & \num{1.0125} & \num{1} & \num{1} \\
+            N12 & \num{-0.517} & \num{8.934} & \num{1} & \num{1} \\
+        \bottomrule
+        \end{tabular}
+        \caption{Numerical parameters of the INAS parametrisations.}
+    \end{table}
+
+The exponential form of the INAS parametrisation makes it tends toward a plateau, of which the magnitude is driven by the $gamma$ parameter. 
+The low $\gamma$ values of H18 parametrisations have the effect of capping the maximum activation fraction they can reach. 
+Even if the activation fraction depends on both temperature and particle surface area, they cease to be effective once the plateau is reached.
+Figure \ref{fig:activation_fraction} shows the evolution of the activation fraction for H18B, M18 and N12 against temperature and particle diameter.
+
+!!!TODO!!! comment the figure, about the threshold, the angle of the lines, etc.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=1\textwidth]{./chap4/images/activation_fractions.png}
+            \caption{....}
+            \label{fig:activation_fraction}
+        \end{figure}
+        
+
     % ____________________________________________________    
     \subsection{INP emissions}
     \label{sec:method_inp_emission}
-    This second approach uses the best performing ice nucleation parametrisations \--- identified with the first approach \--- to convert modelled dust, PBAPs (bacteria and fungal spores) and sea sprays into INPs, directly at emission.
-    INP tracers are emitted from this conversion into five classes, differentiated by their activation temperature and ranged from -5°C to SI{-25}°C, with a five degrees Celsius increment.
-    They are then transported as air tracers on which are applied rain washout, dry deposition, and there subject to removal by in-cloud activation (see Sect. \ref{sec:removal}). % to be changed
+    This second approach uses the best performing ice nucleation parametrisations\----identified with the first approach\----to convert modelled dust, PBAPs (bacteria and fungal spores) and sea sprays into INPs, directly at emission.
+    INP tracers are emitted from this conversion into five classes, differentiated by their activation temperature and ranged from \tempc{-5} to \tempc{-25}, with a five degrees Celsius increment.
+    They are then transported as air tracers on which are applied rain washout, dry deposition, and they are subject to removal by in-cloud activation (see Sect. \ref{sec:removal}). % to be changed
     
     In order to convert aerosol emissions into INP tracers active at the temperature $T$, we use INAS based and species specific parametrisations set up at $T$.
     The INPs from dust particles are produced with the parametrisation by \citet{niemand_particle-surface-area-based_2012}.
@@ -511,7 +551,7 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
     Nevertheless, when using the observations of fPBAPs, the schemes are unanimously not efficient enough to produce INPs at the observed level.
     Figure \ref{fig:icenuc_params_organics} takes over the B panel of \cref{fig:icenuc_params_152025} for the organic specific schemes only. It also shows the fPBAP concentrations series used by the parametrisations. 
     It is shown clearly that the observed INPs correlate with the fPBAPs, both in variability and values. This shared order of magnitude would imply a fPBAP activation fraction close to one in order to explain the whole INP volume, but as shown on the figure, no scheme allows it.
-    In the active site density approach (used by H18 and M18), the size dependence is in an exponential which tends toward zero (c.f. \cref{eq:inas}). %with Np the number of aerosols particles, Sp their surface area, and INAS the ice nucleating surface site density. 
+    In the active site density approach (used by H18 and M18), the size dependence is in an exponential which tends toward zero (c.f. \cref{eq:Ninp_inas}). %with Np the number of aerosols particles, Sp their surface area, and INAS the ice nucleating surface site density. 
     The term $1 - exp(-S_p\,INAS)$ is simply a factor for modelling the activation fraction. When $Sp$ becomes high enough, the exponential tends toward zero and the activation fraction reach one.
     Because the observations on which the parametrisation is based show that \perc{100} activation do not happen \citep{hummel_simulating_2018}, the whole equation is capped by an extra factor that represent the maximum activation possible. In the case of H18B, for the P. Syringae bacteria, this factor is set to $\gamma = 0.028$.
     Taking everything into account, when $S_p$ is high, the activation fraction tends toward $1*0.028$ (i.e. \perc{2.8}). That explains why the parametrisation can not produce the same number of INP as the number of PBAPs. 

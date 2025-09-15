@@ -39,7 +39,7 @@ Rapidly become one of the fundamental physics principles, the correspondence pri
 It states that any new parametrisation, or model, dedicated to describe an observational phenomenon, should generalise the previous working theory and do not reject it. The old theory would then become a particular case of the new one.
 In their immensely complete book about cloud physics \citep{curry_thermodynamics_2014}, the atmosphericists Khvorostyanov and Curry explain:
 \begin{quote}
-    The new theory contains a new parameter absent in the previous theory; when its value tends to some limiting value, the new theory transforms into the old theory. [...]A newer theory should be able to express the empirical parameters of the previous theories or parametrisations via physical constants. 
+    The new theory contains a new parameter absent in the previous theory; when its value tends to some limiting value, the new theory transforms into the old theory. [...] A newer theory should be able to express the empirical parameters of the previous theories or parametrisations via physical constants. 
 \end{quote}
 
 The correspondence principle acts as powerful tool for understanding the world in a systematic way. When science strives to provide a mathematical\----that is, formal\----description of natural phenomena, Bohr’s principle offers the framework for developing sound theories that serve science’s ultimate goal: understanding.
@@ -74,7 +74,7 @@ LPDMs are stochastic tools for the modelling of large amounts of air tracers. Th
 In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a coupled RCM-CTM (\cref{sec:wrfchem}), and of a LPDM (\cref{sec:flexpart}), that have been used in this thesis.
 
 %-----------------------------------------------
-    \subsection{The Weather Research and Forecast model}
+    \subsection{The Weather Research and Forecasting model}
     \label{sec:wrf}
     The Weather Research and Forecasting model (WRF) is a numerical mesoscale atmospheric simulation model \citep{skamarock_description_2022}. Its development began in the 1990s and has since brought together a large international community. The original design objectives of WRF followed two main directions: short-term weather prediction through data assimilation, and regional climate simulation for research purposes. For more than twenty years, WRF has been the research tool of several tens of thousands of scientists worldwide and has become the primary framework for developing parametrisations of numerous physico-chemical processes for climate models.
 
@@ -105,7 +105,7 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
 %-----------------------------------------------
     \subsection{WRF including chemistry: WRF-Chem}
     \label{sec:wrfchem}
-    The Weather Research and Forecast model including chemistry (WRF-Chem), is a CTM coupled with WRF\citep{grell_fully_2005}. It is fully integrated within the physics of WRF and shares its modelling mechanics.
+    The Weather Research and Forecasting model including chemistry (WRF-Chem), is a CTM coupled with WRF \citep{grell_fully_2005}. It is fully integrated within the physics of WRF and shares its modelling mechanics.
     It can be seen as an extended version of WRF that includes chemistry, aerosols and photolysis mechanisms. For the latter, and even for the physical part of the model, a great variety of schemes can be used, which makes WRF-Chem a highly modular model. Thus, complexity can be controlled in order to put the emphasise on specific chemical or physical aspects, making the model as light as possible for the intended use.
     Most of the WRF-Chem mechanisms are online, that is to say they interact with each others, especially between chemistry and physics. In the following, we will say explicitly if a chemical tracer is physically passive.
     This property makes it ideal to study aerosol particles emissions and transport, as well as aerosol-cloud interactions.
@@ -130,11 +130,11 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
     Initial and boundary conditions & NCEP FNL \citep{commerce_ncep_2000}\\
     \midrule 
     \textbf{Chemistry and aerosols}  &  \\
-        Gas phase chemistry &  \\
+        Gas phase chemistry & ?? \\
         Aerosols &  GOCART \\
-        Dust & \\
-        PBAP & \\
-        Sea sprays& \\
+        Dust & ??\\
+        PBAP & ??\\
+        Sea sprays& ??\\
     \bottomrule
     \end{tabular}
     \caption{WRF-Chem model base setup.}
@@ -161,14 +161,30 @@ In this section, will be described the setup of a RCM (\cref{sec:wrf}), of a cou
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Microphysics scheme in cloud modelling}
+\section{Microphysics in cloud modelling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ask GPT about it
 
- % section about the micro physics schemes used in wrf-chem
+    \subsection{Moments in microphysics schemes}
+    \label{sec:moment_microphysics}
+    In climate and weather models, microphysics schemes are intended to compute hydrometeors variables such as cloud water, rain, snow, graupel, from the other meteorological variables.
+    Among microphysics schemes, two categories are distinguished: single-moment and double-moment schemes. 
+    This moment distinction has to do with the number and type of prognostic variables the model produces for every hydrometeor categories.
 
-% subsection about nifa
-!!!TODO!!! section about cloud schemes
+    Single-moment schemes only compute the mass mixing ratio of cloud particles, expressed in unit of mass by kilograms of air. 
+    The number concentrations are thereby only prescribed or given  diagnostically from the computed mass mixing ratio. Doubling the liquid water path would double the mass of each droplet, rather than changing their size distribution.
+    Such computational setup can not consider processes that rely on particle number concentrations.
+    Aerosol-cloud interactions and their effects (e.g. Albrecht and Twomey effects) are completely put aside in these type of schemes.
+    Nevertheless, in situations where detailed microphysics is not mandatory, one-moment schemes show their advantages of low computational cost and numerical stability.
+
+    Double-moment schemes have, in addition to the information on mass, the prognostic variables of number concentration. In other words each hydrometeors are characterised by their \textit{mass} and \textit{number} concentrations.
+    It allows to get dynamic evolution of droplet size distribution, addressing the associated effects on cloud lifetime and radiative properties. 
+    These schemes are physically more faithful to what we know of cloud microphysics, and happen to be mandatory for the modelling of realistic aerosol-cloud interactions.
+    \vspace{\baselineskip}
+
+    In this thesis, the cloud microphysics are represented by two different schemes: Morrison's double-moment \citep{morrison_impact_2009}, and different variants of Thompson's single-moment \citep{thompson_explicit_2004}, like Thompson 1.5-moment aerosol-aware \citep{thomspon_study_2014}.
+    In chapters \ref{chap3} and \ref{chap4}, Morrison two-moment is used, while \cref{chap5} presents a comparison of the different versions of Morrison and Thompson schemes; where Thompson aerosol-aware will be used to specifically study the impact of INPs on clouds.
+
 
     \subsection{Modelling of heterogeneous ice nucleation}
     \label{sec:modelling_hetero_nuc}
@@ -186,6 +202,7 @@ Most INAS-based parametrisations assume time-independent nucleation, suitable fo
 A more detailed representation comes from CNT (c.f. Sect.~\ref{sec:ice_nucleation}). CNT-based schemes incorporate thermodynamic parameters (e.g., supersaturation, surface tension, latent heat) and particle-specific properties (e.g., contact angle, morphology). While potentially more general, CNT implementations are computationally more demanding and require parameters that are often challenging to constrain \citep[e.g.][]{barahona_ice_2012, hoose_heterogeneous_2012, savre_theory-based_2015}.
 
 In practice, large-scale models tend to adopt either empirical temperature-fit or INAS-based parametrisations for specific aerosol types (e.g., mineral dust, primary biological aerosol particles), while CNT-based approaches are more often applied in detailed process models or sensitivity studies.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Observation data and measurements}
