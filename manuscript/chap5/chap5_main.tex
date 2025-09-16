@@ -33,7 +33,9 @@ Until now, this thesis has tackled two thirds of the its announced plan through 
 This fifth chapter eventually addresses the question of the impact of particles responsible for ice nucleation on Arctic clouds, making a big step on the road toward the understanding of an hypothetical feedback loop that would link INPs and global warming regional impacts. 
 The study presented in this chapter happens to be the direct sequel of the latter, by introducing a new modelling setup within WRF-Chem, inspired from the INP tracers emissions that allowed the study of Arctic INP emissions in \cref{chap4}.
 
-In a first time, will be presented and discussed the different microphysics parametrisations used in this study. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
+!!!TODO!!! state of the science about INP in microphysics modelling
+
+In a first time, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
 Then, will be compared the different microphysics schemes through their outputs in terms of cloud properties. We will be interested in the ice crystal number concentration, all the way to the cloud radiative effect, by way of the phase repartition.
 Eventually, we will led the discussion about how INPs interact with regional climate, and how the latter may impact their emissions.
 
@@ -41,15 +43,21 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Microphysics scheme}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ____________________________________________
-    \subsection{WRF-Chem microphysics schemes}
-    In the frame of this thesis, two microphysics parametrisations were used within WRF-Chem: the Morrison two-moment scheme \citep{morrison_impact_2009} and Thompson aerosol-aware \citep{thompson_study_2014}.
-    % let's talk about what happens in those schemes (ask gpt)
-
+!!!TODO!!! phrase d'intro
 
 % ____________________________________________
     \subsection{Linking aerosol particles to cloud microphysics}
+    In the frame of this thesis, two microphysics parametrisations were used within WRF-Chem: the Morrison two-moment scheme \citep{morrison_impact_2009} and Thompson aerosol-aware \citep{thompson_study_2014}.
+    Both of them provides mass mixing ratios and number concentrations of liquid and solid cloud particles.                                                      
+    The microphysics scheme that receives our modifications is Thompson aerosol-aware.
     % list the different type of nucleation and how they are modelled
+    It handles ice nucleation through four distinct processes:
+    \begin{itemize}
+        \item Immersion nucleation
+        \item Deposition nucleation
+        \item Homogeneous freezing of aqueous aerosols
+        \item Freezing of water drops !!!what is that???
+    \end{itemize}
 
     % note about the CCN
 

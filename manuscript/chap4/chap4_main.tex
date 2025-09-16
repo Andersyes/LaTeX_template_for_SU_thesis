@@ -283,15 +283,16 @@ Finally, we discuss the results of the two approaches and the conclusions they t
 
     The number of INPs is given by Eq.~\ref{eq:Ninp_inas}. The INAS term is specific to every parametrisation, but each follows an equation of the form:
     \begin{equation}
-        \text{n_s}(T) = \text{exp}(\alpha\,T + \beta) 
+        n_s(T) = \text{exp}(\alpha\,T + \beta) 
         \label{eq:inas}
     \end{equation}
     The number of particle $N_p$ of \cref{eq:Ninp_inas} can also be modulated by a factor $\epsilon$ that represents the abondance of potential INPs among the considered particles, and by $\gamma$, the fraction of maximum activation at low temperature for the considered species.
     These parameters are all derived from observations, and listed in \cref{tab:inas_param}.
 
     \begin{table}[ht!]
-        \centering
         \label{tab:inas_param}
+        \centering
+        \caption{Numerical parameters for the INAS parametrisations.}
         \begin{tabular}{c|cccc}
         \toprule
         Parametrisation & $\alpha$  &  $\beta$ & $\gamma$ & $\epsilon$ \\
@@ -302,19 +303,27 @@ Finally, we discuss the results of the two approaches and the conclusions they t
             N12 & \num{-0.517} & \num{8.934} & \num{1} & \num{1} \\
         \bottomrule
         \end{tabular}
-        \caption{Numerical parameters of the INAS parametrisations.}
     \end{table}
 
 The exponential form of the INAS parametrisation makes it tends toward a plateau, of which the magnitude is driven by the $gamma$ parameter. 
 The low $\gamma$ values of H18 parametrisations have the effect of capping the maximum activation fraction they can reach. 
 Even if the activation fraction depends on both temperature and particle surface area, they cease to be effective once the plateau is reached.
-Figure \ref{fig:activation_fraction} shows the evolution of the activation fraction for H18B, M18 and N12 against temperature and particle diameter.
 
-!!!TODO!!! comment the figure, about the threshold, the angle of the lines, etc.
+Figure \ref{fig:activation_fraction} shows the evolution of the activation fraction for H18B, M18 and N12 against temperature and particle diameter.
+All reach \perc{100} activation because no $\gamma$ factor is applied. The saturated zone on the left of the diagrams shows the parameter space (temperature and particle diameter) for which the parametrisations predict activation comprised within \perc{10} and \perc{100}. It happens more or less early, depending on the nature of the parametrisation. 
+Once this threshold reached, either temperature nor particle diameter affect the activation efficiency.
+For H18B (panel A), the considered particles which are bacteria, are known to be active at warm temperatures. Consequently, the parametrisation predicts high potential activation (later modulated by the $\gamma$ factor) relatively early, around \tempc{-10} for particles of \SI{1}{\micrometre}. 
+Comparatively, it happens from \tempc{-27} for the dust particles in N12, considering the same particle size.
+
+The inclinaison of the activation fraction step lines on the diagrams account for the weight of the two parameters (temperature and particle diameter). Vertical lines would indicate no effect of the size, while horizontal lines would mean no temperature dependence.
+H18B is more sensitive to temperature than M18, and N12 shows the strongest dependence in particle diameter.
+In term of modelling, the latter means that parametrisations sensitive to particle size will suffer more of imprecisions on the modelled particle size distributions.
+For that matter, H18B is the less subject to size, and therefore, the most reliable INAS parametrisation.
+
         \begin{figure}[h]
             \centering
             \includegraphics[width=1\textwidth]{./chap4/images/activation_fractions.png}
-            \caption{....}
+            \caption{Evolution of the activation fraction of three INAS parametrisations, against temperature and particle diameter in semi-logarithmic scale. The $\gamma$ factor is not yet applied here, so all reach \perc{100} activation. The inclinaison of the threshold lines accounts for the relative weight of particle diameter and temperature for the activation fraction. The saturated darker zones show the parameter space for which the parametrisations predict between \perc{10} and full activation. Panel A is H18B (bacteria), B is M18 (sea sprays) and C is N12 (dust).}
             \label{fig:activation_fraction}
         \end{figure}
         
@@ -330,24 +339,24 @@ Figure \ref{fig:activation_fraction} shows the evolution of the activation fract
     The INPs from dust particles are produced with the parametrisation by \citet{niemand_particle-surface-area-based_2012}.
     INPs from sea sprays can be produced with two different approaches. First, the organic mass fraction of sea sprays can be considered as active bacteria and converted into INPs with the \citet{hummel_simulating_2018} parametrisation. But the species analysis work concomitant to the study by \citet{kojoj_arctic_2024}, showed that this assumption is unlikely since the marine organic aerosols observed during MOCCHA were devoid of \textit{Pseudomonas syringae} bacteria.
     Alternatively, the total sea sprays can be used to produce INPs with the parametrisation from \citet{mccluskey_marine_2018}, which has shown good performances in reproducing INP concentrations when combined with dust parametrisations \citep[][]{mccluskey_numerical_2019}.
-    We excluded the parametrisation from \citet{wilson_marine_2015} because of its poor performances demonstrated in \citet{mccluskey_numerical_2019} and verified with our setup.
+    We excluded the parametrisation from \citet{wilson_marine_2015} because of its poor performances demonstrated in \citet{mccluskey_numerical_2019}. %and verified with our setup.
     Table \ref{tab:inp_emiss} indexes the parametrisations used for the emissions of INPs by the different aerosol species.
     
      \begin{table}[ht!]
-        \caption{Ice nucleation parametrisations used for the conversion of aerosol particles to INP tracers.}
+        \label{tab:inp_emiss}
         \centering
-        \begin{tabularx}{0.8\textwidth}{c|ccc}
-        \tophline
+        \caption{Ice nucleation parametrisations used for the conversion of aerosol particles to INP tracers.}
+        \begin{tabular}{c|ccc}
+        \toprule
         Tracer name & Activation temperature (°C) & Species dependence  &  Ice nucleation scheme \\
-        \middlehline
+        \midrule
         INP5 & \num{-5} & Bacteria, fungal spores & H18 \\
         INP10 & \num{-10} & Bacteria, fungal spores, SSA, dust & H18, M18, N12 \\
         INP15 & \num{-15} & Bacteria, fungal spores, SSA, dust & H18, M18, N12 \\
         INP20 & \num{-20} & Bacteria, fungal spores, SSA, dust  & H18, M18, N12 \\
         INP25 & \num{-25} & Bacteria, fungal spores, SSA, dust  & H18, M18, N12 \\
-        \bottomhline
-        \end{tabularx}
-        \label{tab:inp_emiss}
+        \bottomrule
+        \end{tabular}
     \end{table}
 
     \subsection{INP removal and activation}
