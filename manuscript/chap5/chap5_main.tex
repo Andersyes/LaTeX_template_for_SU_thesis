@@ -31,9 +31,10 @@
 
 Until now, this thesis has tackled two thirds of the its announced plan through the last two chapters. From the emission sources of INPs in \cref{chap3}, to the modelling of INP populations in the Arctic in \cref{chap4}.
 This fifth chapter eventually addresses the question of the impact of particles responsible for ice nucleation on Arctic clouds, making a big step on the road toward the understanding of an hypothetical feedback loop that would link INPs and global warming regional impacts. 
+!!!"Do INPs have any effects, or can we ignore them?"!!!
 The study presented in this chapter happens to be the direct sequel of the latter, by introducing a new modelling setup within WRF-Chem, inspired from the INP tracers emissions that allowed the study of Arctic INP emissions in \cref{chap4}.
 
-!!!TODO!!! state of the science about INP in microphysics modelling
+\todo{state of the science about INP in microphysics modelling}
 
 In a first time, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
 Then, will be compared the different microphysics schemes through their outputs in terms of cloud properties. We will be interested in the ice crystal number concentration, all the way to the cloud radiative effect, by way of the phase repartition.
@@ -43,7 +44,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Microphysics scheme}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-!!!TODO!!! phrase d'intro
+\todo{phrase d'intro}
 
 % ____________________________________________
     \subsection{Linking aerosol particles to cloud microphysics}
@@ -56,7 +57,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
         \item Immersion nucleation
         \item Deposition nucleation
         \item Homogeneous freezing of aqueous aerosols
-        \item Freezing of water drops !!!what is that???
+        \item Freezing of precipitating water drops 
     \end{itemize}
 
     % note about the CCN
@@ -65,7 +66,29 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 % ____________________________________________
     \subsection{From INP tracers to cloud water}
     % how do we use the INP tracers
+    \todo{Description of how INP tracers are used}
 
+% ____________________________________________
+    \subsubsection{Experimental modelling setup}
+    The base setup used for this study is identical to the one described in \cref{tab:wrf-chem_setup}.
+    The microphysics module is modified in order to run the intended experiment on INP effects. The modifications are listed in \cref{tab:mp_INP_setup}.
+
+    \begin{table}[ht!]
+        \centering
+        \caption{WRF-Chem microphysics setup of the control and test simulations.}
+        \begin{tabular}{l|cc}
+        \toprule
+        Option name & Control & Test \\
+        \midrule 
+            Microphysics scheme & Thompson aerosol-aware & Thompson aerosol-aware \\
+            Immersion nucleation & \citet{cooper_ice_1986} & \textbf{Temperature binned INP tracers} \\
+            Deposition nucleation & \citet{cooper_ice_1986} & \citet{cooper_ice_1986} \\
+            Homogeneous nucleation & \citet{koop_water_2000} & \citet{koop_water_2000} \\
+            Water friendly aerosols & Forced at \SI{500}{\per\liter} & Forced at \SI{500}{\per\liter} \\
+        \bottomrule
+        \end{tabular}
+        \label{tab:mp_INP_setup}
+    \end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
