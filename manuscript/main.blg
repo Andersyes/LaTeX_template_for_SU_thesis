@@ -1,25 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[63] biber:340> INFO - === jeu. sept. 18, 2025, 17:55:45
-[80] Biber.pm:419> INFO - Reading 'main.bcf'
-[219] Biber.pm:979> INFO - Found 217 citekeys in bib section 0
-[233] Biber.pm:4419> INFO - Processing section 0
-[253] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
-[327] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1082] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
-[3006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3007] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[3007] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[3267] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3571] bbl.pm:763> INFO - Output to main.bbl
-[3571] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'ipcc_AR4_2007' and 'ipcc_ar4_2007' in file '../../Biblio/biblio_202509.bib'
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'da_silva_backward_2025' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'ipcc_AR4_2007' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'thomspon_study_2014' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'copernicus-climate-change-service_c3s_era5_2017' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'shrod_long-term_2020' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'ehret_long-range_2025' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'vaitiligom_long-term_2012' (section 0)
-[3571] Biber.pm:131> WARN - I didn't find a database entry for 'cmems_chla' (section 0)
-[3571] Biber.pm:133> INFO - WARNINGS: 9
+[54] biber:340> INFO - === dim. sept. 21, 2025, 22:34:35
+[65] Biber.pm:419> INFO - Reading 'main.bcf'
+[200] Biber.pm:979> INFO - Found 220 citekeys in bib section 0
+[214] Biber.pm:4419> INFO - Processing section 0
+[226] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
+[303] bibtex.pm:1713> INFO - LaTeX decoding ...
+[896] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
+[2679] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2679] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2679] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2679] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2913] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3236] bbl.pm:763> INFO - Output to main.bbl
+[3237] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'ipcc_AR4_2007' and 'ipcc_ar4_2007' in file '../../Biblio/biblio_202509.bib'
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'da_silva_backward_2025' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'ipcc_AR4_2007' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'copernicus-climate-change-service_c3s_era5_2017' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'shrod_long-term_2020' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'zwaaftink_substantial_2016' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'ehret_long-range_2025' (section 0)
+[3237] Biber.pm:131> WARN - I didn't find a database entry for 'cmems_chla' (section 0)
+[3237] Biber.pm:133> INFO - WARNINGS: 8

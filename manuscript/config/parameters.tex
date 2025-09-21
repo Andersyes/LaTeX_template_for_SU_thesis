@@ -20,6 +20,7 @@
 \usepackage[cyr]{aeguill}
 \usepackage{xspace}
 \usepackage[version=4]{mhchem}  % for chemical species
+\usepackage[most]{tcolorbox}    % better boxes
 
 \setcounter{secnumdepth}{3} % Pour que les subsubsections ne soient pas numérotées
 \usepackage{fixltx2e}
@@ -71,11 +72,12 @@
   detect-family            = true,     % italics in section headings
 
   % Ranges and lists
-  range-phrase             = {\text{--}}, % en dash in ranges
+  range-phrase             = {\--}, % en dash in ranges
+  range-units              = single,     % do not repeat units
   list-separator           = {, },       % 10 m, 20 m, 30 m
   list-final-separator     = {, and }    % 10 m, 20 m, and 30 m
 }
-\sisetup{separate-uncertainty=true,multi-part-units=single} % pour faire des incertitudes en écrivant \SI{valeur(incertitude)}{unité}
+%\sisetup{separate-uncertainty=true,multi-part-units=single} % pour faire des incertitudes en écrivant \SI{valeur(incertitude)}{unité}
 \DeclareSIUnit\vitesse{\meter\per\second}
 \usepackage{eurosym}
 \DeclareSIUnit{\octet}{o}
@@ -239,7 +241,9 @@
 \definecolor{color_link}{RGB}{18, 69, 77}
 \definecolor{curcolor}{RGB}{113,127,184} 
 \definecolor{chapcolor}{RGB}{10, 77, 41} % couleur des titres de chapitres
-    \definecolor{boxcolor}{HTML}{FFF5D1} % couleur des box
+\definecolor{boxcolor}{HTML}{FFF5D1} % couleur des box
+\definecolor{OQboxcolor}{HTML}{FFF5D1} % couleur OQ box
+\definecolor{KRboxcolor}{HTML}{E3F1EC} % couleur KR box
 \definecolor{persoblue}{HTML}{CBFCFF}
 \definecolor{persolavender}{HTML}{967BB6}
 \definecolor{persogreen}{HTML}{6B8E23}

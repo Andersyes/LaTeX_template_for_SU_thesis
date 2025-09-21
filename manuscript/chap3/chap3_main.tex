@@ -31,24 +31,35 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In the study of the Arctic region, where the effects of climate warming are amplified by multiple mechanisms—including the omnipresence of low-level clouds in the solid or mixed phase (c.f. \cref{sec:arctic_clouds})\----the evolution of environments identified as potential sources of INPs constitutes a major determinant of the Arctic climate’s response to rising temperatures.
-As exposed in \cref{chap1}, INPs play a central role in cloud microphysics and thereby determine the nature of cloud\--radiation interactions. 
-These interactions, through the concept of CRE, represent one of the cornerstones of the Arctic climate system. The evolution of the Arctic climate is therefore indirectly, yet inextricably, linked to INP\--emitting sources. 
-Our limited understanding of their sources is one of the reasons why the impact of aerosols on climate, and their role in its evolution, remains a major source of uncertainty in the current state of climate sciences.
+%XXLM - general comment - introduction needs more reference - we will see with JC
+In the study of the Arctic region, where the effects of climate warming are amplified by multiple mechanisms—including the ubiquity of low-level clouds in the ice or mixed phase (c.f. \cref{sec:arctic_clouds})\----the evolution of environments identified as potential sources of INPs could constitute a major determinant %XXLM - needs a reference
+of the Arctic climate’s response to rising temperatures.
+As exposed in \cref{chap1}, INPs play a central role in the microphysical and mactophysical properties of ice and mixed-phase clouds. this, in turn, influences the optical properties of clouds and their interactions with radiation. %XXLM chapter 1 displays as ``Chapter VI'' in my PDF
+These interactions represent one of the cornerstones of the Arctic climate system, because of the large cloud radiative effect (CRE) at the surface. The evolution of the Arctic climate is therefore indirectly, yet inextricably, linked to INPs and their sources.  However our understanding of the sources of INPs remains poor, limiting our ability to understand  INP impacts on climate. Ultimately, this prevents us from fully understanding aerosol impacts on climate, one of the major remaining sources of uncertainty in the current state of climate sciences. %LM - j'ai suprimé le lien direct INP / incertitudes sur les effets climatiqueqs des aérosols. Pour moi les INP sont tellement mal connus qu'on ne sait même pas ce qu'on ne sait pas - par ex trop peu de modèles représentent leur impacts pour que ça influence vraiment l'incertitude CMIP sur la quantification du ERF_ACI.
+%Our limited understanding of their sources is one of the reasons why the impact of aerosols on climate, and their role in its evolution, remains a major source of uncertainty in the current state of climate sciences.
 \vspace{\baselineskip}
 
 This chapter will address the topic of INP emission sources by a complete \textit{tour d'horizon} of the atmospheric species emission sources identification.
+%XXLM pour moi ici il manque quelque chose qui explique pourquoi on s'intéresse aux source id methods et qui fait le lien avec la suite. Dire par ex:
+% In order to represent INP in models and parameterize their emissions, an important first step is to understand where these INPs are coming from. Even though we know the broad categories of atmospheric aerosols important for INPs, such as primary biological aerosol particles (marine and continental) and mineral dust, in the Arctic there is still some controversy about whether INPs are of marine or continental origin (refs, par ex https://acp.copernicus.org/articles/21/11613/2021/, https://acp.copernicus.org/articles/18/18023/2018/acp-18-18023-2018.html, https://acp.copernicus.org/articles/19/5293/2019/acp-19-5293-2019.html).
+%
+% In Section XX we present a complete overview of the methods that can be used to pinpoint the origin of Arctic INPs..
+% In Section XX evaluate an existing method of source identification, and improve it to better detect these INPs. This is an adapted retranscription ....
+%Finally, in Section XX we use the method to identify the origin of Arctic INPs observed during 3 recent Arctic observation campaigns ...
+
+This chapter will address the topic of Arctic INP emission sources by a complete \textit{tour d'horizon} of the atmospheric species emission sources identification.
 The first section is a retranscription, yet adapted, of my first thesis output paper \textit{How to trace the origins of short-lived atmospheric species: an Arctic example} \citep{da_silva_how_2025}.
 In the course of the section will be presented different methods of source retrieval, related modelling and observation tools, and the development and assessment of a methodology for tracking emissions sources from observation time series.  
 
 The second section presents the application of the methodology developed in \cref{sec:paper1} to three INP datasets, from recent Arctic observation campaigns.
 Eventually, the third section steps aside from the Arctic INPs heart of this thesis by presenting applications of the source identification method to wild fire plumes, and to Arctic clouds, work led in collaboration with other PhD students of my entourage.
 
-This chapter aims to address the three scientific questions raised in \cref{sec:INP}:
+This chapter aims to help address to the three scientific questions raised in \cref{sec:INP}:
 \begin{itemize}
-    \item What tools for the identification of aerosols particles emission sources? 
-    \item What are the emission sources of Arctic INPs? 
-    \item What are the important aerosol species for the ice nucleation of Arctic clouds? 
+    \item What tools can be used the identification of aerosols particles emission sources?
+    \item What are the emission sources of Arctic INPs?
+    \item What are the important aerosol species for the ice nucleation of Arctic clouds?
+%XXLM attention ici il y a déjà pas mal de littérature sur le sujet et tes résultats ne donnent pas de réponse définitive, j'ai ajouté ``help'' pour !a
 \end{itemize}
 %       - what are the tools for identifying atmospheric species emission sources?
 %       - what are the sources of INPs in the Arctic?
@@ -76,44 +87,43 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
     These extra measurements are often expensive and not systemically present in measurement campaigns, and their interpretation is hardly straightforward.
 
     Another way to identify the sources of observed species is to use backward modelling in an attempt to track their atmospheric path all the way back to the emission sources.
-    This does not require extra experimental data and has the advantage of costing less than observational methods.
+    This does not require extra experimental data and has the advantage of costing less than direct observational methods.
     For example, this kind of analysis is increasingly being used and presented alongside the analysis of INP observations. Some studies have used straightforward interpretation of single back trajectories \citep{allen_evidence_2021, hartmann_wintertime_2020, hartmann_terrestrial_2021, porter_highly_2022, wex_annual_2019, yun_ice_2022}, while others have performed more advanced analyses like potential source contribution functions (PSCFs) \citep{irish_ice_2019, si_concentrations_2019}.
-    Even though the methods used vary from one study to another, the conclusions about the possible emission sources can be interpreted similarly across the community, which could be misleading.
+    Even though the methods used vary from one study to another, the conclusions about the possible emission sources can be interpreted similarly across the community, which could be misleading. %XX ici je ne comprends pas ce que tu veux dire, on peut en discuter plus tard pour clarifier ensemble
 
     Backward modelling consists of the computation of particle paths backward in time within a fluid.
-    As chemistry transport models (CTMs) give information on the future path of particles or chemical species, a back-trajectory model helps to trace back the fluid parcels that contain the species of interest.
+    As chemistry transport models (CTMs) give information on the future evolution of particles or gas-phase chemical species, a back-trajectory model helps to trace back the fluid parcels that contain the species of interest. It is most commonly used to identify the origin and transport pathways of an airmass sampled at an observation site.
     For atmospheric studies, many models offer solutions for back-trajectory computation.
     Among the most used, we find two types of approaches.
-    First, there are trajectory models that use solely the resolved wind fields without turbulence or convection parametrisation, like the HYbrid Single-Particle Lagrangian Integrated Trajectory (HYSPLIT) model \citep{stein_noaas_2015} and LAGRANTO \citep{sprenger_lagranto_2015}. Second, there are the Lagrangian particle dispersion models (LPDMs) like FLEXPART \citep{pisso_lagrangian_2019}, NAME III \citep{jones_uk_2007}, or the Stochastic Time-Inverted Lagrangian Transport (STILT) model \citep{wen_backward-time_2012}. One should know that HYSPLIT can also be run in dispersion mode.
+    First, there are trajectory models that typically use solely the resolved wind fields, without turbulence or convective parametrisations to account for turbulent mixing during transport. These include the LAGRANTO model  \citep{sprenger_lagranto_2015}, and the HYbrid Single-Particle Lagrangian Integrated Trajectory (HYSPLIT) model \citep{stein_noaas_2015} (which can be used with turbulent dispersion, although this is rarely the case). Second, there are the Lagrangian particle dispersion models (LPDMs) like FLEXPART \citep{pisso_lagrangian_2019}, NAME III \citep{jones_uk_2007}, or the Stochastic Time-Inverted Lagrangian Transport (STILT) model \citep{wen_backward-time_2012}. 
     In the following, we will refer to the outputs of the first model category as {back trajectories} and to dispersion model outputs as {potential emission sensitivity} (PES). Both model types will be referred to as Lagrangian models.
 
     Four different approaches that use Lagrangian modelling can be cited: (1)~inverse modelling methods, (2)~ratio methods or potential source contribution functions (PSCFs), (3)~concentration-weighted trajectory (CWT) methods, and (4)~direct interpretation of single back trajectories or LPDM outputs. Inverse modelling methods (1) have been intensively used and developed since the 2000s, particularly for the retrieval of greenhouse gas emissions \citep{stohl_analytical_2009, manning_estimating_2011, brunner_estimating_2012, fang_multiannual_2015}. They are more rarely applied to aerosol emission source identification because of the challenges their high temporal and spatial variability represent \citep{dubovik_retrieving_2008, partridge_inverse_2011}. Furthermore, these methods generally rely on a priori inputs in terms of the emissions, such as satellite observations or existing but imprecise emission inventories. PSCFs (2) \citep{ashbaugh_residence_1985, zeng_study_1989} and CWTs (3) \citep{hsu_comparison_2003} are statistical methods that rely entirely on backward modelling and measurement time series. Because they are both easy to set up, they are intensively used \citep[e.g.,][]{polissar_aerosol_1999, hirdman_source_2010, irish_ice_2019, ren_use_2021}.
-    Nevertheless, interpretation of raw back trajectories (4) is still common in the literature (see the references relating to INP studies above) and can lead to spurious conclusions about emission sources.
+    Nevertheless, the even simpler method of the qualitative interpretation of raw back trajectories (4) is still the most common in the literature (see the references relating to INP studies above) and can lead to spurious conclusions about emission sources.
 
-    \citet{fang_performance_2018}  evaluated the performance of inverse modelling against CWTs and PSCFs and concluded that the high quantitative power of inverse modelling surpasses the qualitative results of CWTs and PSCFs. Yet, PSCFs and CWTs are computationally low cost and can give useful insights when correctly applied and interpreted. The direct interpretation of back trajectories remains the less reliable approach.
+    \citet{fang_performance_2018}  evaluated the performance of inverse modelling against CWTs and PSCFs and concluded that the high quantitative power of inverse modelling surpasses the qualitative results of CWTs and PSCFs. Yet, PSCFs and CWTs are computationally low cost, do not rely on a priori knowledge of the emissions that can be missing from some species, and can give useful insights when correctly applied and interpreted. The direct interpretation of back trajectories remains the less reliable approach.
 
-    The present study focuses on the evaluation of low-computational-cost methods with little to no a priori knowledge on emission sources. The atmospheric species studied here are short-lived atmospheric compounds, such as aerosol particles, whose global observations are particularly challenging.
-    For our purposes, we introduce a methodology based on simulated observations in a regional model that would allow for a performance evaluation of any back-trajectory source identification methods. Here, we specifically test the widely used PSCF source identification method in order to assess its ability to qualitatively retrieve known sources of simulated emissions in the regional {Weather Research and Forecasting model including Chemistry} (WRF-Chem) (\cref{P1sec:experiment}). We use this approach to evaluate the PSCF method as used in \citet{hirdman_source_2010}, \citet{irish_ice_2019}, and \citet{si_concentrations_2019} with the FLEXible PARTicle dispersion (FLEXPART) model (\cref{P1sec:ratio_method}).
-    Then, we propose three modifications to the PSCF method in order to improve its performance (\cref{P1sec:results}). The method's sensitivities to its parameters are evaluated, and, thereby, the prerequisites for its application are identified (\cref{P1sec:discussion}). Finally, a comprehensive example of the application to real-world observations of marine-sourced and land-sourced Arctic species is presented (\cref{P1sec:application}) in order to demonstrate the improved method's performance in real cases.
+    The present study focuses on the evaluation of low-computational-cost methods with little to no a priori knowledge on emission sources. The atmospheric species studied here are short-lived atmospheric compounds, such as aerosol particles, whose global observations by satellites or distributed networks remain challenging.
+    In  order to evaluate the performance of source identification methods, we simulate their behavior when identifying known emission sources in the regional atmospheric model WRF-Chem ({Weather Research and Forecasting model including Chemistry}). We develop a methodology based on simulated observations in the regional model. It would allow for a performance evaluation of any back-trajectory source identification methods, but we specifically test the widely used PSCF source identification method in order to assess its ability to qualitatively retrieve known sources of simulated emissions (\cref{P1sec:experiment}). We use this approach to evaluate the PSCF method as used in \citet{hirdman_source_2010}, \citet{irish_ice_2019}, and \citet{si_concentrations_2019} with the FLEXible PARTicle dispersion (FLEXPART) model (\cref{P1sec:ratio_method}).
+    Then, we propose three modifications to the PSCF method in order to improve its performance (\cref{P1sec:results}). The method's sensitivities to its parameters are evaluated, and, thereby, the prerequisites for its application are identified (\cref{P1sec:discussion}). Finally, we present a first application to real-world observations of marine-sourced and land-sourced Arctic species (\cref{P1sec:application}) in order to demonstrate the improved method's performance in real cases.
 
 
     \subsection{Methods}
         \label{P1sec:method}
     
        The identification of atmospheric-compound emission sources with PSCFs has been used for INPs \citep{irish_ice_2019, si_concentrations_2019}, atmospheric mercury \citep{hirdman_transport_2009}, tropospheric ozone, black carbon \citep{hirdman_source_2010}, and more.
-       Previous studies only verified that the identified emission zones corresponded to expected areas.
-       As it is commonly used, the method is only able to confirm expected emission sources.
-       Identifying unknown sources necessitates a further assessed method.
-       In this section, we describe the models and methods we used to lead our study. The results are presented in \cref{P1sec:results}.
+       These earlier studies have used this method without evaluating its performance, subjectively deciding if the results were consistent with the expected origin of INPs in these regions. As such, there is a high risk of confirmation bias in how this method has been applied in the past. In \citet{da_silva_identification_2022}, we applied this method to the INP dataset of \citet{wex_annual_2019} and found that we could not confidently assess if the identified regions of INP origins were significant or due to model noise. 
+       We thus found that, as it is commonly used, the method is only able to confirm expected emission sources, and that identifying unknown sources with good confidence necessitated a proper evaluation of its performance and a better understanding of its limitations.
+       In this section, we describe the models and methods we used to perform this evaluation. The results are presented in \cref{P1sec:results}.
     
     \subsubsection{WRF-Chem for simulating concentration time series}
         \label{P1sec:WRF}
 
         In order to construct series of simulated concentrations at Arctic measurement sites with known emissions sources, we use the regional {Weather Research and Forecasting model including Chemistry} (WRF-Chem).
 
-        \subsubsubsection{Model setup}
+        \subsubsubsection{Model setup} %XXLM tu peux utiliser \textbf{} à la place de subsubsubsection (ou ensemble?) pour que ça apparaisse plus clairement comme des sous titres
 
-            WRF-Chem is a widely used non-hydrostatic numerical model of mesoscale meteorology and atmospheric chemistry \citep{skamarock_description_2022, grell_fully_2005}.
+            WRF-Chem is a widely used numerical model of mesoscale meteorology and atmospheric chemistry \citep{skamarock_description_2022, grell_fully_2005}.
             The version used here is optimized for high latitudes and is presented in detail in \citet{lapere_modeling_2024} and \citet{marelle_improvements_2017}.
 
             WRF-Chem is guided by Final Operational Global Analysis data (FNL) from the American {National Center for Environmental Prediction}, with 6\,h time steps.
@@ -148,20 +158,20 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             \label{P1sec:experiment}
 
             WRF-Chem is used to simulate the emissions, transport, and removal of three different tracers over a duration of 24~months (September~2019 to September~2021).
-            These tracers are short-lived particles with wind-dependent emissions. Each of them represents the emissions of surface type sources categorized as follows: continental, oceanic from ice-free regions, and oceanic from sea ice regions.
+            These tracers represent short-lived particles with wind-dependent emissions. Each of them represents the emissions of surface type sources categorized as follows: continental, oceanic from ice-free regions, and oceanic from sea ice regions.
             The continental tracer corresponds to mineral dust or continental biogenic aerosols, the open ocean tracer represents sea spray emissions, and the sea ice tracer is associated with blowing-snow emissions.
             We chose to focus on natural sources because they are not well constrained in the Arctic. In addition, their relative contributions to the emissions of CCN and INPs is still unclear \citep{burrows_ice_2013, gong_arctic_2023, hartmann_terrestrial_2021}, which motivates us to study those types of particles.
             Nevertheless, the results of this experiment stay valid for other atmospheric species.
 
-            The emissions are led by processes relying on wind speed with surface type dependency. The detailed definitions are presented in \cref{P1tab:emissions_tracers}.
-            Because of the long duration of the modelling experiment, the tracers would accumulate infinitely in the domain without removal. In order to keep the study as general as possible, we decided not to set advanced removal processes, namely dry and wet removal, since those depend strongly on the nature of the studied species. This is the case for aerosol particles, whose removal depends strongly on their size and hygroscopy \citep{ohata_key_2016, farmer_dry_2021}.
+            The emissions are led by processes relying on wind speed with surface type dependency (The detailed description of these emissions is presented in \cref{P1tab:emissions_tracers}à.
+            Because of the long duration of the modelling experiment, the tracers would accumulate infinitely in the domain without removal. In order to keep the study as general as possible, we decided not to include advanced removal processes, namely dry and wet removal, since those depend strongly on the nature of the studied species. This is the case for aerosol particles, whose removal depends strongly on their size and hygroscopy \citep{ohata_key_2016, farmer_dry_2021}.
             Since the study focuses on short-lived species, the tracers are removed thanks to an exponential decay with a characteristic time of 3\,d. This allows for the exact same removal in both the WRF-Chem forward simulations and the FLEXPART-WRF backward simulations; thus, the evaluation is free of the uncertainties in removal parametrisations.
             In this way, the evaluation setup is idealized and accounts only for the best performances that can be expected from the tested methods.
 
 %t1
             \begin{table}[t]
                 \centering
-                \caption{Tracer parameters in WRF-Chem.}
+                \caption{Tracer emission parametrisations for each surface type in WRF-Chem.}
                 \begin{tabular}{l|l|l}
                     \toprule
                     \textbf{Tracer name} & \textbf{Regional condition} & \textbf{Parametrisation}\\
@@ -176,11 +186,10 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             \end{table}
 
             \subsubsubsection{Tracer interpolation at Arctic sites}
-
-            The concentrations of each tracer are interpolated daily at the coordinates of five Arctic stations: Alert (Canada), Ny-Ålesund (Svalbard), Tiksi (Russia), Utqiaġvik (Alaska), and Villum (Greenland).
+            In order to mimic the application of the PSCF methods to real cases, the concentrations of each simulated tracer are interpolated daily at the coordinates of five Arctic stations: Alert (Canada), Ny-Ålesund (Svalbard), Tiksi (Russia), Utqiaġvik (Alaska), and Villum (Greenland), where Arctic aerosols, including sometimes INPs, have been routinely observed in the past
             Series of the simulated concentrations of the three tracers can therefore be set up.
             The five stations were chosen for their distribution around the Arctic basin (\cref{P1fig:model_emissions}e). This distribution sets the conditions for assessing the spatial sensitivity of the method in this region.
-            Furthermore, many measurement campaigns are conducted at these stations (e.g., the Ny-Ålesund Aerosol Cloud Experiment, NASCENT \citep{pasquier_ny-alesund_2022}).
+            Furthermore, many INP measurement campaigns are conducted at these stations (e.g., the Ny-Ålesund Aerosol Cloud Experiment, NASCENT \citep{pasquier_ny-alesund_2022}). %XXLM could remove this sentence
 
             \begin{figure}[h]
                 \includegraphics[width=1\textwidth]{./chap3/images/f01.png}
@@ -190,7 +199,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
 
             Figure \ref{P1fig:model_emissions} presents the emission regions (panels a, b, c) of the three tracers in terms of their integrated emissions over 1 year of simulation.
             Panel (d) shows an example of a reconstructed series of concentrations interpolated at the coordinates of the Svalbard station, Ny-Ålesund.
-            A seasonal variability in the concentrations can be clearly detected, which is in accordance with actual observations of Arctic species.
+            A seasonal variability in the concentrations can be clearly detected, with a maximum in spring corresponding to the observed Arctic Haze phenomenon.
             This variability is mainly due to seasonal variations in mesoscale atmospheric transport and in local wind speeds (both being phenomena reproduced by WRF).
             Nevertheless, not all simulated concentration series show such a variability; it depends on the tracer and the station.
             The strongest variability is found for the continental tracer; the lowest variability is found for the sea ice one. More broadly, the farther the emission source from the station, the weaker the observed variability.
@@ -207,21 +216,21 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
 
         FLEXPART belongs to the family of Lagrangian particle dispersion models (LPDMs). These are stochastic tools for the modelling of large amounts of air tracers.
         The Lagrangian approach allows for reduced numerical diffusion \citep{cassiani_offline_2016}, which therefore leads to better capturing of atmospheric diffusion than with Eulerian models \citep[]{pisso_lagrangian_2019}. LPDMs also show the advantage of remaining independent of the model grid resolution since they use a Lagrangian approach.
-        This accounts for the recommended utilization of LPDMs for the interpretation of PES in source tracing \citep{stohl_replacement_2002}.
+        This explains why LPDMs are usually recommended to identify the origin of observed air masses \citep{stohl_replacement_2002}.
 
         FLEXPART \citep{pisso_lagrangian_2019} simulates emission, diffusion, and deposition processes (wet and dry) or time-based decay of atmospheric tracers.
         The emission is done through single or multiple volume sources, and the simulation can be run forward or backward in time.
-        The path of the emitted tracers is followed through a plume representation expressed in terms of PES in seconds. It can be likened to the residence times of particles in each grid cell. This information surpasses the direction of the origins commonly given by simple trajectories \citep{hirdman_transport_2009}.
+        In this study, the output of FLEXPART is given as so-called potential emission sensitivities (PES) in seconds. PES correspond to the combined residence time of FLEXPART particles, counted in a given output grid cell. It is assimilated to an ``emission sensitivity'' because the PES field can be multiplied with emissions in each grid cell (for example in kg/m3/s) to reconstruct a concentration series at the origin point of the backtrajectory. This provides additional information than simple trajectories from simpler models, which only give accurate information on the direction of the air mass origin  \citep{hirdman_transport_2009}.
         The FLEXPART performances have been validated with multiple atmospheric-tracer-release experiments \citep{stohl_validation_1998}.
         Furthermore, \citet{hegarty_evaluation_2013} demonstrated FLEXPART's ability for reconstructing the dispersion of atmospheric tracers.
 
         When investigating ground emissions, it is common to introduce the footprint PES (FPES), defined as the PES of the first FLEXPART vertical level. This will be defined here as the first 100\,\unit{m} above ground level.
-        Here, we use the FLEXPART-WRF version of the model. It is optimized to use the WRF output data (see \cref{P1sec:WRF}), allowing for the controlling of meteorological variables through WRF. In FLEXPART-WRF, several FLEXPART schemes are replaced by the WRF's ones \citep{brioude_lagrangian_2013}.
-        This is intended to give information on the particle origins. The accuracy of the transport patterns simulated by FLEXPART-WRF decreases with the augmentation of the backward-simulation duration and relies on the accuracy of the initial WRF simulation in terms of meteorological variables.
+        Here, we use the FLEXPART-WRF version of the model. It is a modified version of FLEXPART that is driven by meteorological fields from the WRF model (see \cref{P1sec:WRF}). The FLEXPART-WRF model was also modified by replacing several FLEXPART physical schemes by schemes consistent to WRF's \citep{brioude_lagrangian_2013}.
+        As a result, the accuracy of the transport patterns simulated by FLEXPART-WRF relies on the accuracy of the initial WRF simulation, and it decreases with the duration of the backward-simulation. 
 
         \subsubsubsection{Emission configureation in FLEXPART}
 
-            The tracers in FLEXPART are characterized by five parameters (\cref{P1tab:FP_params}).
+            The properties of the tracers in FLEXPART-WRF are characterized by five parameters (shown on \cref{P1tab:FP_params}).
             First, we define the release time of the particles. In our case, the model emits over a whole day, corresponding to the associated in situ measurement (\cref{P1sec:experiment}).
             Then, we set the release box, which is defined as a $50\times 50$\,\unit{km} wide and $10$\,\unit{m} high box. The trajectories are computed backward in time for 7\,d before the time of release.
             A total of $100\,000$ particles are released in the emission box.
@@ -249,7 +258,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             \label{P1tab:FP_params}
         \end{table}
 
-            The complete FLEXPART-WRF configureation file used here is available (c.f. ``Code and data availability'' section).
+            The complete FLEXPART-WRF configuration file used here is available (c.f. ``Code and data availability'' section).
             FLEXPART-WRF is run for every day of the synthetic concentration series (715\,d at the five different locations) with the parameters described above.
             Finally, the ratio method (\cref{P1sec:ratio_method}) is applied to the FLEXPART-WRF outputs, and the results are analyzed for the three tracers (sea ice, open ocean, continent) independently.
 
@@ -259,12 +268,12 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         In this study, we work on a statistical analysis method for back trajectories or PES that relies on the computation of PSCFs.
         The method itself is inspired by the analysis protocol introduced by \citet{ashbaugh_statistical_1983} and \citet{ashbaugh_residence_1985}.
         Since then, backward models have evolved significantly, and the method has been used in many studies on the sources of atmospheric species (\cref{P1sec:intro}).
-        In the following, we will stick to the PSCF methodology introduced in \citet{hirdman_source_2010} without the bootstrapping post-analysis, which is how it is mostly applied in the studies that use it. This will be referred to as the ``ratio method''.
+        In the following, we will stick to the PSCF methodology introduced in \citet{hirdman_source_2010} without the bootstrapping post-analysis from \citet{ashbaugh_residence_1985}, which is how it is applied in most studies that use it. Because the PSFC calculation relies on dividing the total PES associated to a measurement of interest by the total PES climatology at a measurement site (see below for details), this method will also be referred to as the ``ratio method''.
 
         The approach relies on both atmospheric species concentration measurements and model outputs from FLEXPART-WRF.
-        For each point of the concentration series, a FLEXPART-WRF simulation is run in backward mode. Then, the outputs of every run are sorted according to the measured particle concentration they are associated with.
-        The great majority of earlier studies relying on backward analysis stop here without further analysis. However, this level of analysis only allows information on the direction of origin, with proximity bias near the measurement site.
-        In the present study, we use a deeper analysis, which is described below.
+        For each point of the concentration series, a FLEXPART-WRF simulation is run in backward mode. Then, the PES outputs of every run are sorted according to the measured particle concentration they are associated with. This creates a climatology of PES associated with high observed concentrations, showing the origin of the air masses most likely to contain the species of interest.
+        The great majority of earlier studies relying on backward simulations with LPDMs stop here without further analysis. However, this level of analysis has an important limitation, since results are biased by giving undue weight to areas close to the measurement site (proximity bias).
+        In the present study, we use a more complex method for extracting the signal of air mass origin, which is described below.
 
         Let us consider $S_\text{t}$ to be the average of the FPES fields from a set of $N$ FLEXPART-WRF runs:
             \begin{equation}
@@ -273,7 +282,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             where $N$ is the number of model runs, and $S(n)$ is the array of FPES associated with the measurement $n$.
 
             $S_\text{t}$ can be interpreted as the climatology of the origins of air masses that are associated with the particle concentration series in the studied period.
-            We can sort the concentrations in order to select the $P = \frac{x\times N}{100}$ highest and lowest concentrations, with $x$ being the percentage of selection.
+            We can sort the concentrations in order to select the $P = \frac{x\times N}{100}$ highest and lowest concentrations, with $x$ being the percentile of selection.
             Thus, if $S$ is the series of FPES fields sorted from the lowest to the highest measurement value, we can define $S_\text{h}^{x}$ and $S_\text{l}^{x}$ as the climatologies of the origins of air masses associated with, respectively, the $P$ highest and lowest particle concentrations.
             These new fields are expressed as follows:
             \begin{align}
@@ -281,7 +290,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
                 S_\text{l}^{x} &= \frac{1}{P}\sum_{n=1}^{P}S(n).
             \end{align}
 
-            As the PES decreases with distance from the measurement site, a proximity bias is observed in these climatologies, giving the impression of mainly local sources.
+            As the PES decreases with distance from the measurement site, a proximity bias is observed in these climatologies, giving the impression of mainly local sources. \todo{XXLM add figure with a single backtrajectory or with highest PES to show the proximity bias? could even be from irish 2019}
             To eliminate that bias, we compute the ratio of $S_{\text{h}}^{x}$ ($S_{\text{l}}^{x}$) to the total climatology $S_\text{t}$.
             We can thus define $R_\text{h}^{x}$ and $R_\text{l}^{x}$, the respective ratios of the high and low climatologies:
             \begin{align}
@@ -290,14 +299,15 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
                 \label{P1eq:ratio_low}
                 R_\text{l}^{x} &= \frac{P}{N}\frac{S_\text{l}^{x}}{S_\text{t}}.
             \end{align}
-            Values equal to $f = x/100$ indicate no deviation from the average field $S_\text{t}$.
+            If the origin of the air masses was purely random, $R^{x}$ would be equal to $f = x/100$.
             Consequently, the points where $R_\text{h}^{x}$ is higher than $f$ correspond to the regions of likely origin for the studied particles.
             The same reasoning being applied to $R_\text{l}^{x}$ leads to the conclusion that the corresponding field no longer indicates the presence but rather indicates the absence of sources or even the presence of sinks.
 
             One should be aware that the significance of $R_\text{h}^{x}$ and $R_\text{l}^{x}$ is proportional to the value of $S_\text{t}$. Low values of $S_\text{t}$ indicate little transport through the corresponding grid points and therefore can invalidate the statistical results of the ratio computation.
             Practically, too-high values of the ratio can be suspected to be spurious indications. However, if the percentage $x$ is strict (i.e., low) enough or if the total number $N$ of runs is large enough, these excessively high values should not appear.
+\todo{XXLM show a figure for this? - could be any ratio application example, could even be from irish 2019}
 
-            In the following, we will discuss further how to define a threshold of FPES in order to prevent false interpretation of the ratio fields.
+            In the following, we will discuss further how we can prevent these issues by excluding the areas that are only sampled by a few backtrajectories (that is the areas with too low FPES).
             Because the ratio method allows us to eliminate the FLEXPART proximity bias, it can miss the detection of very local sources when applied to a large domain. However, due to this effect being proportional only to the domain size and resolution, it can be mitigated by either increasing the resolution or downscaling the domain.
 
 
@@ -307,22 +317,22 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
     \subsubsection{Metric of evaluation}
         \label{P1sec:evaluation_metric}
 
-        The main result of the ratio method is the ratio map associated with the highest concentrations of the studied series.
+        The main result of the ratio method is the $R_\text{h}^{x}$ ratio map associated with the highest concentrations of the studied series.
         By itself, it gives qualitative information on the source origin of the species.
-        In order to get some quantification, we use the definition of the surface types that corresponds to the tracer emissions (\cref{P1tab:emissions_tracers}).
-        Masking the ratio maps with continental, open ocean, and sea ice masks and then summing the ratio values corresponding to these surface types, we get a quantification of the actual detection performed by the method.
+       For a more quantitative evaluation of the method, we defined a measure of how well the ratio method identifies, for example, the continental tracer as coming from continental areas. Specifically, for each tracer (\cref{P1tab:emissions_tracers}),
+        we mask the ratio maps with continental, open ocean, and sea ice masks, and then sum the ratio values corresponding to these surface types. This gives us a quantification of the actual detection performed by the method.
         We introduce the detection score $D_{T}$, defined as follows:
         \begin{equation}
             D_{T} = \frac{R_{T}}{R},
         \end{equation}
+%XXLM ici j'ai du mal à comprendre comment tu calcules DT exactement, on peut mettre cette question de côté pour le moment et en rediscuter en personne quand tu as le temps.
         where $D_{T}$
         refers to the signal contribution of the surface type corresponding to the tracer $T$ (sea ice, open ocean, continent), $R$ is the result signal ($R_\text{h}^{10}$ in the standard method or $R_\text{10--33}$ in the improved method; c.f. \cref{P1sec:improved_method}), and $R_{T}$ is the sum of $R$ over the surface type corresponding to the tracer $T$.
         A perfect detection would be a full contribution of the surface type that corresponds to the analyzed tracer, i.e., $D_{T} = 1$.
-        For instance, the method applied to the concentrations of the continental tracer should lead to the detection of the continent, with a limited contribution of sea ice and open ocean regions. In that case, $D_{T}$ would tend toward 1.
-        Practically, the ratio method gives various results.
+        For instance, the method applied to the concentrations of the continental tracer should lead to the detection of the continent, with a limited contribution of sea ice and open ocean regions. In that case, $D_{T}$ would tend toward 1. However, in practice, the results of the ratio method are often inaccurate and $D_{T}$ can be much lower.
         Therefore, a metric with five levels of success has been defined to catch the fluctuations in the method performances.
         \cref{P1tab:success_criteria} describes the metric levels.
-        Good confidence is attributed to the results when level 2 is reached. Levels 0 and 1 call for special attention and map analysis.
+        Good confidence is attributed to the results when level 2 is reached, indicating that the method attributed at least 50\% of the air mass origin to the correct surface (land, sea ice, or ocean). %XXLMLevels 0 and 1 call for special attention and map analysis.
 
         %t3
         \begin{table}[t]
@@ -351,14 +361,14 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         For clarity, we present one case: retrieving the sources of continental-tracer emissions from the Ny-Ålesund simulated concentration series.
 
         Figure \ref{P1fig:basic_method} illustrates the application of the ratio method to one of the tracers simulated in the idealized experiment (\cref{P1sec:experiment}).
-        The ratio maps for the three tracers and the five stations are available in the Supplement (~S1).
+        The $R_\text{h}^{10}$ ratio maps for the three tracers and the five stations are available in the Supplement (~S1). %XXLM lien vers le supplément ou inclure une annexe dans la thèse
         Panel (a) shows the concentration series of the continental tracer interpolated at Ny-Ålesund over 2 years of simulation.
         The highest and lowest concentrations are flagged with, respectively, red and cyan colors.
         The second line in \cref{P1fig:basic_method} is dedicated to the maps of FPES (panels b and c) and to the ratio map (panel d).
         The map in (b) corresponds to the $S_\text{t}$ defined in \cref{P1sec:ratio_method}. It is the climatology of the origins of all of the air masses ending at Ny-Ålesund over the 2 years of simulation.
         Similarly, (c) shows $S_\text{h}^{10}$, the climatology of the air mass origins that contained the 10\,{\%} highest continental-tracer concentrations of the series.
         Finally, (d) shows the ratio of $S_\text{h}^{10}$ over $S_\text{t}$, which has been presented as $R_\text{h}^{10}$.
-        This ratio map or PSCF map is the map resulting from the ratio method. It shows various regions of likely sources for the continental-tracer time series. While Greenland and Canada are the main sources identified, there are also less continuous signal spots in Eurasia.
+        This $R_\text{h}^{10}$ ratio map (or PSCF map) correctly identifies that the tracer originates from the continent, but shows various regions of likely sources for the continental-tracer time series. While Greenland and Canada are the main sources identified, there are also less continuous signal spots in Eurasia.
         Even though there is some signal overflow over the North Pacific and Baffin Bay and a small amount over the Arctic Ocean, the quantification metric (defined in \cref{P1sec:evaluation_metric}) gives, in this case, a score of 2.
         This means that the continental source is correctly detected.
 
@@ -377,7 +387,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         Firstly, the domain of the simulation tends to over-represent continental regions. Indeed, the continent accounts for 53\,{\%} of the total surface area, while the open ocean and the sea ice regions represent, on average, 37\,{\%} and 10\,{\%}, respectively.
         In the idealized situation of exact back-tracking of the air masses, this bias should not affect the detection results. However, dispersion modelling is innately imperfect.
         The computation of the ratio induces a loss of information on FPES intensity.
-        The latter is replaced by the ratio values which can reach a saturation value of 1 for regions where very few FPES plumes pass.
+        The latter is replaced by the ratio values which can reach a saturation value of 1 for regions where very few FPES plumes pass. %XXLM montrer un exemple sur une nouvelle figure
         If an area is covered only by FPES plumes associated with the highest concentrations of the measurement series, we get a saturation of the ratio.
         Thereby, regions of very low FPES can end up being highlighted on the ratio map even though they do not show statistically significant values.
         Consequently, irrelevant signals affect the detection, likely benefiting the predominant surface type, namely the continent in this Arctic situation.
@@ -385,7 +395,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         As described in \cref{P1sec:experiment}, the simulated concentrations vary during the year, with maximum concentrations in winter and spring and low concentrations in summer and autumn, following the well-known Arctic haze seasonal cycle.
         The latter is due to efficient transport of air masses from land masses in the mid-latitudes during spring  \citep{schmale_pan-arctic_2022}.
         As a result, applying the ratio method to annual observations of short-lived pollutants in the Arctic produces a climatology of air mass origins in winter and spring and is biased for lower-latitude sources, over-representing continental sources, as seen in our evaluation in \cref{P1fig:comparison}a.
-        Last but not least, any source attribution method based on a single observation site will suffer from a so-called ``shadowing'' effect. This tends to falsely assign emissions to areas that are upwind of the true emitting area. In the present case and for the sea ice and ocean tracers, the continental areas are mostly in such a configureation. The only way to robustly overcome this problem is by using a network of sites that can observe gradients across the domain or at least observe the same source area under different flow directions (as demonstrated in \cref{P1sec:combi_stations}).
+        Last but not least, any source attribution method based on a single observation site will suffer from a so-called ``shadowing'' effect. This tends to falsely assign emissions to areas that are upwind of the true emitting area. In the present case and for the sea ice and ocean tracers, the continental areas are mostly in such a configureation. The only way to robustly overcome this problem is by using a network of sites that can observe the same source area under different flow directions, effectively triangulating the origin source from different vantage points (as demonstrated in \cref{P1sec:combi_stations}).
         These implications suggest that the ratio method, as applied in this section, is not suitable for studies involving real measurement data.
 
         The next section will present and discuss the improvements that make the method reliable for real case studies.
@@ -396,7 +406,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         In \cref{P1sec:standard_method}, the standard ratio method gave ambiguous results.
         In this section, we present how one can improve the method in order to get more reliable source identification.
 
-        To eliminate the seasonal variability bias, we sort the concentrations based on their differences in relation to the seasonal trend of the series rather than sorting them according to their absolute values.
+        To eliminate the seasonal bias, we sort the concentrations based on their differences in relation to the seasonal trend of the series rather than sorting them according to their absolute values.
         Practically, we estimate the seasonal trend by fitting the series and then subtracting it from the concentrations.
         This is similar to the background subtraction methods of \citet{ruckstuhl_robust_2012} and \citet{resovsky_algorithm_2021}. Practically, we estimated the background seasonal concentration by smoothing the series with a locally weighted scatterplot smoothing (LOWESS) filter and then subtracting the background trend from the concentrations to keep the high-frequency signal from recently added emission events.
 
@@ -419,17 +429,16 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         The highest values of the latter are flagged in yellow. They are more evenly distributed over the simulation period than the raw concentrations.
         The effect is even clearer for the lowest concentrations; some of the lowest points happen in the cold season, which was never the case with the standard sorting method.
         Panels (b), (c), and (d) highlight the effect of the filtering threshold on FPES.
-        Indeed, removing the 2\,{\%} lowest FPES values erased a corona of values clearly visible on the climatology maps.
-        The ratio map of panel (d) presents a much smaller area of values above $0.1$. The overflows over sea ice and open ocean regions are greatly reduced.
+        Indeed, removing the 2\,{\%} lowest FPES values also removes a corona of non-significant values that were found on \cref{P1fig:basic_method}.
+        The ratio map of panel (d) presents a much smaller area of values above $0.1$. The ``shadowing'' effect over sea ice and open ocean regions are greatly reduced. %XXLM essaye de remplacer overflow par shadowing partout
         Baffin Bay is the region where an incorrect signal remains.
         This shows that shadowing can still happen, especially around regions of intense emissions.
-        The North American and Eurasian signals decreased as well. Even though they correctly corresponded to continental emissions, their significance is considered to be low because they were due to regions of low FPES.
+        The North American and Eurasian signals decreased as well. Even though they correctly corresponded to continental emissions, their significance is considered to be low because they were due to regions of low FPES. This indicates that no significant transport of continental emissions happens between Eurasia and Ny-Ålesund.
         The quantification of the detection indicates a level of success of 3 for this case, while the standard method only gave a value of 2.
 
-         In order to take maximum advantage of the ratio method, the information contained in the ratio associated with the lowest concentrations can also be used.
+         In order to take maximum advantage of the ratio method, the information contained in the ratio associated with the lowest concentrations can also be used. \todo{XXLM je pense qu'il faut montrer quelque part la figure avec les lowest. Par ex sur ta figure pour le ratio standard.}
          Indeed, this ratio points to the regions where the sources are not likely to come from.
-         Thus, its reverse ($1-R_\text{l}$) can be used as a mask applied to $R_{\text{h}}$.
-         We use $R_{\text{h}} = R_{\text{h}}^{10}$ and $ R_{\text{l}} = R^{33}_{\text{l}}$.
+         Thus, its complement ($1-R_\text{l}$), should also indicate where sources are likely to come from, and  can be used as an extra constraint on $R_{\text{h}}$. In practice, we remove from $R_{\text{h}} = R_{\text{h}}^{10}$ all areas where $ R_{\text{l}} = R^{33}_{\text{l}}$ is significant. 
          We get a composite ratio, which is defined as follows:
          \begin{equation}
             R_{\text{10--33}} = R_{\text{h}}^{10} \times (1 - R_{\text{l}}^{\uparrow 33}),
@@ -458,7 +467,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         \begin{table}[b]
             \centering
             \hack{\hsize\textwidth}
-            \caption{Comparison of the success levels of the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}
+            \caption{Comparison of the success levels for the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}
             \label{P1tab:results_comparis}
             \begin{tabular}{lrr|rr|rr}
                 \toprule
@@ -480,22 +489,22 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         The improved method performs better in 10 out of 15 tested cases (\cref{P1fig:comparison}b), worse in 1 case, and equally otherwise, as reported in \cref{P1tab:results_comparis}.
         As expected, the overall contribution of the continental source decreased thanks to the FPES filtering threshold.
         The open ocean source suffered the same effect.
-        The improved method detects much more accurately the origins of the open ocean, continental, and sea ice tracers, with correct attributions at four out of five stations for the ocean tracer (three in the original method), at three out of five stations for the ice tracer (zero in the original method), and at five out of five stations for the continental tracer (four in the original). In addition, the quality of the detection score is improved or identical and is degraded in only one case (open ocean tracer at Tiksi).
+        The improved method detects much more accurately the origins of the open ocean, continental, and sea ice tracers, with correct attributions at four out of five stations for the ocean tracer (three in the original method), at three out of five stations for the ice tracer (zero in the original method), and at five out of five stations for the continental tracer (four in the original). In addition, the quality of the detection score is improved or identical and is degraded in only one case (open ocean tracer at Tiksi). This is probably because Tiksi station is not very sensitive to air masses transported from the open ocean, due to its location in Northern Russia, where the ocean is frozen most of the year.
         The detection level averaged over the five stations and three tracers gives a general assessment of the methods. The standard ratio yields an averaged score of $0.9$, which corresponds to a failed detection, as defined in \cref{P1sec:evaluation_metric}. The improved ratio method yields a score of $2.0$, which is where the threshold for good confidence in the results starts.
 
         However, a few detections still fail.
-        re~S2 in the Supplement
+        re~S2 in the Supplement \todo{XXLM encore une fois attention, mettre un lien vers le supplément ou ajouter une annexe a la fin de la these}
         shows the composite ratio maps of the improved ratio method for all the stations and the three tracers. It enables the detailed examination of the identification results.
         The source detection of the sea ice tracer at Alert is highly polluted by the continental signal.
-        The composite ratio maps of this case give insight into the reason for this fail, presenting an overflowing shadowing of the plume in the continental regions (c.f. \cref{P1sec:standard_method}).
-        The poor detections of the open ocean tracer at Alert and Utqiaġvik are due to hard shortening of the FPES from the threshold filtering.
+        The composite ratio maps of this case give insight into the reason for this fail, presenting a shadowing of the plume in the continental regions (c.f. \cref{P1sec:standard_method}).
+        The poor detections of the open ocean tracer at Alert and Utqiaġvik are due to overfiltering of the FPES from the choice of the 2\% threshold.
         The plume mainly covers the regions of marginal sea ice.
         We observe the same thing for Tiksi, even though the map clearly shows the influence of both the North Pacific and the North Atlantic.
         Regardless, for all cases, the composite ratio maps give great information on the region of origin.
 
         In order to assess the contributions of the three modifications (FPES filter, background subtraction, composite ratio) to the standard ratio as introduced with the improved ratio, the source identification has been run in the standard ratio setup with one or two modifications from the improved ratio. The results are presented in \cref{P1tab:modif_compar}. Each cell value corresponds to the averaged success level when the column and row modifications are used. Thus, the diagonal values refer to the detection score when a single modification is used in addition to the standard ratio, and the others refer to the detection score when both the row and column modifications are used.
         The highest improvement is due to the FPES filtering, with an improvement of $0.4$ compared to the standard ratio. The composite ratio allows for a $0.2$ rise, where the background subtraction leads to an improvement of only $0.1$. The best combination appears to be the composite ratio with the FPES filter, which improves the score of the standard method by $0.7$. The combination of the composite ratio and the background subtraction only accounts for a $0.2$ improvement. Even though the latter seems to be a small improvement, the full potential of the improved ratio method is only reached when the three modifications are used all together.
-        In other words, the three modifications are needed to reach an averaged detection level of 2, which is the threshold of a confident successful detection (\cref{P1sec:evaluation_metric}).
+        In other words, the three modifications are needed to reach an averaged detection level of 2, which is the value we identified as necessary for a confident successful detection (\cref{P1sec:evaluation_metric}).
         The detailed performances of these tests (i.e., for the three tracers and five stations) are presented in the Supplement (~S3).
 
 %t4
@@ -523,7 +532,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         This tends to draw a snapshot of the state of the atmosphere with regard to the studied species or variables.
         This can also be achieved with satellite data, from which it is possible to interpolate quasi-simultaneous time series at many different locations around the globe.
 
-        We can envision that the species of interest in this study are or will be part of an observational network or measured by satellite observation.
+        We can envision that the species of interest in this study (such as INP) are or will be part of an observational network or measured by satellite observation.
         Therefore, how would the tracing method presented here take advantage of this?
         In order to answer that question, we compute the method combining the FPES associated with the five Arctic stations previously described as a way of triangulating the sources.
         Once again, we are in the presence of an idealized situation: the concentration series are perfectly simultaneous and derived identically.
@@ -543,16 +552,16 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
 
         The results show a successful source origin detection (\cref{P1fig:multi_stations}).
         The continental sources are detected with a success level of 3, while the sea ice and open ocean yield a success level of 2.
-        This lower score for the open ocean could be explained by the geographical arrangement of the stations: open ocean regions are not well surrounded by the Arctic stations. While Villum and Ny-Ålesund are exposed to North Atlantic sea sprays, Utqiaġvik is hardly reached by these emissions. Conversely, the North Atlantic stations do not get much signal from North Pacific emissions.
-        More generally, sea ice and open ocean results are affected by some continental signal due to systematic coastal overflow.
+        This lower score for the open ocean could be explained by the geographical arrangement of the stations: open ocean regions are not well surrounded by the Arctic stations. While Villum and Ny-Ålesund are exposed to North Atlantic open ocean emissions, Utqiaġvik is hardly reached by these emissions. Conversely, the North Atlantic stations do not get much signal from North Pacific emissions.
+        More generally, sea ice and open ocean results are affected by some continental signal due to systematic shadowing effects at the coast.
         This effect leads to lower scores even though the composite ratio maps give clear insights into the origin regions.
         The existence of this unshrinkable surfeit of continental signal should be kept in mind when interpreting any results of similar applications of the method.
 
-        Nevertheless, the combination of simultaneous observations of the same species has the potential to give precise clues regarding the regions of origin of the so-called species.
-        The implementation of data from mid-latitude stations could also improve the results by increasing the spatial coverage.
-        Therefore, the present work encourages the development of observational networks or coordinated field experiments dedicated to identifying short-lived species at the high latitudes, following the example of the networks for greenhouse gas observations that are used to attribute global and regional emissions. The global deployment of the Portable Ice Nucleation Experiment (PINE) \citep{mohler_portable_2021} fits this recommendation for the study of INPs.
+        Nevertheless, the combination of simultaneous observations of the same species has the potential to give precise clues regarding the regions of origin of the species.
+        The implementation of data from mid-latitude stations could also improve the results by increasing the spatial coverage and enabling trinangulation of the sources, reducing shadowing effects.
+        Therefore, the present work encourages the development of observational networks or coordinated field experiments dedicated to identifying short-lived species at the high latitudes, following the example of the networks for greenhouse gas observations that are used to attribute global and regional emissions. For INP, the global deployment of the Portable Ice Nucleation Experiment (PINE) \citep{mohler_portable_2021} fits this recommendation for the study of INPs.
 
-    \subsubsection{Points for using a ratio methodology}
+    \subsubsection{Advantages of using a PSFC ratio methodology instead of raw PES}
     \label{P1sec:point_ratio}
 
      We note that we did not test the improved ratio method against raw FPES interpretation.
@@ -569,7 +578,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
 
     \begin{figure}[h]
                 \includegraphics[width=1\textwidth]{./chap3/images/f06.png}
-                \caption{Panel of FPES visualizations and analysis for the sea ice tracer at the Tiksi station. Panels \textbf{(a)} and \textbf{(b)} are the climatologies of, respectively, the total FPES value and the values associated with the 10\,{\%} highest observations ($S_\text{h}^{10}$). Panels \textbf{(c)} and \textbf{(d)} are the ratio maps of the two versions of the ratio method ($R_\text{h}^{10}$ for, respectively, the standard and improved versions). Panel \textbf{(e)} is the quantification of the detection results for the climatology associated with the highest observation and for both versions of the ratio method.}
+                \caption{Identification of the origin of the sea-ice tracer at Tiski station by 3 different methods. Panels \textbf{(a)} and \textbf{(b)} are the climatologies of, respectively, the total FPES value and the values associated with the 10\,{\%} highest observations ($S_\text{h}^{10}$). Panels \textbf{(c)} and \textbf{(d)} are the ratio maps of the two versions of the ratio method ($R_\text{h}^{10}$ for, respectively, the standard and improved versions). Panel \textbf{(e)} is the quantification of the detection results for the climatology associated with the highest observation and for both versions of the ratio method.}
                 \label{P1fig:Tiksi_case}
             \end{figure}
 
@@ -579,19 +588,19 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
 
     In this section, we investigate the sensitivity of our improved ratio method to key parameters: the sorting percentiles, the data series duration and frequency, and the filtering threshold of FPES.
 
-    \subsubsection{Sorting percentiles}
+    \subsubsection{Sensitivity to the choice of sorting percentiles}
 
         The standard ratio method uses the 10th percentile to sort the highest and lowest points of the measurement series.
-        A higher threshold would address more points, which could be needed for statistical representativeness when the series is short.
+        A higher percentile value would add more points, which could be needed for statistical representativeness when the time series is short.
         Some studies use the 33rd or 36th percentile to define the highest measurements \citep{irish_ice_2019, si_concentrations_2019}.
         In such short series, selecting the highest third of measurements amounts to us looking at a few particular PES plumes, and the benefits of computing the ratio appear to be poor.
-        For longer time series, using the 33rd percentile to define the highest measurements among the observations is too broad and makes the ratio unable to identify the sources of emissions.
-        With such a high percentile, the method also detects some of the high-concentration events due to particular atmospheric patterns, as well as some events of lower concentration. This dims the source identification and makes it inefficient.
+        For longer time series, we find that using the 33rd percentile is not sentitive enought to strong emission sources, and tends to give non-significant results that could correspond to broad areas of high background concentrations.
+        %XXLM With such a high percentile, the method also detects some of the high-concentration events due to particular atmospheric patterns, as well as some events of lower concentration. This dims the source identification and makes it inefficient.
         Actually, the tests performed on the idealized tracers (\cref{P1sec:experiment}) using the 33rd percentile for selecting the highest concentrations show that the method is never able to retrieve the emission sources of the tracers.
-        Conversely, the 5th percentile does not allow for the selection of enough data points, leading to a misdetection of some of the main source regions.
-        Finally, the 10th percentile, used by the standard ratio method, gives the best performance when used with 1- or 2-year-long series of daily measurements.
+        Conversely, the 5th percentile does not allow for the selection of enough data points, leading to a misdetection of some of the main source regions, but it could perform well with longer time series, such as 10-years or more.
+        Finally, the 10th percentile, used by the standard ratio method, gives the best performance when used with 1- or 2-year-long series of daily measurements, which are relatively common for INP measurement datasets.
 
-    \subsubsection{Series duration}
+    \subsubsection{Sensitivity to the observation time-series duration}
 
         The original experiment had a duration of 24 months, which corresponds to a complete double seasonal cycle.
         The sensitivity of the method to the duration and frequency of the concentration series is tested by reducing the number of points in the series.
@@ -605,7 +614,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         In conclusion, increasing the time resolution enhances the method's performance. The sampling frequency should always be considered when applying the improved ratio method.
 
 
-    \subsubsection{FPES filtering}
+    \subsubsection{Sensitivity to the threshold for FPES filtering}
         \label{P1sec:sensi_threshold}
 
         The improved ratio method (\cref{P1sec:improved_method}) incorporates a filter to exclude the grid cells with the lowest FPES values -- i.e., those penetrated by the fewest trajectories. This serves to remove the least statistically significant results, as well as particle dispersion modelling imprecision near the domain boundaries.
@@ -681,16 +690,16 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             \label{P1fig:msa}
     \end{figure*}
 
-    The analysis of the results shown in \cref{P1fig:msa} is non-trivial and should be taken as a textbook case of source identification by the ratio method.
+    The analysis of the results shown in \cref{P1fig:msa} is non-trivial, and highlights the risks in applying this method to relatively short datasets with missing observation periods. %XXLM and should be taken as a textbook case of source identification by the ratio method.
     Panels (b) and (c) show the results for the analysis of the complete dataset extending over the whole year of 2020, while panels (d) and (e) show the results for the measurements between April and early July~2020.
     Panel (c) shows that, for the whole period of measurements, the main contribution is oceanic, but this is followed closely by the continental signal, while the sea ice region contribution amounts to almost zero.
     The ratio map shown in panel (b) indicates that two main spots stand out. The western one shows a strong signal in Baffin Bay, the Labrador Sea, and the Greenland Sea.
-    Despite some overflow in continental areas, this spot mainly contributes to the oceanic signal and should be interpreted as such.
+    Despite some shadowing effects in continental areas, this spot mainly contributes to the oceanic signal and should be interpreted as such.
     The second spot spreads over northern and eastern Europe. The signal comes from the regions of the North Sea and the Baltic Sea, which are both regions of high chlorophyll-$a$ (Chl-$a$) concentrations.
     Nevertheless, the main signal of this spot is over continental areas.
     A part of this may be ascribed to overflows, but the eastern strip has to be considered to be an actual signal.
-    It points toward the north of the Caspian Sea, where the phytoplankton might be important \citep{eker_phytoplankton_2005}.
-    Such long-range transport is surprising but not impossible: long-range transport of aerosols to the Arctic from central Eurasia has been observed in the past \citep{marelle_transport_2015}, and the typical lifetime of aerosol MSA against OH oxidation is a few weeks \citep{mungall_heterogeneous_2018}.
+    It points toward the north of the Caspian Sea, where the phytoplanktonic activity might be important \citep{eker_phytoplankton_2005}.
+    Such long-range transport is surprising but not impossible: long-range transport of aerosols to the Arctic from central Eurasia has been identified in the past \citep{marelle_transport_2015}, and the typical lifetime of aerosol MSA against OH oxidation is a few weeks \citep{mungall_heterogeneous_2018}.
     However, no study reports DMS or MSA emissions from this region, and it would be speculative to draw conclusions regarding a contribution of Caspian Sea origin for the MSA observed at Zeppelin Observatory during this period.
 
     Alternatively, the analysis of the individual FPES plumes teaches us that this eastern continental spot is due to three consecutive dates in mid-October (\cref{P1fig:msa}a).
@@ -701,7 +710,7 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
     In \cref{P1fig:msa}d and e, the method is applied to the 3-month period of high MSA activity between April and early July (green period in \cref{P1fig:msa}a).
     Oceanic regions previously identified remain and are even better highlighted (\cref{P1fig:msa}d).
     Consequently, the contribution from open ocean regions increases, while the continental signal decreases (\cref{P1fig:msa}e).
-    The latter is now mainly due to overflows over Greenland.
+    The latter is now mainly due to shadowing effects over Greenland.
     Although they are spatially limited, such overflows are associated with strong signal values, which boosts the continental contribution significantly owing to the fact that the statistical representativeness drops due the series cropping.
     Let us be reminded that the detection of oceanic sources at Ny-Ålesund can be polluted by 25\,{\%} spurious continental signals (\cref{P1fig:comparison}b).
     Additionally, some northern Russian signal spots remain. They could be associated with the Barents Sea high phytoplankton coastal activity. But their size and strength do not allow such a conclusion since the method does not present high enough spatial precision.
@@ -727,8 +736,9 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
         While the 33rd percentile has been used in the literature without being strictly evaluated \citep{irish_ice_2019}, our results show that such a high threshold cannot be used to identify likely sources with confidence. We recommend selecting the 10\,{\%} highest values, which implies having sufficiently long time series.
         Although some conclusions of previous works may be right, they should be re-evaluated with the improved ratio method presented here.
 
-        \item The results of the standard ratio method are influenced by the geographical layout and wind configureation, causing an over-representation of the continental areas and a shadowing effect in the detected sources.
-        We introduced a filter for the lowest FPES values in order to eliminate the less statistically significant ones.
+        \item The results of the standard ratio method are influenced by the geographical layout and wind configureatio
+        n, causing an over-representation of the continental areas and a shadowing effect in the detected sources.
+        We introduced a filter for the lowest FPES values in order to eliminate the less statistically significant areas.
         This led to a better representation of the three surface types, which resulted in a dramatic improvement in the detection results.
         The effect of this filtering is to shrink the result of the method close to the measurement station. The variability in the improvement between the different stations and tracers suggests that the parameters we used might not be generalizable for other regions or compounds, although the methodology to get the best filtering level can be generalized.
 
@@ -744,25 +754,25 @@ This chapter aims to address the three scientific questions raised in \cref{sec:
             One of them, inherent to our evaluation protocol, is the choice of the dispersion modelling duration. We set up FLEXPART-WRF to follow the air mass pathways 7\,d back in time, which was coherent with the lifetime of our simulated tracers.
             Therefore, the improved method we developed is optimized for short-lived atmospheric species. Using the method thus implies making assumptions regarding the lifetime of the studied species.
             An extended evaluation would explore how the ratio method performs with long-lived species, which was not in the framework of this study.
-            A related point is the setup of removal processes for the evaluation experiment. A removal by exponential decay was used to represent short-lived species. This causes two important limitations: (1)~the uncertainties in removal processes are not taken into account in the results, and (2)~the present evaluation does not explore the effects of different removal processes on the performance of the method. Consequently, one should pay special attention to what removal parametrisation is set in the LPDM when attempting an emission source identification.
+            A related point is the setup of removal processes for the evaluation experiment. A removal by exponential decay was used to represent short-lived species. This causes two important limitations: (1)~the uncertainties in removal processes are not taken into account in the results, and (2)~the present evaluation does not explore the effects of different removal processes on the performance of the method. %XXLMConsequently, one should pay special attention to what removal parametrisation is set in the LPDM when attempting an emission source identification.
             Our evaluation has been specific to the Arctic region. Consequently, some parameters of the improved ratio method -- especially the FPES filter -- are set to perform best in the northern high latitudes.
-            For other regions with different geographical layouts, the FPES filtering may need to be adjusted with another simulated experiment,= similar to the one presented in this study.
-            We recall that the FPES filter is mainly used to restore balance to the representations of the different surface types (sea ice, open ocean, continent) in the domain. In lower-latitude domains, the FPES filter could be of less importance.
+            For other regions with different geographical layouts, the FPES filtering may need to be adjusted with another simulated experiment, similar to the one presented in this study.
+            %XXLMWe recall that the FPES filter is mainly used to restore balance to the representations of the different surface types (sea ice, open ocean, continent) in the domain. In lower-latitude domains, the FPES filter could be of less importance.
             Regarding the limitations of the backward-modelling approaches, the intrinsic uncertainties of the back-trajectory models and LPDMs cannot be cleared up. Since backward modelling relies on simulated meteorological fields, the precision of the source detection suffers from the errors of both the Lagrangian model and those of the weather model or reanalysis.
-            However, we eliminated the latter in our evaluation experiment since we use the same model to produce the data and to feed the LPDM.
+            However, we eliminated the latter in our evaluation experiment since we use the same driving meteorological simulations to produce the tracer concentration data and to feed the LPDM.
 
     The tests performed on this advanced ratio method showed that it can give useful information on the origins of atmospheric species, even though this kind of approach has inherent limitations.
     The results presented here allow us to estimate the magnitude of these limitations in order to take a critical look at any result from real applications of the method.
 
-    The assessment of the method time resolution (frequency of measurement points) sensitivity showed that series of daily measurements give better results than series of lower frequency and therefore should be privileged when applying the method.
+    The assessment of the method's sensitivity to the time resolution of the concentration series (frequency of measurement points) sensitivity showed that series of daily measurements give better results than series of lower frequency and therefore should be privileged when applying the method.
     Combining simultaneous observations of the same species at different locations can also help to give more precise source detection and should be encouraged for future campaigns.
 
         The evaluation conducted in this study allowed us to quantify, using a unique modelling approach, the source detection performances of the ratio method inspired by \citet{hirdman_source_2010} and as it has been used in several research articles (e.g., \citealp{irish_ice_2019, si_concentrations_2019}).
         Although the standard ratio method is more advanced than most of the backward-trajectory analyses used in studies about short-lived atmospheric species \citep{allen_evidence_2021, an_tracking_2014, hartmann_terrestrial_2021, lu_novel_2012, porter_highly_2022, raut_cross-polar_2017, wex_annual_2019}, the assessment results have shown that its performances are insufficient for identifying unknown emission sources.
         Conversely, our improved ratio method is able to retrieve the source regions of an observed atmospheric species with an unprecedented precision.
-        The demonstrated performances instill confidence in our use of the method to identify unknown sources and to confirm presumed ones.
+        The demonstrated performances instil confidence in our use of the method to identify unknown sources and to confirm presumed ones.
 
-    Because backward-modelling analysis for source identification is widely used, the results presented here impact many past and future studies. The new analysis protocol for emission origin detection presented alongside the performance evaluation may find its application in a wide range of atmospheric studies.
+    Because backward-modelling analysis for source identification is widely used, the results presented here could impact many past and future studies. The new analysis protocol for emission origin detection presented alongside the performance evaluation may find its application in a wide range of atmospheric studies.
     Here, we show an Arctic application, but the conclusions should be general for short-lived atmospheric species in other regions. Therefore, testing and adoption of this method in other regions is encouraged.
 
 
@@ -775,10 +785,10 @@ In the preceding section, we set up an evaluated methodology for the identificat
 With concentration series from observations, backward modelling tools, and a fine analysis, we have demonstrated our ability to trace back the source origins of short-lived atmospheric particles.
 In this section, the improved ratio method for source detection will be used with INP measurements series. This will enable the retrieval of high Arctic INPs likely origins.
 Measurements from three recent campaigns will be used: MOCCHA 2018, MOSAIC 2020 and ARTofMELT 2023. The three of them happened on-board of icebreakers, and have used similar immersion techniques for the INP measurements.
-Unfortunately, not all the data series meet the conditions to apply the improved ratio method (c.f. \cref{P1sec:improved_method}). Therefore, I chose to make the frequency of measurement series prevailing over the consistency of activation temperatures among the campaigns analysis. Consequently, the type of investigated particles will vary from a study to another. But it is not for the worst, since it will provide insights on a greater spectrum of particle types.
+Unfortunately, not all the data series meet the conditions to apply the improved ratio method (c.f. \cref{P1sec:improved_method}). Therefore, I chose to make the frequency of measurement series prevailing over the consistency of activation temperatures among the campaigns analysis. Consequently, the type of investigated particles will vary from a study to another. But it is not for the worst, since it will provide insights on a greater spectrum of particle types. %XXLM a clarifier mais on pourra voir plus tard
 
     \subsection{The MOCCHA 2018 campaign}
-    \label{sec:source_INP_moccha}
+        \label{sec:source_INP_moccha}
         % what is the MOCCHA campaign (ref to the technical chapter 2)
         The MOCCHA campaign took place, along with the US-Swedish research expedition Arctic Ocean 2018 (AO18), on board of the Swedish icebreaker I/B \textit{Oden}. The measurement period extended over August and September 2018 in the high Arctic.                
         Several particles measurements have been led during this campaign. Among them INPs\----our main focus\----, and PBAPs.
@@ -787,14 +797,14 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         This relation will be further investigated in \cref{chap4}; in this section, will be only compared the sources of both PBAPs and INPs observed during the campaign.
 
         % The INP measurement data and the link with PBAPs
-        \subsubsection{Study on INPs}
+        \subsubsection{Origin of INPs observed during the MOCCHA 2018 campaign in the Arctic Ocean}
         Figure \ref{fig:source_INP_moccha} shows the results of the improved ration method on MOCCHA INPs (panels A,B and C), along with the time series of the latter at four activation temperatures (panel D).
-        The source tracing presented here is for the INPs active at \tempc{-20}. This choice is justified by the fact this time series is the best compromise between the discontinuous warmer INP series, and the colder INP \tempc{-25} series. Nevertheless, the results for the other temperatures are very similar, which is not surprising since the four series share the same variability. Let us recall that the detection method rely on the collocation of concentration peaks with the origins of air masses. Thereby, similar variations entails similar origin detection. 
+        The source tracing presented here is for the INPs active at \tempc{-20}. This choice is justified by the fact this time series is the best compromise between the discontinuous warmer INP series, and the colder INP \tempc{-25} series. Nevertheless, the results for the other temperatures are very similar, which is not surprising since the four series share the same variability. Let us recall that the detection method rely on the collocation of concentration peaks with the origins of air masses. Thereby, similar temporal variations entails similar origin detection. 
 
         Panel C shows the detection result through the composite ratio map.
-        The signal, shaped as a contraceptive coil, concentrates in Russian coastal area. 
+        %The signal, shaped as a contraceptive coil, concentrates in Russian coastal area. %XXLM pas sûr que ça apporte grand chose comme comparaison
         The transport corridor between the measurements location (near the North Pole) and this region also presents high signal, indicating potential emissions in that area. Indeed, the ocean was opened at the time of the campaign, which allowed for marine emissions (see \cref{sec:source_pbap_moccha}). 
-        The regions of strong signal near the Russian coasts are also recognized as potential sources of aerosols particles. On one hand, the ocean side knows high phytoplankton activity during summer \citep{kojoj_arctic_2024}. On the other hand, the continental side present erodible terrains which can be sources of dust particles.
+        The regions of strong signal near the Russian coasts are also recognised as potential sources of aerosols particles. On one hand, the ocean side knows high phytoplankton activity during summer \citep{kojoj_arctic_2024}. On the other hand, the continental side present erodible terrains which can be sources of dust particles \citep{groot_zwaaftink_substantial_2016, meinander_newly_2022}.
         In \cref{chap4}, while modelling high latitude emissions, we will see the importance of Siberian coast for dust emissions.
 
         \begin{figure}[h]
@@ -804,11 +814,11 @@ Unfortunately, not all the data series meet the conditions to apply the improved
             \label{fig:source_INP_moccha}
         \end{figure}
 
-    Regarding their apparent sources, the INPs of the MOCCHA 2018 campaign seems to be from coastal sources, namely organic sea sprays or most likely dust particles.
+    Regarding their apparent sources, the INPs of the MOCCHA 2018 campaign seems to be from coastal sources, namely organic sea sprays or and/or high latitude dust particles.
     However, by investigating the INP series in its entirety, we may miss transient sources of different natures. Thus, the next section will adopt a closer look at the PBAP concentrations event of \citet{kojoj_arctic_2024}, enabling the identification of their potential emission sources.
 
 
-        \subsubsection{Study on PBAPs}
+        \subsubsection{Origin of PBAPs observed during the MOCCHA 2018 campaign}
         \label{sec:source_pbap_moccha}
         Figure \ref{fig:source_pbap_moccha} is an adaptation of the work I have done for \citet{kojoj_arctic_2024}. It shows the source identification of the MOCCHA 2018 campaign PBAP high concentration event (panel B).
         The identified sources of the two concentration peaks are mainly open ocean regions (panels D and E). The first peak is associated to air masses originating from Arctic Ocean and Greenland sea regions devoid of sea ice. In the paper, \citet{kojoj_arctic_2024} highlight the strong Chl-$a$ concentrations collocated with the area of this signal.
@@ -827,7 +837,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         \end{figure}
 
 
-    \subsection{The MOSAIC 2019-2020 campaign}
+    \subsection{Origin of INPs observed during the MOSAIC 2019-2020 campaign}
     The MOSAIC campaign is an Arctic drifting expedition that happened on board of the \textit{RV Polarstern} from September 2019 to October 2020. It is inspired by the 1894\--1895 expedition of the Norwegian explorer Fridtjof Nansen (1881\--1930) on the \textit{Fram}; the first drifting expedition in the Arctic sea ice pack.  
     Nevertheless, the MOSAIC expedition is the first year-round central Arctic scientific expedition. During the campaign, INP measurements were conducted. The year\--round observations revealed an important seasonality of particles, especially for INPs active at warm temperatures \citep{creamean_annual_2022}. These observations echoes the discussion of \cref{sec:INP_seasonality} about the potential bias in the observation of INP seasonality.
 
@@ -843,7 +853,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
         \begin{figure}[h]
             \centering
-            \includegraphics[width=1\textwidth]{./chap3/images/source_and_series_MOSAIC.png}
+            \includegraphics[width=0.8\textwidth]{./chap3/images/source_and_series_MOSAIC.png}
             \caption{Emission sources of MOSAIC INPs detected with the improved ratio method. Panel A shows the composite ratio maps corresponding to four INP series, for activation temperature from \tempc{-10} to \tempc{-25}. Panel B is the time series of the corresponding INP concentrations during the MOSAIC campaign, from November 2019 to March 2020.}
             \label{fig:source_MOSAIC}
         \end{figure}
@@ -851,7 +861,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     The studied period corresponds to the sea ice growth, including its peak in March. Thereby, the corresponding sea ice extent eliminates the possibility of open ocean emissions. 
     The warm INPs (\tempc{-10} and \tempc{-15}) signal thus suggests sea ice originated emissions.
     Even though sea ice is not a primary source of potential INPs, as mentionned in \cref{sec:arctic_glimpse}, particles can be emitted from the ocean through open leads in the sea ice pack. 
-    In parallel, the phenomenon of particle re-emission by blowing snow is also suggested to be a significant source of aerosol particles, especially biological compounds \citep{rangel-alvarado_snow-borne_2015, christner_ubiquity_2008}.
+    In parallel, the phenomenon of particle re-emission by blowing snow is also suggested to be a potential source of aerosol particles, especially biological compounds \citep{rangel-alvarado_snow-borne_2015, christner_ubiquity_2008}.
     That said, \citet{lapere_modeling_2024} have shown that blowing snow emissions contribute to sea salts from one to two orders of magnitude more than open leads, particularly in autumn, winter and spring. Although the study has not evaluated the biological particles emissions, and because sea salts and bio-aerosols can follow similar transport and deposition patterns (see \cref{chap4}), it seems acceptable to extrapolate this result to emissions of warm INPs.
     \citet{lapere_modeling_2024} also indicate that the area between Greenland, Svalbard and the North Pole (where the source signal is the strongest) may shelters the largest leads emissions during that time of the year.
     Consequently, sea ice emissions by blowing snow and through open leads appear to be good candidates for the source origins of the warm INPs observed during the winter part of the MOSAIC expedition.
@@ -862,7 +872,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
     This quick source tracing analysis allows to conclude on a likely blowing snow or sea ice open leads origin for biological INPs active at warm temperatures, and on a continental dust source for the colder INPs.
 
-    \subsection{The ARTofMELT 2023 campaign}
+    \subsection{Sources of INP observed during the ARTofMELT 2023 campaign}
     \label{sec:artofmelt_sources}
 
     The ARTofMELT 2023 campaign took place during the melt season in spring 2023. It was meant to study the phenomena responsible for the melting of the sea ice pack, with a particular focus on the role of warm air intrusions.
@@ -873,10 +883,14 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     Both maps indicates potential sources in central Greenland. For the high concentration map (panel A), this detection is most likely misleading since the high plateau region of Greenland correspond to several kilometres of glaciers from where very little potential INPs are emitted.
     The benefits of the composite ratio are thereby perfectly illustrated.
     On panel C, the composite ratio indicates sources from the Greenland coasts. Although the detection method precision does not allow to distinguish the continental from the ocean contribution, it is possible to hypothesise.
-    Since Greenland has been originally misnamed by Erik Thorvaldsson (a.k.a. Erik the Red, 950-1003), it does not consist of many forests, and excepted some tundra (c.f. \cref{fig:arctic_map}), it does not have great areas of potential emissions of organic particles. Same for dust emissions that are very thin within the great Greenland ice cap, although coastal emissions can be non-zero, and even be increasing in the last decades due to the melting of ice and snow cover \citep{amino_increasing_2021}.
-    The signal could also be associated with emissions from coastal marine areas. However, even though the hypothesis of biological marine particles emitted on the edge of the melting ice pack is plausible, the very low concentrations of warm INPs colder, would rather suggest mineral particles.
-    Consequently, the interpretation of these results remain ambiguous, and motivates further investigations about the possible INP sources in coastal Greenland, Baffin Bay, and Davis Strait.
+    Since Greenland has been originally misnamed by Erik Thorvaldsson (a.k.a. Erik the Red, 950-1003), it does not consist of many forests, and excepted some tundra (c.f. \cref{fig:arctic_map}), it does not have great areas of potential emissions of organic particles.
+    Same for dust emissions that are very thin within the great Greenland ice cap, although coastal emissions exist, and even be increasing in the last decades due to the melting of ice and snow cover \citep{amino_increasing_2021}.
+    \citet{meinander_newly_2022} have shown that Greenland glacier valleys, river beds and coasts can be seasonally strong sources of dust. Their map of dust emissions (Fig. 2 of their study), shows a signal very similar to the composite ratio of \cref{fig:source_INP_artofmelt} C.
+    The detected signal could also be associated with emissions from coastal marine areas. However, even though the hypothesis of biological marine particles emitted on the edge of the melting ice pack is plausible, the very low concentrations of warm INPs colder, would rather strengthen the mineral particles hypothesis.
 
+    These results cast a light on the mineral nature of the INPs observed during the ARTofMELT campaign. It motivates further investigations about the likely INP sources in coastal Greenland, Baffin Bay, and Davis Strait.
+
+    %\todo{XXLM a reformuler, les sources de dusts au groenland sont plutot intenses dans les vallées glaciaires sur les cotes, ``glacial dust'', voir par ex https://acp.copernicus.org/articles/22/11889/2022/ Fig 1 et 2}
 
         \begin{figure}[h]
             \centering
@@ -887,16 +901,16 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Other applications of atmospheric species sources identification}
+\section{Other applications of our method of atmospheric species sources identification}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Although the methodology presented in \cref{sec:paper1} has been conceived for the identification of aerosol particles sources, it is suitable for a broader spectrum of atmospheric species.
     The parameters of the improved ratio method (\cref{P1sec:improved_method}) are specific to aerosol like particles evolving in the Arctic, but they can be adapted for other regions or species.
     In this section, I present two application examples I worked on the occasion of collaboration with fellow PhD students. 
 
-    First, I will present the work done with Antoine Ehret, former PhD student at LATMOS, who developed an algorithm for the detection of wild fire plume source detection. The objective of our collaboration was to compare our identification methods, with in mind their mutual validation. Part of my work for that study has been presented in Antoine's thesis, and later I contributed to his peer-reviewed paper on the study. Here, I will present the work I have done in more complete manner, as it has never been shown yet.
+    First, I will present the work done with Antoine Ehret, former PhD student at LATMOS, who developed an algorithm for the detection of wild fire plume source detection. The objective of our collaboration was to compare our identification methods, with in mind their mutual validation. Part of my work for that study has been presented in Antoine's thesis, and later I contributed to his peer-reviewed paper on the study. Here, I will present the work I have done in more complete manner, as it has not been published yet.
 
     The second case study comes from a collaboration with Aymeric Dziduch, PhD student at LaMP in Clermont-Ferrand, in the frame of the ANR project (MPC)². % (see \cref{chap:contrib_commu} for details about the project).
-    Aymeric worked on the air masses classification during airborne measurements of cloud particles properties. He studied the data from four flight campaign in Svalbard. 
+    Aymeric worked on the air masses classification during airborne measurements of cloud properties. He studied the data from four flight campaign in Svalbard. 
     I used my source detection method to identify the likely origin of air masses that were associated to cloud observations. These results were used to confirm and strengthen Aymeric's classification, and opened new lines of research.
 
     \subsection{North American fire emissions}
@@ -932,7 +946,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         The maps pinpoint two major sources: over the Atlantic ocean off the coasts of Spain and North Africa, and over western USA and Canada. 
         The second corresponds to the wild fire event we wanted to detect.
         The maps of starting altitude \kilom{5}, \kilom{7} and \kilom{7.5} presents the signal of this source. However, the signal is the strongest for the run that started at \kilom{7}.
-        Except some overflow offshore the west American coast, the area highlighted by the composite ratio map matches the wild fire regions shown on \cref{fig:co_paris_2018} A.
+        Except some shadowing effects offshore the west American coast, the area highlighted by the composite ratio map matches the wild fire regions shown on \cref{fig:co_paris_2018} A.
         The overflow could be explained by the intensity of the \ce{CO} emissions, which can move over the Pacific Ocean with easterly winds at low altitude, before going up and eastward with high latitude westerly winds. Thereby, the area is detected as a source. 
         An other explanation for this oceanic signal is the fundamental uncertainty on the plume altitude and thickness when it is observed over Paris, since it conditions the emission box of FLEXPART-WRF.
         Nevertheless, the correlation between the burnt areas map and the signal of this map suggests that the plume hovered about \kilom{7}.
@@ -967,6 +981,10 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
     \subsection{Origins of air masses that form clouds in the North Atlantic}
     \label{sec:cloud_origins}
+
+%XXLM il manque une introduction
+%XXLM &) qu'est-ce qu'aymeric étudie, 2) quelle est son approche, 3) qu'est-ce que tu as fait en soutien de ce travail
+%XXLM section a retravailler en general, je la relirai plus tard une fois que tu auras intégré les modifs
 
     The objective of this study was to (1) confirm the result of an alternative method, (2) introduce quantification in the results, and (3) explore the application domain of the improved ratio method.
 The original method developed by Aymeric Dziduch categorized cloud origins based on two variables: surface type (ocean or continent) and cardinal direction. The subsequent application of the improved ratio method enabled both the visual identification of cloud origins and the quantification of the contribution from each surface type.
@@ -1037,6 +1055,15 @@ The ease to set up the methodology (FLEXPART runs, data analysis) allowed to use
 Although I performed this study to validate and enhance the work of an other PhD student, a quick statistical analysis of the results revealed a trend, most likely independent of the season, on the oceanic origin of air masses that form Svalbard clouds. A result which would motivate further investigations.
 
 \todo{Make the link with the next chapter}
+
+
+    \vspace{\baselineskip}
+    \todo{Fill the Key results box}
+    \boxKR{Identification of Arctic INP emission sources}{
+        \begin{itemize}
+            \item key results 1
+        \end{itemize}
+    }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \stopcontents[chapters]

@@ -60,16 +60,16 @@ Eventually, we will led the discussion about how INPs interact with regional cli
         \item Freezing of precipitating water drops 
     \end{itemize}
 
+    % we will modify only the immersion
+
+    \todo{write this section}
+
     % note about the CCN
 
+    % maybe merge this section with the following
 
 % ____________________________________________
-    \subsection{From INP tracers to cloud water}
-    % how do we use the INP tracers
-    \todo{Description of how INP tracers are used}
-
-% ____________________________________________
-    \subsubsection{Experimental modelling setup}
+    \subsection{From INP tracers to cloud ice water}
     The base setup used for this study is identical to the one described in \cref{tab:wrf-chem_setup}.
     The microphysics module is modified in order to run the intended experiment on INP effects. The modifications are listed in \cref{tab:mp_INP_setup}.
 
@@ -89,6 +89,27 @@ Eventually, we will led the discussion about how INPs interact with regional cli
         \end{tabular}
         \label{tab:mp_INP_setup}
     \end{table}
+
+    % how do we use the INP tracers
+    \todo{Description of how INP tracers are used}
+    The only difference between the control and the test setup concerns the nucleation by immersion.
+    In the control version, the number of ice crystals ($n_i$) is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86).
+    In the test simulation, the $n_i$ values of C86 are replaced by the number concentrations of the INP tracers of \cref{chap4}. 
+    The INP tracers are temperature-binned, with \tempc{5} steps, from \tempc{-5} to \tempc{-25}. They are emitted from aerosol particles emissions sources of relevant species for ice nucleation. The particles concentrations are converted into the INP tracers with adequate INAS based ice nucleation parametrisations.
+    The aerosols species used for the INP tracers emissions are dust, sea sprays, fungal spores and bacteria from terrestrial vegetation.
+    Once emitted, the tracers are subject to wet and dry removal, as well as in-cloud activation.
+    The detailed production and transport mechanisms of the INP tracers are described in \cref{sec:method_inp_emission}.
+
+    In the microphysics scheme, what INP tracer is used to feed $n_i$ depends on a temperature condition.
+    The tracer of temperature $T_{\text{INP}}$ prescribes $n_i$ when $T \in [T_{\text{INP} - 5};\, T_{\text{INP}}]$.
+    In the particular case of $T <$ \tempc{-25}, the INP25 tracer is used. And when $T>$ \tempc{-5}, $n_i$ is set to $10^{-6}$ \si{\per\liter}.
+    For comparison, the default value of $n_i$ in the standard Thompson scheme (i.e. non-aerosol-aware) is \SI{1}{\per\liter}.
+    
+    
+
+
+%% ____________________________________________
+%    \subsubsection{Experimental modelling setup}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

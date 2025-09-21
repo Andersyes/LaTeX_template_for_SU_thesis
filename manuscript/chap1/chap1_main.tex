@@ -1,5 +1,5 @@
-\newcounter{counterboxspe}
-\setcounter{counterboxspe}{0}
+\newcounter{counterboxOQ}
+\setcounter{counterboxOQ}{0}
 
 \makeatother
 \newcounter{counterchapter}
@@ -138,7 +138,7 @@ Since the tropospheric clouds are major actors in the following chapters, the hy
 As for the lithosphere and biosphere, they will take action about aerosol particles compositions and sources, and will not exit the scene until the end.
 In that way, this PhD work can be seen as a study of the interrelations of those five climatic actors, with a focus on the causal links they bear.
 
-     !!!!--> schematics of the climate components 
+     \todo{schematics of the climate components}
 
 % the radiative budget
 Beyond the interactions within the climate system, the earth interacts with its outer environnement, namely: outer space. As mentioned in the previous section, the earth receives free energy from the Sun, and has to emit toward space the same amount of degraded (i.e. high entropy) energy.
@@ -152,7 +152,7 @@ This makes it drifting toward a new energy equilibrium\----with a warmer average
 At the first order, as long as the incoming solar radiations are stable (what they are), the GHG concentrations drives the average temperature on Earth.
 Consequently, if the GHG concentrations keep on increasing, so would do the temperature of the new equilibrium.
 
-     !!!!--> schematics of the radiative budget
+     \todo{schematics of the radiative budget}
 
 %-----------------------------------------------
 \subsection{Evidences of the Global Warming}
@@ -349,7 +349,7 @@ The numbers are overwhelming:
 \begin{itemize}
     \item Over \SI{75}{\percent} of flying insects populations have disappeared in protected areas over the last \SI{27}{years} \citep{hallmann_more_2017}.
     \item Same analysis for the arthropods\----the most diversified living group\----, over three quarters have gone in a few decades \citep{seibold_arthropod_2019}.%, birds populations are ebbing dramatically with 
-    \item The global rate of extinction is estimated to be \SIrange{100}{1000}{times} greater than the background rate \citep{lamkin_challenge_2016}.
+    \item The global rate of extinction is estimated to be 100-1000 times greater than the background rate \citep{lamkin_challenge_2016}.
     \item The total disparition of living individuals, all species and groups combined, amounts to around \SI{70}{\percent} \citep{ipbes_summary_2019}.
     \item The living planet index\footnote{The living planet index (LPI) is a measure of the state of the world's biological diversity based on population trends of vertebrate species from terrestrial, freshwater and marine habitats.} has decreased of approximately \SI{20}{\percent} in North America and Europe since the 70's, but far from our eyes it has already collapsed: \SI{-55}{\percent} in South-east Asia and Oceania, \SI{-64}{\percent} in Africa and \SI{-94}{\percent} in South America \citep{ritchie_biodiversity_2022}.
 \end{itemize}
@@ -406,7 +406,7 @@ In this section, we will explore the physical nature of clouds through their met
 %-----------------------------------------------
     \subsection{What are clouds}
     \label{sec:what_is_a_cloud}
-    \tquote{Some say that black holes are the most complex objects in the Universe, although they're just regions of space-time from which the light cannot escape. On the other hand, a cloud is a region of the atmosphere where thermodynamic and dynamical conditions contribute to enabling the formation of liquid or solid, or both, water particles that manage to stay in suspension in the air during an adequately long time for an impressionist to paint them, until a stochastic cascade effect causes all this water to fall, unless it doesn't and stays in the sky preventing any astrophysicist from studying black holes.}{}
+    \tquote{Some say that black holes are the most complex objects in the Universe, although they're just regions of space-time from which the light cannot escape. On the other hand, a cloud is a region of the atmosphere where thermodynamic and dynamical conditions contribute to enabling the formation of liquid or solid, or both, water particles that manage to stay in suspension in the air during an adequately long time for an impressionist to paint them, until a stochastic cascade effect causes all this water to fall, unless it doesn't and stays in the sky preventing any astrophysicist from studying black holes.}{A.D.S.}
 
     The earth's atmosphere contains at any moment, not less than $~10^{25}$ hydrometeors, or water based particles in suspension. The majority are liquid water droplets, and the rest is ice crystals \citep{cantrell_production_2005}.
     In parallel, the overall cloud coverage on the planet tends to be of 60-70 \%.
@@ -800,13 +800,13 @@ Many recent studies have tried to take this \texit{active sites} approach into a
     The modelling of ice nucleation will be broached multiple times in this thesis. Chapter \ref{chap2} will provide a first overview of this topic (\cref{sec:modelling_hetero_nuc}), and \cref{chap4} will dive deeper into the subject of parametrising ice nucleation. % section moved to chapter 2
     \vspace{\baselineskip}
 
-    \boxspe{}{Opening questions}{
-    \begin{itemize}
+    \boxOQ{Modelling of ice nucleation}{
+        \begin{itemize}
         \item How do the different ice nucleation representations compare in a regional model? (\cref{chap4})
         \item Is it possible to use a general parametrisation for Arctic INPs? (\cref{chap4})
         \item Is the presence of INPs in the Arctic important for the formation of clouds and for the modification of their properties?
-    \end{itemize}
-}
+        \end{itemize}
+    }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ice nucleating particles in the Arctic}
@@ -909,7 +909,7 @@ Many recent studies have tried to take this \texit{active sites} approach into a
     \citet{creamean_ice_2019} show that warming of the Arctic Ocean and the retreat of sea ice cover are two factors that promote biological activity at high northern latitudes. Similarly, \citet{creamean_thawing_2020} describe how permafrost thaw exposes the atmosphere to important INP sources through the re-emergence of biological organisms, once again exposed to the atmosphere. In general, temperature acts—up to a certain point—as a catalyst for microbial activity. Climate warming is therefore expected to mechanically increase the presence of biological INPs in cold regions. For example, it drives the migration of marine biological activity toward higher latitudes at a rate of about 1° per decade \citep{renaut_northward_2018}. All of these temperature-driven changes could lead to an increase in biological INP concentrations in the Arctic.
     
     \subsubsection{Mineral dust}
-    Among aerosols capable of acting as INPs, mineral dust is often considered as the most common, and consequently as the most important. This relies on their large size (which confer them high amount of active sites) and on the high emissions fluxes of such particles in the atmosphere.    
+    Among aerosols capable of acting as INPs, mineral dust is often considered as the most common, and consequently as the most important in mass concentration. This relies on their large size (which confer them high amount of active sites) and on the high emissions fluxes of such particles in the atmosphere.    
     Mineral dust is most often lofted by wind or projected into the air through the impact of other particles (saltation and sandblasting processes). They originate mainly from semi-arid regions or deserts but can also be emitted from riverbeds or glaciers. Again, climate warming is expected to increase the number of sites favorable to the emission of these particles through glacier melt and riverbed drying. In areas where warming leads to a retreat of arid zones due to increasing biodiversity, the decrease in mineral INPs could be partially offset by the rise in biological sources.
  Although they are active at lower temperature than biological INPs, they can participate to transport the latter and thus extend their range of action. However, due to their relatively short atmospheric lifetime—linked in part to their high density\----they can also limit the transport of biological INPs.
 
@@ -920,16 +920,16 @@ Many recent studies have tried to take this \texit{active sites} approach into a
 
 %-----------------------------------------------
     \subsection{Lifetime and deposition processes}
-    \label{sec:depostition_processes}
+    \label{sec:deposition_processes}
     \todo{  add references}
 
     Unlike some stable chemical species such as \ce{CO2}, aerosols have a short lifetime in the atmosphere. Several processes contribute to the decrease in atmospheric aerosol concentrations, so that their residence time in the troposphere ranges from a few hours to about ten days. These processes can be classified into three types: dynamical, chemical, and microphysical.
     
-    In the absence of any interaction with other chemical elements, the lifetime of aerosols in the atmosphere is limited by dynamical processes. The main ones are the mechanisms of dry and wet deposition. Dry deposition refers to the sedimentation of particles under the effect of gravity. It depends on the balance between the weight of the aerosols and the various resistances to this sedimentation.
-    
+    In the absence of any interaction with other chemical elements, the lifetime of aerosols in the atmosphere is limited by dynamical processes. The main ones are the mechanisms of dry and wet deposition. 
+    Dry deposition refers to the sedimentation of particles under the effect of gravity and Brownian motion. It depends on the balance between the weight of the aerosols and the various resistances to this sedimentation.
     However, dry deposition accounts for only \SIrange{10}{20}{\percent} of aerosol removal from the atmosphere; wet deposition is the dominant dynamical process. Near emission sources, on the other hand, various dry deposition processes dominate, particularly those affecting larger particles. One example is impaction: when the inertia due to the particle's mass ejects it from the trajectory of the air parcel carrying it, possibly leading to its collision with the surface. Similarly, interception refers to the collision of the particle with the surface due to its size when its trajectory passes too close to it. Smaller particles are more affected by Brownian motion, which is the dominant process in their dry deposition.
     
-    The term wet deposition refers to the removal of aerosols from the atmosphere by precipitation. This can occur in different ways. Aerosols can be carried to the ground by falling precipitation (rain or snow) when they are located below or within a cloud: this is the \emph{washout} process. Alternatively, after serving as cloud condensation nuclei or ice nuclei, aerosols are trapped in droplets or ice crystals and are brought to the ground during the precipitation of the cloud particles they helped forming. This is referred to as \emph{rainout}.
+    The term wet deposition refers to the removal of aerosols from the atmosphere by precipitation. This can occur in different ways. Aerosols can be carried to the ground by falling precipitation (rain or snow) when they are located below or within a cloud: this is the \emph{washout} process (or impaction scavenging). Alternatively, after serving as cloud condensation nuclei or ice nuclei, aerosols are trapped in droplets or ice crystals and are brought to the ground during the precipitation of the cloud particles they helped forming. This is referred to as \emph{rainout} (or nucleation scavenging).
     
     As will be seen in the next chapters, these processes must be taken into account when attempting to simulate the transport of aerosols in order to trace them back to their emission sources (\cref{chap3}), and when simulating aerosols particles emission and transport (\cref{chap4}).
     
@@ -938,14 +938,14 @@ Many recent studies have tried to take this \texit{active sites} approach into a
     \subsection{Seasonal variability and observational ability}
     \label{sec:INP_seasonality}
     Like many variables and atmospheric species, INPs can present a seasonal cycle that could eventually be detected in the observed concentrations. 
-    Theoretical explanations for this variability appears to be as a matter of course. Emissions can be subject to weather conditions (wind, snow cover, temperature), to vegetation cycle (for continental organic INPs) or to sea ice cover (for oceanic emissions). Atmospheric transport of particles is also subject to synoptic weather configurations that vary along the year, which can affect the local concentrations of remote sourced species. Furthermore, the wind and precipitations can have a strong impact on particles removal (c.f. \cref{sec:depostition_processes}).
+    Theoretical explanations for this variability appear to be as a matter of course. Emissions can be subject to weather conditions (wind, snow cover, temperature), to vegetation cycle (for continental organic INPs) or to sea ice cover (for oceanic emissions). Atmospheric transport of particles is also subject to synoptic weather configurations that vary along the year, which can affect the local concentrations of remote sourced species. Furthermore, the wind and precipitation can have a strong impact on particles removal (c.f. \cref{sec:deposition_processes}).
 
-    Figure \ref{fig:Ninp_Wex} illustrates how much can vary INP concentrations across the seasons.
+    Figure \ref{fig:Ninp_Wex} illustrates how much INP concentrations can vary across the seasons.
     Panel A shows the concentrations for five activation temperatures, ranging from \SI{-10}{\degreeCelsius} to \SI{-18}{\degreeCelsius}, of INP measurements performed at Utqiaġvik (Alaska) over the year 2012-2013 \citep{wex_annual_2019}. 
     The \SI{-10}{\degreeCelsius} series, or concentrations of the warmest INPs, is the one that shows the highest variability. It peaks during summer and spring, around $10^{-2}$ \si{INP\per\liter}, its lowest values are seen during winter down to three orders of magnitude lower.
-    Comparison with panel B, that shows the Arctic average temperature and precipitation, suggests a causal relationship between the climate seasonal cycle and the observed variability in INP measurements.
-    Without further analysis, the evidence remains light, but the theoretical background mentioned above, still is plausible. 
-    However, this plot suggests an other explanation for this apparent variability.
+    Comparison with panel B, that shows the Arctic average temperature and precipitation, suggests a correlation between the climate seasonal cycle and the observed variability in INP measurements.
+    Without further analysis, the evidence remains light, but the theoretical background mentioned above, still is plausible and suggest a causal relationship. 
+    However, this plot suggests another explanation for this apparent variability.
 
     % --> figure of Wex measurements
         \begin{figure}[h]
@@ -954,22 +954,22 @@ Many recent studies have tried to take this \texit{active sites} approach into a
             \label{fig:Ninp_Wex}
         \end{figure}
 
-    The concentrations for the different activation temperatures show seasonal variability that weaken continuously with the temperature. While the stronger variability is met for the INP active at $-10$°C, concentrations are almost stable at $-18$°C. 
+    The concentrations for the different activation temperatures show seasonal variability that weaken continuously with the temperature. While the stronger variability is met for the INP active at \tempc{-10}, concentrations are almost stable at \tempc{-18}. 
     Whilst this could be explained by the variability inherent to the different species implied on this INP temperature spectrum, the continuous weakening of the variability, and the fact it happens in winter, suggest something else. 
     Warmer INPs are much more easily activated in clouds during winter when the temperature are lower, while the colder INPs are not as much activated. Thus, the natural in-cloud activation of the warmest INPs would prevent them to get captured by the air inlet of the aerosol filtering instruments.
     In the meantime, colder INPs would remain inactivated rather because of temperature condition, or because the solid phase would have already been formed on the warm INPs.
-    This would lead to a systematic bias on the measurement of INPs, the warmest being under-represented and presenting a strong apparent seasonal cycle compared to the steadier cold INP concentrations.
+    This would lead to a systematic bias on the measurement of INPs; the warmest being under-represented at the sampling time, and presenting a strong apparent seasonal cycle compared to the steadier cold INP concentrations.
 
     During the one year Arctic campaign MOSAIC (see \cref{sec:observation_data}), \citet{creamean_annual_2022} observe the same variability on INP concentrations: high concentrations during summer and spring, and low to zero warm INPs during winter, while the cold INPs have an almost constant concentration level all the year.
-    It questions the reliability of INP measurement techniques, as well as the conclusions drawn from them. Although the theory behind the natural variability of INP concentrations is solid, it has to be investigated with different techniques than just observation.
+    It questions the reliability of INP measurement techniques, as well as the conclusions drawn from them. Although the theory behind the natural variability of INP concentrations is solid, it has to be investigated with different techniques than just in situ measurements.
     In this context, modelling appears to be a powerful tool to test conceptual understandings, to remove doubt and confirm hypothesis.
     Chapter~\ref{chap4} will investigate this question by addressing the problem of INP modelling.  
     \vspace{\baselineskip}
 
 
-    \boxspe{}{Opening questions}{
+    \boxOQ{Ice nucleation particles}{
     \begin{itemize}
-        \item What tools for the identification of aerosols particles emission sources? (\cref{chap2} and \cref{chap3})
+        \item Which tools are required for the identification of aerosols particles emission sources? (\cref{chap2} and \cref{chap3})
         \item What are the emission sources of Arctic INPs? (\cref{chap3})
         \item What are the important aerosol species for the ice nucleation of Arctic clouds? (\cref{chap3})
         \item Is it possible to faithfully model INPs in the Arctic with our current knowledge, and how to do it? (\cref{chap4})
@@ -985,7 +985,7 @@ The name Arctic finds its roots in ancient Greek: ἄρκτος [árktos], which
 Thus, the Greeks were rather referring to the constellations: the Great and the Little bears which embody the north in the sky\footnote{The Antarctic is therefore the anti-bear place, which is twice as true since it is located around the South pole, and because there is no bear there.}.
 
 The Arctic region could be defined with different geographic thresholds. An astronomical threshold is used to set the latitude of the Arctic Circle, located at 66.5°N. Northward of this line, the current Earth obliquity causes the Sun not to rise on the day of the winter solstice; on the summer solstice, it does not set.
-The July two meters temperature isotherm, is sometimes given as a more meteorological and dynamic definition. Indeed, with the global warming going on (c.f. \cref{sec:evidence_of_GW} and \cref{sec:polar_amp}), the Arctic is condemned to shrink. 
+The July two meters mean temperature isotherm, is sometimes given as a more meteorological and dynamic definition. Indeed, with the global warming going on (c.f. \cref{sec:evidence_of_GW} and \cref{sec:polar_amp}), the Arctic is condemned to shrink. 
 Similarly, the boreal tree line can be used as the Arctic border, but again, with the climate warming, this definition leads the Arctic into shrinking, although in this case, the Arctic Circle will always remains a backup.
 Figure \ref{fig:arctic_map} gives an insight of the Arctic geography, and illustrates the above definitions.
 
@@ -1003,22 +1003,25 @@ In this section, we will explore what specificities make the Arctic a particular
 %-----------------------------------------------
     \subsection{A glimpse on Arctic climate conditions}
     \label{sec:arctic_glimpse} 
-    As mentioned herein above, the Arctic is by definition a region where the weather is cold and the diurnal cycle very evolutive along the year. This has several implication for the Arctic atmosphere and radiative budget.
+    As mentioned herein above, the Arctic is by definition a region where the weather is cold and the diurnal cycle very evolutive along the year. This has several implications for the Arctic atmosphere and radiative budget.
     % polar night
     The so-called \textit{polar night} gives a strong positive surface radiative forcing to clouds. Indeed, because there is no short wave radiations, remains only the greenhouse effect of clouds. Blocking infrared radiations, they strongly warm the surface.
     The low solar exposure and cold temperature, also causes a strong stability of the atmospheric boundary layer. This leads to very low convection and to keep atmospheric pollutants close to the surface.
 
+    \todo{faut-il plus de références ?}
     % ocean and sea ice
     Unlike Antarctica which is a continent, the Arctic region is characterised by its ocean. 
     The Arctic Ocean opens on both the North Atlantic and North Pacific. In 2025, it is still covered all year long by sea ice, but the ice pack extent decreases rapidly in area and thickness due to global warming, which has implications in energy feedback loops (see \cref{sec:polar_amp}). 
-    In terms of radiation, the sea ice acts like a reflective shield. Therefore, the Arctic clouds have lesser cooling effect since they do not increase the albedo when flying over sea ice.
+    In terms of radiation, the sea ice acts like a reflective shield, especially when covered by snow. Therefore, the Arctic clouds have lesser cooling effect since they do not increase the albedo when flying over sea ice.
     The sea ice cover also inhibits the sea spray aerosol emissions of the Arctic ocean, which makes pristine the air of central Arctic. But mechanisms such as blowing snow\footnote{Blowing snow is the process of uplifted snow by wind, which could lead to the re-emission of ice crystals and aerosols particles into the atmosphere.}, or oceanic emissions through open leads\footnote{Open leads refer to cracks in the sea ice field which open on the ocean.} can dispute this assertion.
     On the other hand, open ocean region of the Arctic are known to be home of large plankton and phytoplankton populations, which can be a great source of biological aerosol particles.
+    Independently of the aerosols, the sea ice pack caps the energy the \tempc{-2} ocean thermostat. Open leads tend to produce turbulent fluxes that alter the boundary layer stability and thereby participate to cloud formation.
 
     % Human activities
     Even though the Arctic is a remote region, it is far less isolated from human activities than the Antarctic continent. Indeed, because of geographical causes, almost \SI{90}{\percent} of the human population live in the boreal hemisphere.
     For the Arctic climate, it implies\----among other things\----an increased sensitivity to air pollution. Anthropogenic aerosols often reach Arctic latitudes, which can impact the radiative balance and have effect on the local cloud. 
     Once deposited, those particles can darken the snow and ice, contributing to lower the surface albedo.
+    \todo{Mention the Arctic haze?}
 
 
 %-----------------------------------------------
@@ -1029,7 +1032,7 @@ This intense warming has striking consequences, for instance on the sea ice pack
     In this section, we review the main mechanisms that can explain this Arctic amplification.
 
         \begin{figure}[h]
-            \includegraphics[width=1\textwidth]{./chap1/images/arctic_ampli.png}
+            \includegraphics[width=0.8\textwidth]{./chap1/images/arctic_ampli.png}
             \caption{Annual mean surface temperature anomalies for the period 2004\--2024, relative to the 1951--1980 mean. The zonal mean anomalies are shown in the lower right panel. Warming reaches up to \SI{3}{\degreeCelsius} in the Arctic, approximately four times the magnitude observed at the equator. Data from \url{https://data.giss.nasa.gov/gistemp/maps/NASA GISS}}.
             \label{fig:arctic_warming}
         \end{figure}
@@ -1038,8 +1041,9 @@ This intense warming has striking consequences, for instance on the sea ice pack
     Synoptic horizontal heat transport contributes to the amplification of warming at high northern latitudes. Although the list of relevant processes remains debated \citep{serreze_processes_2011}, the Atlantic Multidecadal Oscillation (AMO) appears to play a role in modulating Arctic temperatures. \citet{chylek_arctic_2009} showed that Arctic air temperature variations are linked to AMO phases. After at least sixty years of warming (1880–1940), the Arctic experienced a cooling period associated with a negative AMO phase. Following a loss of about 1°C over thirty years, temperatures began rising again when the AMO shifted back to a positive phase. However, establishing a robust correlation remains challenging, as AMO records only cover about one and a half oscillation cycles.
     
     The Arctic Oscillation (AO) also strongly influences the region’s climate \citep{quadrelli_simplified_2004}. The AO refers to a sea-level pressure (SLP) tripole at mid- and high northern latitudes (\cref{fig:SLP_AO}). A positive AO phase corresponds to a low-pressure anomaly centred over the Arctic, which strengthens the jet stream and supports the persistence of the polar vortex. In this phase, polar air remains confined to the Arctic and isolated from warm lower-latitude air. Conversely, a negative AO phase is characterized by an anticyclonic SLP anomaly over the Arctic, weakening the polar vortex. Cold air can then spill into the mid-latitudes, while the Arctic receives intrusions of warm air. Although Arctic warming follows multi-decadal cycles (e.g., AMO influence), it is systematically faster than the global mean. We can thus distinguish two categories of mechanisms:  
-    (i) large-scale, multi-decadal drivers influencing the Arctic through climate cycles, and  
-    (ii) seasonal to regional feedbacks specific to the Arctic.
+    (1) large-scale, multi-decadal drivers influencing the Arctic through climate cycles, and  
+    (2) seasonal to regional feedbacks specific to the Arctic.
+    Although the AO is among the phenomena that explain the Arctic climate, the Arctic amplification could participate to attenuate it.
 
         \begin{figure}[h]
             \centering
@@ -1049,7 +1053,7 @@ This intense warming has striking consequences, for instance on the sea ice pack
         \end{figure}
     
     \subsubsection{Albedo feedback}
-    Among its many specificities, the Arctic Ocean stands out from other basins due to the variability of its albedo. The presence of sea ice increases the basin’s albedo to 0.5–0.7 (50–70\% of incoming solar radiation reflected), compared to only 0.06 for open water.
+    Among its many specificities, the Arctic Ocean stands out from other basins due to the variability of its albedo. The presence of sea ice increases the basin’s albedo to 0.5-0.7 (50-70 \% of incoming solar radiation reflected), compared to only 0.06 for open water.
     
     Sea ice thus acts as a reflective shield against solar radiation. Under climate warming, its extent tends to decrease year after year. The surface of open water\----i.e., not covered by ice\----increases, absorbing more energy (\cref{fig:aa_feedbacks} A). This temperature rises, directly affecting sea ice formation, making it thinner and less extensive. In parallel, as Arctic Ocean temperatures exceed air temperatures in winter, the excess sensible heat stored during summer is released back into the atmosphere in winter. This delayed effect of the sea ice–albedo feedback explains why temperature anomalies peak in winter \citep{serreze_processes_2011}.
 
@@ -1071,13 +1075,35 @@ This intense warming has striking consequences, for instance on the sea ice pack
             \caption{Illustrations of Arctic amplification feedbacks. Panel A is a schematics of the sea ice albedo feedback principle. First, a positive forcing induces an increase in temperature. This causes the melting of sea ice and snow, which leads to a decrease in albedo. Short wave radiation is then more strongly absorbed by the surface, which amplifies the temperature increase induced by the initial forcing, closing the positive feedback loop. Panel B: schematics of the lapse-rate feedback effect. The inversion of the vertical temperature profile induced, in the case of a surface warming of $\Delta T_{\text{surf}}$, a negative buoyancy \textbf{B} below the inversion altitude. The heat gain is then poorly transported to the upper layers of the atmosphere, and the warming $\Delta T_{TOA}$ at the tropopause is minimal.}
             \label{fig:aa_feedbacks}
         \end{figure}
+
+
+    \subsubsection{Planck feedback}
+    The \textit{Planck feedback} refers to a fundamental negative feedback of the climate system: as surface and atmospheric temperatures rise, the earth emits more outgoing long wave radiation, following the Stefan\--Boltzmann law.
+    This increased emission acts to counterbalance the initial warming (c.f. \cref{sec:causes_of_GW}). 
+    In the Arctic, the effectiveness of the Planck feedback is reduced because surface and lower-tropospheric temperatures are already very low. At such cold temperatures, the rate of change with temperature of black body emission is weaker than at warmer latitudes. 
+    This is due to the non-linear dependence in temperature of the Stefan\--Boltzmann law. To recall, it expressed the radiative flux $F$ of a black body at temperature $T$ as
+    \begin{equation}
+        F = \sigma T^4
+    \end{equation}
+    with $\sigma$ the Stefan\--Boltzmann constant.
+    Thereby, $\partial F/\partial T$ is also non-linear with temperature. 
+    %To recall, the Planck function is defined as
+%\begin{equation}
+%B(\nu, T) = \frac{2 h \nu^3}{c^2} \, \frac{1}{e^{h\nu / k_B T} - 1}
+%\end{equation}
+%and there is its temperature derivative on which depends the radiative damping:
+%\begin{equation}
+    %\frac{\partial B(\nu, T)}{\partial T} \propto \frac{h\nu}{k_B T^2} \, \frac{e^{h\nu/k_B T}}{\left(e^{h\nu/k_B T} - 1\right)^2}
+%\end{equation}
+At lower temperatures, the derivative is thus smaller, implying that a unit warming in the Arctic leads to a weaker increase in outgoing long wave radiation than in the tropics. Consequently, the stabilising Planck feedback operates less efficiently, contributing to exacerbate the Arctic warming.
+
     
     \subsubsection{Effect of polar clouds}
-    Polar clouds are primarily low-level stratus \citep{shupe_clouds_2011}. During daytime, they play a dual role: reflecting incoming solar radiation and acting as a greenhouse “lid” for terrestrial infrared radiation. Observations by \citet{intrieri_annual_2002} show that the radiative balance of polar clouds is generally positive—warming the lower atmosphere—except for a short summer period when the surface albedo is minimal. On an annual average, polar clouds have a net warming effect on the surface (\cref{fig:warming_on_clouds}).
+    Polar clouds are primarily low-level stratus \citep{shupe_clouds_2011}. During daytime, they play a dual role: reflecting incoming solar radiation and acting as a greenhouse “lid” for terrestrial infrared radiation. Observations by \citet{intrieri_annual_2002} show that the radiative balance of polar clouds is generally positive\----warming the lower atmosphere\----, except for a short summer period when the surface albedo is minimal and the cloud are thick enough \citep{maillard_characterisation_2021}. On an annual average, polar clouds have a net warming effect on the surface (see \cref{fig:matus_CRE} A).
     While this cloud type tends to impose a net cooling at low and mid-latitudes, the Arctic warming effect is explained by the long polar night characteristic of high latitudes. During this period, cloud albedo has no impact on solar radiation, while their greenhouse effect persists and becomes the sole radiative forcing from clouds throughout the polar night.
     Furthermore, increasing temperatures lead to a predominance of the liquid phase over the ice phase in clouds. These liquid-rich clouds become optically thicker and have longer lifetimes. The resulting effect is warming, making this process another positive feedback.
-    
     \todo{  introduce an opening question we want to address in this thesis.}
+
   %  In the next section, we examine the physical mechanisms by which aerosols influence these phenomena. Although current observations suggest an overall positive effect, poor understanding of certain cloud microphysical processes prevents firm conclusions on how cloud radiative forcing will evolve with climate warming.
     
 
@@ -1090,11 +1116,11 @@ This intense warming has striking consequences, for instance on the sea ice pack
     The Arctic is a wide region with various types of biomes and local climates (c.f. \cref{fig:arctic_map}). Thus, its cloud variety can happen to be large.
     In this section, we will focus on the clouds of the high Arctic, which means over or next to the Arctic ocean.
 
-    As mentioned before (c.f. \cref{sec:arctic_glimpse}), the Arctic atmosphere shows a remarkable stability, especially during the polar night. This causes the absence of strong convective system during a large part of the year. It results a cover of low clouds, that can often touch the ground as fogs do. 
-    The temperature conditions in above the Arctic ocean range between $-50$°C in winter, and positive values in summer. Although the ocean acts like a thermostat at $-2$°C, and the sea ice at $0$°C while melting, the air temperature is most of the time below the freezing point.  
+    As mentioned before (c.f. \cref{sec:arctic_glimpse}), the Arctic atmosphere shows a remarkable stability, especially during the polar night. This causes the absence of strong convective system during a large part of the year, which result of a general cover of low clouds, that can often reach the ground as fogs do. 
+    The temperature conditions over the Arctic ocean range between \tempc{-50} in winter, and positive values in summer. Although the ocean acts like a thermostat at \tempc{-2}, and the sea ice at \tempc{0} while melting, the air temperature is most of the time below the freezing point.  
 Consequently, the clouds can form solid phases almost all year long.
 Actually, Arctic cloud are in majority composed of ice, in a single solid phase or in mixed-phase (c.f. \cref{fig:matus_cloud_frac}). 
-This almost systematic possibility of two phases existence make their radiative properties hard to forecast. Consequently, the radiative impact of Arctic clouds can highly vary from a configuration to another, which makes the modelling of Arctic clouds and climate especially difficult.
+This almost systematic possibility of two phases existence makes their radiative properties hard to forecast. Consequently, the radiative impact of Arctic clouds can highly vary from a configuration to another, which makes the modelling of Arctic clouds and climate especially difficult.
 
         % the precipitations are driven by the ice phase (see ref. from Jennifer Kay)
 
@@ -1122,14 +1148,14 @@ As for the MPCs, panel B indicates they have a cooling effect in summer, despite
 %-----------------------------------------------
     %  --> question d'ouverture : comment améliorer la modélisation du climat arctique ?
     \vspace{\baselineskip}
-    \boxspe{}{Opening questions}{
+    \boxOQ{Arctic climate}{
     \begin{itemize}
         \item What is the role of INPs modelling in the Arctic clouds representation in models? (\cref{chap5})
         \item Is there a relevant effect of INPs on the Arctic radiative budget through their interactions with clouds? (\cref{chap5})
-        \item [What else?]
+        %\item [What else?]
+            \todo{complete the list}
     \end{itemize}
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{General intention and plan}
@@ -1161,10 +1187,10 @@ All the questions raised as the sections went by, have led to the following gene
     In other words, \textbf{how the aerosol particles populations responsible of the Arctic clouds formation will evolve in a warming climate?}
 \end{center}
 
-Addressing this general question, will make us following a broad investigation plan that tackles every links of this hypothetical feedback loop.
+Addressing this general question, implies following a broad investigation plan that tackles every links of this hypothetical feedback loop.
 First, we will go through the development and evaluation of a method of mixed observation and modelling tools, for the identification of aerosols particles emission sources. The method will be applied on various Arctic INP datasets in order to get clues on their likely emission sources (\cref{chap3}). 
 
-Once the most important sources of INPs will be identified (\cref{chap3}), will be tackled the question of high latitude aerosol emissions modelling, and we will try to understand how they contribute to the observed populations of INPs (\cref{chap4}). It will be the occasion to evaluate different methodological approach of representing ice nucleation, which will lead us to introduce an original way of representing\----in a regional climate model\----INPs from particle emissions (\cref{chap4}).
+Once the most important sources of INPs are identified, will be tackled the question of high latitude aerosol emissions modelling, and we will try to understand how they contribute to the observed populations of INPs (\cref{chap4}). It will be the opportunity to evaluate different methodological approaches to represent ice nucleation, which will lead us to introduce an original way of representing\----in a regional climate model\----INPs from particle emissions (\cref{chap4}).
 
 In a third study, we will get to the actual impact of INPs on Arctic clouds. Their effect on the cloud phase, precipitations, lifetime and occurrence will eventually lead to the evaluation of INPs impacts on the Arctic clouds radiative effect (\cref{chap5}).
 
@@ -1182,6 +1208,7 @@ Eventually, \cref{fig:triptic_ACI} is an illustrative schematic of this plan. A 
 %    ==> need for modelling
 
 % figure triptic source, ACI, radiative effect of clouds, impact of GW on sources
+%\todo{Add numbers for the chapters}
         \begin{figure}[h]
             \centering
             \includegraphics[width=0.5\textwidth]{./chap1/images/mixed-phase-clouds.png}

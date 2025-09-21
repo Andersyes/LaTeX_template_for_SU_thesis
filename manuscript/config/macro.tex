@@ -119,16 +119,41 @@
 %{\ifoddpage {} \else {\newpage ~ \newpage} \fi}
 %}
 
-
-
-
-
-
-
-
-
-
-
+% setting of box OQ (opening questions) 
+\newcommand{\boxOQ}[2]{%
+\stepcounter{counterboxspe}
+\noindent
+\begin{center}
+    \begin{tcolorbox}[colback=OQcolor,
+                      colframe=black,
+                      width=0.9\textwidth,
+                      arc=3mm, auto outer arc,
+                     ]
+        \textbf{\textsc{Opening questions} $\vert$ #1}
+        \vspace{0.2cm}
+        \addcontentsline{toc}{subparagraph}{\scriptsize \textit{Opening questions: #1}}
+    #2
+    \end{tcolorbox}
+\end{center}
+}                                                                                                                                   
+% setting of box KR (key results) 
+\newcommand{\boxKR}[2]{%
+\stepcounter{counterboxspe}
+\noindent
+\begin{center}
+    \begin{tcolorbox}[colback=KRboxcolor,
+                      colframe=black,
+                      width=0.9\textwidth,
+                      arc=2mm, auto outer arc,
+                     ]
+        \textbf{\textsc{Key results} $\vert$ #1}
+        \vspace{0.2cm}
+        \addcontentsline{toc}{subparagraph}{\scriptsize \textit{Opening questions: #1}}
+    #2
+    \end{tcolorbox}
+\end{center}
+}                                                                                                                                   
+% Special box
 \newcommand{\boxspe}[3]{%
 \stepcounter{counterboxspe}
 \noindent
