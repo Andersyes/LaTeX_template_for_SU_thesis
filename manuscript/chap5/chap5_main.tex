@@ -6,8 +6,8 @@
 \chaptermark{Ice nucleating particles effects on phase partitioning and radiative properties of modelled clouds}
 
 
- \chapquote{
- }{the author}
+ \chapquote{The only way around is through.
+ }{Robert Frost}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -44,34 +44,25 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Microphysics scheme}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\todo{phrase d'intro}
-
-% ____________________________________________
-    \subsection{Linking aerosol particles to cloud microphysics}
     In the frame of this thesis, two microphysics parametrisations were used within WRF-Chem: the Morrison two-moment scheme \citep{morrison_impact_2009} and Thompson aerosol-aware \citep{thompson_study_2014}.
     Both of them provides mass mixing ratios and number concentrations of liquid and solid cloud particles.                                                      
-    The microphysics scheme that receives our modifications is Thompson aerosol-aware.
-    % list the different type of nucleation and how they are modelled
-    It handles ice nucleation through four distinct processes:
-    \begin{itemize}
-        \item Immersion nucleation
-        \item Deposition nucleation
-        \item Homogeneous freezing of aqueous aerosols
-        \item Freezing of precipitating water drops 
-    \end{itemize}
-
-    % we will modify only the immersion
-
-    \todo{write this section}
-
-    % note about the CCN
-
-    % maybe merge this section with the following
+    In this chapter, we focus on the Thompson aerosol-aware scheme. It is adapted in order to set up a comparison experiment that will highlight the effect of online modelling of aerosols particles on the modelled clouds.
 
 % ____________________________________________
-    \subsection{From INP tracers to cloud ice water}
-    The base setup used for this study is identical to the one described in \cref{tab:wrf-chem_setup}.
-    The microphysics module is modified in order to run the intended experiment on INP effects. The modifications are listed in \cref{tab:mp_INP_setup}.
+    %\subsection{From INP tracers to cloud ice water}
+    \subsection{Linking aerosol particles to cloud microphysics}
+    The microphysics scheme that receives our modifications is Thompson aerosol-aware \citep{thompson_study_2014}.
+    % list the different type of nucleation and how they are modelled
+    It handles ice nucleation through four distinct processes:
+        immersion nucleation,
+        deposition nucleation,
+        homogeneous freezing of aqueous aerosols,
+        and freezing of precipitating water drops.
+    % we will modify only the immersion
+    In the continuity of the precedent chapter where only immersion nucleation was studied, this experiment focus of the effect of aerosol-cloud interactions on the nucleation by immersion. Consequently, only the immersion parametrisation is modified.  
+
+    The base setup used is identical to the one described in \cref{tab:wrf-chem_setup}.
+    The microphysics module is modified in order to run the intended experiment on INP effects. The parameters and schemes used are listed in \cref{tab:mp_INP_setup}.
 
     \begin{table}[ht!]
         \centering
@@ -91,7 +82,6 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     \end{table}
 
     % how do we use the INP tracers
-    \todo{Description of how INP tracers are used}
     The only difference between the control and the test setup concerns the nucleation by immersion.
     In the control version, the number of ice crystals ($n_i$) is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86).
     In the test simulation, the $n_i$ values of C86 are replaced by the number concentrations of the INP tracers of \cref{chap4}. 
@@ -105,8 +95,13 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     In the particular case of $T <$ \tempc{-25}, the INP25 tracer is used. And when $T>$ \tempc{-5}, $n_i$ is set to $10^{-6}$ \si{\per\liter}.
     For comparison, the default value of $n_i$ in the standard Thompson scheme (i.e. non-aerosol-aware) is \SI{1}{\per\liter}.
     
-    
+    % note about the CCN
+    The aerosol engine used in the base WRF-Chem setup, GOCART, misses some aerosols sources that have been identified as important sources for CCNs. \todo{what are they exactly? what reference?}
+    Consequently, if the aerosol-aware microphysics scheme uses the aerosols produced by GOCART as water friendly aerosols (i.e. potential CCNs), it underestimates the formation of cloud water.
+    A biased diagnostic of droplets number concentrations ensued, which affects the overall cloud representation in the simulations.
+    In order to address this difficulty, as well as clearing any unwanted variability between the control and test simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\liter}. \todo{Explain this value}
 
+    
 
 %% ____________________________________________
 %    \subsubsection{Experimental modelling setup}
@@ -125,6 +120,7 @@ two possible cases:
 % ____________________________________________
     \subsection{Ice crystal number concentrations}
 
+    \missingfigure{Comparison of ice crystal number concentrations}
 
 % ____________________________________________
     \subsection{Cloud cover and cloud phase}
@@ -132,6 +128,8 @@ two possible cases:
 
 % ____________________________________________
     \subsection{Change in cloud radiative impact}
+
+    \missingfigure{Effect of cloud radiative impact}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
