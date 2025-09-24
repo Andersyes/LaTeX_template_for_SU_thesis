@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  23 SEP 2025 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  24 SEP 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1601,7 +1601,7 @@ Runaway argument?
                    \par 
 l.67 
      
-? R
+? RR
 OK, entering \nonstopmode...
 
 ! LaTeX Error: Missing \begin{document}.
@@ -2658,49 +2658,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                cmems_chla
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                copernicus-climate-change-service_c3s_era5_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                da_silva_backward_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                ehret_long-range_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ipcc_AR4_2007
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                shrod_long-term_2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                zwaaftink_substantial_2016
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -3638,19 +3596,8 @@ Package textcomp Info: Symbol \texttwosuperior not provided by
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 97.
-
-
-LaTeX Warning: Citation 'da_silva_backward_2025' on page 19 undefined on input 
-line 105.
-
-
-Overfull \hbox (26.67125pt too wide) in paragraph at lines 105--106
-\T1/ntxtlf/m/n/12 the dataset on the Bolin Data Cen-tre, and de-vel-oped the an
-al-y-sis tools ([];
- []
-
-[19{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
-c}]
+ [19{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
+nc}]
 Overfull \hbox (21.2233pt too wide) in paragraph at lines 137--138
 \T1/ntxtlf/m/n/12 I have been tu-to-rial leader for the trans-dis-ci-plinary co
 urse named \T1/ntxtlf/m/it/12 Anal-yse sys-témique de l'Anthropocène
@@ -4743,7 +4690,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/warming_evidences.png, id=658, 492.8814pt x 368.577pt>
+<./chap1/images/warming_evidences.png, id=667, 492.8814pt x 368.577pt>
 File: ./chap1/images/warming_evidences.png Graphic file (type png)
 <use ./chap1/images/warming_evidences.png>
 Package pdftex.def Info: ./chap1/images/warming_evidences.png  used on input li
@@ -4775,7 +4722,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/co2_2k_ce.pdf, id=693, 667.66628pt x 338.09306pt>
+<./chap1/images/co2_2k_ce.pdf, id=702, 667.66628pt x 338.09306pt>
 File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
 <use ./chap1/images/co2_2k_ce.pdf>
 Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 235.
@@ -4834,7 +4781,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/world_energy_consumption.png, id=742, 3770.085pt x 1067.99pt>
+<./chap1/images/world_energy_consumption.png, id=751, 3770.085pt x 1067.99pt>
 File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
 <use ./chap1/images/world_energy_consumption.png>
 Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
@@ -4862,7 +4809,7 @@ following unit was given.
 Package cleveref Info: loaded `english' language definitions on input line 268.
 
 [13]
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=755, 2133.9725pt x 1352.0
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=764, 2133.9725pt x 1352.0
 5125pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>
@@ -4881,7 +4828,7 @@ Package cleveref Info: loaded `english' language definitions on input line 288.
 Package cleveref Info: loaded `english' language definitions on input line 300.
 
  [15 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>]
-<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=773, 1973.3725pt x 1060.96375pt
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=782, 1973.3725pt x 1060.96375pt
 >
 File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
@@ -4894,7 +4841,7 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=778, 2134.97626pt x 2247.39626
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=787, 2134.97626pt x 2247.39626
 pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
@@ -4924,7 +4871,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 
 ! Undefined control sequence.
 l.415 ...-1864), sometime considered as the \texit
-                                                  {"Godfather of clouds"} fo...
+                                                  {``Godfather of clouds''} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4939,7 +4886,7 @@ Package cleveref Info: loaded `english' language definitions on input line 418.
 Package cleveref Info: loaded `english' language definitions on input line 442.
 
  [22]
-<./chap1/images/compile_nuages_v2.png, id=850, 831.5868pt x 495.5313pt>
+<./chap1/images/compile_nuages_v2.png, id=859, 831.5868pt x 495.5313pt>
 File: ./chap1/images/compile_nuages_v2.png Graphic file (type png)
 <use ./chap1/images/compile_nuages_v2.png>
 Package pdftex.def Info: ./chap1/images/compile_nuages_v2.png  used on input li
@@ -4966,7 +4913,7 @@ Package cleveref Info: loaded `english' language definitions on input line 520.
 Package cleveref Info: loaded `english' language definitions on input line 565.
 
  [26]
-<./chap1/images/stability.png, id=893, 779.0706pt x 411.939pt>
+<./chap1/images/stability.png, id=903, 779.0706pt x 411.939pt>
 File: ./chap1/images/stability.png Graphic file (type png)
 <use ./chap1/images/stability.png>
 Package pdftex.def Info: ./chap1/images/stability.png  used on input line 583.
@@ -4983,7 +4930,7 @@ Overfull \hbox (4.19562pt too wide) in paragraph at lines 609--609
 [][][]\T1/ntxtlf/m/n/10 paragraph 
  []
 
-<./chap1/images/matus_cloud_frac.png, id=906, 1553.44pt x 420.48pt>
+<./chap1/images/matus_cloud_frac.png, id=915, 1553.44pt x 420.48pt>
 File: ./chap1/images/matus_cloud_frac.png Graphic file (type png)
 <use ./chap1/images/matus_cloud_frac.png>
 Package pdftex.def Info: ./chap1/images/matus_cloud_frac.png  used on input lin
@@ -5044,7 +4991,7 @@ deleted material, e.g., by typing `I$}'.
 Package cleveref Info: loaded `english' language definitions on input line 730.
 
 [31{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<./chap1/images/hetero_nucleation.png, id=950, 1194.864pt x 372.4314pt>
+<./chap1/images/hetero_nucleation.png, id=959, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
 Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
@@ -5076,7 +5023,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/homogeneous_nucleation_rate.png, id=964, 578.16pt x 361.35pt>
+<./chap1/images/homogeneous_nucleation_rate.png, id=973, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
@@ -5115,24 +5062,13 @@ Package cleveref Info: loaded `english' language definitions on input line 809.
 Package cleveref Info: loaded `english' language definitions on input line 841.
 
  [35]
-<./chap1/images/aerosols_effects.jpg, id=1009, 1282.7925pt x 542.025pt>
+<./chap1/images/aerosols_effects.jpg, id=1018, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
 e 848.
 (pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
-
-
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 36 undefined on input line 849.
-
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 849.
-
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 36 undefined on input line 849.
-
-
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1010, 841.1425pt x 8
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1021, 841.1425pt x 8
 13.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
@@ -5142,11 +5078,11 @@ Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png
 (pdftex.def)             Requested size: 230.46729pt x 222.761pt.
 Package cleveref Info: loaded `english' language definitions on input line 861.
 
-[36 <./chap1/images/aerosols_effects.jpg>]
+ [36 <./chap1/images/aerosols_effects.jpg>]
 Package cleveref Info: loaded `english' language definitions on input line 877.
 
  [37 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
-<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1033, 462.528pt x 260.172pt>
+<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1046, 462.528pt x 260.172pt>
 File: ./chap1/images/nuages/seasprays_pic_HD.jpg Graphic file (type jpg)
 <use ./chap1/images/nuages/seasprays_pic_HD.jpg>
 Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic_HD.jpg  used on in
@@ -5165,7 +5101,7 @@ Package cleveref Info: loaded `english' language definitions on input line 915.
 Package cleveref Info: loaded `english' language definitions on input line 942.
 
  [40]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1067, 1179.2055pt x 858.5676pt>
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1079, 1179.2055pt x 858.5676pt>
 File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
 <use ./chap1/images/Ninp_cycle_Utqiagvik.png>
 Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
@@ -5261,7 +5197,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/arctic_map_upscaled.png, id=1095, 3268.21pt x 3345.49875pt>
+<./chap1/images/arctic_map_upscaled.png, id=1107, 3268.21pt x 3345.49875pt>
 File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
 <use ./chap1/images/arctic_map_upscaled.png>
 Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
@@ -5285,7 +5221,7 @@ Overfull \hbox (4.94563pt too wide) in paragraph at lines 1011--1011
 Package cleveref Info: loaded `english' language definitions on input line 1019
 .
 [44 <./chap1/images/arctic_map_upscaled.png>]
-<./chap1/images/arctic_ampli.png, id=1117, 565.1514pt x 349.7868pt>
+<./chap1/images/arctic_ampli.png, id=1129, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
 Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
@@ -5298,7 +5234,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package cleveref Info: loaded `english' language definitions on input line 1047
 .
 [45]
-<./chap1/images/SLP_AO.png, id=1135, 849.1725pt x 676.5275pt>
+<./chap1/images/SLP_AO.png, id=1147, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
 Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1050.
@@ -5332,12 +5268,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package cleveref Info: loaded `english' language definitions on input line 1059
 .
 [46 <./chap1/images/arctic_ampli.png>]
-<./chap1/images/AA_feedbacks.png, id=1153, 489.5088pt x 206.2104pt>
+<./chap1/images/AA_feedbacks.png, id=1165, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 10
 74.
 (pdftex.def)             Requested size: 460.93457pt x 194.17447pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 1075.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -5348,7 +5286,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1085
 Package cleveref Info: loaded `english' language definitions on input line 1105
 .
  [48 <./chap1/images/AA_feedbacks.png>]
-<./chap1/images/matus_CRE.png, id=1182, 1635.2pt x 411.72pt>
+<./chap1/images/matus_CRE.png, id=1194, 1635.2pt x 411.72pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
 Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1130.
@@ -5377,7 +5315,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1156
 Package cleveref Info: loaded `english' language definitions on input line 1173
 .
  [50 <./chap1/images/matus_CRE.png>]
-<./chap1/images/mixed-phase-clouds.png, id=1205, 413.3844pt x 315.0972pt>
+<./chap1/images/mixed-phase-clouds.png, id=1217, 413.3844pt x 315.0972pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
@@ -5427,49 +5365,948 @@ Package cleveref Info: loaded `english' language definitions on input line 29.
  [54]
 Package cleveref Info: loaded `english' language definitions on input line 67.
  [55]
-Overfull \hbox (62.6135pt too wide) in paragraph at lines 87--99
+Package cleveref Info: loaded `english' language definitions on input line 84.
+ [56]
+Overfull \hbox (83.37346pt too wide) in paragraph at lines 87--100
  [][] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 104.
-
-[56]
-Overfull \hbox (62.6135pt too wide) in paragraph at lines 120--140
- [][] 
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 150.
+Package cleveref Info: loaded `english' language definitions on input line 117.
 
 [57]
-Package cleveref Info: loaded `english' language definitions on input line 164.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125 ...lated online as in citet{chatziparaschos_
+                                                  assessing_2024}. Specifica...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- [58]
-Package cleveref Info: loaded `english' language definitions on input line 193.
+! Extra }, or forgotten $.
+l.125 ... in citet{chatziparaschos_assessing_2024}
+                                                  . Specifically, emissions ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
- [59]
-Package cleveref Info: loaded `english' language definitions on input line 214.
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
+                                                  \blx@sf@dot 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.125 ...index \citep{hummel_regional-scale_2015} 
+                                                  and bacteria as a constant...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
+                                                  \blx@sf@dot 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.125 ...type as in \citet{burrows_bacteria_2009}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
+                                                  \blx@sf@dot 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.126 ...of ECLIPSEv6 \citep{klimont_global_2024} 
+                                                  and FINNv1.5 \citep{wiedin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
+                                                  \blx@sf@dot 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.126 ... FINNv1.5 \citep{wiedinmyer_global_2014} 
+                                                  respectively, but fire emi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\abx@dot ...stkern >\z@ \unkern \fi .\spacefactor 
+                                                  \blx@sf@dot 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.126 ...ording to \citet{freitas_including_2007}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Command $ invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \ttfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+
+Please use the math alphabet \mathtt instead of the \ttfamily command. 
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ê in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no è in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ê in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no è in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ê in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no è in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ê in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no è in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ê in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no ò in font lmex10!
+Missing character: There is no è in font lmex10!
+! Undefined control sequence.
+\Url@FormatString ...ndafter \UrlLeft \Url@String 
+                                                  \UrlRight \m@th $
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\Hy@endcolorlink ->\endgroup 
+                             
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\hyper@linkurl ...ce@end \close@pdflink \endgroup 
+                                                  
+l.127 ...ional-Modeling-LATMOS-IGE/WRF-Chem-Polar}
+                                                  ) following \citet{emerson...
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (287.83969pt too wide) in paragraph at lines 122--128
+\T1/ntxtlf/m/n/12 citetchatziparaschos$[]\OML/lmm/m/it/12 ssessing[]\OT1/lmr/m/
+n/12 024\OML/lmm/m/it/12 :Specifically; emissionsoffungalsporesarecalculatedasa
+functionoftemperatureandleafareaindex\OT1/lmr/m/n/12 ([][][][][][]\OML/lmm/m/it
+/12 HummelEt
+ []
+
+
+Overfull \hbox (627.13231pt too wide) in paragraph at lines 122--128
+\OML/lmm/m/it/12 al:; [][]\OT1/lmr/m/n/12 2015[][])\OML/lmm/m/it/12 andbacteria
+asaconstantfluxdependingonlyonlandsurfacetypeasin[][][][][][]BurrowsEtal:\OT1/l
+mr/m/n/12 ([][]2009[][])\OML/lmm/m/it/12 :Anthropogenicandbiomassburningaerosol
+sareemittedbasedontheofflineinventoriesofECLIPSEv\OT1/lmr/m/n/12 6([][][][][][]
+\OML/lmm/m/it/12 KlimontEt
+ []
+
+
+Overfull \hbox (251.13364pt too wide) in paragraph at lines 122--128
+\OML/lmm/m/it/12 al:; [][]\OT1/lmr/m/n/12 2024[][])\OML/lmm/m/it/12 andFINNv\OT
+1/lmr/m/n/12 1\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 5([][][][][][]\OML/lmm/m/it/12 
+WiedinmyerEtal:; [][]\OT1/lmr/m/n/12 2014[][])\OML/lmm/m/it/12 respectively; bu
+tfireemissionsinjectionheightsarecalculateonlineaccordingto[][][][][][]FreitasE
+t
+ []
+
+
+Overfull \hbox (58.33475pt too wide) in paragraph at lines 122--128
+\OML/lmm/m/it/12 al:\OT1/lmr/m/n/12 ([][]2007[][])\OML/lmm/m/it/12 :Dryandwetde
+positionarenotincludedinthebaseversionoftheGOCARTmodelwithinWRF \OMS/lmsy/m/n/1
+2 ^^@
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 128.
+
+[58]
+Overfull \hbox (83.37346pt too wide) in paragraph at lines 135--159
+ [][] 
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 169.
+
+[59]
+Package cleveref Info: loaded `english' language definitions on input line 190.
 
  [60]
+Package cleveref Info: loaded `english' language definitions on input line 208.
 
-LaTeX Warning: Citation 'copernicus-climate-change-service_c3s_era5_2017' on pa
-ge 61 undefined on input line 233.
+ [61]
 
-Package cleveref Info: loaded `english' language definitions on input line 239.
+LaTeX Warning: Citation 'thomspon_study_2014' on page 62 undefined on input lin
+e 214.
 
-[61]
+
+Overfull \hbox (15.38083pt too wide) in paragraph at lines 214--216
+\T1/ntxtlf/m/n/12 ([][]Thomp-son et al., [][]2004[][]), in-clud-ing the Thomp-s
+on 2-moment aerosol-aware ([])
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 226.
+
+[62]
+
+LaTeX Warning: Citation 'hoose_how_2010' on page 63 undefined on input line 234
+.
+
+Package cleveref Info: loaded `english' language definitions on input line 255.
+
+[63]
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 240.
+(textcomp)             Default family used instead on input line 261.
+Package cleveref Info: loaded `english' language definitions on input line 272.
 
-
-LaTeX Warning: Citation 'schrod_long-term_2020' on page 62 undefined on input l
-ine 249.
-
-Package cleveref Info: loaded `english' language definitions on input line 256.
-
-[62])
+ [64])
 Package cleveref Info: loaded `english' language definitions on input line 61.
- [63]
+ [65]
 \openout2 = `chap3/chap3_main.aux'.
 
  (./chap3/chap3_main.tex
@@ -5485,24 +6322,24 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 14.
-[64
+[66
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [65]
+) [67]
 Package cleveref Info: loaded `english' language definitions on input line 77.
- [66]
+ [68]
 Package cleveref Info: loaded `english' language definitions on input line 92.
- [67]
+ [69]
 Package cleveref Info: loaded `english' language definitions on input line 103.
 
- [68]
+ [70]
 Package cleveref Info: loaded `english' language definitions on input line 122.
 
- [69]
+ [71]
 ! Undefined control sequence.
 l.123         \subsubsubsection
                                {Model setup} %XXLM tu peux utiliser \textbf{...
@@ -5532,18 +6369,18 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 192.
 
-[70]
-<./chap3/images/f01.png, id=1560, 1038.7608pt x 715.473pt>
+[72]
+<./chap3/images/f01.png, id=1632, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 194.
 (pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
 Package cleveref Info: loaded `english' language definitions on input line 205.
 
- [71 <./chap3/images/f01.png>]
+ [73 <./chap3/images/f01.png>]
 Package cleveref Info: loaded `english' language definitions on input line 225.
 
- [72]
+ [74]
 ! Undefined control sequence.
 l.230         \subsubsubsection
                                {Emission configureation in FLEXPART}
@@ -5560,36 +6397,36 @@ Overfull \hbox (18.84698pt too wide) in paragraph at lines 245--258
 
 Package cleveref Info: loaded `english' language definitions on input line 271.
 
-[73]
+[75]
 Package cleveref Info: loaded `english' language definitions on input line 295.
 
- [74]
+ [76]
 Package cleveref Info: loaded `english' language definitions on input line 335.
 
- [75]
+ [77]
 Package cleveref Info: loaded `english' language definitions on input line 373.
 
- [76]
-<./chap3/images/f02.png, id=1641, 742.6947pt x 457.71pt>
+ [78]
+<./chap3/images/f02.png, id=1713, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
 Package pdftex.def Info: ./chap3/images/f02.png  used on input line 375.
 (pdftex.def)             Requested size: 460.93457pt x 284.06361pt.
 Package cleveref Info: loaded `english' language definitions on input line 399.
 
- [77 <./chap3/images/f02.png>]
+ [79 <./chap3/images/f02.png>]
 Package cleveref Info: loaded `english' language definitions on input line 419.
 
- [78]
-<./chap3/images/f03.png, id=1670, 1038.7608pt x 715.473pt>
+ [80]
+<./chap3/images/f03.png, id=1741, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
 Package pdftex.def Info: ./chap3/images/f03.png  used on input line 421.
 (pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
 Package cleveref Info: loaded `english' language definitions on input line 437.
 
- [79 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=1688, 1115.6079pt x 832.0686pt>
+ [81 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=1759, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
 Package pdftex.def Info: ./chap3/images/f04.png  used on input line 461.
@@ -5618,61 +6455,44 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 485.
 
-[80]
+[82]
 Package cleveref Info: loaded `english' language definitions on input line 493.
 
- [81 <./chap3/images/f04.png>]
+ [83 <./chap3/images/f04.png>]
 Package cleveref Info: loaded `english' language definitions on input line 507.
 
- [82]
-
-! LaTeX Error: Unknown float option `n'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.545         \begin{figure}[n]
-                               
-Option `n' ignored and `p' used.
-
-<./chap3/images/f05.png, id=1720, 1106.4537pt x 840.9819pt>
+ [84]
+<./chap3/images/f05.png, id=1791, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
-Package pdftex.def Info: ./chap3/images/f05.png  used on input line 546.
-(pdftex.def)             Requested size: 460.93457pt x 350.33556pt.
-Package cleveref Info: loaded `english' language definitions on input line 557.
+Package pdftex.def Info: ./chap3/images/f05.png  used on input line 547.
+(pdftex.def)             Requested size: 368.74905pt x 280.27101pt.
+Package cleveref Info: loaded `english' language definitions on input line 558.
 
-[83]
-Package cleveref Info: loaded `english' language definitions on input line 557.
+ [85]
+Package cleveref Info: loaded `english' language definitions on input line 577.
 
- [84 <./chap3/images/f05.png>]
-<./chap3/images/f06.png, id=1744, 752.0898pt x 457.71pt>
+ [86 <./chap3/images/f05.png>]
+<./chap3/images/f06.png, id=1815, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
-Package pdftex.def Info: ./chap3/images/f06.png  used on input line 578.
+Package pdftex.def Info: ./chap3/images/f06.png  used on input line 579.
 (pdftex.def)             Requested size: 460.93457pt x 280.52269pt.
+Package cleveref Info: loaded `english' language definitions on input line 601.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[87]
+Package cleveref Info: loaded `english' language definitions on input line 614.
 
-Package cleveref Info: loaded `english' language definitions on input line 589.
-
-[85]
-Package cleveref Info: loaded `english' language definitions on input line 600.
-
- [86 <./chap3/images/f06.png>]
-Package cleveref Info: loaded `english' language definitions on input line 633.
-
- [87]
-<./chap3/images/f07.png, id=1773, 722.7pt x 505.89pt>
+ [88 <./chap3/images/f06.png>]
+<./chap3/images/f07.png, id=1838, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
-Package pdftex.def Info: ./chap3/images/f07.png  used on input line 636.
+Package pdftex.def Info: ./chap3/images/f07.png  used on input line 637.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
 
 ! Undefined control sequence.
-l.641 \hack
+l.642 \hack
            {\newpage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5680,156 +6500,145 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package cleveref Info: loaded `english' language definitions on input line 641.
-
-[88 <./chap3/images/f07.png>]
-<./chap3/images/f08.png, id=1785, 734.2632pt x 477.9456pt>
-File: ./chap3/images/f08.png Graphic file (type png)
-<use ./chap3/images/f08.png>
-Package pdftex.def Info: ./chap3/images/f08.png  used on input line 662.
-(pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package cleveref Info: loaded `english' language definitions on input line 683.
+Package cleveref Info: loaded `english' language definitions on input line 642.
 
 [89]
-<./chap3/images/f09.png, id=1810, 377.7312pt x 720.7728pt>
+Package cleveref Info: loaded `english' language definitions on input line 660.
+
+ [90 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=1861, 734.2632pt x 477.9456pt>
+File: ./chap3/images/f08.png Graphic file (type png)
+<use ./chap3/images/f08.png>
+Package pdftex.def Info: ./chap3/images/f08.png  used on input line 663.
+(pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
+Package cleveref Info: loaded `english' language definitions on input line 684.
+
+ [91 <./chap3/images/f08.png>]
+<./chap3/images/f09.png, id=1882, 377.7312pt x 720.7728pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
-Package pdftex.def Info: ./chap3/images/f09.png  used on input line 686.
-(pdftex.def)             Requested size: 284.52756pt x 542.93185pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package cleveref Info: loaded `english' language definitions on input line 702.
-
-[90 <./chap3/images/f08.png>]
-Package cleveref Info: loaded `english' language definitions on input line 725.
-
- [91]
-Package cleveref Info: loaded `english' language definitions on input line 749.
+Package pdftex.def Info: ./chap3/images/f09.png  used on input line 687.
+(pdftex.def)             Requested size: 230.46729pt x 439.78075pt.
+Package cleveref Info: loaded `english' language definitions on input line 716.
 
  [92]
-Package cleveref Info: loaded `english' language definitions on input line 772.
+Package cleveref Info: loaded `english' language definitions on input line 737.
 
  [93]
-Package cleveref Info: loaded `english' language definitions on input line 779.
+Package cleveref Info: loaded `english' language definitions on input line 762.
 
- [94]
-Package cleveref Info: loaded `english' language definitions on input line 779.
 
- [95 <./chap3/images/f09.png>]
-Package cleveref Info: loaded `english' language definitions on input line 809.
+[94]
+Package cleveref Info: loaded `english' language definitions on input line 780.
 
-[96
+ [95]
+Package cleveref Info: loaded `english' language definitions on input line 780.
+
+ [96 <./chap3/images/f09.png>]
+Package cleveref Info: loaded `english' language definitions on input line 810.
+
+ [97
 
 ]
-<./chap3/images/source_and_series_MOCCHA.png, id=1895, 470.2368pt x 270.7716pt>
+<./chap3/images/source_and_series_MOCCHA.png, id=1961, 470.2368pt x 270.7716pt>
 
 File: ./chap3/images/source_and_series_MOCCHA.png Graphic file (type png)
 <use ./chap3/images/source_and_series_MOCCHA.png>
 Package pdftex.def Info: ./chap3/images/source_and_series_MOCCHA.png  used on i
-nput line 812.
+nput line 813.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
-Package cleveref Info: loaded `english' language definitions on input line 826.
+Package cleveref Info: loaded `english' language definitions on input line 827.
 
- [97 <./chap3/images/source_and_series_MOCCHA.png>]
+ [98 <./chap3/images/source_and_series_MOCCHA.png>]
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 828.
-<./chap3/images/source_PBAPs.png, id=1914, 1701.35625pt x 813.0375pt>
+(textcomp)             Default family used instead on input line 829.
+<./chap3/images/source_PBAPs.png, id=1981, 1701.35625pt x 813.0375pt>
 File: ./chap3/images/source_PBAPs.png Graphic file (type png)
 <use ./chap3/images/source_PBAPs.png>
 Package pdftex.def Info: ./chap3/images/source_PBAPs.png  used on input line 83
-4.
+5.
 (pdftex.def)             Requested size: 460.93457pt x 220.26741pt.
+Package cleveref Info: loaded `english' language definitions on input line 854.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package cleveref Info: loaded `english' language definitions on input line 853.
-
-[98]
-<./chap3/images/source_and_series_MOSAIC.png, id=1926, 595.7457pt x 704.1507pt>
+ [99]
+<./chap3/images/source_and_series_MOSAIC.png, id=1993, 595.7457pt x 704.1507pt>
 
 File: ./chap3/images/source_and_series_MOSAIC.png Graphic file (type png)
 <use ./chap3/images/source_and_series_MOSAIC.png>
 Package pdftex.def Info: ./chap3/images/source_and_series_MOSAIC.png  used on i
-nput line 856.
+nput line 857.
 (pdftex.def)             Requested size: 368.74905pt x 435.85979pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 868.
+Package cleveref Info: loaded `english' language definitions on input line 869.
 
-[99 <./chap3/images/source_PBAPs.png>]
-Package cleveref Info: loaded `english' language definitions on input line 890.
+[100 <./chap3/images/source_PBAPs.png>]
+Package cleveref Info: loaded `english' language definitions on input line 891.
 
- [100]
-Overfull \hbox (2.92119pt too wide) in paragraph at lines 891--892
+ [101]
+Overfull \hbox (2.92119pt too wide) in paragraph at lines 892--893
 []\T1/ntxtlf/m/n/12 These re-sults shed new light on the min-eral na-ture of th
 e INPs ob-served dur-ing the ARTofMELT
  []
 
-<./chap3/images/source_and_series_ARTofMELT.png, id=1952, 470.2368pt x 270.7716
+<./chap3/images/source_and_series_ARTofMELT.png, id=2019, 470.2368pt x 270.7716
 pt>
 File: ./chap3/images/source_and_series_ARTofMELT.png Graphic file (type png)
 <use ./chap3/images/source_and_series_ARTofMELT.png>
 Package pdftex.def Info: ./chap3/images/source_and_series_ARTofMELT.png  used o
-n input line 897.
+n input line 898.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 904.
+Package cleveref Info: loaded `english' language definitions on input line 905.
 
-[101]
-Package cleveref Info: loaded `english' language definitions on input line 904.
+[102]
+Package cleveref Info: loaded `english' language definitions on input line 905.
 
- [102 <./chap3/images/source_and_series_MOSAIC.png>]
-Package cleveref Info: loaded `english' language definitions on input line 904.
+ [103 <./chap3/images/source_and_series_MOSAIC.png>]
+Package cleveref Info: loaded `english' language definitions on input line 905.
 
- [103 <./chap3/images/source_and_series_ARTofMELT.png>]
+ [104 <./chap3/images/source_and_series_ARTofMELT.png>]
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 912.
+(textcomp)             Default family used instead on input line 913.
 
 
 LaTeX Warning: cref reference format for label type `' undefined on input line 
-912.
+913.
 
-<./chap3/images/Co_concentrations.png, id=1976, 396.5214pt x 259.6902pt>
+<./chap3/images/Co_concentrations.png, id=2042, 396.5214pt x 259.6902pt>
 File: ./chap3/images/Co_concentrations.png Graphic file (type png)
 <use ./chap3/images/Co_concentrations.png>
 Package pdftex.def Info: ./chap3/images/Co_concentrations.png  used on input li
-ne 923.
+ne 924.
 (pdftex.def)             Requested size: 460.93457pt x 301.89067pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'ehret_long-range_2025' on page 104 undefined on input 
-line 928.
+LaTeX Warning: Citation 'ehret_long-range_2025' on page 105 undefined on input 
+line 929.
 
-Package cleveref Info: loaded `english' language definitions on input line 935.
+Package cleveref Info: loaded `english' language definitions on input line 936.
 
-[104
+[105
 
 ]
-Package cleveref Info: loaded `english' language definitions on input line 953.
+Package cleveref Info: loaded `english' language definitions on input line 954.
 
- [105 <./chap3/images/CO_concentrations.png>]
-<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=1993, 6020.4
+ [106 <./chap3/images/CO_concentrations.png>]
+<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=2059, 6020.4
 925pt x 2861.69125pt>
 File: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png Graphic fil
 e (type png)
 <use ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>
 Package pdftex.def Info: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Pa
-ris.png  used on input line 956.
+ris.png  used on input line 957.
 (pdftex.def)             Requested size: 460.93457pt x 219.0715pt.
 
 
@@ -5838,7 +6647,7 @@ ris.png  used on input line 956.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 
 The input '\metre ' could not be parsed as a number following the format
@@ -5848,7 +6657,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -5862,7 +6671,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -5871,7 +6680,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5879,7 +6688,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5893,7 +6702,7 @@ my insertion and my current dilemma will both disappear.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 
 The input '\metre ' could not be parsed as a number following the format
@@ -5903,7 +6712,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -5917,7 +6726,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -5926,7 +6735,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5934,7 +6743,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.958 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5943,45 +6752,45 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (1.36424pt too wide) in paragraph at lines 963--966
+Overfull \hbox (1.36424pt too wide) in paragraph at lines 964--967
 \T1/ntxtlf/m/n/12 In or-der to get a more com-plete source de-tec-tion, we can 
 ap-ply the sug-ges-tion made in [][]Sect. III.2.3.5[][]
  []
 
-<./chap3/images/multiloc_fire_season.png, id=1996, 395.5578pt x 246.6816pt>
+<./chap3/images/multiloc_fire_season.png, id=2062, 395.5578pt x 246.6816pt>
 File: ./chap3/images/multiloc_fire_season.png Graphic file (type png)
 <use ./chap3/images/multiloc_fire_season.png>
 Package pdftex.def Info: ./chap3/images/multiloc_fire_season.png  used on input
- line 969.
+ line 970.
 (pdftex.def)             Requested size: 460.93457pt x 287.46826pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 979.
+Package cleveref Info: loaded `english' language definitions on input line 980.
 
-[106 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
-Package cleveref Info: loaded `english' language definitions on input line 995.
+[107 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
+Package cleveref Info: loaded `english' language definitions on input line 996.
 
- [107 <./chap3/images/multiloc_fire_season.png>]
+ [108 <./chap3/images/multiloc_fire_season.png>]
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 1004.
-<./chap3/images/violin_plot_allCampaigns.png, id=2017, 722.7pt x 433.62pt>
+(textcomp)             Default family used instead on input line 1005.
+<./chap3/images/violin_plot_allCampaigns.png, id=2083, 722.7pt x 433.62pt>
 File: ./chap3/images/violin_plot_allCampaigns.png Graphic file (type png)
 <use ./chap3/images/violin_plot_allCampaigns.png>
 Package pdftex.def Info: ./chap3/images/violin_plot_allCampaigns.png  used on i
-nput line 1030.
+nput line 1032.
 (pdftex.def)             Requested size: 368.74905pt x 221.24913pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 1037
+Package cleveref Info: loaded `english' language definitions on input line 1039
 .
-[108]
-Package cleveref Info: loaded `english' language definitions on input line 1052
+[109]
+Package cleveref Info: loaded `english' language definitions on input line 1054
 .
- [109 <./chap3/images/violin_plot_allCampaigns.png>]
+ [110 <./chap3/images/violin_plot_allCampaigns.png>]
 
 ! LaTeX Error: No counter 'counterboxspe' defined.
 
@@ -5989,7 +6798,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1070     }
+l.1072     }
             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5997,7 +6806,7 @@ or  <return>  to continue without it.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [110]
+ [111]
 \openout2 = `chap4/chap4_main.aux'.
 
  (./chap4/chap4_main.tex
@@ -6012,23 +6821,22 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[111
+Package cleveref Info: loaded `english' language definitions on input line 12.
+[112
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-)
-Package cleveref Info: loaded `english' language definitions on input line 24.
- [112]
+) [113]
 Package cleveref Info: loaded `english' language definitions on input line 60.
- [113]
-Package cleveref Info: loaded `english' language definitions on input line 92.
  [114]
+Package cleveref Info: loaded `english' language definitions on input line 92.
+ [115]
 Package cleveref Info: loaded `english' language definitions on input line 122.
 
- [115]
+ [116]
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\T1/ntxtlf/m/n/12 Bins
  []
@@ -6089,17 +6897,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
 Package cleveref Info: loaded `english' language definitions on input line 166.
 
-[116]
-
-LaTeX Warning: Citation 'cmems_chla' on page 117 undefined on input line 167.
-
-<./chap4/images/Emission_maps_august.v16.png, id=2204, 1805.74625pt x 1507.6325
+[117]
+<./chap4/images/Emission_maps_august.v16.png, id=2270, 1805.74625pt x 1507.6325
 pt>
 File: ./chap4/images/Emission_maps_august.v16.png Graphic file (type png)
 <use ./chap4/images/Emission_maps_august.v16.png>
 Package pdftex.def Info: ./chap4/images/Emission_maps_august.v16.png  used on i
 nput line 190.
 (pdftex.def)             Requested size: 460.93457pt x 384.82079pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -6108,16 +6914,16 @@ Package caption Warning: \label without proper reference on input line 209.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 117 undefined on input 
+LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 118 undefined on input 
 line 200.
 
 Package cleveref Info: loaded `english' language definitions on input line 203.
 
-[117]
+[118]
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 119 moved.
 
-<./chap4/images/NinpVsT_date.png, id=2224, 867.24pt x 722.7pt>
+<./chap4/images/NinpVsT_date.png, id=2288, 867.24pt x 722.7pt>
 File: ./chap4/images/NinpVsT_date.png Graphic file (type png)
 <use ./chap4/images/NinpVsT_date.png>
 Package pdftex.def Info: ./chap4/images/NinpVsT_date.png  used on input line 21
@@ -6128,7 +6934,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 224.
 
-[118 <./chap4/images/Emission_maps_august.v16.png>]
+[119 <./chap4/images/Emission_maps_august.v16.png>]
 
 ! Package siunitx Error: Found power part with no unit.
 
@@ -6157,7 +6963,7 @@ Each power part must be associated with a unit: a power part was found but no
 following unit was given.
 
 
-<./chap4/images/icenuc_schemes_201888-0h.png, id=2252, 2407.99625pt x 1722.435p
+<./chap4/images/icenuc_schemes_201888-0h.png, id=2317, 2407.99625pt x 1722.435p
 t>
 File: ./chap4/images/icenuc_schemes_201888-0h.png Graphic file (type png)
 <use ./chap4/images/icenuc_schemes_201888-0h.png>
@@ -6198,7 +7004,7 @@ look up `weird error' in the index to The TeXbook.)
 
 Package cleveref Info: loaded `english' language definitions on input line 250.
 
-[119 <./chap4/images/NinpVsT_date.png>]
+[120 <./chap4/images/NinpVsT_date.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 258.
@@ -6212,7 +7018,7 @@ Overfull \hbox (33.73285pt too wide) in paragraph at lines 254--270
 
 Package cleveref Info: loaded `english' language definitions on input line 312.
 
-[120 <./chap4/images/icenuc_schemes_201888-0h.png>]
+[121 <./chap4/images/icenuc_schemes_201888-0h.png>]
 ! Undefined control sequence.
 <argument> \micrometre 
                        
@@ -6235,7 +7041,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap4/images/activation_fractions.png, id=2286, 1170.0513pt x 421.3341pt>
+<./chap4/images/activation_fractions.png, id=2351, 1170.0513pt x 421.3341pt>
 File: ./chap4/images/activation_fractions.png Graphic file (type png)
 <use ./chap4/images/activation_fractions.png>
 Package pdftex.def Info: ./chap4/images/activation_fractions.png  used on input
@@ -6246,19 +7052,19 @@ Package caption Warning: \label without proper reference on input line 347.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:inp_emiss' on page 121 undefined on input line 34
+LaTeX Warning: Reference `tab:inp_emiss' on page 122 undefined on input line 34
 4.
 
 Package cleveref Info: loaded `english' language definitions on input line 345.
 
-[121]
+[122]
 Overfull \hbox (51.44545pt too wide) in paragraph at lines 350--361
  [][] 
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 375.
 
-[122 <./chap4/images/activation_fractions.png>]
+[123 <./chap4/images/activation_fractions.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 400.
@@ -6273,9 +7079,9 @@ Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             Default family used instead on input line 409.
 Package cleveref Info: loaded `english' language definitions on input line 414.
 
- [123]
-<./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png, id=231
-5, 2864.7025pt x 2729.19624pt>
+ [124]
+<./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png, id=238
+0, 2864.7025pt x 2729.19624pt>
 File: ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png Gr
 aphic file (type png)
 <use ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>
@@ -6286,7 +7092,7 @@ VSobs_3h.v16.png  used on input line 420.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap4/images/icenuc_params_152025.png, id=2325, 1158.0063pt x 479.6319pt>
+<./chap4/images/icenuc_params_152025.png, id=2390, 1158.0063pt x 479.6319pt>
 File: ./chap4/images/icenuc_params_152025.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_152025.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_152025.png  used on input
@@ -6294,14 +7100,14 @@ Package pdftex.def Info: ./chap4/images/icenuc_params_152025.png  used on input
 (pdftex.def)             Requested size: 460.93457pt x 190.91258pt.
 Package cleveref Info: loaded `english' language definitions on input line 449.
 
-[124]
+[125]
 Package cleveref Info: loaded `english' language definitions on input line 459.
 
- [125 <./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>]
+ [126 <./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>]
 Package cleveref Info: loaded `english' language definitions on input line 483.
 
- [126]
-<./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png, id=2356, 3009.2425pt x 2906.8
+ [127]
+<./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png, id=2420, 3009.2425pt x 2906.8
 6pt>
 File: ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png Graphic file (type png)
 <use ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>
@@ -6314,8 +7120,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 512.
 
-[127]
-<./chap4/images/INP_maps_moccha.png, id=2367, 1136.8071pt x 569.7285pt>
+[128]
+<./chap4/images/INP_maps_moccha.png, id=2431, 1136.8071pt x 569.7285pt>
 File: ./chap4/images/INP_maps_moccha.png Graphic file (type png)
 <use ./chap4/images/INP_maps_moccha.png>
 Package pdftex.def Info: ./chap4/images/INP_maps_moccha.png  used on input line
@@ -6323,8 +7129,8 @@ Package pdftex.def Info: ./chap4/images/INP_maps_moccha.png  used on input line
 (pdftex.def)             Requested size: 460.93457pt x 231.00827pt.
 Package cleveref Info: loaded `english' language definitions on input line 547.
 
- [128 <./chap4/images/icenuc_params_152025.png>]
-<./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png, id=2377, 3009.2425pt x 2913.8
+ [129 <./chap4/images/icenuc_params_152025.png>]
+<./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png, id=2441, 3009.2425pt x 2913.8
 8625pt>
 File: ./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png Graphic file (type png)
 <use ./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png>
@@ -6333,11 +7139,11 @@ on input line 550.
 (pdftex.def)             Requested size: 368.74905pt x 357.032pt.
 Package cleveref Info: loaded `english' language definitions on input line 557.
 
- [129 <./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>]
+ [130 <./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>]
 Package cleveref Info: loaded `english' language definitions on input line 580.
 
- [130 <./chap4/images/INP_maps_moccha.png>]
-<./chap4/images/icenuc_params_organics.png, id=2403, 722.7pt x 578.16pt>
+ [131 <./chap4/images/INP_maps_moccha.png>]
+<./chap4/images/icenuc_params_organics.png, id=2468, 722.7pt x 578.16pt>
 File: ./chap4/images/icenuc_params_organics.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_organics.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_organics.png  used on inp
@@ -6349,13 +7155,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 601.
 
-[131]
+[132]
 Package cleveref Info: loaded `english' language definitions on input line 604.
 
- [132 <./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png>]
+ [133 <./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png>]
 Package cleveref Info: loaded `english' language definitions on input line 638.
 
- [133]
+ [134]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -6374,7 +7180,7 @@ or  <return>  to continue without it.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 63.
- [134]
+ [135]
 
 ! LaTeX Error: Float(s) lost.
 
@@ -6388,7 +7194,7 @@ You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Package cleveref Info: loaded `english' language definitions on input line 63.
-[135 <./chap4/images/icenuc_params_organics.png>]
+[136 <./chap4/images/icenuc_params_organics.png>]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -6398,24 +7204,15 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 14.
-
-Package fancyhdr Warning: \headheight is too small (17.07164pt): 
-(fancyhdr)                Make it at least 26.96202pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.96202pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-9.89038pt}.
-
-[136
+[137
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [137]
-Package cleveref Info: loaded `english' language definitions on input line 82.
+)
+Package cleveref Info: loaded `english' language definitions on input line 26.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
@@ -6426,9 +7223,34 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.89038pt}.
 
 [138]
-Package cleveref Info: loaded `english' language definitions on input line 118.
+Overfull \hbox (2.98563pt too wide) in paragraph at lines 34--34
+\T1/ntxtlf/m/n/10 them?''!!![]  
+ []
 
- [139])
+
+Overfull \hbox (2.98563pt too wide) in paragraph at lines 34--34
+\T1/ntxtlf/m/n/10 them?''!!![]  
+ []
+
+
+LaTeX Warning: Marginpar on page 139 moved.
+
+Package cleveref Info: loaded `english' language definitions on input line 92.
+[139]
+Package cleveref Info: loaded `english' language definitions on input line 119.
+
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-9.89038pt}.
+
+[140])
+Package cleveref Info: loaded `english' language definitions on input line 64.
+ [141]
 Package cleveref Info: loaded `english' language definitions on input line 64.
 
 
@@ -6439,7 +7261,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-9.89038pt}.
 
-[140]
+[142]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -6468,7 +7290,7 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[141
+[143
 
 
 
@@ -6477,11 +7299,11 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 24.
- [142])
+ [144])
 \openout2 = `chap3/supplement_chap3.aux'.
 
  (./chap3/supplement_chap3.tex
-<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2492, 719.0865pt 
+<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2561, 719.0865pt 
 x 397.485pt>
 File: ./chap3/images/FigureS01_ratio_standard_all_stations.png Graphic file (ty
 pe png)
@@ -6489,7 +7311,7 @@ pe png)
 Package pdftex.def Info: ./chap3/images/FigureS01_ratio_standard_all_stations.p
 ng  used on input line 9.
 (pdftex.def)             Requested size: 460.93457pt x 254.78983pt.
-<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2493, 1027.1976pt x 
+<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2562, 1027.1976pt x 
 576.2328pt>
 File: ./chap3/images/FigureS02_ratio_compo_all_stations.png Graphic file (type 
 png)
@@ -6501,7 +7323,7 @@ Package pdftex.def Info: ./chap3/images/FigureS02_ratio_compo_all_stations.png
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap3/images/FigureS03_ratio_perf_combin.png, id=2496, 1189.8051pt x 625.376
+<./chap3/images/FigureS03_ratio_perf_combin.png, id=2565, 1189.8051pt x 625.376
 4pt>
 File: ./chap3/images/FigureS03_ratio_perf_combin.png Graphic file (type png)
 <use ./chap3/images/FigureS03_ratio_perf_combin.png>
@@ -6513,40 +7335,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [143
+ [145
 
 
 
 
  <./chap3/images/FigureS01_ratio_standard_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [144 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
+ [146 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [145 <./chap3/images/FigureS03_ratio_perf_combin.png>]
+ [147 <./chap3/images/FigureS03_ratio_perf_combin.png>]
 \openout2 = `annexes/future_of_research.aux'.
 
  (./annexes/future_of_research.tex
 ! Too many }'s.
-l.4 ...al warming (\ref{sec:anthropo_disturbance}}
+l.4 ...l warming (\cref{sec:anthropo_disturbance}}
                                                   ), and more precisely, adr...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-
-LaTeX Warning: Reference `sec:implication_sciencesl' on page 146 undefined on i
-nput line 4.
-
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 25.
-Package cleveref Info: loaded `english' language definitions on input line 26.
-[146
+(Font)              scaled to size 12.0pt on input line 27.
+Package cleveref Info: loaded `english' language definitions on input line 28.
+[148
 
 
 
 
 ])
 Package cleveref Info: loaded `english' language definitions on input line 74.
- [147]
+ [149]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
@@ -6606,7 +7424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 31.
-[148
+[150
 
 
 
@@ -6637,7 +7455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--67
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 67.
-[149]
+[151]
 Underfull \hbox (badness 10000) in paragraph at lines 76--88
 
  []
@@ -6684,12 +7502,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 75.
- [150]
+ [152]
 \openout2 = `annexes/environmental_footprint.aux'.
 
  (./annexes/environmental_footprint.tex)
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [151
+ [153
 
 
 
@@ -6697,17 +7515,14 @@ Package cleveref Info: loaded `english' language definitions on input line 76.
 ] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 Package cleveref Info: loaded `english' language definitions on input line 13.
- [152
+ [154
 
 
 
 ]
-
-LaTeX Warning: Citation 'ipcc_AR4_2007' on page 153 undefined on input line 18.
-
-
 Package cleveref Info: loaded `english' language definitions on input line 22.
-[153]
+
+[155]
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
@@ -6720,16 +7535,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 32.
-[154]
+[156]
 Package cleveref Info: loaded `english' language definitions on input line 39.
- [155]
+ [157]
 
 ! Package siunitx Error: Invalid number '\metre '.
 
 For immediate help type H <return>.
  ...                                              
                                                   
-l.44 ...ssed over Paris.}}{106}{figure.caption.64}
+l.44 ...ssed over Paris.}}{107}{figure.caption.65}
                                                   %
 
 The input '\metre ' could not be parsed as a number following the format
@@ -6739,7 +7554,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.44 ...ssed over Paris.}}{106}{figure.caption.64}
+l.44 ...ssed over Paris.}}{107}{figure.caption.65}
                                                   %
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -6753,7 +7568,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.44 ...ssed over Paris.}}{106}{figure.caption.64}
+l.44 ...ssed over Paris.}}{107}{figure.caption.65}
                                                   %
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -6762,7 +7577,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 ...ssed over Paris.}}{106}{figure.caption.64}
+l.44 ...ssed over Paris.}}{107}{figure.caption.65}
                                                   %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6776,7 +7591,7 @@ lmr/m/n/12 4000$$f$ [] $$
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 ...ssed over Paris.}}{106}{figure.caption.64}
+l.44 ...ssed over Paris.}}{107}{figure.caption.65}
                                                   %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6791,9 +7606,9 @@ e aerosol par-ti-cles (dust, MPOA,
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 49.
-[156]
+[158]
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [157])
+ [159])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -6808,7 +7623,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 83.
-[158] (./main.lot
+[160] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write8
@@ -6825,13 +7640,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[159
+[161
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [160
+ [162
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -6839,14 +7654,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [161]
+ [163]
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 94.
-Package cleveref Info: loaded `english' language definitions on input line 94.
- [162]
-Package cleveref Info: loaded `english' language definitions on input line 94.
- [163]
 Package cleveref Info: loaded `english' language definitions on input line 94.
  [164]
 Package cleveref Info: loaded `english' language definitions on input line 94.
@@ -6857,14 +7668,20 @@ Package cleveref Info: loaded `english' language definitions on input line 94.
  [167]
 Package cleveref Info: loaded `english' language definitions on input line 94.
  [168]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [169]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [170]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [171]
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/ntxtlf/m/n' instead on input line 94.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[169]
+[172]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [170]
+ [173]
 
 ! LaTeX Error: Unicode character âˆ’ (U+2212)
                not set up for use with LaTeX.
@@ -6878,13 +7695,11 @@ l.94 ...ography[heading=bibintoc,title=References]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-Package cleveref Info: loaded `english' language definitions on input line 94.
-[171]
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
 
 Package cleveref Info: loaded `english' language definitions on input line 99.
- [172] [173
+[174] [175
 
 
 ]
@@ -6908,7 +7723,7 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
-[174] (./main.aux
+[176] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 84.
  (./others/remerciements.aux) (./others/avantpropos.aux)
 (./others/contrib_commu.aux) (./others/resume_francais.aux)
@@ -6944,10 +7759,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66745 strings out of 475189
- 1385234 string characters out of 5763838
- 2801819 words of memory out of 5000000
- 86065 multiletter control sequences out of 15000+600000
+ 66853 strings out of 475189
+ 1389344 string characters out of 5763838
+ 2840523 words of memory out of 5000000
+ 86154 multiletter control sequences out of 15000+600000
  734234 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,120p,4167b,3669s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6980,10 +7795,10 @@ fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/z
 tmri.pfb>
-Output written on main.pdf (200 pages, 80427221 bytes).
+Output written on main.pdf (202 pages, 80448068 bytes).
 PDF statistics:
- 4182 PDF objects out of 4296 (max. 8388607)
- 3699 compressed objects within 37 object streams
- 766 named destinations out of 1000 (max. 500000)
+ 4299 PDF objects out of 5155 (max. 8388607)
+ 3811 compressed objects within 39 object streams
+ 785 named destinations out of 1000 (max. 500000)
  1238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

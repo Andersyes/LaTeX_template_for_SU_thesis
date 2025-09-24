@@ -7,7 +7,7 @@
 \chaptermark{Methodological approach and techniques}
 
 
- %\epigraph{"One does not simply compile WRF-Chem."}{Boromir of GitHub}
+ %\epigraph{``One does not simply compile WRF-Chem.''}{Boromir of GitHub}
  \chapquote{One does not simply compile WRF-Chem.}{Boromir of GitHub}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -111,8 +111,8 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     \label{sec:wrfchem}
     Among the models derived from WRF is WRF-Chem \citep[WRF including chemistry;][]{grell_fully_2005}, part of whose development continues at LATMOS\footnote{Version publicly available at \url{https://github.com/Regional-Modeling-LATMOS-IGE/WRF-Chem-Polar}.} (see below). Originally designed for the study of air quality and atmospheric pollutants, WRF-Chem is particularly well suited for investigating aerosol populations.
     The Weather Research and Forecasting model including chemistry (WRF-Chem), is a CTM coupled with WRF \citep{grell_fully_2005}. It is fully integrated within the WRF code, and shares the same dynamics and physics with WRF.
-    It can be seen as an extended version of WRF that includes all processes relevant for trace gases and aerosols, such as gas-phase chemistry, aerosols chemistry and physics, emissions, deposition. It shares the same modular architecure than WRF, and a great variety of schemes of different complexities can be used to represent each aerosol and trace gas process. Thus, complexity can be controlled in order to put the emphasis on specific chemical or physical aspects, making the model as light as possible for the intended use.
-    Most of the processes represented in WRF-Chem are coupled, or ``online'', that is to say they interact with each other during the simulation. For example, modeled aerosols influence cloud formation and interact with radiation, modelled winds drive sea spray emissions, and modeled precipitation drive wet removal of aerosols and trace gases. %XXLMIn the following, we will say explicitly if a chemical tracer is physically passive.
+    It can be seen as an extended version of WRF that includes all processes relevant for trace gases and aerosols, such as gas-phase chemistry, aerosols chemistry and physics, emissions, deposition. It shares the same modular architecture than WRF, and a great variety of schemes of different complexities can be used to represent each aerosol and trace gas process. Thus, complexity can be controlled in order to put the emphasis on specific chemical or physical aspects, making the model as light as possible for the intended use.
+    Most of the processes represented in WRF-Chem are coupled, or ``online'', that is to say they interact with each other during the simulation. For example, modelled aerosols influence cloud formation and interact with radiation, modelled winds drive sea spray emissions, and modelled precipitation drive wet removal of aerosols and trace gases. %XXLMIn the following, we will say explicitly if a chemical tracer is physically passive.
     This property makes it ideal to study aerosol processes such as aerosol-cloud interactions.
 
     In this thesis, several versions of WRF-Chem have been used, from v4.3 to v4.6. The base setup of the model used in this thesis is described in \cref{tab:wrf-chem_setup}. When a different setup is used in later Chapters, differences will be mentioned explicitly.
@@ -124,7 +124,7 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     Emissions of mineral dust are calculated online following \citet{ginoux_long-term_2004}, and emissions of sea spray following \citet{ioannidis_modelling_2023}. %XXLMref https://doi.org/10.5194/acp-23-5641-2023.
     New emissions of fungal spores and bacteria are also calculated online as in citet{chatziparaschos_assessing_2024}. Specifically, emissions of fungal spores are calculated as a function of temperature and leaf area index \citep{hummel_regional-scale_2015} and bacteria as a constant flux depending only on land surface type as in \citet{burrows_bacteria_2009}.
     Anthropogenic and biomass burning aerosols are emitted based on the offline inventories of ECLIPSEv6 \citep{klimont_global_2024} and FINNv1.5 \citep{wiedinmyer_global_2014} respectively, but fire emissions injection heights are calculate online according to \citet{freitas_including_2007}.
-    Dry and wet deposition are not included in the base version of the GOCART model within WRF-Chem, but were included recently in the version developed at LATMOS (\url{https://github.com/Regional-Modeling-LATMOS-IGE/WRF-Chem-Polar}) following \citet{emmerson_revisiting_2020} for dry deposition and \citet{lua_further_2020} for wet removal.
+    Dry and wet deposition are not included in the base version of the GOCART model within WRF-Chem, but were included recently in the version developed at LATMOS (\url{https://github.com/Regional-Modeling-LATMOS-IGE/WRF-Chem-Polar}) following \citet{emerson_revisiting_2020} for dry deposition and \citet{luo_further_2020} for wet removal.
  
     The versions of WRF-Chem used in this work has been used in many recent studies to investigate aerosols and trace gases in the high latitudes, from the role of aerosols particles on clouds \citep{marelle_aerosol_2025}, to the contribution of Arctic open leads to marine aerosol emissions \citep{lapere_modeling_2024}, including the modelling of complex chemical atmospheric cycles over sea ice \citep{ahmed_modelling_2023}.
     \vspace{\baselineskip}
@@ -152,8 +152,8 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
         PBAP emissions & \citep{chatziparaschos_assessing_2024} \\ %XXLM https://doi.org/10.5194/egusphere-2024-952
         Anthropogenic emissions & ECLIPSE v6 \citep{klimont_global_2024} \\ %XXLM https://iiasa.ac.at/models-tools-data/global-emission-fields-of-air-pollutants-and-ghgs
         Open biomass burning emissions & FINN v1.5 \citep{wiedinmyer_global_2014} \\ %XXLM https://doi.org/10.1021/es502250z
-        Aerosol dry deposition & \citep{emmerson_revisiting_2020} \\ %XXLM https://doi.org/10.1073/pnas.2014761117
-        Aerosol wet removal & \citep{lua_further_2020} \\ %XXLM https://doi.org/10.5194/gmd-13-2879-2020
+        Aerosol dry deposition & \citep{emerson_revisiting_2020} \\ %XXLM https://doi.org/10.1073/pnas.2014761117
+        Aerosol wet removal & \citep{luo_further_2020} \\ %XXLM https://doi.org/10.5194/gmd-13-2879-2020
     \bottomrule
     \end{tabular}
     \caption{WRF-Chem model base setup.}
@@ -175,7 +175,7 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     FLEXPART emits thousand of atmospheric tracers that can be subject to ageing and removal by wet and dry deposition processes. It follows them back in time to produce {potential emission sensitivity} (PES) fields, that are expressed in seconds. PES are analogous to the residence times of the followed air tracer in each grid cell of the simulation domain. They are called ``emission sensitivities'' because multiplying PES (in s) with fluxes from emission inventories (for example in kg/m3/s) reconstructs concentrations series at the origin point of the backward trajectories (in kg/m3). 
     The information given by the PES, by taking into account dispersion, ageing, and giving information on air masses residence times over specific areas, gives more information on the origin of air masses than simple trajectories. In fact, we will show in section Section~\ref{sec:paper1} that trajectories, which are often used in the litterature, are only reliable to obtain information on the general direction of origin and transport of an observed air mass.
     Details on the computation, interpretation and use of PES outputs are given in \cref{P1sec:FLEXPART}.
-    Section~\ref{sec:paper1} is dedicated to the development and assessment of a statistical method to analyze FLEXPART-WRF output to identify the emission sources of atmospheric particles. 
+    Section~\ref{sec:paper1} is dedicated to the development and assessment of a statistical method to analyse FLEXPART-WRF output to identify the emission sources of atmospheric particles. 
     In \cref{sec:INP_sources}, this methodology is used in order to identify natural sources of INPs in the Arctic, based on recent observation campaigns.
 \missingfigure{flexpart vs retrotrajectoire}
     %XXLM si possible montrer un exemple de retropanache FLEXPART-WRF vs. une trajectoire, ca peut être issu d'articles qui ne sont pas les tiens si tu n'as pas ca sous la main. Ou juste un rétropanache pour aider à situer ce que c'est pour un lecteur non expert. Par ex dans 10.1029/2020MS002391 les panels a ou b de la figure 5
@@ -184,10 +184,11 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
 \section{Modelling cloud microphysics in the WRF model} %XXLM je pense que c'est mieux si c'est plus spécifique
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % let's talk about what happens in those schemes 
-    In a climate or weather model, the microphysics schemes are the interface between the thermodynamics, dynamics and chemistry variables, and the cloud variables. They use the modelled thermodynamics to convert water vapour and aerosol particles into cloud particles (liquid droplets, ice crystal, rain, hail, snow, and graupel).
-    They control the droplet formation and ice nucleation: droplets growth (condensation, collection, accretion), ice crystals growth (deposition, aggregation, rimming), and their removal by condensation or sublimation and precipitation. This affects the water vapour field accordingly, as well as impacting the land surface scheme with precipitations.
-    Microphysics schemes also handle heating and cooling by phase transitions (latent heat), and provide hydrometeors quantity and optical properties to the radiation module. The latter happens through ice water content (IWC), liquid water content (LWC) and particles effective radius. The radiation module can thereby compute radiative transfer, deducting cooling or heating rates for every vertical layers, feeding back into the model dynamics. 
-When aerosols particles from the chemistry modules are linked to the microphysics, the indirect effects of aerosols on the radiative budget get modelled.
+    In atmospheric models such as WRF, microphysics schemes are the sub-models in charge of representing the physical processes in clouds. As such, they use the modelled thermodynamics to convert water vapour and aerosol particles into cloud particles (liquid droplets, ice crystal, rain, hail, snow, and graupel).
+    They control the droplet formation and primary ice formation, droplets growth (condensation, collection, accretion), ice crystals growth (deposition, aggregation, rimming), and their removal by sedimentation, evaporation or sublimation and precipitation. This affects the water vapour field accordingly, as well as impacting the land surface sub-model with precipitation.
+    Microphysics schemes also handle heating and cooling by phase transitions (latent heat), and provide hydrometeors quantity and optical properties to the radiation module. The latter happens through ice water content (IWC), liquid water content (LWC), precipitation water cotnent, and hydrometeor effective radius. The radiation module can thereby compute radiative transfer, deducting cooling or heating rates for every vertical layers, feeding back into the model dynamics. 
+    
+ Simple microphysical models tend to not include the effect of aerosol-cloud interactions explicitly, but only parametrise their effects on droplet numbers for radiative transfer calculations. In the version of WRF-Chem used in this work aerosol concentrations, sizes and compositions predicted by the model are linked to the cloud microphysics module, and enable the calculation of aerosol-cloud interactions and their effect on the radiative budget and the resulting adjustments of modelled dynamics. %XXLM merge with next section?
 
 % need for a transition
 \todo{add a transition}
@@ -195,40 +196,42 @@ When aerosols particles from the chemistry modules are linked to the microphysic
     \subsection{Moments in microphysics schemes}
     \label{sec:moment_microphysics}
     Microphysics schemes are intended to compute hydrometeors variables such as cloud water, rain, snow, graupel, from the other meteorological variables.
-    Among microphysics schemes, two categories are distinguished: single-moment and double-moment schemes. 
-    This moment distinction has to do with the number and type of prognostic variables the model produces for every hydrometeor categories.
+    These schemes can have very different levels of complexity, from simple bulk models that only represent large scale precipitation and parametrise phase repartition from temperature; to more process-based single-moment schemes; to double-moment schemes that predict the size distribution of droplets, ice and precipitation; to even more detailed models that directly predict the shape of ice particles.
+    
+    The distinction between single-moment and double-moment schemes has to do with the number and type of prognostic variables the model produces for every hydrometeor categories.
 
-    Single-moment schemes only compute the mass mixing ratio of cloud particles, expressed in unit of mass by kilograms of air. 
-    The number concentrations are thereby only prescribed or given  diagnostically from the computed mass mixing ratio. Doubling the liquid water path would double the mass of each droplet, rather than changing their size distribution.
-    Such computational setup can not consider processes that rely on particle number concentrations.
-    Aerosol-cloud interactions and their effects (e.g. Albrecht and Twomey effects) are completely put aside in these type of schemes.
-    Nevertheless, in situations where detailed microphysics is not mandatory, one-moment schemes show their advantages of low computational cost and numerical stability.
+    Single-moment schemes only compute the mass mixing ratio of cloud particles or precipitation types, expressed in unit of mass by kilograms of air. 
+    The number concentrations are thereby either prescribed or diagnosed from the computed mass mixing ratio. Doubling the liquid water path would double the mass of each droplet, rather than changing their size distribution.
+    Such computational setup can not consider processes that involve the evolution of the size distribution of cloud particles. In particular, 
+    Aerosol-cloud interactions and their effects (e.g. Albrecht and Twomey effects) are completely put aside in these type of schemes, or they are heavily parametrised, for example by linking cloud droplet numbers to aerosol mass. In addition, they cannot represent the effect of heterogeneous ice formation involving INPs.
+    Nevertheless, in situations where detailed microphysics is not mandatory, one-moment schemes show their advantages of low computational cost and better numerical stability.
 
     Double-moment schemes have, in addition to the information on mass, the prognostic variables of number concentration. In other words each hydrometeors are characterised by their \textit{mass} and \textit{number} concentrations.
     It allows to get dynamic evolution of droplet size distribution, addressing the associated effects on cloud lifetime and radiative properties. 
-    These schemes are physically more faithful to what we know of cloud microphysics, and happen to be mandatory for the modelling of realistic aerosol-cloud interactions.
+    These schemes are physically more faithful to what we know of cloud microphysics, and happen to be mandatory for the modelling of realistic aerosol-cloud interactions and especially the effect of INPs.
     \vspace{\baselineskip}
 
-    In this thesis, the cloud microphysics are represented by two different schemes: Morrison's double-moment \citep{morrison_impact_2009}, and different variants of Thompson's single-moment \citep{thompson_explicit_2004}, like Thompson 1.5-moment aerosol-aware \citep{thompson_study_2014}.
+    In this thesis, the cloud microphysics are represented by two different schemes: Morrison's double-moment \citep{morrison_impact_2009}, and different variants of Thompson's 1.5-moment \citep{thompson_explicit_2004}, including the Thompson 2-moment aerosol-aware \citep{thomspon_study_2014} scheme.
     In chapters \ref{chap3} and \ref{chap4}, Morrison two-moment is used, while \cref{chap5} presents a comparison of the different versions of Morrison and Thompson schemes; where Thompson aerosol-aware will be used to specifically study the impact of INPs on clouds.
-
 
     \subsection{Modelling of heterogeneous ice nucleation}
     \label{sec:modelling_hetero_nuc}
-    The modelling of heterogeneous ice nucleation goes through parametrisations that aim to represent the freezing of supercooled droplets induced by aerosol particles acting as INPs, as well as the condensation of water vapour to ice crystal.
+    The modelling of heterogeneous ice nucleation goes through parametrisations that aim to represent the different processes of heterogeneous ice formation on an INP. These include the freezing of supercooled droplets induced by INPs immersed (immersion freezing) or impacting (contact freezing) a droplet, the deposition of water vapour to INPs  in ice-supersaturated conditions forming ice crystal (deposition nucleation). There is also a condensation freezing model, where formation of a liquid cloud droplet by CCN processes happens simulataneously with immersion-like freezing, but it is not clear if this is a fully separate freezing process from immersion.
+    In numerical parametrisations available for atmospheric models such as WRF-Chem, only deposition and immersion freezing are typically treated as aerosol-processes, while contact freezing is assumed to be less important and is only parametrised based on thermodynamical and cloud variables. For models focusing on mixed-phase clouds at relatively warm temperatures, it is also common to only represent immersion freezing processes.
     These numerical schemes bridge aerosol properties (number concentration, size, composition, surface characteristics) to INP concentrations, typically as a function of activation temperature.
-    Depending on the approach, they can describe different nucleation modes (immersion, deposition, condensation, contact freezing), though immersion freezing is the most widely implemented in large-scale models.
+    %Depending on the approach, they can describe different nucleation modes (immersion, deposition, condensation, contact freezing), though immersion freezing is the most widely implemented in large-scale models.
 
-Two main categories of parametrisations are commonly used. The first consists of empirical, temperature-dependent fits to INP measurements, directly yielding the INP number concentration for specific aerosol types and temperature ranges \citep[e.g.][]{demott_predicting_2010, demott_integrating_2015, wilson_marine_2015, li_predicting_2022}. While computationally efficient, these schemes are tied to the observational datasets they were derived from and are sensitive to the underlying aerosol size distribution.
+Three main categories of parametrisations are commonly used. The first consists of empirical, temperature-dependent fits to INP measurements, directly yielding the INP number concentration for specific aerosol types and temperature ranges \citep[e.g.][]{demott_predicting_2010, demott_integrating_2015, wilson_marine_2015, li_predicting_2022}. While computationally efficient, these schemes are tied to the observational datasets they were derived from, often in restricted regions, seasons, and environmental conditions, and to an implied aerosol size distribution.
 
-The second, more physically based approach is the ice nucleation active site density (INAS) framework \citep{fletcher_active_1969, vali_quantitative_1971}. Here, nucleation is assumed to occur at discrete active sites on a particle’s surface, with the number of active sites per unit surface area determined from laboratory measurements or field observations. This method explicitly accounts for particle surface area rather than just number concentration, making it more adaptable to varying size distributions and aerosol surface morphologies \citep[e.g.][]{niemand_particle-surface-area-based_2012, hummel_simulating_2018, ullrich_new_2017}. The standard formulation gives the number concentration of INP as:
+The second, more physically based approach is the ice nucleation active site density (INAS) framework \citep{fletcher_active_1969, vali_quantitative_1971}. Here, nucleation is assumed to occur at discrete active sites on a particle’s surface, with the number of active sites per unit surface area determined from laboratory measurements or field observations. This method explicitly accounts for particle surface area and composition rather than just number concentration, making it more adaptable to varying size distributions and aerosol surface morphologies \citep[e.g.][]{niemand_particle-surface-area-based_2012, hummel_simulating_2018, ullrich_new_2017}. The standard formulation gives the number concentration of INP as:
 \begin{equation}
         N_{\text{INP}} = N_{p} \left( 1 - \text{exp}(-S_{p} \, n_s)\right)
     \end{equation}
     with $N_{p}$ the number concentration of aerosols particles, $S_{p}$ their surface area, and $n_s$ is the ice nucleating surface site density.
 Most INAS-based parametrisations assume time-independent nucleation, suitable for many atmospheric conditions.
 
-A more detailed representation comes from CNT (c.f. Sect.~\ref{sec:ice_nucleation}). CNT-based schemes incorporate thermodynamic parameters (e.g., supersaturation, surface tension, latent heat) and particle-specific properties (e.g., contact angle, morphology). While potentially more general, CNT implementations are computationally more demanding and require parameters that are often challenging to constrain \citep[e.g.][]{barahona_ice_2012, hoose_heterogeneous_2012, savre_theory-based_2015}.
+A more physically detailed representation comes from CNT (c.f. Sect.~\ref{sec:ice_nucleation}). CNT-based schemes incorporate thermodynamic parameters (e.g., supersaturation, surface tension, latent heat) and particle-specific properties (e.g., contact angle, morphology). While potentially more general, CNT implementations are computationally more demanding and require parameters that are often challenging to constrain \citep[e.g.][]{barahona_ice_2012, hoose_heterogeneous_2012, savre_theory-based_2015}.
+In addition, they tend to over predict observed INP concentrations and need additional limiting factors or even more parameters to work properly \citep{hoose_how_2010}. %XXLM can cite here Hoose2010 (for the limitation) and savre2015 for the even more complex models.
 
 In practice, large-scale models tend to adopt either empirical temperature-fit or INAS-based parametrisations for specific aerosol types (e.g., mineral dust, primary biological aerosol particles), while CNT-based approaches are more often applied in detailed process models or sensitivity studies.
 
@@ -248,7 +251,7 @@ This is especially true for long and continuous time series.
     \label{sec:meteo_obs}
         \subsubsection{Models boundary conditions}
         To set up the meteorological boundary conditions of WRF and WRF-Chem, I used two different reanalysis products.
-        First, the Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, for the work done in \cref{sec:paper1}. Second, the ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus-climate-change-service_c3s_era5_2017}, for all the other WRF and WRF-Chem simulations.
+        First, the Final Operational Global Analysis data (FNL) from the American National Center for Environmental Prediction, for the work done in \cref{sec:paper1}. Second, the ECMWF Reanalysis v5 (ERA5) reanalysis \citep{copernicus_climate_change_service_c3s_era5_2017}, for all the other WRF and WRF-Chem simulations.
 
         WRF-Chem also needs boundary and initial conditions for aerosol and chemical particles. In our usage, they are all provided by the Atmospheric Chemistry Observations and Modeling Lab (ACOM) of the National Center for Atmospheric Research (NCAR). Among the data used, are the instantaneous output for boundary conditions from the CAM-Chem model \citep{buchholz_instantaneous_2019}.
     
@@ -272,7 +275,7 @@ This is especially true for long and continuous time series.
 
         This first step can be carried out using different techniques, each suited to its context (land-based or marine campaigns). Air filtration through micro-filters is better adapted to land-based measurements, as it requires integration over a long period of time (from several tens of hours to a few days). For icebreaker campaigns, it is necessary to use a faster air-collection technique to avoid biasing the measurements due to the ship’s motion. The most recent campaigns thereby use instruments based on particle collection on hydrophobic glass slides. The instrument directs an air intake, with a flow rate of a few litres per minute (\SI{10}{\liter\per\minute} for the MOSSI instrument described by \citet{irish_ice_2019}), through several micro-orifices onto the hydrophobic slides, where fine particles are deposited. The presence of the micro-orifices allows the collected particles to be concentrated at different points on the slide. With this type of instrument, collection times are on the order of a few tens of minutes.
 
-    Regardless of the collection method, the techniques used to characterize the concentration of INPs in the air remain similar. Although the implementation varies from one campaign to another \citep{conen_atmospheric_2012, mason_micro-orifice_2015}, the general principle is the same. This is known as the Droplet Freezing Technique (DFT), or droplet freezing measurement. The DFT consists in immersing the collected particles into droplets of pure water deposited on a plate. The plate is then gradually cooled, and the temperature at which droplet freezing is observed is recorded. From these measurements, together with the parameters of particle collection on the filter, it is possible to infer the concentration of INPs in the sampled air.
+    Regardless of the collection method, the techniques used to characterise the concentration of INPs in the air remain similar. Although the implementation varies from one campaign to another \citep{conen_atmospheric_2012, mason_micro-orifice_2015}, the general principle is the same. This is known as the Droplet Freezing Technique (DFT), or droplet freezing measurement. The DFT consists in immersing the collected particles into droplets of pure water deposited on a plate. The plate is then gradually cooled, and the temperature at which droplet freezing is observed is recorded. From these measurements, together with the parameters of particle collection on the filter, it is possible to infer the concentration of INPs in the sampled air.
     The expression of INP concentration depends on the technique used. Here, I present the one used by \citet{wex_annual_2019}. The number of INPs per liter of air is expressed as a Poisson statistical distribution:
     \begin{equation}
         N_{INP}(T) = - \frac{\ln (1-f_{\text{ice}}(T))}{F}
