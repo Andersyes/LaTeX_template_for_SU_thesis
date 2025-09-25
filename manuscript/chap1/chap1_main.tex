@@ -495,9 +495,10 @@ In this section, we will explore the physical nature of clouds through their met
     In this section, we will explore some of the main mechanisms that permit the existence of clouds in the earth's atmosphere.
 
     \subsubsection{Notions of stability}
-    In order to meet the favorable conditions of cloud formation, an air parcel has to be subject to some dynamical movement.
+    %%In order to meet the favorable conditions of cloud formation, an air parcel has to be subject to some dynamical movement.
 
-    The atmosphere\----or more precisely, a portion or layer of it\----can be classified into three different stability states. These characterize whether the considered atmospheric layer is convective, stable, or neutral.
+    The atmosphere\----or more precisely, a parcel or a layer of it\----can be classified into three different stability states. These characterize whether the considered atmospheric layer is convective, stable, or neutral.
+    Let us first consider the case of dry air.
     
     The stability of an air parcel depends on the vertical balance between its weight and the buoyancy force:
 
@@ -519,9 +520,9 @@ In this section, we will explore the physical nature of clouds through their met
         \rho = \frac{P}{R_a T}.
     \end{equation}
 
-    Since the pressure of the parcel and its surroundings are identical, it is the temperature difference between $T_p$ and $T_e$ that determines the ratio $\frac{\rho_p}{\rho_e}$ and, therefore, the stability state of the atmosphere.
+    Since the pressure of the parcel and its surroundings are identical, it is the temperature difference between $T_p$ (the parcel temperature) and $T_e$ (the surrounding environment temperature) that determines the ratio $\frac{\rho_p}{\rho_e}$ and, therefore, the stability state of the atmosphere.
     
-    Consider an atmosphere initially in hydrostatic equilibrium (balance between pressure gradient force and gravity):
+    Let us consider an atmosphere initially in hydrostatic equilibrium (balance between pressure gradient force and gravity):
 
     \begin{equation}
         -\frac{1}{\rho_e} \frac{\partial P}{\partial z} = g
@@ -546,7 +547,7 @@ In this section, we will explore the physical nature of clouds through their met
     T_i = T_0 + z\,\Gamma_i \quad\quad (i = e, p)
     \end{equation}
 
-    and introducing the vertical derivative of potential temperature:
+    where $\Gamma$ is the vertical temperature gradient, or \texit{lapse rate}. The vertical derivative of potential temperature is:
 
     \begin{equation}
     \frac{d^2 z}{dt^2} = - \frac{g}{T_0} \frac{d\theta}{dz} z
@@ -560,45 +561,87 @@ In this section, we will explore the physical nature of clouds through their met
     
     The Brunt–Väisälä frequency characterizes the oscillations of a fluid parcel that has been displaced, by any perturbation, from its hydrostatic equilibrium position. When the balance between weight and buoyancy is disturbed, these forces act to restore the parcel to equilibrium. Like a spring given an impulse, the parcel will oscillate at frequency \(N\) around its equilibrium position, if the oscillations are maintained. Such oscillations occur both in the atmosphere and in the ocean, where they are known as \emph{gravity waves}.
     
-    In practice, the stability of an atmospheric layer can be determined by examining the vertical profile of potential temperature \(\theta\):
-    \begin{itemize}
-    \item The atmosphere is \textbf{stable} when \( N^2 > 0 \), corresponding to a positive vertical gradient of potential temperature.
-    \item It is \textbf{unstable} when \( N^2 < 0 \), corresponding to a negative gradient of potential temperature.
-    \end{itemize}
+   % In practice, the stability of an atmospheric layer can be determined by examining the vertical profile of potential temperature \(\theta\):
+   % \begin{itemize}
+   % \item The atmosphere is \textbf{stable} when \( N^2 > 0 \), corresponding to a positive vertical gradient of potential temperature.
+   % \item It is \textbf{unstable} when \( N^2 < 0 \), corresponding to a negative gradient of potential temperature.
+   % \end{itemize}
 
-    
-    %\subsubsection*{Qualitative interpretation}
-    It is often convenient to visualize stability as follows:
+    It is often convenient to visualize the dry adiabatic stability as follows:
     
     \paragraph{Stable case:}  
-    When the vertical temperature gradient of the parcel is steeper (i.e., more negative) than that of the environment (\(\nabla_z T_p < \nabla_z T_e\), with \(\nabla_z T_e = -g / c_p\)), the atmosphere is stable. If the parcel is given an upward motion (e.g., by wind advection), buoyancy acts as a restoring force, returning it to its equilibrium altitude. This situation is analogous to a mechanical potential well associated with stable equilibrium.
+    When the lapse rate of the parcel is steeper (i.e., more negative) than that of the environment (\(\Gamma_p < \Gamma_e\), with \(\Gamma_e = -g / c_p\)), the atmosphere is stable. If the parcel is given an upward motion (e.g., by wind advection), buoyancy acts as a restoring force, returning it to its equilibrium altitude. This situation is analogous to a mechanical potential well associated with stable equilibrium.
     
     \paragraph{Unstable case:}  
-    When the vertical temperature gradient of the parcel is weaker (less negative) than that of the environment (\(\nabla_z T_p > \nabla_z T_e\)), the atmosphere is unstable. In this case, if the parcel is given kinetic energy that displaces it from equilibrium, buoyancy amplifies its upward motion. This is analogous to a mechanical potential peak associated with unstable equilibrium.
+    When the lapse rate of the parcel is weaker (less negative) than that of the environment (\(\Gamma_p > \Gamma_e\)), the atmosphere is unstable. In this case, if the parcel is given kinetic energy that displaces it from equilibrium, buoyancy amplifies its upward motion. This is analogous to a mechanical potential peak associated with unstable equilibrium.
     
     \paragraph{Neutral case:}  
-    When the gradients are equal (\(\nabla_z T_p = \nabla_z T_e\)), the atmosphere is neutral. Once the parcel’s kinetic energy is dissipated, buoyancy and gravity balance, keeping the parcel at its new altitude.
+    When the lapse rates are equal (\(\Gamma_p = \Gamma_e\)), the atmosphere is neutral. Once the parcel’s kinetic energy is dissipated, buoyancy and gravity balance, keeping the parcel at its new altitude.
+    \vspace{\baselineskip}
 
         \begin{figure}[h]
-            \includegraphics[width=1\textwidth]{./chap1/images/stability.png}
-            \caption{Atmospheric stability by temperature gradient (B), and associated mechanical analogy (A).}
+            \centering
+            \includegraphics[width=0.85\textwidth]{./chap1/images/stability.png}
+            \caption{Atmospheric stability of dry air by temperature gradient (B), and associated mechanical analogy (A).}
             \label{fig:stability}
         \end{figure}
 
-    For cloud formation, the air parcel has to be unstable. This situation allows the air to be lifted; the phenomenon is called \textit{free convection}. Conversely, \textit{forced convection} refers to upward air displacement caused by pressure gradient or topography.
-    With the troposphere temperature gradient, the lifted parcel might meet thermodynamically favorable conditions for its vapour to condensate. 
-    For low tropospheric clouds like cumulus (see \cref{fig:cloud_pic} XX), the sine qua none condition for droplet forming is often on temperature. When the isotherm that allows the cloud to form is reached, the vapour condensates and the cloud forms. That explains why those kind of clouds have very flat and homogeneous bases.
+
+    However, in process of cloud formation, the air parcel is not in dry but saturated conditions. 
+    The temperature gradient of the air parcel is not any more $\Gamma_d$ (dry) but $\Gamma_s$ (saturated).
+    The expression for the latter is derived from the mathematical expression of the first law of thermodynamics, accounting for latent heat release, and assuming hydrostatic balance:
+    \begin{equation}
+        dq = c_pdT + gdz + L_v dq_s
+    \end{equation}
+    with $dq$ the variation of internal energy, $c_p$ the specific capacity of dry air, $L_v$ the latent heat of vaporisation, and $dq_s$ the variation of saturation specific humidity.
+    Assuming an adiabatic transformation (i.e. $dq=0$), and dividing by $c_p dz$, we get,
+    \begin{equation}
+        \frac{dT}{dz} = - \frac{g}{c_p} - \frac{L_v dq_s}{c_p dz}
+    \end{equation}
+    The term $\frac{g}{c_p}$ is the dry adiabatic lapse rate $\Gamma_d$ (or $\frac{dT}{dz}$ when the latent heat is not considered). 
+    By writing the change in $q_s$ as a function of temperature rather than altitude,
+    \begin{equation}
+        \frac{dT}{dz} = -\frac{L_v}{c_p} \frac{dq_s}{dT} \frac{dT}{dz} - \Gamma_d
+    \end{equation}
+    and by rearranging the terms, we get the expression of the temperature gradient of saturated ascent, or \textit{saturated adiabatic lapse rate}:
+    \begin{equation}
+        \Gamma_s = -\left(\frac{dT}{dz}\right)_s = \Gamma_d \left(1 + \frac{L_v}{c_p} \frac{dq_s}{dT}\right)^{-1}
+    \end{equation}
+
+    Because of the release of latent heat, $\Gamma_s$ is always lower than $\Gamma_d$.
+    The stability conditions now expend to five cases: absolutely stable, saturated neutral, conditionally unstable, dry neutral and absolutely unstable.
+
+    \begin{table}[t]
+        \centering
+        \caption{Stability criteria of moist air.}
+        \begin{tabular}{l|l}
+            \toprule
+            \textbf{Criterion} & \textbf{Case description}\\
+            \midrule
+            $\Gamma_e < \Gamma_s$ & Absolutely stable \\
+            $\Gamma_e = \Gamma_s$ & Saturated neutral\\
+            $\Gamma_s < \Gamma_e < \Gamma_d$ & Conditionally unstable\\
+            $\Gamma_e = \Gamma_d$ & Dry neutral\\
+            $\Gamma_e > \Gamma_d$ & Absolutely unstable \\
+            \bottomrule
+        \end{tabular}
+        \label{tab:stability_conditions}
+    \end{table}
+
+    When an air parcel is lifted by unstable conditions, the phenomenon is called \textit{free convection}. Conversely, \textit{forced convection} refers to upward air displacement caused by pressure gradient or topography.
+    The lifted parcel may meet thermodynamically favorable conditions for its vapour to condensate. 
+    In case of low tropospheric clouds like cumulus (see \cref{fig:cloud_pic}), the sine qua none condition for droplet forming is often on temperature. When the isotherm that allows the cloud to form is reached, the vapour condensates and the cloud forms. That explains why those kind of clouds have very flat and homogeneous bases.
     The air parcel can eventually reach an altitude where $N^2 > 0$, and thus stop its ascension. 
-    If the parcel is in a stable case, the cloud can be the witness of gravity waves (see \cref{fig:cloud_pic}).
+    If the parcel is in a stable case, the cloud can be the witness of gravity waves. %(see \cref{fig:cloud_pic}).
      
-    However, when the droplets form, the latent heat associated to their initial evaporation is released, which warms the surrounding air. This tends to fuel the air parcel lifting. If the total latent heat of the parcel is sufficiently important, and the negative potential temperature gradient is strong enough, the lifting can enter in a positive feedback loop that causes it to self sustain until all the vapour has condensed. We talk of \textit{deep convection}.
+    In saturated ascent, when the droplets form, the latent heat associated with their initial evaporation is released, which warms the surrounding air. This tends to fuel the air parcel lifting. If the total latent heat of the parcel is sufficiently important, and the negative potential temperature gradient is strong enough, the lifting can enter in a positive feedback loop that causes it to self sustain until all the vapour has condensed. We talk of \textit{deep convection}.
     In such situations, the cloud can extend up to the tropopause where the tropospheric temperature gradient gets cancelled, and so do the buoyancy of the air parcel. 
     This mechanism is at the origin of cumulonimbus formation.
 
 
     \subsubsection{Cloud phase}
     \label{sec:cloud_phase}
-    On Earth, tropospheric clouds are composed of water, which is present under its three phases in the atmosphere: liquid, solid, and gaseous.
+    On Earth, tropospheric clouds are mostly composed of water, which is present under its three phases in the atmosphere: liquid, solid, and gaseous.
     Clouds can be classified as liquid-phase clouds (LPCs), solid-phase clouds (SPCs), or mixed-phase clouds (MPCs), in which supercooled water droplets and ice crystals coexist. 
     
     When the formation of one or the other of these phases occurs without the intervention of a solid surface or particles, it is referred to as \textit{homogeneous nucleation} (c.f. \cref{sec:ice_nucleation}). The formation of water droplets by homogeneous nucleation can only occur at supersaturation levels of several hundred percent (never encountered on Earth). Likewise, only below $-38$°C can ice crystals form through a homogeneous process \citep{seinfeld_atmospheric_1998}. Homogeneous solid-phase nucleation, or \textit{ice nucleation}, is observed almost exclusively during the formation of cirrus clouds (high tropospheric clouds).
@@ -628,29 +671,33 @@ In this section, we will explore the physical nature of clouds through their met
 \begin{table}[h]
     \centering
     \caption{Microphysical growth processes}
-    \begin{tabular}{@{}p{3.5cm} p{4.5cm} p{7cm}@{}}
+    \begin{tabular}{@{}p{3.2cm} p{4.9cm} p{7cm}@{}}
         \toprule
         \textbf{Growth type} & \textbf{Processes} & \textbf{Description} \\ \midrule
         Diffusional growth &
         Condensation (liquid) &
-        Water vapor condenses onto liquid droplets. \\ 
+        Water vapour condenses onto liquid droplets. \\ 
         & Deposition (solid) &
-        Water vapor deposits directly onto ice crystals. \\[0.3em]
+        Water vapour deposits directly onto ice crystals. \\[0.3em]
         Accretion growth &
         Collision–coalescence (liquid) &
         Droplets collide and merge into larger drops. \\
         & Aggregation (solid) &
         Ice crystals stick together upon collision. \\
-        & Riming (liquid to solid) &
+        & Rimming (liquid to solid) &
         Supercooled droplets freeze upon contact with ice. \\[0.3em]
         Multiplication growth &
         Secondary nucleation &
         Formation of new particles from fragments or splinters. \\
         & Wegener–Bergeron–Findeisen process &
-        Ice grows at the expense of evaporating supercooled droplets. \\ \bottomrule
+        Ice grows at the expense of evaporating supercooled droplets. \\
+        \bottomrule
     \end{tabular}
     \label{tab:growth_processes}
 \end{table}
+
+    A precipitation event does not necessarily signify the end of a cloud, but can favours it. 
+    For a cloud to vanish, the evaporation and/or precipitation rates have to get greater than the cloud particles formation (condensation or nucleation) during a time long enough for all the cloud water to leave the suspended solid or liquid phase.
 
 %-----------------------------------------------
     \subsection{Physics of ice nucleation}
