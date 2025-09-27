@@ -71,9 +71,10 @@ Eventually, we will led the discussion about how INPs interact with regional cli
         \toprule
         Option name & Control & Test \\
         \midrule 
-            Microphysics scheme & Thompson aerosol-aware & Thompson aerosol-aware \\
-            Immersion nucleation & \citet{cooper_ice_1986} & \textbf{Temperature binned INP tracers} \\
-            Deposition nucleation & \citet{cooper_ice_1986} & \citet{cooper_ice_1986} \\
+            Microphysics scheme & \citet{thompson_study_2014} & \citet{thompson_study_2014} \\
+            INP & \citet{cooper_ice_1986} & \textbf{INP tracers} \\
+            Immersion nucleation & \citet{bigg_formation_1953} & \textbf{Explicit nucleation} \\
+            Deposition nucleation & \citet{cooper_ice_1986} & \textbf{Explicit nucleation}\\
             Homogeneous nucleation & \citet{koop_water_2000} & \citet{koop_water_2000} \\
             Water friendly aerosols & Forced at \SI{500}{\per\cubic\cm} & Forced at \SI{500}{\per\cubic\cm} \\
         \bottomrule
@@ -82,15 +83,26 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     \end{table}
 
     % how do we use the INP tracers
-    The only difference between the control and the test setup concerns the nucleation by immersion.
-    In the control version, the number of ice crystals ($n_i$) is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86).
-    In the test simulation, the $n_i$ values of C86 are replaced by the number concentrations of the INP tracers of \cref{chap4}. 
-    The INP tracers are temperature-binned, with \tempc{5} steps, from \tempc{-5} to \tempc{-25}. They are emitted from aerosol particles emissions sources of relevant species for ice nucleation. The particles concentrations are converted into the INP tracers with adequate INAS based ice nucleation parametrisations.
+    The differences between the control and the test setup stand in the immersion and deposition modes of nucleation.
+    In the original publication, \citet{thompson_study_2014} use the \citet{demott_predicting_2010} ice nucleation parametrisation (D10) with the model dust to predict the number of INPs. It is then used to influence the immersion nucleation that is handled by the \citet{bigg_formation_1953} scheme.
+    In our control version, the number of INPs is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86) rather than D10. 
+    For deposition nucleation, the number of ice crystals ($n_i$) produced is directly determined by D10 in the original scheme \citep{thompson_study_2014} with aerosol-aware mode or by C86 otherwise. In our control setup, we keep C86.
+
+    In the test simulation, the INPs are driven by the number concentrations of the INP tracers of \cref{chap4}. 
+    They are then used explicitly to produce ice crystals in both immersion and deposition modes. In order to prevent ice crystal formation by these modes outside of clouds, the cloud fraction is used to cap the ice formation:
+    \begin{equation}
+        n_i = N_{\text{INP}} * f_{\text{cloud}}
+    \end{equation}
+    where $f_{\text{cloud}}$ is the model cloud fraction.
+    The INP tracers are emitted with immersion mode ice nucleation parametrisations, normally not suited to deposition nucleation.
+    In order to take that into account, and still being able to use the INP tracers in deposition mode, the number of INPs capable of deposition nucleation is set to \perc{10} of the immersion INPs. This value relies on the observations by \citet{schrod_long-term_2020}. Even though it is not a consolidated value, it accounts for the likely difference between immersion and deposition. 
+
+    The INP tracers are binned by temperature, with \tempc{5} steps, from \tempc{-5} to \tempc{-25}. They are emitted from aerosol particles emissions sources of relevant species for ice nucleation. The particles concentrations are converted into the INP tracers with adequate INAS based ice nucleation parametrisations.
     The aerosols species used for the INP tracers emissions are dust, sea sprays, fungal spores and bacteria from terrestrial vegetation.
-    Once emitted, the tracers are subject to wet and dry removal, as well as in-cloud activation.
+    Once emitted, the tracers are subject to wet and dry removal, as well as in-cloud activation based on temperature conditions.
     The detailed production and transport mechanisms of the INP tracers are described in \cref{sec:method_inp_emission}.
 
-    In the microphysics scheme, what INP tracer is used to feed $n_i$ depends on a temperature condition.
+    In the microphysics scheme, which INP tracer is used to feed $n_i$ depends on a temperature condition.
     The tracer of temperature $T_{\text{INP}}$ prescribes $n_i$ when $T \in [T_{\text{INP} - 5};\, T_{\text{INP}}]$.
     In the particular case of $T <$ \tempc{-25}, the INP25 tracer is used. And when $T>$ \tempc{-5}, $n_i$ is set to $10^{-6}$ \si{\per\liter}.
     For comparison, the default value of $n_i$ in the standard Thompson scheme (i.e. non-aerosol-aware) is \SI{1}{\per\liter}.
@@ -99,7 +111,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     The aerosol engine used in the base WRF-Chem setup, GOCART, misses some aerosols sources that have been identified as important sources for CCNs. \todo{what are they exactly? what reference?}
     Consequently, if the aerosol-aware microphysics scheme uses the aerosols produced by GOCART as water friendly aerosols (i.e. potential CCNs), it underestimates the formation of cloud water.
     A biased diagnostic of droplets number concentrations ensued, which affects the overall cloud representation in the simulations.
-    In order to address this difficulty, as well as clearing any unwanted variability between the control and test simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\liter}. \todo{Explain this value}
+    In order to address this difficulty, as well as clearing any unwanted variability between the control and test simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\cubic\cm}. \todo{Explain this value}
 
     
 

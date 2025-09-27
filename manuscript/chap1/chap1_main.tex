@@ -498,15 +498,16 @@ In this section, we will explore the physical nature of clouds through their met
     %%In order to meet the favorable conditions of cloud formation, an air parcel has to be subject to some dynamical movement.
 
     The atmosphere\----or more precisely, a parcel or a layer of it\----can be classified into three different stability states. These characterize whether the considered atmospheric layer is convective, stable, or neutral.
-    Let us first consider the case of dry air.
+    Let us first consider the case of \textit{dry air}.
     
-    The stability of an air parcel depends on the vertical balance between its weight and the buoyancy force:
+    The stability of a dry air parcel depends on the vertical balance between its weight and the buoyancy force:
 
     \begin{equation}
         m_p \vec{a} = \vec{\Pi} + \vec{P_p}
     \end{equation}
 
-    where $ m_p $ is the mass of the air parcel, \( \vec{a} \) its acceleration, \( \vec{\Pi} \) the buoyancy force, and \( \vec{P_p} \) the weight of the parcel. The buoyancy \(\Pi\) depends on the density \(\rho_e\) of the surrounding air and the density of the parcel \(\rho_p\).
+    where $ m_p $ is the mass of the air parcel, \( \vec{a} \) its acceleration, \( \vec{\Pi} \) the buoyancy force, and \( \vec{P_p} \) the weight of the parcel. 
+    The buoyancy \(\Pi\) depends on the density \(\rho_e\) of the surrounding air and the density of the parcel \(\rho_p\). An fluid parcel less dense than its surrounding fluid floats in it; conversely it sinks.
     
     The equation of state for air, considered as an ideal gas, is
 
@@ -520,9 +521,9 @@ In this section, we will explore the physical nature of clouds through their met
         \rho = \frac{P}{R_a T}.
     \end{equation}
 
-    Since the pressure of the parcel and its surroundings are identical, it is the temperature difference between $T_p$ (the parcel temperature) and $T_e$ (the surrounding environment temperature) that determines the ratio $\frac{\rho_p}{\rho_e}$ and, therefore, the stability state of the atmosphere.
+    Since the pressure of the parcel and its surroundings are identical, it is the temperature difference between $T_p$ (the parcel temperature) and $T_e$ (the surrounding environment temperature) that determines the ratio $\frac{\rho_p}{\rho_e}$ and, therefore, the stability state of the atmosphere layer.
     
-    Let us consider an atmosphere initially in hydrostatic equilibrium (balance between pressure gradient force and gravity):
+    Let us consider an atmosphere initially in hydrostatic equilibrium (i.e. balance between pressure gradient force and gravity):
 
     \begin{equation}
         -\frac{1}{\rho_e} \frac{\partial P}{\partial z} = g
@@ -533,28 +534,21 @@ In this section, we will explore the physical nature of clouds through their met
     \begin{equation}
         -\frac{1}{\rho_p} \frac{\partial P}{\partial z} = g + a
     \end{equation}
-
     Substituting \cref{eq:hydrostatic} into this expression, and using the equation of state, yields:
-
     \begin{equation}
     a = -g \frac{T_e - T_p}{T_e}
     \label{eq:acceleration}
     \end{equation}
     
-    Equation~\eqref{eq:acceleration} can be rewritten as a differential equation by assuming linear temperature profiles of the form
-
+    Equation~\eqref{eq:acceleration} can be rewritten as a differential equation by assuming linear temperature profiles of the form:
     \begin{equation}
     T_i = T_0 + z\,\Gamma_i \quad\quad (i = e, p)
     \end{equation}
-
     where $\Gamma$ is the vertical temperature gradient, or \texit{lapse rate}. The vertical derivative of potential temperature is:
-
     \begin{equation}
     \frac{d^2 z}{dt^2} = - \frac{g}{T_0} \frac{d\theta}{dz} z
     \end{equation}
-
     The term $\frac{g}{T_0} \frac{d\theta}{dz}$ is the squared Brunt–Väisälä frequency\footnote{Actually, $N$ has the dimension of a pulsation.}:
-   
    \begin{equation}
     N^2 = \frac{g}{T_0} \frac{d\theta}{dz}
     \end{equation}
@@ -598,7 +592,7 @@ In this section, we will explore the physical nature of clouds through their met
     \begin{equation}
         \frac{dT}{dz} = - \frac{g}{c_p} - \frac{L_v dq_s}{c_p dz}
     \end{equation}
-    The term $\frac{g}{c_p}$ is the dry adiabatic lapse rate $\Gamma_d$ (or $\frac{dT}{dz}$ when the latent heat is not considered). 
+    The term $\frac{g}{c_p}$ is the dry adiabatic lapse rate $\Gamma_d$ (or $\left(\frac{dT}{dz}\right)_{d}}$ when the latent heat is not considered). 
     By writing the change in $q_s$ as a function of temperature rather than altitude,
     \begin{equation}
         \frac{dT}{dz} = -\frac{L_v}{c_p} \frac{dq_s}{dT} \frac{dT}{dz} - \Gamma_d
@@ -611,7 +605,7 @@ In this section, we will explore the physical nature of clouds through their met
     Because of the release of latent heat, $\Gamma_s$ is always lower than $\Gamma_d$.
     The stability conditions now expend to five cases: absolutely stable, saturated neutral, conditionally unstable, dry neutral and absolutely unstable.
 
-    \begin{table}[t]
+    \begin{table}[h]
         \centering
         \caption{Stability criteria of moist air.}
         \begin{tabular}{l|l}
@@ -631,12 +625,12 @@ In this section, we will explore the physical nature of clouds through their met
     When an air parcel is lifted by unstable conditions, the phenomenon is called \textit{free convection}. Conversely, \textit{forced convection} refers to upward air displacement caused by pressure gradient or topography.
     The lifted parcel may meet thermodynamically favorable conditions for its vapour to condensate. 
     In case of low tropospheric clouds like cumulus (see \cref{fig:cloud_pic}), the sine qua none condition for droplet forming is often on temperature. When the isotherm that allows the cloud to form is reached, the vapour condensates and the cloud forms. That explains why those kind of clouds have very flat and homogeneous bases.
-    The air parcel can eventually reach an altitude where $N^2 > 0$, and thus stop its ascension. 
-    If the parcel is in a stable case, the cloud can be the witness of gravity waves. %(see \cref{fig:cloud_pic}).
+    The air parcel can eventually reach an altitude where it gets stable, and thus stop its ascension. 
+    In a stable case, the cloud can be the witness of gravity waves. %(see \cref{fig:cloud_pic}).
      
     In saturated ascent, when the droplets form, the latent heat associated with their initial evaporation is released, which warms the surrounding air. This tends to fuel the air parcel lifting. If the total latent heat of the parcel is sufficiently important, and the negative potential temperature gradient is strong enough, the lifting can enter in a positive feedback loop that causes it to self sustain until all the vapour has condensed. We talk of \textit{deep convection}.
     In such situations, the cloud can extend up to the tropopause where the tropospheric temperature gradient gets cancelled, and so do the buoyancy of the air parcel. 
-    This mechanism is at the origin of cumulonimbus formation.
+    This mechanism is at the origin of cumulonimbus formation (\cref{fig:cloud_pic}).
 
 
     \subsubsection{Cloud phase}
@@ -1079,6 +1073,7 @@ This intense warming has striking consequences, for instance on the sea ice pack
     In this section, we review the main mechanisms that can explain this Arctic amplification.
 
         \begin{figure}[h]
+            \centering
             \includegraphics[width=0.8\textwidth]{./chap1/images/arctic_ampli.png}
             \caption{Annual mean surface temperature anomalies for the period 2004\--2024, relative to the 1951--1980 mean. The zonal mean anomalies are shown in the lower right panel. Warming reaches up to \SI{3}{\degreeCelsius} in the Arctic, approximately four times the magnitude observed at the equator. Data from \url{https://data.giss.nasa.gov/gistemp/maps/NASA GISS}}.
             \label{fig:arctic_warming}

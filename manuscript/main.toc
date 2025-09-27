@@ -1,9 +1,9 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Remerciements}{iv}{chapter*.1}%
-\contentsline {chapter}{Todo list}{v}{chapter*.1}%
-\contentsline {chapter}{Table of contents}{vi}{section*.2}%
-\contentsline {chapter}{Acronyms and Abbreviations}{xi}{section*.3}%
-\contentsline {chapter}{Foreword}{xv}{chapter*.4}%
+\contentsline {chapter}{Foreword}{iv}{chapter*.1}%
+\contentsline {chapter}{Remerciements}{vi}{chapter*.2}%
+\contentsline {chapter}{Todo list}{vii}{chapter*.2}%
+\contentsline {chapter}{Table of contents}{viii}{section*.3}%
+\contentsline {chapter}{Acronyms and Abbreviations}{xiii}{section*.4}%
 \contentsline {chapter}{Contributions to the scientific community}{xvii}{chapter*.5}%
 \contentsline {chapter}{Résumé long en Français}{xxiv}{chapter*.6}%
 \contentsline {section}{\numberline {\uppercase {{}\relax }.1}Introduction à la problématique}{xxiv}{section.0.1}%
@@ -137,27 +137,29 @@
 \contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.3.1.2}Coarse aerosols to INPs}{125}{subsubsection.4.3.1.2}%
 \contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.3.2}Second approach: Emissions of modelled INPs}{128}{subsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.3.2.1}MOCCHA}{128}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.3.2.2}MOSAIC}{129}{subsubsection.4.3.2.2}%
-\contentsline {section}{\numberline {\uppercase {iv{}\relax }.4}Discussion}{131}{section.4.4}%
-\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.4.1}Learnings from the particle-to-INP approach}{131}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.4.2}What the emission of INP tracers has revealed}{132}{subsection.4.4.2}%
-\contentsline {section}{\numberline {\uppercase {iv{}\relax }.5}Conclusions}{134}{section.4.5}%
-\contentsline {subparagraph}{\scriptsize \textit {Opening questions: Modelling of Arctic INPs}}{135}{section*.88}%
-\contentsline {chapter}{\numberline {V}The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}{137}{chapter.5}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.1}Introduction}{139}{section.5.1}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{139}{section.5.2}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.2.1}Linking aerosol particles to cloud microphysics}{139}{subsection.5.2.1}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Effects on cloud}{140}{section.5.3}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.1}Ice crystal number concentrations}{141}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.2}Cloud cover and cloud phase}{141}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.3}Change in cloud radiative impact}{141}{subsection.5.3.3}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Discussion about the possible feedback effects}{142}{section.5.4}%
-\contentsline {chapter}{\numberline {VI}Conclusions}{143}{chapter.6}%
-\contentsline {chapter}{A.\ \ Supplementary materials of chapter \ref {chap3}}{145}{section*.95}%
-\contentsline {chapter}{B.\ \ What research in 2050?}{148}{section*.99}%
-\contentsline {chapter}{C.\ \ Ma thèse en 180 secondes}{150}{section*.100}%
-\contentsline {chapter}{D.\ \ Thesis environmental footprint}{153}{section*.101}%
-\contentsline {chapter}{List of figures}{154}{section*.102}%
-\contentsline {chapter}{List of Tables}{161}{section*.103}%
-\contentsline {chapter}{References}{162}{section*.103}%
+\contentsline {subsubsection}{\numberline {\uppercase {iv{}\relax }.3.2.2}MOSAIC}{131}{subsubsection.4.3.2.2}%
+\contentsline {section}{\numberline {\uppercase {iv{}\relax }.4}Discussion}{132}{section.4.4}%
+\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.4.1}The particle-to-INP approach}{132}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {\uppercase {iv{}\relax }.4.2}Emissions of INP tracers}{134}{subsection.4.4.2}%
+\contentsline {section}{\numberline {\uppercase {iv{}\relax }.5}Conclusions}{135}{section.4.5}%
+\contentsline {subparagraph}{\scriptsize \textit {Opening questions: Modelling of Arctic INPs}}{136}{section*.89}%
+\contentsline {chapter}{\numberline {V}The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}{138}{chapter.5}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.1}Introduction}{140}{section.5.1}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{140}{section.5.2}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.2.1}Linking aerosol particles to cloud microphysics}{140}{subsection.5.2.1}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Effects on cloud}{142}{section.5.3}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.1}Ice crystal number concentrations}{142}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.2}Cloud cover and cloud phase}{142}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.3}Change in cloud radiative impact}{143}{subsection.5.3.3}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Discussion about the possible feedback effects}{143}{section.5.4}%
+\contentsline {chapter}{\numberline {VI}Conclusions}{144}{chapter.6}%
+\contentsline {chapter}{A.\ \ Supplementary materials of chapter \ref {chap3}}{146}{section*.96}%
+\contentsline {chapter}{B.\ \ What research in 2050?}{149}{section*.100}%
+\contentsline {chapter}{C.\ \ Ma thèse en 180 secondes}{151}{section*.101}%
+\contentsline {chapter}{D.\ \ Thesis environmental footprint}{154}{section*.102}%
+\contentsline {paragraph}{Hardware}{154}{section*.102}%
+\contentsline {paragraph}{Scientific computing}{154}{section*.102}%
+\contentsline {chapter}{List of figures}{155}{section*.103}%
+\contentsline {chapter}{List of Tables}{162}{section*.104}%
+\contentsline {chapter}{References}{163}{section*.104}%
 \contentsfinish 
