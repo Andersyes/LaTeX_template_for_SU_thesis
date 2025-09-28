@@ -3,7 +3,7 @@
 \newcounter{counterchapter}
 \setcounter{counterchapter}{2}
 
-\chapter{Methodological approach, materials and techniques}\label{chap2}
+\chapter{Methodological approach, Materials and Techniques}\label{chap2}
 \chaptermark{Methodological approach and techniques}
 
 
@@ -186,12 +186,9 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     % let's talk about what happens in those schemes 
     In atmospheric models such as WRF, microphysics schemes are the sub-models in charge of representing the physical processes in clouds. As such, they use the modelled thermodynamics to convert water vapour and aerosol particles into cloud particles (liquid droplets, ice crystal, rain, hail, snow, and graupel).
     They control the droplet formation and primary ice formation, droplets growth (condensation, collection, accretion), ice crystals growth (deposition, aggregation, rimming), and their removal by sedimentation, evaporation or sublimation and precipitation. This affects the water vapour field accordingly, as well as impacting the land surface sub-model with precipitation.
-    Microphysics schemes also handle heating and cooling by phase transitions (latent heat), and provide hydrometeors quantity and optical properties to the radiation module. The latter happens through ice water content (IWC), liquid water content (LWC), precipitation water cotnent, and hydrometeor effective radius. The radiation module can thereby compute radiative transfer, deducting cooling or heating rates for every vertical layers, feeding back into the model dynamics. 
+    Microphysics schemes also handle heating and cooling by phase transitions (latent heat), and provide hydrometeors quantity and optical properties to the radiation module. The latter happens through ice water content (IWC), liquid water content (LWC), precipitation water content, and hydrometeor effective radius. The radiation module can thereby compute radiative transfer, deducting cooling or heating rates for every vertical layers, feeding back into the model dynamics. 
     
- Simple microphysical models tend to not include the effect of aerosol-cloud interactions explicitly, but only parametrise their effects on droplet numbers for radiative transfer calculations. In the version of WRF-Chem used in this work aerosol concentrations, sizes and compositions predicted by the model are linked to the cloud microphysics module, and enable the calculation of aerosol-cloud interactions and their effect on the radiative budget and the resulting adjustments of modelled dynamics. %XXLM merge with next section?
-
-% need for a transition
-\todo{add a transition}
+ Simple microphysical models tend to not include the effect of aerosol-cloud interactions explicitly, but only parametrise their effects on droplet numbers for radiative transfer calculations. In the version of WRF-Chem used in this work, aerosol concentrations, sizes and compositions predicted by the model are linked to the cloud microphysics module, and enable the calculation of aerosol-cloud interactions and their effect on the radiative budget and the resulting adjustments of modelled dynamics. %XXLM merge with next section?
 
     \subsection{Moments in microphysics schemes}
     \label{sec:moment_microphysics}

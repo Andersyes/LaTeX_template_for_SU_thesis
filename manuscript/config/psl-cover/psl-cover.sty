@@ -19,14 +19,13 @@
 \NeedsTeXFormat{LaTeX2e}
 
 \ProvidesPackage{config/psl-cover/psl-cover}
-
 \RequirePackage{tabularx}
 \RequirePackage{etoolbox}
 \RequirePackage{iftex}
 \RequirePackage{tikz}
 \usetikzlibrary{backgrounds}
 
-\definecolor{pslblue}{RGB}{36, 56, 141}
+\definecolor{SUblue}{HTML}{1D2769}
 
 \newcommand*{\institute}[1]{\gdef\@institute{#1}}
 \newcommand*{\laboratory}[1]{\gdef\@laboratory{#1}}
@@ -111,18 +110,19 @@
 \newcommand{\theenkeywords}{\@enkeywords}
 
 \ifLuaTeX{}
-\newfontfamily\pslfont{Arial}
+\newfontfamily\pslfont{newtxtext} % original was Arial
 \newenvironment{pslfontenv}{\pslfont}{\par}
 \else
 \fi
 \ifXeTeX{}
-\newfontfamily\pslfont{Arial}}
+\newfontfamily\pslfont{newtxtext}
 \newenvironment{pslfontenv}{\pslfont}{\par}
 % \newenvironment{pslfontenv}{\fontfamily{phv}\selectfont}{\par}
 \else
 \fi
-\ifPDFTeX{}
-\newenvironment{pslfontenv}{\fontfamily{phv}\selectfont}{\par}
+\ifPDFTeX{} % for user of pdflatex
+\newfontfamily\pslfont{newtxtext} 
+\newenvironment{pslfontenv}{\pslfont}{\par}
 \else
 \fi
 
@@ -178,7 +178,7 @@
       %% institute
       % \node[xshift=-86mm, yshift=75mm, anchor=north west] at (o) {
       %   \begin{minipage}[h]{.45\paperwidth}
-      %     \color{pslblue}
+      %     \color{SUblue}
       %     \fontsize{14}{17}\selectfont
       %     Pr\'{e}par\'{e}e au \@institute{}\unskip\strut\par
       %     \if@cotutelle
@@ -195,15 +195,15 @@
           \fontsize{18}{22}\selectfont
           \textbf{\@title{}}\unskip\strut\par
           \vspace{5mm}
-          \color{pslblue}
+          \color{SUblue}
           \@entitle{}\unskip\strut\par
         \end{minipage}
       };
       \else
-      \node[yshift=31mm] at (o2) {
+      \node[yshift=28mm] at (o2) {
         \begin{minipage}[h]{.85\paperwidth}
           \centering
-          \fontsize{18}{22}\selectfont
+          \fontsize{22}{26}\selectfont
           \textbf{\@title{}}\unskip\strut\par
         \end{minipage}
       };
@@ -214,22 +214,22 @@
       %% author
       \node[xshift=-86mm, yshift=-8mm, anchor=north west] (autho) at (o3) {
         \begin{minipage}[h]{.3\paperwidth}
-          \pslbluelabel{Manuscrit soumis par}\unskip\strut\par
+          \SUbluelabel{Thèse soumise par}\unskip\strut\par
           \vspace{1mm}
           {\fontsize{16}{19}\selectfont\textbf{\@author{}}}\unskip\strut\par
           \vspace{1mm}
-          {\fontsize{12}{15}\selectfont Le \@date{}}\unskip\strut\par
+          {\fontsize{13}{17}\selectfont Le \@date{}}\unskip\strut\par
         \end{minipage}
       };
 
       %% doctoral school
       \node[xshift=0mm, yshift=-7mm, anchor=north west] (docsc) at (autho.south west) {
         \begin{minipage}[h]{.3\paperwidth}
-          \pslbluelabel{\'{E}cole doctorale n\textsuperscript{o}\@doctoralschoolnumber{}}
+          \SUbluelabel{\'{E}cole doctorale n\textsuperscript{o}\@doctoralschoolnumber{}}
           \unskip\strut\par
             \vspace{1mm}
             \begin{flushleft} \unskip
-            {\fontsize{12}{15}\selectfont\@doctoralschoolname{}}
+            {\fontsize{13}{17}\selectfont\@doctoralschoolname{}}
             \end{flushleft} 
         \end{minipage}
       };
@@ -237,36 +237,36 @@
       %% doctoral specialty
       \node[xshift=0mm, yshift=-7mm, anchor=north west] (docspe) at (docsc.south west) {
         \begin{minipage}[h]{.3\paperwidth}
-          \pslbluelabel{Sp\'{e}cialit\'{e}s}
+          \SUbluelabel{Sp\'{e}cialit\'{e}s}
           \unskip\strut\par
           \vspace{1mm}
-          {\fontsize{14}{17}\selectfont\textbf{\@specialty{}}}
+          {\fontsize{13}{17}\selectfont\@specialty{}}
         \end{minipage}
       };
 
       %% labo
       \node[xshift=0mm, yshift=-7mm, anchor=north west] (labo) at (docspe.south west) {
         \begin{minipage}[h]{.4\paperwidth}
-          \pslbluelabel{Pr\'{e}par\'{e}e au}
+          \SUbluelabel{Pr\'{e}par\'{e}e au}
             \unskip\strut\par
             \vspace{1mm}
             \begin{flushleft} \unskip
-            % {\fontsize{14}{17}\selectfont\textbf{\@laboratory{}}}
-            {\fontsize{12}{15}\selectfont \@laboratory{}}
+            {\fontsize{13}{17}\selectfont \@laboratory{}}
             \end{flushleft} 
         \end{minipage}
       };
 
       %% jury
-      \node[fill=lightgray!10, xshift=-15mm, yshift=-6.5mm, anchor=north west] (compo) at (o3) {
-        \begin{minipage}[h]{100mm}
+      %\node[fill=lightgray!10, xshift=-15mm, yshift=-6.5mm, anchor=north west] (compo) at (o3) {
+      \node[fill=SUblue!10, xshift=-15mm, yshift=-6.5mm, anchor=north west] (compo) at (o3) {
+        \begin{minipage}[h]{105mm}
           \vspace{2mm}
-          {\hspace{1mm}\color{pslblue}\fontsize{12}{15}\selectfont Composition du jury :}
+          {\hspace{1mm}\color{SUblue}\fontsize{12}{15}\selectfont Composition du jury :}
 
           \vspace{5mm}
           \hspace{-2mm}
-          \fontsize{9}{11}\selectfont
-          \begin{tabularx}{100mm}{p{67mm}p{30mm}}
+          \fontsize{11}{13}\selectfont
+          \begin{tabularx}{105mm}{p{72mm}p{35mm}}
             %\psljurystylepresident{\@jiname}{\@jitt}%{\@jirole}
             \psljurystyle{\@jiname}{\@jitt}{\@jirole}
             \psljurystyle{\@jiiname}{\@jiitt}{\@jiirole}
@@ -365,7 +365,7 @@
 }
 
 %% Some text styling
-\newcommand{\pslbluelabel}[1]{{\color{pslblue}\fontsize{12}{15}\selectfont #1}}
+\newcommand{\SUbluelabel}[1]{{\color{SUblue}\fontsize{12}{15}\selectfont #1}}
 % \newcommand{\psljurystyle}[3]{
 %   \ifdefempty{#1}{}{
 %     \fontsize{10}{12}\selectfont #1 & \\
@@ -396,9 +396,9 @@
 
 \newcommand{\pslbacknode}[4]{
   \begin{minipage}[h]{.7\paperwidth} % 0.8
-    {\color{pslblue}\fontsize{11}{14}\selectfont #1}\unskip\strut\par
+    {\color{SUblue}\fontsize{11}{14}\selectfont #1}\unskip\strut\par
     \vspace{-2.5mm}
-    \tikz{\draw[pslblue, line width=.5mm] (0, 0) -- (14.7, 0);} % (16.8, 0) 16.8=0.8*21
+    \tikz{\draw[SUblue, line width=.5mm] (0, 0) -- (14.7, 0);} % (16.8, 0) 16.8=0.8*21
 
     \vspace{1mm} %old 3 mm
     {\color{black}\fontsize{#3}{#4}\selectfont #2}\unskip\strut\par
