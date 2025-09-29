@@ -32,7 +32,6 @@ Within the earth's climate, the poles are known to be extreme, yet very sensitiv
 The Arctic, with its central ocean partly covered in sea ice and circled by lands of permafrost, is particularly exposed to the changes caused by global warming.
 Furthermore, it is located in the northern hemisphere sharing it with two thirds of the emerged lands, where nearly \perc{90} of the global population live. This exposes it to the intensity of human activities, and makes it a core topic of geopolitical discords.
 With a warming rate four times faster than the global average \citep{rantanen_arctic_2022}, the Arctic climate is both a complex and a very interesting system to study. 
-
 Its particularities of solar exposure, atmospheric stability, temperature and remoteness (presented in \cref{sec:arctic_glimpse}), make it especially difficult to represent in a numerical model.
 
 % l'objectif
@@ -47,19 +46,48 @@ The misrepresentation of such effects in atmospheric models is one of the reason
 The lack of knowledge on Arctic INPs\----what are the species involved and what are their emission sources\----, is one impediment to a better representation of INPs in models.
 % the knowledge on ice nucleation
 Although the science of ice nucleation has been studied since the 18th century, accurately representing the formation of ice crystals in climate models remains a big challenge. The parametrisations of heterogeneous ice nucleation abound, but they are often very specific to a region or to a particle species, which makes it difficult to generalise in a climate model.
-Consequently, the models fail at keeping their role of powerful tools for the understanding of the atmospheric mechanisms.
+Consequently, the models fail at keeping their role of efficient tools for the understanding of the atmospheric mechanisms.
+
+In this modelling thesis, I used the Weather Research and Forecasting model (WRF), its version that includes chemistry (WRF-Chem), and the FLEXible PARTicle dispersion model (FLEXPART) to explore these questions and eventually answer them.
 
 
 % what about the INP sources
+\section{Sources of Arctic INPs}
+% the detection method
+The first project of this thesis was the assessment of the potential source contribution function (PSCF) performances for the retrieval of short-lived atmospheric species.
+The PSCF, or ratio method, is an analysis technique of Lagrangian model outputs that enables the identification of the likely emission sources of observed atmospheric species (\cref{P1sec:ratio_method}).
+It is more advanced than single back-trajectory analyses\----which are extensively used in the atmospheric sciences community\----, yet, the PSCF assessment of its performances retrieving known sources of modelled tracers revealed that its outputs can be spurious.
+Indeed, in order to evaluate the method, we set up modelled emissions of idealised atmospheric tracers in WRF-Chem and interpolated their concentrations as time series all around the Arctic to mimic in situ measurements. Then we used FLEXPART-WRF to compute Lagrangian back-trajectories, and finally applied the PSCF (\cref{P1sec:experiment}).
+The emission sources were already known since they were modelled, which enabled the evaluation of the source identification method (\cref{P1sec:evaluation_metric}).
+One of the main advantages of the PSCF is that it allows for the quantification of the sources respective contributions to the measured concentrations. However, the results of the assessment showed that the conclusions of its quantification can be wrong and misleading (\cref{P1sec:standard_method}).
+
+Strong of this finding, and of the assessment setup that led to it, we conducted sensitivity tests in order to get a reliable source identification method.
+We ended up with the \textit{improved ratio method}, that comprises the standard PSCF protocol with specific parameters and additional treatments (\cref{P1sec:improved_method}).
+\vspace{\baselineskip}
+
+% the analyses of INP
+In possession of a method with known performances, we were ready to undertake the identification of Arctic INPs.
+We used INP concentration data from three recent campaigns (MOCCHA 2018, MOSAIC 2020 and ARTofMELT 2023, \cref{sec:INP_sources}).
+The analyses revealed that INPs originate from inside the Arctic region, with possible transport from inland Asia. Two main regions were highlighted: coasts of the Barents and Laptev seas, and coasts of Greenland.
+These results suggest a predominance of dust particles among the observed INPs, but the study of MOSAIC warm INPs (active at \tempc{-10} and \tempc{-15}), showed possible oceanic sources that suggest the presence of marine organic particles in populations of warm INPs.
+The study of primary biological aerosol particles (PBAPs) origins supported this observation, showing possible oceanic sources from ice free areas of the Arctic Ocean.
 
 % what about the INP modelling
+\section{Ice nucleation modelling and INP emissions}
+In the next chapter, we used the knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
+Emissions of high latitude of dust (\cref{sec:dust_emiss}), marine particles organic aerosols (MPOA) from sea sprays (\cref{sec:seaspray_emiss}), and continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model.
+
 
 % what about the microphysics
+\section{Adapting microphysics to better INP representation}
 
 % the limits of modelling
+\section{Reflection about the limits of modelling}
     % ""
 
 % the perspectives: 
+\section{Perspective of future investigations}
+
 
 % Réouverture sur un sujet plus large, et phrase de fin engagée mais tout de même en lien avec le sujet central de la thèse.
 
