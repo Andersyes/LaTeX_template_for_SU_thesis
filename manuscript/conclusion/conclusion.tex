@@ -5,15 +5,19 @@
 \chapter{Conclusions and outlook}\label{chap6}
 \chaptermark{\color{chapcolor} Conclusions and Outlook}
 
- \chapquote{}{} 
- \todo{Find a quote for this chapter}
+ \epigraph{``Si tu peux, fais que ton âme arrive,\\
+ À force de rester studieuse et pensive,\\
+ Jusqu'à ce haut degré de stoïque fierté\\
+ Où naissant dans les bois, j'ai tout d'abord monté. [...]\\
+ Fais énergiquement ta longue et lourde tâche\\
+ Dans la voie où le Sort à voulu t'appeler.''}{Alfred de Vigny, \textit{Les Destinées}} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
 \vspace*{\fill}
 \begin{singlespace}
-%\textbf{Chapter content}
-    
+\textbf{Chapter content}
+
 ~
 
 \startcontents[chapters]
@@ -26,7 +30,7 @@
 % récit introductif à la conclusion avant de resserrer sur le sujet.
 % (accroche)
 
-
+\section{Scientific context}
 % what was the question
 Within the earth's climate, the poles are known to be extreme, yet very sensitive regions.
 The Arctic, with its central ocean partly covered in sea ice and circled by lands of permafrost, is particularly exposed to the changes caused by global warming.
@@ -74,16 +78,45 @@ The study of primary biological aerosol particles (PBAPs) origins supported this
 
 % what about the INP modelling
 \section{Ice nucleation modelling and INP emissions}
-In the next chapter, we used the knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
+In \cref{chap4}, we used the knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
 Emissions of high latitude of dust (\cref{sec:dust_emiss}), marine particles organic aerosols (MPOA) from sea sprays (\cref{sec:seaspray_emiss}), and continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model.
+The objective was to use the new modelled particles to reproduce in situ INP concentrations in central Arctic.
+The challenge have been addressed with two approaches.
+
+The first approach relied on the conversion of aerosol particles, after their transport in the atmosphere, by ice nucleation parametrisations.
+Eight different parametrisations were used; among them, three were specific to dust particles, one to sea sprays, two to bacteria, one to fungal spores, and one was general and used all types of coarse-mode particles (\cref{sec:inp_param}).
+In addition to the modelled particles, have also been used observations from the MOCCHA 2018 campaign to feed the parametrisations.
+The results showed that it is difficult to reproduce INP variability with modelled particles as input of the parametrisations (\cref{sec:aerosols_to_INP}). Nevertheless, concentration levels were correctly reproduced with the parametrisation that uses the whole coarse-mode \citep{demott_predicting_2010}. %Furthermore, the levels of PBAP particles (bacteria and fungal spores), were
+When the actual observed concentrations of particles were used to feed the ice nucleation parametrisations, the time variability was much better reproduced.
+The dust parametrisations overestimated the INP concentrations. This is partly due to the hypothesis of a coarse-mode of \perc{100} dust particles. Therefore, the resultant overestimated INP concentrations suggested that the coarse-mode of the MOCCHA campaign was not full dust (\cref{}).
+Concerning the biological particles observed during the campaign, the fluorescent PBAPs (fPBAPs), no parametrisation was able to predict high enough INP level to match the observed INP concentrations.
+Indeed, the nucleation rate necessary for INPs to be driven by PBAPs is close to \perc{100} at \tempc{-20}.
+From the current range of our knowledge on ice nucleation with PBAPs, the latter can not explain alone the INP concentrations during the campaign.
+The fact fPBAPs are well correlated with the INP measurements suggests two things: (1) fPBAPs are transported with other types of particles capable of nucleating ice, (2) the fPBAPs observations underestimate the actual fPBAPs concentrations (\cref{sec:aerosols_to_INP}).
+
+The second approach consisted in the emission of INP tracers from emissions of aerosols particles considered as potential INPs.
+With ice nucleation parametrisations suited to the particle species, the latter was converted into INPs in five temperature bins, from \tempc{-5} to \tempc{-25}. 
+The INP tracers where then transported in the modelled atmosphere, subject to wet and dry deposition, as well as in-cloud removal by activation (\cref{sec:method_inp_emission}).
+This last process was the main thing that was missing in the first approach in order to faithfully reproduce the INP nucleation history.
+The INP tracers were used to get insight on the spatial distribution of warm to colder INPs. Namely, it enabled the identification of zones where homogeneous nucleation can happen; opening the gate toward new implementation of INP-cloud interactions.
+Interpolating the INP tracers concentrations at the location of the MOCCHA and MOSAIC campaigns made possible their comparison with INP observations (\cref{sec:second_approach}).
+The variability was better reproduced than what was obtained with the first approach.
+The general levels were consistent with the observed INP concentrations and better than those of the first approach.
+These results gave confidence in the INP tracers modelling setup, which made us use it further in the following chapter in an attempt to link INPs to the cloud microphysics. 
 
 
 % what about the microphysics
 \section{Adapting microphysics to better INP representation}
+The last step of my research project presented in this thesis was the investigation of INP effects on Arctic cloud with modelling tools.
+I used the  
+
 
 % the limits of modelling
 \section{Reflection about the limits of modelling}
-    % ""
+    % The greatest flaw of modelling is that results tend to reflect either the wish of the modeller, its personal vision of the physics, or the numerical behaviour of the model.
+    % story of what happened with the last chapter study: we saw nothing so though there was no impact. We wanted impact, so we changed stuff, until we realised the scheme was blocking our modifications.
+    % example of the theoreticians particles physicists and the screw driver. 
+     
 
 % the perspectives: 
 \section{Perspective of future investigations}

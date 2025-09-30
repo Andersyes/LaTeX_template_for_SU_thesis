@@ -1,17 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[52] biber:340> INFO - === mar. sept. 23, 2025, 22:39:30
-[63] Biber.pm:419> INFO - Reading 'main.bcf'
-[202] Biber.pm:979> INFO - Found 229 citekeys in bib section 0
-[216] Biber.pm:4419> INFO - Processing section 0
-[229] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
-[305] bibtex.pm:1713> INFO - LaTeX decoding ...
-[988] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
-[2919] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2919] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2919] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2919] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[3168] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3503] bbl.pm:763> INFO - Output to main.bbl
-[3503] Biber.pm:131> WARN - I didn't find a database entry for 'ehret_long-range_2025' (section 0)
-[3503] Biber.pm:133> INFO - WARNINGS: 1
+[63] biber:340> INFO - === mar. sept. 30, 2025, 11:31:34
+[77] Biber.pm:419> INFO - Reading 'main.bcf'
+[242] Biber.pm:979> INFO - Found 233 citekeys in bib section 0
+[255] Biber.pm:4419> INFO - Processing section 0
+[274] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
+[348] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1036] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
+[2986] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2986] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2986] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2986] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[3243] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3628] bbl.pm:763> INFO - Output to main.bbl

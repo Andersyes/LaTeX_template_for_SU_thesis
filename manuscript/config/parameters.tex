@@ -210,6 +210,8 @@
 \usepackage{textcomp} % rajoute des symboles 
 \usepackage{xcolor} % pour ajouter de la couleur (si besoin)
 \usepackage{epigraph} % pour rajouter des citations en début de chapitre  \epigraph{Citation}}{Auteur}
+\setlength\epigraphrule{.0pt}
+\setlength\epigraphwidth{.5\textwidth}
 \usepackage{titling}
 \usepackage{lipsum} 
 \usepackage{csquotes} % added 07/09/21 : \begin{displayquote}
@@ -226,7 +228,7 @@
 \usepackage{acronym}
 \usepackage[nameinlink,english]{cleveref} % noabbrev
 \Crefname{figure}{Fig.}{Figs.} % traduction des références aux figures/tables/équations
-    \crefname{figure}{Fig.}{Figs.} % {ref type}{abbrev for one}{abbrev for multiple}
+\crefname{figure}{Fig.}{Figs.} % {ref type}{abbrev for one}{abbrev for multiple}
 \Crefname{equation}{Eq.}{Eqs.}
 \crefname{equation}{eq.}{eqs.}
 \Crefname{table}{Table}{Tables}
@@ -269,9 +271,10 @@
 			backend=biber,
 			url=false,doi=true,isbn=false,%
 			minbibnames=1, % nb min authors in biblio
-			maxbibnames=6, % nb max authors in biblio
+			maxbibnames=66, % nb max authors in biblio
 			maxcitenames=1, % nb min authors as textual
       mincitenames=1, % nb min authors as textual
+            giveinits=true, % use initials for first names
 			% maxalphanames=1, %nb author ref
 			style=authoryear,%authoryear, numeric ,  alphabetic
 			sorting=nyt,uniquename=false,uniquelist=false]{biblatex}

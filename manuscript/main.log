@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  29 SEP 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  30 SEP 2025 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1980,7 +1980,7 @@ e 7836.
 Package cleveref Info: include cross-reference names in hyperlinks on input lin
 e 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 262.
+Package hyperref Info: Option `colorlinks' set `true' on input line 264.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
@@ -2206,13 +2206,23 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
+
+! Package xkeyval Error: `giveinits' undefined in families `blx@opt@pre'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16186 \blx@processoptions
+                           
+? R
+OK, entering \nonstopmode...
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
 (biblatex)             2023-08-11 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
@@ -2390,8 +2400,12 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ! Undefined control sequence.
 l.124 \newfontfamily
                     \pslfont{newtxtext}
-? R
-OK, entering \nonstopmode...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.124 \newfontfamily\pslfont
                             {newtxtext}
@@ -2619,15 +2633,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ehret_long-range_2025
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 
@@ -3617,10 +3623,28 @@ LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Package cleveref Info: loaded `english' language definitions on input line 43.
- [16
+! Undefined control sequence.
+l.33         \item Preprint in \texit
+                                     {Journal of Geophysical Research}:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package cleveref Info: loaded `english' language definitions on input line 35.
+[16
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+! Undefined control sequence.
+l.40     \item Submitted to \texit
+                                  {Elementa: Science of the Anthropocene}:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.64 ...ffective as reproducing Arctic INPs?, 3\up
                                                   {rd} QUiESCENT Workshop, L...
@@ -3695,7 +3719,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3706,7 +3730,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3715,27 +3739,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
-                                                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.14 \section{Introduction à la problématique}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3746,7 +3750,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3755,27 +3759,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
-                                                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.14 \section{Introduction à la problématique}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3786,7 +3770,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3795,27 +3779,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
-                                                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.14 \section{Introduction à la problématique}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3826,7 +3790,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.14 \section{Introduction à la problématique}
+l.15 \section{Introduction à la problématique}
                                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3835,7 +3799,67 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
+l.15 \section{Introduction à la problématique}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.15 \section{Introduction à la problématique}
+                                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.15 \section{Introduction à la problématique}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.15 \section{Introduction à la problématique}
+                                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.15 \section{Introduction à la problématique}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.15 \section{Introduction à la problématique}
+                                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.22 \section{Outils et techniques}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3846,7 +3870,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3855,27 +3879,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
-                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.21 \section{Outils et techniques}
-                                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3886,7 +3890,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3895,27 +3899,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
-                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.21 \section{Outils et techniques}
-                                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3926,7 +3910,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3935,27 +3919,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
-                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.21 \section{Outils et techniques}
-                                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\thesection ... {\romannumeral \thecounterchapter 
-                                                  {}\relax }.\arabic {section}
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3966,7 +3930,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.21 \section{Outils et techniques}
+l.22 \section{Outils et techniques}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3975,7 +3939,67 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.22 \section{Outils et techniques}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.22 \section{Outils et techniques}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.22 \section{Outils et techniques}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.22 \section{Outils et techniques}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.22 \section{Outils et techniques}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.22 \section{Outils et techniques}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\thesection ... {\romannumeral \thecounterchapter 
+                                                  {}\relax }.\arabic {section}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3986,7 +4010,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3995,7 +4019,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4006,7 +4030,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4015,7 +4039,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4026,7 +4050,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4035,7 +4059,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4046,7 +4070,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4055,7 +4079,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4066,7 +4090,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4075,7 +4099,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4086,7 +4110,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4095,7 +4119,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4106,7 +4130,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.27 ...relles de noyaux glaçogènes en Arctique}
+l.28 ...relles de noyaux glaçogènes en Arctique}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4115,7 +4139,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4126,7 +4150,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4135,7 +4159,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4146,7 +4170,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4155,7 +4179,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4166,7 +4190,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4175,7 +4199,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4186,7 +4210,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4195,7 +4219,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4206,7 +4230,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4215,7 +4239,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4226,7 +4250,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4235,7 +4259,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4246,7 +4270,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.33 ...�ne de glace et des particules associées}
+l.34 ...�ne de glace et des particules associées}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4255,7 +4279,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4266,7 +4290,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4275,7 +4299,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4286,7 +4310,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4295,7 +4319,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4306,7 +4330,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4315,7 +4339,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4326,7 +4350,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4335,7 +4359,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4346,7 +4370,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4355,7 +4379,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4366,7 +4390,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4375,7 +4399,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4386,7 +4410,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.40 ...�tés microphysiques des nuages arctiques}
+l.41 ...�tés microphysiques des nuages arctiques}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4395,7 +4419,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4406,7 +4430,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4415,7 +4439,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4426,7 +4450,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4435,7 +4459,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4446,7 +4470,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4455,7 +4479,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4466,7 +4490,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4475,7 +4499,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4486,7 +4510,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4495,7 +4519,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4506,7 +4530,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4515,7 +4539,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \thesection ... {\romannumeral \thecounterchapter 
                                                   {}\relax }.\arabic {section}
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4526,7 +4550,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.46 \section{Conclusion}
+l.47 \section{Conclusion}
                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4724,7 +4748,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/warming_evidences.png, id=655, 492.8814pt x 368.577pt>
+<./chap1/images/warming_evidences.png, id=656, 492.8814pt x 368.577pt>
 File: ./chap1/images/warming_evidences.png Graphic file (type png)
 <use ./chap1/images/warming_evidences.png>
 Package pdftex.def Info: ./chap1/images/warming_evidences.png  used on input li
@@ -4754,7 +4778,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/co2_2k_ce.pdf, id=689, 667.66628pt x 338.09306pt>
+<./chap1/images/co2_2k_ce.pdf, id=690, 667.66628pt x 338.09306pt>
 File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
 <use ./chap1/images/co2_2k_ce.pdf>
 Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 235.
@@ -4813,7 +4837,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/world_energy_consumption.png, id=739, 3770.085pt x 1067.99pt>
+<./chap1/images/world_energy_consumption.png, id=740, 3770.085pt x 1067.99pt>
 File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
 <use ./chap1/images/world_energy_consumption.png>
 Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
@@ -4841,7 +4865,7 @@ following unit was given.
 Package cleveref Info: loaded `english' language definitions on input line 268.
 
 [13]
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=752, 2133.9725pt x 1352.0
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=753, 2133.9725pt x 1352.0
 5125pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>
@@ -4860,7 +4884,7 @@ Package cleveref Info: loaded `english' language definitions on input line 288.
 Package cleveref Info: loaded `english' language definitions on input line 300.
 
  [15 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>]
-<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=770, 1973.3725pt x 1060.96375pt
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=771, 1973.3725pt x 1060.96375pt
 >
 File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
@@ -4873,7 +4897,7 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=775, 2134.97626pt x 2247.39626
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=776, 2134.97626pt x 2247.39626
 pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
@@ -4918,7 +4942,7 @@ Package cleveref Info: loaded `english' language definitions on input line 418.
 Package cleveref Info: loaded `english' language definitions on input line 442.
 
  [22]
-<./chap1/images/compile_nuages_v2.png, id=847, 831.5868pt x 495.5313pt>
+<./chap1/images/compile_nuages_v2.png, id=848, 831.5868pt x 495.5313pt>
 File: ./chap1/images/compile_nuages_v2.png Graphic file (type png)
 <use ./chap1/images/compile_nuages_v2.png>
 Package pdftex.def Info: ./chap1/images/compile_nuages_v2.png  used on input li
@@ -4954,7 +4978,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 566.
 
 [26]
-<./chap1/images/stability.png, id=890, 779.0706pt x 411.939pt>
+<./chap1/images/stability.png, id=891, 779.0706pt x 411.939pt>
 File: ./chap1/images/stability.png Graphic file (type png)
 <use ./chap1/images/stability.png>
 Package pdftex.def Info: ./chap1/images/stability.png  used on input line 578.
@@ -4983,7 +5007,7 @@ Overfull \hbox (4.19562pt too wide) in paragraph at lines 646--646
 [][][]\T1/ntxtlf/m/n/10 paragraph 
  []
 
-<./chap1/images/matus_cloud_frac.png, id=913, 1553.44pt x 420.48pt>
+<./chap1/images/matus_cloud_frac.png, id=914, 1553.44pt x 420.48pt>
 File: ./chap1/images/matus_cloud_frac.png Graphic file (type png)
 <use ./chap1/images/matus_cloud_frac.png>
 Package pdftex.def Info: ./chap1/images/matus_cloud_frac.png  used on input lin
@@ -5038,7 +5062,7 @@ deleted material, e.g., by typing `I$}'.
 Package cleveref Info: loaded `english' language definitions on input line 777.
 
 [32]
-<./chap1/images/hetero_nucleation.png, id=957, 1194.864pt x 372.4314pt>
+<./chap1/images/hetero_nucleation.png, id=958, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
 Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
@@ -5070,7 +5094,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 799.
 
 [33 <./chap1/images/hetero_nucleation.png>]
-<./chap1/images/homogeneous_nucleation_rate.png, id=973, 578.16pt x 361.35pt>
+<./chap1/images/homogeneous_nucleation_rate.png, id=974, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
@@ -5110,13 +5134,13 @@ Package cleveref Info: loaded `english' language definitions on input line 862.
 Package cleveref Info: loaded `english' language definitions on input line 887.
 
  [36]
-<./chap1/images/aerosols_effects.jpg, id=1018, 1282.7925pt x 542.025pt>
+<./chap1/images/aerosols_effects.jpg, id=1019, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
 e 889.
 (pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1021, 841.1425pt x 8
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1022, 841.1425pt x 8
 13.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
@@ -5134,7 +5158,7 @@ Package cleveref Info: loaded `english' language definitions on input line 912.
 Package cleveref Info: loaded `english' language definitions on input line 932.
 
  [38 <./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png>]
-<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1045, 462.528pt x 260.172pt>
+<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1046, 462.528pt x 260.172pt>
 File: ./chap1/images/nuages/seasprays_pic_HD.jpg Graphic file (type jpg)
 <use ./chap1/images/nuages/seasprays_pic_HD.jpg>
 Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic_HD.jpg  used on in
@@ -5153,7 +5177,7 @@ Package cleveref Info: loaded `english' language definitions on input line 969.
 Package cleveref Info: loaded `english' language definitions on input line 990.
 
  [41]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1080, 1179.2055pt x 858.5676pt>
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1081, 1179.2055pt x 858.5676pt>
 File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
 <use ./chap1/images/Ninp_cycle_Utqiagvik.png>
 Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
@@ -5245,7 +5269,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 1032
 .
 [43]
-<./chap1/images/arctic_map_upscaled.png, id=1108, 3268.21pt x 3345.49875pt>
+<./chap1/images/arctic_map_upscaled.png, id=1109, 3268.21pt x 3345.49875pt>
 File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
 <use ./chap1/images/arctic_map_upscaled.png>
 Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
@@ -5264,7 +5288,7 @@ Overfull \hbox (4.94563pt too wide) in paragraph at lines 1052--1052
 Package cleveref Info: loaded `english' language definitions on input line 1052
 .
 [44 <./chap1/images/arctic_map_upscaled.png>]
-<./chap1/images/arctic_ampli.png, id=1123, 565.1514pt x 349.7868pt>
+<./chap1/images/arctic_ampli.png, id=1124, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
 Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
@@ -5280,7 +5304,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1084
 Package cleveref Info: loaded `english' language definitions on input line 1089
 .
  [46 <./chap1/images/arctic_ampli.png>]
-<./chap1/images/SLP_AO.png, id=1148, 849.1725pt x 676.5275pt>
+<./chap1/images/SLP_AO.png, id=1149, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
 Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1092.
@@ -5311,7 +5335,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 1114
 .
 [47 <./chap1/images/SLP_AO.png>]
-<./chap1/images/AA_feedbacks.png, id=1168, 489.5088pt x 206.2104pt>
+<./chap1/images/AA_feedbacks.png, id=1170, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 11
@@ -5326,7 +5350,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1165
 .
 
 [49]
-<./chap1/images/matus_CRE.png, id=1196, 2191.18625pt x 566.115pt>
+<./chap1/images/matus_CRE.png, id=1197, 2191.18625pt x 566.115pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
 Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1172.
@@ -5352,7 +5376,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1215
 Package cleveref Info: loaded `english' language definitions on input line 1236
 .
  [51]
-<./chap1/images/mixed-phase-clouds.png, id=1216, 413.3844pt x 315.0972pt>
+<./chap1/images/mixed-phase-clouds.png, id=1217, 413.3844pt x 315.0972pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
@@ -6310,26 +6334,12 @@ Package cleveref Info: loaded `english' language definitions on input line 190.
 Package cleveref Info: loaded `english' language definitions on input line 205.
 
  [61]
-
-LaTeX Warning: Citation 'thomspon_study_2014' on page 62 undefined on input lin
-e 211.
-
-
-Overfull \hbox (15.38083pt too wide) in paragraph at lines 211--213
-\T1/ntxtlf/m/n/12 ([][]Thomp-son et al., [][]2004[][]), in-clud-ing the Thomp-s
-on 2-moment aerosol-aware ([])
- []
-
 Package cleveref Info: loaded `english' language definitions on input line 223.
 
-[62]
-
-LaTeX Warning: Citation 'hoose_how_2010' on page 63 undefined on input line 231
-.
-
+ [62]
 Package cleveref Info: loaded `english' language definitions on input line 252.
 
-[63]
+ [63]
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 258.
@@ -6401,7 +6411,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 192.
 
 [72]
-<./chap3/images/f01.png, id=1627, 1038.7608pt x 715.473pt>
+<./chap3/images/f01.png, id=1631, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f01.png Graphic file (type png)
 <use ./chap3/images/f01.png>
 Package pdftex.def Info: ./chap3/images/f01.png  used on input line 194.
@@ -6438,7 +6448,7 @@ Package cleveref Info: loaded `english' language definitions on input line 324.
 Package cleveref Info: loaded `english' language definitions on input line 373.
 
  [78]
-<./chap3/images/f02.png, id=1708, 742.6947pt x 457.71pt>
+<./chap3/images/f02.png, id=1712, 742.6947pt x 457.71pt>
 File: ./chap3/images/f02.png Graphic file (type png)
 <use ./chap3/images/f02.png>
 Package pdftex.def Info: ./chap3/images/f02.png  used on input line 375.
@@ -6449,7 +6459,7 @@ Package cleveref Info: loaded `english' language definitions on input line 399.
 Package cleveref Info: loaded `english' language definitions on input line 411.
 
  [80]
-<./chap3/images/f03.png, id=1734, 1038.7608pt x 715.473pt>
+<./chap3/images/f03.png, id=1738, 1038.7608pt x 715.473pt>
 File: ./chap3/images/f03.png Graphic file (type png)
 <use ./chap3/images/f03.png>
 Package pdftex.def Info: ./chap3/images/f03.png  used on input line 421.
@@ -6460,7 +6470,7 @@ Package cleveref Info: loaded `english' language definitions on input line 425.
 Package cleveref Info: loaded `english' language definitions on input line 437.
 
  [82 <./chap3/images/f03.png>]
-<./chap3/images/f04.png, id=1758, 1115.6079pt x 832.0686pt>
+<./chap3/images/f04.png, id=1762, 1115.6079pt x 832.0686pt>
 File: ./chap3/images/f04.png Graphic file (type png)
 <use ./chap3/images/f04.png>
 Package pdftex.def Info: ./chap3/images/f04.png  used on input line 461.
@@ -6492,7 +6502,7 @@ Package cleveref Info: loaded `english' language definitions on input line 485.
 Package cleveref Info: loaded `english' language definitions on input line 507.
 
  [85]
-<./chap3/images/f05.png, id=1790, 1106.4537pt x 840.9819pt>
+<./chap3/images/f05.png, id=1794, 1106.4537pt x 840.9819pt>
 File: ./chap3/images/f05.png Graphic file (type png)
 <use ./chap3/images/f05.png>
 Package pdftex.def Info: ./chap3/images/f05.png  used on input line 547.
@@ -6503,7 +6513,7 @@ Package cleveref Info: loaded `english' language definitions on input line 551.
 Package cleveref Info: loaded `english' language definitions on input line 563.
 
  [87 <./chap3/images/f05.png>]
-<./chap3/images/f06.png, id=1813, 752.0898pt x 457.71pt>
+<./chap3/images/f06.png, id=1817, 752.0898pt x 457.71pt>
 File: ./chap3/images/f06.png Graphic file (type png)
 <use ./chap3/images/f06.png>
 Package pdftex.def Info: ./chap3/images/f06.png  used on input line 579.
@@ -6518,7 +6528,7 @@ Package cleveref Info: loaded `english' language definitions on input line 601.
 Package cleveref Info: loaded `english' language definitions on input line 634.
 
  [90]
-<./chap3/images/f07.png, id=1844, 722.7pt x 505.89pt>
+<./chap3/images/f07.png, id=1848, 722.7pt x 505.89pt>
 File: ./chap3/images/f07.png Graphic file (type png)
 <use ./chap3/images/f07.png>
 Package pdftex.def Info: ./chap3/images/f07.png  used on input line 637.
@@ -6536,7 +6546,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 642.
 
 [91 <./chap3/images/f07.png>]
-<./chap3/images/f08.png, id=1856, 734.2632pt x 477.9456pt>
+<./chap3/images/f08.png, id=1860, 734.2632pt x 477.9456pt>
 File: ./chap3/images/f08.png Graphic file (type png)
 <use ./chap3/images/f08.png>
 Package pdftex.def Info: ./chap3/images/f08.png  used on input line 663.
@@ -6547,27 +6557,27 @@ Package cleveref Info: loaded `english' language definitions on input line 667.
 Package cleveref Info: loaded `english' language definitions on input line 684.
 
  [93 <./chap3/images/f08.png>]
-<./chap3/images/f09.png, id=1887, 377.7312pt x 720.7728pt>
+<./chap3/images/f09.png, id=1891, 757.8714pt x 453.1329pt>
 File: ./chap3/images/f09.png Graphic file (type png)
 <use ./chap3/images/f09.png>
 Package pdftex.def Info: ./chap3/images/f09.png  used on input line 687.
-(pdftex.def)             Requested size: 230.46729pt x 439.78075pt.
+(pdftex.def)             Requested size: 460.93457pt x 275.6017pt.
 Package cleveref Info: loaded `english' language definitions on input line 703.
 
  [94 <./chap3/images/f09.png>]
-Package cleveref Info: loaded `english' language definitions on input line 720.
+Package cleveref Info: loaded `english' language definitions on input line 726.
 
  [95]
-Package cleveref Info: loaded `english' language definitions on input line 743.
+Package cleveref Info: loaded `english' language definitions on input line 749.
 
  [96]
-Package cleveref Info: loaded `english' language definitions on input line 765.
+Package cleveref Info: loaded `english' language definitions on input line 772.
 
  [97]
 Package cleveref Info: loaded `english' language definitions on input line 798.
 
  [98]
-<./chap3/images/source_and_series_MOCCHA.png, id=1956, 470.2368pt x 270.7716pt>
+<./chap3/images/source_and_series_MOCCHA.png, id=1963, 470.2368pt x 270.7716pt>
 
 File: ./chap3/images/source_and_series_MOCCHA.png Graphic file (type png)
 <use ./chap3/images/source_and_series_MOCCHA.png>
@@ -6577,12 +6587,16 @@ nput line 812.
 Package cleveref Info: loaded `english' language definitions on input line 816.
 
  [99]
+
+LaTeX Warning: Reference `fig:source_pbap_moccha' on page 100 undefined on inpu
+t line 823.
+
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 828.
 Package cleveref Info: loaded `english' language definitions on input line 831.
 
- [100 <./chap3/images/source_and_series_MOCCHA.png>]
+[100 <./chap3/images/source_and_series_MOCCHA.png>]
 Runaway argument?
 {figure}[Ht]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \E
 TC.
@@ -6595,7 +6609,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-<./chap3/images/source_and_series_MOSAIC.png, id=1989, 595.7457pt x 704.1507pt>
+<./chap3/images/source_and_series_MOSAIC.png, id=1991, 595.7457pt x 704.1507pt>
 
 File: ./chap3/images/source_and_series_MOSAIC.png Graphic file (type png)
 <use ./chap3/images/source_and_series_MOSAIC.png>
@@ -6608,55 +6622,51 @@ Package cleveref Info: loaded `english' language definitions on input line 860.
 Package cleveref Info: loaded `english' language definitions on input line 868.
 
  [102 <./chap3/images/source_and_series_MOSAIC.png>]
-Package cleveref Info: loaded `english' language definitions on input line 890.
-
- [103]
-Overfull \hbox (2.92119pt too wide) in paragraph at lines 891--892
-[]\T1/ntxtlf/m/n/12 These re-sults shed new light on the min-eral na-ture of th
-e INPs ob-served dur-ing the ARTofMELT
- []
-
-<./chap3/images/source_and_series_ARTofMELT.png, id=2021, 470.2368pt x 270.7716
+<./chap3/images/source_and_series_ARTofMELT.png, id=2013, 470.2368pt x 270.7716
 pt>
 File: ./chap3/images/source_and_series_ARTofMELT.png Graphic file (type png)
 <use ./chap3/images/source_and_series_ARTofMELT.png>
 Package pdftex.def Info: ./chap3/images/source_and_series_ARTofMELT.png  used o
-n input line 897.
+n input line 888.
 (pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
-Package cleveref Info: loaded `english' language definitions on input line 910.
+Package cleveref Info: loaded `english' language definitions on input line 892.
+
+ [103]
+Overfull \hbox (2.92119pt too wide) in paragraph at lines 900--901
+[]\T1/ntxtlf/m/n/12 These re-sults shed new light on the min-eral na-ture of th
+e INPs ob-served dur-ing the ARTofMELT
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 906.
 
 [104 <./chap3/images/source_and_series_ARTofMELT.png>]
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 912.
+(textcomp)             Default family used instead on input line 914.
 
 
 LaTeX Warning: cref reference format for label type `' undefined on input line 
-912.
+914.
 
-<./chap3/images/Co_concentrations.png, id=2035, 396.5214pt x 259.6902pt>
+<./chap3/images/Co_concentrations.png, id=2037, 396.5214pt x 259.6902pt>
 File: ./chap3/images/Co_concentrations.png Graphic file (type png)
 <use ./chap3/images/Co_concentrations.png>
 Package pdftex.def Info: ./chap3/images/Co_concentrations.png  used on input li
-ne 923.
+ne 925.
 (pdftex.def)             Requested size: 460.93457pt x 301.89067pt.
-Package cleveref Info: loaded `english' language definitions on input line 927.
+Package cleveref Info: loaded `english' language definitions on input line 929.
 
 [105]
+Package cleveref Info: loaded `english' language definitions on input line 946.
 
-LaTeX Warning: Citation 'ehret_long-range_2025' on page 106 undefined on input 
-line 928.
-
-Package cleveref Info: loaded `english' language definitions on input line 944.
-
-[106 <./chap3/images/CO_concentrations.png>]
-<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=2050, 6020.4
+ [106 <./chap3/images/CO_concentrations.png>]
+<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=2054, 6020.4
 925pt x 2861.69125pt>
 File: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png Graphic fil
 e (type png)
 <use ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>
 Package pdftex.def Info: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Pa
-ris.png  used on input line 956.
+ris.png  used on input line 958.
 (pdftex.def)             Requested size: 460.93457pt x 219.0715pt.
 
 
@@ -6665,7 +6675,7 @@ ris.png  used on input line 956.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 
 The input '\metre ' could not be parsed as a number following the format
@@ -6675,7 +6685,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -6689,7 +6699,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -6698,7 +6708,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6706,7 +6716,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6720,7 +6730,7 @@ my insertion and my current dilemma will both disappear.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 
 The input '\metre ' could not be parsed as a number following the format
@@ -6730,7 +6740,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -6744,7 +6754,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -6753,7 +6763,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6761,7 +6771,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.957 ...lume altitude when it passed over Paris.}
+l.959 ...lume altitude when it passed over Paris.}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6770,36 +6780,36 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (1.36424pt too wide) in paragraph at lines 963--966
+Overfull \hbox (1.36424pt too wide) in paragraph at lines 965--968
 \T1/ntxtlf/m/n/12 In or-der to get a more com-plete source de-tec-tion, we can 
 ap-ply the sug-ges-tion made in [][]Sect. III.2.3.5[][]
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 966.
+Package cleveref Info: loaded `english' language definitions on input line 968.
 
 [107 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
-<./chap3/images/multiloc_fire_season.png, id=2061, 395.5578pt x 246.6816pt>
+<./chap3/images/multiloc_fire_season.png, id=2065, 395.5578pt x 246.6816pt>
 File: ./chap3/images/multiloc_fire_season.png Graphic file (type png)
 <use ./chap3/images/multiloc_fire_season.png>
 Package pdftex.def Info: ./chap3/images/multiloc_fire_season.png  used on input
- line 969.
+ line 971.
 (pdftex.def)             Requested size: 460.93457pt x 287.46826pt.
-Package cleveref Info: loaded `english' language definitions on input line 995.
+Package cleveref Info: loaded `english' language definitions on input line 997.
 
  [108 <./chap3/images/multiloc_fire_season.png>]
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 1004.
-<./chap3/images/violin_plot_allCampaigns.png, id=2075, 722.7pt x 433.62pt>
+(textcomp)             Default family used instead on input line 1006.
+<./chap3/images/violin_plot_allCampaigns.png, id=2079, 722.7pt x 433.62pt>
 File: ./chap3/images/violin_plot_allCampaigns.png Graphic file (type png)
 <use ./chap3/images/violin_plot_allCampaigns.png>
 Package pdftex.def Info: ./chap3/images/violin_plot_allCampaigns.png  used on i
-nput line 1031.
+nput line 1033.
 (pdftex.def)             Requested size: 368.74905pt x 221.24913pt.
-Package cleveref Info: loaded `english' language definitions on input line 1034
+Package cleveref Info: loaded `english' language definitions on input line 1036
 .
  [109]
-Package cleveref Info: loaded `english' language definitions on input line 1053
+Package cleveref Info: loaded `english' language definitions on input line 1055
 .
  [110 <./chap3/images/violin_plot_allCampaigns.png>]
 
@@ -6809,13 +6819,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1071     }
+l.1073     }
             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package cleveref Info: loaded `english' language definitions on input line 1071
+Package cleveref Info: loaded `english' language definitions on input line 1073
 .
 [111])
 Package cleveref Info: loaded `english' language definitions on input line 62.
@@ -6844,116 +6854,108 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 24.
  [114]
-
-LaTeX Warning: Citation 'zhao_primary_2022' on page 115 undefined on input line
- 37.
-
-
-LaTeX Warning: Citation 'cornwell_bioaerosols_2023' on page 115 undefined on in
-put line 46.
-
 Package cleveref Info: loaded `english' language definitions on input line 59.
-[115]
+ [115]
 Package cleveref Info: loaded `english' language definitions on input line 93.
  [116]
 Package cleveref Info: loaded `english' language definitions on input line 120.
 
  [117]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ntxtlf/m/n/12 Bins
  []
 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 139.
+(textcomp)             Default family used instead on input line 140.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ntxtlf/m/n/12 Lower
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ntxtlf/m/n/12 bound
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ntxtlf/m/n/12 di-am-e-ter
  []
 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 139.
+(textcomp)             Default family used instead on input line 140.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ntxtlf/m/n/12 Upper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ntxtlf/m/n/12 bound
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ntxtlf/m/n/12 di-am-e-ter
  []
 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 139.
+(textcomp)             Default family used instead on input line 140.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ntxtlf/m/n/12 Effective
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ntxtlf/m/n/12 di-am-e-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 []|\T1/ntxtlf/m/n/12 Particle
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 164.
+Package cleveref Info: loaded `english' language definitions on input line 165.
 
 [118]
-<./chap4/images/Emission_maps_august.v16.png, id=2273, 1805.74625pt x 1507.6325
+<./chap4/images/Emission_maps_august.v16.png, id=2277, 1805.74625pt x 1507.6325
 pt>
 File: ./chap4/images/Emission_maps_august.v16.png Graphic file (type png)
 <use ./chap4/images/Emission_maps_august.v16.png>
 Package pdftex.def Info: ./chap4/images/Emission_maps_august.v16.png  used on i
-nput line 189.
+nput line 190.
 (pdftex.def)             Requested size: 460.93457pt x 384.82079pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package caption Warning: \label without proper reference on input line 206.
+Package caption Warning: \label without proper reference on input line 207.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 119 undefined on input 
-line 199.
+line 200.
 
-Package cleveref Info: loaded `english' language definitions on input line 201.
+Package cleveref Info: loaded `english' language definitions on input line 202.
 
 [119]
-<./chap4/images/NinpVsT_date.png, id=2291, 867.24pt x 722.7pt>
+<./chap4/images/NinpVsT_date.png, id=2295, 867.24pt x 722.7pt>
 File: ./chap4/images/NinpVsT_date.png Graphic file (type png)
 <use ./chap4/images/NinpVsT_date.png>
 Package pdftex.def Info: ./chap4/images/NinpVsT_date.png  used on input line 20
-7.
+8.
 (pdftex.def)             Requested size: 207.41914pt x 172.84503pt.
-<./chap4/images/icenuc_schemes_201888-0h.png, id=2292, 2407.99625pt x 1722.435p
+<./chap4/images/icenuc_schemes_201888-0h.png, id=2296, 2407.99625pt x 1722.435p
 t>
 File: ./chap4/images/icenuc_schemes_201888-0h.png Graphic file (type png)
 <use ./chap4/images/icenuc_schemes_201888-0h.png>
 Package pdftex.def Info: ./chap4/images/icenuc_schemes_201888-0h.png  used on i
-nput line 212.
+nput line 213.
 (pdftex.def)             Requested size: 207.41914pt x 148.36305pt.
 
 
@@ -6963,7 +6965,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...erature for the tested parametrisations.}
+l.214 ...erature for the tested parametrisations.}
                                                   
 You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6971,7 +6973,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <argument> \@marbox 
                     
-l.213 ...erature for the tested parametrisations.}
+l.214 ...erature for the tested parametrisations.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6982,18 +6984,18 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \vbox 
-l.213 ...erature for the tested parametrisations.}
+l.214 ...erature for the tested parametrisations.}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Overfull \hbox (1.79993pt too wide) in paragraph at lines 205--215
+Overfull \hbox (1.79993pt too wide) in paragraph at lines 206--216
 [][] [] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 225.
+Package cleveref Info: loaded `english' language definitions on input line 226.
 
 [120 <./chap4/images/Emission_maps_august.v16.png>]
 
@@ -7002,7 +7004,7 @@ Package cleveref Info: loaded `english' language definitions on input line 225.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.234 ...p$ their surface area (\si{\meter\square}
+l.235 ...p$ their surface area (\si{\meter\square}
                                                   ), and $n_s$ is the ice nu...
 
 
@@ -7016,7 +7018,7 @@ following unit was given.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.234 ...face site density (\si{\per\meter\square}
+l.235 ...face site density (\si{\per\meter\square}
                                                   ). The latter is where the...
 
 
@@ -7026,69 +7028,69 @@ following unit was given.
 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 263.
+(textcomp)             Default family used instead on input line 264.
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 264.
+(textcomp)             Default family used instead on input line 265.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 295.
+Package cleveref Info: loaded `english' language definitions on input line 296.
 
 [121]
-Package cleveref Info: loaded `english' language definitions on input line 324.
+Package cleveref Info: loaded `english' language definitions on input line 325.
 
  [122 <./chap4/images/NinpVsT_date.png> <./chap4/images/icenuc_schemes_201888-0
 h.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 328.
-<./chap4/images/activation_fractions.png, id=2357, 1170.0513pt x 421.3341pt>
+(textcomp)             Default family used instead on input line 329.
+<./chap4/images/activation_fractions.png, id=2359, 1170.0513pt x 421.3341pt>
 File: ./chap4/images/activation_fractions.png Graphic file (type png)
 <use ./chap4/images/activation_fractions.png>
 Package pdftex.def Info: ./chap4/images/activation_fractions.png  used on input
- line 340.
+ line 341.
 (pdftex.def)             Requested size: 460.93457pt x 165.97832pt.
 
 
-Package caption Warning: \label without proper reference on input line 361.
+Package caption Warning: \label without proper reference on input line 362.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:param_emiss_inp' on page 123 undefined on input l
-ine 358.
+ine 359.
 
-Package cleveref Info: loaded `english' language definitions on input line 359.
+Package cleveref Info: loaded `english' language definitions on input line 360.
 
 [123]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 []|\T1/ntxtlf/m/n/12 Ice nu-cle-ation
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 390.
+Package cleveref Info: loaded `english' language definitions on input line 391.
 
 [124 <./chap4/images/activation_fractions.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 415.
+(textcomp)             Default family used instead on input line 417.
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 418.
+(textcomp)             Default family used instead on input line 420.
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 418.
+(textcomp)             Default family used instead on input line 420.
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 424.
+(textcomp)             Default family used instead on input line 426.
 <./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png, id=238
 2, 2864.7025pt x 2729.19624pt>
 File: ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png Gr
 aphic file (type png)
 <use ./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>
 Package pdftex.def Info: ./chap4/images/mass_concentration_WRF_dust+pbap_coarse
-VSobs_3h.v16.png  used on input line 435.
+VSobs_3h.v16.png  used on input line 437.
 (pdftex.def)             Requested size: 345.70093pt x 329.32176pt.
-Package cleveref Info: loaded `english' language definitions on input line 438.
+Package cleveref Info: loaded `english' language definitions on input line 440.
 
  [125]
 
@@ -7097,78 +7099,67 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Marginpar on page 126 moved.
 
-<./chap4/images/icenuc_params_152025.png, id=2399, 4722.64375pt x 1953.2975pt>
+<./chap4/images/icenuc_params_152025.png, id=2398, 4722.64375pt x 1953.2975pt>
 File: ./chap4/images/icenuc_params_152025.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_152025.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_152025.png  used on input
- line 453.
+ line 456.
 (pdftex.def)             Requested size: 674.33032pt x 278.88428pt.
 
 LaTeX Warning: Marginpar on page 126 moved.
 
-Package cleveref Info: loaded `english' language definitions on input line 467.
+Package cleveref Info: loaded `english' language definitions on input line 470.
 
 [126]
-Package cleveref Info: loaded `english' language definitions on input line 475.
+Package cleveref Info: loaded `english' language definitions on input line 478.
 
  [127 <./chap4/images/mass_concentration_WRF_dust+pbap_coarseVSobs_3h.v16.png>]
-Package cleveref Info: loaded `english' language definitions on input line 502.
+Package cleveref Info: loaded `english' language definitions on input line 506.
 
  [128]
-<./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png, id=2432, 3009.2425pt x 2906.8
-6pt>
-File: ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png Graphic file (type png)
-<use ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>
-Package pdftex.def Info: ./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png  used 
-on input line 519.
-(pdftex.def)             Requested size: 368.74905pt x 356.1711pt.
-Package cleveref Info: loaded `english' language definitions on input line 528.
+<./chap4/images/INP_tracers_2campaigns.png, id=2428, 1199.4411pt x 612.1269pt>
+File: ./chap4/images/INP_tracers_2campaigns.png Graphic file (type png)
+<use ./chap4/images/INP_tracers_2campaigns.png>
+Package pdftex.def Info: ./chap4/images/INP_tracers_2campaigns.png  used on inp
+ut line 529.
+(pdftex.def)             Requested size: 674.33032pt x 344.13373pt.
+Package cleveref Info: loaded `english' language definitions on input line 538.
 
  [129]
-Package cleveref Info: loaded `english' language definitions on input line 528.
+Package cleveref Info: loaded `english' language definitions on input line 538.
 
  [130 <./chap4/images/icenuc_params_152025.png>]
-<./chap4/images/INP_maps_moccha.png, id=2449, 1136.8071pt x 569.7285pt>
+<./chap4/images/INP_maps_moccha.png, id=2445, 1136.8071pt x 569.7285pt>
 File: ./chap4/images/INP_maps_moccha.png Graphic file (type png)
 <use ./chap4/images/INP_maps_moccha.png>
 Package pdftex.def Info: ./chap4/images/INP_maps_moccha.png  used on input line
- 534.
+ 548.
 (pdftex.def)             Requested size: 460.93457pt x 231.00827pt.
-Package cleveref Info: loaded `english' language definitions on input line 564.
+Package cleveref Info: loaded `english' language definitions on input line 574.
 
- [131 <./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png>]
-<./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png, id=2458, 3009.2425pt x 2913.8
-8625pt>
-File: ./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png Graphic file (type png)
-<use ./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png>
-Package pdftex.def Info: ./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png  used 
-on input line 567.
-(pdftex.def)             Requested size: 368.74905pt x 357.032pt.
-Package cleveref Info: loaded `english' language definitions on input line 571.
+ [131 <./chap4/images/INP_maps_moccha.png>]
 
- [132]
-Package cleveref Info: loaded `english' language definitions on input line 582.
+LaTeX Warning: Reference `fig:icenuc_params_organics' on page 132 undefined on 
+input line 598.
 
- [133 <./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png>]
+Package cleveref Info: loaded `english' language definitions on input line 607.
 
-LaTeX Warning: Reference `fig:icenuc_params_organics' on page 134 undefined on 
-input line 588.
-
-<./chap4/images/icenuc_params_organics.png, id=2485, 722.7pt x 578.16pt>
+[132]
+<./chap4/images/icenuc_params_organics.png, id=2471, 722.7pt x 578.16pt>
 File: ./chap4/images/icenuc_params_organics.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_organics.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_organics.png  used on inp
-ut line 606.
+ut line 616.
 (pdftex.def)             Requested size: 460.93457pt x 368.75076pt.
-Package cleveref Info: loaded `english' language definitions on input line 619.
-
-[134]
 Package cleveref Info: loaded `english' language definitions on input line 629.
 
- [135 <./chap4/images/INP_maps_moccha.png>]
-Package cleveref Info: loaded `english' language definitions on input line 657.
+ [133]
+Package cleveref Info: loaded `english' language definitions on input line 629.
 
- [136]
+ [134 <./chap4/images/INP_tracers_2campaigns.png>]
+Package cleveref Info: loaded `english' language definitions on input line 663.
+
+ [135]
 
 ! LaTeX Error: No counter 'counterboxspe' defined.
 
@@ -7176,13 +7167,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.674     }
+l.684     }
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-)
+Package cleveref Info: loaded `english' language definitions on input line 684.
+
+[136])
 Package cleveref Info: loaded `english' language definitions on input line 63.
  [137]
 
@@ -7293,7 +7286,7 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 12.
+Package cleveref Info: loaded `english' language definitions on input line 16.
 [144
 
 
@@ -7302,18 +7295,109 @@ Package cleveref Info: loaded `english' language definitions on input line 12.
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 ) [145]
-
-LaTeX Warning: Citation 'storelvmo_aerosol_2008' on page 146 undefined on input
- line 43.
-
-Package cleveref Info: loaded `english' language definitions on input line 62.
-[146])
-Package cleveref Info: loaded `english' language definitions on input line 65.
+Package cleveref Info: loaded `english' language definitions on input line 67.
+ [146]
+Package cleveref Info: loaded `english' language definitions on input line 85.
  [147]
+! Argument of \@cref@stack@top has an extra }.
+<inserted text> 
+                \par 
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@nil 
+! Paragraph ended before \@cref@stack@top was complete.
+<to be read again> 
+                   \par 
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \@cref@stack@top has an extra }.
+<inserted text> 
+                \par 
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@nil 
+! Paragraph ended before \@cref@stack@top was complete.
+<to be read again> 
+                   \par 
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{
+! Paragraph ended before \cref@stack@push was complete.
+<to be read again> 
+                   \par 
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\cref@stack@sort ...push \expandafter {\@element }
+                                                  {\@sortstack }\cref@stack@...
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\@sortstack ->\@nil 
+                    
+l.91 ...MOCCHA campaign was not full dust (\cref{}
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+ the fluorescent PBAPs (fPBAPs), no parametrisation was able to predi\ETC.
+! Paragraph ended before \@cref@stack@pop was complete.
+<to be read again> 
+                   \par 
+l.96 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 65.
+ [148.1]
+Package cleveref Info: loaded `english' language definitions on input line 65.
+ [149.1]
 \openout2 = `chap3/supplement_chap3.aux'.
 
  (./chap3/supplement_chap3.tex
-<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2609, 719.0865pt 
+<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2617, 719.0865pt 
 x 397.485pt>
 File: ./chap3/images/FigureS01_ratio_standard_all_stations.png Graphic file (ty
 pe png)
@@ -7321,43 +7405,37 @@ pe png)
 Package pdftex.def Info: ./chap3/images/FigureS01_ratio_standard_all_stations.p
 ng  used on input line 9.
 (pdftex.def)             Requested size: 460.93457pt x 254.78983pt.
-<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2610, 1027.1976pt x 
+<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2618, 1027.1976pt x 
 576.2328pt>
 File: ./chap3/images/FigureS02_ratio_compo_all_stations.png Graphic file (type 
 png)
 <use ./chap3/images/FigureS02_ratio_compo_all_stations.png>
 Package pdftex.def Info: ./chap3/images/FigureS02_ratio_compo_all_stations.png 
  used on input line 16.
-(pdftex.def)             Requested size: 460.93457pt x 258.57257pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./chap3/images/FigureS03_ratio_perf_combin.png, id=2613, 1189.8051pt x 625.376
+(pdftex.def)             Requested size: 674.33032pt x 378.28372pt.
+<./chap3/images/FigureS03_ratio_perf_combin.png, id=2621, 1189.8051pt x 625.376
 4pt>
 File: ./chap3/images/FigureS03_ratio_perf_combin.png Graphic file (type png)
 <use ./chap3/images/FigureS03_ratio_perf_combin.png>
 Package pdftex.def Info: ./chap3/images/FigureS03_ratio_perf_combin.png  used o
 n input line 23.
-(pdftex.def)             Requested size: 460.93457pt x 242.27359pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(pdftex.def)             Requested size: 674.33032pt x 354.44524pt.
 )
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [148
+ [150.1
 
 
 
 
  <./chap3/images/FigureS01_ratio_standard_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [149 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
+ [151.1 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [150 <./chap3/images/FigureS03_ratio_perf_combin.png>]
+ [152.1 <./chap3/images/FigureS03_ratio_perf_combin.png>]
 \openout2 = `annexes/future_of_research.aux'.
 
- (./annexes/future_of_research.tex
+
+(./annexes/future_of_research.tex
 ! Extra }, or forgotten \endgroup.
 l.4 ...l warming (\cref{sec:anthropo_disturbance}}
                                                   ), and more precisely, adr...
@@ -7386,7 +7464,7 @@ A number should have been here; I inserted `0'.
 look up `weird error' in the index to The TeXbook.)
 
 Package cleveref Info: loaded `english' language definitions on input line 33.
-[151
+[153.1
 
 
 
@@ -7396,41 +7474,10 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 45.
 )
 Package cleveref Info: loaded `english' language definitions on input line 74.
- [152]
+ [154.1]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
-! Undefined control sequence.
-l.7 \setlenght
-              \parindent{0em}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.7 \setlenght\parindent{
-                         0em}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   {
-l.7 \setlenght\parindent{
-                         0em}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
@@ -7450,18 +7497,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 31.
-[153
+Package cleveref Info: loaded `english' language definitions on input line 29.
+[155.1
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -7471,136 +7518,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--67
-
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 67.
-[154]
-Underfull \hbox (badness 10000) in paragraph at lines 76--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--108
-
- []
-
-! Undefined control sequence.
-l.116 \setlenght
-                \parindent{17pt}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   {
-l.116 \setlenght\parindent{
-                           17pt}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   {
-l.116 \setlenght\parindent{
-                           17pt}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-)
+Package cleveref Info: loaded `english' language definitions on input line 53.
+[156.1])
 Package cleveref Info: loaded `english' language definitions on input line 75.
- [155]
+ [157.1]
 \openout2 = `annexes/environmental_footprint.aux'.
 
  (./annexes/environmental_footprint.tex
+Package cleveref Info: loaded `english' language definitions on input line 39.
+ [158.1
+
+
+
+
+]
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   }
+l.44 ...ssions-de-co2-par-kwh-produit-en-france#}}
+                                                  , we can assume a CPU carb...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   }
+l.44 ...ssions-de-co2-par-kwh-produit-en-france#}}
+                                                  , we can assume a CPU carb...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
 ! Undefined control sequence.
-<argument> \tonne \ce {CO2}eq\per \capita 
-                                          
-l.12 ...get \SI{10.5}{\tonne\ce{CO2}eq\per\capita}
-                                                  .
+l.47 ...is \SI{1.1}{\gram\per\ce{CO2}eq}\footprint
+                                                  {See the Labo1point5 websi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\l__siunitx_unit_tmp_tl ...ce {CO2}eq\per \capita 
-                                                  
-l.12 ...get \SI{10.5}{\tonne\ce{CO2}eq\per\capita}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package textcomp Info: Symbol \texttwosuperior not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 65.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
+Overfull \hbox (34.92278pt too wide) in paragraph at lines 58--75
+ [][] 
  []
 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   }
-l.38 ...ssions-de-co2-par-kwh-produit-en-france#}}
-                                                  , we can assume a CPU carb...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+! Undefined control sequence.
+<argument> \square \meter \per \capita 
+                                       
+l.83 ...s around \SI{10}{\square\meter\per\capita}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   }
-l.38 ...ssions-de-co2-par-kwh-produit-en-france#}}
-                                                  , we can assume a CPU carb...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-Package cleveref Info: loaded `english' language definitions on input line 40.
-[156
-
+! Undefined control sequence.
+<argument> \square \meter \per \capita 
+                                       
+l.83 ...s around \SI{10}{\square\meter\per\capita}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
+! Package siunitx Error: Found per part with no unit.
 
-])
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.83 ...s around \SI{10}{\square\meter\per\capita}
+                                                  .
+
+Each per part must be associated with a unit: a per part was found but no
+following unit was given.
+
+
+Package cleveref Info: loaded `english' language definitions on input line 86.
+[159.1]
+<./chap4/images/carbon_footprint.png, id=2692, 617.30624pt x 570.13pt>
+File: ./chap4/images/carbon_footprint.png Graphic file (type png)
+<use ./chap4/images/carbon_footprint.png>
+Package pdftex.def Info: ./chap4/images/carbon_footprint.png  used on input lin
+e 98.
+(pdftex.def)             Requested size: 230.46729pt x 212.84998pt.
+Package cleveref Info: loaded `english' language definitions on input line 113.
+
+ [160.1 <./chap4/images/carbon_footprint.png>])
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [157] (./main.lof
+ [161.1] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
 Package cleveref Info: loaded `english' language definitions on input line 13.
- [158
+
+[162.1
 
 
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 22.
- [159]
+ [163.1]
 ! Undefined control sequence.
 \degree ->\ERROR 
                  
@@ -7613,16 +7637,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 32.
-[160]
+[164.1]
 Package cleveref Info: loaded `english' language definitions on input line 39.
- [161]
+ [165.1]
 
 ! Package siunitx Error: Invalid number '\metre '.
 
 For immediate help type H <return>.
  ...                                              
                                                   
-l.44 ...ssed over Paris.}}{108}{figure.caption.65}
+l.43 ...ssed over Paris.}}{107}{figure.caption.64}
                                                   %
 
 The input '\metre ' could not be parsed as a number following the format
@@ -7632,7 +7656,7 @@ defined in module documentation.
 ! Argument of \__siunitx_compound_uncert_bracket:w has an extra }.
 <inserted text> 
                 \par 
-l.44 ...ssed over Paris.}}{108}{figure.caption.65}
+l.43 ...ssed over Paris.}}{107}{figure.caption.64}
                                                   %
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -7646,7 +7670,7 @@ Runaway argument?
 ! Paragraph ended before \__siunitx_compound_uncert_bracket:w was complete.
 <to be read again> 
                    \par 
-l.44 ...ssed over Paris.}}{108}{figure.caption.65}
+l.43 ...ssed over Paris.}}{107}{figure.caption.64}
                                                   %
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -7655,13 +7679,13 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 ...ssed over Paris.}}{108}{figure.caption.65}
+l.43 ...ssed over Paris.}}{107}{figure.caption.64}
                                                   %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
  [][] [][][]\T1/ntxtlf/m/n/12 Composite ra-tio maps com-puted on the PES $\OT1/
 lmr/m/n/12 4 000$\T1/ntxtlf/m/n/12 --$$  
  []
@@ -7669,7 +7693,7 @@ lmr/m/n/12 4 000$\T1/ntxtlf/m/n/12 --$$
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 ...ssed over Paris.}}{108}{figure.caption.65}
+l.43 ...ssed over Paris.}}{107}{figure.caption.64}
                                                   %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -7678,15 +7702,15 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (2.0389pt too wide) in paragraph at lines 48--48
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 47--47
  [][] [][][]\T1/ntxtlf/m/n/12 Averaged emis-sion fluxes of mod-elled coarse-mod
 e aerosol par-ti-cles (dust, MPOA, 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 49.
-[162]
-Package cleveref Info: loaded `english' language definitions on input line 60.
- [163])
+Package cleveref Info: loaded `english' language definitions on input line 50.
+[166.1]
+Package cleveref Info: loaded `english' language definitions on input line 59.
+ [167.1])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -7701,7 +7725,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 83.
-[164] (./main.lot
+[168.1] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write8
@@ -7718,48 +7742,58 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[165
+[169.1
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [166
+ [170.1
 
 ]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [171.1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [167]
+ [172.1]
+Package textcomp Info: Symbol \textasciiacute not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 94.
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [168]
+ [173.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [169]
+ [174.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [170]
+ [175.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [171]
+ [176.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [172]
+ [177.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [173]
+
+[178.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [174]
+ [179.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [175]
+ [180.1]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [181.1]
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/ntxtlf/m/n' instead on input line 94.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[176]
+[182.1]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [177]
+ [183.1]
+Package cleveref Info: loaded `english' language definitions on input line 94.
+ [184.1]
 
 ! LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
@@ -7773,11 +7807,13 @@ l.94 ...ography[heading=bibintoc,title=References]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+Package cleveref Info: loaded `english' language definitions on input line 94.
+[185.1]
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
 
 Package cleveref Info: loaded `english' language definitions on input line 99.
-[178] [179
+ [186.1] [187.1
 
 
 ]
@@ -7815,7 +7851,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[180] (./main.aux
+[188.1] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 85.
  (./others/avantpropos.aux) (./others/remerciements.aux)
 (./others/contrib_commu.aux) (./others/resume_francais.aux)
@@ -7842,134 +7878,61 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 3)
 
+### semi simple group (level 3) entered at line 91 (\begingroup)
+### semi simple group (level 2) entered at line 91 (\begingroup)
 ### semi simple group (level 1) entered at line 832 (\begingroup)
-### bottom level 
+### bottom level
+(\end occurred when \ifx on line 65 was incomplete)
+(\end occurred when \ifnum on line 65 was incomplete) 
 Here is how much of TeX's memory you used:
- 66910 strings out of 475189
- 1389948 string characters out of 5763838
- 2852953 words of memory out of 5000000
- 86193 multiletter control sequences out of 15000+600000
+ 66940 strings out of 475189
+ 1390838 string characters out of 5763838
+ 2863905 words of memory out of 5000000
+ 86228 multiletter control sequences out of 15000+600000
  728805 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,15n,120p,4167b,4320s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.caption.88} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.85} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.77} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.76} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.75} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.72} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.67} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.96} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.101} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.93} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.87} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.79} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.81} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.78} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.73} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.69} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2023/texmf-dist/font
-s/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
-blic/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lm
-mi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/
-lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fon
-ts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ne
-wtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (205 pages, 78704506 bytes).
+ 102i,18n,120p,4167b,4501s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf
+-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/lm/lmbsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr
+6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/newtx/ntxsups-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/zt
+mb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (213 pages, 79508894 bytes).
 PDF statistics:
- 4395 PDF objects out of 5155 (max. 8388607)
- 3905 compressed objects within 40 object streams
- 814 named destinations out of 1000 (max. 500000)
- 1273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4432 PDF objects out of 5155 (max. 8388607)
+ 3937 compressed objects within 40 object streams
+ 809 named destinations out of 1000 (max. 500000)
+ 1281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

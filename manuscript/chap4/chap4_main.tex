@@ -405,6 +405,7 @@ For that matter, H18B is the less subject to particle size, and consequently, th
 \section{Results}
     % ____________________________________________________    
     \subsection{First approach: in situ nucleation modelling}
+    \label{sec:first_approach}
     In this section, the model performances about the aerosol particles emissions (dust and sea sprays) are presented, along with how ice nucleation schemes perform in converting those particles into INPs.
     
         % -------------------------------------------------    
@@ -443,6 +444,7 @@ For that matter, H18B is the less subject to particle size, and consequently, th
         
         % -------------------------------------------------    
         \subsubsection{Coarse aerosols to INPs}
+        \label{sec:aerosols_to_INP}
         The ice nucleation parametrisations presented in Sect. \ref{sec:inp_param} are used to convert the coarse mode aerosols particles discussed in Sect. \ref{sec:aer_emissions} into INP concentrations.
         The species specific parametrisations take as input the ad hoc modelled aerosol particles as referenced in Table \ref{tab:param} (dust, bacteria, fungal spore or MPOA).
         The INP measurements of the MOCCHA 2018 campaign (cf. Sect. \ref{sec:observations}) are used as a reference. Three representative activation temperatures are displayed: \tempc{-15} \SI{-20}{\degreeCelsius} and \SI{-25}{\degreeCelsius} (\cref{fig:icenuc_params_moccha} A).
@@ -498,11 +500,12 @@ For that matter, H18B is the less subject to particle size, and consequently, th
    
     % ____________________________________________________    
     \subsection{Second approach: Emissions of modelled INPs}
+    \label{sec:second_approach}
     This section presents the results of the INP emission approach described in \cref{sec:method_inp_emission}.
     INP tracers are produced from aerosol particles emissions converted with nucleation schemes. They are then transported and subject to wet and dry deposition, as well as in-cloud activation (c.f. \cref{sec:removal}).
     
         \subsubsection{MOCCHA}
-        Figure~\ref{fig:INP_concs_MOCCHA} shows the confrontation of the interpolated modelled INPs and the observations of the MOCCHA campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
+        Figure~\ref{fig:INP_concs_MOCCHA_MOSAIC} A shows the confrontation of the interpolated modelled INPs and the observations of the MOCCHA campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
         At \SI{-10}{\degreeCelsius} and \SI{-15}{\degreeCelsius} the observations points are lacking, especially over the second half of the campaign. This could suggest concentrations are too low to be detected. Indeed, the modelled concentrations show values at the edge of the detection limit of the observation unit. Nevertheless, the modelled levels could be overestimated, whilst on the first half of the period they tend to be lower than observations.
         Recalling that the first peak in the observation series happens during an ice-breaking phase, associated with local emissions of particles. Since the latter is not modelled, the comparison is biased over that period (August 8-15).
         All in all, at these warm temperatures, the modelled INPs show consistent orders of magnitude, but their validation with observation is unreliable due to the missing data.
@@ -515,31 +518,37 @@ For that matter, H18B is the less subject to particle size, and consequently, th
         On the second half of the period, the modelled INP series shows much higher variability than observations, which again, makes difficult matching both. However, some observed concentrations are well reproduced, but the modelled series misses several ebbs with a general overestimation. 
         Compared to the concentrations obtained with the first approach, the interpolated INP tracers show more realistic variability, and better order of magnitude by staying within a factor ten around the observed INPs.
         
-        \begin{figure}[ht]
+        %\begin{figure}[ht]
+        %    \centering
+        %    \includegraphics[width=1\textwidth]{./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png}
+        %    \caption{Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOCCHA campaign.}
+        %    \label{fig:INP_concs_MOCCHA}
+        %\end{figure}
+        \begin{sidewaysfigure}[p]
             \centering
-            \includegraphics[width=0.8\textwidth]{./chap4/images/WRFvsObs_Ninp_log.v16.MOCCHA.png}
-            \caption{Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOCCHA campaign.}
-            \label{fig:INP_concs_MOCCHA}
-        \end{figure}
+            \includegraphics[width=1\textwidth]{./chap4/images/INP_tracers_2campaigns.png}
+            \caption{Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOCCHA campaign (panel A), and for the MOSAIC campaign (panel B).}
+            \label{fig:INP_concs_MOCCHA_MOSAIC}
+        \end{sidewaysfigure}
 
 Figure~\ref{fig:INP_maps_MOCCHA} B gives the averaged spatial distributions of the modelled INPs.
-Figure \ref{fig:INP_concs_MOCCHA} showed that high INP concentrations were hard to reach at the location of the MOCCHA campaign. Here, the spatial averaged distributions confirm this remark and generalise it to the whole Arctic region.
+Figure \ref{fig:INP_concs_MOCCHA_MOSAIC} A showed that high INP concentrations were hard to reach at the location of the MOCCHA campaign. Here, the spatial averaged distributions confirm this remark and generalise it to the whole Arctic region.
 At the two warmest INP classes represented, the Arctic ocean never knows concentrations of $10^{-1}$ \si{\per\liter}. On the other hand, continental areas reach this level, but the particles responsible for these concentrations do not seem to be transported over the ocean.
 At these activation temperatures, the INPs are emitted from MPOA and continental PBAPs. These results suggest a low contribution of those species to the average INP population.
 
 The maps of the INP \SI{-20}{\degreeCelsius} and INP \SI{-25}{\degreeCelsius} show different behaviour. The influence of high latitude dust is highlighted by concentration hot spots that align with the emission map of modelled dust (c.f. \cref{fig:emission_maps} B). 
 The INP from dust sources are better transported in remote Arctic ocean area, which allow to reach concentrations up to $10^{-1}$ \si{\per\liter} at \SI{-20}{\degreeCelsius}, and up to \SI{10}{\per\liter} at \SI{-25}{\degreeCelsius}.
+        
+        Although in average warm INPs are very scarce in central Arctic, transport events from continental regions can happen, bringing concentration up to $10^{-1}$ \si{\per\liter}.
+        Figure~\ref{fig:INP_maps_MOCCHA} A illustrates an occasional transport event of warm INPs toward the North Pole. High concentrations of continental PBAP appear to be the origin of this INP intrusion plume.
+        At colder temperatures, the concentrations of the intrusion plume strengthens under the influence of intense coastal dust emissions.
 
-    \begin{figure}[ht]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{./chap4/images/INP_maps_moccha.png}
         \caption{Maps of modelled INP concentrations for four activation temperatures. Panel A shows an event of continental particles transport toward central Arctic, and panel B is the average INP concentrations over the month of August 2018 (MOCCHA campaign period). Colour bars are centred on $10^{-1}$ INP per liter; blue areas indicate values lower than this threshold, while red areas means concentrations greater than it.}
         \label{fig:INP_maps_MOCCHA}
     \end{figure}
-        
-        Although in average warm INPs are very scarce in central Arctic, transport events from continental regions can happen, bringing concentration up to $10^{-1}$ \si{\per\liter}.
-        Figure~\ref{fig:INP_maps_MOCCHA} A illustrates an occasional transport event of warm INPs toward the North Pole. High concentrations of continental PBAP appear to be the origin of this INP intrusion plume.
-        At colder temperatures, the concentrations of the intrusion plume strengthens under the influence of intense coastal dust emissions.
 
         %\begin{figure}[ht]
         %    \centering
@@ -552,7 +561,7 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
 %       At lower temperatures, the influence of dust sources is striking.
 
         \subsubsection{MOSAIC}
-        Figure~\ref{fig:INP_concs_MOSAIC} shows\----as for MOCCHA\----the confrontation of the interpolated modelled INPs and the observations of the MOSAIC campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
+        Figure~\ref{fig:INP_concs_MOCCHA_MOSAIC} B shows\----as for MOCCHA\----the confrontation of the interpolated modelled INPs and the observations of the MOSAIC campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
         The period spreads from October 2019 to March 2020. It includes the winter season (December, January, February), which can be opposed to the late summer state of the MOCCHA period (August\--early September).
         Compared to summer, both the modelled and observed INPs have much lower levels, especially at high activation temperatures.
         The differences are up to three orders of magnitude, with observed INPs active at \tempc{-10} averaging around \numrange{1e-4}{1e-3} during winter, compared to \numrange{1e-2}{1e-1} during August.
@@ -563,12 +572,12 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
         The best modelled concentrations happen at \tempc{-25}, where, despite a low background concentration, many peaks match the observations. On the contrary, at lower temperatures, the matching cases are made rare.
         This variability could be linked to the differences in INP emissions relatively to temperature, or to events of in-cloud activation that happen because the air temperature decreases down to the activation threshold of the warmest INPs.
 
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.8\textwidth]{./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png}
-            \caption{Similar to \cref{fig:INP_concs_MOCCHA} for MOSAIC. Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOSAIC campaign.}
-            \label{fig:INP_concs_MOSAIC}
-        \end{figure}
+        %\begin{figure}[H]
+        %    \centering
+        %    \includegraphics[width=0.8\textwidth]{./chap4/images/WRFvsObs_Ninp_log.v16.MOSAIC.png}
+        %    \caption{Similar to \cref{fig:INP_concs_MOCCHA} for MOSAIC. Concentrations of modelled INPs for four activation temperatures, compared to observation data from the MOSAIC campaign.}
+        %    \label{fig:INP_concs_MOSAIC}
+        %\end{figure}
         
 
 % ########################################################

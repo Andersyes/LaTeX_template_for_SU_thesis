@@ -96,7 +96,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>6</bcf:value>
+      <bcf:value>66</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -104,7 +104,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>6</bcf:value>
+      <bcf:value>66</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -331,7 +331,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>6</bcf:value>
+      <bcf:value>66</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -339,7 +339,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>6</bcf:value>
+      <bcf:value>66</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2496,7 +2496,7 @@
     <bcf:citekey order="126" intorder="1">brioude_lagrangian_2013</bcf:citekey>
     <bcf:citekey order="127" intorder="1">morrison_impact_2009</bcf:citekey>
     <bcf:citekey order="128" intorder="1">thompson_explicit_2004</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">thomspon_study_2014</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">thompson_study_2014</bcf:citekey>
     <bcf:citekey order="130" intorder="1">demott_predicting_2010</bcf:citekey>
     <bcf:citekey order="130" intorder="2">demott_integrating_2015</bcf:citekey>
     <bcf:citekey order="130" intorder="3">wilson_marine_2015</bcf:citekey>
@@ -2810,22 +2810,23 @@
     <bcf:citekey order="359" intorder="1">rantanen_arctic_2022</bcf:citekey>
     <bcf:citekey order="360" intorder="1">storelvmo_aerosol_2017</bcf:citekey>
     <bcf:citekey order="361" intorder="1">storelvmo_aerosol_2008</bcf:citekey>
-    <bcf:citekey order="362" intorder="1">fressoz_revoltes_2020</bcf:citekey>
-    <bcf:citekey order="363" intorder="1">auzanneau_or_2015</bcf:citekey>
-    <bcf:citekey order="364" intorder="1">masson-delmotte_summary_2021</bcf:citekey>
-    <bcf:citekey order="365" intorder="1">keeling_atmospheric_2017</bcf:citekey>
-    <bcf:citekey order="366" intorder="1">rubino_revised_2019</bcf:citekey>
-    <bcf:citekey order="367" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="362" intorder="1">demott_predicting_2010</bcf:citekey>
+    <bcf:citekey order="363" intorder="1">fressoz_revoltes_2020</bcf:citekey>
+    <bcf:citekey order="364" intorder="1">auzanneau_or_2015</bcf:citekey>
+    <bcf:citekey order="365" intorder="1">masson-delmotte_summary_2021</bcf:citekey>
+    <bcf:citekey order="366" intorder="1">keeling_atmospheric_2017</bcf:citekey>
+    <bcf:citekey order="367" intorder="1">rubino_revised_2019</bcf:citekey>
     <bcf:citekey order="368" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
     <bcf:citekey order="369" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
-    <bcf:citekey order="370" intorder="1">matus_role_2017</bcf:citekey>
-    <bcf:citekey order="371" intorder="1">lohmann_introduction_2016</bcf:citekey>
-    <bcf:citekey order="372" intorder="1">ipcc_ar4_2007</bcf:citekey>
-    <bcf:citekey order="373" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
-    <bcf:citekey order="374" intorder="1">wex_annual_2019</bcf:citekey>
-    <bcf:citekey order="375" intorder="1">maillard_boundary_2022</bcf:citekey>
-    <bcf:citekey order="376" intorder="1">copernicus_climate_change_service_era5_2017</bcf:citekey>
-    <bcf:citekey order="377" intorder="1">matus_role_2017</bcf:citekey>
+    <bcf:citekey order="370" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="371" intorder="1">matus_role_2017</bcf:citekey>
+    <bcf:citekey order="372" intorder="1">lohmann_introduction_2016</bcf:citekey>
+    <bcf:citekey order="373" intorder="1">ipcc_ar4_2007</bcf:citekey>
+    <bcf:citekey order="374" intorder="1">intergovernmental_panel_on_climate_change_climate_2023</bcf:citekey>
+    <bcf:citekey order="375" intorder="1">wex_annual_2019</bcf:citekey>
+    <bcf:citekey order="376" intorder="1">maillard_boundary_2022</bcf:citekey>
+    <bcf:citekey order="377" intorder="1">copernicus_climate_change_service_era5_2017</bcf:citekey>
+    <bcf:citekey order="378" intorder="1">matus_role_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
