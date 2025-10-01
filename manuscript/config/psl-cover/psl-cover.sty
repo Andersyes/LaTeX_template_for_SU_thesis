@@ -27,6 +27,7 @@
 
 \definecolor{SUblue}{HTML}{1D2769}
 
+\newcommand*{\frtitle}[1]{\gdef\@frtitle{#1}}
 \newcommand*{\institute}[1]{\gdef\@institute{#1}}
 \newcommand*{\laboratory}[1]{\gdef\@laboratory{#1}}
 \newcommand*{\specialty}[1]{\gdef\@specialty{#1}}
@@ -200,21 +201,30 @@
         \end{minipage}
       };
       \else
-      \node[yshift=28mm] at (o2) {
+      \node[yshift=35mm] at (o2) {
         \begin{minipage}[h]{.85\paperwidth}
           \centering
-          \fontsize{22}{26}\selectfont
+          \fontsize{22}{24}\selectfont
           \textbf{\@title{}}\unskip\strut\par
         \end{minipage}
       };
       \fi
         
+      \if@frtitle
+      \node[yshift=16mm] at (o2) {
+        \begin{minipage}[h]{.70\paperwidth}
+          \centering
+          \fontsize{16}{16}\selectfont
+          \textbf{\@frtitle{}}\unskip\strut\par
+        \end{minipage}
+       };
+
         \coordinate[yshift = 10mm] (o3) at (o2);
 
       %% author
       \node[xshift=-86mm, yshift=-8mm, anchor=north west] (autho) at (o3) {
         \begin{minipage}[h]{.3\paperwidth}
-          \SUbluelabel{Thèse soumise par}\unskip\strut\par
+          \SUbluelabel{Thèse soutenue par}\unskip\strut\par
           \vspace{1mm}
           {\fontsize{16}{19}\selectfont\textbf{\@author{}}}\unskip\strut\par
           \vspace{1mm}
@@ -223,7 +233,7 @@
       };
 
       %% doctoral school
-      \node[xshift=0mm, yshift=-7mm, anchor=north west] (docsc) at (autho.south west) {
+      \node[xshift=0mm, yshift=-4mm, anchor=north west] (docsc) at (autho.south west) {
         \begin{minipage}[h]{.3\paperwidth}
           \SUbluelabel{\'{E}cole doctorale n\textsuperscript{o}\@doctoralschoolnumber{}}
           \unskip\strut\par
@@ -235,7 +245,7 @@
       };
 
       %% doctoral specialty
-      \node[xshift=0mm, yshift=-7mm, anchor=north west] (docspe) at (docsc.south west) {
+      \node[xshift=0mm, yshift=-4mm, anchor=north west] (docspe) at (docsc.south west) {
         \begin{minipage}[h]{.3\paperwidth}
           \SUbluelabel{Sp\'{e}cialit\'{e}s}
           \unskip\strut\par
@@ -245,7 +255,7 @@
       };
 
       %% labo
-      \node[xshift=0mm, yshift=-7mm, anchor=north west] (labo) at (docspe.south west) {
+      \node[xshift=0mm, yshift=-4mm, anchor=north west] (labo) at (docspe.south west) {
         \begin{minipage}[h]{.4\paperwidth}
           \SUbluelabel{Pr\'{e}par\'{e}e au}
             \unskip\strut\par
@@ -258,7 +268,7 @@
 
       %% jury
       %\node[fill=lightgray!10, xshift=-15mm, yshift=-6.5mm, anchor=north west] (compo) at (o3) {
-      \node[fill=SUblue!10, xshift=-15mm, yshift=-6.5mm, anchor=north west] (compo) at (o3) {
+      \node[fill=SUblue!10, xshift=-15mm, yshift=-8mm, anchor=north west] (compo) at (o3) {
         \begin{minipage}[h]{105mm}
           \vspace{2mm}
           {\hspace{1mm}\color{SUblue}\fontsize{12}{15}\selectfont Composition du jury :}

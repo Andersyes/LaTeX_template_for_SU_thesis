@@ -145,31 +145,31 @@
 \contentsline {subparagraph}{\scriptsize \textit {Opening questions: Modelling of Arctic INPs}}{137}{section.4.5}%
 \contentsline {chapter}{\numberline {V}The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}{138}{chapter.5}%
 \contentsline {section}{\numberline {\uppercase {v{}\relax }.1}Introduction}{140}{section.5.1}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{140}{section.5.2}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.2.1}Linking aerosol particles to cloud microphysics}{140}{subsection.5.2.1}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Effects on cloud}{142}{section.5.3}%
-\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.1}Ice crystal number concentrations}{142}{subsection.5.3.1}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.2}Microphysics scheme}{141}{section.5.2}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.2.1}Linking aerosol particles to cloud microphysics}{141}{subsection.5.2.1}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.3}Effects on cloud}{143}{section.5.3}%
+\contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.1}Ice crystal number concentrations}{143}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.2}Cloud cover and cloud phase}{143}{subsection.5.3.2}%
 \contentsline {subsection}{\numberline {\uppercase {v{}\relax }.3.3}Change in cloud radiative impact}{143}{subsection.5.3.3}%
-\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Discussion about the possible feedback effects}{143}{section.5.4}%
-\contentsline {subparagraph}{\scriptsize \textit {Opening questions: Modelled Arctic INPs and related effects on clouds}}{143}{section*.89}%
-\contentsline {chapter}{\numberline {VI}Conclusions and outlook}{144}{chapter.6}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.1}Scientific context}{146}{section.6.1}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.2}Sources of Arctic INPs}{147}{section.6.2}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.3}Ice nucleation modelling and INP emissions}{147}{section.6.3}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.4}Adapting microphysics to better INP representation}{148}{section.6.4}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.5}Reflection about the limits of modelling}{149}{section.6.5}%
-\contentsline {section}{\numberline {\uppercase {vi{}\relax }.6}Perspective of future investigations}{149}{section.6.6}%
-\contentsline {chapter}{A.\ \ Supplementary materials for chapter \ref {chap3}}{150}{section*.90}%
-\contentsline {chapter}{B.\ \ What research in 2050?}{153}{section*.94}%
-\contentsline {chapter}{C.\ \ Ma thèse en 180 secondes}{155}{section*.95}%
-\contentsline {chapter}{D.\ \ Thesis environmental footprint}{158}{section*.96}%
-\contentsline {paragraph}{Hardware}{158}{section*.96}%
-\contentsline {paragraph}{Scientific computing}{159}{section*.96}%
-\contentsline {paragraph}{Travel}{159}{section*.96}%
-\contentsline {paragraph}{Building energy consumption}{159}{table.caption.97}%
-\contentsline {paragraph}{Total}{160}{table.caption.97}%
-\contentsline {chapter}{List of figures}{162}{section*.99}%
-\contentsline {chapter}{List of Tables}{169}{section*.100}%
-\contentsline {chapter}{References}{170}{section*.100}%
+\contentsline {section}{\numberline {\uppercase {v{}\relax }.4}Discussion about the possible feedback effects}{144}{section.5.4}%
+\contentsline {subparagraph}{\scriptsize \textit {Opening questions: Modelled Arctic INPs and related effects on clouds}}{144}{section*.88}%
+\contentsline {chapter}{\numberline {VI}Conclusions and outlook}{145}{chapter.6}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.1}Scientific context}{147}{section.6.1}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.2}Sources of Arctic INPs}{148}{section.6.2}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.3}Ice nucleation modelling and INP emissions}{149}{section.6.3}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.4}Adapting microphysics to better INP representation}{150}{section.6.4}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.5}Reflection about the limits of modelling}{150}{section.6.5}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.6}Perspective of future investigations}{150}{section.6.6}%
+\contentsline {chapter}{A.\ \ Supplementary materials for chapter \ref {chap3}}{151}{section*.89}%
+\contentsline {chapter}{B.\ \ What research in 2050?}{154}{section*.93}%
+\contentsline {chapter}{C.\ \ Ma thèse en 180 secondes}{156}{section*.94}%
+\contentsline {chapter}{D.\ \ Thesis environmental footprint}{159}{section*.95}%
+\contentsline {paragraph}{Hardware}{159}{section*.95}%
+\contentsline {paragraph}{Scientific computing}{160}{section*.95}%
+\contentsline {paragraph}{Travel}{160}{section*.95}%
+\contentsline {paragraph}{Building energy consumption}{160}{table.caption.96}%
+\contentsline {paragraph}{Total}{161}{table.caption.96}%
+\contentsline {chapter}{List of figures}{163}{section*.98}%
+\contentsline {chapter}{List of Tables}{170}{section*.99}%
+\contentsline {chapter}{References}{171}{section*.99}%
 \contentsfinish 

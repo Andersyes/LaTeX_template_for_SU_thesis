@@ -3,7 +3,7 @@
 
 \chapter{The effect of ice nucleating particles on phase partitioning and radiative properties of modelled Arctic clouds}
 \label{chap5}
-\chaptermark{Ice nucleating particles effects on phase partitioning and radiative properties of modelled clouds}
+\chaptermark{INP effects on phase partitioning and radiative properties of modelled clouds}
 
 
  \chapquote{The only way around is through.
@@ -31,13 +31,23 @@
 
 Until now, this thesis has tackled two thirds of the its announced plan through the last two chapters. From the emission sources of INPs in \cref{chap3}, to the modelling of INP populations in the Arctic in \cref{chap4}.
 This fifth chapter eventually addresses the question of the impact of particles responsible for ice nucleation on Arctic clouds, making a big step on the road toward the understanding of an hypothetical feedback loop that would link INPs and global warming regional impacts. 
-%\todo{!!!``Do INPs have any effects, or can we ignore them?''!!!}
 We want to explore the possible effects of INPs on clouds by improving the representation of their interactions with the cloud microphysics in the model.
 The study presented in this chapter happens to be the direct sequel of the latter, by introducing a new modelling setup within WRF-Chem, inspired from the INP tracers emissions that enabled the modelling of Arctic INP emissions in \cref{chap4}.
 
-\todo{state of the science about INP in microphysics modelling}
+Several studies have tackled the question of aerosols particles effect on cloud properties with simulations tools.
+\citet{seifert_aerosol-cloud-precipitation_2012} have found that assumptions on INPs and CCN can have strong effect on cloud properties such as total condensate water content and glaciation of clouds,  and small effects was observed on the total averaged precipitation.
+Later, \citet{fan_aerosol_2014} ran simulations to investigate the influence of CCN and INPs on precipitation in mixed-phase cloud. They studied two scenarios characterized by different cloud temperatures. They deduced various degrees of significance regarding the impacts of CCN and INPs on precipitation, but they clearly observed a more pronounced effect by INPs than CCN.
+More recently, \citet{lee_simulations_2024} led investigations on INP and CCN effects on clouds with a focus on the ice crystal morphology. They observed that a higher level INP yields smaller ice crystal and irregular crystal shapes. Although crystals morphology is out of our focus in the present study, the size of ice crystals drives their number at constant water path; a measure that our modelling setup is able to make.
+In the Arctic, \citet{gjelsvik_using_2025} have demonstrated that a pure temperature-dependant ice nucleation parametrisation constructed on local observations can significantly improve the model representation of cloud radiative effect. Their investigations also showed that INPs are most likely important for accurate cloud representation in the Arctic, supporting the hypothesis that primary ice production is central for cloud phase.
+Others studies have explored the role of specific particles\----especially dust\----in simulations of Arctic clouds for the investigations of the impact on their properties \citep{english_contributions_2014, shi_relative_2022, kawai_dominant_2023}, but literature lacks of studies that consider simultaneously the whole Arctic region and all the most important particles that can act as ice nuclei.
+In this study, envision filling this gap.
 
-In a first time, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
+
+
+%\citep{barthlott_aerosol_2018} --> only about ccn
+%\todo{state of the science about INP in microphysics modelling}
+\vspace{\baselineskip}
+In a first section, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
 Then, will be compared the different microphysics schemes through their outputs in terms of cloud properties. We will be interested in the ice crystal number concentration, all the way to the cloud radiative effect, by way of the phase repartition.
 Eventually, we will led the discussion about how INPs interact with regional climate, and how the latter may impact their emissions.
 
