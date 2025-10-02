@@ -47,8 +47,9 @@ In this study, envision filling this gap.
 %\citep{barthlott_aerosol_2018} --> only about ccn
 %\todo{state of the science about INP in microphysics modelling}
 \vspace{\baselineskip}
-In a first section, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the two-moment microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
-Then, will be compared the different microphysics schemes through their outputs in terms of cloud properties. We will be interested in the ice crystal number concentration, all the way to the cloud radiative effect, by way of the phase repartition.
+In a first section, will be presented and discussed the different microphysics parametrisations used in this study. It will be mainly the ice nucleation part of the schemes that will draw our focus. The modifications brought to the microphysics scheme of Thompson to link it to the WRF-Chem INPs will be reviewed in detail.
+The simulations will set up over the well known period of the MOCCHA 2018 campaign, from August 1st to September 21st 2018.
+Will be compared the different versions of the microphysics schemes (control and test) through their cloud properties outputs. We will get interested in the ice crystal number concentration, all the way to the cloud radiative effect.%, by way of the phase repartition.
 Eventually, we will led the discussion about how INPs interact with regional climate, and how the latter may impact their emissions.
 
 
@@ -72,7 +73,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     % we will modify only the immersion
     In the continuity of the precedent chapter where only immersion nucleation was studied, this experiment focus of the effect of aerosol-cloud interactions on the nucleation by immersion. Consequently, only the immersion parametrisation is modified.  
 
-    The base setup used is identical to the one described in \cref{tab:wrf-chem_setup}.
+    The base setup is identical to the one described in \cref{tab:wrf-chem_setup}.
     The microphysics module is modified in order to run the intended experiment on INP effects. The parameters and schemes used are listed in \cref{tab:mp_INP_setup}.
 
     \begin{table}[ht!]
@@ -80,7 +81,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
         \caption{WRF-Chem microphysics setup of the control and test simulations.}
         \begin{tabular}{l|cc}
         \toprule
-        Option name & Control & Test \\
+        Option name & Control & INP-mp \\
         \midrule 
             Microphysics scheme & \citet{thompson_study_2014} & \citet{thompson_study_2014} \\
             INP & \citet{cooper_ice_1986} & \textbf{INP tracers} \\
@@ -94,12 +95,12 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     \end{table}
 
     % how do we use the INP tracers
-    The differences between the control and the test setup stand in the immersion and deposition modes of nucleation.
+    The differences between the control and the test (named \emph{INP-mp}) setup stand in the immersion and deposition modes of nucleation.
     In the original publication, \citet{thompson_study_2014} use the \citet{demott_predicting_2010} ice nucleation parametrisation (D10) with the model dust to predict the number of INPs. It is then used to influence the immersion nucleation that is handled by the \citet{bigg_formation_1953} scheme.
     In our control version, the number of INPs is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86) rather than D10. 
     For deposition nucleation, the number of ice crystals ($n_i$) produced is directly determined by D10 in the original scheme \citep{thompson_study_2014} with aerosol-aware mode or by C86 otherwise. In our control setup, we keep C86.
 
-    In the test simulation, the INPs are driven by the number concentrations of the INP tracers of \cref{chap4}. 
+    In the INP-mp simulation, the INPs are driven by the number concentrations of the INP tracers of \cref{chap4}. 
     They are then used explicitly to produce ice crystals in both immersion and deposition modes. In order to prevent ice crystal formation by these modes outside of clouds, the cloud fraction is used to cap the ice formation:
     \begin{equation}
         n_i = N_{\text{INP}} * f_{\text{cloud}}
@@ -122,7 +123,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     The aerosol engine used in the base WRF-Chem setup, GOCART, misses some aerosols sources that have been identified as important sources for CCNs. \todo{what are they exactly? what reference?}
     Consequently, if the aerosol-aware microphysics scheme uses the aerosols produced by GOCART as water friendly aerosols (i.e. potential CCNs), it underestimates the formation of cloud water.
     A biased diagnostic of droplets number concentrations ensued, which affects the overall cloud representation in the simulations.
-    In order to address this difficulty, as well as clearing any unwanted variability between the control and test simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\cubic\cm}. \todo{Explain this value}
+    In order to address this difficulty, as well as clearing any unwanted variability between the control and INP-mp simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\cubic\cm}. \todo{Explain this value}
 
     
 
@@ -140,15 +141,19 @@ two possible cases:
 
 2. little effect --> is it because immersion has a small part? is it because the microphysics is not sensitive to INPs ?
 
-% ____________________________________________
-    \subsection{Ice crystal number concentrations}
-
-    \missingfigure{Comparison of ice crystal number concentrations}
+HYPOTHETICAL CAUSAL CHAIN: more INP implies less precipitations. We have less INPs in general so more precipitations, especially in mid-latitude. It dries the atmosphere which makes less available water vapour moving toward the Arctic. Less water vapour causes less clouds.
 
 % ____________________________________________
     \subsection{Cloud cover and cloud phase}
+    We observe lower cloud cover.
 
     \missingfigure{Change in cloud phase}
+
+% ____________________________________________
+    \subsection{Ice crystal number concentrations}
+    We observe fewer ice crystals.
+
+    \missingfigure{Comparison of ice crystal number concentrations}
 
 % ____________________________________________
     \subsection{Change in cloud radiative impact}
@@ -157,6 +162,13 @@ two possible cases:
 
 
     \missingfigure{Vertical profiles over different regions of the Arctic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Effect of high latitude aerosols emission}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section, we focus on the differences between two versions of the INP-mp simulation setup.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion about the possible feedback effects}
