@@ -40,7 +40,7 @@ These interactions represent one of the cornerstones of the perturbations of the
 
 This chapter will address the topic of INP emission sources by a complete \textit{tour d'horizon} of the atmospheric species emission sources identification.
 %XXLM pour moi ici il manque quelque chose qui explique pourquoi on s'intéresse aux source id methods et qui fait le lien avec la suite. Dire par ex:
-% In order to represent INP in models and parametrise their emissions, an important first step is to understand where these INPs are coming from. Even though we know the broad categories of atmospheric aerosols important for INPs, such as primary biological aerosol particles (marine and continental) and mineral dust, in the Arctic there is still some controversy about whether INPs are of marine or continental origin (refs, par ex https://acp.copernicus.org/articles/21/11613/2021/, https://acp.copernicus.org/articles/18/18023/2018/acp-18-18023-2018.html, https://acp.copernicus.org/articles/19/5293/2019/acp-19-5293-2019.html).
+In order to represent INP in models and parametrise their emissions, an important first step is to understand where these INPs are coming from. Even though we know the broad categories of atmospheric aerosols important for INPs, such as primary biological aerosol particles (marine and continental) and mineral dust, in the Arctic there is still some controversy about whether INPs are of marine or continental origin \citep{hartmann_terrestrial_2021, creamean_marine_2018, wex_annual_2019} .
 %
 % In Section XX we present a complete overview of the methods that can be used to pinpoint the origin of Arctic INPs..
 % In Section XX evaluate an existing method of source identification, and improve it to better detect these INPs. This is an adapted retranscription ....
@@ -82,7 +82,7 @@ This chapter aims to help address to the three scientific questions raised in \c
     Because modelling of CCN and INP species is often imprecise or even lacking in climate models \citep{morrison_confronting_2020}, improved knowledge of their sources would help to fill the present gaps \citep{murray_opinion_2021}.
     In this context, being able to identify the sources of aerosols relevant for CCN and INPs would be decisive in improving our understanding of their emissions, how to represent them in models, and how to quantify their impacts on polar clouds and climate.
 
-    In order to identify the origin of observed species, observational studies often rely on analyzing their detailed chemical composition and physical properties \citep{freitas_emission_2022, heutte_observations_2025, parshintsev_methods_2015, shao_review_2022} or their correlation with chemical tracers like carbon monoxide from biomass burning and fossil fuel combustion \citep{jiang_aerosol-co_2009} or dimethyl sulfide from phytoplankton blooms \citep{park_observational_2017}.
+    In order to identify the origin of observed species, observational studies often rely on analysing their detailed chemical composition and physical properties \citep{freitas_emission_2022, heutte_observations_2025, parshintsev_methods_2015, shao_review_2022} or their correlation with chemical tracers like carbon monoxide from biomass burning and fossil fuel combustion \citep{jiang_aerosol-co_2009} or dimethyl sulphide from phytoplankton blooms \citep{park_observational_2017}.
     These extra measurements are often expensive and not systemically present in measurement campaigns, and their interpretation is hardly straightforward.
 
     Another way to identify the sources of observed species is to use backward modelling in an attempt to track their atmospheric path all the way back to the emission sources.
@@ -227,7 +227,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         Here, we use the FLEXPART-WRF version of the model. It is a modified version of FLEXPART that is driven by meteorological fields from the WRF model (see \cref{P1sec:WRF}). The FLEXPART-WRF model was also modified by replacing several FLEXPART physical schemes by schemes consistent to WRF's \citep{brioude_lagrangian_2013}.
         As a result, the accuracy of the transport patterns simulated by FLEXPART-WRF relies on the accuracy of the initial WRF simulation, and it decreases with the duration of the backward-simulation. 
 
-        \subsubsubsection{Emission configureation in FLEXPART}
+        \subsubsubsection{Emission configuration in FLEXPART}
 
             The properties of the tracers in FLEXPART-WRF are characterised by five parameters (shown on \cref{P1tab:FP_params}).
             First, we define the release time of the particles. In our case, the model emits over a whole day, corresponding to the associated in situ measurement (\cref{P1sec:experiment}).
@@ -289,7 +289,8 @@ This chapter aims to help address to the three scientific questions raised in \c
                 S_\text{l}^{x} &= \frac{1}{P}\sum_{n=1}^{P}S(n).
             \end{align}
 
-            As the PES decreases with distance from the measurement site, a proximity bias is observed in these climatologies, giving the impression of mainly local sources. \todo{XXLM add figure with a single backtrajectory or with highest PES to show the proximity bias? could even be from irish 2019}
+            As the PES decreases with distance from the measurement site, a proximity bias is observed in these climatologies, giving the impression of mainly local sources. 
+            \todo{XXLM add figure with a single backtrajectory or with highest PES to show the proximity bias? could even be from irish 2019}
             To eliminate that bias, we compute the ratio of $S_{\text{h}}^{x}$ ($S_{\text{l}}^{x}$) to the total climatology $S_\text{t}$.
             We can thus define $R_\text{h}^{x}$ and $R_\text{l}^{x}$, the respective ratios of the high and low climatologies:
             \begin{align}
@@ -309,6 +310,12 @@ This chapter aims to help address to the three scientific questions raised in \c
             In the following, we will discuss further how we can prevent these issues by excluding the areas that are only sampled by a few back-trajectories (that is the areas with too low FPES).
             Because the ratio method allows us to eliminate the FLEXPART proximity bias, it can miss the detection of very local sources when applied to a large domain. However, due to this effect being proportional only to the domain size and resolution, it can be mitigated by either increasing the resolution or downscaling the domain.
 
+        \begin{figure}[p]
+            \includegraphics[width=1\textwidth]{./chap3/images/figure_backtraj.png}
+            \caption{À compléter}
+            \label{fig:figure_backtraj}
+        \end{figure}
+        \todo{Introduce figure backtraj and complete the caption.}
 
 \subsection{Results}
    \label{P1sec:results}
@@ -675,7 +682,7 @@ This chapter aims to help address to the three scientific questions raised in \c
 
     \subsubsection{Methanesulfonic acid}
 
-    Methanesulfonic acid (MSA) is an organosulfuric compound. Its presence in the atmosphere is due to the emissions of dimethylsulfide (DMS).
+    Methanesulfonic acid (MSA) is an organosulfuric compound. Its presence in the atmosphere is due to the emissions of dimethylsulphide (DMS).
     DMS is produced by marine bacteria and phytoplankton activity and can be oxidised into MSA in the atmosphere \citep{saltzman_methane_1983, hopkins_biogeochemistry_2023}.
     Therefore, MSA measurements are expected to be associated with air masses of marine origins.
     Here, the dataset is a series of MSA particle phase measurements performed in the context of the Ny-Ålesund Aerosol Cloud Experiment (NASCENT) campaign held in Svalbard between September~2019 and August~2020 \citep{pasquier_ny-alesund_2022}. The measurement series used in this study extends from January to December~2020.
@@ -846,7 +853,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
     Figure \ref{fig:source_MOSAIC} A shows the results of the source identification at the four activation temperatures.
     The first noticable feature is a discrepancy among the four composite ratios. Two patterns seem to stand out: a sea ice\--open ocean western source, and a continental Siberian origin. The INP active at \tempc{-10} are found to come from the first area, namely oceanic region north to Greenland and Canadian archipelago, with signal up to the North Pole.
-    These differences in the outputs of the source detection method are mecanically explained by the variability among the INP time series peaks (\cref{fig:source_MOSAIC} B). 
+    These differences in the outputs of the source detection method are mechanically explained by the variability among the INP time series peaks (\cref{fig:source_MOSAIC} B). 
     At \tempc{-15}, the source signal splits, with high values on the North eastern coast of Greenland and associated oceanic region, and continental source from Siberia.
     The \tempc{-20} signal appears to be almost entirely continental with a significant entry into the lands.
     Finally, at \tempc{-25}, the detected sources are more localised over the coasts of eastern Siberia.
@@ -860,9 +867,10 @@ Unfortunately, not all the data series meet the conditions to apply the improved
 
     The studied period corresponds to the sea ice growth, including its peak in March. Thereby, the corresponding sea ice extent eliminates the possibility of open ocean emissions. 
     The warm INPs (\tempc{-10} and \tempc{-15}) signal thus suggests sea ice originated emissions.
-    Even though sea ice is not a primary source of potential INPs, as mentionned in \cref{sec:arctic_glimpse}, particles can be emitted from the ocean through open leads in the sea ice pack. 
+    Even though sea ice is not a primary source of potential INPs, as mentioned in \cref{sec:arctic_glimpse}, particles can be emitted from the ocean through open leads in the sea ice pack. 
     In parallel, the phenomenon of particle re-emission by blowing snow is also suggested to be a potential source of aerosol particles, especially biological compounds \citep{rangel-alvarado_snow-borne_2015, christner_ubiquity_2008}.
     That said, \citet{lapere_modeling_2024} have shown that blowing snow emissions contribute to sea salts from one to two orders of magnitude more than open leads, particularly in autumn, winter and spring. Although the study has not evaluated the biological particles emissions, and because sea salts and bio-aerosols can follow similar transport and deposition patterns (see \cref{chap4}), it seems acceptable to extrapolate this result to emissions of warm INPs.
+    This is supported by \citet{barry_bioaersols_2025} who showed that MOSAIC INPs most likely contained biological particles year-round.
     \citet{lapere_modeling_2024} also indicate that the area between Greenland, Svalbard and the North Pole (where the source signal is the strongest) may shelters the largest leads emissions during that time of the year.
     Consequently, sea ice emissions by blowing snow and through open leads appear to be good candidates for the source origins of the warm INPs observed during the winter part of the MOSAIC expedition.
 
@@ -870,7 +878,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     The high nucleation activity of dust particles at these temperatures supports that hypothesis.
     The eventuality of further remote dust emissions is not excluded at \tempc{-20}, regarding the large area covered by the composite ratio signal.
 
-    This quick source tracing analysis allows to conclude on a likely blowing snow or sea ice open leads origin for biological INPs active at warm temperatures, and on a continental dust source for the colder INPs.
+    In conclusion, this quick source tracing analysis suggests a likely blowing snow or ice pack open leads origin for biological INPs active at warm temperatures, and on a continental dust source for the colder INPs.
 
     \subsection{Sources of INP observed during the ARTofMELT 2023 campaign}
     \label{sec:artofmelt_sources}
