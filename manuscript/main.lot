@@ -7,23 +7,23 @@
 \contentsline {table}{\numberline {I.1}{\ignorespaces Stability criteria of moist air.}}{28}{table.caption.18}%
 \contentsline {table}{\numberline {I.2}{\ignorespaces Microphysical growth processes}}{30}{table.caption.21}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {II.1}{\ignorespaces WRF model base setup}}{57}{table.caption.39}%
-\contentsline {table}{\numberline {II.2}{\ignorespaces WRF-Chem model base setup.}}{59}{table.caption.40}%
+\contentsline {table}{\numberline {II.1}{\ignorespaces WRF model base set-up}}{57}{table.caption.39}%
+\contentsline {table}{\numberline {II.2}{\ignorespaces WRF-Chem model base set-up.}}{59}{table.caption.40}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {III.1}{\ignorespaces Tracer emission parametrisations for each surface type in WRF-Chem.}}{73}{table.caption.42}%
-\contentsline {table}{\numberline {III.2}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{76}{table.caption.44}%
-\contentsline {table}{\numberline {III.3}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{80}{table.caption.49}%
-\contentsline {table}{\numberline {III.4}{\ignorespaces Comparison of the success levels for the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{85}{table.caption.54}%
-\contentsline {table}{\numberline {III.5}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{87}{table.caption.55}%
-\contentsline {table}{\numberline {III.6}{\ignorespaces Airborne campaigns of the measurements used for the cloud origin detection.}}{110}{table.caption.67}%
+\contentsline {table}{\numberline {III.1}{\ignorespaces Tracer emission parametrisations for each surface type in WRF-Chem.}}{74}{table.caption.43}%
+\contentsline {table}{\numberline {III.2}{\ignorespaces Emission parameters for FLEXPART-WRF.}}{77}{table.caption.45}%
+\contentsline {table}{\numberline {III.3}{\ignorespaces Definition of the criteria for the evaluation of the ratio method results.}}{80}{table.caption.48}%
+\contentsline {table}{\numberline {III.4}{\ignorespaces Comparison of the success levels for the standard ratio method (standard) and the improved method (improved) for the evaluation experiment performed for five stations and three tracers. Bold numbers indicate which method scored better.}}{85}{table.caption.53}%
+\contentsline {table}{\numberline {III.5}{\ignorespaces Comparison of the averaged success levels when adding the different modifications to the standard ratio. Each cell gives the averaged level of detection when the column and row modifications are added to the standard ratio methodology. The corresponding score of the standard ratio is $0.9$, and the score is $2.0$ for the improved ratio.}}{87}{table.caption.54}%
+\contentsline {table}{\numberline {III.6}{\ignorespaces Airborne campaigns of the measurements used for the cloud origin detection.}}{110}{table.caption.66}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {IV.1}{\ignorespaces Dust emissions size distribution.}}{119}{table.caption.70}%
-\contentsline {table}{\numberline {IV.2}{\ignorespaces Immersion nucleation parametrisations, the particles they apply to, and the their temperature range of validity.}}{123}{table.caption.74}%
-\contentsline {table}{\numberline {IV.3}{\ignorespaces Numerical parameters for the INAS parametrisations.}}{124}{table.caption.75}%
-\contentsline {table}{\numberline {IV.4}{\ignorespaces Ice nucleation parametrisations used for the conversion of aerosol particles to INP tracers.}}{127}{table.caption.77}%
+\contentsline {table}{\numberline {IV.1}{\ignorespaces Dust emissions size distribution.}}{120}{table.caption.69}%
+\contentsline {table}{\numberline {IV.2}{\ignorespaces Immersion nucleation parametrisations used in this study, the particles they apply to, and the their temperature range of validity.}}{124}{table.caption.73}%
+\contentsline {table}{\numberline {IV.3}{\ignorespaces Numerical parameters for the INAS parametrisations.}}{125}{table.caption.74}%
+\contentsline {table}{\numberline {IV.4}{\ignorespaces Ice nucleation parametrisations used for the conversion of aerosol emissions to INP tracers.}}{128}{table.caption.76}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {V.1}{\ignorespaces WRF-Chem microphysics setup of the control and test simulations.}}{142}{table.caption.86}%
+\contentsline {table}{\numberline {V.1}{\ignorespaces WRF-Chem microphysics set-up of the control and test simulations.}}{144}{table.caption.82}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {S1}{\ignorespaces List of travels I have done during my PhD and their relative carbon footprints.}}{163}{table.caption.99}%
+\contentsline {table}{\numberline {S1}{\ignorespaces List of travels I have done during my PhD and their relative carbon footprints.}}{165}{table.caption.95}%
 \contentsfinish 
 \contentsfinish 

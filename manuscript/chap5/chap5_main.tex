@@ -28,15 +28,15 @@
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Until now, this thesis has tackled two thirds of the its announced plan through the last two chapters. From the emission sources of INPs in \cref{chap3}, to the modelling of INP populations in the Arctic in \cref{chap4}.
+Until now, this thesis tackled two thirds of the its announced plan through, the last two chapters. From the emission sources of INPs in \cref{chap3}, to the modelling of INP populations in the Arctic in \cref{chap4}.
 This fifth chapter eventually addresses the question of the impact of particles responsible for ice nucleation on Arctic clouds, making a big step on the road toward the understanding of an hypothetical feedback loop that would link INPs and global warming regional impacts. 
 We want to explore the possible effects of INPs on clouds by improving the representation of their interactions with the cloud microphysics in the model.
-The study presented in this chapter happens to be the direct sequel of the latter, by introducing a new modelling setup within WRF-Chem, inspired from the INP tracers emissions that enabled the modelling of Arctic INP emissions in \cref{chap4}.
+The study presented in this chapter happens to be the direct sequel of the latter, by introducing a new modelling set-up within WRF-Chem, inspired from the INP tracers emissions that enabled the modelling of Arctic INP emissions in \cref{chap4}.
 
 Several studies have tackled the question of aerosols particles effect on cloud properties with simulations tools.
 \citet{seifert_aerosol-cloud-precipitation_2012} have found that assumptions on INPs and CCN can have strong effect on cloud properties such as total condensate water content and glaciation of clouds,  and small effects was observed on the total averaged precipitation.
 Later, \citet{fan_aerosol_2014} ran simulations to investigate the influence of CCN and INPs on precipitation in mixed-phase cloud. They studied two scenarios characterized by different cloud temperatures. They deduced various degrees of significance regarding the impacts of CCN and INPs on precipitation, but they clearly observed a more pronounced effect by INPs than CCN.
-More recently, \citet{lee_simulations_2024} led investigations on INP and CCN effects on clouds with a focus on the ice crystal morphology. They observed that a higher level INP yields smaller ice crystal and irregular crystal shapes. Although crystals morphology is out of our focus in the present study, the size of ice crystals drives their number at constant water path; a measure that our modelling setup is able to make.
+More recently, \citet{lee_simulations_2024} led investigations on INP and CCN effects on clouds with a focus on the ice crystal morphology. They observed that a higher level INP yields smaller ice crystal and irregular crystal shapes. Although crystals morphology is out of our focus in the present study, the size of ice crystals drives their number at constant water path; a measure that our modelling set-up is able to make.
 In the Arctic, \citet{gjelsvik_using_2025} have demonstrated that a pure temperature-dependant ice nucleation parametrisation constructed on local observations can significantly improve the model representation of cloud radiative effect. Their investigations also showed that INPs are most likely important for accurate cloud representation in the Arctic, supporting the hypothesis that primary ice production is central for cloud phase.
 Others studies have explored the role of specific particles\----especially dust\----in simulations of Arctic clouds for the investigations of the impact on their properties \citep{english_contributions_2014, shi_relative_2022, kawai_dominant_2023}, but literature lacks of studies that consider simultaneously the whole Arctic region and all the most important particles that can act as ice nuclei.
 In this study, envision filling this gap.
@@ -73,12 +73,12 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     % we will modify only the immersion
     In the continuity of the precedent chapter where only immersion nucleation was studied, this experiment focus of the effect of aerosol-cloud interactions on the nucleation by immersion. Consequently, only the immersion parametrisation is modified.  
 
-    The base setup is identical to the one described in \cref{tab:wrf-chem_setup}.
-    The microphysics module is modified in order to run the intended experiment on INP effects. The parameters and schemes used are listed in \cref{tab:mp_INP_setup}.
+    The base set-up is identical to the one described in \cref{tab:wrf-chem_set-up}.
+    The microphysics module is modified in order to run the intended experiment on INP effects. The parameters and schemes used are listed in \cref{tab:mp_INP_set-up}.
 
     \begin{table}[ht!]
         \centering
-        \caption{WRF-Chem microphysics setup of the control and test simulations.}
+        \caption{WRF-Chem microphysics set-up of the control and test simulations.}
         \begin{tabular}{l|cc}
         \toprule
         Option name & Control & INP-mp \\
@@ -91,14 +91,14 @@ Eventually, we will led the discussion about how INPs interact with regional cli
             Water friendly aerosols & Forced at \SI{500}{\per\cubic\cm} & Forced at \SI{500}{\per\cubic\cm} \\
         \bottomrule
         \end{tabular}
-        \label{tab:mp_INP_setup}
+        \label{tab:mp_INP_set-up}
     \end{table}
 
     % how do we use the INP tracers
-    The differences between the control and the test (named \emph{INP-mp}) setup stand in the immersion and deposition modes of nucleation.
+    The differences between the control and the test (named \emph{INP-mp}) set-up stand in the immersion and deposition modes of nucleation.
     In the original publication, \citet{thompson_study_2014} use the \citet{demott_predicting_2010} ice nucleation parametrisation (D10) with the model dust to predict the number of INPs. It is then used to influence the immersion nucleation that is handled by the \citet{bigg_formation_1953} scheme.
     In our control version, the number of INPs is computed with the temperature dependent scheme of \citet{cooper_ice_1986} (C86) rather than D10. 
-    For deposition nucleation, the number of ice crystals ($n_i$) produced is directly determined by D10 in the original scheme \citep{thompson_study_2014} with aerosol-aware mode or by C86 otherwise. In our control setup, we keep C86.
+    For deposition nucleation, the number of ice crystals ($n_i$) produced is directly determined by D10 in the original scheme \citep{thompson_study_2014} with aerosol-aware mode or by C86 otherwise. In our control set-up, we keep C86.
 
     In the INP-mp simulation, the INPs are driven by the number concentrations of the INP tracers of \cref{chap4}. 
     They are then used explicitly to produce ice crystals in both immersion and deposition modes. In order to prevent ice crystal formation by these modes outside of clouds, the cloud fraction is used to cap the ice formation:
@@ -120,7 +120,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     For comparison, the default value of $n_i$ in the standard Thompson scheme (i.e. non-aerosol-aware) is \SI{1}{\per\liter}.
     
     % note about the CCN
-    The aerosol engine used in the base WRF-Chem setup, GOCART, misses some aerosols sources that have been identified as important sources for CCNs. \todo{what are they exactly? what reference?}
+    The aerosol engine used in the base WRF-Chem set-up, GOCART, misses some aerosols sources that have been identified as important sources for CCNs. \todo{what are they exactly? what reference?}
     Consequently, if the aerosol-aware microphysics scheme uses the aerosols produced by GOCART as water friendly aerosols (i.e. potential CCNs), it underestimates the formation of cloud water.
     A biased diagnostic of droplets number concentrations ensued, which affects the overall cloud representation in the simulations.
     In order to address this difficulty, as well as clearing any unwanted variability between the control and INP-mp simulations, the number of water friendly aerosols ($nwfa$) is prescribed and set to the fix value of \SI{500}{\per\cubic\cm}. \todo{Explain this value}
@@ -128,23 +128,26 @@ Eventually, we will led the discussion about how INPs interact with regional cli
     
 
 %% ____________________________________________
-%    \subsubsection{Experimental modelling setup}
+%    \subsubsection{Experimental modelling set-up}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Effects on cloud}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section, will be reviewed the differences observed on cloud properties between the two microphysics set-ups: control and INP-mp. 
+The comparison is performed on averaged values over the simulation period, namely August 1st to 21st September 2018.
 
-two possible cases:
-
-1. lot of effects --> for what reasons, what is the causal chain? are they good reasons? Are the results more realistic ?
-
-2. little effect --> is it because immersion has a small part? is it because the microphysics is not sensitive to INPs ?
-
-HYPOTHETICAL CAUSAL CHAIN: more INP implies less precipitations. We have less INPs in general so more precipitations, especially in mid-latitude. It dries the atmosphere which makes less available water vapour moving toward the Arctic. Less water vapour causes less clouds.
+%two possible cases:
+%
+%1. lot of effects --> for what reasons, what is the causal chain? are they good reasons? Are the results more realistic ?
+%
+%2. little effect --> is it because immersion has a small part? is it because the microphysics is not sensitive to INPs ?
+%
+%HYPOTHETICAL CAUSAL CHAIN: more INP implies less precipitations. We have less INPs in general so more precipitations, especially in mid-latitude. It dries the atmosphere which makes less available water vapour moving toward the Arctic. Less water vapour causes less clouds.
 
 % ____________________________________________
-    \subsection{Cloud cover and cloud phase}
+    \subsection{Cloud cover}
+    The cloud property that reflects significant changes in the microphysics is the cloud cover.
     We observe lower cloud cover.
 
     \missingfigure{Change in cloud phase}
@@ -163,13 +166,21 @@ HYPOTHETICAL CAUSAL CHAIN: more INP implies less precipitations. We have less IN
 
     \missingfigure{Vertical profiles over different regions of the Arctic}
 
+% ____________________________________________
+    \subsection{Change in surface temperature}
 
-    \subsection{Comparison with lidar radar data}
+% ____________________________________________
+    \subsection{Sub-regional impact}
+
+
+% ____________________________________________
+    \subsection{Comparison with lidar-radar data}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Effect of high latitude aerosols emission}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In this section, we focus on the differences between two versions of the INP-mp simulation setup.
+In this section, we focus on the differences between two versions of the INP-mp simulation set-up.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -31,7 +31,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The challenge of modelling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Here I say the thesis has been a modelling thesis, I have participated to no obs. campaign, so I will describe only ligthly the measurement setups of the observational data I used.
+% Here I say the thesis has been a modelling thesis, I have participated to no obs. campaign, so I will describe only ligthly the measurement set-ups of the observational data I used.
 %See intro of Khvorostyanov about correspondence principle.
 
 In the 1910s, the Danish physicist Niels Bohr (1885-1962)\----known for the first application of Plank's quantum theory to atomic structure models\---- formulated the \textit{correspondence principle}.
@@ -61,7 +61,7 @@ Finally, the observational material used during this thesis will be briefly pres
 In this section, I describe the numerical models that have been the main tools of my research work during this thesis.
 They split in two categories: Regional Climate Models (RCMs) and Lagrangian particle dispersion model (LPDM). 
 
-RCMs differ from Global Climate Models (GCMs) by the spatial and temporal scales of their simulations. As the name suggests, a GCM aims to model the climate of a whole planet\footnote{Not necessarily the Earth; GCMs are used to model other planets.}. A great example of GCMs use is the Climate Model Intercomparison Project (CMIP), from which are issued the IPCC climate projections (c.f. \cref{sec:expected_evolution}). In CMIP, GCMs from all over the world run the same simulation setup (domain, resolution, start and end date, radiative forcing scenarios) that extends over multiple decades, or even centuries. The outputs are then compared in order to get uncertainty ranges of the modelled climate evolution which resulted from the simulations.
+RCMs differ from Global Climate Models (GCMs) by the spatial and temporal scales of their simulations. As the name suggests, a GCM aims to model the climate of a whole planet\footnote{Not necessarily the Earth; GCMs are used to model other planets.}. A great example of GCMs use is the Climate Model Intercomparison Project (CMIP), from which are issued the IPCC climate projections (c.f. \cref{sec:expected_evolution}). In CMIP, GCMs from all over the world run the same simulation set-up (domain, resolution, start and end date, radiative forcing scenarios) that extends over multiple decades, or even centuries. The outputs are then compared in order to get uncertainty ranges of the modelled climate evolution which resulted from the simulations.
 GCMs can be coupled atmospheric, oceanic and land numerical models, in this case they are called Earth System Models (ESM).
 RCMs are rather used on shorter timescales (typically days to months), and cover parts of the globe, from several kilometres to thousands. Unlike the GCMs, RCMs can run on far finer grid resolutions. While a high GCM horizontal resolution is \SI{100}{km}, RCMs can go down to \SI{1}{km}. This enables them to better represent small scale processes such as clouds, precipitation, extreme weather, or the climate of coastal regions, mountains, and urban areas
 
@@ -71,16 +71,16 @@ The latter are online models, which means they exchange informations between the
 
 LPDMs are stochastic tools for the Lagrangian modelling of the transport of a large amounts of air tracers. They can sometimes be referred as CTMs if they are used to study the regional or global transport and evolution of aerosols or chemically reactive gases.
 
-In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of a coupled RCM-CTM (WRF-Chem, \cref{sec:wrfchem}), and of a LPDM (FLEXPART-WRF, \cref{sec:flexpart}), that have been used in this thesis.
+In this section, will be described the set-up of a RCM (WRF, \cref{sec:wrf}), of a coupled RCM-CTM (WRF-Chem, \cref{sec:wrfchem}), and of a LPDM (FLEXPART-WRF, \cref{sec:flexpart}), that have been used in this thesis.
 
 %-----------------------------------------------
     \subsection{The Weather Research and Forecasting model}
     \label{sec:wrf}
     The Weather Research and Forecasting model (WRF) is a numerical mesoscale atmospheric model \citep{skamarock_description_2022}. Its development began in the 1990s and has since brought together a large international community. The original design objectives of WRF followed two main directions: short-term weather prediction through data assimilation, and regional climate simulation for research purposes. For more than twenty years, WRF has been the research tool of several tens of thousands of scientists worldwide and has become the primary framework for testing and developing parametrisations of numerous physico-chemical processes that can be used in climate models.
 
-    % setup of wrf
+    % set-up of wrf
     In this thesis, we mostly used the version of WRF including atmospheric chemistry and aerosols, WRF-Chem (\cref{sec:wrfchem}). WRF (without chemistry) was used to provide the meteorological fields required to run FLEXPART-WRF, the LPDM presented in \cref{sec:flexpart}. 
-    WRF is a modular model, with several options available for representing atmospheric processes such as cloud microphysics, boundary layer and mixing, continental surfaces, convective clouds. In this work, I chose the WRF setup options listed in Table~\ref{tab:wrf_setup} based on past experience and best practices developed at LATMOS. The WRF setup we used has first be described in \citet{marelle_implementation_2021}. %XXLM en pratique ce setup vient de Marelle 2021 où on l'a vraiment évalué (et utilisé avec FLEXPART-WRF) : https://doi.org/10.1029/2020MS002391
+    WRF is a modular model, with several options available for representing atmospheric processes such as cloud microphysics, boundary layer and mixing, continental surfaces, convective clouds. In this work, I chose the WRF set-up options listed in Table~\ref{tab:wrf_set-up} based on past experience and best practices developed at LATMOS. The WRF set-up we used has first be described in \citet{marelle_implementation_2021}. %XXLM en pratique ce set-up vient de Marelle 2021 où on l'a vraiment évalué (et utilisé avec FLEXPART-WRF) : https://doi.org/10.1029/2020MS002391
 
 \begin{table}[ht!]
     \centering
@@ -97,8 +97,8 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     Initial and boundary conditions and nudging & NCEP FNL \citep{commerce_ncep_2000}\\
     \bottomrule
     \end{tabular}
-    \caption{WRF model base setup}
-    \label{tab:wrf_setup}
+    \caption{WRF model base set-up}
+    \label{tab:wrf_set-up}
 \end{table}
 
     In short, the boundary layer, surface layer, and vertical mixing in the model is handled by the Mellor–Yamada Nakanishi Niino Level 2.5 Scheme  \citep{nakanishi_development_2009}. The land surface model is the Noah Land Surface Model \citep{tewari_implementation_2004}, and also calculates surface snow physics, and the energy and mass budgets at the sea ice- and ocean-atmosphere interfaces.  Grid-scale clouds and precipitation is represented by the Morrison 2-moment scheme for cloud water, cloud ice, rain, snow and graupel \citep{morrison_impact_2009}. The version of Morrison 2-moment used in WRF does not compute aerosol-cloud interactions explicitly, but implicitly assumes a globally average distribution of CCN and INP in its representation of cloud droplet and cloud ice formation processes that is probably not representative of conditions in the Arctic. Subgrid convective clouds are predicted by the Grell-3 cumulus parametrisation \citep{grell_generalized_2002}. 
@@ -115,12 +115,12 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     Most of the processes represented in WRF-Chem are coupled, or ``online'', that is to say they interact with each other during the simulation. For example, modelled aerosols influence cloud formation and interact with radiation, modelled winds drive sea spray emissions, and modelled precipitation drive wet removal of aerosols and trace gases. %XXLMIn the following, we will say explicitly if a chemical tracer is physically passive.
     This property makes it ideal to study aerosol processes such as aerosol-cloud interactions.
 
-    In this thesis, several versions of WRF-Chem have been used, from v4.3 to v4.6. The base setup of the model used in this thesis is described in \cref{tab:wrf-chem_setup}. When a different setup is used in later Chapters, differences will be mentioned explicitly.
+    In this thesis, several versions of WRF-Chem have been used, from v4.3 to v4.6. The base set-up of the model used in this thesis is described in \cref{tab:wrf-chem_set-up}. When a different set-up is used in later Chapters, differences will be mentioned explicitly.
 
-    Physics options were kept as close as possible to the WRF setup presented above, with the important difference of the grid-scale cloud model of \citet{thompson_study_2014}, replacing the Morrison two-moment model. This change was made because the \citet{thompson_study_2014},  while very similar to the Morrison scheme in its structure and capabilities, is more flexible than Morrison for implementing new representations of aerosol-cloud interactions \citep{marelle_aerosol_2025}.
+    Physics options were kept as close as possible to the WRF set-up presented above, with the important difference of the grid-scale cloud model of \citet{thompson_study_2014}, replacing the Morrison two-moment model. This change was made because the \citet{thompson_study_2014},  while very similar to the Morrison scheme in its structure and capabilities, is more flexible than Morrison for implementing new representations of aerosol-cloud interactions \citep{marelle_aerosol_2025}.
 
-    WRF-Chem-specific chemistry and aerosol options are also described in \cref{tab:wrf-chem_setup}. In short, the gas-phase chemistry mechanism is the MOZART model \citep{emmons_description_2010}. %Xref %XXLMhttps://gmd.copernicus.org/articles/3/43/2010/
-    The main sources of INP at the global scale are thought to be mineral dust and primary organic aerosols. Since these species are usually represented as chemically inert in models, and to save computing resources, we used a model setup without explicit gas-phase chemistry or trace gases. Aerosols are represented by the simple GOCART model, which includes mineral dust (5 size bins), sea spray (4 size bins), organic and black carbon (2 tracers each, hydrophilic and hydrophobic), and ammonium sulfate \citep{chin_atmospheric_2000}. For this work, I also added new aerosol tracers to GOCART for primary biological aerosol particles thought to be important for INP, fungal spores and bacteria (See section XXLM).
+    WRF-Chem-specific chemistry and aerosol options are also described in \cref{tab:wrf-chem_set-up}. In short, the gas-phase chemistry mechanism is the MOZART model \citep{emmons_description_2010}. %Xref %XXLMhttps://gmd.copernicus.org/articles/3/43/2010/
+    The main sources of INP at the global scale are thought to be mineral dust and primary organic aerosols. Since these species are usually represented as chemically inert in models, and to save computing resources, we used a model set-up without explicit gas-phase chemistry or trace gases. Aerosols are represented by the simple GOCART model, which includes mineral dust (5 size bins), sea spray (4 size bins), organic and black carbon (2 tracers each, hydrophilic and hydrophobic), and ammonium sulfate \citep{chin_atmospheric_2000}. For this work, I also added new aerosol tracers to GOCART for primary biological aerosol particles thought to be important for INP, fungal spores and bacteria (See section XXLM).
     Emissions of mineral dust are calculated online following \citet{ginoux_long-term_2004}, and emissions of sea spray following \citet{ioannidis_modelling_2023}. %XXLMref https://doi.org/10.5194/acp-23-5641-2023.
     New emissions of fungal spores and bacteria are also calculated online as in citet{chatziparaschos_assessing_2025}. Specifically, emissions of fungal spores are calculated as a function of temperature and leaf area index \citep{hummel_regional-scale_2015} and bacteria as a constant flux depending only on land surface type as in \citet{burrows_bacteria_2009}.
     Anthropogenic and biomass burning aerosols are emitted based on the offline inventories of ECLIPSEv6 \citep{klimont_global_2024} and FINNv1.5 \citep{wiedinmyer_global_2014} respectively, but fire emissions injection heights are calculate online according to \citet{freitas_including_2007}.
@@ -156,8 +156,8 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
         Aerosol wet removal & \citep{luo_further_2020} \\ %XXLM https://doi.org/10.5194/gmd-13-2879-2020
     \bottomrule
     \end{tabular}
-    \caption{WRF-Chem model base setup.}
-    \label{tab:wrf-chem_setup}
+    \caption{WRF-Chem model base set-up.}
+    \label{tab:wrf-chem_set-up}
 \end{table}
 
 
@@ -169,6 +169,7 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
 
     Several models are dedicated to backward modelling, and they split in two different approaches. First, the Lagrangian trajectory models which produce back-trajectories of air tracers from wind fields of a source weather model. We can cite the HYbrid Single-Particle Lagrangian Integrated Trajectory (HYSPLIT) model \citep{stein_noaas_2015} and LAGRANTO \citep{sprenger_lagranto_2015}.
     Another type of Lagrangian models are Lagrangian Particle Dispersion Models, or LPDMs. They compute back-trajectories for thousand of particles by tracking them in space and time. LPDMs also take into account the effects of dispersion and diffusion (turbulence and stochastic processes), unlike single trajectory models.
+    Figure \ref{fig:figure_backtraj} illustrates the principle of backward modelling for origin retrieval, and shows examples of back-trajectories (from HYSPLIT) and examples of backward PES plumes produced by FLEXPART.
     More details on these approaches are given in \cref{P1sec:intro}.
 
     In this thesis, I used the LPDM FLEXPART \citep[FLEXible PARTicle dispersion model,][]{pisso_lagrangian_2019}, and more precisely its FLEXPART-WRF version \citep{brioude_lagrangian_2013}, where Lagrangian particle dispersion is driven by WRF meteorological outputs.
@@ -177,8 +178,12 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
     Details on the computation, interpretation and use of PES outputs are given in \cref{P1sec:FLEXPART}.
     Section~\ref{sec:paper1} is dedicated to the development and assessment of a statistical method to analyse FLEXPART-WRF output to identify the emission sources of atmospheric particles. 
     In \cref{sec:INP_sources}, this methodology is used in order to identify natural sources of INPs in the Arctic, based on recent observation campaigns.
-\missingfigure{flexpart vs retrotrajectoire}
-    %XXLM si possible montrer un exemple de retropanache FLEXPART-WRF vs. une trajectoire, ca peut être issu d'articles qui ne sont pas les tiens si tu n'as pas ca sous la main. Ou juste un rétropanache pour aider à situer ce que c'est pour un lecteur non expert. Par ex dans 10.1029/2020MS002391 les panels a ou b de la figure 5
+
+        \begin{figure}[p]
+            \includegraphics[width=1\textwidth]{./chap3/images/figure_backtraj.png}
+            \caption[Principle of backtrajectories.]{Backward modelling for origin retrieval needs measurement time series of the studied species, regional atmospheric modelling, and a backward model. The figure shows examples of two models: HYSPLIT which produces single back-trajectories that give information on the direction of origin; and FLEXPART-WRF which produces PES plumes by emitting thousands of air tracers. The FLEXPART approach allows for statistical analysis, such as the PSCF.} 
+            \label{fig:figure_backtraj}
+        \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Modelling cloud microphysics in the WRF model} %XXLM je pense que c'est mieux si c'est plus spécifique
@@ -199,7 +204,7 @@ In this section, will be described the setup of a RCM (WRF, \cref{sec:wrf}), of 
 
     Single-moment schemes only compute the mass mixing ratio of cloud particles or precipitation types, expressed in unit of mass by kilograms of air. 
     The number concentrations are thereby either prescribed or diagnosed from the computed mass mixing ratio. Doubling the liquid water path would double the mass of each droplet, rather than changing their size distribution.
-    Such computational setup can not consider processes that involve the evolution of the size distribution of cloud particles. In particular, 
+    Such computational set-up can not consider processes that involve the evolution of the size distribution of cloud particles. In particular, 
     Aerosol-cloud interactions and their effects (e.g. Albrecht and Twomey effects) are completely put aside in these type of schemes, or they are heavily parametrised, for example by linking cloud droplet numbers to aerosol mass. In addition, they cannot represent the effect of heterogeneous ice formation involving INPs.
     Nevertheless, in situations where detailed microphysics is not mandatory, one-moment schemes show their advantages of low computational cost and better numerical stability.
 
@@ -255,7 +260,7 @@ This is especially true for long and continuous time series.
         \subsubsection{In situ meteorological observations}
         In order to validate the meteorological performances of WRF and WRF-Chem, in situ data from EBAS hosted by the Norwegian Institute for Air Research (NILU) described in \citet{torseth_introduction_2012}, have been extensively used. The datasets are cited when appropriate.
 
-        A few data from airborne campaigns have been used, namely ACLOUD, AFLUX, MOSAiC-ACA et HALO-(AC)³ (see \cref{sec:cloud_origins}), as well as data from instrumental mast on campaign boats of the Microbiology-Ocean-Cloud-Coupling in the High Arctic (MOCCHA), the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAIC) and the Atmospheric Rivers and the Onset of Arctic Melt (ARTofMELT) campaigns (see \cref{chap3}). 
+        A few data from airborne campaigns have been used, namely ACLOUD, AFLUX, MOSAiC-ACA et HALO-(AC)³ (see \cref{sec:cloud_origins}), as well as data from instrumental mast on campaign boats of the Microbiology-Ocean-Cloud-Coupling in the High Arctic (MOCCHA), the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) and the Atmospheric Rivers and the Onset of Arctic Melt (ARTofMELT) campaigns (see \cref{chap3}). 
 
         !!!TODO!!! campaign maps?
 
@@ -263,7 +268,7 @@ This is especially true for long and continuous time series.
     INP observations are pretty rare data, although new instruments and measurement networks are setting in and developing fast. 
     An excellent example of that dynamic is the Portable Ice Nucleation Experiment (PINE) initiative, that has been developed by the University of Leeds (UK). The instrument, an automated instrument that measure INP concentrations across the full range of tropospheric temperatures, has been sent all over the world with the objective of creating a worldwide network of long time series of INP concentrations \citep{mohler_portable_2021}.
 
-    For this thesis work, I mainly used INP measurements from marine campaigns (MOCCHA, MOSAIC, ARTofMELT). Those are presented and described when suited in the following chapters. 
+    For this thesis work, I mainly used INP measurements from marine campaigns (MOCCHA, MOSAiC, ARTofMELT). Those are presented and described when suited in the following chapters. 
     Nonetheless, I can mention the observations from \citet{wex_annual_2019}, \citet{irish_ice_2019}, \citet{schrod_long-term_2020} and \citet{hartmann_wintertime_2020} that I used when attempting to find the sources of their INP measurements. This was before I realised that those datasets do not suit reliable source tracking. The reasons for that are extensively discussed in \cref{sec:paper1}.
 \vspace{\baselineskip}
 
