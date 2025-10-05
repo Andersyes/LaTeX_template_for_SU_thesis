@@ -77,23 +77,23 @@ In possession of a method with known performances, we were ready to undertake th
 We used INP concentration data from three recent campaigns (MOCCHA 2018, MOSAiC 2020 and ARTofMELT 2023, \cref{sec:INP_sources}), which comprised time series for different activation temperatures.
 The analyses revealed that INPs originate from inside the Arctic region, involving regional transport. 
 Two main regions were highlighted: coasts of the Barents and Laptev seas, and coasts of Greenland, with possible transport from inland Asia.
-These results suggest a predominance of dust particles among the observed INPs, but the study of MOSAiC warm INPs (active at \tempc{-10} and \tempc{-15}), showed possible oceanic sources that themselves suggest the presence of marine organic particles in populations of warm INPs.
+These results suggest a predominance of mineral dust particles among the observed INPs, but the study of MOSAiC warm INPs (active at \tempc{-10} and \tempc{-15}), showed possible oceanic sources that themselves suggest the presence of marine organic particles in populations of warm INPs.
 The study of primary biological aerosol particles (PBAPs) origins supported this observation, showing possible oceanic sources from ice free areas of the Arctic Ocean.
 These promising results motivate further use of the improved ratio method for the analysis of future INP datasets. 
 
 % what about the INP modelling
 \section{Ice nucleation modelling and INP emissions}
 In \cref{chap4}, we used the knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
-Emissions of high latitude dust (\cref{sec:dust_emiss}), of marine particles organic aerosols (MPOA) from sea sprays (\cref{sec:seaspray_emiss}), and of continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model, reproducing satisfyingly the coarse-mode particles MOCCHA observations.
+Emissions of high latitude mineral dust (\cref{sec:dust_emiss}), of marine particles organic aerosols (MPOA) from sea sprays (\cref{sec:seaspray_emiss}), and of continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model, reproducing satisfyingly the coarse-mode particles MOCCHA observations.
 The objective was to use the newly modelled particles to reproduce in situ INP concentrations in central Arctic.
 The challenge have been addressed with two approaches.
 
 The first approach relied on the conversion, by ice nucleation parametrisations, of aerosol particles to INP concentrations, after their transport in the atmosphere.
-Eight different parametrisations were used; among them, three were specific to dust particles, one to sea sprays, two to bacteria, one to fungal spores, and one was general and used all types of coarse-mode particles (\cref{sec:inp_param}).
+Eight different parametrisations were used; among them, three were specific to mineral dust particles, one to sea sprays, two to bacteria, one to fungal spores, and one was general and used all types of coarse-mode particles (\cref{sec:inp_param}).
 In addition to the modelled particles, observations from the MOCCHA 2018 campaign have also been used to feed the parametrisations.
 The results showed that it is difficult to reproduce INP variability with modelled particles as input of the parametrisations (\cref{sec:aerosols_to_INP}). Nevertheless, concentration levels were correctly reproduced with the parametrisation that uses the whole coarse-mode \citep{demott_predicting_2010}. %Furthermore, the levels of PBAP particles (bacteria and fungal spores), were
 And when the actual observed concentrations of particles were used to feed the ice nucleation parametrisations, the time variability was much better reproduced.
-The dust parametrisations overestimated the INP concentrations. This is partly explain by the fact the hypothesis was made of a coarse-mode composed of \perc{100} dust particles. Therefore, the resultant overestimated INP concentrations suggested that the coarse-mode of the MOCCHA campaign was not full dust (\cref{sec:first_approach}).
+The dust parametrisations overestimated the INP concentrations. This is partly explain by the fact the hypothesis was made of a coarse-mode composed of \perc{100} mineral dust particles. Therefore, the resultant overestimated INP concentrations suggested that the coarse-mode of the MOCCHA campaign was not full mineral dust (\cref{sec:first_approach}).
 Concerning the biological particles observed during the campaign, the fluorescent PBAPs (fPBAPs), no parametrisation was able to predict high enough INP level to match the observed INP concentrations.
 Indeed, the nucleation rate necessary for INPs to be driven by PBAPs is close to \perc{100} at \tempc{-20}.
 From the current range of our knowledge on ice nucleation with PBAPs, the latter can not explain alone the INP concentrations during the campaign.
@@ -169,9 +169,9 @@ It motivates more simulation experiments, which could fit in a stand-alone study
 \vspace{\baselineskip}
 
 % improve the high latitude dust sources since they have been detected as important INP sources.
-A misalignment of this thesis stood between the results of \cref{chap3} and the set-up of \cref{chap4}. In \cref{sec:artofmelt_sources}, coasts of Greenland were shown to be intense sources of INPs; their topography and soil characteristics suggesting dust emissions. 
-However, in \cref{sec:dust_emiss}, the work on which we base the dust emissions do not account for these Greenland sources. 
-Consequently, the dust emissions used for our INP tracers lack of these sources.
+A misalignment of this thesis stood between the results of \cref{chap3} and the set-up of \cref{chap4}. In \cref{sec:artofmelt_sources}, coasts of Greenland were shown to be intense sources of INPs; their topography and soil characteristics suggesting mineral dust emissions. 
+However, in \cref{sec:dust_emiss}, the work on which we base the mineral dust emissions do not account for these Greenland sources. 
+Consequently, the mineral dust emissions used for our INP tracers lack of these sources.
 An important next step in INP modelling, would thus be the implementation of the Greenland sources among the model particles emissions.
 Within the framework of the previous paragraph, it would be a great added value.
 \vspace{\baselineskip}

@@ -135,7 +135,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 \section{Effects on cloud}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 In this section, will be reviewed the differences observed on cloud properties between the two microphysics set-ups: control and INP-mp. 
-The comparison is performed on averaged values over the simulation period, namely August 1st to 21st September 2018.
+The comparison is performed on averaged values over the simulation period, which extends from August 1st to 21st September 2018.
 
 %two possible cases:
 %
@@ -144,11 +144,58 @@ The comparison is performed on averaged values over the simulation period, namel
 %2. little effect --> is it because immersion has a small part? is it because the microphysics is not sensitive to INPs ?
 %
 %HYPOTHETICAL CAUSAL CHAIN: more INP implies less precipitations. We have less INPs in general so more precipitations, especially in mid-latitude. It dries the atmosphere which makes less available water vapour moving toward the Arctic. Less water vapour causes less clouds.
+% dans tous les cas, même s'il y a un pb dans la simulation, on voit qu'il y a un effet en Arctic de la microphysique des INPs.
 
 % ____________________________________________
     \subsection{Cloud cover}
-    The cloud property that reflects significant changes in the microphysics is the cloud cover.
-    We observe lower cloud cover.
+    % --- Cloud cover
+    The cloud property that reflects the most significant changes in the microphysics, is the cloud cover.
+    On \cref{fig:modelled_cloud_comparison}A clearly appears the effects of the INP-mp modifications on the total cloud cover. 
+    The difference of the mean cloud cover computed over the \[domain/Arctic\] accounts for a reduction of \perc{5}.
+    The difference lies mostly in the Arctic, especially over the areas covered by sea ice.
+    Actually, the delimitation is very clear, suggesting a correlation with how INP concentrations are affected by sea ice.
+    In the control simulation, INP concentrations do not rely on actual particle emissions, but only on temperature with the C86 parametrisation. Consequently, only the effects of sea ice on temperature can influence heterogeneous ice nucleation.
+    In the INP-mp set-up, INPs are modelled particles transported from various emission sources that are not only affected by temperature. 
+    Marine emissions are inhibited by the presence of ice at the surface of the ocean. Thereby, INPs get scarcer in average in the areas of icy ocean.
+    This observation is directly linked to the results of \cref{sec:second_approach}, especially to the diagnostic of INPs spatial distribution shown on \cref{fig:INP_maps_MOCCHA}: at the temperatures encountered in summer, the INP concentrations in central Arctic are mostly under $10^{-1}$ \si{\per\liter} in average. 
+
+    % greenland coasts signal
+    Coasts of Greenland shows the biggest difference, with lower cloud cover by up to \perc{60}.
+    The signal spatially correlates with the emissions sources of INPs detected in \cref{sec:artofmelt_sources} during the analysis of the ARTofMELT 2023 campaign.
+    Indeed, the detected sources (c.f. \cref{fig:source_INP_artofmelt}) were distributed along the Greenland coasts. The analysis concluded on mineral dust emissions.
+    However, the data used to update the emissions of this kind of particles did not consider these areas. Consequently, the modelled mineral dust lacks in this area, as depicted on \cref{fig:emission_maps}.
+    Assuming that C86 better represents the INP concentrations over Greenland coasts, the missing mineral dust emissions are the causes for the ebbs of cloud cover observed in the INP-mp simulation.
+    This supports the conclusion of the ARTofMELT INP sources analysis that Greenland coasts are important sources of INPs.
+
+   % the signal over the eurasia
+    There is also fewer cloud cover over continental areas, especially at mid-latitude over Eurasia.
+    WHY???
+
+    % --- IWP and LWP
+    The analysis of ice water path (IWP) and liquid water path (LWP), expressed in \si{\gram\per\square\meter}, brings elements for the understanding of the changes observed in cloud cover.
+    The IWP is compared on panel B of \cref{fig:modelled_cloud_comparison}.
+    The figure shows a global increase of the ice content of clouds. Over the whole \[domain/Arctic\] area, the INP-mp set-up produces \perc{17.8} more ice.
+    It results in a decrease in LWP of \perc{12.7} (\cref{fig:modelled_cloud_comparison}C).
+    This LWP difference happens mostly in central Arctic, in areas similar to where the cloud cover difference happens. 
+
+    % number concentration of droplets and ice crystals
+    Looking at the number concentrations of liquid droplets and ice crystals, we notice decreases of respectively \perc{8.8} and \perc{7.3}.
+    For variation is analogous to the evolution of water path for liquid droplets, which means an almost constant droplet size, but ice crystals have clearly grown in the INP-mp simulation.
+    Considering that mass scales with diameter as $m \propto D^b$, with $b$ a scaling factor dependant on crystal shape, and that $b \approx 2$ after \citet{heymsfield_improved_2010}, the increase in ice crystal diameter expresses as,
+    \begin{equation}
+        \Delta D_{\text{ice}} = \left(\frac{1 + \Delta IWP}{1 + \Delta N_{\text{ice}}}\right)^{1/b}
+    \end{equation}
+    which gives $\Delta D = 1.127$, or a \perc{12.7} increase in ice crystal diameter.
+
+     \begin{figure}[htbp]
+        \centering
+        \label{fig:modelled_cloud_comparison}
+        \includegraphics[width=1\textwidth]{./chap4/images/.png}
+         \caption[Comparison of cloud properties between the control and the INP-mp simulations.]{}
+    \end{figure}
+
+
+
 
     \missingfigure{Change in cloud phase}
 

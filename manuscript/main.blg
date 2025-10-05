@@ -1,18 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[62] biber:340> INFO - === sam. oct.  4, 2025, 18:52:03
-[77] Biber.pm:419> INFO - Reading 'main.bcf'
-[245] Biber.pm:979> INFO - Found 240 citekeys in bib section 0
-[258] Biber.pm:4419> INFO - Processing section 0
-[279] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202509.bib' for section 0
-[350] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1071] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202509.bib'
-[3142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3142] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[3142] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[3647] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[4024] bbl.pm:763> INFO - Output to main.bbl
-[4024] Biber.pm:131> WARN - I didn't find a database entry for 'creamean_marine_2018' (section 0)
-[4024] Biber.pm:131> WARN - I didn't find a database entry for 'barry_bioaersols_2025' (section 0)
-[4024] Biber.pm:133> INFO - WARNINGS: 2
+[80] biber:340> INFO - === dim. oct.  5, 2025, 16:38:15
+[97] Biber.pm:419> INFO - Reading 'main.bcf'
+[288] Biber.pm:979> INFO - Found 240 citekeys in bib section 0
+[303] Biber.pm:4419> INFO - Processing section 0
+[323] Biber.pm:4610> INFO - Looking for bibtex file '../../Biblio/biblio_202510.bib' for section 0
+[406] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1327] bibtex.pm:1519> INFO - Found BibTeX data source '../../Biblio/biblio_202510.bib'
+[3992] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3992] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3992] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[3992] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[4592] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[5015] bbl.pm:763> INFO - Output to main.bbl
+[5015] Biber.pm:131> WARN - I didn't find a database entry for 'kiehl_earth_1997' (section 0)
+[5015] Biber.pm:133> INFO - WARNINGS: 1

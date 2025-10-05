@@ -6,6 +6,7 @@
 
 \chapquote{
 }{}
+\todo{Find a quote for chapter 4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -112,13 +113,11 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     % ____________________________________________________    
     \subsection{WRF-Chem modelling set-up}
     \label{sec:wrf_set-up}
-    \todo{TO BE UPDATED}
     % general presentation
-    The simulations and development presented in this study are performed with WRF‐Chem version 4.6.1, including optimisations for polar regions described in \cite{marelle_improvements_2017}. %XXLM add marelle2025, Ioannidis2023, lapere2024
-    Meteorological initial and time-varying conditions are provided by ERA5 reanalyses \citep{hersbach_era5_2020}, and for atmospheric composition by CESM.  %Tilmes, S., Emmons, L.K., Buchholz, R.R. & The CESM2 Development Team, (2022). CESM2.2/CAM-chem Output for Boundary Conditions. UCAR/NCAR - Atmospheric Chemistry Observations and Modeling Laboratory. Subset used† XXX, Accessed 20 September 2024, DOI: https://doi.org/10.5065/XS0R-QE86.
+    The simulations and development presented in this study are performed with WRF‐Chem version 4.6.1, including optimisations for polar regions described in \citet{marelle_improvements_2017, ioannidis_modelling_2023, lapere_modeling_2024, marelle_aerosol_2025}. 
     
     % domain set-up
-    The simulation domain is a polar centred square of approximately $12,000 \times 12,000$ \si{\km}, or 240 $\times$ 240 cells of \SI{50}{{\km} resolution. % to be updated
+    The simulation domain is a polar centred square of approximately $12,000 \times 12,000$ \si{\km}, or 240 $\times$ 240 cells of \SI{50}{{\km} resolution. 
     It is composed of 49 vertical levels, ranging from the surface up to \SI{50}{\hecto\pascal}, with the first vertical level from 0 to \SI{20}{\meter}}.
     % aerosol set-up
     The complete WRF-Chem set-up (microphysics, physics, chemistry, aerosols) is described in \cref{tab:wrf-chem_set-up}, with new additions for this study described below.
@@ -203,18 +202,9 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     In this study we also use the coarse-mode particle number size distribution data of the MOCCHA campaign \citep{zieger_coarse-mode_2022}, and the biological aerosols are represented by the concentration of fluorescent primary biological aerosol particles (fPBAP) \citep{kojoj_single-particle_2024}, presented in \citet{kojoj_arctic_2024}.
     
     \begin{figure}[h]
-        \begin{subfigure}{0.5\textwidth}
-            \label{fig:obs_INP_spectrum}
-            \includegraphics[width=0.9\linewidth]{./chap4/images/NinpVsT_date.png}
-            \caption{INP number concentration spectrum of the MOCCHA 2018 measurements.}
-        \end{subfigure}
-        \begin{subfigure}{0.5\textwidth}
-            \label{fig:nucleation_schemes}
-            \includegraphics[width=0.9\linewidth]{./chap4/images/icenuc_schemes_201888-0h.png}
-            \caption{\todo{to be updated, and changed to activation fraction} | Activation fraction depending on temperature for the tested parametrisations.}
-        \end{subfigure}
-        \caption{INP spectra from the MOCCHA 2018 campaign (panel a), and predicted by ice nucleation parametrisations used in this study (panel b).}
-        \caption{INP spectra from the MOCCHA 2018 campaign (panel a), and predicted by ice nucleation parametrisations used in this study for fixed idealized conditions (1 µm radius, 1 dust or PBAP aerosol/L) (panel b).}
+        \label{fig:obs_INP_spectrum}
+        \includegraphics[width=1\linewidth]{./chap4/images/INP_spectra.png}
+        \caption[INP spectrum of MOCCHA and from ice nucleation parametrisations.]{INP spectrum from the MOCCHA 2018 campaign (A), and predicted by ice nucleation parametrisations used in this study for fixed conditions (B).}
     \end{figure}
 
 
@@ -435,7 +425,7 @@ In term of modelling, the latter means that parametrisations sensitive to partic
        
         \begin{figure}[h]
             \centering
-            \includegraphics[width=0.9\textwidth]{./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png}
+            \includegraphics[width=0.8\textwidth]{./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png}
             \caption[Mass concentrations of modelled coarse aerosols particles from WRF-Chem compared to the coarse aerosols observations during the MOCCHA campaign.]{Mass concentrations of modelled coarse aerosols particles from WRF-Chem compared to the coarse aerosols observations during the MOCCHA campaign. Panel A shows the concentrations of the five size bins of the GOCART dust particles. Panel B is the concentrations series of modelled PBAPs, including bacteria, fungal spores and MPOA. Panel C compares the sum of all the size bins and species of the WRF-Chem particles with the observations of coarse mode particles from the MOCCHA campaign. The times series are downsampled with a three hours moving average for a more faithful comparison considering the time constant of the model spatial resolution.}
             \label{fig:coarse_concentrations}
         \end{figure}
@@ -454,7 +444,7 @@ In term of modelling, the latter means that parametrisations sensitive to partic
         \begin{sidewaysfigure}[p]
             \centering
             \includegraphics[width=1\textwidth]{./chap4/images/icenuc_params_152025.png}
-            \caption{Modelled compared to observed INP concentrations at three activation temperatures. Panel A shows concentrations obtained with the modelled aerosols particles. Panel B shows the results obtained with the observed particles as input for the parametrisations. The INP observations series from the MOCCHA campaign 2018 are plotted in black dashed-line and red crosses. The grey areas account for the period of polluted measurements.}
+            \caption[Modelled compared to observed INP concentrations at three activation temperatures.]{Modelled compared to observed INP concentrations at three activation temperatures. Panel A shows concentrations obtained with the modelled aerosols particles. Panel B shows the results obtained with the observed particles as input for the parametrisations. The INP observations series from the MOCCHA campaign 2018 are plotted in black dashed-line and red crosses. The grey areas account for the period of polluted measurements.}
             \label{fig:icenuc_params_moccha}
         \end{sidewaysfigure}
     
