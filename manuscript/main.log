@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  5 OCT 2025 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  6 OCT 2025 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2637,6 +2637,20 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                gant_physical_2013
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                heymsfield_improved_2010
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                kiehl_earth_1997
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -4732,7 +4746,7 @@ Overfull \hbox (7.84561pt too wide) in paragraph at lines 141--141
 [][][]\T1/ntxtlf/m/n/10 schematics 
  []
 
-<./chap1/images/radiative_budget.png, id=627, 809.424pt x 431.211pt>
+<./chap1/images/radiative_budget.png, id=619, 809.424pt x 431.211pt>
 File: ./chap1/images/radiative_budget.png Graphic file (type png)
 <use ./chap1/images/radiative_budget.png>
 Package pdftex.def Info: ./chap1/images/radiative_budget.png  used on input lin
@@ -4763,7 +4777,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./chap1/images/warming_evidences.png, id=645, 492.8814pt x 368.577pt>
+<./chap1/images/warming_evidences.png, id=637, 492.8814pt x 368.577pt>
 File: ./chap1/images/warming_evidences.png Graphic file (type png)
 <use ./chap1/images/warming_evidences.png>
 Package pdftex.def Info: ./chap1/images/warming_evidences.png  used on input li
@@ -4793,7 +4807,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 238.
 
 [12]
-<./chap1/images/co2_2k_ce.pdf, id=683, 667.66628pt x 338.09306pt>
+<./chap1/images/co2_2k_ce.pdf, id=675, 667.66628pt x 338.09306pt>
 File: ./chap1/images/co2_2k_ce.pdf Graphic file (type pdf)
 <use ./chap1/images/co2_2k_ce.pdf>
 Package pdftex.def Info: ./chap1/images/co2_2k_ce.pdf  used on input line 241.
@@ -4842,7 +4856,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 258.
 
 [13 <./chap1/images/co2_2k_ce.pdf>]
-<./chap1/images/world_energy_consumption.png, id=729, 3770.085pt x 1067.99pt>
+<./chap1/images/world_energy_consumption.png, id=721, 3770.085pt x 1067.99pt>
 File: ./chap1/images/world_energy_consumption.png Graphic file (type png)
 <use ./chap1/images/world_energy_consumption.png>
 Package pdftex.def Info: ./chap1/images/world_energy_consumption.png  used on i
@@ -4853,7 +4867,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 Package cleveref Info: loaded `english' language definitions on input line 274.
 
  [14 <./chap1/images/world_energy_consumption.png>]
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=744, 2133.9725pt x 1352.0
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png, id=736, 2133.9725pt x 1352.0
 5125pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_tot.png>
@@ -4878,7 +4892,7 @@ Package cleveref Info: loaded `english' language definitions on input line 602.
 Package cleveref Info: loaded `english' language definitions on input line 602.
 
  [16]
-<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=757, 1973.3725pt x 1060.96375pt
+<./chap1/images/IPCC_AR6_SYR_Figure_2_5.png, id=749, 1973.3725pt x 1060.96375pt
 >
 File: ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>
@@ -4890,7 +4904,7 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 Package cleveref Info: loaded `english' language definitions on input line 602.
 
  [17 <./chap1/images/IPCC_AR6_SYR_Figure_2_5.png>]
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=770, 2015.53pt x 2246.3925pt>
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png, id=761, 2015.53pt x 2246.3925pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png Graphic file (type png)
 <use ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png>
 Package pdftex.def Info: ./chap1/images/IPCC_AR6_WGI_TS_Figure_6.png  used on i
@@ -4934,7 +4948,7 @@ Package cleveref Info: loaded `english' language definitions on input line 602.
 Package cleveref Info: loaded `english' language definitions on input line 602.
 
  [23]
-<./chap1/images/compile_nuages_v2.png, id=836, 831.5868pt x 495.5313pt>
+<./chap1/images/compile_nuages_v2.png, id=828, 831.5868pt x 495.5313pt>
 File: ./chap1/images/compile_nuages_v2.png Graphic file (type png)
 <use ./chap1/images/compile_nuages_v2.png>
 Package pdftex.def Info: ./chap1/images/compile_nuages_v2.png  used on input li
@@ -4963,7 +4977,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 602.
 
 [27]
-<./chap1/images/stability.png, id=881, 779.0706pt x 411.939pt>
+<./chap1/images/stability.png, id=873, 779.0706pt x 411.939pt>
 File: ./chap1/images/stability.png Graphic file (type png)
 <use ./chap1/images/stability.png>
 Package pdftex.def Info: ./chap1/images/stability.png  used on input line 602.
@@ -4996,7 +5010,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 641.
 
 [29{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<./chap1/images/matus_cloud_frac.png, id=904, 1553.44pt x 420.48pt>
+<./chap1/images/matus_cloud_frac.png, id=895, 1553.44pt x 420.48pt>
 File: ./chap1/images/matus_cloud_frac.png Graphic file (type png)
 <use ./chap1/images/matus_cloud_frac.png>
 Package pdftex.def Info: ./chap1/images/matus_cloud_frac.png  used on input lin
@@ -5052,7 +5066,7 @@ deleted material, e.g., by typing `I$}'.
 Package cleveref Info: loaded `english' language definitions on input line 784.
 
 [33]
-<./chap1/images/hetero_nucleation.png, id=948, 1194.864pt x 372.4314pt>
+<./chap1/images/hetero_nucleation.png, id=940, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
 Package pdftex.def Info: ./chap1/images/hetero_nucleation.png  used on input li
@@ -5084,7 +5098,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 806.
 
 [34 <./chap1/images/hetero_nucleation.png>]
-<./chap1/images/homogeneous_nucleation_rate.png, id=964, 578.16pt x 361.35pt>
+<./chap1/images/homogeneous_nucleation_rate.png, id=956, 578.16pt x 361.35pt>
 File: ./chap1/images/homogeneous_nucleation_rate.png Graphic file (type png)
 <use ./chap1/images/homogeneous_nucleation_rate.png>
 Package pdftex.def Info: ./chap1/images/homogeneous_nucleation_rate.png  used o
@@ -5124,13 +5138,13 @@ Package cleveref Info: loaded `english' language definitions on input line 869.
 Package cleveref Info: loaded `english' language definitions on input line 894.
 
  [37]
-<./chap1/images/aerosols_effects.jpg, id=1010, 1282.7925pt x 542.025pt>
+<./chap1/images/aerosols_effects.jpg, id=1002, 1282.7925pt x 542.025pt>
 File: ./chap1/images/aerosols_effects.jpg Graphic file (type jpg)
 <use ./chap1/images/aerosols_effects.jpg>
 Package pdftex.def Info: ./chap1/images/aerosols_effects.jpg  used on input lin
 e 896.
 (pdftex.def)             Requested size: 460.93457pt x 194.75667pt.
-<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1014, 841.1425pt x 8
+<./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png, id=1006, 841.1425pt x 8
 13.0375pt>
 File: ./chap1/images/IPCC_AR6_WGI_TS_Figure_15_aerosols.png Graphic file (type 
 png)
@@ -5152,7 +5166,7 @@ Package cleveref Info: loaded `english' language definitions on input line 939.
 LaTeX Warning: Citation 'gant_physical_2013' on page 40 undefined on input line
  941.
 
-<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1041, 462.528pt x 260.172pt>
+<./chap1/images/nuages/seasprays_pic_HD.jpg, id=1032, 462.528pt x 260.172pt>
 File: ./chap1/images/nuages/seasprays_pic_HD.jpg Graphic file (type jpg)
 <use ./chap1/images/nuages/seasprays_pic_HD.jpg>
 Package pdftex.def Info: ./chap1/images/nuages/seasprays_pic_HD.jpg  used on in
@@ -5170,7 +5184,7 @@ Package cleveref Info: loaded `english' language definitions on input line 974.
 Package cleveref Info: loaded `english' language definitions on input line 999.
 
  [42]
-<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1082, 1179.2055pt x 858.5676pt>
+<./chap1/images/Ninp_cycle_Utqiagvik.png, id=1074, 1179.2055pt x 858.5676pt>
 File: ./chap1/images/Ninp_cycle_Utqiagvik.png Graphic file (type png)
 <use ./chap1/images/Ninp_cycle_Utqiagvik.png>
 Package pdftex.def Info: ./chap1/images/Ninp_cycle_Utqiagvik.png  used on input
@@ -5262,15 +5276,15 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 1036
 .
 [44]
-<./chap1/images/arctic_map_upscaled.png, id=1109, 3268.21pt x 3345.49875pt>
-File: ./chap1/images/arctic_map_upscaled.png Graphic file (type png)
-<use ./chap1/images/arctic_map_upscaled.png>
-Package pdftex.def Info: ./chap1/images/arctic_map_upscaled.png  used on input 
-line 1044.
-(pdftex.def)             Requested size: 276.56355pt x 283.0619pt.
+<./chap1/images/arctic_map.png, id=1101, 462.528pt x 473.3685pt>
+File: ./chap1/images/arctic_map.png Graphic file (type png)
+<use ./chap1/images/arctic_map.png>
+Package pdftex.def Info: ./chap1/images/arctic_map.png  used on input line 1044
+.
+(pdftex.def)             Requested size: 276.56355pt x 283.0554pt.
 Package cleveref Info: loaded `english' language definitions on input line 1060
 .
- [45 <./chap1/images/arctic_map_upscaled.png>]
+ [45 <./chap1/images/arctic_map.png>]
 Overfull \hbox (4.94563pt too wide) in paragraph at lines 1061--1061
 \T1/ntxtlf/m/n/10 références 
  []
@@ -5283,7 +5297,7 @@ Overfull \hbox (4.94563pt too wide) in paragraph at lines 1061--1061
 Package cleveref Info: loaded `english' language definitions on input line 1086
 .
 [46]
-<./chap1/images/arctic_ampli.png, id=1131, 565.1514pt x 349.7868pt>
+<./chap1/images/arctic_ampli.png, id=1123, 565.1514pt x 349.7868pt>
 File: ./chap1/images/arctic_ampli.png Graphic file (type png)
 <use ./chap1/images/arctic_ampli.png>
 Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
@@ -5292,7 +5306,7 @@ Package pdftex.def Info: ./chap1/images/arctic_ampli.png  used on input line 10
 Package cleveref Info: loaded `english' language definitions on input line 1096
 .
  [47 <./chap1/images/arctic_ampli.png>]
-<./chap1/images/SLP_AO.png, id=1148, 849.1725pt x 676.5275pt>
+<./chap1/images/SLP_AO.png, id=1140, 849.1725pt x 676.5275pt>
 File: ./chap1/images/SLP_AO.png Graphic file (type png)
 <use ./chap1/images/SLP_AO.png>
 Package pdftex.def Info: ./chap1/images/SLP_AO.png  used on input line 1104.
@@ -5323,7 +5337,7 @@ and I'll forget about whatever was undefined.
 Package cleveref Info: loaded `english' language definitions on input line 1113
 .
 [48 <./chap1/images/SLP_AO.png>]
-<./chap1/images/AA_feedbacks.png, id=1169, 489.5088pt x 206.2104pt>
+<./chap1/images/AA_feedbacks.png, id=1161, 489.5088pt x 206.2104pt>
 File: ./chap1/images/AA_feedbacks.png Graphic file (type png)
 <use ./chap1/images/AA_feedbacks.png>
 Package pdftex.def Info: ./chap1/images/AA_feedbacks.png  used on input line 11
@@ -5339,7 +5353,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1153
 Package cleveref Info: loaded `english' language definitions on input line 1171
 .
  [50 <./chap1/images/AA_feedbacks.png>]
-<./chap1/images/matus_CRE.png, id=1198, 2191.18625pt x 566.115pt>
+<./chap1/images/matus_CRE.png, id=1190, 2191.18625pt x 566.115pt>
 File: ./chap1/images/matus_CRE.png Graphic file (type png)
 <use ./chap1/images/matus_CRE.png>
 Package pdftex.def Info: ./chap1/images/matus_CRE.png  used on input line 1184.
@@ -5365,7 +5379,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1210
 Package cleveref Info: loaded `english' language definitions on input line 1235
 .
  [52]
-<./chap1/images/mixed-phase-clouds.png, id=1218, 413.3844pt x 315.0972pt>
+<./chap1/images/mixed-phase-clouds.png, id=1210, 413.3844pt x 315.0972pt>
 File: ./chap1/images/mixed-phase-clouds.png Graphic file (type png)
 <use ./chap1/images/mixed-phase-clouds.png>
 Package pdftex.def Info: ./chap1/images/mixed-phase-clouds.png  used on input l
@@ -6323,7 +6337,7 @@ Overfull \hbox (83.37346pt too wide) in paragraph at lines 135--159
 Package cleveref Info: loaded `english' language definitions on input line 169.
 
 [61]
-<./chap3/images/figure_backtraj.png, id=1376, 2486.28876pt x 3295.31125pt>
+<./chap3/images/figure_backtraj.png, id=1368, 2486.28876pt x 3295.31125pt>
 File: ./chap3/images/figure_backtraj.png Graphic file (type png)
 <use ./chap3/images/figure_backtraj.png>
 Package pdftex.def Info: ./chap3/images/figure_backtraj.png  used on input line
@@ -6421,29 +6435,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `P1fig:model_emissions' on page 1 undefined on input l
-ine 189.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.197 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `P1fig:model_emissions' on page 76 undefined on input 
-line 198.
-
+<./chap3/images/f01.png, id=1637, 1038.7608pt x 715.473pt>
+File: ./chap3/images/f01.png Graphic file (type png)
+<use ./chap3/images/f01.png>
+Package pdftex.def Info: ./chap3/images/f01.png  used on input line 193.
+(pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
 Package cleveref Info: loaded `english' language definitions on input line 212.
 
 [76]
+Package cleveref Info: loaded `english' language definitions on input line 224.
+
+ [77 <./chap3/images/f01.png>]
 ! Undefined control sequence.
 l.229         \subsubsubsection
                                {Emission configuration in FLEXPART}
@@ -6454,117 +6456,49 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `P1tab:FP_params' on page 1 undefined on input line 23
-1.
+Overfull \hbox (18.84698pt too wide) in paragraph at lines 244--257
+ [][] 
+ []
 
-Package cleveref Info: loaded `english' language definitions on input line 239.
-
-[77]
-Runaway argument?
-{table}[Htb]\caption@settype {table}\caption@setanchor \caption@xfloat@hook \ET
-C.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.258 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Package cleveref Info: loaded `english' language definitions on input line 286.
+Package cleveref Info: loaded `english' language definitions on input line 262.
 
 [78]
+Package cleveref Info: loaded `english' language definitions on input line 289.
 
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 2
-91.
-
+ [79]
 Package cleveref Info: loaded `english' language definitions on input line 323.
 
-[79]
-Package cleveref Info: loaded `english' language definitions on input line 361.
-
  [80]
+Package cleveref Info: loaded `english' language definitions on input line 372.
 
-LaTeX Warning: Reference `P1fig:basic_method' on page 81 undefined on input lin
-e 361.
-
-
-LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
- 365.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.378 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
-79.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
-81.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 3
-95.
-
+ [81]
+<./chap3/images/f02.png, id=1722, 742.6947pt x 457.71pt>
+File: ./chap3/images/f02.png Graphic file (type png)
+<use ./chap3/images/f02.png>
+Package pdftex.def Info: ./chap3/images/f02.png  used on input line 374.
+(pdftex.def)             Requested size: 460.93457pt x 284.06361pt.
 Package cleveref Info: loaded `english' language definitions on input line 398.
 
-[81]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.424 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [82 <./chap3/images/f02.png>]
+Package cleveref Info: loaded `english' language definitions on input line 410.
 
+ [83]
+<./chap3/images/f03.png, id=1748, 1038.7608pt x 715.473pt>
+File: ./chap3/images/f03.png Graphic file (type png)
+<use ./chap3/images/f03.png>
+Package pdftex.def Info: ./chap3/images/f03.png  used on input line 420.
+(pdftex.def)             Requested size: 460.93457pt x 317.4729pt.
+Package cleveref Info: loaded `english' language definitions on input line 443.
 
-LaTeX Warning: Reference `P1fig:improved_method' on page 1 undefined on input l
-ine 425.
-
-
-LaTeX Warning: Reference `P1fig:basic_method' on page 1 undefined on input line
- 430.
-
-Package cleveref Info: loaded `english' language definitions on input line 436.
-
-[82]
-
-LaTeX Warning: Reference `fig:source_INP_moccha' on page 1 undefined on input l
-ine 437.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 83 undefined on input line 
-457.
-
+ [84]
 Package cleveref Info: loaded `english' language definitions on input line 458.
 
-[83]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.464 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [85 <./chap3/images/f03.png>]
+<./chap3/images/f04.png, id=1778, 1115.6079pt x 832.0686pt>
+File: ./chap3/images/f04.png Graphic file (type png)
+<use ./chap3/images/f04.png>
+Package pdftex.def Info: ./chap3/images/f04.png  used on input line 460.
+(pdftex.def)             Requested size: 460.93457pt x 343.77847pt.
 
 ! Undefined control sequence.
 l.467             \hack
@@ -6586,114 +6520,41 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 484.
 
-[84]
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 4
-86.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 4
-87.
-
+[86 <./chap3/images/f04.png>]
 Package cleveref Info: loaded `english' language definitions on input line 506.
 
-[85]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.550 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [87]
+Package cleveref Info: loaded `english' language definitions on input line 537.
 
-
-LaTeX Warning: Reference `P1fig:multi_stations' on page 1 undefined on input li
-ne 551.
-
+ [88]
+<./chap3/images/f05.png, id=1807, 1106.4537pt x 840.9819pt>
+File: ./chap3/images/f05.png Graphic file (type png)
+<use ./chap3/images/f05.png>
+Package pdftex.def Info: ./chap3/images/f05.png  used on input line 546.
+(pdftex.def)             Requested size: 368.74905pt x 280.27101pt.
 Package cleveref Info: loaded `english' language definitions on input line 557.
 
-[86]
+ [89 <./chap3/images/f05.png>]
+<./chap3/images/f06.png, id=1825, 752.0898pt x 457.71pt>
+File: ./chap3/images/f06.png Graphic file (type png)
+<use ./chap3/images/f06.png>
+Package pdftex.def Info: ./chap3/images/f06.png  used on input line 578.
+(pdftex.def)             Requested size: 460.93457pt x 280.52269pt.
+Package cleveref Info: loaded `english' language definitions on input line 600.
 
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-66.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-68.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-70.
+ [90]
+Package cleveref Info: loaded `english' language definitions on input line 608.
 
 
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-71.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-72.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-72.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-73.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 5
-75.
-
-
-LaTeX Warning: Reference `P1fig:model_emissions' on page 1 undefined on input l
-ine 575.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.582 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Package cleveref Info: loaded `english' language definitions on input line 589.
-
-[87]
-
-LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
-24.
-
-
-LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
-27.
-
-
-LaTeX Warning: Reference `P1fig:filter_evo' on page 1 undefined on input line 6
-29.
-
+[91 <./chap3/images/f06.png>]
 Package cleveref Info: loaded `english' language definitions on input line 633.
 
-[88]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.640 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [92]
+<./chap3/images/f07.png, id=1855, 722.7pt x 505.89pt>
+File: ./chap3/images/f07.png Graphic file (type png)
+<use ./chap3/images/f07.png>
+Package pdftex.def Info: ./chap3/images/f07.png  used on input line 636.
+(pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
 
 ! Undefined control sequence.
 l.641 \hack
@@ -6706,163 +6567,80 @@ and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 641.
 
-[89]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.666 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `P1fig:abs' on page 90 undefined on input line 667.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 90 undefined on input line 
-669.
-
+[93 <./chap3/images/f07.png>]
+<./chap3/images/f08.png, id=1867, 734.2632pt x 477.9456pt>
+File: ./chap3/images/f08.png Graphic file (type png)
+<use ./chap3/images/f08.png>
+Package pdftex.def Info: ./chap3/images/f08.png  used on input line 662.
+(pdftex.def)             Requested size: 341.43306pt x 222.2424pt.
 Package cleveref Info: loaded `english' language definitions on input line 683.
 
-[90]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.690 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [94]
+<./chap3/images/f09.png, id=1891, 757.8714pt x 453.1329pt>
+File: ./chap3/images/f09.png Graphic file (type png)
+<use ./chap3/images/f09.png>
+Package pdftex.def Info: ./chap3/images/f09.png  used on input line 686.
+(pdftex.def)             Requested size: 460.93457pt x 275.6017pt.
+Package cleveref Info: loaded `english' language definitions on input line 702.
 
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 691.
-
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 703.
-
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 708.
-
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 708.
-
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 709.
-
-
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 710.
-
-
-LaTeX Warning: Reference `P1fig:comparison' on page 1 undefined on input line 7
-13.
-
+ [95 <./chap3/images/f08.png>]
 Package cleveref Info: loaded `english' language definitions on input line 715.
 
-[91]
+ [96 <./chap3/images/f09.png>]
+Package cleveref Info: loaded `english' language definitions on input line 736.
 
-LaTeX Warning: Reference `P1fig:msa' on page 1 undefined on input line 716.
-
-Package cleveref Info: loaded `english' language definitions on input line 737.
-
-[92]
+ [97]
 Package cleveref Info: loaded `english' language definitions on input line 760.
 
- [93]
+ [98]
 Package cleveref Info: loaded `english' language definitions on input line 788.
 
- [94]
-
-LaTeX Warning: Reference `fig:source_INP_moccha' on page 95 undefined on input 
-line 800.
-
+ [99]
 Package cleveref Info: loaded `english' language definitions on input line 808.
 
-[95]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.815 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ [100]
+<./chap3/images/source_and_series_MOCCHA.png, id=1971, 470.2368pt x 270.7716pt>
 
+File: ./chap3/images/source_and_series_MOCCHA.png Graphic file (type png)
+<use ./chap3/images/source_and_series_MOCCHA.png>
+Package pdftex.def Info: ./chap3/images/source_and_series_MOCCHA.png  used on i
+nput line 811.
+(pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
+Package cleveref Info: loaded `english' language definitions on input line 825.
 
-LaTeX Warning: Reference `fig:source_pbap_moccha' on page 96 undefined on input
- line 822.
-
+ [101 <./chap3/images/source_and_series_MOCCHA.png>]
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 827.
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.837 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+<./chap3/images/source_PBAPs.png, id=1989, 1701.35625pt x 813.0375pt>
+File: ./chap3/images/source_PBAPs.png Graphic file (type png)
+<use ./chap3/images/source_PBAPs.png>
+Package pdftex.def Info: ./chap3/images/source_PBAPs.png  used on input line 83
+3.
+(pdftex.def)             Requested size: 460.93457pt x 220.26741pt.
+Package cleveref Info: loaded `english' language definitions on input line 852.
 
-Package cleveref Info: loaded `english' language definitions on input line 842.
+ [102]
+<./chap3/images/source_and_series_MOSAiC.png, id=2002, 595.7457pt x 704.1507pt>
 
-[96]
+File: ./chap3/images/source_and_series_MOSAiC.png Graphic file (type png)
+<use ./chap3/images/source_and_series_MOSAiC.png>
+Package pdftex.def Info: ./chap3/images/source_and_series_MOSAiC.png  used on i
+nput line 855.
+(pdftex.def)             Requested size: 368.74905pt x 435.85979pt.
+Package cleveref Info: loaded `english' language definitions on input line 868.
 
-LaTeX Warning: Reference `fig:source_MOSAiC' on page 97 undefined on input line
- 846.
+ [103 <./chap3/images/source_PBAPs.png>]
+<./chap3/images/source_and_series_ARTofMELT.png, id=2019, 470.2368pt x 270.7716
+pt>
+File: ./chap3/images/source_and_series_ARTofMELT.png Graphic file (type png)
+<use ./chap3/images/source_and_series_ARTofMELT.png>
+Package pdftex.def Info: ./chap3/images/source_and_series_ARTofMELT.png  used o
+n input line 888.
+(pdftex.def)             Requested size: 460.93457pt x 265.42459pt.
+Package cleveref Info: loaded `english' language definitions on input line 899.
 
-
-LaTeX Warning: Reference `fig:source_MOSAiC' on page 1 undefined on input line 
-848.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.859 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Package cleveref Info: loaded `english' language definitions on input line 872.
-
-[97]
-
-LaTeX Warning: Reference `fig:source_INP_artofmelt' on page 98 undefined on inp
-ut line 881.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.892 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `fig:source_INP_artofmelt' on page 1 undefined on inpu
-t line 896.
-
-
+ [104]
 Overfull \hbox (2.92119pt too wide) in paragraph at lines 900--901
 []\T1/ntxtlf/m/n/12 These re-sults shed new light on the min-eral na-ture of th
 e INPs ob-served dur-ing the ARTofMELT
@@ -6870,7 +6648,13 @@ e INPs ob-served dur-ing the ARTofMELT
 
 Package cleveref Info: loaded `english' language definitions on input line 905.
 
-[98]
+[105]
+Package cleveref Info: loaded `english' language definitions on input line 905.
+
+ [106 <./chap3/images/source_and_series_MOSAIC.png>]
+Package cleveref Info: loaded `english' language definitions on input line 905.
+
+ [107 <./chap3/images/source_and_series_ARTofMELT.png>]
 Package textcomp Info: Symbol \texttwosuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 914.
@@ -6879,112 +6663,61 @@ Package textcomp Info: Symbol \texttwosuperior not provided by
 LaTeX Warning: cref reference format for label type `' undefined on input line 
 914.
 
-
-LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
-920.
-
-
-LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
-921.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.929 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<./chap3/images/Co_concentrations.png, id=2052, 396.5214pt x 259.6902pt>
+File: ./chap3/images/Co_concentrations.png Graphic file (type png)
+<use ./chap3/images/Co_concentrations.png>
+Package pdftex.def Info: ./chap3/images/Co_concentrations.png  used on input li
+ne 925.
+(pdftex.def)             Requested size: 460.93457pt x 301.89067pt.
 Package cleveref Info: loaded `english' language definitions on input line 937.
 
-[99]
+[108
 
-LaTeX Warning: Reference `fig:compo_ratio_fire_altitude' on page 1 undefined on
- input line 947.
+]
+Package cleveref Info: loaded `english' language definitions on input line 955.
 
-
-LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
-951.
-
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.962 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `fig:multiloc_fire_season' on page 1 undefined on inpu
-t line 967.
-
+ [109 <./chap3/images/CO_concentrations.png>]
+<./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png, id=2072, 6020.4
+925pt x 2861.69125pt>
+File: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png Graphic fil
+e (type png)
+<use ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>
+Package pdftex.def Info: ./chap3/images/Compo_ratio_allAlts_fire_season_2018_Pa
+ris.png  used on input line 958.
+(pdftex.def)             Requested size: 460.93457pt x 219.0715pt.
 
 Overfull \hbox (1.36424pt too wide) in paragraph at lines 965--968
 \T1/ntxtlf/m/n/12 In or-der to get a more com-plete source de-tec-tion, we can 
 ap-ply the sug-ges-tion made in [][]Sect. III.2.3.5[][]
  []
 
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.975 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `fig:compo_ratio_fire_altitude' on page 1 undefined on
- input line 978.
-
-
-LaTeX Warning: Reference `fig:co_paris_2018' on page 1 undefined on input line 
-979.
-
+<./chap3/images/multiloc_fire_season.png, id=2075, 395.5578pt x 246.6816pt>
+File: ./chap3/images/multiloc_fire_season.png Graphic file (type png)
+<use ./chap3/images/multiloc_fire_season.png>
+Package pdftex.def Info: ./chap3/images/multiloc_fire_season.png  used on input
+ line 971.
+(pdftex.def)             Requested size: 460.93457pt x 287.46826pt.
 Package cleveref Info: loaded `english' language definitions on input line 981.
 
-[100]
+[110 <./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png>]
 Package textcomp Info: Symbol \textthreesuperior not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 1006.
-
-
-LaTeX Warning: Reference `fig:stat_origin_clouds' on page 101 undefined on inpu
-t line 1020.
-
-Package cleveref Info: loaded `english' language definitions on input line 1027
+Package cleveref Info: loaded `english' language definitions on input line 1012
 .
-[101]
-Runaway argument?
-{figure}[Htb]\caption@settype {figure}\caption@setanchor \caption@xfloat@hook \
-ETC.
-! Paragraph ended before \@float@HH was complete.
-<to be read again> 
-                   \par 
-l.1037 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `P1fig:Tiksi_case' on page 1 undefined on input line 1
-046.
-
+ [111 <./chap3/images/multiloc_fire_season.png>]
+<./chap3/images/violin_plot_allCampaigns.png, id=2095, 722.7pt x 433.62pt>
+File: ./chap3/images/violin_plot_allCampaigns.png Graphic file (type png)
+<use ./chap3/images/violin_plot_allCampaigns.png>
+Package pdftex.def Info: ./chap3/images/violin_plot_allCampaigns.png  used on i
+nput line 1033.
+(pdftex.def)             Requested size: 368.74905pt x 221.24913pt.
+Package cleveref Info: loaded `english' language definitions on input line 1040
+.
+ [112]
 Package cleveref Info: loaded `english' language definitions on input line 1055
 .
-[102]
+ [113 <./chap3/images/violin_plot_allCampaigns.png>]
 
 ! LaTeX Error: No counter 'counterboxspe' defined.
 
@@ -6998,11 +6731,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package cleveref Info: loaded `english' language definitions on input line 1073
-.
-[103])
+)
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [104]
+ [114]
 \openout2 = `chap4/chap4_main.aux'.
 
  (./chap4/chap4_main.tex
@@ -7017,7 +6748,7 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 4--4
 | [] []
  []
 
-[105
+[115
 
 
 
@@ -7026,14 +6757,14 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 4--4
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 25.
- [106]
+ [116]
 Package cleveref Info: loaded `english' language definitions on input line 62.
- [107]
+ [117]
 Package cleveref Info: loaded `english' language definitions on input line 96.
- [108]
+ [118]
 Package cleveref Info: loaded `english' language definitions on input line 118.
 
- [109]
+ [119]
 Overfull \hbox (210.94394pt too wide) in paragraph at lines 120--124
 \OMS/lmsy/m/n/12 ^^B$ \T1/ntxtlf/m/n/12 240 cells of $\OT1/lmr/m/n/12 50$$[][] 
 \OMS/lmsy/m/n/12 ^^A [][]$\T1/ntxtlf/m/n/12 .
@@ -7110,11 +6841,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
 Package cleveref Info: loaded `english' language definitions on input line 164.
 
-[110]
+[120]
 Package cleveref Info: loaded `english' language definitions on input line 184.
 
- [111]
-<./chap4/images/Emission_maps_august.v16.png, id=2143, 1805.74625pt x 1507.6325
+ [121]
+<./chap4/images/Emission_maps_august.v16.png, id=2295, 1805.74625pt x 1507.6325
 pt>
 File: ./chap4/images/Emission_maps_august.v16.png Graphic file (type png)
 <use ./chap4/images/Emission_maps_august.v16.png>
@@ -7127,13 +6858,13 @@ Package caption Warning: \label without proper reference on input line 205.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 112 undefined on input 
+LaTeX Warning: Reference `fig:obs_INP_spectrum' on page 122 undefined on input 
 line 199.
 
 Package cleveref Info: loaded `english' language definitions on input line 201.
 
-[112 <./chap4/images/Emission_maps_august.v16.png>]
-<./chap4/images/INP_spectra.png, id=2158, 1095.6132pt x 467.5869pt>
+[122 <./chap4/images/Emission_maps_august.v16.png>]
+<./chap4/images/INP_spectra.png, id=2310, 1095.6132pt x 467.5869pt>
 File: ./chap4/images/INP_spectra.png Graphic file (type png)
 <use ./chap4/images/INP_spectra.png>
 Package pdftex.def Info: ./chap4/images/INP_spectra.png  used on input line 206
@@ -7141,7 +6872,7 @@ Package pdftex.def Info: ./chap4/images/INP_spectra.png  used on input line 206
 (pdftex.def)             Requested size: 460.93457pt x 196.72049pt.
 Package cleveref Info: loaded `english' language definitions on input line 222.
 
- [113 <./chap4/images/INP_spectra.png>]
+ [123 <./chap4/images/INP_spectra.png>]
 
 ! Package siunitx Error: Found power part with no unit.
 
@@ -7178,14 +6909,14 @@ Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             Default family used instead on input line 256.
 Package cleveref Info: loaded `english' language definitions on input line 287.
 
-[114]
+[124]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 320.
 Package cleveref Info: loaded `english' language definitions on input line 329.
 
- [115]
-<./chap4/images/activation_fractions.png, id=2219, 1170.0513pt x 421.3341pt>
+ [125]
+<./chap4/images/activation_fractions.png, id=2370, 1170.0513pt x 421.3341pt>
 File: ./chap4/images/activation_fractions.png Graphic file (type png)
 <use ./chap4/images/activation_fractions.png>
 Package pdftex.def Info: ./chap4/images/activation_fractions.png  used on input
@@ -7197,19 +6928,19 @@ Package caption Warning: \label without proper reference on input line 353.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:param_emiss_inp' on page 116 undefined on input l
+LaTeX Warning: Reference `tab:param_emiss_inp' on page 126 undefined on input l
 ine 350.
 
 Package cleveref Info: loaded `english' language definitions on input line 351.
 
-[116 <./chap4/images/activation_fractions.png>]
+[126 <./chap4/images/activation_fractions.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 358--359
 []|\T1/ntxtlf/m/n/12 Ice nu-cle-ation
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 403.
 
-[117]
+[127]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 408.
@@ -7230,8 +6961,8 @@ Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             Default family used instead on input line 419.
 Package cleveref Info: loaded `english' language definitions on input line 422.
 
- [118]
-<./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png, id=2249, 462.528pt x 
+ [128]
+<./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png, id=2401, 462.528pt x 
 416.0343pt>
 File: ./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png Graphic file (typ
 e png)
@@ -7241,8 +6972,8 @@ g  used on input line 428.
 (pdftex.def)             Requested size: 368.74905pt x 331.6979pt.
 Package cleveref Info: loaded `english' language definitions on input line 443.
 
- [119 <./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png>]
-<./chap4/images/icenuc_params_152025.png, id=2263, 4722.64375pt x 1953.2975pt>
+ [129 <./chap4/images/WRFChem_MOCCHA_aer_comparison_3hmean.png>]
+<./chap4/images/icenuc_params_152025.png, id=2415, 4722.64375pt x 1953.2975pt>
 File: ./chap4/images/icenuc_params_152025.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_152025.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_152025.png  used on input
@@ -7259,14 +6990,14 @@ line 467.
 
 Package cleveref Info: loaded `english' language definitions on input line 468.
 
-[120]
+[130]
 Package cleveref Info: loaded `english' language definitions on input line 468.
 
- [121 <./chap4/images/icenuc_params_152025.png>]
+ [131 <./chap4/images/icenuc_params_152025.png>]
 Package cleveref Info: loaded `english' language definitions on input line 488.
 
- [122]
-<./chap4/images/INP_tracers_2campaigns.png, id=2290, 1199.4411pt x 612.1269pt>
+ [132]
+<./chap4/images/INP_tracers_2campaigns.png, id=2442, 1199.4411pt x 612.1269pt>
 File: ./chap4/images/INP_tracers_2campaigns.png Graphic file (type png)
 <use ./chap4/images/INP_tracers_2campaigns.png>
 Package pdftex.def Info: ./chap4/images/INP_tracers_2campaigns.png  used on inp
@@ -7274,8 +7005,8 @@ ut line 519.
 (pdftex.def)             Requested size: 674.33032pt x 344.13373pt.
 Package cleveref Info: loaded `english' language definitions on input line 522.
 
- [123]
-<./chap4/images/INP_maps_moccha.png, id=2301, 1136.8071pt x 569.7285pt>
+ [133]
+<./chap4/images/INP_maps_moccha.png, id=2453, 1136.8071pt x 569.7285pt>
 File: ./chap4/images/INP_maps_moccha.png Graphic file (type png)
 <use ./chap4/images/INP_maps_moccha.png>
 Package pdftex.def Info: ./chap4/images/INP_maps_moccha.png  used on input line
@@ -7283,18 +7014,18 @@ Package pdftex.def Info: ./chap4/images/INP_maps_moccha.png  used on input line
 (pdftex.def)             Requested size: 460.93457pt x 231.00827pt.
 Package cleveref Info: loaded `english' language definitions on input line 558.
 
- [124]
+ [134]
 Package cleveref Info: loaded `english' language definitions on input line 558.
 
 
-[125 <./chap4/images/INP_tracers_2campaigns.png>]
+[135 <./chap4/images/INP_tracers_2campaigns.png>]
 Package cleveref Info: loaded `english' language definitions on input line 570.
 
- [126 <./chap4/images/INP_maps_moccha.png>]
+ [136 <./chap4/images/INP_maps_moccha.png>]
 Package cleveref Info: loaded `english' language definitions on input line 591.
 
- [127]
-<./chap4/images/icenuc_params_organics.png, id=2340, 722.7pt x 578.16pt>
+ [137]
+<./chap4/images/icenuc_params_organics.png, id=2491, 722.7pt x 578.16pt>
 File: ./chap4/images/icenuc_params_organics.png Graphic file (type png)
 <use ./chap4/images/icenuc_params_organics.png>
 Package pdftex.def Info: ./chap4/images/icenuc_params_organics.png  used on inp
@@ -7302,10 +7033,10 @@ ut line 594.
 (pdftex.def)             Requested size: 460.93457pt x 368.75076pt.
 Package cleveref Info: loaded `english' language definitions on input line 607.
 
- [128 <./chap4/images/icenuc_params_organics.png>]
+ [138 <./chap4/images/icenuc_params_organics.png>]
 Package cleveref Info: loaded `english' language definitions on input line 636.
 
- [129]
+ [139]
 
 ! LaTeX Error: No counter 'counterboxspe' defined.
 
@@ -7321,9 +7052,9 @@ or  <return>  to continue without it.
 
 Package cleveref Info: loaded `english' language definitions on input line 662.
 
-[130])
+[140])
 Package cleveref Info: loaded `english' language definitions on input line 63.
- [131]
+ [141]
 \openout2 = `chap5/chap5_main.aux'.
 
  (./chap5/chap5_main.tex
@@ -7334,67 +7065,152 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 4--4
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 13.
-[132
+[142
 
 
 
 
 ] (./main.ptc
 Package cleveref Info: loaded `english' language definitions on input line 1.
-) [133]
+) [143]
 Package cleveref Info: loaded `english' language definitions on input line 52.
- [134]
+ [144]
 Package cleveref Info: loaded `english' language definitions on input line 102.
 
- [135]
+ [145]
 Package cleveref Info: loaded `english' language definitions on input line 127.
 
- [136]
+ [146]
+<./chap5/images/temperature_C86_INPtracers.png, id=2591, 4155.525pt x 1053.9375
+pt>
+File: ./chap5/images/temperature_C86_INPtracers.png Graphic file (type png)
+<use ./chap5/images/temperature_C86_INPtracers.png>
+Package pdftex.def Info: ./chap5/images/temperature_C86_INPtracers.png  used on
+ input line 161.
+(pdftex.def)             Requested size: 460.93457pt x 116.89839pt.
+Package cleveref Info: loaded `english' language definitions on input line 170.
 
-LaTeX Warning: Reference `fig:modelled_cloud_comparison' on page 1 undefined on
- input line 153.
+ [147 <./chap5/images/temperature_C86_INPtracers.png>]
 
+LaTeX Warning: Citation 'heymsfield_improved_2010' on page 148 undefined on inp
+ut line 200.
 
-LaTeX Warning: Reference `fig:source_INP_artofmelt' on page 1 undefined on inpu
-t line 165.
+Package cleveref Info: loaded `english' language definitions on input line 201.
 
-Package cleveref Info: loaded `english' language definitions on input line 175.
+[148]
 
-[137]
-
-LaTeX Warning: Reference `fig:modelled_cloud_comparison' on page 1 undefined on
- input line 176.
-
-
-LaTeX Warning: Reference `fig:modelled_cloud_comparison' on page 1 undefined on
- input line 178.
-
-
-LaTeX Warning: Citation 'heymsfield_improved_2010' on page 138 undefined on inp
-ut line 184.
+LaTeX Warning: File `./chap5/images/.png' not found on input line 209.
 
 
-LaTeX Warning: File `./chap4/images/.png' not found on input line 193.
-
-
-! Package pdftex.def Error: File `./chap4/images/.png' not found: using draft s
+! Package pdftex.def Error: File `./chap5/images/.png' not found: using draft s
 etting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193 ...s[width=1\textwidth]{./chap4/images/.png}
+l.209 ...s[width=1\textwidth]{./chap5/images/.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Package cleveref Info: loaded `english' language definitions on input line 214.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package textcomp Info: Symbol \textminus not provided by
+(textcomp)             font family ntxtlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 254.
+Package cleveref Info: loaded `english' language definitions on input line 255.
 
-[138]
-Package cleveref Info: loaded `english' language definitions on input line 214.
+[149]
+<./chap5/images/Arctic_map_profiles.png, id=2618, 597.432pt x 845.0772pt>
+File: ./chap5/images/Arctic_map_profiles.png Graphic file (type png)
+<use ./chap5/images/Arctic_map_profiles.png>
+Package pdftex.def Info: ./chap5/images/Arctic_map_profiles.png  used on input 
+line 259.
+(pdftex.def)             Requested size: 460.93457pt x 652.01384pt.
 
- [139]
+
+LaTeX Warning: Float too large for page by 14.88351pt on input line 261.
+
+Package cleveref Info: loaded `english' language definitions on input line 267.
+
+[150]
+Package cleveref Info: loaded `english' language definitions on input line 267.
+
+ [151 <./chap5/images/Arctic_map_profiles.png>]
 
 ! LaTeX Error: No counter 'counterboxspe' defined.
 
@@ -7402,7 +7218,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.246     }
+l.287     }
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7410,7 +7226,7 @@ or  <return>  to continue without it.
 
 )
 Package cleveref Info: loaded `english' language definitions on input line 64.
- [140]
+ [152]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
@@ -7439,7 +7255,7 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
 | [] []
  []
 
-[141
+[153
 
 
 
@@ -7448,20 +7264,20 @@ Overfull \hbox (3.59985pt too wide) in paragraph at lines 5--5
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 Package cleveref Info: loaded `english' language definitions on input line 28.
- [142]
+ [154]
 Package cleveref Info: loaded `english' language definitions on input line 60.
- [143]
+ [155]
 Package cleveref Info: loaded `english' language definitions on input line 90.
- [144]
+ [156]
 Package cleveref Info: loaded `english' language definitions on input line 107.
 
- [145]
+ [157]
 
-LaTeX Warning: Marginpar on page 146 moved.
+LaTeX Warning: Marginpar on page 158 moved.
 
 Package cleveref Info: loaded `english' language definitions on input line 149.
 
-[146]
+[158]
 Underfull \hbox (badness 1881) in paragraph at lines 156--156
 [][][]\T1/ntxtlf/m/n/10 More in-for-ma-tion about the project can be found on t
 he Tara foun-da-tion web-site: [][]$\T1/aett/m/n/10 https : / /
@@ -7469,13 +7285,13 @@ he Tara foun-da-tion web-site: [][]$\T1/aett/m/n/10 https : / /
 
 Package cleveref Info: loaded `english' language definitions on input line 178.
 
-[147])
+[159])
 Package cleveref Info: loaded `english' language definitions on input line 65.
- [148]
+ [160]
 \openout2 = `chap3/supplement_chap3.aux'.
 
  (./chap3/supplement_chap3.tex
-<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2558, 719.0865pt 
+<./chap3/images/FigureS01_ratio_standard_all_stations.png, id=2731, 719.0865pt 
 x 397.485pt>
 File: ./chap3/images/FigureS01_ratio_standard_all_stations.png Graphic file (ty
 pe png)
@@ -7483,7 +7299,7 @@ pe png)
 Package pdftex.def Info: ./chap3/images/FigureS01_ratio_standard_all_stations.p
 ng  used on input line 9.
 (pdftex.def)             Requested size: 460.93457pt x 254.78983pt.
-<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2559, 1027.1976pt x 
+<./chap3/images/FigureS02_ratio_compo_all_stations.png, id=2732, 1027.1976pt x 
 576.2328pt>
 File: ./chap3/images/FigureS02_ratio_compo_all_stations.png Graphic file (type 
 png)
@@ -7491,7 +7307,7 @@ png)
 Package pdftex.def Info: ./chap3/images/FigureS02_ratio_compo_all_stations.png 
  used on input line 16.
 (pdftex.def)             Requested size: 674.33032pt x 378.28372pt.
-<./chap3/images/FigureS03_ratio_perf_combin.png, id=2562, 1189.8051pt x 625.376
+<./chap3/images/FigureS03_ratio_perf_combin.png, id=2735, 1189.8051pt x 625.376
 4pt>
 File: ./chap3/images/FigureS03_ratio_perf_combin.png Graphic file (type png)
 <use ./chap3/images/FigureS03_ratio_perf_combin.png>
@@ -7500,28 +7316,25 @@ n input line 23.
 (pdftex.def)             Requested size: 674.33032pt x 354.44524pt.
 )
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [149
+ [161
 
 
 
 
  <./chap3/images/FigureS01_ratio_standard_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [150 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
+ [162 <./chap3/images/FigureS02_ratio_compo_all_stations.png>]
 Package cleveref Info: loaded `english' language definitions on input line 73.
- [151 <./chap3/images/FigureS03_ratio_perf_combin.png>]
+ [163 <./chap3/images/FigureS03_ratio_perf_combin.png>]
 \openout2 = `annexes/future_of_research.aux'.
 
 
 (./annexes/future_of_research.tex
-! Extra }, or forgotten \endgroup.
+! Too many }'s.
 l.4 ...l warming (\cref{sec:anthropo_disturbance}}
                                                   ), and more precisely, adr...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 ! Missing number, treated as zero.
 <to be read again> 
@@ -7542,7 +7355,7 @@ A number should have been here; I inserted `0'.
 look up `weird error' in the index to The TeXbook.)
 
 Package cleveref Info: loaded `english' language definitions on input line 33.
-[152
+[164
 
 
 
@@ -7552,21 +7365,21 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 45.
 )
 Package cleveref Info: loaded `english' language definitions on input line 74.
- [153]
+ [165]
 \openout2 = `annexes/MT180.aux'.
 
  (./annexes/MT180.tex
 Package cleveref Info: loaded `english' language definitions on input line 31.
- [154
+ [166
 
 
 
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 68.
- [155])
+ [167])
 Package cleveref Info: loaded `english' language definitions on input line 75.
- [156]
+ [168]
 \openout2 = `annexes/environmental_footprint.aux'.
 
 
@@ -7576,7 +7389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 37.
-[157
+[169
 
 
 
@@ -7653,8 +7466,8 @@ following unit was given.
 
 
 Package cleveref Info: loaded `english' language definitions on input line 86.
-[158]
-<./chap4/images/carbon_footprint.png, id=2635, 617.30624pt x 570.13pt>
+[170]
+<./chap4/images/carbon_footprint.png, id=2805, 617.30624pt x 570.13pt>
 File: ./chap4/images/carbon_footprint.png Graphic file (type png)
 <use ./chap4/images/carbon_footprint.png>
 Package pdftex.def Info: ./chap4/images/carbon_footprint.png  used on input lin
@@ -7662,12 +7475,12 @@ e 98.
 (pdftex.def)             Requested size: 230.46729pt x 212.84998pt.
 Package cleveref Info: loaded `english' language definitions on input line 113.
 
- [159 <./chap4/images/carbon_footprint.png>])
+ [171 <./chap4/images/carbon_footprint.png>])
 Package cleveref Info: loaded `english' language definitions on input line 76.
- [160] (./main.lof
+ [172] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
-Package cleveref Info: loaded `english' language definitions on input line 39.
- [161
+Package cleveref Info: loaded `english' language definitions on input line 37.
+ [173
 
 
 
@@ -7686,7 +7499,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 83.
-[162] (./main.lot
+[174]
+Package cleveref Info: loaded `english' language definitions on input line 83.
+ [175] (./main.lot
 Package cleveref Info: loaded `english' language definitions on input line 1.
 )
 \tf@lot=\write8
@@ -7703,17 +7518,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[163
+[176
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [164
+ [177
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [165]
+ [178]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -7721,7 +7536,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [166]
+ [179]
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 94.
@@ -7729,34 +7544,34 @@ Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 94.
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [167]
+ [180]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [168]
+ [181]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [169]
+ [182]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [170]
+ [183]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [171]
+ [184]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [172]
+ [185]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [173]
+ [186]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [174]
+ [187]
 Package cleveref Info: loaded `english' language definitions on input line 94.
 
-[175]
+[188]
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/it' undefined
 (Font)              using `LGR/ntxtlf/m/n' instead on input line 94.
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[176]
+[189]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [177]
+ [190]
 Package cleveref Info: loaded `english' language definitions on input line 94.
- [178]
+ [191]
 
 ! LaTeX Error: Unicode character âˆ’ (U+2212)
                not set up for use with LaTeX.
@@ -7771,15 +7586,12 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 Package cleveref Info: loaded `english' language definitions on input line 94.
-[179]
+[192]
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
 
 Package cleveref Info: loaded `english' language definitions on input line 99.
- [180] [181
-
-
-]
+ [193]
 ! Undefined control sequence.
 \pslfontenv ->\pslfont 
                        
@@ -7801,20 +7613,10 @@ Overfull \hbox (1.42416pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
+[194
 
-! LaTeX Error: \begin{figure} on input line 1031 ended by \end{document}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[182] (./main.aux
+] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 87.
  (./others/avantpropos.aux) (./others/remerciements.aux)
 (./others/contrib_commu.aux) (./others/resume_francais.aux)
@@ -7841,99 +7643,53 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- )
-(\end occurred inside a group at level 18)
-
-### semi simple group (level 18) entered at line 1031 (\begingroup)
-### semi simple group (level 17) entered at line 969 (\begingroup)
-### semi simple group (level 16) entered at line 956 (\begingroup)
-### semi simple group (level 15) entered at line 923 (\begingroup)
-### semi simple group (level 14) entered at line 886 (\begingroup)
-### semi simple group (level 13) entered at line 853 (\begingroup)
-### semi simple group (level 12) entered at line 831 (\begingroup)
-### semi simple group (level 11) entered at line 809 (\begingroup)
-### semi simple group (level 10) entered at line 684 (\begingroup)
-### semi simple group (level 9) entered at line 660 (\begingroup)
-### semi simple group (level 8) entered at line 634 (\begingroup)
-### semi simple group (level 7) entered at line 577 (\begingroup)
-### semi simple group (level 6) entered at line 544 (\begingroup)
-### semi simple group (level 5) entered at line 459 (\begingroup)
-### semi simple group (level 4) entered at line 419 (\begingroup)
-### semi simple group (level 3) entered at line 373 (\begingroup)
-### semi simple group (level 2) entered at line 241 (\begingroup)
-### semi simple group (level 1) entered at line 192 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 66855 strings out of 475189
- 1387141 string characters out of 5763838
- 2825542 words of memory out of 5000000
- 86156 multiletter control sequences out of 15000+600000
+ 67011 strings out of 475189
+ 1392631 string characters out of 5763838
+ 2828133 words of memory out of 5000000
+ 86287 multiletter control sequences out of 15000+600000
  728805 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,18n,120p,4167b,5828s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.caption.69} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.70} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.63} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.71} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.66} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texm
-f-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fon
-ts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
-mmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
-mr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
-/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/zt
-mri.pfb>
-Output written on main.pdf (207 pages, 58269384 bytes).
+ 102i,18n,120p,4167b,3198s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
+/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm
+/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/20
+23/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm
+/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/20
+23/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/local/texlive/
+2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
+ic/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/
+ztmri.pfb>
+Output written on main.pdf (219 pages, 79494443 bytes).
 PDF statistics:
- 4156 PDF objects out of 4296 (max. 8388607)
- 3706 compressed objects within 38 object streams
- 796 named destinations out of 1000 (max. 500000)
- 1238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4363 PDF objects out of 5155 (max. 8388607)
+ 3855 compressed objects within 39 object streams
+ 821 named destinations out of 1000 (max. 500000)
+ 1317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

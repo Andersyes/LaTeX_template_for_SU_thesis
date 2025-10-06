@@ -129,7 +129,7 @@ This chapter aims to help address to the three scientific questions raised in \c
             The WRF version used for this study is 4.3.1.
            The details of the options used for the simulations are described in \cref{tab:wrf_set-up}.
 
-           % \begin{table}[Htb]
+           % \begin{table}[htb]
            % \hack{\hsize\textwidth}
            %     \caption{WRF model set-up.}
            %     \label{P1TableA1}
@@ -189,7 +189,7 @@ This chapter aims to help address to the three scientific questions raised in \c
             The five stations were chosen for their distribution around the Arctic basin (\cref{P1fig:model_emissions}e). This distribution sets the conditions for assessing the spatial sensitivity of the method in this region.
             Furthermore, many INP measurement campaigns are conducted at these stations (e.g., the Ny-Ålesund Aerosol Cloud Experiment, NASCENT \citep{pasquier_ny-alesund_2022}). %XXLM could remove this sentence
 
-            \begin{figure}[Htb]
+            \begin{figure}[htb]
                 \includegraphics[width=1\textwidth]{./chap3/images/f01.png}
                 \caption[Overview of the tracer emissions in WRF-Chem and concentration series reconstructions.]{Overview of the tracer emissions in WRF-Chem and concentration series reconstructions. Regions of emissions of sea ice \textbf{(a)}, open ocean \textbf{(b)}, and continental \textbf{(c)} tracers. \textbf{(d)} Example of reconstructed series of daily concentrations interpolated at Ny-Ålesund. \textbf{(e)} Map of the Arctic with the locations of the five studied stations. Base map from Cartopy {\copyright}~British Crown copyright 2016.}
                 \label{P1fig:model_emissions}
@@ -238,7 +238,7 @@ This chapter aims to help address to the three scientific questions raised in \c
             For the experiment depicted in \cref{P1sec:experiment}, we set an exponential decay similar to that of the WRF-Chem tracers used to construct the concentration time series.
 
 %t2
-        \begin{table}[Htb]
+        \begin{table}[htb]
             \centering
             \caption{Emission parameters for FLEXPART-WRF.}
             \begin{tabular}{l|l}
@@ -370,7 +370,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         Even though there is some signal overflow over the North Pacific and Baffin Bay and a small amount over the Arctic Ocean, the quantification metric (defined in \cref{P1sec:evaluation_metric}) gives, in this case, a score of 2.
         This means that the continental source is correctly detected.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \includegraphics[width=1\textwidth]{./chap3/images/f02.png}
             \caption[Application of the ratio method as it is depicted in \cref{P1sec:ratio_method}.]{Application of the ratio method as it is depicted in \cref{P1sec:ratio_method}. Panel \textbf{(a)} shows the reconstructed daily concentration series of the continental tracer interpolated at Ny-Ålesund over the 2 years of simulation. Panel \textbf{(b)} shows the climatology of the total air mass origins; panel \textbf{(c)} shows the climatology of the origins of air masses that brought the \perc{10} highest concentrations; and panel \textbf{(d)} shows the ratio of \textbf{(c)} to \textbf{(b)}, noted as $R_\text{h}^{10}$.}
             \label{P1fig:basic_method}
@@ -416,7 +416,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         It is worth noting that applying a filter to FPES or PES values is, on average, equivalent to setting a threshold for the number of trajectories passing through a grid cell.
         In this manner, we remove the majority of FPES values which are less statistically significant.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \includegraphics[width=1\textwidth]{./chap3/images/f03.png}
             \caption[Application of the improved ratio method.]{Application of the improved ratio method. Similarly to \cref{P1fig:basic_method}, \textbf{(a)} shows the reconstructed daily concentration series of the continental tracer interpolated at Ny-Ålesund with the comparison of the standard sorting (top) and the seasonal sorting (bottom). Panel \textbf{(b)} is the climatology of the total air mass origins; \textbf{(c)} is the climatology of the origins of air masses that brought the \perc{10} highest concentrations; and \textbf{(d)} is the ratio of \textbf{(c)} to \textbf{(b)}, noted as $R_\text{h}^{10}$. In \textbf{(b)} and \textbf{(c)}, the \perc{2} lowest FPES values have been removed, as explained in \cref{P1sec:improved_method}.}
             \label{P1fig:improved_method}
@@ -456,7 +456,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         The success levels allow for an easy comparison between the different ways the method is applied.
         Therefore, we can compare the performances of the standard method -- as if we were to apply the ratio method described in \cref{P1sec:ratio_method} straightforwardly -- with the results of the improved method presented above. Figure \ref{P1fig:comparison} illustrates these results, and \cref{P1tab:results_comparis} resumes it.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
                 \includegraphics[width=1\textwidth]{./chap3/images/f04.png}
                 \caption[Comparison of the results obtained with the standard ratio method and with the improved ratio method.]{Comparison of the results obtained with the standard ratio method \textbf{(a)} and with the improved ratio method \textbf{(b)}. Every panel presents the detection results for a specific tracer and for the five stations. The bars represent the contributions of each surface type to the detection (light blue for sea ice, blue for open ocean, green for continent). For every pair of tracer and station, the level of success is shown above the corresponding bars.}
                 \label{P1fig:comparison}
@@ -541,7 +541,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         $S_{\text{h}}$ and $S_{\text{l}}$ are computed as the sum of the corresponding ratios of every station. In the same way, the total climatology of the FPES plumes $S_{\text{t}}$ is now the sum of the PES plumes of the five stations.
         The ratios $R_{\text{h}}$ and $R_{\text{l}}$ are then calculated with \crefrange{P1eq:ratio_high}{P1eq:ratio_low}.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=0.8\textwidth]{./chap3/images/f05.png}
             \caption[Results of the combination of the five stations in the application of the improved ratio method.]{Results of the combination of the five stations. Panel \textbf{(a)} shows the fraction of the contribution of every surface type for the three tracers and the associated success level. Panels \textbf{(b)}, \textbf{(c)}, and \textbf{(d)} are the composite ratio maps for the sea ice tracer, the open ocean tracer, and the continental tracer, respectively.}
@@ -574,7 +574,7 @@ This chapter aims to help address to the three scientific questions raised in \c
     Let us mention that weighting the FPES plumes with the particle concentrations has also been tested, and this did perform similarly to the climatology of the highest observed concentrations.
     Ultimately, only the improved ratio method provides a clear map of the actual origins of the tracer (\cref{P1fig:Tiksi_case}d compared to \cref{P1fig:model_emissions}a) and enables unequivocal quantification of it.
 
-    \begin{figure}[Htb]
+    \begin{figure}[htb]
                 \includegraphics[width=1\textwidth]{./chap3/images/f06.png}
                 \caption[Comparison by three different methods for the identification of the origin of the sea-ice tracer at Tiski station.]{Identification of the origin of the sea-ice tracer at Tiski station by three different methods. Panels \textbf{(a)} and \textbf{(b)} are the climatologies of, respectively, the total FPES value and the values associated with the \perc{10} highest observations ($S_\text{h}^{10}$). Panels \textbf{(c)} and \textbf{(d)} are the ratio maps of the two versions of the ratio method ($R_\text{h}^{10}$ for, respectively, the standard and improved versions). Panel \textbf{(e)} is the quantification of the detection results for the climatology associated with the highest observation and for both versions of the ratio method.}
                 \label{P1fig:Tiksi_case}
@@ -631,7 +631,7 @@ This chapter aims to help address to the three scientific questions raised in \c
         Although the scores for sea ice and continent tracers reverse with a \perc{3} filter, this does not affect the total score, making it preferable to maintain the lowest possible filtering threshold.
         Consequently, for the Arctic domain studied in this paper, we recommend using a \perc{2} filtering threshold.
 
-    \begin{figure}[Htb]
+    \begin{figure}[htb]
         \centering
             \includegraphics[width=13cm]{./chap3/images/f07.png}
             \caption[Evolution of the success level sum for different levels of low FPES filtering.]{Evolution of the success level sum for different levels of low FPES filtering. In \textbf{(a)}, the sum is performed based on the scores of the five studied stations (Alert, Ny-Ålesund, Tiksi, Utqiaġvik, Villum) independently for the three tracers (sea ice, open ocean, continent). The total success level is shown as a black line. Panel \textbf{(b)} takes only the success levels superior or equal to 2 and sets them to 1. Dashed lines represent the theoretical maxima of the individual tracer scores (gray) and of the total score (black).}
@@ -657,7 +657,7 @@ This chapter aims to help address to the three scientific questions raised in \c
     Consequently, we consider the aerosol absorption coefficient to be a marker of BC.
     BC is a great candidate for a first application of the method because its sources are relatively well known. A total of \perc{90} of the BC emissions are produced by continental sources, mainly biomass burning and incomplete combustion of fossil fuels from traffic and industrial activities \citep{bond_bounding_2013}.
 
-    \begin{figure}[Htb]
+    \begin{figure}[htb]
         \centering
             \includegraphics[width=12cm]{./chap3/images/f08.png}
             \caption[Results of the improved ratio method when applied to a data series of absorption coefficients measured at the Zeppelin Observatory (Ny-Ålesund, Svalbard).]{Results of the improved ratio method when applied to a data series of absorption coefficients measured at the Zeppelin Observatory (Ny-Ålesund, Svalbard). Panel \textbf{(a)} is the ratio of the improved method that highlights the likely regions of origin. Panel \textbf{(b)} is the quantification of the surface type contributions to the three sources (sea ice, open ocean, continent).}
@@ -681,7 +681,7 @@ This chapter aims to help address to the three scientific questions raised in \c
     However, data are missing between July and August due to an instrument failure \citep{siegel_arctic_2023}.
     Similarly to the BC measurements (\cref{P1sec:black_carbon}), the MSA measurements have been done at Zeppelin Observatory.
 
-    \begin{figure}[Htb]
+    \begin{figure}[htb]
         \centering
             \includegraphics[width=1\textwidth]{./chap3/images/f09.png}
             \caption[Results of the improved ratio method when applied to the data series of methanesulfonic acid (MSA) measured at Zeppelin Observatory.]{Results of the improved ratio method when applied to the data series of methanesulfonic acid (MSA) measured at Zeppelin Observatory. Panel \textbf{(a)} is the measurement series of MSA over 2020. The points corresponding to the \perc{10} strongest anomalies are represented in orange (high anomaly) and light-blue (low anomaly) squares. Panels \textbf{(b)} and \textbf{(c)} show the results for the complete series of measurements (January to December~2020). Panels \textbf{(d)} and \textbf{(e)} show the results for a period of continuous measurements of the dataset (April to early July).}
@@ -806,7 +806,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         The regions of strong signal near the Russian coasts are also recognised as potential sources of aerosols particles. On one hand, the ocean side is characterised by high phytoplankton activity during summer \citep{kojoj_arctic_2024}. On the other hand, the continental side presents erodible terrains which can be sources of dust particles \citep{groot_zwaaftink_substantial_2016, meinander_newly_2022}.
         In \cref{chap4}, while modelling high latitude emissions, we see the importance of Siberian coast for dust emissions.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/source_and_series_MOCCHA.png}
             \caption[Identification of the source origins of the INPs active at \SI{-20}{\degreeCelsius} and observed during the MOCCHA campaign.]{Identification of the source origins of the INPs active at \SI{-20}{\degreeCelsius} and observed during the MOCCHA campaign. The detection uses the improved ratio method. Panel A is the raw ratio of the \SI{10}{\percent} highest observed concentrations. Panel B is the raw ratio of the \SI{33}{\percent} lowest observed concentrations. Yellow to red indicate detection signal, while the blueish colour means no signal. Panel C is the composite ratio (c.f. \cref{P1sec:improved_method}). Panel D is the time series of INP concentrations measured during the campaign for four activation temperatures.}
@@ -828,7 +828,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
  Consequently, the lowest concentrations of the ``between peaks'' period could result from less favourable transport.
         The air masses origins associated to the period outside the events do not show preferential source, indicating the absence of specific transport of particles.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/source_PBAPs.png}
             \caption[Identification of the source origins of the PBAPS observed during the MOCCHA campaign, using the improved ratio method.]{Identification of the source origins of the PBAPS observed during the MOCCHA campaign, using the improved ratio method. Panel A is the origin of air masses outside the events identified in Panel B. Panel B is the time series of the PBAP measurements. Panel C is the origin of air masses between the peaks. Panel D and E are the composite ratios for peak one and two respectively. The signal is in shade of red. The blue colour depicts the sea ice concentration.}
@@ -850,7 +850,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     The \tempc{-20} signal appears to be almost entirely continental with a significant entry into the lands.
     Finally, at \tempc{-25}, the detected sources are more localised over the coasts of eastern Siberia.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=0.8\textwidth]{./chap3/images/source_and_series_MOSAiC.png}
             \caption[Emission sources of MOSAiC INPs detected with the improved ratio method.]{Emission sources of MOSAiC INPs detected with the improved ratio method. Panel A shows the composite ratio maps corresponding to four INP series, for activation temperature from \tempc{-10} to \tempc{-25}. Panel B is the time series of the corresponding INP concentrations during the MOSAiC campaign, from November 2019 to March 2020.}
@@ -883,7 +883,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     Both maps indicates potential sources in central Greenland. For the high concentration map (panel A), this detection is most likely misleading since the high plateau region of Greenland correspond to several kilometres of glaciers from where very little potential INPs are emitted.
     The benefits of the composite ratio are thereby perfectly illustrated.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/source_and_series_ARTofMELT.png}
             \caption[Identification of the source origins of the INPs active at \SI{-20}{\degreeCelsius} and observed during the ARTofMELT campaign.]{Same as \cref{fig:source_INP_moccha} for the ARTofMELT campaign. The INP series used for the detection is the \tempc{-20} one. Panel A is the raw ratio of the \SI{10}{\percent} highest observed concentrations. Panel B is the raw ratio of the \SI{33}{\percent} lowest observed concentrations. Yellow to red indicate detection signal, while the blueish colour means no signal. Panel C is the composite ratio (c.f. \cref{P1sec:improved_method}), the actual identification results. Panel D is the time series of INP concentrations measured during the campaign for four activation temperatures.}
@@ -920,7 +920,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
     These five days represent the peak of \ce{CO} observations over Paris during the 2018 fire season 2018 (June\--October) as depicted on \cref{fig:co_paris_2018} B.
     This event is suspected to take its origins in the intense wild fires that happened in North America this year, as shown on panel A of \cref{fig:co_paris_2018} which shows the repartition of the areas burnt during the 2018 fire season, for a total of \SI{2.8e6}{ha}.
     
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/Co_concentrations.png}
             \caption[Fire emissions observed by MODIS and IASI during the fire season of 2018.]{Panel A is the total burned area during June–October derived from MODIS observations, for year 2018. Panel B is the time series of total column \ce{CO} concentrations observed by IASI over Paris' coordinates.}
@@ -953,7 +953,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         Another explanation for this oceanic signal is the fundamental uncertainty on the plume altitude and thickness when it is observed over Paris, since it conditions the emission box of FLEXPART-WRF.
         Nevertheless, the correlation between the burnt areas map and the signal of this map suggests that the plume hovered about \kilom{7}.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/Compo_ratio_allAlts_fire_season_2018_Paris.png}
             \caption[Composite ratio maps computed on the PES \SI{4000}{\metre} for different starting altitudes.]{Composite ratio maps computed on the PES \SI{4000}{\metre} for different starting altitudes. It shows the likely source of the Paris high \ce{CO} event of the end of August 2018. Each map shows the results for a different starting altitude of the FLEXPART-WRF tracers emission, from \SI{5}{\km} to \SI{8}{\km}. The interpretation of the maps enables the detection of the \ce{CO} plume altitude when it passed over Paris.}
@@ -966,7 +966,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         Thanks to the satellite nature of IASI, it is possible to interpolate quasi simultaneous time series almost anywhere on the globe.
         For this application, I used three time series of \ce{CO} at Paris, New York and in the middle of the Atlantic Ocean, and the classic \perc{10} highest and \perc{33} lowest concentrations of \ce{CO} (\cref{fig:multiloc_fire_season}).
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=1\textwidth]{./chap3/images/multiloc_fire_season.png}
             \caption[Application of the improved ratio method on the combination of three \ce{CO} time series.]{Time series of total \ce{CO} column for Paris, New York and over the Atlantic (A). Results of the improved ratio method for the combination of the three locations source tracing (B).}
@@ -1028,7 +1028,7 @@ Both took place in respectively spring and early autumn. Since AFLUX happened al
 The difference of origin distribution might be explained by aerosol particles. These results suggest that oceanic air masses are more efficient than continental ones for cloud formation.
 Is it due to particle content, water vapour content? A finer analysis of cloud phase and particle measurements of the campaign along with the detected origin is required to reach a better understanding of the causes of this origin difference.
 
-        \begin{figure}[Htb]
+        \begin{figure}[htb]
             \centering
             \includegraphics[width=0.8\textwidth]{./chap3/images/violin_plot_allCampaigns.png}
             \caption{Statistical distributions of the continental contribution to air masses origins during the four airborne measurement campaigns.}

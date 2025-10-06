@@ -29,21 +29,40 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {II.1}{\ignorespaces Principle of backtrajectories.}}{63}{figure.caption.37}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {III.1}{\ignorespaces Overview of the tracer emissions in WRF-Chem and concentration series reconstructions.}}{77}{figure.caption.39}%
+\contentsline {figure}{\numberline {III.2}{\ignorespaces Application of the ratio method as it is depicted in \cref {P1sec:ratio_method}.}}{82}{figure.caption.42}%
+\contentsline {figure}{\numberline {III.3}{\ignorespaces Application of the improved ratio method.}}{85}{figure.caption.43}%
+\contentsline {figure}{\numberline {III.4}{\ignorespaces Comparison of the results obtained with the standard ratio method and with the improved ratio method.}}{86}{figure.caption.44}%
+\contentsline {figure}{\numberline {III.5}{\ignorespaces Results of the combination of the five stations in the application of the improved ratio method.}}{89}{figure.caption.47}%
+\contentsline {figure}{\numberline {III.6}{\ignorespaces Comparison by three different methods for the identification of the origin of the sea-ice tracer at Tiski station.}}{91}{figure.caption.48}%
+\contentsline {figure}{\numberline {III.7}{\ignorespaces Evolution of the success level sum for different levels of low FPES filtering.}}{93}{figure.caption.49}%
+\contentsline {figure}{\numberline {III.8}{\ignorespaces Results of the improved ratio method when applied to a data series of absorption coefficients measured at the Zeppelin Observatory (Ny-Ålesund, Svalbard).}}{95}{figure.caption.50}%
+\contentsline {figure}{\numberline {III.9}{\ignorespaces Results of the improved ratio method when applied to the data series of methanesulfonic acid (MSA) measured at Zeppelin Observatory.}}{96}{figure.caption.51}%
+\contentsline {figure}{\numberline {III.10}{\ignorespaces Identification of the source origins of the INPs active at \SI {-20}{\degreeCelsius } and observed during the MOCCHA campaign.}}{101}{figure.caption.52}%
+\contentsline {figure}{\numberline {III.11}{\ignorespaces Identification of the source origins of the PBAPS observed during the MOCCHA campaign, using the improved ratio method.}}{103}{figure.caption.53}%
+\contentsline {figure}{\numberline {III.12}{\ignorespaces Emission sources of MOSAiC INPs detected with the improved ratio method.}}{106}{figure.caption.54}%
+\contentsline {figure}{\numberline {III.13}{\ignorespaces Identification of the source origins of the INPs active at \SI {-20}{\degreeCelsius } and observed during the ARTofMELT campaign.}}{107}{figure.caption.55}%
+\contentsline {figure}{\numberline {III.14}{\ignorespaces Fire emissions observed by MODIS and IASI during the fire season of 2018.}}{109}{figure.caption.56}%
+\contentsline {figure}{\numberline {III.15}{\ignorespaces Composite ratio maps computed on the PES \SI {4000}{\metre } for different starting altitudes.}}{110}{figure.caption.57}%
+\contentsline {figure}{\numberline {III.16}{\ignorespaces Application of the improved ratio method on the combination of three \ce {CO} time series.}}{111}{figure.caption.58}%
+\contentsline {figure}{\numberline {III.17}{\ignorespaces Statistical distributions of the continental contribution to air masses origins during the four airborne measurement campaigns.}}{113}{figure.caption.60}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {IV.1}{\ignorespaces Averaged WRF-Chem emission fluxes of coarse-mode aerosol particles.}}{112}{figure.caption.45}%
-\contentsline {figure}{\numberline {IV.2}{\ignorespaces INP spectrum of MOCCHA and from ice nucleation parametrisations.}}{113}{figure.caption.46}%
-\contentsline {figure}{\numberline {IV.3}{\ignorespaces Activation fraction of INAS parametrisations.}}{116}{figure.caption.49}%
-\contentsline {figure}{\numberline {IV.4}{\ignorespaces Mass concentrations of modelled coarse aerosols particles from WRF-Chem compared to the coarse aerosols observations during the MOCCHA campaign.}}{119}{figure.caption.51}%
-\contentsline {figure}{\numberline {IV.5}{\ignorespaces Modelled compared to observed INP concentrations at three activation temperatures.}}{121}{figure.caption.52}%
-\contentsline {figure}{\numberline {IV.6}{\ignorespaces Concentrations of modelled INPs for four activation temperatures.}}{125}{figure.caption.53}%
-\contentsline {figure}{\numberline {IV.7}{\ignorespaces Maps of modelled INP concentrations for four activation temperatures, for MOSAiC and MOCCHA.}}{126}{figure.caption.54}%
-\contentsline {figure}{\numberline {IV.8}{\ignorespaces Same as \cref {fig:icenuc_params_moccha} B but focused on organic particles. The fPBAP measurement series is plotted along with the observed and modelled INP concentrations. The grey areas account for the period of polluted measurements.}}{128}{figure.caption.55}%
+\contentsline {figure}{\numberline {IV.1}{\ignorespaces Averaged WRF-Chem emission fluxes of coarse-mode aerosol particles.}}{122}{figure.caption.63}%
+\contentsline {figure}{\numberline {IV.2}{\ignorespaces INP spectrum of MOCCHA and from ice nucleation parametrisations.}}{123}{figure.caption.64}%
+\contentsline {figure}{\numberline {IV.3}{\ignorespaces Activation fraction of INAS parametrisations.}}{126}{figure.caption.67}%
+\contentsline {figure}{\numberline {IV.4}{\ignorespaces Mass concentrations of modelled coarse aerosols particles from WRF-Chem compared to the coarse aerosols observations during the MOCCHA campaign.}}{129}{figure.caption.69}%
+\contentsline {figure}{\numberline {IV.5}{\ignorespaces Modelled compared to observed INP concentrations at three activation temperatures.}}{131}{figure.caption.70}%
+\contentsline {figure}{\numberline {IV.6}{\ignorespaces Concentrations of modelled INPs for four activation temperatures.}}{135}{figure.caption.71}%
+\contentsline {figure}{\numberline {IV.7}{\ignorespaces Maps of modelled INP concentrations for four activation temperatures, for MOSAiC and MOCCHA.}}{136}{figure.caption.72}%
+\contentsline {figure}{\numberline {IV.8}{\ignorespaces Same as \cref {fig:icenuc_params_moccha} B but focused on organic particles. The fPBAP measurement series is plotted along with the observed and modelled INP concentrations. The grey areas account for the period of polluted measurements.}}{138}{figure.caption.73}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {V.1}{\ignorespaces Comparison of cloud properties between the control and the INP-mp simulations.}}{139}{figure.caption.59}%
+\contentsline {figure}{\numberline {V.1}{\ignorespaces Arctic temperature, and difference between INP concentrations from C86 and INP tracers.}}{147}{figure.caption.77}%
+\contentsline {figure}{\numberline {V.2}{\ignorespaces Comparison of cloud properties between the control and the INP-mp simulations.}}{149}{figure.caption.78}%
+\contentsline {figure}{\numberline {V.3}{\ignorespaces Regional profiles of Arctic cloud properties.}}{151}{figure.caption.80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {S1}{\ignorespaces Ratio maps from the standard ratio method of the fifteen cases used in the tracer experiment.}}{149}{figure.caption.64}%
-\contentsline {figure}{\numberline {S2}{\ignorespaces Composite ratio maps from the improved ratio method of the fifteen cases used in the tracer experiment.}}{150}{figure.caption.65}%
-\contentsline {figure}{\numberline {S3}{\ignorespaces Comparison of the results obtained with different combinations of modifications to the standard ratio method.}}{151}{figure.caption.66}%
-\contentsline {figure}{\numberline {S4}{\ignorespaces Total carbon footprint for the three years of this thesis. The part related to actual scientific work is the computing category (green).}}{159}{figure.caption.71}%
+\contentsline {figure}{\numberline {S1}{\ignorespaces Ratio maps from the standard ratio method of the fifteen cases used in the tracer experiment.}}{161}{figure.caption.85}%
+\contentsline {figure}{\numberline {S2}{\ignorespaces Composite ratio maps from the improved ratio method of the fifteen cases used in the tracer experiment.}}{162}{figure.caption.86}%
+\contentsline {figure}{\numberline {S3}{\ignorespaces Comparison of the results obtained with different combinations of modifications to the standard ratio method.}}{163}{figure.caption.87}%
+\contentsline {figure}{\numberline {S4}{\ignorespaces Total carbon footprint for the three years of this thesis. The part related to actual scientific work is the computing category (green).}}{171}{figure.caption.92}%
 \contentsfinish 
 \contentsfinish 

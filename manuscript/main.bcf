@@ -2833,25 +2833,27 @@
     <bcf:citekey order="373" intorder="1">cooper_ice_1986</bcf:citekey>
     <bcf:citekey order="374" intorder="1">thompson_study_2014</bcf:citekey>
     <bcf:citekey order="375" intorder="1">schrod_long-term_2020</bcf:citekey>
-    <bcf:citekey order="376" intorder="1">heymsfield_improved_2010</bcf:citekey>
-    <bcf:citekey order="377" intorder="1">rantanen_arctic_2022</bcf:citekey>
-    <bcf:citekey order="378" intorder="1">storelvmo_aerosol_2017</bcf:citekey>
-    <bcf:citekey order="379" intorder="1">storelvmo_aerosol_2008</bcf:citekey>
-    <bcf:citekey order="380" intorder="1">bony_clouds_2015</bcf:citekey>
-    <bcf:citekey order="381" intorder="1">murray_opinion_2021</bcf:citekey>
-    <bcf:citekey order="382" intorder="1">fletcher_active_1969</bcf:citekey>
-    <bcf:citekey order="382" intorder="2">cooper_ice_1986</bcf:citekey>
-    <bcf:citekey order="382" intorder="3">demott_predicting_2010</bcf:citekey>
-    <bcf:citekey order="382" intorder="4">li_predicting_2022</bcf:citekey>
-    <bcf:citekey order="383" intorder="1">demott_predicting_2010</bcf:citekey>
-    <bcf:citekey order="384" intorder="1">thompson_study_2014</bcf:citekey>
-    <bcf:citekey order="385" intorder="1">cooper_ice_1986</bcf:citekey>
-    <bcf:citekey order="386" intorder="1">mohler_portable_2021</bcf:citekey>
-    <bcf:citekey order="387" intorder="1">zhao_global_2021</bcf:citekey>
-    <bcf:citekey order="387" intorder="2">zhao_primary_2022</bcf:citekey>
-    <bcf:citekey order="388" intorder="1">xu_characteristics_2023</bcf:citekey>
-    <bcf:citekey order="389" intorder="1">fressoz_revoltes_2020</bcf:citekey>
-    <bcf:citekey order="390" intorder="1">auzanneau_or_2015</bcf:citekey>
+    <bcf:citekey order="376" intorder="1">cooper_ice_1986</bcf:citekey>
+    <bcf:citekey order="377" intorder="1">cooper_ice_1986</bcf:citekey>
+    <bcf:citekey order="378" intorder="1">heymsfield_improved_2010</bcf:citekey>
+    <bcf:citekey order="379" intorder="1">rantanen_arctic_2022</bcf:citekey>
+    <bcf:citekey order="380" intorder="1">storelvmo_aerosol_2017</bcf:citekey>
+    <bcf:citekey order="381" intorder="1">storelvmo_aerosol_2008</bcf:citekey>
+    <bcf:citekey order="382" intorder="1">bony_clouds_2015</bcf:citekey>
+    <bcf:citekey order="383" intorder="1">murray_opinion_2021</bcf:citekey>
+    <bcf:citekey order="384" intorder="1">fletcher_active_1969</bcf:citekey>
+    <bcf:citekey order="384" intorder="2">cooper_ice_1986</bcf:citekey>
+    <bcf:citekey order="384" intorder="3">demott_predicting_2010</bcf:citekey>
+    <bcf:citekey order="384" intorder="4">li_predicting_2022</bcf:citekey>
+    <bcf:citekey order="385" intorder="1">demott_predicting_2010</bcf:citekey>
+    <bcf:citekey order="386" intorder="1">thompson_study_2014</bcf:citekey>
+    <bcf:citekey order="387" intorder="1">cooper_ice_1986</bcf:citekey>
+    <bcf:citekey order="388" intorder="1">mohler_portable_2021</bcf:citekey>
+    <bcf:citekey order="389" intorder="1">zhao_global_2021</bcf:citekey>
+    <bcf:citekey order="389" intorder="2">zhao_primary_2022</bcf:citekey>
+    <bcf:citekey order="390" intorder="1">xu_characteristics_2023</bcf:citekey>
+    <bcf:citekey order="391" intorder="1">fressoz_revoltes_2020</bcf:citekey>
+    <bcf:citekey order="392" intorder="1">auzanneau_or_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
