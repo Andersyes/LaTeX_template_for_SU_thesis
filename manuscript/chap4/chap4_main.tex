@@ -1,12 +1,12 @@
 \makeatother
 \setcounter{counterchapter}{4}
 
-\chapter{Role of high-latitude aerosols sources in Arctic ice nucleating particles populations}\label{chap4}
+\chapter{Role of high-latitude aerosols sources in Arctic ice nucleating particles populations}
+\label{chap4}
 \chaptermark{Role of high-latitude aerosols sources in Arctic ice nucleating particles}
 
-\chapquote{
-}{}
-\todo{Find a quote for chapter 4}
+\epigraph{Plantez dans le pôle un pieu allant jusqu'au centre du globe, attachez-y une chaîne, trouvez hors de terre un champ de tirage, ayez dix milliards d'attelages de dix milliards de chevaux chacun, faites tirer, l'axe se redressera, et vous aurez votre printemps. On le voit, pas grand-chose à faire.
+}{Victor Hugo}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -110,6 +110,7 @@ Finally, we discuss the results of the two approaches and the conclusions they t
 
 
 \section{Methods}
+\label{sec:methods_chap4}
     % ____________________________________________________    
     \subsection{WRF-Chem modelling set-up}
     \label{sec:wrf_set-up}
@@ -185,9 +186,9 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     The emission fluxes of the dust particles, the MPOA from sea sprays, and the continental PBAPs (fungal spores and bacteria), are illustrated on \cref{fig:emission_maps}.
      \begin{figure}[h]
         \centering
-        \label{fig:emission_maps}
         \includegraphics[width=1\textwidth]{./chap4/images/Emission_maps_august.v16.png}
          \caption[Averaged WRF-Chem emission fluxes of coarse-mode aerosol particles.]{Averaged WRF-Chem emission fluxes of coarse-mode aerosol particles (dust, MPOA, bacteria and fungal spores) over the month of August 2018, during the MOCCHA 2018 campaign.}
+        \label{fig:emission_maps}
     \end{figure}
     
    
@@ -196,15 +197,15 @@ Finally, we discuss the results of the two approaches and the conclusions they t
     \label{sec:observations}
     In this study, we use data collected during the international research effort \textit{Microbiology Ocean Cloud Coupling in the High Arctic} (MOCCHA) that took place along with the US-Swedish research expedition Arctic Ocean 2018 (AO18) on board of the Swedish icebreaker I/B \textit{Oden}. The measurement period extends over August and September 2018 in the high Arctic.
     Here we use INP measurements performed at ship level \citep{porter_ice-nucleating_nodate} presented in \citet{porter_highly_2022}. 
-    Figure \ref{fig:obs_INP_spectrum} shows the ensemble of INP spectra measured during the campaign. The great variability in the measurement series shapes suggests that the particle types responsible for those INPs might have much varied during the campaign.
+    Figure \ref{fig:INP_spectra} shows the ensemble of INP spectra measured during the campaign. The great variability in the measurement series shapes suggests that the particle types responsible for those INPs might have much varied during the campaign.
     We can also notice that the measurement technique did not make it possible to catch any concentrations below \SI{4e-3}{\per\liter}, but the measurement uncertainties do not exclude lower values to exist \citep{porter_highly_2022}. 
     
     In this study we also use the coarse-mode particle number size distribution data of the MOCCHA campaign \citep{zieger_coarse-mode_2022}, and the biological aerosols are represented by the concentration of fluorescent primary biological aerosol particles (fPBAP) \citep{kojoj_single-particle_2024}, presented in \citet{kojoj_arctic_2024}.
     
     \begin{figure}[h]
-        \label{fig:obs_INP_spectrum}
         \includegraphics[width=1\linewidth]{./chap4/images/INP_spectra.png}
         \caption[INP spectrum of MOCCHA and from ice nucleation parametrisations.]{INP spectrum from the MOCCHA 2018 campaign (A), and predicted by ice nucleation parametrisations used in this study for fixed conditions (B).}
+        \label{fig:INP_spectra}
     \end{figure}
 
 
@@ -394,6 +395,7 @@ In term of modelling, the latter means that parametrisations sensitive to partic
     
 % ########################################################
 \section{Results}
+\label{sec:results_chap4}
     % ____________________________________________________    
     \subsection{First approach: in situ nucleation modelling}
     \label{sec:first_approach}
@@ -495,6 +497,7 @@ In term of modelling, the latter means that parametrisations sensitive to partic
     Here, INP tracers are produced from aerosol emissions, directly converted to INP emissions with nucleation schemes. They are then transported and subject to wet and dry deposition, as well as in-cloud activation (c.f. \cref{sec:removal}). To our knowledge, this is a novel approach in modelling INP concentrations which was never tried before.
     
         \subsubsection{Modelling INP during the MOCCHA campaign}
+        \label{sec:INP_modelling_MOCCHA}
         Figure~\ref{fig:INP_concs_MOCCHA_MOSAiC} A shows the confrontation of the observations of the MOCCHA campaign and the modelled INPs interpolated at the measurement site, for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
         At \SI{-10}{\degreeCelsius} and \SI{-15}{\degreeCelsius} the observations points are very sparse, especially over the second half of the campaign. This could suggest that concentrations are too low to be detected. Indeed, the modelled concentrations show values at the edge of the detection limit of the observation method. Nevertheless, the modelled levels are overestimated, whilst on the first half of the period they tend to be lower than observations.
         Recalling that the first peak in the observation series happens during an ice-breaking phase, which could be associated with local emissions of particles. Since the latter is not modelled, the comparison could be biased over that period (August 8-15).
@@ -545,6 +548,7 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
 %       At lower temperatures, the influence of dust sources is striking.
 
         \subsubsection{Modelling INP during the MOSAiC campaign}
+        \label{sec:INP_modelling_MOSAiC}
         Figure~\ref{fig:INP_concs_MOCCHA_MOSAiC} B shows\----as for MOCCHA\----the confrontation of the interpolated modelled INPs and the observations of the MOSAiC icebreaker campaign for INPs active from \SI{-10}{\degreeCelsius} to \SI{-25}{\degreeCelsius}.
         The period of our comparison spreads from October 2019 to March 2020. While the campaign ran until late 2020, only this time period was simulated due to computing constraints. It includes the winter season (December, January, February), which can be opposed to the late summer state of the MOCCHA period (August\--early September).
         Compared to summer, both the modelled and observed INPs have much lower levels, especially at high activation temperatures.
@@ -560,6 +564,7 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
 
 % ########################################################
 \section{Discussion}
+\label{sec:discussion_chap4}
 % ########################################################
 \subsection{The particle-to-INP approach}
 \label{sec:particle_to_INP}
@@ -620,7 +625,8 @@ The INP from dust sources are better transported in remote Arctic ocean area, wh
 
 
 
-    \section{Conclusions}
+\section{Conclusions}
+\label{sec:conclusion_chap4}
     % what was the link with the previous chapter
     In \cref{chap3} we have learned about the origins of the INPs that populate the Arctic atmosphere. Given the modelling focus of this thesis, the next step was to draw insights from these findings and undertake the modelling of the particles responsible for Arctic INPs.
     % what was at stake

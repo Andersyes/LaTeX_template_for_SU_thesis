@@ -4,9 +4,11 @@
 \chapter{Effects of ice nucleating particles on modelled Arctic clouds}
 \label{chap5}
 \chaptermark{Effects of ice nucleating particles on modelled Arctic clouds}
+\todo{Revoir le titre ?}
 
 
- \epigraph{``The only way around is through.''}{\vspace{\baselineskip}Robert Frost}
+%\epigraph{``The only way around is through.''}{\vspace{\baselineskip}Robert Frost}
+\epigraph{``L'enfant brisant son jouet, a l'air d'en chercher l'âme. L'homme aussi semble chercher l'âme de le Terre.''}{Victor Hugo, \textit{L'archipel de la Manche}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -134,6 +136,7 @@ Eventually, we will led the discussion about how INPs interact with regional cli
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Effects on cloud}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{sec:effects_on_clouds}
 In this section, will be reviewed the differences observed on cloud properties between the two microphysics set-ups: control and INP-mp. 
 The comparison is performed on averaged values over the simulation period, which extends from August 1st to 21st September 2018.
 
@@ -149,8 +152,8 @@ The comparison is performed on averaged values over the simulation period, which
 % ____________________________________________
     \subsection{Differences in ice nucleating particles concentrations}
     \label{sec:inp_diff}
-    The main distinction between the control and the INP-mp simulations is contained within the method used to predict concentrations of ice friendly particles that can nucleate cloud ice. 
-    The control set-up uses the C86 parametrisation that depends only on temperature. The INP-mp set-up, uses the INP tracers that are emitted and advected in the model, and conditions on temperature for their activations.
+    The main distinction between the control and the INP-mp simulations is contained within the method used to predict concentrations of ice friendly particles, i.e. particles that can nucleate cloud ice. 
+    The control set-up uses the C86 parametrisation that depends only on temperature. The INP-mp set-up, uses the INP tracers that are emitted and advected in the model, as well as conditions on temperature for their activations.
     Because the INP tracers are binned in temperature bins of \tempc{5}, they are not easily comparable to the INP concentrations produced by C86.
     In order de compare their prognostics on INP concentrations, the INP tracers concentrations are combined with a temperature dependence that matches how they are activated by the microphysics module (c.f. \cref{sec:inp_to_mp}).
     The concentrations are then averaged over the simulation period, and between the surface and \SI{4000}{\meter} altitude.
@@ -158,148 +161,226 @@ The comparison is performed on averaged values over the simulation period, which
 
      \begin{figure}[htb]
         \centering
-        \label{fig:INP_control_test}
         \includegraphics[width=1\textwidth]{./chap5/images/temperature_C86_INPtracers.png}
-         \caption[Arctic temperature, and difference between INP concentrations from C86 and INP tracers.]{Comparison of the period average of concentrations activated INP predicted by \citet{cooper_ice_1986} parametrisation (C86) and by the INP-mp set-up. The concentrations are averaged from surface to \SI{4000}{\meter} altitude. The temperature maps highlights the temperature dependence of C86, and shows that activation temperatures are rarely reached.}
+         \caption[Arctic temperature, and difference between INP concentrations from C86 and INP tracers.]{Comparison of the period average of concentrations activated INP predicted by \citet{cooper_ice_1986} parametrisation (C86) (B) and by the INP-mp set-up (C). The concentrations are averaged from surface to \SI{4000}{\meter} altitude. The temperature maps (A) highlights the temperature dependence of C86, and shows that activation temperatures are rarely reached.}
+        \label{fig:INP_control_test}
     \end{figure}
 
     The difference is striking: C86 produces several orders of magnitude more INPs than the INP-mp set-up with INP tracers.
-    This is explained by the differences in the dependencies of the two approaches. While C86 only depends on temperature, the INP-mp set-up is sensitive to temperature conditions and to the advection of the INP tracers.
-    Figure~\cref{fig:INP_control_test} perfectly illustrates the temperature dependence of C86, of which the map is a ``negative'' of the temperature map, as seen in \cref{chap4} on \cref{fig:INP_spectra}.
+    This is explained by the differences in the dependencies of the two approaches. While C86 only depends on temperature, the INP-mp set-up is sensitive to both temperature conditions and emission and transport of the INP tracers.
+    Figure~\ref{fig:INP_control_test} perfectly illustrates the temperature dependence of C86 (panel B), of which the map is a ``negative'' of the temperature map (panel A), as seen in \cref{chap4} on \cref{fig:INP_spectra}.
     This logarithmic dependence on temperature of these kind of ice nucleation parametrisations can cause high concentrations at places where particles able to nucleate ice have little reasons to be.
-    On the INP C86 map, the highest concentrations are found over the Greenland ice cap. This is because the lowest temperatures are reached there. However, the Greenland ice cap contains no source of potential INPs, and by its altitude, is remote from known sources.  
+    On the INP C86 map, the highest concentrations are found over the Greenland ice cap. This is because the lowest temperatures are reached there, even though the Greenland ice cap contains no source of potential INPs, and by its altitude, is remote from known sources.  
 
-    Conversely, the map of INP-mp shows less homogeneous concentrations and more spatial variability because of its dependence on INP tracers concentrations.
+    Conversely, the map of INP-mp shows less homogeneous concentrations and more spatial variability because of the set-up dependence on INP tracers concentrations.
+    The temperature map (\cref{fig:INP_control_test}A) shows that level of activation ($T<0$\si{\degreeCelsius}, represented in blue on the map) are rarely reached in this domain. It happens mainly in central Arctic, over the sea ice pack, and in Greenland: regions where the INP tracers concentrations are low (c.f. \cref{fig:INP_maps_MOCCHA}).
     This double constraint (temperature and INP tracers concentrations), causes the concentrations of the INP-mp set-up to be much lower than what C86 predicts.
-    As seen in the previous chapters, INP concentrations in Arctic are low.
-    The analysis of the performances of the INP tracers in \cref{chap4} showed that they reproduced the observed levels of INPs in central Arctic.
-    %ce qui fait que ça peut être considéré comme fidèle.
-    % si la température est également bonne, alors, c'est que la carte de INP-mp repose sur des fondements davantage physique que celle de Cooper 86.
-    % il faut donc considérer que ces concentrations très basses d'INP activés sont vraisemblables.
 
+    %As seen in the previous chapters, INP concentrations in Arctic are low.
+    The analysis of the performances of the INP tracers in \cref{chap4} showed that they reproduced the observed levels of INPs in central Arctic, with slight underestimations at \tempc{-15} and above, and overestimations of the similar orders of magnitude below \tempc{-15}.
+    % which make them plausible
+    Despite these imprecisions, the modelled INP concentrations worth being considered here as a plausible level, in comparison with the C86 values.
+    % si la température est également bonne, alors, c'est que la carte de INP-mp repose sur des fondements davantage physique que celle de Cooper 86.
+    Assuming that temperature is correctly estimated by the model, it is reasonable to consider that the INP-mp map rests on physically solid founding principles.
+    % il faut donc considérer que ces concentrations très basses d'INP activés sont vraisemblables.
+    Which leads to the consideration that the concentrations of activated INPs predicted by the INP-mp set-up, and showed on \cref{fig:INP_control_test}C are likely to be a faithful representation of the reality.
+    \vspace{\baselineskip}
+
+    The next section will address the consequences that such INP set-up has on cloud properties.
 
 % ____________________________________________
     \subsection{Investigating the impact on cloud properties}
+    \label{sec:results_chap5}
+    In order to get insights on the spatial variability of the effect, the area over \SI{60}{\degree N} have been sliced in six regions, after the work by \citet{jiang_seasonal_2024}, in three oceanic regions: North Pole (NP), Atlantic Arctic (ATL), Pacific Arctic (PAC), and three continental regions: Siberia (SIB), Northern North America (NNA), Greenland (GRE). These sub-regions are identified on \cref{fig:arctic_regions}, and the averaged values of the investigated variables are found in \cref{tab:mean_regional_diff}.
+    \vspace{\baselineskip}
+
+     \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.5\textwidth]{./chap5/images/Arctic_Regions.png}
+         \caption[Definition of Arctic sub-regions.]{Definition of Arctic sub-regions: North Pole (NP), Atlantic Arctic (ATL), Pacific Arctic (PAC), Siberia (SIB), Northern North America (NNA), Greenland (GRE).}
+        \label{fig:arctic_regions}
+    \end{figure}
+
     % --- Cloud cover
-    The cloud property that reflects the most significant changes in the microphysics, is the cloud cover.
-    On \cref{fig:modelled_cloud_comparison}A clearly appears the effects of the INP-mp modifications on the total cloud cover. 
-    The difference of the mean cloud cover computed over the Arctic region ($\theta >60$°N) accounts for a reduction of \perc{5}.
-    The difference lies mostly in the Arctic, especially over the areas covered by sea ice.
-    Actually, the delimitation is very clear, suggesting a correlation with how INP concentrations are affected by sea ice.
-    In the control simulation, INP concentrations do not rely on actual particle emissions, but only on temperature with the C86 parametrisation. Consequently, only the effects of sea ice on temperature can influence heterogeneous ice nucleation.
-    In the INP-mp set-up, INPs are modelled particles transported from various emission sources that are not only affected by temperature. 
-    Marine emissions are inhibited by the presence of ice at the surface of the ocean. Thereby, INPs get scarcer in average in the areas of icy ocean.
-    This observation is directly linked to the results of \cref{sec:second_approach}, especially to the diagnostic of INPs spatial distribution shown on \cref{fig:INP_maps_MOCCHA}: at the temperatures encountered in summer, the INP concentrations in central Arctic are mostly under $10^{-1}$ \si{\per\liter} in average. 
+    The cloud property that reflects the best significant changes in the microphysics, is the cloud fraction.
+    On \cref{fig:modelled_cloud_comparison}A, clearly appears the effects of the INP-mp modifications on the total cloud fraction. 
+    The difference of the mean cloud fraction computed over the Arctic region (considered here as all $\theta >60.5$°N) accounts for a reduction of \perc{16}.
+    The strongest effect is found in the NP region, with a decrease of \perc{35.9}.
+    In fact, the delimitation is clearly shown on the map, suggesting a correlation with how INP concentrations are affected by sea ice.
+    In the control simulation, INP concentrations rely only on temperature. Now, while the ocean acts as a thermostat that prevents strongly negative temperatures to append, the sea ice pack masks its effect. 
+    Consequently, air temperatures drop over the sea ice pack (\cref{fig:INP_control_test}A), making possible high concentrations by C86.
+    These low temperatures also benefit the INP-mp set-up, but the effect is greatly attenuated by the scarcity of INP tracers in central Arctic (c.f. \cref{fig:INP_maps_MOCCHA}).
+    %%In the INP-mp set-up, INPs are modelled particles transported from various emission sources that are not only affected by temperature. 
+    %%Marine emissions are inhibited by the presence of ice at the surface of the ocean. Thereby, INPs get scarcer in average in the areas of icy ocean.
+    This observation corroborates the results of \cref{sec:second_approach} about the diagnostic of INPs spatial distribution: at temperatures encountered in summer, INP concentrations in central Arctic are mostly under $10^{-1}$ \si{\per\liter} in average. 
+    \vspace{\baselineskip}
 
     % greenland coasts signal
-    Coasts of Greenland shows the biggest difference, with lower cloud cover by up to \perc{60}.
+    The Greenland region shows the second strongest difference in cloud fraction, mainly due to what happens on its coasts. Its northern coasts present the biggest relative difference values, with ebbs in cloud fraction that reach up to \perc{-60} compared to the control simulation.
     The signal spatially correlates with the emissions sources of INPs detected in \cref{sec:artofmelt_sources} during the analysis of the ARTofMELT 2023 campaign.
     Indeed, the detected sources (c.f. \cref{fig:source_INP_artofmelt}) were distributed along the Greenland coasts. The analysis concluded on mineral dust emissions.
-    However, the data used to update the emissions of this kind of particles did not consider these areas. Consequently, the modelled mineral dust lacks in this area, as depicted on \cref{fig:emission_maps}.
-    Assuming that C86 better represents the INP concentrations over Greenland coasts, the missing mineral dust emissions are the causes for the ebbs of cloud cover observed in the INP-mp simulation.
-    This supports the conclusion of the ARTofMELT INP sources analysis that Greenland coasts are important sources of INPs.
+    However, the data used to update the emissions of this kind of particles did not consider correctly these areas, and the corresponding emissions fluxes were not strong enough.
+    Consequently, the modelled mineral dust lacks in these regions, as depicted on \cref{fig:emission_maps}.
+    Assuming that C86 better represents the INP concentrations over Greenland coasts, the missing mineral dust emissions would be the causes for the ebbs of cloud fraction observed in the INP-mp simulation.
+    This would support the conclusion of the ARTofMELT INP sources analysis that Greenland coasts are important sources of INPs.
 
-   % the signal over the eurasia
-    There is also fewer cloud cover over continental areas, especially at mid-latitude over Eurasia.
-    WHY???
+   %%% the signal over Eurasia
+   %% There is also fewer cloud fraction over continental areas, especially at mid-latitude over Eurasia.
+   %% \todo{WHY???}
 
+    \vspace{\baselineskip}
     % --- IWP and LWP
-    The analysis of ice water path (IWP) and liquid water path (LWP), expressed in \si{\gram\per\square\meter}, brings elements for the understanding of the changes observed in cloud cover.
-    The IWP is compared on panel B of \cref{fig:modelled_cloud_comparison}.
-    The figure shows a global increase of the ice content of clouds. Over the whole \[domain/Arctic\] area, the INP-mp set-up produces \perc{17.8} more ice.
-    It results in a decrease in LWP of \perc{12.7} (\cref{fig:modelled_cloud_comparison}C).
-    This LWP difference happens mostly in central Arctic, in areas similar to where the cloud cover difference happens. 
-
-    % number concentration of droplets and ice crystals
-    Looking at the number concentrations of liquid droplets and ice crystals, we notice decreases of respectively \perc{8.8} and \perc{7.3}.
-    For variation is analogous to the evolution of water path for liquid droplets, which means an almost constant droplet size, but ice crystals have clearly grown in the INP-mp simulation.
-    Considering that mass scales with diameter as $m \propto D^b$, with $b$ a scaling factor dependant on crystal shape, and that $b \approx 2$ after \citet{heymsfield_improved_2010}, the increase in ice crystal diameter expresses as,
+    The analysis of ice water path (IWP) and liquid water path (LWP), expressed in \si{\gram\per\square\meter}, brings elements for the understanding of the changes observed in cloud fraction.
+    The IWP is compared on \cref{fig:modelled_cloud_comparison}B.
+    The figure shows a global increase of the ice content of clouds. Over the whole domain area, the INP-mp set-up produces \perc{46.8} more ice.
+    Regionally, the difference is carried by all regions except Greenland and North Pole, where the increase is small (\perc{5.9} in NP and \perc{13.9} in GRE).
+    % c'est pas très logique puisqu'on a moins d'INP.
+    Considering the decrease in active INP level, this effect was unexpected.
+    % ce qui est encore moins logique c'est la forte diminution de la LWP.
+    It results in a strong decrease in LWP (\cref{fig:modelled_cloud_comparison}C).
+    This LWP difference happens mostly over Greenland (\perc{-66.8}) and in the NP region (\perc{-79.6}), same areas as where the cloud fraction difference strikes the most. 
+    This does not seem to be a consequence of the increase of IWP, since it is the weakest in these regions.
+    % en effet, lorsqu'on regarde le nombre de cristaux un accroissement de leur taille.
+    The number of ice crystals decreases in all regions, suggesting an increase in ice crystal size.
+    Considering that mass scales with diameter as $m \propto D^b$, with $b$ a scaling factor dependant on crystal shape, and that $b = 3$ for spherical modelled crystals \citep{heymsfield_improved_2010}, the relative increase in ice crystal diameter expresses as,
     \begin{equation}
         \Delta D_{\text{ice}} = \left(\frac{1 + \Delta IWP}{1 + \Delta N_{\text{ice}}}\right)^{1/b}
     \end{equation}
-    which gives $\Delta D = 1.127$, or a \perc{12.7} increase in ice crystal diameter.
+    With $\Delta \text{IWP} = 0.468$ and $\Delta N_{\text{ice}} = -0.158$, we get $\Delta D = 1.201$, or a \perc{20.1} increase in ice crystal diameter.
+    % ce qui devrait causer plus de précipitations, mais ce n'est pas le cas.
+    This should cause larger precipitations, but they do not significantly change. 
 
-     \begin{figure}[htbp]
+    % ça laisse entendre que la microphysique se comporte étrangement lorsque les INPs sont très bas.
+    All of this suggests that the Thompson aerosol-aware microphysics scheme is not able to handle such low active INP concentrations.
+    % il faudrait davantage de recherche pour comprendre ce qui provoque ça dans le schéma de microphysique.
+    It would necessitate further investigation on the scheme in order to understand what happens.
+
+    \todo{parler des flux car ça a beaucoup d'impact !}
+
+     \begin{figure}[htb]
         \centering
+        \includegraphics[width=1\textwidth]{./chap5/images/cloud_maps.png}
+         \caption[Comparison of cloud properties between the control and the INP-mp simulations.]{Comparison of cloud properties between the control and the INP-mp simulations. Panel A shows cloud fraction, panel B shows ice water path, panel C shows liquid water path.}
         \label{fig:modelled_cloud_comparison}
-        \includegraphics[width=1\textwidth]{./chap5/images/.png}
-         \caption[Comparison of cloud properties between the control and the INP-mp simulations.]{}
     \end{figure}
 
-% ____________________________________
-    \subsection{Sub-regional impact}
+\todo{ajouter les valeurs de flux radiatifs à la table}
 
-\begin{table}[htbp]
+\begin{table}[htb]
 \centering
-\caption{Regional mean values of cloud and precipitation variables from the control and modified (INP-mp) simulations, along with their relative differences across ATL, PAC, GRE, NNA, SIB, and NP.}
-\label{tab:mean_values_3lines}
+\caption{Regional mean values of cloud variables from the control and INP-mp simulations, along with their relative differences across ATL, PAC, GRE, NNA, SIB, and NP regions.}
+\label{tab:mean_regional_diff}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{llcccccc}
 \hline
 \textbf{Variable} & \textbf{Simulation} & \textbf{ATL} & \textbf{PAC} & \textbf{GRE} & \textbf{NNA} & \textbf{SIB} & \textbf{NP} \\
 \hline
-CLT & Control & 0.88 & 0.87 & 0.66 & 0.67 & 0.65 & 0.93 \\
+Cloud fraction & Control & 0.88 & 0.87 & 0.66 & 0.67 & 0.65 & 0.93 \\
     & INP-mp & 0.81 & 0.70 & 0.50 & 0.57 & 0.59 & 0.60 \\
     & Rel. diff. (\%) & \textminus7.70 & \textminus20.26 & \textminus23.20 & \textminus14.69 & \textminus9.68 & \textminus35.94 \\
 \hline
-IWP (g/m$^2$) & Control & 3.25 & 2.84 & 3.56 & 4.47 & 3.44 & 2.89 \\
+IWP (\si{\gram\per\square\meter}) & Control & 3.25 & 2.84 & 3.56 & 4.47 & 3.44 & 2.89 \\
                & INP-mp & 5.02 & 4.33 & 4.06 & 6.92 & 5.30 & 3.06 \\
                & Rel. diff. (\%) & +54.66 & +52.36 & +13.88 & +54.60 & +54.19 & +5.94 \\
 \hline
-ISWP (g/m$^2$) & Control & 54.03 & 48.16 & 54.36 & 78.47 & 58.46 & 49.11 \\
+ISWP (\si{\gram\per\square\meter}) & Control & 54.03 & 48.16 & 54.36 & 78.47 & 58.46 & 49.11 \\
                 & INP-mp & 57.14 & 50.83 & 54.46 & 81.93 & 61.20 & 49.53 \\
                 & Rel. diff. (\%) & +5.76 & +5.55 & +0.18 & +4.41 & +4.67 & +0.86 \\
 \hline
-LWP (g/m$^2$) & Control & 124.44 & 101.46 & 32.98 & 78.69 & 84.95 & 88.05 \\
+LWP (\si{\gram\per\square\meter}) & Control & 124.44 & 101.46 & 32.98 & 78.69 & 84.95 & 88.05 \\
                & INP-mp & 73.71 & 42.44 & 10.94 & 45.44 & 54.21 & 17.97 \\
                & Rel. diff. (\%) & \textminus40.77 & \textminus58.17 & \textminus66.81 & \textminus42.26 & \textminus36.18 & \textminus79.60 \\
 \hline
-VWP (g/m$^2$) & Control & 1.55$\times$10$^{4}$ & 1.40$\times$10$^{4}$ & 7.43$\times$10$^{3}$ & 1.37$\times$10$^{4}$ & 1.65$\times$10$^{4}$ & 1.14$\times$10$^{4}$ \\
+VWP (\si{\gram\per\square\meter}) & Control & 1.55$\times$10$^{4}$ & 1.40$\times$10$^{4}$ & 7.43$\times$10$^{3}$ & 1.37$\times$10$^{4}$ & 1.65$\times$10$^{4}$ & 1.14$\times$10$^{4}$ \\
                & INP-mp & 1.54$\times$10$^{4}$ & 1.39$\times$10$^{4}$ & 7.40$\times$10$^{3}$ & 1.36$\times$10$^{4}$ & 1.65$\times$10$^{4}$ & 1.14$\times$10$^{4}$ \\
                & Rel. diff. (\%) & \textminus0.78 & \textminus0.42 & \textminus0.40 & \textminus0.14 & \textminus0.29 & \textminus0.46 \\
 \hline
-$N_{ice}$ (m$^{-3}$) & Control & 1.74$\times$10$^{7}$ & 1.56$\times$10$^{7}$ & 2.09$\times$10$^{7}$ & 2.43$\times$10$^{7}$ & 1.86$\times$10$^{7}$ & 1.49$\times$10$^{7}$ \\
+    $N_{ice}$ (\si{\per\cubic\meter}) & Control & 1.74$\times$10$^{7}$ & 1.56$\times$10$^{7}$ & 2.09$\times$10$^{7}$ & 2.43$\times$10$^{7}$ & 1.86$\times$10$^{7}$ & 1.49$\times$10$^{7}$ \\
                      & INP-mp & 1.44$\times$10$^{7}$ & 1.36$\times$10$^{7}$ & 1.64$\times$10$^{7}$ & 2.17$\times$10$^{7}$ & 1.59$\times$10$^{7}$ & 1.01$\times$10$^{7}$ \\
                      & Rel. diff. (\%) & \textminus17.27 & \textminus12.81 & \textminus21.49 & \textminus10.88 & \textminus14.59 & \textminus32.07 \\
 \hline
-RAINNC (mm) & Control & 69.38 & 61.78 & 77.84 & 89.74 & 78.00 & 42.92 \\
+    Precipitations (\si{\mm}) & Control & 69.38 & 61.78 & 77.84 & 89.74 & 78.00 & 42.92 \\
              & INP-mp & 72.15 & 63.62 & 73.12 & 93.63 & 83.77 & 40.73 \\
              & Rel. diff. (\%) & +4.00 & +2.99 & \textminus6.05 & +4.34 & +7.39 & \textminus5.10 \\
 \hline
 \end{tabular}
 }
 \end{table} 
-     \begin{figure}[p]
-        \centering
-        \label{fig:map_and_profiles}
-        \includegraphics[width=1\textwidth]{./chap5/images/Arctic_map_profiles.png}
-         \caption[Regional profiles of Arctic cloud properties.]{Ice water path, liquid water path, and cloud fraction vertical profiles from the control and the INP-mp simulations from six Arctic regions.}
-    \end{figure}
+
+% ____________________________________
+    %\subsection{Effects on vertical phase repartition}
+
+
+%     \begin{figure}[p]
+%        \centering
+%        \label{fig:map_and_profiles}
+%        \includegraphics[width=1\textwidth]{./chap5/images/Arctic_map_profiles.png}
+%         \caption[Regional vertical profiles of Arctic cloud water content.]{Ice water content (IWC), liquid water content (LWC), and cloud fraction vertical profiles from the control and the INP-mp simulations from six Arctic regions.}
+%    \end{figure}
 
 % ____________________________________________
-    \subsection{Comparison with lidar-radar data}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Effect of high latitude aerosols emission}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In this section, we focus on the differences between two versions of the INP-mp simulation set-up.
-
+    %\subsection{Comparison with lidar-radar data}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Discussion about the possible feedback effects}
+\section{Discussion, limits, and plan for future investigations}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% intro 
+The study presented in this chapter was carried out during the writing of this thesis, which gives it a somewhat preliminary character.
+Consequently, the analysis remains limited in scope, and while the objectives are well defined, the implementation still lacks refinement.
+% ---the limits
+The limitations of this work are therefore apparent, but are as many avenues of future investigation.
 
-What about the original question: is there a possible feedback loop between INPs and regional climate?
+% broken scheme?
+Our current knowledge of Thompson's aerosol-aware microphysics scheme did not allow us to anticipate how it would behave with concentrations of active INPs, such as what produced the INP tracers when combined with the constraint on temperature for their activation.
+Our investigations about the effect on cloud properties led to confusing results, especially about the liquid water content, which were difficult to interpret. This suggested model causes rather than physical effects.
+% more analyses are needed 
+More analyses are needed in order to understand what brought us aside of the physical working range of the microphysics scheme.
+% Comparison with observations
+The study also lacks of evaluation. Neither the control nor the test simulations have been evaluated against observations. This is because of the selected period for the study. Summer 2018 was chosen because the INP tracers had been evaluated with the MOCCHA data. But we had not enough satellite data (only five MODIS flyby) for a model-observation comparison.
+\vspace{\baselineskip}
 
-We have to determine if we have more or less INPs, and where.
+% --- we have found some results
+Nevertheless, this preliminary study yields some interesting results.
+They highlighted the potentially strong impact of INPs in regions where they are scarce (Greenland, central Arctic, and more generally above the sea ice pack). 
+They also suggested that the way aerosol-aware microphysics is modelled is not necessarily ready to use INP concentrations closer to observation levels. Or on the contrary, they may have illustrated that INP levels are underestimated by observational techniques, which would have led to not efficient enough heterogeneous ice nucleation parametrisations.
+\vspace{\baselineskip}
+
+% --- what we plan to do
+As already mentioned, this study is meant to be pursued beyond the scope of the present chapter.
+    % understand the mp scheme
+A first step will be to deepen our understanding of the microphysics scheme used, in order to unveil how it handles low INP concentrations.
+    % compare with other icenuc param
+A systematic comparison with other existing parametrisations will help in this task by evaluating the sensitivity of the model to different representations of ice nucleation.
+    % change the period in order to get observations for evaluation
+Furthermore, shifting the simulation period to include observational datasets that makes possible a robust evaluation of the simulations set-ups.
+    % investigate deeper the phase partition and radiative impacts
+Finally, a detailed investigation of the phase partitioning and its associated radiative impacts will be valuable to better quantify the influence of INPs through their interactions with clouds, on the Arctic energy balance.
+
+%%% more generally 
+%%Considering how the microphysics is currently implemented in models, we saw that concentrations of INP can have a strong impact on the radiative effect of clouds. Especially in the Arctic where changes in the INP concentrations causes the strongest cloud change.
+%%This makes the link with the original question: is there a possible feedback loop between INPs and regional climate?
+%%....
+%%In order to close the loop, we need to understand the impact of these climate effects on the INP sources.
+%%We have to determine if we have more or less INPs, and where.
 
     \vspace{\baselineskip}
-    \todo{Fill the Key results box}
     \boxKR{Modelled Arctic INPs and related effects on clouds}{
         \begin{itemize}
-            \item 
+            \item The temperature dependence of C86 leads to unrealistic INP concentrations in very cold regions such as Greenland ice cap. 
+            %\item The INP tracers set-up produces much lower concentrations of active INPs than temperature dependent ice nucleation parametrisations like C86. 
+            \item The double constraint on particle concentrations and temperature of the INP-mp set-up makes it more physical than temperature-dependent parametrisations, leading to much lower active INP concentrations.
+            \item The strongest changes in active INP concentrations were witnessed in the remotest regions of the Arctic.
+            \item Such very low active INP concentrations seem to ``break'' the microphysics scheme, by inducing spurious diagnostics of cloud properties, especially on LWP.
+            \item This suggests:
+                \begin{itemize}
+                    \item a systematic underestimation in INP measurements, that propagates to observation-derived parametrisations, resulting in an overall underestimation of INP concentrations
+                    \item the need for a revised aerosol-aware microphysics scheme is needed.
+                \end{itemize}
         \end{itemize}
     }
+
+\vspace{2cm}
+Before I close this chapter, I would like to thank Yaël Le Gars, a fellow PhD student and friend, whose help was invaluable in obtaining the results presented above, and with whom I will have the pleasure of continuing this study.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \stopcontents[chapters]
