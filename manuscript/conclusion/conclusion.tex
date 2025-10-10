@@ -21,7 +21,7 @@
 ~
 
 \startcontents[chapters]
-\printcontents[chapters]{}{6}{}
+\printcontents[chapters]{}{6}[3]{}  % [⟨name⟩]{⟨prefix ⟩}{⟨start-level ⟩}[⟨toc-depth⟩]{⟨toc-code⟩}
 \end{singlespace} 
 \vspace*{\fill}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -33,112 +33,114 @@
 \section{Scientific context}
 % what was the question
 Within Earth's climate, the poles are known to be extreme, yet very sensitive regions.
-The Arctic, with its central ocean, partly covered in sea ice and circled by lands of permafrost, is particularly exposed to the changes caused by global warming.
-Being located in the northern hemisphere, makes it share this side of Earth with two thirds of the emerged lands, where nearly \perc{90} of the global population live. This exposes the Arctic to human activities, making it a core topic in geopolitics.
+The Arctic, with its central ocean, partly covered in sea ice and surrounded by lands of permafrost, is particularly vulnerable to the changes caused by global warming.
+Being located in the northern hemisphere, it shares this side of Earth with two thirds of the emerged lands, where nearly \perc{90} of the global population live. This exposes the Arctic to human activities, making it a region of a particular geopolitical importance.
 With a warming rate four times faster than the global average \citep{rantanen_arctic_2022}, the Arctic climate is both a complex and a very interesting system to study. 
-Its particularities of solar exposure, atmospheric stability, temperature and remoteness (presented in \cref{sec:arctic_glimpse}), make it especially difficult to represent in a numerical model.
+Its rare conditions of solar exposition, atmospheric stability, temperature and remoteness (presented in \cref{sec:arctic_glimpse}), make it especially difficult to observe and to represent in a numerical model.
 
 % l'objectif
-The research project presented in this thesis, aimed to fill some of the knowledge gaps that strew our understanding of aerosols capable of forming cloud ice, as well as what we know of their impacts on Arctic clouds.
+The research project presented in this thesis aims to fill some of the knowledge gaps that strained our understanding of aerosols capable of forming cloud ice, as well as their impacts on Arctic clouds.
 % the clouds
-The latter, which are mainly stratiform clouds of low altitude, have in average a net warming effect at the surface, conversely to mid- and low-latitude clouds (c.f. \cref{fig:matus_CRE}).
-They are composed in majority of ice crystals or a mix of ice and liquid droplets (c.f. \cref{fig:matus_cloud_frac}), which makes them especially sensitive to ice nucleating particles (INPs). Compared to cloud condensation nuclei (CCN)\----which are sufficiently abundant to rarely be a limitant factor to cloud formation \citep{storelvmo_aerosol_2017}\----, INPs are scarcer by orders of magnitude, which makes them determinant for the cloud phase partitioning.
+The latter, which are mainly stratiform clouds at low altitudes, have in average a net warming effect at the surface, the opposite of mid- and low-latitude clouds (c.f. \cref{fig:matus_CRE}).
+They are composed in majority of ice crystals or of a mix of ice and supercooled liquid droplets (c.f. \cref{fig:matus_cloud_frac}), which makes them especially sensitive to ice nucleating particles (INPs). Compared to cloud condensation nuclei (CCN)\---which are sufficiently abundant to rarely be a limiting factor to cloud formation \citep{storelvmo_aerosol_2017}\---, INPs are scarcer by several orders of magnitude, which makes them determinant for cloud phase partitioning.
 % the importance of INPs
-A plume of INP can initiate the formation of ice crystals in a cloud, and helped by the Wegener-Bergeron-Findeisen (WBF) effect, causes a radical change in the cloud phase. The associated change in the cloud radiative effect (CRE) would thus affect the whole atmospheric radiative budget \citep{storelvmo_aerosol_2008}.
-The misrepresentation of such effects in atmospheric models is one of the reason for the poor performance of cloud modelling \citep{bony_clouds_2015}. 
+A plume of INP can initiate the formation of ice crystals in a cloud, and helped by the Wegener-Bergeron-Findeisen (WBF) effect, can cause a radical change in the cloud phase. The associated change in the cloud radiative effect (CRE) can thus affect the whole atmospheric radiative budget \citep{storelvmo_aerosol_2008}.
+The misrepresentation of the effects of aerosols in atmospheric models is one of the reason for their poor depiction of clouds  \citep{bony_clouds_2015}. 
 % the knowledge on sources
-The lack of knowledge on Arctic INPs\----what are the species involved and what are their emission sources\----, is one impediment to a better representation of INPs in models \citep{murray_opinion_2021}.
+The lack of knowledge on Arctic INPs\---what are the species involved and what are their emission sources\---, is one impediment to a better representation of INPs in models \citep{murray_opinion_2021}.
 % the knowledge on ice nucleation
-Although the science of ice nucleation has been studied since the 18th century, accurately representing the formation of ice crystals in climate models remains a big challenge. The parametrisations of heterogeneous ice nucleation abound \citep[e.g.][]{fletcher_active_1969,cooper_ice_1986, demott_predicting_2010, li_predicting_2022}, but they are often very specific to a region or to a particle species, which makes difficult their generalisation in climate models.
+Although the science of ice nucleation has been studied since the 18th century, accurately representing the formation of ice crystals in climate models remains a big challenge. Parametrisations of heterogeneous ice nucleation abound \citep[e.g.][]{fletcher_active_1969,cooper_ice_1986, demott_predicting_2010, li_predicting_2022}, but they are often very specific to a region or to a given aerosol population, which makes difficult to generalize their use in climate models.
 Consequently, the models fail at keeping their role of efficient tools for the understanding of atmospheric mechanisms.
 
 In this modelling thesis, I used the Weather Research and Forecasting model (WRF), its version that includes chemistry (WRF-Chem), and the FLEXible PARTicle dispersion model (FLEXPART) to explore these questions. %and eventually them.
-My thesis research project consisted in three main steps: (1)~getting a better understanding of the sources of Arctic INPs, (2)~improving the modelling of particles that have ice nucleation ability and investigating how to accurately predict INP concentrations from them, (3)~linking modelled INPs to the microphysics in order to investigate their effect on clouds properties.
+My thesis research project consisted in three main steps: (1)~getting a better understanding of the sources of Arctic INPs, (2)~improving the modelling of particles that have ice nucleation ability and investigating how to accurately predict INP concentrations from them, (3)~ investigating the effect of INP on cloud properties.
 
 
 % what about the INP sources
 \section{Sources of Arctic INPs}
 % the detection method
-The first project of this thesis was the assessment of the potential source contribution function (PSCF) performances for the retrieval of short-lived atmospheric species.
+The first project of this thesis was the use of back-trajectory modelling to identify the geographical origin of INP observed in the Arctic. In order to achieve this, I started by assessing the performance of back-trajectory methods, and especially of the potential source contribution function (PSCF).
 The PSCF, or ratio method, is an analysis technique of Lagrangian particle dispersion model (LPDM) outputs that enables the identification of the likely emission sources of observed atmospheric species (\cref{P1sec:ratio_method}).
-It is more advanced than single back-trajectory analyses\----which are extensively used in the atmospheric sciences community\----, yet, the assessment of the PSCF performances in retrieving known sources of modelled tracers, revealed that its outputs can give spurious indications.
-Indeed, in order to evaluate the method, we set up, in WRF-Chem, modelled emissions of idealised atmospheric tracers, and interpolated their concentrations as time series all around the Arctic in order to mimic in situ measurements. 
-Then we used FLEXPART-WRF to compute Lagrangian back-trajectories, and finally applied the PSCF (\cref{P1sec:experiment}).
+It is more advanced than single back-trajectory analyses, which are extensively used in the atmospheric sciences community, but it has to our knowledge never been evaluated directly.
+To evaluate the PSCF method, we set up, in WRF-Chem, modelled emissions of idealised atmospheric tracers, and interpolated their concentrations as time series all around the Arctic in order to mimic in situ measurements. 
+Then we used FLEXPART-WRF to compute Lagrangian back-trajectories, and finally applied the PSCF to these simulated measurements (\cref{P1sec:experiment}).
 The emission sources were already known, since they were modelled, which enabled the precise evaluation of the source identification method (\cref{P1sec:evaluation_metric}).
-One of the main advantages of the PSCF is that it allows for the quantification of the sources respective contributions to the measured concentrations. 
-However, the assessment results showed that the outputs of the quantification can be wrong and misleading (\cref{P1sec:standard_method}).
+%XXLM One of the main advantages of the PSCF is that it allows for the quantification of the sources respective contributions to the measured concentrations. 
+However, the assessment results showed that the outputs of the PSCF method can be wrong and misleading, often indicating spurious origins for many species (\cref{P1sec:standard_method}).
 
-On the strength of this finding, and with the assessment set-up that led to it, we conducted sensitivity tests in order to get a reliable source identification method.
-We ended up with the \textit{improved ratio method}, that comprises the standard PSCF protocol with specific parameters and additional treatments (\cref{P1sec:improved_method}).
+In order to construct a new, more precise method that could be used to identify the origin of Arctic short-lived species and especially INP, we conducted sensitivity tests on the parameters of the method.
+We ended up with the \textit{improved ratio method}, that comprises the standard PSCF protocol with new parameters and additional treatments (\cref{P1sec:improved_method}). Specifically, we found it was important (1) to correct the seasonal background in the concentration series, (2) to carefully define the percentile thresholds that identify high and low concentrations in the observation time series, (3) to define thresholds to exclude non-significant back-trajectories from the analysis, and (4) to combine the information of the likely origin of high concentrations given by the PSCF method with the negative of the likely origin of low concentration (where low concentrations in a species are unlikely to come from). Finally, we assessed the limitation of our improved method to better understand its results when applied to real cases.
 \vspace{\baselineskip}
 
 % the analyses of INP
-In possession of a method with known performances, we were ready to undertake the identification of Arctic INPs.
-We used INP concentration data from three recent campaigns (MOCCHA 2018, MOSAiC 2020 and ARTofMELT 2023, \cref{sec:INP_sources}), which comprised time series for different activation temperatures.
+In possession of a method with known performances, we were ready to undertake the identification of the sources of observed Arctic INPs.
+We used INP concentration data from three recent campaigns in the Central Arctic for different years and seasons (MOCCHA 2018, MOSAiC 2020 and ARTofMELT 2023, \cref{sec:INP_sources}), which comprised time series for different activation temperatures.
 The analyses revealed that INPs originate from inside the Arctic region, involving regional transport. 
-Two main regions were highlighted: coasts of the Barents and Laptev seas, and coasts of Greenland, with possible transport from inland Asia.
-These results suggest a predominance of mineral dust particles among the observed INPs, but the study of MOSAiC warm INPs (active at \tempc{-10} and \tempc{-15}), showed possible oceanic sources that themselves suggest the presence of marine organic particles in populations of warm INPs.
-The study of primary biological aerosol particles (PBAPs) origins supported this observation, showing possible oceanic sources from ice free areas of the Arctic Ocean.
-These promising results motivate further use of the improved ratio method for the analysis of future INP datasets. 
+Two main regions were highlighted: the coasts of the Barents and Laptev seas, and coasts of Greenland, with possible transport from inland Asia.
+These results suggest a predominance of mineral dust particles among the observed INPs, but the study of MOSAiC warm INPs (active at \tempc{-10} and \tempc{-15}), showed possible oceanic sources from local biological activity near the coast, that themselves suggest the presence of marine organic particles in populations of warm INPs.
+The study of the origin of observed primary biological aerosol particles (PBAPs) during MOCCHA 2018 supported this conclusion, showing possible oceanic sources from ice free areas of the Arctic Ocean.
+These promising results motivate further use of the improved ratio method for the analysis of past and future INP datasets. 
 
 % what about the INP modelling
 \section{Ice nucleation modelling and INP emissions}
-In \cref{chap4}, we used the knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
-Emissions of high latitude mineral dust (\cref{sec:dust_emiss}), of marine particles organic aerosols (MPOA) from sea sprays (\cref{sec:seaspray_emiss}), and of continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model, reproducing satisfyingly the coarse-mode particles MOCCHA observations.
-The objective was to use the newly modelled particles to reproduce in situ INP concentrations in central Arctic.
-The challenge have been addressed with two approaches.
+In \cref{chap4}, we used this updated knowledge on the INP sources to improve the representation of aerosols particles capable of nucleating ice in WRF-Chem. 
+Emissions of high latitude mineral dust (\cref{sec:dust_emiss}), of marine particles organic aerosols (MPOA) from sea spray (\cref{sec:seaspray_emiss}), and of continental PBAP from fungal spore and bacteria (\cref{sec:pbap_emiss}) were added to the model, satisfyingly reproducing the coarse-mode particles observations from MOCCHA 2018.
+The objective was to use the newly modelled particles to reproduce in situ INP concentrations in the central Arctic during the same campaign.
+This challenge has been addressed with two INP modelling approaches.
 
-The first approach relied on the conversion, by ice nucleation parametrisations, of aerosol particles to INP concentrations, after their transport in the atmosphere.
-Eight different parametrisations were used; among them, three were specific to mineral dust particles, one to sea sprays, two to bacteria, one to fungal spores, and one was general and used all types of coarse-mode particles (\cref{sec:inp_param}).
-In addition to the modelled particles, observations from the MOCCHA 2018 campaign have also been used to feed the parametrisations.
+The first approach relied on the conversion, by ice nucleation parametrisations, of modelled aerosol particles to INP concentrations, after their transport in the atmosphere from their sources to the INP observation point.
+Eight different parametrisations were used; among them, three were specific to mineral dust particles, one to sea spray, two to bacteria, one to fungal spores, and one was general and used all types of coarse-mode particles (\cref{sec:inp_param}).
+In addition to the modelled particles, observations from the MOCCHA 2018 campaign were also used to feed the parametrisations.
 The results showed that it is difficult to reproduce INP variability with modelled particles as input of the parametrisations (\cref{sec:aerosols_to_INP}). Nevertheless, concentration levels were correctly reproduced with the parametrisation that uses the whole coarse-mode \citep{demott_predicting_2010}. %Furthermore, the levels of PBAP particles (bacteria and fungal spores), were
-And when the actual observed concentrations of particles were used to feed the ice nucleation parametrisations, the time variability was much better reproduced.
-The dust parametrisations overestimated the INP concentrations. This is partly explain by the fact the hypothesis was made of a coarse-mode composed of \perc{100} mineral dust particles. Therefore, the resultant overestimated INP concentrations suggested that the coarse-mode of the MOCCHA campaign was not full mineral dust (\cref{sec:first_approach}).
-Concerning the biological particles observed during the campaign, the fluorescent PBAPs (fPBAPs), no parametrisation was able to predict high enough INP level to match the observed INP concentrations.
+When the actual observed concentrations of particles were used to feed the ice nucleation parametrisations, the time variability was much better reproduced.
+The dust parametrisations applied to coarse mode observations overestimated the INP concentrations. This can be explained by the underlying assumption that observed coarse aerosols were composed of \perc{100} mineral dust particles. Therefore, our results, in agreement with other studies on the campaign, indicates that that the coarse-mode of the MOCCHA campaign is not made in majority from mineral dust (\cref{sec:first_approach}).
+Concerning the biological particles observed during the campaign, the fluorescent PBAPs (fPBAPs), no INP parametrisation was able to activate enough of the observed PBAP to reproduce the observed INP concentrations.
 Indeed, the nucleation rate necessary for INPs to be driven by PBAPs is close to \perc{100} at \tempc{-20}.
-From the current range of our knowledge on ice nucleation with PBAPs, the latter can not explain alone the INP concentrations during the campaign.
-The fact fPBAPs are well correlated with the INP measurements suggests two things: (1)~fPBAPs are transported with other types of particles capable of ice nucleation, (2)~fPBAPs observations underestimate the actual fPBAPs concentrations as suggested by the levels of modelled PBAPs (\cref{sec:aerosols_to_INP}).
+From the current range of our knowledge on ice nucleation with PBAPs, the latter can not explain alone the INP concentrations observed during the campaign.
+The fact fPBAPs are well correlated with the INP measurements suggests two things: (1)~fPBAPs are transported along with other types of particles capable of ice nucleation, (2)~fPBAPs observations underestimate the actual fPBAPs concentrations.% as suggested by the levels of modelled PBAPs (\cref{sec:aerosols_to_INP}). %XXLM c'est vrai si tu utilses uniquement les PBAP continentaux ou bien tu inclus la dedans tous les MPOA ? Dans ce dernier cas je pense que ce n'est pas exact parce qu'une fraction seulement des MPOA est des PBAP, et on ne connait pas cette fraction. Si c'est le cas tu peux enlever après as suggested
 
-The second approach consisted in the emission of INP tracers from emissions of aerosols particles considered as potential INPs.
-With ice nucleation parametrisations suited to the particle species, the latter was converted into INPs in five temperature bins, from \tempc{-5} to \tempc{-25}. 
+The second novel approach consisted in the direct emission and ageing of INP tracers from emissions of aerosols particles considered as potential INPs.
+With ice nucleation parametrisations suited to the particle species (dust, PBAP, MPOA), the aerosol emission flux was converted into an INP emission flux in five temperature bins, from \tempc{-5} to \tempc{-25}. 
 The INP tracers where then transported in the modelled atmosphere, subject to wet and dry deposition, as well as in-cloud removal by activation (\cref{sec:method_inp_emission}).
-This last process was the main mechanism that was missing in the first approach, in order to faithfully reproduce the INP nucleation history.
-The INP tracers were used to get insights on the spatial distribution of warm to colder INPs. Namely, it enabled the identification of zones where homogeneous nucleation can happen; paving the way for new implementation of INP-cloud interactions.
+This last process was the main mechanism that was missing in the first approach, in order to faithfully reproduce the INP nucleation history and the fact that efficient warm INPs are preferentially removed in cold clouds.
+These INP tracers were used to get insights on the spatial distribution of warm to colder INPs. Namely, it enabled the identification of zones where homogeneous nucleation can happen; paving the way for new implementation of INP-cloud interactions.
 
 Interpolating the INP tracers concentrations at the location of the MOCCHA and MOSAiC campaigns made possible their comparison with INP observations (\cref{sec:second_approach}).
-The variability was better reproduced than what was obtained with the first approach.
-The general levels were consistent with the observed INP concentrations and better than those of the first approach.
-These results provided confidence in the INP tracers modelling set-up, which made us use it further in the next chapter, in an attempt to link INPs to the cloud microphysics for a better understanding of INP impacts on clouds properties. 
+The variability range was better reproduced than what was obtained with the first approach, although the exact time variability of the observations could not be reproduced precisely.
+The average orders of magnitude were consistent with the observed INP concentrations and better than those of the first approach.
+These results provide confidence in this second approach of direct INP tracer modelling, and for this reason it was used further in the next chapter, to link INPs to the cloud microphysics for a better understanding of INP impacts on the properties of Arctic clouds. 
 
 % what about the microphysics
 \section{Adapting microphysics to better INP representation}
-The last step of my research project presented in this thesis was the investigation of INP effects on Arctic cloud,  with modelling tools (\cref{chap5}).
-I used the advances made in \cref{chap4} on INP modelling to modify the model microphysics. 
-With two simulation configurations based on the Thompson aerosol-aware microphysics scheme \citep{thompson_study_2014}, the effects of INPs on cloud properties were quantified by the comparison of a control simulation (INPs produced by the \citet{cooper_ice_1986} parametrisation, or C86) and a test simulation (with INP driven by the tracers of \cref{chap4}) labelled INP-mp.  
+The last step of my research project presented in this thesis was the investigation of the effects of INPs on Arctic clouds,  using the WRF-Chem regional atmospheric model (\cref{chap5}).
+I used the advances made in \cref{chap4} on INP modelling to modify the model microphysics, using the predicted INP concentrations directly in the modelling of the immersion freezing of supercooled cloud droplets and the deposition mode nucleation of ice crystals. 
+With two simulation configurations based on the Thompson aerosol-aware microphysics scheme \citep{thompson_study_2014}, the effects of using accurate Arctic INPs on cloud properties were quantified by the comparison of a control simulation (INPs produced by the \citet{cooper_ice_1986} parametrisation, or C86) and a test simulation (with INP driven by the tracers of \cref{chap4}).  %XXLM retiré la mention de INP-mp, trop technique pour une conclusion selon moi
 
 % the limits of the study
 
 % the results
-The first comparison was conducted concerned the concentrations of active INPs. Indeed, the INP tracers developed in \cref{chap4} are not directly comparable with the INP concentrations produced by temperature-driven parametrisation, like C86 that was used in the control simulation.
-The outputs of C86 already contain the constraint on temperature for INP activation, thus providing active INP concentrations. Conversely, INP tracers are dynamically transported particles that have the potential of being implicated in heterogeneous ice nucleation events. Their activation relies on temperature conditions that depend on their nature.
-Consequently, the concentrations of active INPs from the tracers depended on both particles emission and transport, and temperature for activation.
-Once the temperature conditions applied on the INP tracers, the obtained concentrations were comparable with the outputs of C86.
-The comparison showed that the more physical approach of the INP-mp simulation produces orders of magnitude less active INPs than the control simulation with C86.
-The latter tends to predict high concentrations in places remote from particles sources, just on the bases of low temperatures.
-On the other hand, INP-mp concentrations were much lower, but because the additional information on particles transport was integrated, the spatial distribution was less homogeneous, and likely more realistic.
-Indeed, by assuming the validity of \cref{chap4} about the INP tracers, and the correct diagnostic of temperatures by the model, the active INP concentrations of the INP-mp set-up should be a better representation of the Arctic INP overview than what provided the control simulation.
+%XXLM trop détaillé pour une conclusion, j'ai simplifié
+The first comparison conducted concerned the concentrations of active INPs in the two set-ups.
+%Indeed, the INP tracers developed in \cref{chap4} are not directly comparable with the INP concentrations produced by temperature-driven parametrisation, like C86 that was used in the control simulation.
+%The outputs of C86 already contain the constraint on temperature for INP activation, thus providing active INP concentrations. Conversely, INP tracers are dynamically transported particles that have the potential of being implicated in heterogeneous ice nucleation events. Their activation relies on temperature conditions that depend on their nature.
+%Consequently, the concentrations of active INPs from the tracers depended on both particles emission and transport, and temperature for activation.
+%Once the temperature conditions applied on the INP tracers, the obtained concentrations were comparable with the outputs of C86.
+The comparison showed that the more physical approach of the new INP tracer simulation produces orders of magnitude less active INPs than the control simulation with C86.
+The C86 parametrisation tends to predict high concentrations over sea ice and Greenland because of low temperatures, even though these areas are far away from sources of particle potentially active as INPs.
+On the other hand, INP concentrations were much lower in the updated INP tracer run. Since the additional information on INP transport and removal was integrated, the spatial distribution was less homogeneous, and likely more realistic.
+Indeed, by assuming the validity of \cref{chap4} about the INP tracers, and the correct diagnostic of temperatures by the model, the active INP concentrations of the INP-mp set-up should be a better representation of Arctic INPs than what provided the control simulation.
 
 Then, the cloud properties derived from the two simulation set-ups were compared.
-It resulted an important decrease of cloud cover in the INP-mp set-up.
-The influence of the sea ice pack on temperature, on which strongly depend the control set-up, was striking.
-Comparing the ice water path (IWP) showed a general increase, but a local decrease over Greenland and its northern coasts.
-Concerning liquid water path (IWP), a strong decrease was observed over Greenland and the whole region of sea ice.
-Both effects are hardly understandable within a physical perspective, considering the strong decrease in active INP concentrations. We thus concluded on modelling causes relative to the behaviour of the microphysics scheme with low INP concentrations.
+In the new setup, using realistic INP tracers and lower INP concentrations, resulted in an unexpected large decrease of cloud cover.
+The difference is the strongest over the sea ice pack, where C86 is likely to overestimate INPs based on its temperature dependency
+The ice water path (IWP) showed a general increase, but a local decrease over Greenland and its northern coasts.
+Concerning liquid water path (LWP), a strong decrease was observed over Greenland and the whole sea ice region.
+Both effects need to be investigated in more details within a physical perspective, considering the strong decrease in active INP concentrations. We thus concluded that it is likely that these results could be due to limitations in the microphysical model, which is unable to predict ice cloud processes with such low INP concentrations.
 % the effects on radiations
 
-The next steps will be to delve more deeply into the mechanisms behind the microphysics scheme, in order to set up a functional tool for the investigation of the Arctic cloud sensitivity to INPs.
-Moving the simulation period on a case study fro which observational data are available will make possible the evaluation of both the control and test simulations, providing valuable insights on the direction followed by our modelling approach.
-Finally, this study set-up will allow for a detailed investigation of the cloud phase partitioning and associated radiative impacts, crux of the thesis project of PhD students of my working team. 
+The next steps will be to confirm this, and delve more deeply into these mechanisms in the microphysics scheme in order to improve them to set up a functional tool for the investigation of the Arctic cloud sensitivity to INPs.
+Simulating additional time periods for which observational data are available will make possible the evaluation of both the control and test simulations, providing valuable insights on the direction followed by our modelling approach.
+Finally, this study set-up will allow for a detailed investigation of the cloud phase partitioning and associated radiative impacts, crux of the thesis projects of other ongoing PhD work in my team at LATMOS. 
 
 \vspace{\baselineskip}
 The present thesis had to be concluded before this study could be brought to completion; nevertheless, it has opened the way for several promising avenues of research that are already being pursued.
@@ -169,35 +171,36 @@ The perspectives arising from this PhD work can be classified into three categor
 \textbf{Continuation}\\
 The improved ratio method for the identification of particle emission sources presented in \cref{chap3} calls to be used with more INP datasets.
 In my analysis of INP sources, I did not make use of the entire MOSAiC 2020 campaign, focusing only on the cold season. 
-Understanding the sources of the INP in spring and summer would be important to unveil the nature of warm season INPs. 
-It would also complete the results of the MOCCHA 2018 campaign analysis, and the comparison with the winter sources would give important insights on the seasonality of Arctic INP sources.
+Understanding the sources of the INP in spring and summer would be important to unveil the nature of warm-season INPs. 
+It would also complement the results of the MOCCHA 2018 campaign analysis, and the comparison with the winter sources would give important insights on the seasonality of Arctic INP sources.
 
-Beyond data from ice breakers campaigns, the development of more systematic long duration INP measurements with consistent instrumentation sets the conditions for better sources detection.
-For example, the Portable Ice Nucleation Experiment (PINE) worldwide developing network is very promising \citep{mohler_portable_2021}. PINE is an automated and portable instrument that measures INP concentrations. Since a few years, it has been installed in many research stations around the world, including high latitudes.
-The use of long duration measurements with backward modelling source retrieval methods would enable the collection of unprecedented information on INP sources seasonal variability. 
-The application of the ratio method on a network of simultaneous measurements performed with the same instrument would be a world first in the study of INP sources.
+Beyond data from ice breakers campaigns, the development of more systematic long duration INP measurements with consistent instrumentation sets the conditions for better source detection.
+For example, the Portable Ice Nucleation Experiment (PINE) worldwide developing network is very promising \citep{mohler_portable_2021}. PINE is an automated and portable instrument that measures INP concentrations. Since a few years, it has been installed in many research stations around the world, including at high latitudes.
+The use of long duration measurements with backward modelling source retrieval methods would enable the collection of unprecedented information on INP sources and their seasonal variability. 
+The application of the new ratio method  developed in this thesis on a network of simultaneous measurements performed with the same instrument would be a world first in the study of INP sources.
 
 % tara
-On longer time scales, the Tara Polar Station project\footnote{More information about the project can be found on the Tara foundation website: \url{https://fondationtaraocean.org/goelette/tara-polar-station/}.} was launch this years with the objective of ten missions of eighteen months each.
+On longer time scales, the Tara Polar Station project\footnote{More information about the project can be found on the Tara foundation website: \url{https://fondationtaraocean.org/goelette/tara-polar-station/}.} was launched this year with the objective of ten missions of eighteen months each in the central Arctic Ocean.
 It will provide INP concentrations measured across the Arctic Ocean over twenty years, giving insights on their spatial and temporal evolutions within the scales of global warming. These expeditions will enable hitherto unseen data for the detection of INP sources.
 \vspace{\baselineskip}
 
 \textbf{Further exploration}\\
 % pousser sur l'origine des nuages
-The two side-studies presented in \cref{sec:other_applications} showed the potential of the ratio method in being adapted and applied in various conditions.  
+The two side-studies presented in \cref{sec:other_applications} showed the potential of our new ratio method in being adapted and applied in various conditions.  
 The study on the origins of cloudy air masses encourages further investigations by raising questions: is it relevant to categorise clouds by their origins? Is cloud phase dependant on air mass origin? Are mixed-phase clouds originating from particular transport patterns?
 
 % Understanding further what sources are important for Arctic INP.
 In \cref{chap4}, we set up updated simulated particles emissions with the objective of improving the INP modelling, but we did not use it in order to test the sensitivity of INPs to specific particle species.
-By switching on and off the different species that contribute to the INP tracers concentrations (\cref{sec:second_approach}), it would be possible to quantify the contribution of each sources to the INP populations, getting information about the impact on the spatial repartition and on the temperature spectrum repartition.
+By switching on and off the different species that contribute to the INP tracers concentrations (\cref{sec:second_approach}), it would be possible to quantify the contribution of each sources to the INP populations, getting information about their impact on the spatial repartition and on the temperature spectrum repartition.
 It motivates more simulation experiments, which could fit in a stand-alone study.
 
 % improve the high latitude dust sources since they have been detected as important INP sources.
 A misalignment of this thesis stood between the results of \cref{chap3} and the set-up of \cref{chap4}. In \cref{sec:artofmelt_sources}, coasts of Greenland were shown to be intense sources of INPs; their topography and soil characteristics suggesting mineral dust emissions. 
-However, in \cref{sec:dust_emiss}, the work on which we base the mineral dust emissions do not account for these Greenland sources. 
-Consequently, the mineral dust emissions used for our INP tracers lack of these sources.
-An important next step in INP modelling, would thus be the implementation of the Greenland sources among the model particles emissions.
-Within the framework of the previous paragraph, it would be a great added value.
+However, in \cref{sec:dust_emiss}, the work on which we base the mineral dust emissions could not account for most of these Greenland sources. This is due to limitations in the land-use classification used in the WRF-Chem model which does not accurately represent the repartition of bare soil in this rapidly changing region.
+%Consequently, the mineral dust emissions used for our INP tracers lacks these sources.
+An important next step in INP modelling, would thus be the improved implementation of the Greenland sources among the model particles emissions.
+Similarly, emissions of marine organic aerosols and continental organics in this study used relatively simple parametrisations. In future work, more up-to-date representations could be used or new parametrisations could be created using the wealth of new observations in the Arctic, to better represent these local sources of warm INPs.
+%Within the framework of the previous paragraph, it would be a great added value.
 
 % continue to investigate chap5 within a full study with Yaël.
 As mentioned several times already, the study of \cref{chap5} is meant to be continued. The remaining questions about the implementation of realistic INP concentrations within an aerosol-aware microphysics scheme, as well as the knowledge gaps on the representation of the impact of INPs on clouds regional climate, will be addressed by the ongoing work started in my thesis.
@@ -206,19 +209,18 @@ As mentioned several times already, the study of \cref{chap5} is meant to be con
 
 \textbf{Remaining general questions}\\
 % Retroaction with the climate (pivot question),if there is one, what is its sign?
-Finally, there remain broader questions that this thesis has not addressed, but for which it has set the stage.
-In the first chapter (\cref{sec:general_plan}), was announced a pivot question, around which the studies led during my PhD articulated.
-It was about the possible causal relationship between the INP emissions, their impact on clouds, and thereby on regional climate. 
-% what the work showed
-My work showed that a link exists between aerosols emissions, INP populations in the Arctic, and cloud properties, with possible strong implications for clouds in central Arctic. 
-The advances on the understanding of Arctic INP sources gave insights on their sensitivity to climate change.
+Finally, there remains broader questions that this thesis has not addressed, but for which it has set the stage.
+In the first chapter (\cref{sec:general_plan}), a pivot question was announced, around which the studies led during my PhD articulated.
+It was about the possible causal relationship between the INP emissions, their impact on clouds, and the evolution of the Arctic climate.  % what the work showed
+My work showed that a link exists between aerosols emissions, INP populations in the Arctic, and cloud properties, with possible strong implications for clouds in the central Arctic. 
+The advances on the understanding of Arctic INP sources gave insights on their sensitivity to climate change. With continued warming and snow and sea ice retreat, it is likely that all of the local sources of INP investigated in this thesis will be more intense in the future.
 % what is missing
 Nevertheless, the sign of the INP impacts on regional climate remain unknown, as well as the future evolution of INP emissions.
 The study presented in \cref{chap5} is still an ongoing work which necessitates further investigations in order to draw solid conclusions.
 % other thesis
-I will continue this research along with my LATMOS fellow PhD student, Yaël Legars, who's thesis project consists in improving the representation of phase partition and radiative effect of Arctic mixed-phase clouds.
-Our results may fuel the work of Lucas Giboni, fellow PhD student at Institut des Geosciences de l'Environnement (IGE) in Grenoble.
-His thesis focuses on the evolution of aerosol-cloud interactions within the framework of the rapidly changing Arctic climate.
+I will continue this research along with my fellow LATMOS PhD student, Yaël Legars, who's thesis project consists in improving the representation of phase partition and radiative effect of Arctic mixed-phase clouds.
+Our results will also fuel the work of Lucas Giboni, fellow PhD student at Institut des Geosciences de l'Environnement (IGE) in Grenoble and co-supervised by LATMOS.
+His thesis focuses on understanding the radiative forcing of aerosol-cloud interactions within the framework of the rapidly changing Arctic climate.
 % recall of the remaining question 
 His work will contribute to a better understanding of the retroaction loop of aerosol particles and their effect on climate through their impact on clouds: do Arctic aerosol-cloud interaction warm or cool the regional climate, and what is the associated impact on aerosol emissions?
 \vspace{\baselineskip}
@@ -226,16 +228,58 @@ His work will contribute to a better understanding of the retroaction loop of ae
 % what is the role of SIP processes compared to primary formation?
 Other questions were raised in the presentation of my research work, even though they were not in the scope of the thesis.
 Among them, how do secondary ice production (SIP) and primary ice production (PIP) compare in their importance for cloud formation and evolution in the Arctic?
-In my thesis, we focused on PIP processes, but SIP are suspected to be of great importance in mixed-phase cloud physics \citep{zhao_global_2021, zhao_primary_2022}.
+In my thesis, we focused on PIP processes, but SIP are suspected to be of great importance in mixed-phase cloud physics \citep{sotiropoulou_impact_2020, zhao_global_2021, zhao_primary_2022}.
+%XXLM  Sotiropoulou, G., Sullivan, S., Savre, J., Lloyd, G., Lachlan-Cope, T., Ekman, A. M. L., and Nenes, A.: The impact of secondary ice production on Arctic stratocumulus, Atmos. Chem. Phys., 20, 1301–1316, https://doi.org/10.5194/acp-20-1301-2020, 2020. 
 
 %Herein above, we focused on PIP 
 Naturally, the study of the Arctic climate feeds interrogations about the Antarctic. Although we know that INPs are much scarcer in the Austral hemisphere \citep{xu_characteristics_2023}, questions remain on their sources, transport, seasonality, effect on clouds, and evolution in a warming and thawing Antarctica. 
 %are CCN driving Antarctic cloud microphysics?
-This thesis work provided some of the foundations for investigating these research questions.
+This thesis provided some of the foundations for investigating these research questions.
 
 
 % Réouverture sur un sujet plus large, et phrase de fin engagée mais tout de même en lien avec le sujet central de la thèse.
 \todo{Réouverture conclusive}
+
+
+
+
+% --- Questions and answer box
+\newpage
+\begin{table}
+    \boxQA{Modelling Arctic ice nucleating particles}{
+
+        \vspace{3mm}
+        \centering
+        \begin{tabular}{m{0.37\textwidth}|m{0.57\textwidth}}
+            \textbf{Original question} & \textbf{Thesis answer} \\
+            \midrule
+            Which tools are required for the identification of aerosols particles emission sources? & Backward Lagrangian modelling in association with measurement time series (in situ, airborne or satellite) and analysed with the improved ratio methodology, enables the reliable identification of INP emission sources, which can successfully be applied to other types of atmospheric compounds (\cref{chap3}).\\
+        \midrule
+            What are the emission sources of Arctic INPs? & INPs observed in the central Arctic are likely to originate from inside the Arctic region, with possible transport from inland Asia. Two main regions have been identified: the Russian coasts of the Barents and Laptev seas, and the coasts of Greenland (\cref{chap3}). \\
+        \midrule
+            What are the important aerosol species for the ice nucleation of Arctic clouds? & The main INP sources suggest a predominance of dust particles in the Arctic, but the study of MOSAiC INPs active at higher temperature (\tempc{-10} and \tempc{-15}), has shown possible oceanic sources that suggest the presence of marine organic particles in populations of warm INPs (\cref{chap3}). \\
+        \midrule
+            How do the different ice nucleation representations compare in a regional model? & Modelled organic particles used with adequate ice nucleation parametrisations give plausible INP concentrations.
+            Measured concentrations of fPBAP converted into INPs with ice nucleation parametrisations give too low INP levels in order to support the hypothesis of PBAP-driven INPs (\cref{chap4}). \\
+        \midrule
+            Is it possible to use a general parametrisation for Arctic INPs? & It is, but is likely to give spurious results, especially with temperature-dependent parametrisations (\cref{chap5}). \\
+        \midrule
+            Is it possible to faithfully model INPs in the Arctic with our current knowledge, and how to do it? & Emission of INP tracers is an efficient approach to reproduce consistent levels of INP concentrations. 
+            Concentrations of $10^{-1} \si{\per\liter}$ are rare in central Arctic for INP active at temperatures warmer than \tempc{-20} (\cref{chap4}).
+            Once integrated with the microphysics it predicts lower concentrations than general parametrisations, especially in the remotest regions of the Arctic (\cref{chap5}). \\
+        \midrule
+            Is the presence of INPs in the Arctic important for the formation of clouds and for the modification of their properties? & The modelled clouds can be very sensitive to how INPs are represented. The way microphysics schemes handle INP can induce dramatic impacts on cloud fraction and cloud phase (\cref{chap5}). \\
+        \midrule
+    %What is the role of INP modelling in the Arctic clouds representation in models? (\cref{chap5})
+    %    \midrule
+            Is there a relevant effect of INPs on the Arctic radiative budget through their interactions with clouds? & The conducted work was not able to provide a reliable answer to this question. However, the suggested impact of INPs on cloud induces an important change of the cloud radiative budget at the surface (\cref{chap5}).
+        \end{tabular}
+    }
+\end{table}
+
+
+
+
 
 \newpage
 \stopcontents[chapters]

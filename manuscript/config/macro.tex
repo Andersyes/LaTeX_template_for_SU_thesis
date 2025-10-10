@@ -130,9 +130,9 @@
                       width=0.9\textwidth,
                       arc=3mm, auto outer arc,
                      ]
-        \textbf{\textsc{Opening questions} $\vert$ #1}
+        \textbf{\textsc{Opening Questions} $\vert$ #1}
         \vspace{0.2cm}
-        \addcontentsline{toc}{subparagraph}{\scriptsize \textit{Opening questions: #1}}
+        \addcontentsline{toc}{subsection}{\textsc{→ Opening Questions} Box: #1}
     #2
     \end{tcolorbox}
 \end{center}
@@ -147,10 +147,27 @@
                       width=0.9\textwidth,
                       arc=2mm, auto outer arc,
                      ]
-        \textbf{\textsc{Key results} $\vert$ #1}
+        \textbf{\textsc{Key Results} $\vert$ #1}
         \vspace{0.2cm}
-        \addcontentsline{toc}{subparagraph}{\scriptsize \textit{Opening questions: #1}}
+        \addcontentsline{toc}{subsection}{\textsc{→ Key Results} Box: #1}
     #2
+    \end{tcolorbox}
+\end{center}
+}                                                                                                                                   
+% setting of box QA (questions and answers) 
+\newcommand{\boxQA}[2]{%
+\stepcounter{counterboxspe}
+\noindent
+\begin{center}
+    \begin{tcolorbox}[colback=white,
+                      colframe=chapcolor,
+                      width=1\textwidth,
+                      arc=2mm, auto outer arc,
+                     ]
+        \textbf{\textsc{Questions \& Answers} $\vert$ #1}
+        \vspace{0.2cm}
+        \addcontentsline{toc}{subsection}{\textsc{→ Questions \& Answers} Box: #1}
+        {\fontsize{11}{14}\selectfont #2}
     \end{tcolorbox}
 \end{center}
 }                                                                                                                                   
@@ -164,7 +181,7 @@
 \setlength{\parskip}{0.1cm}
 \vspace{0.2cm}
 \textbf{Box \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 $\vert$ #2}
-\addcontentsline{toc}{subparagraph}{\scriptsize \textit{Box \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 - #2}}
+\addcontentsline{toc}{subsection}{\scriptsize \textit{Box \uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.#1 - #2}}
 \vspace{0.2cm}
 \newline
 #3
