@@ -63,7 +63,7 @@ They split in two categories: Regional Climate Models (RCMs) and Lagrangian part
 
 RCMs differ from Global Climate Models (GCMs) by the spatial and temporal scales of their simulations. As the name suggests, a GCM aims to model the climate of a whole planet\footnote{Not necessarily the Earth; GCMs are used to model other planets.}. A great example of GCM use is the Climate Model Intercomparison Project (CMIP), from which are issued the IPCC climate projections (c.f. \cref{sec:expected_evolution}). In CMIP, GCMs from all over the world run the same simulation set-up (domain, resolution, start and end date, radiative forcing scenarios) that extends over multiple decades, or even centuries. Their outputs are then compared in order to get uncertainty ranges of the modelled climate evolution which resulted from the simulations.
 GCMs can be coupled atmospheric, oceanic and land numerical models, in this case they are called Earth System Models (ESM).
-RCMs are rather used on shorter timescales (typically days to months), and cover parts of the globe, from tens of kilometres to thousands. Unlike the GCMs, RCMs can run on far finer grid resolutions. While a high GCM horizontal resolution is \SI{100}{km}, RCMs can go down to \SI{1}{km}. This enables them to better represent small scale processes such as clouds, precipitation, extreme weather, or the climate of coastal regions, mountains, and urban areas
+RCMs are rather used on shorter timescales (typically days to months), and cover parts of the globe, from tens of kilometres to thousands. Unlike the GCMs, RCMs can run on far finer grid resolutions. While a high GCM horizontal resolution is \SI{100}{km}, RCMs can go down to \SI{1}{km}. This enables them to better represent small scale processes such as clouds, precipitation, extreme weather, or the climate of coastal regions, mountains, and urban areas.
 
 A subtype of GCMs and RCMs is the Chemistry Transport Model (CTM) class. CTMs focus on the simulation of transport, chemical transformation, and removal (by deposition or scavenging) of atmospheric trace gases and aerosols. They often run offline, that is taking meteorological fields from another model without interacting with it, like the base version of the Goddard Earth Observing System with chemistry (GEOS-Chem), or the regional model CHIMERE. %XXLM remplacé MOZART qui est un modèle qui n'est plus utilisé, remplacé par CAM qui n''est pas en général offline. GEOS-Chem est plutôt un modèle offline même s'il existe des versions online, mais c'est aussi le cas de CHIMERE !
 They differ from others models that are coupled with meteorology, like the Community Atmosphere Model with Chemistry (CAM-chem), or the Weather Research and Forecasting model including chemistry (WRF-Chem, see \cref{sec:wrfchem}).
@@ -84,11 +84,11 @@ In this section, will be described the set-up of a RCM (WRF, \cref{sec:wrf}), of
 
 \begin{table}[ht!]
     \centering
-    \begin{tabular}{ll}
+    \begin{tabular}{m{0.44\textwidth}m{0.53\textwidth}}
     \toprule
     \textbf{Physics and Meteorology}  &  \textbf{Option used} \\
     \midrule 
-    Planetary boundary layer / Surface layer & MYNN level 2.5 TKE scheme \citep{nakanishi_development_2009} \\
+    Planetary boundary layer/Surface layer & MYNN level 2.5 TKE scheme \citep{nakanishi_development_2009} \\
     Land surface model & Noah LSM \citep{tewari_implementation_2004} \\
     Microphysics & Morrison \citep{morrison_impact_2009} \\
     Cumulus & Grell-3 \citep{grell_generalized_2002} \\
@@ -123,7 +123,7 @@ In this section, will be described the set-up of a RCM (WRF, \cref{sec:wrf}), of
     WRF-Chem-specific chemistry and aerosol options are also described in \cref{tab:wrf-chem_set-up}. %XXLM on n'a finalement pas utilisé la chimie MOZART dans ta thèse, uniquement GOCART dans les résultats présentés
     The main sources of INP at the global scale are thought to be mineral dust and primary organic aerosols. Since these species are usually represented as chemically inert in models, and to save computing resources, we used a model set-up without explicit gas-phase chemistry or trace gases. Aerosols are represented by the simple GOCART model, which includes mineral dust (5 size bins), sea spray (4 size bins), organic and black carbon (2 tracers each, hydrophilic and hydrophobic), and ammonium sulfate \citep{chin_atmospheric_2000}. For this work, I also added new aerosol tracers to GOCART for primary biological aerosol particles thought to be important for INP, fungal spores and bacteria, described in Chap.~\ref{chap4}.
     Emissions of mineral dust are calculated online following \citet{ginoux_long-term_2004}, and emissions of sea spray following \citet{ioannidis_modelling_2023}.
-    New emissions of fungal spores and bacteria developed in this thesis are also calculated online, as in citet{chatziparaschos_assessing_2025}. Specifically, emissions of fungal spores are calculated as a function of temperature and leaf area index \citep{hummel_regional-scale_2015} and bacteria as a constant flux depending only on land surface type as in \citet{burrows_bacteria_2009}.
+    New emissions of fungal spores and bacteria developed in this thesis are also calculated online, as in \citet{chatziparaschos_assessing_2025}. Specifically, emissions of fungal spores are calculated as a function of temperature and leaf area index \citep{hummel_regional-scale_2015} and bacteria as a constant flux depending only on land surface type as in \citet{burrows_bacteria_2009}.
     Anthropogenic and biomass burning aerosols are emitted based on the offline inventories of ECLIPSEv6 \citep{klimont_global_2024} and FINNv1.5 \citep{wiedinmyer_global_2014} respectively, but fire emissions injection heights are calculate online according to \citet{freitas_including_2007}.
     Dry and wet deposition were not included in the base version of the GOCART model within WRF-Chem, but were included recently in the version developed at LATMOS and used in this thesis (\url{https://github.com/Regional-Modeling-LATMOS-IGE/WRF-Chem-Polar}), following \citet{emerson_revisiting_2020} for dry deposition and \citet{luo_further_2020} for wet removal.
  
@@ -133,12 +133,12 @@ In this section, will be described the set-up of a RCM (WRF, \cref{sec:wrf}), of
 
 \begin{table}[ht!]
     \centering
-    \begin{tabular}{ll}
+    \begin{tabular}{m{0.42\textwidth}m{0.50\textwidth}}
     \toprule
     \textbf{Option name}  &  \textbf{Option used} \\
     \midrule 
     \textbf{Physics and Meteorology}  &  \\
-    Planetary boundary layer / Surface layer & MYNN level 2.5 TKE scheme / MYNN \citep{nakanishi_development_2009} \\
+    Planetary boundary layer/Surface layer & MYNN level 2.5 TKE scheme \citep{nakanishi_development_2009} \\
     Land surface model & Noah LSM \citep{tewari_implementation_2004} \\
     Microphysics & Thompson \citep{thompson_study_2014} \\
     Cumulus & Grell-3 \citep{grell_generalized_2002} \\
@@ -288,13 +288,15 @@ where $f_{\text{ice}}$ is the fraction of frozen droplets observed at temperatur
 These data\---i.e., the air concentration of INPs active at a given temperature $T$\---are expressed in particles per liter.
 
 The exact formula and protocol can differ from a study to another, but this illustrates the general principle of derived INP concentration measurements.
+\vspace{\baselineskip}
 
+% liaison
+In the following, the tools and techniques presented in this chapter will be used to investigate the questions introduced in the first chapter. 
+When needed, precisions on model set-up will be provided by relying on this chapter.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\subsection*{Acknowledgements to observers} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%I would like to acknowledge all the people who made the observations that I used during my PhD.
-%Their commitment to 
+\newpage
+\mbox{}
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \stopcontents[chapters]

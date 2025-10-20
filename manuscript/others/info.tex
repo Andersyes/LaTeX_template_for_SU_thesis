@@ -30,48 +30,51 @@
 % entre 1700 et 4000 signes ? 
 \frabstract{
 \hspace*{0.5cm} 
-Les noyaux glaçogènes (\textit{Ice Nucleating Particles} en anglais, INP) sont des particules d’aérosols capables de facilité la formation hétérogène de cristaux de glace dans les nuages.
-En Arctique \---- où le réchauffement climatique est environ quatre fois plus rapide que la moyenne globale \---- les nuages contenant de la glace dominent l’atmosphère. 
-En particulier, les nuages en phase mixte, c’est-à-dire composés à la fois de phases liquide et solide, y sont fréquents.
-Lors de la modélisation du climat arctique, les erreurs dans la représentation du partitionnement de phase des nuages affectent fortement la précision des modèles, car la phase des nuages influence le bilan radiatif, les précipitations et la durée de vie des nuages.
-Ces propriétés dépendent des interactions entre aérosols et nuages, dont la représentation reste limitée dans les modèles en raison de la connaissance encore restreinte \---- bien que croissante \---- des noyaux glaçogènes.
-Les principales questions ouvertes concernent l’identification des espèces de noyaux glaçogènes pertinentes en Arctique, leurs sources ainsi que leur efficacité à initier la nucléation de la glace ; autant d’enjeux qui continuent à freiner les progrès de la modélisation des nuages arctiques.
+Les noyaux glaçogènes (INP, pour \textit{Ice Nucleating Particles}) sont des particules d’aérosols capables de favoriser la formation de cristaux de glace dans les nuages.  
+En Arctique \--- où le réchauffement climatique est environ quatre fois plus rapide que la moyenne globale \--- les nuages contenant de la glace dominent l’atmosphère.  
+En particulier, les nuages en phase mixte (c’est-à-dire composés à la fois de phases liquide et solide) y sont fréquents.  
+Dans la modélisation du climat arctique, les erreurs liées à la représentation de la répartition des phases nuageuses affectent fortement la précision des modèles, car la phase nuageuse influence le bilan radiatif, les précipitations et la durée de vie des nuages. Ces propriétés dépendent des interactions aerosol-nuage, dont la représentation dans les modèles demeure limitée par la connaissance encore restreinte \--- bien qu’en progression \--- des INP.  
+Les principales questions ouvertes concernent l’identification des espèces d’INP pertinentes en Arctique, leurs sources, leur efficacité à initier la glace ainsi que leur influence sur les nuages et le bilan radiatif. Autant d’inconnues qui persistent à freiner l’amélioration de la modélisation du climat arctique.
 
-Dans cette thèse, j’aborde le rôle des noyaux glaçogènes dans les interactions aérosols-nuages arctiques et leur impact sur les propriétés nuageuses, en trois étapes.
-Premièrement, je développe, évalue et applique une méthodologie d’identification des sources d’émission de noyaux glaçogènes, fondée sur le modèle lagrangien FLEXPART-WRF, combiné à des observations. Cette approche permet d’apporter un éclairage nouveau sur l’origine et la nature des espèces contribuant aux concentrations de noyaux glaçogènes mesurées au cours de campagnes récentes.
-Deuxièmement, j’implémente de nouvelles sources d’aérosols de hautes latitudes dans le modèle régional WRF-Chem, que j’utilise conjointement avec des paramétrisations de la nucléation hétérogène de la glace pour représenter la dynamique des populations de noyaux glaçogènes en Arctique.
-Enfin, après avoir comparé les concentrations simulées aux observations, je les couple au schéma de microphysique de WRF-Chem afin d’examiner leur effet sur les nuages arctiques.
+Dans cette thèse, j’aborde le rôle des INP dans les interactions aérosol-nuage en Arctique et leur impact sur les propriétés nuageuses, en trois étapes.  
+Premièrement, je développe, évalue et applique une nouvelle méthodologie d’identification des sources d’émission d’INP, fondée sur le modèle lagrangien FLEXPART-WRF et combinée à des données d’observation.  
+J’utilise ensuite cette méthode pour mieux comprendre les origines et les espèces contribuant aux concentrations d’INP récemment mesurées.  
+Deuxièmement, j’introduis dans le modèle régional WRF-Chem de nouvelles sources d’aérosols aux hautes latitudes, que j’associe à des paramétrisations de nucléation de la glace afin de représenter la dynamique des populations d’INP en Arctique.  
+Enfin, après comparaison des INP simulés avec les observations, je les couple au schéma de microphysique sensible aux aérosols de WRF-Chem, afin d’étudier leur effet sur les nuages arctiques durant l’été, période où l’occurrence des nuages en phase mixte et les concentrations d’INP sont les plus élevées.
 
-Les résultats montrent que, dans l’Arctique central, les noyaux glaçogènes proviennent principalement des côtes russes des mers de Barents et de Laptev, ainsi que des côtes du Groenland, où des émissions de poussières sont connues. Par ailleurs, certains résultats suggèrent l’existence de sources marines biologiques pour les noyaux glaçogènes actifs à des températures supérieures à \tempc{-15}.
-L’implémentation de ces sources de hautes latitudes, associée à des paramétrisations adaptées de la nucléation de glace nuageuse, a permis une représentation réaliste des noyaux glaçogènes arctiques dans WRF-Chem.
-Lorsque les conditions de temperature pour l'activation des noyaux glaçogène a été appliquée, la fraction activée simulée a chuté de plusieurs ordres de grandeur par rapport à celle produite par les paramétrisations qui ne dépendent que de la température. Cela a eu des effets significatifs sur la microphysique des nuages, en particulier dans l’Arctique central, soulignant l’influence forte des noyaux glaçogènes et la nécessité de nouveaux schémas de microphysique intégrant la variabilité des aerosols.
+Les résultats montrent que, dans l’Arctique central, les INP proviennent principalement de sources continentales ou marines situées près des côtes russes des mers de Barents et de Laptev, ainsi que des côtes du Groenland, sources connues d'émissions de poussières minérales.  
+De plus, certains résultats suggèrent des sources biologiques issues de l’océan Arctique dépourvu de banquise pour les INP actifs à des températures supérieures à \tempc{-15}.  
+L’intégration de ces émissions de hautes latitudes, combinée aux paramétrisations adéquates de nucléation de la glace, a permis une représentation réaliste des concentrations d'INP arctiques dans WRF-Chem.  
+Lorsque la dépendance à la température est prise en compte pour l'activation, la fraction activée des INP simulés diminue de plusieurs ordres de grandeur par rapport à celle obtenue avec des paramétrisations qui ne dépendent que de la température.  
+Cela entraîne des effets significatifs sur la microphysique des nuages, en particulier dans l’Arctique central, soulignant la potentielle forte influence des INP, ainsi que la nécessité de développer des schémas de microphysique plus adaptés à la sensibilité des nuages aux aérosols.
 }
 
 \enabstract{
 \hspace*{0.5cm} 
-Ice nucleating particles (INPs) are aerosol particles capable of promoting the heterogeneous formation of ice crystals in clouds.
-In the Arctic\----where global warming occurs about four times faster than the global average\----clouds containing ice dominate the atmosphere.
+Ice nucleating particles (INPs) are aerosol particles capable of promoting the formation of ice crystals in clouds.
+In the Arctic\---where global warming occurs about four times faster than the global average\---clouds containing ice dominate the atmosphere.
 In particular, mixed-phase clouds (i.e. clouds composed of both liquid and solid phases) are common.
 When modelling the Arctic climate, errors in the representation of cloud phase partitioning strongly affect model accuracy, as cloud phase influences the radiative budget, precipitation, and cloud lifetime. 
-All these properties depend on aerosol-cloud interactions, whose representation in models remains limited by the still scarce\----although growing\----knowledge of INPs.
-Key open questions include identifying the relevant INP species in the Arctic, their sources, and their efficiency in ice nucleation\----questions that continue to hinder improvements in Arctic cloud modelling.
+All these properties depend on aerosol-cloud interactions, whose representation in models remains limited by the still scarce\---although growing\---knowledge of INPs.
+Key open questions include identifying the relevant INP species in the Arctic, their sources, their efficiency in ice nucleation, and ultimately their influence on clouds and the radiative budget\---questions that continue to hinder improvements in Arctic climate modelling.
 
-In this thesis, I address the role of INPs in Arctic aerosol-cloud interactions and their impact on cloud properties in three steps.
-First, I develop, evaluate, and apply a methodology for the identification of INP emission sources based on the Lagrangian model FLEXPART-WRF, combined with observational data.
+In this thesis, I address in three steps the role of INPs in Arctic aerosol-cloud interactions and their impact on cloud properties.
+First, I develop, evaluate, and apply a new methodology for the identification of INP emission sources, based on the Lagrangian model FLEXPART-WRF combined with observational data.
 I then use this method to shed new light on the origins and species contributing to recently measured INP concentrations.
 Second, I implement new high-latitude aerosol sources in the regional model WRF-Chem, and use them together with ice-nucleation parameterisations to represent the dynamics of INP populations in the Arctic.
-Finally, after comparing the modelled INPs with observations, I couple them to the aerosol-aware microphysics scheme of WRF-Chem in order to investigate their effect on Arctic cloud.
+Finally, after comparing the modelled INPs with observations, I couple them to the aerosol-aware microphysics scheme of WRF-Chem in order to investigate their effect on Arctic clouds during summer, when mixed-phase cloud occurence and INP concentrations are the highest.
 
-Results show that, in the central Arctic, INPs mainly originate from the Russian coasts of the Barents and Laptev Seas, as well as from the coasts of Greenland, where dust emissions are known to occur.
-In addition, some results suggest biological marine sources for INPs active at temperatures above \tempc{-15}.
+Results show that, in the central Arctic, INPs mainly originate from continental or marine sources near the Russian coasts of the Barents and Laptev Seas, as well as from coastal Greenland, where mineral dust emissions are known to occur. 
+In addition, some results suggest biological sources from the ice-free arctic ocean for INPs active at temperatures above \tempc{-15}.
 The implementation of these high-latitude emissions, together with corresponding ice-nucleation parameterisations, enabled a realistic representation of Arctic INPs in WRF-Chem.
 When temperature-dependent activation was applied, the activated fraction of modelled INPs dropped by several orders of magnitude compared to those produced by purely temperature-based parameterisations.
 This had significant impacts on cloud microphysics, especially in the central Arctic, highlighting a potentially strong influence of INPs, and the need for updated aerosol-aware microphysics schemes.
+
 %    Ice nucleating particles (INPs) are aerosols capable of helping the formation of ice crystals in clouds.
-%In the Arctic\----although global warming is four times faster there than the global average\----,%temperatures are most of the time below the congelation point, and
+%In the Arctic\---although global warming is four times faster there than the global average\---,%temperatures are most of the time below the congelation point, and
 %ice-containing clouds dominate the landscape. In particular, mixed-phase cloud (i.e. composed of both liquid and solid phases) are common. 
 %When modelling the Arctic climate, errors on the cloud phase partition have strong consequences on the model accuracy. This is due to the impact of cloud phase on the radiative budget, precipitations and cloud lifetime. 
-%All these properties are affected by aerosol-cloud interactions, and their representation in models suffers of the poor\----although growing\---- knowledge on INPs.
+%All these properties are affected by aerosol-cloud interactions, and their representation in models suffers of the poor\---although growing\--- knowledge on INPs.
 %What are the relevant particles species of Arctic INPs, where do they come from, how efficient are they in ice nucleation, are some of the main questions that prevent modelling to improve in Arctic cloud representation.
 %
 %% what I did in this thesis

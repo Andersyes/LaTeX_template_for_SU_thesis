@@ -171,6 +171,37 @@
     \end{tcolorbox}
 \end{center}
 }                                                                                                                                   
+\newcommand{\boxQAfr}[2]{%
+\stepcounter{counterboxspe}
+\noindent
+\begin{center}
+    \begin{tcolorbox}[colback=white,
+                      colframe=chapcolor,
+                      width=1\textwidth,
+                      arc=2mm, auto outer arc,
+                     ]
+        \textbf{\textsc{Résumé des Résultats} $\vert$ #1}
+        \vspace{0.2cm}
+        \addcontentsline{toc}{subsection}{Tableau de résumé des résultats principaux}
+        {\fontsize{11}{14}\selectfont #2}
+    \end{tcolorbox}
+\end{center}
+}                                                                                                                                   
+\newcommand{\boxQAfrsuite}[2]{%
+\stepcounter{counterboxspe}
+\noindent
+\begin{center}
+    \begin{tcolorbox}[colback=white,
+                      colframe=chapcolor,
+                      width=1\textwidth,
+                      arc=2mm, auto outer arc,
+                     ]
+        \textbf{\textsc{Résumé des Résultats} $\vert$ #1}
+        \vspace{0.2cm}
+        {\fontsize{11}{14}\selectfont #2}
+    \end{tcolorbox}
+\end{center}
+}                                                                                                                                   
 % Special box
 \newcommand{\boxspe}[3]{%
 \stepcounter{counterboxspe}
