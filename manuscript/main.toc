@@ -166,7 +166,7 @@
 \contentsline {paragraph}{Hardware}{183}{section*.84}%
 \contentsline {paragraph}{Scientific computing}{184}{section*.84}%
 \contentsline {paragraph}{Travel}{184}{section*.84}%
-\contentsline {paragraph}{Building energy consumption}{184}{table.caption.85}%
+\contentsline {paragraph}{Building energy consumption}{185}{table.caption.85}%
 \contentsline {paragraph}{Total}{185}{table.caption.85}%
 \contentsline {chapter}{List of Figures}{187}{section*.87}%
 \contentsline {chapter}{List of Tables}{190}{section*.88}%

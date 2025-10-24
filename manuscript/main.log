@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  11 OCT 2025 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.22)  21 OCT 2025 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2788,20 +2788,21 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ] [5
 
 ]
-Overfull \hbox (1.33975pt too wide) in paragraph at lines 87--96
+Overfull \hbox (1.33975pt too wide) in paragraph at lines 87--92
 []\T1/ntxtlf/m/n/11 Je re-mer-cie les per-son-nels de l'UFR TEB auprès de qui j
 'ai tra-vaillé lors de ma mis-sion d'enseignement :
  []
 
+[6]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
 e 108.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 11.0pt on input line 108.
- [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [7]
- [8])
+ [7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [8]
+)
 (./main.toc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -4250,18 +4251,9 @@ deleted material, e.g., by typing `I$}'.
 Package cleveref Info: loaded `english' language definitions on input line 742.
 
 [32]
-! Extra }, or forgotten $.
-l.751 ...sigma_i$ in \si{J m^{-2}}, $\Delta g_{v}}
-                                                  $ in \si{J m^{-3}} and $r_...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 Package cleveref Info: loaded `english' language definitions on input line 782.
 
-[33]
+ [33]
 <./chap1/images/hetero_nucleation.png, id=1083, 1194.864pt x 372.4314pt>
 File: ./chap1/images/hetero_nucleation.png Graphic file (type png)
 <use ./chap1/images/hetero_nucleation.png>
@@ -5575,16 +5567,10 @@ Package cleveref Info: loaded `english' language definitions on input line 74.
 
 
 ]
-! Too many }'s.
-l.9 ...l warming (\cref{sec:anthropo_disturbance}}
-                                                  ), and more precisely, adr...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 ! Missing number, treated as zero.
 <to be read again> 
                    \egroup 
-l.24 ...10} and \SI{15}{\tonne\ce{CO2}eq\per\year}
+l.23 ...10} and \SI{15}{\tonne\ce{CO2}eq\per\year}
                                                   .
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5593,17 +5579,17 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \egroup 
-l.25 ... goal of \SI{2}{\tonne\ce{CO2}eq\per\year}
+l.24 ... goal of \SI{2}{\tonne\ce{CO2}eq\per\year}
                                                   .
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-Package cleveref Info: loaded `english' language definitions on input line 32.
+Package cleveref Info: loaded `english' language definitions on input line 31.
 [175
 
 ]
-Package cleveref Info: loaded `english' language definitions on input line 65.
+Package cleveref Info: loaded `english' language definitions on input line 64.
  [176])
 Package cleveref Info: loaded `english' language definitions on input line 75.
  [177]
@@ -5681,9 +5667,24 @@ File: ./chap4/images/carbon_footprint.png Graphic file (type png)
 Package pdftex.def Info: ./chap4/images/carbon_footprint.png  used on input lin
 e 103.
 (pdftex.def)             Requested size: 230.46729pt x 212.84998pt.
-Package cleveref Info: loaded `english' language definitions on input line 118.
 
- [185 <./chap4/images/carbon_footprint.png>])
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 T
+       he footprint of my thesis is very low compared to others', even thoug...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package cleveref Info: loaded `english' language definitions on input line 114.
+
+[185 <./chap4/images/carbon_footprint.png>])
 Package cleveref Info: loaded `english' language definitions on input line 77.
  [186] (./main.lof
 Package cleveref Info: loaded `english' language definitions on input line 1.
@@ -5694,8 +5695,7 @@ Package cleveref Info: loaded `english' language definitions on input line 35.
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 64.
-
-[188])
+ [188])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -5853,11 +5853,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  67135 strings out of 475189
  1395022 string characters out of 5763838
- 2874359 words of memory out of 5000000
+ 2875359 words of memory out of 5000000
  86384 multiletter control sequences out of 15000+600000
  735107 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,18n,120p,4167b,3198s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,18n,120p,4167b,3196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
@@ -5885,7 +5885,7 @@ mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf
 ts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
 /public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/n
 ewtx/ztmri.pfb>
-Output written on main.pdf (246 pages, 82154627 bytes).
+Output written on main.pdf (246 pages, 82155112 bytes).
 PDF statistics:
  4670 PDF objects out of 5155 (max. 8388607)
  4130 compressed objects within 42 object streams
