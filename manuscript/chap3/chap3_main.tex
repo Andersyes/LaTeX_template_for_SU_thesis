@@ -33,7 +33,7 @@
 In the Arctic region, where the effects of climate warming are amplified by multiple mechanisms—including the ubiquity of low-level clouds in the ice or mixed phase (c.f. \cref{sec:arctic_clouds})\---the evolution of environments identified as potential sources of INPs could constitute a major determinant %XXLM - needs a reference
 of the Arctic climate’s response to rising temperatures.
 As exposed in \cref{chap1}, INPs play a central role in the microphysical and macrophysical properties of ice and mixed-phase clouds. This, in turn, influences the optical properties of clouds and their interactions with radiation. 
-These interactions represent one of the cornerstones of the perturbations of the Arctic climate system, because of the large cloud radiative effect (CRE) at the surface, that strongly warms the Arctic on average. The evolution of the Arctic climate is therefore indirectly, yet inextricably, linked to INPs and their sources.  However our understanding of the sources of INPs remain poor, limiting our ability to understand INP impacts on climate. Ultimately, this prevents us from fully understanding aerosol impacts on climate, one of the major remaining sources of uncertainty in the current state of climate sciences. 
+These interactions represent one of the cornerstones of the perturbations of the Arctic climate system, because of the large cloud radiative effect (CRE) at the surface, that strongly warms the Arctic on average. The evolution of the Arctic climate is therefore indirectly, yet inextricably, linked to INPs and their sources.  However our understanding of the sources of INPs remains poor, limiting our ability to understand INP impacts on climate. Ultimately, this prevents us from fully understanding aerosol impacts on climate, one of the major remaining sources of uncertainty in the current state of climate sciences. 
 %Our limited understanding of their sources is one of the reasons why the impact of aerosols on climate, and their role in its evolution, remains a major source of uncertainty in the current state of climate sciences.
 \vspace{\baselineskip}
 
@@ -114,11 +114,12 @@ This chapter aims to help address to the three scientific questions raised in \c
        In this section, we describe the models and methods we used to perform this evaluation. The results are presented in \cref{P1sec:results}.
     
     \subsubsection{WRF-Chem for simulating concentration time series}
-        \label{P1sec:WRF}
+        \label{P1sec:experiment}
 
         In order to construct series of simulated concentrations at Arctic measurement sites with known emissions sources, we use the regional {Weather Research and Forecasting model including Chemistry} (WRF-Chem).
+    \vspace{\baselineskip}
 
-        \subsubsubsection{Model set-up}
+        \textbf{Model set-up}
 
             WRF-Chem is a widely used numerical model of mesoscale meteorology and atmospheric chemistry \citep{skamarock_description_2022, grell_fully_2005}.
             The version used here is optimised for high latitudes and is presented in detail in \citet{lapere_modeling_2024} and \citet{marelle_improvements_2017}.
@@ -151,8 +152,8 @@ This chapter aims to help address to the three scientific questions raised in \c
            %     \end{tabular}
            % \end{table}
 
-        \subsubsubsection{Tracer emissions}
-            \label{P1sec:experiment}
+    \vspace{\baselineskip}
+    \textbf{Tracer emissions}
 
             WRF-Chem is used to simulate the emissions, transport, and removal of three different tracers over a duration of 24~months (September~2019 to September~2021).
             These tracers represent short-lived particles with wind-dependent emissions. Each of them represents the emissions of surface type sources categorised as follows: continental, oceanic from ice-free regions, and oceanic from sea ice regions.
@@ -182,7 +183,9 @@ This chapter aims to help address to the three scientific questions raised in \c
                 \label{P1tab:emissions_tracers}
             \end{table}
 
-            \subsubsubsection{Tracer interpolation at Arctic sites}
+            \vspace{\baselineskip}
+            \textbf{Tracer interpolation at Arctic sites}
+
             In order to mimic the application of the PSCF methods to real cases, the concentrations of each simulated tracer are interpolated daily at the coordinates of five Arctic stations: Alert (Canada), Ny-Ålesund (Svalbard), Tiksi (Russia), Utqiaġvik (Alaska), and Villum (Greenland), where Arctic aerosols, including sometimes INPs, have been routinely observed in the past
             %Series of the simulated concentrations of the three tracers can therefore be set up.
             The five stations were chosen for their distribution around the Arctic basin (\cref{P1fig:model_emissions}e). This distribution sets the conditions for assessing the spatial sensitivity of the method in this region.
@@ -222,11 +225,13 @@ This chapter aims to help address to the three scientific questions raised in \c
         Furthermore, \citet{hegarty_evaluation_2013} demonstrated FLEXPART's ability for reconstructing the dispersion of atmospheric tracers.
 
         When investigating ground emissions, it is common to introduce the footprint PES (FPES), defined as the PES of the first FLEXPART vertical level. This will be defined here as the first 100\,\unit{m} above ground level.
-        Here, we use the FLEXPART-WRF version of the model. It is a modified version of FLEXPART that is driven by meteorological fields from the WRF model (see \cref{P1sec:WRF}). The FLEXPART-WRF model was also modified by replacing several FLEXPART physical schemes by schemes consistent to WRF's \citep{brioude_lagrangian_2013}.
+        Here, we use the FLEXPART-WRF version of the model. It is a modified version of FLEXPART that is driven by meteorological fields from the WRF model (see \cref{P1sec:experiment}). The FLEXPART-WRF model was also modified by replacing several FLEXPART physical schemes by schemes consistent to WRF's \citep{brioude_lagrangian_2013}.
         As a result, the accuracy of the transport patterns simulated by FLEXPART-WRF relies on the accuracy of the initial WRF simulation, and it decreases with the duration of the backward-simulation.
         In the specific setup presented here, this is less of an issue because both the simulated observations and the back-trajectories are computed using the exact same WRF wind fields and turbulence.
 
-        \subsubsubsection{Emission configuration in FLEXPART}
+        \vspace{\baselineskip}
+        \textbf{Emission configuration in FLEXPART}
+
             The properties of the tracers in FLEXPART-WRF are characterised by five parameters (shown on \cref{P1tab:FP_params}).
             First, we define the release time of the particles. In our case, the model emits over a whole day, corresponding to the associated duration of the in situ measurement (\cref{P1sec:experiment}).
             Then, we set the release box, which is defined as a $50\times 50$\,\unit{km} wide and $10$\,\unit{m} high box, although the model is only weakly sensitive to this parameter. The trajectories are computed backward in time for 7\,d before the time of release.
@@ -822,7 +827,7 @@ Unfortunately, not all the data series meet the conditions to apply the improved
         The concentrations between the two peaks is lower but still several times higher than outside the event dates. The associated origin detection (panel C) shows mixed sources from open ocean, and sea ice areas. The lower PBAP level during this period could be explained by weaker sources, but the detection results show that is not necessarily the case.
  The associated open ocean region was associated to high Chl-$a$ concentrations (see Fig.~5 of \citet{kojoj_arctic_2024}), and at this time of the year (August, just before the annual minimum of sea ice) the pack ice could shelter high density of melt ponds and open leads, from which biological particles can be emitted \citep{dallosto_arctic_2017, hartmann_terrestrial_2021}.
  Consequently, the lowest concentrations of the ``between peaks'' period could result from less favourable transport.
-        The air masses origins associated to the period outside the events do not show a preferential source, which is expected since any area with low biological activity specific can contribute to low concentrations of PBAP..
+        The air masses origins associated to the period outside the events do not show a preferential source, which is expected since any area with low biological activity specific can contribute to low concentrations of PBAP.
 
         \begin{figure}[htb]
             \centering
