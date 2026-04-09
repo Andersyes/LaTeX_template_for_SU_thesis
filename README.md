@@ -6,7 +6,9 @@ Issu de template de Pierre Guillou https://pierre.guillou.net/psl-cover/2018/ (V
 Proposé par Arthur Chavignon, février 2022
 adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'après Alban Planchat (2023).
 
-**Adapté et complété par Anderson Da Silva (2025)**
+Adapté et complété par Anderson Da Silva (2025)
+
+## Pas de panique, il est facile à utiliser !
 
 ### Nota bene
 - Tous les paramètres sont à entrer dans `manuscript/config/`, et notamment dans le fichier `info.tex`.
@@ -24,6 +26,8 @@ Based on the template by Pierre Guillou: https://pierre.guillou.net/psl-cover/20
 Proposed by Arthur Chavignon, February 2022
 Adapted for Sorbonne Université by Antoine Ehret and Julie Carles (2025), and based on work by Alban Planchat (2023)
 Adapted and extended by Anderson Da Silva (2025)
+
+## Don't panic, it is easy to use!
 
 ### Nota bene
 - All parameters must be entered in `manuscript/config/`, in particular in the `info.tex` file.
