@@ -15,6 +15,8 @@ Adapté et complété par Anderson Da Silva (2025)
 - Le dossier `manuscript/annexes/` contient les annexes.
 - Le dossier `manuscript/others/` contient les fichiers qui ne rentre dans aucune autre catégorie.
 
+Pour importer le template dans Overleaf par exemple, il suffit de télécharger le `template_SU.zip`.
+Autrement, pour travailler en local, `git clone <adresse du repository>` est une option simple.
 
 ================================================================================
 # LaTeX Template for Sorbonne University thesis, adapted from the PSL's. 
@@ -31,3 +33,6 @@ Adapted and extended by Anderson Da Silva (2025)
 - The `manuscript/chap1/` and `manuscript/conclusion/` folders are provided in full as templates.
 - The `manuscript/annexes/` folder contains the appendices.
 - The `manuscript/others/` folder contains files that do not fit into any other category.
+
+In order to import the template in Overleaf for example, one just needs to download and import `template_SU.zip`.
+Otherwise, to work locally, one can use `git clone <adresse du repository>`.
