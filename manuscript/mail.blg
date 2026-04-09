@@ -1,5 +1,0 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'mail.blg'
-[33] biber:340> INFO - === Fri Dec 20, 2024, 17:31:47
-[48] Utils.pm:410> ERROR - Cannot find 'mail.bcf'!
-[49] Biber.pm:136> INFO - ERRORS: 1

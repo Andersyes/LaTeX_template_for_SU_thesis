@@ -115,26 +115,12 @@
 
 %%%%%%%%%%% Page normale
 \pagestyle{fancy}
-    %\renewcommand{\chaptermark}[1]{\markboth{\color{chapcolor}\thechapter.\ #1}{}}
-    %\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ \textsc{#1}}{}} % sert à personnaliser l'affichage de \leftmark (ici : le mot "Chapitre", le numéro, un point, et le titre du chapitre, sans écrire en majuscules)
-    % \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}} % sert à personnaliser l'affichage de \rightmark (ici : le numéro et le titre de la section en cours, sans écrire en majuscules)
-    % \renewcommand{\sectionmark}[1]{\markright{\uppercase\expandafter{\romannumeral\thecounterchapter{}\relax}.\arabic{section}.\ #1}} % JULIE : pour mettre en haut à droite le numéro du chapitre puis la section
     \fancyhf{} % assure que les entête et pieds de page sont vides au départ
 
     % ANDERSON : header avec chapitre page de gauche et section page de droite
     %% --------- Définition chaptermark et sectionmark pour les entêtes ---------    
     \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ \textsc{#1}}{}}
     \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
-    %\renewcommand{\sectionmark}[1]{\markright{\textit{#1}}}
-    %%(ATTENTION, commandes délicate)
-    %\renewcommand{\thechapter}{\Roman{chapter}}
-    %\fancyhead[LO]{\thesection}
-    %\fancyhead[RO]{\rightmark}
-    %\fancyhead[LE]{\textsc{Chapter}\ \thechapter}
-    %\fancyhead[RE]{\leftmark}
-
-    %\fancyhead[LE]{\textsc{Chapter}\ \thechapter}
-    %\fancyhead[RE]{\selectfont\nouppercase{\leftmark}}
     \fancyhead[LE]{\selectfont\leftmark}
     \fancyhead[RO]{\selectfont\rightmark} 
     \fancyfoot[LE,RO]{\thepage} % pied de page avec le numéro à droite et à gauche

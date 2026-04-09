@@ -1,7 +1,7 @@
 \documentclass[a4paper, 12pt, twoside, openright]{book}
 
 \renewcommand{\familydefault}{\sfdefault}
-% Template Latex pour les thèses à Paris Sciences et Lettres (PSL university)
+% Template Latex pour les thèses à Sorbonne Université (d'après celui de PSL)
 
 % Issu de template de Pierre Guillou https://pierre.guillou.net/psl-cover/2018/ (Version 1.2 (20 juillet 2019))
 % couvertures accessibles sur le site du college doctoral de PSL : https://collegedoctoral.psl.eu/doctorat-psl/espace-ressources/
@@ -13,7 +13,7 @@
 \input{config/parameters} % mise en forme globale du document
 \input{config/macro.tex} % macro Latex
 \include{others/glossaire.tex} % import du glossaire
-\input{others/info.tex} % info de la thèse (titre, auteur, jury, résumé...)
+\input{config/info.tex} % info de la thèse (titre, auteur, jury, résumé...)
 \addbibresource{../../Biblio/biblio_202512.bib} % ajout de la bibliographie
 
 
@@ -26,7 +26,6 @@
 \AddResumeAbstract % macro pour résumé et abstract
 \include{others/avantpropos}
 \include{others/remerciements}
-%\include{others/publications}
 
 % list of TODO
 %\todototoc
@@ -41,13 +40,6 @@
 
 % --- Print glossaries
 \printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
-%%{\printnoidxglossaries}\adjustmtc
-%\printglossary[type=aerosols]
-%\printglossary[type=clouds]
-%\printglossary[type=meteo]
-%\printglossary[type=chemistry]
-%\printglossary[type=models]
-%\printglossary[type=ipcc]
 
 \end{singlespace}
     
@@ -82,8 +74,6 @@
 \renewcommand{\listfigurename}{List of Figures}
 \phantomsection\listoffigures\adjustmtc % Liste des figures
 \phantomsection\listoftables\adjustmtc  % Liste des tableaux \mtcaddchapter
-% \printnoidxglossary[type=\acronymtype,title=Acronyms and Abbreviations] \adjustmtc
-%%{\printnoidxglossaries}\adjustmtc
 \end{singlespace}
 
 %\backmatter
