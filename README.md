@@ -15,7 +15,7 @@ Adapté et complété par Anderson Da Silva (2025)
 - Le dossier `manuscript/annexes/` contient les annexes.
 - Le dossier `manuscript/others/` contient les fichiers qui ne rentre dans aucune autre catégorie.
 
-Pour importer le template dans Overleaf par exemple :
+### Pour importer le template dans Overleaf :
 1. Télécharger le repository avec `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`.
 2. Zipper le template avec `zip -r template_SU.zip thesis_manuscript/`, ou à la souris avec un clique droit, puis 'compresser'.
 3. Importer le `.zip` dans un nouveau projet Overleaf.
@@ -36,7 +36,7 @@ Adapted and extended by Anderson Da Silva (2025)
 - The `manuscript/annexes/` folder contains the appendices.
 - The `manuscript/others/` folder contains files that do not fit into any other category.
 
-In order to import the template in Overleaf:
+### In order to import the template in Overleaf:
 1. Download the repository with `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`.
 2. Zip the template with `zip -r template_SU.zip thesis_manuscript/`, or with the mouse with right click, then "compress".
 3. Import the `.zip` file in a new Overleaf project.
