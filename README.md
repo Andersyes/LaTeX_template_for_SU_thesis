@@ -2,11 +2,11 @@
 [english below]
 
 Issu de template de Pierre Guillou https://pierre.guillou.net/psl-cover/2018/ (Version 1.2 (20 juillet 2019))
-couvertures accessibles sur le site du college doctoral de PSL : https://collegedoctoral.psl.eu/doctorat-psl/espace-ressources/
 
 Proposé par Arthur Chavignon, février 2022
-adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'après Alban Planchat (2023)
-*Adapté et complété par Anderson Da Silva (2025)*
+adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'après Alban Planchat (2023).
+
+**Adapté et complété par Anderson Da Silva (2025)**
 
 ### Nota bene
 - Tous les paramètres sont à entrer dans `manuscript/config/`, et notamment dans le fichier `info.tex`.
@@ -19,7 +19,7 @@ adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'ap
 ================================================================================
 # LaTeX Template for Sorbonne University thesis, adapted from the PSL's. 
 
-Based on the template by Pierre Guillou:
+Based on the template by Pierre Guillou: https://pierre.guillou.net/psl-cover/2018/ (Version 1.2 (20 juillet 2019))
 
 Proposed by Arthur Chavignon, February 2022
 Adapted for Sorbonne Université by Antoine Ehret and Julie Carles (2025), and based on work by Alban Planchat (2023)
