@@ -9,8 +9,6 @@ adapté à Sorbonne Université par Antoine Ehret et Julie Carles (2025) et d'ap
 Adapté et complété par Anderson Da Silva (2025)
 
 ## Pas de panique, il est facile à utiliser !
-
-### Nota bene
 - Tous les paramètres sont à entrer dans `manuscript/config/`, et notamment dans le fichier `info.tex`.
 - `manuscript/main.tex` est la colonne vertebrale du document. C'est là qu'on trouve les appels et les références à tous les autres fichiers.
 - Les dossiers `manuscript/chap1/` et `manuscript/conclusion/` sont laissés complets afin de servir de modèles.
@@ -28,8 +26,6 @@ Adapted for Sorbonne Université by Antoine Ehret and Julie Carles (2025), and b
 Adapted and extended by Anderson Da Silva (2025)
 
 ## Don't panic, it is easy to use!
-
-### Nota bene
 - All parameters must be entered in `manuscript/config/`, in particular in the `info.tex` file.
 - `manuscript/main.tex` is the backbone of the document. This is where all calls and references to the other files are made.
 - The `manuscript/chap1/` and `manuscript/conclusion/` folders are provided in full as templates.
