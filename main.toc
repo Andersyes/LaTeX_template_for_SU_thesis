@@ -1,0 +1,77 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Foreword}{iii}{section*.1}%
+\contentsline {chapter}{Acknowledgements \& Remerciements}{v}{section*.2}%
+\contentsline {chapter}{Table of contents}{vii}{section*.3}%
+\contentsline {chapter}{Acronyms and Abbreviations}{ix}{section*.4}%
+\contentsline {chapter}{Contributions to the scientific community}{xiii}{chapter*.5}%
+\contentsline {chapter}{Résumé long en Français}{xviii}{chapter*.6}%
+\contentsline {subsection}{Tableau de résumé des résultats principaux}{xix}{table.caption.7}%
+\contentsline {subsection}{Tableau de résumé des résultats principaux}{xx}{table.caption.8}%
+\contentsline {chapter}{\numberline {I}Introduction to Arctic aerosol and cloud physics}{1}{chapter.1}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.1}Introduction to Earth's climate, or what does the earth get from the Sun}{3}{section.1.1}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.2}The Anthropogenic disturbance}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.1}An Earth's climate outline}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.2}Evidence of Global Warming}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.3}Root causes or, of natural climate evolution timescales}{10}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.2.3.1}Drivers of climate variability}{10}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.2.3.2}The anthropogenic forcing}{11}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.2.3.3}An unprecedented rate of change}{13}{subsubsection.1.2.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.4}Expected future evolution of climate}{13}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.5}The silent collapse}{15}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.2.6}Implication for scientific research}{17}{subsection.1.2.6}%
+\contentsline {paragraph}{NB:}{17}{subsection.1.2.6}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.3}Clouds and microphysics}{25}{section.1.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.1}What are clouds}{25}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.2}Cloud role in climate}{27}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.3}Cloud formation and evolution}{29}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.1}Notions of stability}{29}{subsubsection.1.3.3.1}%
+\contentsline {paragraph}{Stable case:}{31}{equation.1.9}%
+\contentsline {paragraph}{Unstable case:}{31}{equation.1.9}%
+\contentsline {paragraph}{Neutral case:}{31}{equation.1.9}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.2}Cloud phase}{33}{subsubsection.1.3.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.3.3}Precipitations}{34}{subsubsection.1.3.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.3.4}Physics of ice nucleation}{34}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.1}The energy barrier}{35}{subsubsection.1.3.4.1}%
+\contentsline {paragraph}{Vapour to ice:}{36}{equation.1.20}%
+\contentsline {paragraph}{Liquid to ice:}{37}{equation.1.22}%
+\contentsline {paragraph}{Nota bene:}{38}{figure.caption.22}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.3.4.2}Types of heterogeneous ice nucleation}{38}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Immersion freezing:}{38}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Deposition nucleation:}{38}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Condensation freezing:}{38}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Contact freezing:}{39}{subsubsection.1.3.4.2}%
+\contentsline {subsection}{\textsc {→ Opening Questions} Box: Modelling of ice nucleation}{39}{subsubsection.1.3.4.2}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.4}Ice nucleating particles in the Arctic}{43}{section.1.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.1}The variety of aerosols effects on cloud and climate}{43}{subsection.1.4.1}%
+\contentsline {paragraph}{Semi-direct effects:}{43}{subsection.1.4.1}%
+\contentsline {paragraph}{Indirect effects:}{44}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.2}Physical requirements of INPs}{45}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.3}Natural or anthropogenic? The diversity of INPs}{46}{subsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.1}Sea salts and marine organics}{46}{subsubsection.1.4.3.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.2}Biological sources, terrestrial and marine}{46}{subsubsection.1.4.3.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.4.3.3}Mineral dust}{47}{subsubsection.1.4.3.3}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.4}Lifetime and deposition processes}{47}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.4.5}Seasonal variability and observational ability}{48}{subsection.1.4.5}%
+\contentsline {subsection}{\textsc {→ Opening Questions} Box: Ice nucleation particles}{49}{figure.caption.26}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.5}The Arctic atmosphere}{52}{section.1.5}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.1}A glimpse on Arctic climate conditions}{52}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.2}Polar amplification}{54}{subsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.1}Convergence of horizontal heat fluxes}{54}{subsubsection.1.5.2.1}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.2}Albedo feedback}{55}{subsubsection.1.5.2.2}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.3}Lapse-rate feedback}{56}{subsubsection.1.5.2.3}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.4}Planck feedback}{56}{subsubsection.1.5.2.4}%
+\contentsline {subsubsection}{\numberline {\uppercase {i{}\relax }.5.2.5}Effect of polar clouds}{57}{subsubsection.1.5.2.5}%
+\contentsline {subsection}{\numberline {\uppercase {i{}\relax }.5.3}Arctic clouds}{57}{subsection.1.5.3}%
+\contentsline {subsection}{\textsc {→ Opening Questions} Box: Arctic climate}{58}{figure.caption.31}%
+\contentsline {section}{\numberline {\uppercase {i{}\relax }.6}General intention and plan}{61}{section.1.6}%
+\contentsline {chapter}{\numberline {II}Conclusions and outlook}{65}{chapter.2}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.1}Scientific context}{67}{section.2.1}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.2}Sources of Arctic INPs}{68}{section.2.2}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.3}Ice nucleation modelling and INP emissions}{69}{section.2.3}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.4}Adapting microphysics to better INP representation}{70}{section.2.4}%
+\contentsline {section}{\numberline {\uppercase {vi{}\relax }.5}Perspective of future investigations}{71}{section.2.5}%
+\contentsline {subsection}{\textsc {→ Questions \& Answers} Box: Modelling Arctic ice nucleating particles}{75}{table.caption.34}%
+\contentsline {chapter}{C.\ \ Ma thèse en 180 secondes}{77}{section*.35}%
+\contentsline {chapter}{List of Figures}{80}{section*.36}%
+\contentsline {chapter}{List of Tables}{81}{section*.37}%
+\contentsfinish 
