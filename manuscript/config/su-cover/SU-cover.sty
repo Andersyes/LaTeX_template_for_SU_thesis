@@ -18,7 +18,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesPackage{config/psl-cover/psl-cover}
+\ProvidesPackage{config/su-cover/SU-cover}
 \RequirePackage{tabularx}
 \RequirePackage{etoolbox}
 \RequirePackage{iftex}
@@ -94,8 +94,8 @@
 \newcommand*{\@jxiname}{} \newcommand*{\@jxitt}{} \newcommand*{\@jxirole}{}
 \newcommand*{\@jxiiname}{} \newcommand*{\@jxiitt}{} \newcommand*{\@jxiirole}{}
 
-\newcommand*{\pslassetspath}[1]{\gdef\@pslassetspath{#1}}
-\newcommand*{\@pslassetspath}{.}
+\newcommand*{\suassetspath}[1]{\gdef\@suassetspath{#1}}
+\newcommand*{\@suassetspath}{.}
 
 \newcommand{\frabstract}[1]{\long\gdef\@frabstract{#1}}
 \newcommand*{\@frabstract}{}
@@ -111,19 +111,19 @@
 \newcommand{\theenkeywords}{\@enkeywords}
 
 \ifLuaTeX{}
-\newfontfamily\pslfont{newtxtext} % original was Arial
-\newenvironment{pslfontenv}{\pslfont}{\par}
+\newfontfamily\sufont{newtxtext} % original was Arial
+\newenvironment{sufontenv}{\sufont}{\par}
 \else
 \fi
 \ifXeTeX{}
-\newfontfamily\pslfont{newtxtext}
-\newenvironment{pslfontenv}{\pslfont}{\par}
-% \newenvironment{pslfontenv}{\fontfamily{phv}\selectfont}{\par}
+\newfontfamily\sufont{newtxtext}
+\newenvironment{sufontenv}{\sufont}{\par}
+% \newenvironment{sufontenv}{\fontfamily{phv}\selectfont}{\par}
 \else
 \fi
 \ifPDFTeX{} % for user of pdflatex
-\newfontfamily\pslfont{newtxtext} 
-\newenvironment{pslfontenv}{\pslfont}{\par}
+\newfontfamily\sufont{newtxtext} 
+\newenvironment{sufontenv}{\sufont}{\par}
 \else
 \fi
 
@@ -143,7 +143,7 @@
 \else
 %% Override \maketitle to directly insert cover
 \renewcommand*{\maketitle}{
-  \pslcover{}
+  \sucover{}
 }
 \fi
 
@@ -154,21 +154,21 @@
 \fi
 
 %% Whole PSL cover, front + back
-\newcommand*{\pslcover}{
-  \AfterPreamble{\pslfrontcover{}}
-  \AtEndDocument{\pslbackcover{}}
+\newcommand*{\sucover}{
+  \AfterPreamble{\sufrontcover{}}
+  \AtEndDocument{\subackcover{}}
 }
 
 %% Front PSL cover
-\newcommand*{\pslfrontcover}{
-  \begin{pslfontenv}
+\newcommand*{\sufrontcover}{
+  \begin{sufontenv}
     \thispagestyle{empty}
     \begin{tikzpicture}[overlay, remember picture,
       text centered, align=center]
 
       %% background PSL logo
       \node[on background layer]
-      at (current page.center) {\includegraphics{\@pslassetspath/cover_manuscript.pdf}};
+      at (current page.center) {\includegraphics{\@suassetspath/cover_manuscript.pdf}};
       %
 
       
@@ -277,19 +277,19 @@
           \hspace{-2mm}
           \fontsize{11}{13}\selectfont
           \begin{tabularx}{105mm}{p{72mm}p{35mm}}
-            %\psljurystylepresident{\@jiname}{\@jitt}%{\@jirole}
-            \psljurystyle{\@jiname}{\@jitt}{\@jirole}
-            \psljurystyle{\@jiiname}{\@jiitt}{\@jiirole}
-            \psljurystyle{\@jiiiname}{\@jiiitt}{\@jiiirole}
-            \psljurystyle{\@jivname}{\@jivtt}{\@jivrole}
-            \psljurystyle{\@jvname}{\@jvtt}{\@jvrole}
-            \psljurystyle{\@jviname}{\@jvitt}{\@jvirole}
-            \psljurystyle{\@jviiname}{\@jviitt}{\@jviirole}
-            \psljurystyle{\@jviiiname}{\@jviiitt}{\@jviiirole}
-            \psljurystyle{\@jixname}{\@jixtt}{\@jixrole}
-            \psljurystyle{\@jxname}{\@jxtt}{\@jxrole}
-            \psljurystyle{\@jxiname}{\@jxitt}{\@jxirole}
-            \psljurystyle{\@jxiiname}{\@jxiitt}{\@jxiirole}
+            %\sujurystylepresident{\@jiname}{\@jitt}%{\@jirole}
+            \sujurystyle{\@jiname}{\@jitt}{\@jirole}
+            \sujurystyle{\@jiiname}{\@jiitt}{\@jiirole}
+            \sujurystyle{\@jiiiname}{\@jiiitt}{\@jiiirole}
+            \sujurystyle{\@jivname}{\@jivtt}{\@jivrole}
+            \sujurystyle{\@jvname}{\@jvtt}{\@jvrole}
+            \sujurystyle{\@jviname}{\@jvitt}{\@jvirole}
+            \sujurystyle{\@jviiname}{\@jviitt}{\@jviirole}
+            \sujurystyle{\@jviiiname}{\@jviiitt}{\@jviiirole}
+            \sujurystyle{\@jixname}{\@jixtt}{\@jixrole}
+            \sujurystyle{\@jxname}{\@jxtt}{\@jxrole}
+            \sujurystyle{\@jxiname}{\@jxitt}{\@jxirole}
+            \sujurystyle{\@jxiiname}{\@jxiitt}{\@jxiirole}
           \end{tabularx}
           \vspace{0mm}
         \end{minipage}
@@ -297,7 +297,7 @@
 
       %% PSL institute logo
        \node[xshift=0mm, yshift=-226mm] at (o) {
-          \includegraphics[scale=.75]{\@pslassetspath/logos_labo}
+          \includegraphics[scale=.75]{\@suassetspath/logos_labo}
        };
 
       %% other institute logo (cotutelle)
@@ -308,7 +308,7 @@
       \fi
 
     \end{tikzpicture}
-  \end{pslfontenv}
+  \end{sufontenv}
   \clearpage
   \mbox{}
   \thispagestyle{empty}
@@ -317,11 +317,11 @@
 }
 
 %% Back PSL cover
-\newcommand*{\pslbackcover}{
+\newcommand*{\subackcover}{
   \pagestyle{empty}
   \cleardoublepage{}
   \ifodd\value{page}\hbox{}\newpage\fi
-  \begin{pslfontenv}
+  \begin{sufontenv}
     \begin{tikzpicture}[overlay, remember picture, text centered, align=center]
 
       %% node origin
@@ -329,82 +329,82 @@
 
       % background images (PSL logo and blue semi-circle)
       % \node[on background layer, xshift=73mm, yshift=-94mm] at (current page.north west)
-      % {\includegraphics[scale=.75]{\@pslassetspath/back-bg.png}};
+      % {\includegraphics[scale=.75]{\@suassetspath/back-bg.png}};
       % \node[on background layer, xshift=0mm, yshift=0mm] at (current page.south west)
-      % {\includegraphics[scale=2.2]{\@pslassetspath/Climate_Stripes.pdf}};
+      % {\includegraphics[scale=2.2]{\@suassetspath/Climate_Stripes.pdf}};
 
       \fontsize{11}{11}\selectfont
       %% english keywords
       % \node[yshift=12mm, above] (enKeywords) at (o) { % Je peux changer le nb mm  5
-      %   \pslbacknode{KEYWORDS}{\@enkeywords{}}{9}{15}
+      %   \subacknode{KEYWORDS}{\@enkeywords{}}{9}{15}
       % };
       % %% english abstract
       % \node[yshift=0mm, above] at (enKeywords.north) { % -5
-      %   \pslbacknode{ABSTRACT}{\@enabstract{}}{9}{15}
+      %   \subacknode{ABSTRACT}{\@enabstract{}}{9}{15}
       % };
       %% french abstract
       \node[yshift=-90mm, above] (frAbstract) at (o) { % 5
-        \pslbacknode{R\'{E}SUM\'{E}}{\@frabstract{}}{10}{14}
+        \subacknode{R\'{E}SUM\'{E}}{\@frabstract{}}{10}{14}
       };
       %% french keywords
       \node[yshift=-20mm, above] at (frAbstract.south) { % Je peux changer le nb mm 5
-        \pslbacknode{MOTS CL\'{E}S}{\@frkeywords{}}{10}{14}
+        \subacknode{MOTS CL\'{E}S}{\@frkeywords{}}{10}{14}
       };
       %% french keywords
       %\node[yshift=-5mm, above] (frKeywords) at (o) {
-      %  \pslbacknode{MOTS CL\'{E}S}{\@frkeywords{}}{8}{11}
+      %  \subacknode{MOTS CL\'{E}S}{\@frkeywords{}}{8}{11}
       %};
       %% french abstract
       %\node[yshift=-5mm, above] at (frKeywords.north) {
-      %  \pslbacknode{R\'{E}SUM\'{E}}{\@frabstract{}}{7}{9}
+      %  \subacknode{R\'{E}SUM\'{E}}{\@frabstract{}}{7}{9}
       %};
       %% english abstract
       %\node[yshift=-6mm, below] (enAbstract) at (o) { % old -10mm
-      %  \pslbacknode{ABSTRACT}{\@enabstract{}}{7}{9}
+      %  \subacknode{ABSTRACT}{\@enabstract{}}{7}{9}
       %};
       %% english keywords
       %\node[yshift=5mm, below] at (enAbstract.south) {
-      %  \pslbacknode{KEYWORDS}{\@enkeywords{}}{8}{11}
+      %  \subacknode{KEYWORDS}{\@enkeywords{}}{8}{11}
       %};
 
 
       
 
     \end{tikzpicture}
-  \end{pslfontenv}
+  \end{sufontenv}
 }
 
 %% Some text styling
 \newcommand{\SUbluelabel}[1]{{\color{SUblue}\fontsize{12}{15}\selectfont #1}}
-% \newcommand{\psljurystyle}[3]{
+% \newcommand{\sujurystyle}[3]{
 %   \ifdefempty{#1}{}{
 %     \fontsize{10}{12}\selectfont #1 & \\
 %     #2 & \emph{#3} \\[3mm]
 %   }
 % }
 
-\newcommand{\psljurystyle}[3]{
+\newcommand{\sujurystyle}[3]{
   \ifdefempty{#1}{}{
     \fontsize{10}{12}\selectfont #1 & \emph{#3}\\
     #2 &  \\[3mm]
   }
 }
 
-% \newcommand{\psljurystylepresident}[3]{
+% \newcommand{\sujurystylepresident}[3]{
 %   \ifdefempty{#1}{}{
 %     \fontsize{10}{12}\selectfont #1 & \emph{Président du jury}\\
 %     #2 & \emph{#3} \\[3mm]
 %   }
 % }
 
-\newcommand{\psljurystylepresident}[2]{
+\newcommand{\sujurystylepresident}[2]{
   \ifdefempty{#1}{}{
     \fontsize{10}{12}\selectfont #1 & \emph{Président du jury}\\
     #2 \\[3mm]
   }
 }
 
-\newcommand{\pslbacknode}[4]{
+\newcommand{\subacknode}[4]{
   \begin{minipage}[h]{.7\paperwidth} % 0.8
     {\color{SUblue}\fontsize{11}{14}\selectfont #1}\unskip\strut\par
     \vspace{-2.5mm}
