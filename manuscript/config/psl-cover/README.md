@@ -1,10 +1,12 @@
-Couverture LaTeX de thèse PSL
+Couverture LaTeX de thèse PSL (adaptée pour SU)
 =============================
 
 Par [Pierre Guillou](https://pierre.guillou.net)
 
 Version 1.2 (20 juillet 2019)
 
+NB : the current version plots the SU template, but the following instructions have not been updated.
+**In order to change the logo at the bottom of the cover, just modify `logos_labo.pdf` with `logos_labo.odt`**.
 ****
 
 ![Logo PSL](logo-psl.jpg)
