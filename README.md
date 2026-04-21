@@ -18,7 +18,7 @@ Adapté et complété par Anderson Da Silva (2025)
 ### Pour importer le template dans Overleaf :
 1. Télécharger le repository avec `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`.
 2. Zipper le contenu du dossier `manuscript/` avec `zip -r template_SU.zip LaTeX_template_for_SU_thesis/manuscript/*`, ou à la souris avec un clique droit sur tout le contenu du dossier, puis "compresser".
-3. Importer le `.zip` dans un nouveau projet Overleaf/PLMlatex.
+3. Importer `template_SU.zip` dans un nouveau projet Overleaf/PLMlatex.
 
 ================================================================================
 # LaTeX Template for Sorbonne University thesis, adapted from the PSL's. 
@@ -39,4 +39,4 @@ Adapted and extended by Anderson Da Silva (2025)
 ### In order to import the template in Overleaf:
 1. Download the repository with `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`.
 2. Zip the `manuscript/` folder's content with `zip -r template_SU.zip LaTeX_template_for_SU_thesis/manuscript/*`, or with the mouse with right click on the total content, then "compress".
-3. Import the `.zip` file in a new Overleaf/PLMlatex project.
+3. Import `template_SU.zip` file in a new Overleaf/PLMlatex project.
