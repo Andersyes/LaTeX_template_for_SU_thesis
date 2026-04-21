@@ -16,7 +16,7 @@ Adapté et complété par Anderson Da Silva (2025)
 - Le dossier `manuscript/others/` contient les fichiers qui ne rentre dans aucune autre catégorie.
 
 ### Pour importer le template dans Overleaf/PLMlatex :
-1. Télécharger le repository avec `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`, ou **directement le `.zip` dans le menu déroulant du bouton vert `Code`**.
+1. Télécharger le repository avec `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`, ou **directement le `.zip` dans le menu déroulant du bouton vert `Code`** (dans ce cas, passer à l'étape 3.).
 2. Zipper le contenu du template avec la commande `zip -r template_SU.zip LaTeX_template_for_SU_thesis/*`, ou à la souris avec un clique droit, puis "compresser".
 3. Importer `template_SU.zip` dans un nouveau projet Overleaf/PLMlatex.
 
@@ -37,6 +37,6 @@ Adapted and extended by Anderson Da Silva (2025)
 - The `manuscript/others/` folder contains files that do not fit into any other category.
 
 ### In order to import the template in Overleaf/PLMlatex:
-1. Download the repository with `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`, or **directly the `.zip` of the repository with the green `Code` button**.
+1. Download the repository with `git clone https://github.com/Andersyes/LaTeX_template_for_SU_thesis.git`, or **directly the `.zip` of the repository with the green `Code` button** (in this case, go directly to step 3.).
 2. Zip the template's content with `zip -r template_SU.zip LaTeX_template_for_SU_thesis/*`, or with the mouse with right click, then "compress".
 3. Import `template_SU.zip` file in a new Overleaf/PLMlatex project.
