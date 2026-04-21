@@ -11,7 +11,7 @@ Adapté et complété par Anderson Da Silva (2025)
 ## Pas de panique, il est facile à utiliser !
 - Tous les paramètres sont à entrer dans `manuscript/config/`, et notamment dans le fichier `info.tex`.
 - `manuscript/main.tex` est la colonne vertebrale du document. C'est là qu'on trouve les appels et les références à tous les autres fichiers.
-- Les dossiers `manuscript/chap1/` et `manuscript/conclusion/` sont laissés complets afin de servir de modèles.
+- Les dossiers `manuscript/chap1/` et `manuscript/conclusion/` sont laissés complets afin de servir de modèles à vos chapitres.
 - Le dossier `manuscript/annexes/` contient les annexes.
 - Le dossier `manuscript/others/` contient les fichiers qui ne rentre dans aucune autre catégorie.
 
@@ -32,7 +32,7 @@ Adapted and extended by Anderson Da Silva (2025)
 ## Don't panic, it is easy to use!
 - All parameters must be entered in `manuscript/config/`, in particular in the `info.tex` file.
 - `manuscript/main.tex` is the backbone of the document. This is where all calls and references to the other files are made.
-- The `manuscript/chap1/` and `manuscript/conclusion/` folders are provided in full as templates.
+- The `manuscript/chap1/` and `manuscript/conclusion/` folders are provided in full as templates for your chapters.
 - The `manuscript/annexes/` folder contains the appendices.
 - The `manuscript/others/` folder contains files that do not fit into any other category.
 
